@@ -25,40 +25,117 @@ def _suche(text: str) -> str | None:
 
 
 def norm_regelwerk(regelwerk: str, titel: str = "") -> str:
-    """Kurzform laut Soll-Liste; unbekannte Regelwerke bleiben (bereinigt) erhalten."""
+    """Kurzform laut Soll-Liste; unbekannte Regelwerke bleiben (bereinigt) erhalten.
+    Bei kombinierten Angaben ('DSGVO / BayDSG') zählt das erste erkannte Regelwerk."""
     return _suche(regelwerk or "") or _suche(titel or "") or " ".join((regelwerk or "").split())
 
 
-_ART = re.compile(r"(art(?:ikel)?\.?|§+|paragra(?:f|ph)|anhang|annex)\s*([0-9]+[a-z]?\b|[ivxlc]+\b)", re.I)
-_ABS = re.compile(r"abs(?:atz)?\.?\s*(\d+[a-z]?)|^\s*\((\d+[a-z]?)\)", re.I)
+def regelwerke_einzeln(regelwerk: str) -> list[tuple[str, str]]:
+    """'DSGVO / BayDSG' -> [('DSGVO', 'DSGVO'), ('BayDSG', 'BayDSG')] als (Rohname, Kurzform)."""
+    teile = [t.strip() for t in re.split(r"\s*/\s*|\s*;\s*|\s*,\s*|\s+und\s+", regelwerk or "") if t.strip()]
+    return [(t, norm_regelwerk(t)) for t in teile] or [("", "")]
+
+
+_ART = re.compile(
+    r"(art(?:ikel|t)?\.?|§§?|paragra(?:f|ph)|anhang|annex)\s*"
+    r"([0-9]+[a-z]?\b|[ivxlc]+\b)"
+    r"((?:\s*(?:,|und|sowie)\s*[0-9]+[a-z]?\b(?!\s*(?:abs|satz|sätze|buchst|nr|lit)))*)",
+    re.I)
+_ABS_START = re.compile(r"abs(?:atz|ätze)?\.?\s*|^\s*(?=\(\d)", re.I)
+_ABS_ENDE = re.compile(r"satz|sätze|buchst|lit\.|\bnr\.|nummer|;|art(?:ikel)?\.?\s*\d|§|anhang|i\.\s*v\.\s*m", re.I)
 _NR = re.compile(r"n(?:umme)?r\.?\s*(\d+)", re.I)
 
 
-def norm_fundstelle(fundstelle: str) -> tuple[str | None, str | None]:
-    """'Art.26 Abs.11' -> ('Art. 26', 'Abs. 11'); 'Anhang III Nr. 4' -> ('Anhang III', 'Nr. 4').
+def _zahlen(text: str) -> set[str]:
+    """'1, 2 und 5' -> {1,2,5}; '1–4' / '1 bis 4' -> {1,2,3,4}; '(11)' -> {11}."""
+    werte = set()
+    for von, bis in re.findall(r"(\d+[a-z]?)(?:\s*(?:–|-|bis)\s*(\d+))?", text):
+        if bis and von.isdigit():
+            werte.update(str(i) for i in range(int(von), int(bis) + 1))
+        else:
+            werte.add(von)
+    return werte
 
-    Bei Aufzählungen (§§ 164, 165 / Art. 44 ff.) zählt die erste Norm. Ohne erkennbare Norm: (None, None).
+
+def _absaetze(rest: str) -> set[str]:
+    absaetze = set()
+    for m in _ABS_START.finditer(rest):
+        stueck = rest[m.end():]
+        ende = _ABS_ENDE.search(stueck)
+        absaetze |= _zahlen(stueck[:ende.start()] if ende else stueck)
+    return absaetze
+
+
+def norm_fundstellen(fundstelle: str) -> list[tuple[str, frozenset]]:
+    """Alle Normen einer Fundstelle als (Artikel/Paragraf, Absätze).
+
+    'Art.26 Abs.11'                       -> [('Art. 26', {'11'})]
+    'Art. 6 Abs. 2 und 3; Anhang III Nr. 4' -> [('Art. 6', {'2','3'}), ('Anhang III', {'4'})]
+    '§§ 7, 11'                            -> [('§ 7', {}), ('§ 11', {})]
+    Bei Anhängen gilt 'Nr.' als Absatz. Satz/Buchst./Nr. unterhalb des Absatzes werden ignoriert.
     """
     if not fundstelle or not fundstelle.strip():
-        return None, None
-    m = _ART.search(fundstelle)
-    if not m:
-        return None, None
-    art_roh, nummer = m.group(1).lower(), m.group(2)
-    if art_roh.startswith(("anhang", "annex")):
-        norm, nummer = "Anhang", nummer.upper()
-        rest = _NR.search(fundstelle[m.end():])
-        unter = f"Nr. {rest.group(1)}" if rest else None
-    else:
+        return []
+    treffer = list(_ART.finditer(fundstelle))
+    normen = []
+    for i, m in enumerate(treffer):
+        rest = fundstelle[m.end(): treffer[i + 1].start() if i + 1 < len(treffer) else len(fundstelle)]
+        art_roh = m.group(1).lower()
+        nummern = [m.group(2)] + re.findall(r"[0-9]+[a-z]?", m.group(3) or "")
+        if art_roh.startswith(("anhang", "annex", "anlage")):
+            nr = _NR.search(rest)
+            normen.append((f"Anhang {m.group(2).upper()}", frozenset([nr.group(1)] if nr else [])))
+            continue
         norm = "§" if art_roh.startswith(("§", "paragra")) else "Art."
-        nummer = nummer.lower()
-        rest = _ABS.search(fundstelle[m.end():])
-        unter = f"Abs. {rest.group(1) or rest.group(2)}" if rest else None
-    return f"{norm} {nummer}", unter
+        absaetze = frozenset(_absaetze(rest)) if len(nummern) == 1 else frozenset()
+        normen += [(f"{norm} {n.lower()}", absaetze) for n in nummern]
+    return normen
+
+
+def norm_fundstelle(fundstelle: str) -> tuple[str | None, str | None]:
+    """Erste Norm als ('Art. 26', 'Abs. 11') – für die einfachen Einträge der Soll-Liste."""
+    normen = norm_fundstellen(fundstelle)
+    if not normen:
+        return None, None
+    art, absaetze = normen[0]
+    if not absaetze:
+        return art, None
+    praefix = "Nr." if art.startswith("Anhang") else "Abs."
+    return art, f"{praefix} {sorted(absaetze)[0]}"
+
+
+def absatz_nummer(unter: str | None) -> str | None:
+    """'Abs. 11' / 'Nr. 4' -> '11' / '4'."""
+    return unter.split()[-1] if unter else None
 
 
 def fundstelle_text(fundstelle: str) -> str:
-    art, unter = norm_fundstelle(fundstelle)
-    if art is None:
+    normen = norm_fundstellen(fundstelle)
+    if not normen:
         return " ".join((fundstelle or "").split())
-    return f"{art} {unter}" if unter else art
+    teile = []
+    for art, absaetze in normen:
+        praefix = "Nr." if art.startswith("Anhang") else "Abs."
+        nr = "/".join(sorted(absaetze, key=lambda x: (len(x), x)))
+        teile.append(f"{art} {praefix} {nr}" if absaetze else art)
+    return "; ".join(teile)
+
+
+def zerlege_fund(regelwerk: str, fundstelle: str) -> list[tuple[str, str | None, frozenset]]:
+    """Fund -> Liste (Regelwerk-Kurzform, Artikel/Paragraf, Absätze); ohne erkennbare Norm: [(rw, None, {})].
+
+    Abschnitte (getrennt durch ';') werden dem darin genannten Regelwerk zugeordnet
+    ('DSGVO Art. 9; BayDSG Art. 8'), sonst allen Regelwerken des Funds.
+    """
+    rws = regelwerke_einzeln(regelwerk)
+    ergebnis = []
+    for abschnitt in re.split(r";", fundstelle or ""):
+        normen = norm_fundstellen(abschnitt)
+        if not normen:
+            continue
+        genannt = [kurz for roh, kurz in rws if roh and roh.lower() in abschnitt.lower()]
+        if not genannt and (s := _suche(abschnitt)):
+            genannt = [s]
+        for rw in genannt or [kurz for _, kurz in rws]:
+            ergebnis += [(rw, art, abs_) for art, abs_ in normen]
+    return ergebnis or [(kurz, None, frozenset()) for _, kurz in rws]

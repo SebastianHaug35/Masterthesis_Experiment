@@ -1,0 +1,640 @@
+{
+  "id": "resp_09cb6a907ef23c54006ad7665db7d087d19c62a1f30fce9933",
+  "access_programs": null,
+  "created_at": 1792501341.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09cb6a907ef23c54006ad766637fd887d1a2508f0b4b57012e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq12as9Vr0kP19dfQq9HGBpTxF03qMois6ZmZuNoERvCkrmckLojPcLA6DwyFFseBozJSCuPXGjBqxqlrViGzOAlBDfXczmX6eCjYuV21ziCSBLshOkv4TZvfsAM1_PCGIEAcNCBMze43Czzs1XOVyjAAPCRUeuCJ13PirPvDLCnGUwJCr0iZawxF3MGTUGkAP6cGn_UeaqWGrgVUdmI3STQ6ACPcwJ5hbIO3e337mAxdOeSiCePVdKD8OPhh1TbaW1mvQBXiVQI8UgVlC81WZmWDa31uLoUb6DKnFA2hAgW0mS6IptyOQT0C_Vi7ZvncnGP5mX1vCW-u1SYczXzTEmsKTwhp7l0CmSIePA7kT5qK91WMlpxW0MfDYJqyraKbS4MHm0CHGzYqi1_vsNzDnFE4VgUCa-h50b-K-3TW8VlPWxb0786wLLmgwSzdRIEgoo5AzJxDJ0zJ4AyvyCFotGdpWiDzND4v56lwfc0OY4TeqEf0tD6BGNs7cpIU4IJveQZd8gaR3oXvDjfHPj1U1YJzu1LYf1ooguLqKi3PH0B9ExxJrrXs8Cl3N-JNo_Jj5KNDwlnkJPwS-hH5Zk4EeSPMvdg98d3GfkqO8vSEF-PnwJyzrwvo_MM4-bqjGeBVPmk45hOxoDCVgjGN6rl_QUYxqamvdX1xENvQmKRieTKPFzm5HtpV7RJE-UinHEGu_3KflCMtIM8oCXomuzrjOd4FQb5nZ-lCTy4uJJuNXRRvWqYTRHtPsoSnDS-Xi7ZnqvQIQ3gutrlNF5QoMRp__cDm5b7j9gn0cNP9EggEdrAFqQ5mjH239CHxH_WPgq49H1Rnd-DUXxrB9X54nJGD0spAjUp-QH3QRSXPvHTV5LZNsTPsuWnVnWOYVk20zQB-gOGYF18FBNY-KO-AtV0ee88ugkExOKhCxNExKb2s2OxOSdzcBwcTPqqY-jHFEO53XiCfROB63Id0jkCSfc2PJg9YlaKT31usnp37QrmW1HThBg3tVfld_ob3cPpCOmivweaSBAJt-XAcuKdlFNkVLlWjYmuCuuJaxZIYiBo8mT0V_feHKUabtGNm7Hi_LTBLAt36T_lKuJh4Hngu37JOZEVsl4CisT9249floxgOetLMEL6XWVhjn3D9gDkt-wqYGheWRa8SDAwr1snXBmcj1Ka8Bvd55l4Frt2iJbY7xBf5Bu8vL5n_wuTZakTTf4ptEEESKaMY7QyVv-mi36du78rxqBR0NNlEtggly5zuYUBh4FT4pm4m0wL8DCsIUp0H-XK5r9x1iZQQsNXi7oY7aEUwDB9rhQoCqxNa2nq6Zu1SmAZGInbC2p3CR4EkqMudSEv8-m7KP3D0y7Sq2CWqpCi640DGGPUiPpUEuOOB6-Z_YCxjI4yL1ikEh39ByJ8-CCx6ftl7Sj-eTpE2B6lDYXSzZGnPzg3EDUoQl9tDjgt3JinBf6JpeyLhWM-wd_yLQNSWaxRrwmR68Ve5zkorNdb9uJEQ7VR1x1wlEz7p5tdu4uHGITn9JVUJjzB_uyNrjKFcW4mvjUJyJcGCWz4yNzgMc2PvSpVHt1Mv3D6o5AVGU0Nd1XfjYnJCbRrAvB_wNMRw2OnO1Hu6Ah8JwYQ_KIG0Dma5zsHYdAs9oBk7gbPmUc-H6aGy2TnosLKEIqRDhmxkaDBhY7UG9289WabdWiq493IIrITsFFh-O8fkuw87HIcQd9o4xYaIdA2MmCHSCPInU7Tfq03Ze0Ha6mqknZ7IQSdKMX80P5OvlLKvcvABNgYRVPVujQ9zEYlwO9ZvyCKG9cA9CJQViQu2GBTQb9I3cvaQOQsvL_qyOqp3q0LO96jOvAH4IXtaFE6qMViWoA9NPO2eDsIx4uENUU8BFK2gtejWGDzbkKj3tTB7EXoLaGPBXRr5WZMeHy0_YGzOltNrWaac0kpDWXN4osDEAoRPQVarT9LWLNNwYIRHF3OmTZ5zo_XhO8erH2TbK26r2ZStGEw5v6hr6K7fOakS9k2xazd89aM3jqYTepZDO67TaRnmfmJ5m0I7yCrQ522i46vO0UVOyXCe9I8zqpaTYdV3qdmG_vN1sDjJZuxuY5cgq7eBxcEtDWkdiLqo9RfJhHgS7KY_oCWYz4-Ml5z6tPO2zwTGHP6yOoLKDX5Xpp56478I4lYAqDqg3Oi_no-7qUHK1spBvMtzrJznJs2zTe5iHm2o5mY1yu9otbpLYfOGv7bsXgduMWfVG7zX4WMSkc3AWI23etNIvBlvgXE28z6YXDqjSeml6N0GxgwlS2jh7_H3MqicAv0hHPDzaoOaBB5UTr9maPSHPA-GSZrp-6RtPEAJcxkUfYUdtojjT8Xydbbj6WC8X5tSRpcLpDoCqJkEypv3C-X2j_pKgmiUWe08vciuOpykL8GkZnCrtU7me-JTP0nRKKt_d0jEgzBE00rToMTBUDRH9nU6QxgeQCKuZvFFvtARVYo4yVcnA_yBh5JiG1iQvd_Fyy6a8V9F1OkqWrTPCbB1epASImD-_TZeNzaSatPnfJvzYVVgqzCY-LoOw_9yXuVwvC9F7aavJ-GujXk7NyqI1nnsrGfMqiBD6XfrPHnPOBvjomNM_wjpT3GHXq2ax-Ijlz8V2ttZ_bRNpYMJflj6Gr9h9TGbOVcDMjiySUnQujJLSd5xxNiU7aGHzPWQCHvwIl5TapMXe5jvYQjAGLZdy_5T2OAKcTP_1A5iBPQt0uzcZ5KwXORSJf3hoJPnzJVGvDqseGkIzT2bs4FAR8FMJDPswLNOz8-6-mJWlqeTNEI0elNaU8iA2JmMt9JyQyVfAP38dWx5G0zxPjWAUK9a5aeKeyAHbqPUncHXQ1xbRUxuYW0zdnDIJ3rH2qVfJ-1CZBVUls_r00lg8pZKcTZGC7ktPBi2f2FS_fHNfHHKmI-TGj4IQ8mh6dVlUPxxmFFmR7PP4GKv_7aGNXBcWwnd2kq8KzUkvMMJXxob_PC_OJ74E0d-MrR-HERe0uFVqruRp4wAGnWQute5sKOWRDXW67byekXeY_lXM86QcegFJCczYed7GOjTjOhjiXnya-1FutK2q24TVCQ66BDvlKkK4VTrRo7JDqa27MT-AV-x4jkuDiCqTRk444Amubg3ikmp5QBI3LqhpVCSV7CWxnqxKaCvOOvRfG3T9Re_u2DjG5thKrg8p1AkZEgjxfM7DhUiNm6uOAuU2HiI9ZSHzdtsk1odYTcDGon2NBMRec8gY2aZUKYGYtd-WpSV3_znX18CmB7-L55r6o_RPbz3rWqK6xfNbfISUMdSNGRpJytnwSLLb0XefTVQvRwqeWgv2Fa62b7sk4rqs8Vg081Zs1MnzkeTKsIQcvRSquwPxrccrTxY2n_BharNwT90Nz_H1UmxAcdiTATPZ2nSw",
+      "status": null
+    },
+    {
+      "id": "ws_09cb6a907ef23c54006ad76665e75087d1ac3f58f6b8e73897",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu 32016R0679 Artikel 22 menschliches Eingreifen",
+          "site:eur-lex.europa.eu 32024R1689 Artikel 14 menschliche Aufsicht Artikel 26",
+          "site:gesetze-im-internet.de agg § 7 § 11",
+          "site:gesetze-im-internet.de sgb_9_2018 § 165 öffentlicher Arbeitgeber Einladung"
+        ],
+        "query": "site:eur-lex.europa.eu 32016R0679 Artikel 22 menschliches Eingreifen",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__165.html"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A02024R1689-20240712"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=celex%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/En/ALL/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/SGB_IX.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.html"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?qid=1788297533580&uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__7.html"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu/pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?qid=1754526204438&uri=CELEX%3A02024R1689-20240712"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A02024R1689-20260727"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN/TXT/?from=de&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_7/__165.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09cb6a907ef23c54006ad76672b72087d1b155a7b18c1a9311",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq12asnxO7RBn5emprWRLfwt56MSQx3tH5w4H7tJp0QxEA7Tj0y0FjYTNzGwlFrj43dnV0fQLg1mUWOojRZHMLcMLlC_NTEgUANaMdxroyHtWDvcZ46eiCZJtLCpriGKVkdrSXekVzyd8m7_9Zl8wNNkB8wxACBxW3uFf9KOmvpTETihmi6v6zLFkaUfMjjyvZxiEzOtvAowrvEzsHl6hhrhFogfKm-K8uqc77vZPyuoWjeEmMdWub7FAjtR5QggwkXM80mVoZexP2EcMUhcQC555YzRXKTvhFkMVljy_A8nScHjNxaDRFfEt6GUDQB9apCjEtLJ4FULnuAIaP8VypRWGK81hWD2nlp4zDogbIYn2-Gj89V-3lEyNy3ZeUEkuWr-c43AomgOffKY1pAmFhOnDfwSKhEfMlscDCjS5Uj-LJwOJGTgAsRuAsCkKEU2x8JmelEhorUbmF2Vd-KT6Tiz-MsOF1QDnWHHhUjf6AhmP2oDwFievfnCbVzYDvjE_TTtFOtWugLZU9pHBV4rKGbvEbOtMgE95XNKi6o3_33G9vnj_bNSC1wel-MqtjXNHGsySWKRIPDJ_fPIYCn_rf8y_dCX7kkuQ0fT7vlIKPTTKzhOb_u4e5pSCryHAHTXDbtQXYrJD0x61gr8DvlnJCNZNAKOqqifG3MPZJod-sdy1Vo2U_5VPFPDLoDNO2oinoSFLQKgQEMbLkBrUgcN-MLHytka_k5v6u1JmpjUkoBgu9BQrV5_B2agx6OZb_Tdgryhb1Dw3TqV8Hiov57yE9PktswLXcUMxi3Gy0K9kn_e9hkl-Qz1fO3W7xRYTNKOx0kN3P4QKoG9P3KHTVZswTo561UpiY7xsBpajU0v2mDPaAhf0gBJOAFBhVDVwxbKzzSxgzd6QwUMz7AUluK9XJvVU4R-j0y5Gyq1ocGDg3Xd1iddVgFx4G05nO0hSHnitnIxGMkzHnes1C5whMnAjzt3jZAyvz1DLhEcwzg1V-Dd7g3g_6ICjn_fypE7MkNKWvVgFiNHf1vCv_SHfdSqXUZOSkJiYGtub4oPSScDYZLXnZhF1S9E5fmeTCFA3TAQahTHcUrIag_WW-Kp8rMinspBfNWykYKrYSjyadSxD0HCWpfFZHL0pfFz9roKEZJx0whLTBmTBFfMzcA9PCmq8EXKuwdSJ7dPygGz3JQovp9A-PioqiTFWW28w_fPmsEl8EpMrluBmbDqsSTjxOV6Nni-ug_FbFEClA5YhPPmZ8sT_0yZWlPyGSx7v02f-_WK3wIgSur6ZoqrtdH1Ur26GfSVh1ebPjdavezKsRbPylmrypSH6emWsdzoLRZ6zICVrjAZANLafjiSYOFDuLZl0XQyHRIGe3a3y4858PgVVFCjs2oitVoFPZYWJXRpd3tz2Hxu3fmgmziSmbkrgey-kX0TqJ1nHGIrdIBuOu4VFuOlZZFEj8wNVP5e5aq5kSKdvalRD8H6Uj7KE0NjuVN-hMj9HAeIE-kEcdXNHs0S847NlMd0ZS848jy2djoSaZFe9Fa0enrLZhgOaRkA_VGEDSzPVMid5l2FD6LvUfcJMWmyzS8gzE6iucM8l6BCKZ_STDNfVoM2Xfy9HwDsykQ7IprZUKjUg_G4xxjt22OI1JcvDKo9XfQ8oLdLLCDAKApBK3-vXtumtRHunQJ0MfNTNKFfrWyn8zquUVELhjwDwxz6_qo1b2D2an2bTFChkBX11JfGRNyED1cxxPWRWfWi1flv6qVPKmYuvyr9KgQFOUe4OjfhUk3oNAzUzin9Cn3Mp3MHdDIwNh-V22XxlgFAWkxcADoybOiXTllz1W-94tUImqKekYi6DIIw4QUOebVKlmlIF6430x0xngImLc_rsGVz1l77GfnWIDxdiY6Q8pPhXT8PcmeSpBvwadL36n0wCdzJqJfuX6tiCZlpq0-b1275U5h7xwOUqsOZ9VC_h3Za-3eWacBjeS6BvM27wyLtXnSigXIGrfHd4ecJ8Z9bq8oviaZK9mdFe4SO59qonnfP8MN0wtQ5be4TiTFawIbeQz41A4lBNCvTeadL_e_6sXRxwLrhZpMe7d99HBjV5FdpmGMEmd_86wbxWpxKvigHD7DQxwHj6ffSlWZ2A4pILaiE2EjhKhnqQoELzRMQOJuXlVppO7GRbwpom3J6_O30KrVRJWb1fAUR7XzWEotZCbldU6aGJh_ZcZuHl6TlVyspUq1lrH9oWoJbKyLQFszPJ1d50B6Svd5dJJVDqRDKxMxVTKFYW8uY7c4K-YXwho_rmnHRGnEo38frcSxI2KWpxeLcnjuJ2l8jMIOdrAJObjROmZNUrxSLYD0s-ApYXXqvnafEl7e_S1EQFv3gRUOS8Em4HxA5y0SIJ1Ba9isLL0IHJdDtU96mQF9xMzTOiBDNhR6qGtO2Bq_nswGkJKIHP2vMHU4NYVXx9U4T3skB2ODWRVZqWKrpeNYZz6hkHWLo-Lta2NdPJZnnJro2_TJKnO7ZU5SCTQiUhYRXoRGYClCjv1gJlBJjmngamA253n6QqdXCasZ9Wo3_BBLGWKkdT8U-7CqPXXJNArlzQFOEjsUoRB_eacpzmUe_0obWg91e8q1V2n91JVkZO5oW5gB0ZIqcT4NgjE0Rc-e6m1OjB4g_VWGDdzR_dsCiisebgaYdamsVY-vSmclhMGxsX695Qo-IVID3FN3uavZvdrrZAMJhiX_dRBR6vubXhtjWSZ2IW7jHV-w8QhWih-_w_AU0fy2T0BNSiCK5M_4wX_BEa0ZSQqAvfn-wZyccHByKIZjgUfPxFQh9qKMl5pfeRypjZU4g83f6XGYJiG67O3iW2Wx2GGaUZJq_c3P6Egco6X8Sq9JC5gWYtKmzTUpKeDEnSWF6DCR7a-7Zg9EPA0W_gvnpn7Dg6OoPjyxw9-yU9yQTe9I74oV2BYLfUEXDo0rLIFp1HrdccvdRkywqMpFYkCGcHMq5SMTNmJoQoGUtpUtsEkgbCJ47eMmgOPBA7y_90KTFnRdCP09U-ap517Ou2EhwbW0i9TIVumO5SR2Sdg1gBui0Kl6RyZGOso23Yrq3KWVgL_RB5fEDTI3wVZNJopIRcsFeF0DVGtR5O18jz6UNYET6LL2JYSLGb2uja7DdbyRUY3ezERfLwJ6MntdNBx0ZXZLNpszHKiFlNSwyMaNw6Wsds5orrXyzUk3-MWKjJkYcU5ypn-xo1NMUXO0m7XC5jC0s5Nc765Pw456xC5hWTDzdGXE6_E8T9FyjqWlKt9kjDwtZ18ikVMiTK2kSaQ6noHYi4kh6TlcUP6xj1uhqd3ypI5M4zjyCvG2BUh84M587bybvMR_MoL9v5EV54uJgdOhOdECqlYM_MyEo89bKLZCvBxHBobcas310F_8F8JiIagRJ288afkfs7djbYV88Lubtw6iAk8rZKLfDURnpxF2FI2xP7IVprWjDXIUbFbZb5ZlAAuFJOK0usAGY58BA-0uJDqviUIw9JuXIIQp9NczA9EJRuEWbZjoy5kzWQ5T6nqzYyYt-S6DR8Hm2ACvONnKQrOwW_KcnZGm1ayOm27HMq2UZb4phooHKBXqEt2zSPsj86qP7b3Bwfl8t1-pWgBbq07riXqF9JCcHp5xMTbWXJS22Eqzr70tgZ-z27Mqv1KII1DcQoqBe4stuPCvqBCt7g0MknVfQYXbypg5RIcXCsk_sUibObxISkXJR4UnyM8AkPTw1OFjLo2m6dwU03KlFHKD2aFOnVbO06olrk3gbR-TVtRxtOm8NJz51bK_8Lwotz3apIGhMGVX0CO4YwjNCj_awaqTw3uBdIBDrqRUupklg2ceubmXVQtJgrkDp58KOcZw9RssNibQDGIive9nsgHOh78gfQ-0ueWqjrE7ymu0DZ4eg_7ciM9ZyeGb2xhmfzuDQpzy1cxAQXsxzhKTuQWbalwWwwNkhHW7ZaVGA-dRVMstDEzqZIMSL_932nErrTmiOe9lzECd1vnPkl58tNO4RoPuLrGwZCG3dUHOOuBVZUTTZSaPW-uLMK2uMupiq7rwaxkW5ow9zLOzYHBruscHCcMeRxQRZTlkJrUbgwQEsxAQoeZYaawBotb2yxpj3uU6sJ13lRH8ULI51DvunpkOA4quz_a00hD9MXEZoeuw9MquwvtWvxUVGUSvgNt6cygoi-0FTO1wAcHMRaIUmoCxs1WeKyOVosqi3trAql76yPWzfof0ZzRThLIeAYrYO4dxw47GvqLJt9MCpneU0zF_qhvKnMf8IOlLZC3O67qKHwwzlauW6q4YZCOKnqE-dcM0bOEuhjqsyjygqCUr3fXVDmc2nniEZu9f5oUk2gbhIUfL2K3QHlE4HuiCd2AhXzKQoHTr5PwbIbibKA4e9gD9hQhuFE3Q2zq1Um7ab-3j6jAwxTbhSWGRGJ744FQsNnRp-Pbl-7kK65t2PpmYwDVeTvte9oI9F34Ht-zz3-bmAx2nP9O7Ypyvd0D52uLOsTrLgAelywSOrepOyACN2whbxfdT0vANey1axcu-WMKGEAaYEDskNROIAvus67qQ8gRwotL2TyRzotRlXVT8zc72JJ7uPUazlPt8_ssmKL70eY1TDBbJoY7cb1_PtnU4ZPNjoAIWLLGwxNrTXHAjgM9TpSzeTOakHND-lsjbXOSKQfA8O9-AJabqjncaE9a2PVhYjpA6ERi24ynuPCFkTAXhSBoDFQWO2dWBqKRvpt2i_SgOMvvjhDslPpW_TzIK2daECDn5LvhSUQ84qEP0g73571LEfMtLoiHSCHEFrrwv2czDQ0Ba157OSMMz4OkIDpCU29lFeDrZmCyUBv0XVa2AOmNybUzRJY8nKSYZ2LoUUb810a_KGDHcF_Ggvp2XxDj2xRzyCKMTsXrF0C0h6B1mcaCERdZfgSAvPaEM40pSdlp6_W7DQpwbODcVrhc4HLiKsC0SIIwrg4vqeh2it_kTIXbAR1_qnpeBraXezYgwIDmxCoigdhNkFRukeEkMhARLkUwQ9p-ExfkbKxa2xTU9DpDVa65nBUzTO-eznjPQLD0aXRiyWfLutgCE9FrP7BAq_moG-QMD49BQ5SwQznQ0aXlhjLWEHgJkyFiPRKfKKkw0ydoAuLc_pjJusOxEdTjdtI83RS_zMwNrAV3zl8VIUo0v2afPG-LrCq03YuAq15dluWoLtsbUya0VxDBzUeJuK55MKyjx_PsF3XS5Ahc00kX0UdxSsdz_xFtSU4dAdlWKI70DX1fZu2rotgxvEHbvqj_OfkS0xe4W7MtGLbc3G-zeMscTgnbv1-g25RlTYV-DzrZPo7nwoW9j_IEL7uLo_o_cMNXb1pJUTrHE9SHh7B06isNCWwKrhVgxwoTOkrdzVrLBZt_5fnBJT_Ad1D0-ViARbqj_Ewqce0-M4C1Qm2AcZC2SY7MzMxlC-fqZOu2enty3e8rz9G984_M9uDl0ATIyWl4IK5y5PyWKm4TxCTrqQZFHOapVgmar2CGbUHHPGMqIPrMfa4mpNj4rp6fdjOTpiyR9PWfj33GN8hurwcNe-VHk0YNV-NHk4yp3nkjhxgKqfLt9kgLzhkxjzrCGiYaYx5CDzzkzSpsAkxE3OAOwzXGokETGF4p0drNvcmcpjRZ1J78jOqkfaZxMsIemMaf5wMEFQwip1zsER8p1o40g_MvtJ7YPbPAlVbkXGm_05HEKjtTf_6oZnV3wB1gOObJz_DVpHftg40sQRR4LD3xaGc45YCkFIRpxaaLnSZ0M6LY--q4vAUu28O6EFxJWmBzjxPZLiao8GxkClrXY-ocE-FJbPDN7HpTtvC5ZLj2iFRyJN3YHXy-ueqWOg06z4GojLNl6lCTIeo2DUCgyZ-i2I8MRcKb1ahVW7BIXum6zvvYkmoQ3yLR1ypFeuyMkjtK3c6XdWAgcL4XzOlaqjG82Fn2ABVDsObYIYSKqQ7saAclMPKiN1nJ9SkGmC48nOcf1Ncvf4mJ7ySA0dGN5ahHNHIs3hftg0H9aJ2oOi7nO7dVClDa3Yne89IDkftbjPYTAMcRJv6zGDYEipnp0LgvovPj6y5dIkw8wuzo416I7cNNICDbzkkCLf2KrxpVWsVGITiKZoLH45NTx2QJz20DHUfR6oie8W72wix2qkDvZzxSfItgogfN4nUkb-zebeeq4yOWKX5u2SVvj6HbDQqhYbYzQOnTy1F9VL0ahRfUMTBcBuF5k4rZfw0D_M3R-n4N76jADS2-N2k9g3w-NtjoWGBjgGpVw6Vszcgz9Ybd0i2wZlrZypWCvCgF6iSgZLHYdtuDa5K_Mk5Abbu0JZuex5inRmDRZWpnBLXrec4UVd_ZfjVmNao4UmaMsMkSgoyZ9Ncr9flIhtwsRGfJbc0A2MDsXiv814LM3an2C8vOFbwgSrEkkRrt8DWAIPBKQ6iVwFmGg3E2Fpj5nDoydrCy-UTibrkdjWF8Cn7NnCNMi4Djidfz14AXLUnsUPEVhhSFH4rFt0PyUaAwi19rkP5HNvwl8wujoD6nBc_pVZNy0DSa6XFoz9HIup1qsarXgY_MMQBxuzQJWLS9eTYlSjJWcQDp3aH5xrpYXrU49NBslehGgfn4VLIOWxmz3-CE_agEnFS4Va3cCBOOnF2IQpPqKQeSCCS7N5gHNRNhziRBbQVsJjsvltdiSWJiE4dczwr4xZ7LFPnBC0bDTf_GgiWunsvezRTpyvAxq6EnOLLpvciR1Vm1S3bnV4vyXnEj-gQFuHPWyEoEQ1nK9_uBSkxWFSKy36mLtwfcJp3_nO_pzlrZldg1F5xmEo6PfX0gtuKw0JgiYvH35xWFdCEs363shcxivPVY4a5nADQw8V9BeC4Z1J8I5QN62kWZZO4bWlvTYeBdW9MQceQ4ExnSlivA-axwQPu3QhZRubdGyIkWxXlOmFzh7kKCKqqEwZ9PRgM85ISe3vd-GH54A-Xwa_3c_2ONEXvPxEeDow-R7qsCNW0Bs3I3i_Ufy7IcQLIZg1cjsbqdScF4JDz6b0MfQb_uMLVjeb4jy0bdXzz9FJ2NRZSf_KEuACOEA3CxCnAoWAYH8pDWMkx1jbQ2gyyDV_cZeMGnwgOWVUAilQ1_z_PYjdE-Jn9R6v-qseM4XF07N57hLZ0AnuvUUr2jUHbG1s42H_ZgmEjpSIv3ZXid-JJ7TSXDmrKIWi5iCJW88kIFGZuIsU5uSEpYXixa7NiuMr7dGHvZjn5oi59CXTWM6o_PGxDk1a9MQD5ofw1sGkh7IKKnI4SxQpr640UfD-SLDD8LC1LM-ztFpPciDbBmSiEvboqvRy2409JIebK9DYUMV1BX9RYZXjqXzmXlJiKJeO7SooAJps7qU7CnUZvI3KvvfJ2rqcXBk7F5lNKfdI-eaPZPSgdH0NMBggmbejUX1yqTlSduZPpkgIdoMLtCFz8i4CYAod8M8ghoBZROk6aH7k_NuIOcuVX6ROfW-ljP0nWxe_ZkA7_IvsQvEJf7Tx_vLSy2nq94C_hwjS-y-hwszCRriWlgS-W8P8HUHmoA88NuTKwayeMdg1S-9T32W3NBi-b0anfhC6LXDBM24e9xCHhKUjF7pk-VRb38_RMpLaIKi4EbIaCv7P4V5O1lwvUgpflb8r9hqdNUb_dHZzIwXDZa_o1aX56-blJ6GETjZ035uDB4H0UTHkTUuSDsF9QJiDiGR3WOx7ZJx3kxDDPpifS8OyjslAIeSdtBQxnqMGv2PPR24eA7MkDFv2_eEMlr6dNCWuG6cqnb3ZRMgVba2JKCg-dV-OE_ADBdR485ueSg6XV1qVZNum5lMjPC7VD3W7sJ34jdHkO82d-MjDE0tP_oVBRkqqZDlPMD-OFXjH06hU3CYMQWZ78ZS90p2GTy6FDD4M6xORSJN_ps",
+      "status": null
+    },
+    {
+      "id": "rs_09cb6a907ef23c54006ad766799f8487d1aa008cabf1059d6b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq12assq_xE4LYlaBGnxorXPr5FHBThKmsmz33BKIbwxkzRNoEouuYHqIlsmyj_aEMA_1QinoYYFVHlPlcitcW2-DsGDNHLEjOvo_tu8n7fEkfJDhkPxSlBqlsC_4OhW9DZx409ZPMiXgUIkNUvty87SnvwF1rgFFDVKyUzHQ17i2D5qFrRbNkeC5aMzFCoCzhDYdgCon99qJ8K-ug8wlmuaZ3zjoEBD6WwszmYUViEEee2hY-1Jl8e3ovANe_yLONP4RRHkoduz4M84GwymwrO3IZI_1_cIacF4lDNqLGLuXUHgl8zHSIsi-GDAR6-xyyRQ7QinxnsXyG1INJJRzd71A0pkpcOoLacDvmf5xMnjsYLXkdFilvMSZGbZZg9rVBnhVv1oos1DoE3sHKB-LvxUXUo4bD46U3VcmTUz-GNkjQ04Uy8aMph1r5_kp8kXTBc-np0FbD1os-GjkTz0AxX7GmgL7dp5Dz7vNTzACZc0q1Gq0YnBT6ULUa_QwLDGjOZR9cKuQwQ7fiuli8jCcxfU2IiEtArm4K2WTGnTANiOOcOzZL2cQjhDHk1UC7VKIDoGATcTOeCK_ii4e0rdadgCuVMDYhnREVZm7jHVXoHg4iCs4xNJqmzZwlYGx90DkhUSelszgDndOZ-sRiAvfJnFkNs9_uXlNgR8XFUfQHYnGBEouSAVlTHrYxt-F_kmC0tzyeEL0M029P6qrYbpWxcSDuvICX64rYBqeqUgn3ozmc9eTpCBxbwNYcfwWU5IkNzqbC7Qs-fqILc_weTRmQ_cGQTM5V_nKbSUJmZ9pjqxi4Wr8zQDjdPIMas_Lu6lUKu8Fr4T6241T2tp3hOeotRzcZkWKMqmVAUL2Xd0LpypRSyZWcMIvClcfxnssycYa4bLDgJH1xD2405BLlRIHqA5PJx1c-MSzYjwNOLi9wHn1t7FOtvUXO_i2zoTPKJXkWD4LL0yy9v0bmFxWIKO9e4PU5gT1s16YXffkaFCFIOCja1CpsDz0RLW13sATfp99DxtLyh8nzjWcAIPjm0Q_W0oyDE4UTtG2E8s64lw4aHFV2Oj_SUDLhGj-C6A3rqZ8Kl7swK017SvlB8oaW3ucmuvaK9Y5B3n-rdEoNYJkUWRmkHJBde3SC-gBMOYNg-_NfETeoYEtG72n4M7pTpvDHFpURtEUWVav_aJa-n27WMfvaLvLO7ZKTEapl7UXbXywFUfWSgJrng52fov6zLr-qn6025OhgzpB3S3urkAAHXsz6disNhzaUieLcRGKlF9UIB9Izxb-rwnQhACGhjaLdgoOohFD6XGbMuTthlppf7hkIj3XDhokVLgPqoTEcHf9M-EwazcdtaOU-iqiy_zsLIU_QKRcbbGcHsVzvQIGcDuVsQk1Iia-JLTb1OhKIgGgMWL75i-0IYU9mqHk_eCu1q-9dsslxMJHSxsiJbLRgyPKYeHicXX55TaNCU4Mr6Cl-NNymHf9EIvingdJXB6say_FFczl60Pa-rXf_ZTTf7ixc3lC3C2MYrRkv3SAPgbL8lENUrdRxkrkO-zNHdZvBLHH3kSh6D53jg1VYiQfQR0l2FhfzWt6ulsAY0YZAF0W7_I4vq88kemX2tR55qlvrhCszAfjkK-r4a9PWhNUp9waKaAcCxTlOWXhayb501IGgLTZoY4QRjgFK_UOakE0wnbBIFDP-YxW3TUwjN1eSjoeJMYGygq6lnocNykyc9FDRt1XFzwLTzn__9wt7DNWq-nuSqrbSxmTUNjvvR7cdj8A0DH4Qv1hcRtkTrXU8VIUw8BfToG5golvR9do9ed-NRRFh9W040MKogTzlaI5-HCHqDF1J3J8NKJAmECYsx4SefRPWTgxfqKfQ9AGI6D4xhzSQGw==",
+      "status": null
+    },
+    {
+      "id": "ws_09cb6a907ef23c54006ad7667a112087d1a7273e06c967219d",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 4\" \"KI-Kompetenz\" \"2024/1689\"",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 27\" \"Grundrechte-Folgenabschätzung\" \"2024/1689\"",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 35\" \"Datenschutz-Folgenabschätzung\" \"2016/679\"",
+          "site:gesetze-bayern.de/Content/Document/BayPVG \"§ 70\" technische"
+        ],
+        "query": "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 4\" \"KI-Kompetenz\" \"2024/1689\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayAVSG-70"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/GVGA-70"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2024-07-12/deu"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayAVPfleWoqG-70"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPAG-70"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?amp%3Bfrom=DE%3B&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CONSIL%3APE_30_2026_REV_1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BaySvVollzG-70"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=COM%3A2025%3A836%3AFIN"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayEUG-70"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ%3AC_202604045"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?from=EN&qid=1527147390147&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPAG-G5_1"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN/TXT/?from=de&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-G4_2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/GVGA-G3_2_2_2_1_1"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CONSIL%3AST_15708_2025_INIT"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09cb6a907ef23c54006ad76680c99087d1a4e9c3de6543fd34",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq12asyaWff12oncmiw6S_wgz8chpZJpb8i_bisQCRbyBG-tm2LntdF75zBxgvbqoMmrsxbWmqrd-Jqe8D2U7XFLlXT01fbsXPvNm5TWrwnwlzX86eKhUQh3W0zsHe-ydjYR-WekljvxRPT3Lo-ReLhzKU0TIcsgNkxeMvdXWwMmMYP4P22ulyOIflMtGdfIX6ay9ri4I0tIRfozNr2zITKD3tK21PZEXbOwT3afpS98DFWP2pRs5RoeNacNR9PIhqSjkbrALp3uiqwLgUOad4JQPL28IFTmXCv15_fNETNgpuBlt_Y7Jxup_vHcFf6g0vWkozcazDJWJa_0OfY2_fHLameAakbLQqXLMfByeejdF4XMsGrG8NNTFGWIPr9WmDeihyk-tSt6k85bzRThqif_IBV5EQRyzLn7WxTlf3nMznsoE_vCU6Y_Sf0sozIIKmApA2yMp1F-4_YcX4bv7WPurw0izdfO-7FeQXrPnLyzoRIgpX3Gan4MTu1Mem8VAIk4h6_zIE89gzZB0bh3MHiPjmTm3AOtj1vpQQd0eQkKB3Sd1PWO7P4oUkrI9ene1V1HgSkRQbgseg6QziX8g8c2VBbXUnkf2KhM1S84wyGIRklESXDVgh363WYsj1SZF8ucs9eNhPtcx_MPzGfO0DltbLPyi0rsIZ5ImmAR7NGF6Co-zMsHSAZfQAezmwZ2Vv_DPsvMWywYF8JdNq0mnfaiSkd5E8quEi4Qi4PllA9POsJxDAPeGpvqiG1VetqTm69yoQ1ANQFx-dQpik7RqqFpO-OcWrI_Q_ggomHysnhR1TW_FV4tckGHrdgEbgM2w6vUe9VUlZRhO5SvnfO4zJ1nQisvdGgGMvLYgXAxH7qLVbpEr8tK5UdKEaVz16gpOcRc_JtGwagAvKH_6j17ewCWM2H5ksF_C7SV5Z56tKnu6vXL2dcxFbvlQsTsWa1caTRLFLUHYBiUWUpr3DqZ-ht8LbNQWFll-uYM4f8bTuTtMLwLL4dKFOBHDcqZZPEJs2lzq2C2UoCnFxem1e2aZnKnTglihMSazPIyJoypgbSXGYeqcSRYka0QyjSK4ALr8ZsWVd-Iimz6JFQ9O9L4MuAwe8u3lOvCzjcjryJTrORvvQNii5DnaSMkZmyIIy4frLvDXFQGothPb3tLdeIpzND7Y59CneE_elOISCDv3fEmGGtu1qHLn-p3rn2ft04UwUDEI8HsnxXzJ9JvBd11s7Hd7NCjxMcN0CCVXccbBfKxriosuZNh1Rk83bJfdkvMYLYQuBpDpst9sohqxdGRVefdWau89o0qza8ZeS8q38uqT4yMKx2xPcXZg6IcVF83QRnQrLItfD2JlhAkRtBl4e2GHCOLfKg4swnD44laMclfEyGS07e_EBxiMzJ9OGSEr5TMFCCMSIdzjq2P-PsYpCE932t9ig1M7xnjKY1kLMzO2fsE7-jeEcey8yolq591hDzeu98FMvul4uWWsWCIiJQtXeOBi2hOKSbaRlkDoxFxV6lR1Rkf352lQAGbQUQcGMCfDCyUBJ_5F1kn8Pran3SsaclYDgCuk4NBFmxMmzsVKkrVjuQu7hedzN1B028Yfaam2y8l2OBhN_nMOaM2JA3AHd7VsUzB8pLZgnhTcFKGaUM8K9A-DXgVuUr7uJc5PU5pR55rcoBdhDGZ5I65g5UCSK32exN4-RW2MKS5VUVa9iT4YekYgO4LOcTWxTKHam4v1ZDISghu2LAdQIzDEDN-pZPDITGOhCBDmmqmVdQ7mcvNTPtYutDeIQEx2TpmOP0YM-bjPi-GO5gOPfOW-H1CDrDznBX6a2Gy3PuxoGRFvLIimBduNaYGYt3zquzysMGwmuqEe5aA6_lvr7NaH8PyfGWiqyX-4oE1rpC0c-U038C9HcTS6EPChdd1Rar-81DZSbkyhYEVyIbBG7OEbjnELt9CfGkpC19elZvIb2wCRymOMuY9sqTo8RC_ZuwjbbawN037LY6cqRMBLeVYdLtH35avmXlmzmaV5Ku0zxxuKtjCtO4uZTJaXXSHwdV0-rr9BSgl4OQ_ozTm2ia6HYhaLBKsA7sefHQ_UxHWT9GHw9dfMS535lQsOFEO_b2q78MRiCKBU2F7ePrvQOh-rVrGwkT7dPQHmH9Ozd5r1JO0-WJ29SiVTXiJ7DfFFpRJAEYnUesNBkLeYXBtIx_MiftGJlaPSOgwSPktfHMCTF2NhU8tlg57uftR_Ny6NAcEw2BKJFLzgMw1B_3qHSXO4i1-T01lYIw-WFJ0V9T_s4yJmY1Pmf-lgJ3Dio4MSsqHUcO_rhJ8ERC1k5opnZyuLLYTQm7UtMYPzLP4e6lBiDqkTbTHQxbo6xw6m7ji6lkN4A1WWOtxKjehVaTNczzxLBWaKqaDpoKpemG5uFUX78dERL_n0P24RXfFHwYQPyA7or8kNo4hdS0dImwRaBvitgub9V4LhOuzvKVOXoDjnWoCxOthjJUW-N1UOBkn7-CK-XiIifp9XIvbsLbVbxoFJxbTOdUuQsM7_eixKCiTJS6gSmzc1j5JYrggET82o9Zolhd7ZSJlaNBFgO04qlkuMob3KMY6S6pXnhe3Pddc5PvnrmPHHnbbDHrNm3nw-Ub0vQeyrS-CABkpWEikT7k6mlUlLSDHLELlRWv_jPmG9QBsl3XB5VwF5TZbRvU9TCuiZtk2cjswoL3ZsNeFqGWT9O1mLxMAMtq-ENvLG8OLHoBTYFdPnB67QkVsAZCpbx3IvJ5cPK0r157EokRdRKRZ2U7wwPLqf_aGm5MimZrm7cjk9C3YYo5Dy8Kocm0mKwUO2Zpl54JJnQOd8-RAseAM3nYleM9-LLOBov5spKsgszkkWr2AscGwV52y0xOBVwqqWpymhd_keU5ZRj_gSOKwRArY65veML3S_cz9NiRGRGlcvyrjTSpMabTjlGp9x5J7px4mzq_Ar2lOpr9SEpmiokGkul46tnOJSL2dhRWT9-3H5ChFynraxiLfp-jUp-QKDivXYawnvpEJnj2B1liQfg-gCiJuFe9JKQhMNlu-JOedD7KYQTd2RUAhx_KbTXEV4wH5PdB3eO0iEEgNW5aAOWjS3_5M9T23exDkqQBnyVFp0LNO89DDDV0Nkj2p7_bRpA3_pkSsVR8bTAiLw-3pFCClhb3iwcs2Y5OpC_5Cm8rzqPnXcGsDVydcHAIqLxqb5XYao1gAACpUBetm3iYPyioaeCgnKZeQFUZWOEZmw9oA6kVEF6cL-CeR9uUvxtv7OiQDn5zfYDHbTB2idQl-KvkeaVDYR_UVKnNlH8poruYl1VqIUBEO6f76oEuB0V0SgTHXKp",
+      "status": null
+    },
+    {
+      "id": "ws_09cb6a907ef23c54006ad766828afc87d1829e6afa580050fd",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu \"Einstellung oder Auswahl natürlicher Personen\" \"Anhang III\"",
+          "site:eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu \"Artikel 27\" \"Grundrechte-Folgenabschätzung\"",
+          "site:eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu \"Artikel 113\" \"2. August 2026\"",
+          "site:gesetze-bayern.de BayPVG technische Einrichtung Mitbestimmung Überwachung Art 75"
+        ],
+        "query": "site:eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu \"Einstellung oder Auswahl natürlicher Personen\" \"Anhang III\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75a"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2024-07-12/deu"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-G4_3"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG-75a?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CONSIL%3APE_30_2026_INIT"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ%3AC_202604045"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/PDF/?qid=1788907363661&uri=CELEX%3A02024R1689-20260727"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG-75?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-G4"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayRiStAG-28?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1790523476489&uri=CELEX%3A52026AP0098"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-78"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-33556?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-21918?hl=true"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09cb6a907ef23c54006ad76688173c87d18d5f994df1039cc7",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq12asfBl9IX5lR6psqvU9Df9uEQmubG-BFuW5pGBU5Os8IKXZCw8HqFJVerX2bS2m30GaSIRz-IAYQuRKWySvp-klx5a8GDYEswRqUJLO5VuHqquoOr_pvC1e5PDfz_lCQAsQ2dCMSPIDoNqFdS-Am81LYoZ4YKOT17HbtBB-DwU9FNhBqoVhYUYsmPFm2kxZ8UUbsAE1SeZQMiUgBeTrGxGsGj3HO2jcGGbyy8bn4JtKaawzXF7mnP20lIt_L6fBssNrdl5kRuPeKaY1jfNI6VCEds6-DFYLYiQoHwENgptXJIoOX0z1AdAO5ahw_6INxF9NBflxfuU8DzhRsjg2EsUyG2TlS_mK9yAiX_FkhyrTOWwdvQtXlwKFu4rPweVBym4y9XBAvqEam9G7xjQUJApQ6B71Q0eGtj_mwHxl1B-5LF2n_LVWvzsW5JdJR5pPx1Mv-ecWWjNI5GaPBnLj_GpWuDlIUHfEUNPnw5yCnNmdQtm1f9h3gT7_qg-CnxzuHF0XlxB2NFdYUZeou4sRQikdTeQ9dcZNnC_iSwQClFjvJ757FoYVc3jYawlZdaA-8GBfoXLCp8_U0Xk7uUqXdJ8rOoAve7dwiyaSmIDuavBidU1MXY2T3KM2JOsIa4SxNy2yRCUE8TugWQkqVd_eKlTWjpKrm3t39FQGtnv91m3FUSRs6C8t37tRemhan3b5WhlNeyj81DdDBllrmGyS_90LyjZMeIxmJFeGMvSk5ATUPpA16TOlbsm5REtkYrAp9bvc53fnX9P7NfEvEeKvnofAmSmNHt5nL6wCNpKCZwcoIkAJVlZ8UkTaKftHFh3CI74SBgt1AhErF4Qyr5DV8af0RvBxcOiJLmIXIImkkWoKMSvkb46bX41-4dXS0GchstURF-z9wzPuH5DGd_5HhOWRI34boGDY0tdekWkrbFhppv_d15PHblTjoafKDnrMoX8LBnf91l7eZJtubJfR8pphBN0BYyvD2lOZNlhXK6yTxBRcZv-a-bA3anHedKgSlaHvVs5-sCBuiZ-YzrBJkiz-cO5QctRZ_I8DhjrYNqKfEZ4u73iW3fe8RVp7HkEUQ0cn9O9BDS24BVJq1RMwZIFfSACmCnKjB3EGYH_sgx1QUil-A4_Z8iLgiFNkIG_1J20UYxks-txsn9aoNcRIK5tvAh5OXq3Ir5cfAxPZ6mUULv1LL4jz4CyMzleonGBEv-hl6MNIdq2-dwC9iy4BiJJvnAsZiBRTxNgY6HYhOnw3xpPr6k23a8YpsL7Q6OUmqjRvfiGNRcrK9dn661H-BmVOiG40iie3coswhvOleW0FCTjUATkrGWayl5AbzpGCJNryL9FPMUdXTsmyrSvUF5TZKmmZ9Up_s3yb0hxsYumdTb5yzkQ9WBJXvn58i6mxVIHk4OB9OzErq8tgOhPfG7m_FfOMrtCGcOxbWpKTUjULTl5tSHmBWphlEGcRpHxgjDnurfjTI--jl_3MpSIg_dEYnniZ5aYCqkbC4Eq2lIsNpkmYYWT8oOlc4FbXA8oKcrvmgZbnhKHeD68B8FRngIZZfgfp3UJ1tin-UxcSn2MRzwYYK7Qnb_L6CzqlxGasJ_Mi8Z_kiyS64w7gC1ieOjtRrcaxV4esSK4S6rt6gPQ4b1hTKm3O1p6nsIkcX7M4nnni7T-6cVu9gG6uEuAMMYqGP8BA3KVsEwW55sHFOh3Dv7j61KoRAgnB5HRjOqFb31Wvher2ETWW2OEJanL_L0FJ7ogc8FfeqWgLCvZjo6TY7Yt2z8nhbB5aQoDMTWg_XtVRrZkS_ibzGIrpxC2OQ8DZcRNMHE5l62_Dudly81iXASLZkIutWzWV0X6kYe0BQC9Z6VFh_0wJcUNu2PIK8oxhX8Zdf3FB9eesn5yVvyFIuiStodvdexL_KYKeSwzftJSH0rNEpddS8Y854yBGT05UhbBWPKUkM4-hnvhwwYlSm6gfv-h7zTwE5mSk0Howy3zZYRa0ygKOCs-wLvhRTYeG8rL0zHi-ZhsF4Wi8DTgOsXELdIwgBFhMzdrxDV4aBfePGSsi1_t-kV94KlPmmxB_C9v3pMjOvlehWZ9KmPWpuM-29vVNCdXFA19lWP0-B1rygpVdzpaStzDpDUyuJvZxPxxSh-66_ZhdGWE0G9xYL0qjnvRXmZ8AZUIwYH5KpGm5L53ZBpBWMKD9T7bIPmhB1wuEjJC_Pz5E3uvFsowe4QsXmsQt7mkG2c9AZj0nM7LhKauCGLi2xqsCHXg1HllYcr6DQQKOUv1yjD2Btgvfu2CNb828K2a3KuDQP2EKqiWAP4slWQFRokMereX8VXOuNjlUBto1C1lmGcRxSfqsu2CwS1LF4Xlyv4fIDLGLdbsGuENMwDB8eooqO0q_V2qWRYoqMAf_QhdNDfltjcWiMXy3nG-5f-PIabPoMxjOyNKcwpKYoyJIH0u8Jf5sMA1PVMTYoJgKSiU4xeLVSwtM4CRdVTY_iKLPtESTST1yFaw9qbyECy7fjItQAZ7tSG74tsX4-HVuHrKGa-DKT9Hdz1XXBKzV7R54SDvBOmpivAmqfCRQR_UHAsRy15O9DVeR8C_cesXYMWQlAjZdvU2l2_tIn7E1ER6OeW3yF9_itrhtnkBRuSp9W_94DoYCgMnTtQkZ6AdHcn4RVPGe9ELFv69yOY8C_m-FzyO0SFkLYvukTdZwm32qsaEmqdgE14k32c_n8YP2srr4BBzwCGte9FykGtFD0G7CAe9v3SOVK5sG5ppoceIbEfX_IbdJO4Q-FY8Lc5YBQJmAH25ndNoZgQFy7AG6YepQLEHnbwRE_mKhCcSKJwZkl2do7yx5XTFYBWkZ-MaerFZCrczo2GTEcYynBnXe2Jd5KLW4KaVUX7Ws68uE6oxd_rlJbKNPyUMjWNxqKIvI6Fly1vdE84vNKfWVXlsF9EIVgWHasCWt-AeB7QT91ETFvhAyZhMoyHNWhC45z8jdVE1IKd6Nw66DWfdBqXPew_QtWN0V6wUdYXXPU-oBELRInWMTjFsYMNIOHL8zF5d6j06SzNPCvmHzoEGX8DhL3E0ywVPZ9D75fhvBeshoz7aGwFn3Dlcey-lWLp3g0sHvaMdEdcT2uDhZwqj9S1e6fuV2OgXEQUlWARFsiTtXRA7TCGG2uYJtFZUpj02tyo6p4njUGAp5s7pMxNduq_0uHWzI_JfYW7qmOrPo4bNHW5B4TfunAL3tfIe8r-j9vNF2pUyeYn2qQcr_SBWAvn2nAxyAJsSLODJgZVi5NOr6si7LwsKibNyGbXItytU76R-APDxnRvpTHgLoQMyK-bYegRbFu0m7h_SenyBoJ1tDNG-oWqX5bCUMugXFy5ak3HGDWj_iKvnbjQGwtV553UffFpnOuF_Kg5qgEarvuYbmJcsUgzC0JP5UiKun4UyD0rnr_Uf51rfHGRXn1ujpzV_g5-bIAdh18D1aO5FYInJWHaZbnUvYqvA-xwFCLj4DMKsX0wZmX-_VMWt72YrBgeJVgLu5YL9s9nYUDorb3xDnv7auYQ-W9USnTW3CzjG3uvKFYBD1WAawGOxf1L6nApCJH9XecPaCEYpqYy8p2fi8r3Rs5aPkXQJomPXPHbzH1yE0ah_cBaAjxZ2F0aX_CmgRYYwcHXCZc1FZLSjOQHYfQ24CXqjXWNlAnqDag6hmG1ToHoxEzjdxNl9keX-gKaVbGIF7YnVDqQLlkTMVkNclj-BRXKsS7J2K9k-TZDiLVOn3RjsjnmbGv2JBILyQwSJM5oZud98EgMeEiNBviWq3v2kVx5-q7l3CmvG7lJ-ml66k7bMHCYptcyXWq4Ez5yvISOoIYmpdJG_Vkun1awlGtJ5UJT0fMMZACK7-8IsMCJ_OH5dOlxYf5WZqxKieY-6-rXObnrlTuGabm36HRiY9VXNlYsQQBbk0R1EV3Kd_FPwmQvK-rTTzfWYy7GM7QsBZglsVEJRbJGXtf-wLegAKcVj3FouLoScTKLLGMaja92BcigxIe3LlzaOiXJ9NnjxXsLOSHuIX1kD1ytVTwQ_qirSRzFoZQrKbEKGMlPg6BVc-6shvWfc5oiOrYRgPAxWYCH8RByQ_GfwUtcyFlAJxFAPvssAv7r6AhJNXvQXbHD14BsEbmNYHIIjUANFf14BSNSlKrpNa43B6b_fw3WPt5BhvGnGTsiXYn31Qo7QrCw7BXD9-LM6mEDcBu4GmWai3MHrX8kZ3DTMuAC_qlq4D_GJv6IWL9NlbAD85aofiS8-Pa1nLB1qXg2T11KvdID6YrZyFIdm47I8OHCxgk0p5qt9BG6QRmbzxGdVto2vO6EzuaNCv7qsz1peXdqw4LHXUMyof7rEj0iW8b-0864fOJdYDwEP3qu8EscVnl5AU0nsPth33NTFlZaA-oPY1pAlsQpLFjjukhUsDN9TejPLPNTzABSf05OOyRwjDz6Sn8mxKkHNvndp6qBNF1P-aiRLo3woInFadsSEPMs-dLT5B77IvjMhjjaz38Q9uxNSwmYegJht7DGdfsiMFHDeibwBG4kvq7SsffZONwGCVxF3_o6dmHI1iXy1va3PVe18t941Sfq9eEG8Ej3YA0NYXXnSROGY7VU0J7G8SRkbvfpNhomFcopb7VJ8_kbWMPCcwXPtKXiNbnuMPq4AaHoxuykrOGIdral26DHVacxdSB2G1TJwev4AmhEfxjW6osQuyez3SDr6FEOURI_J9dpLhLwXwmb1VTplSmscXyUb82C_V2xNB8qeZe5KHXmQMQ46mVLdvaaR0ermSv9t1CrwI-tWfZI7kh5Rq1kGDTkysxaKP27YZ42FMvWv2JeVJYBnokDZGaOWPY4LN_E52Tj9Ji-BrAYFNlEC5X-N8Ct0YUD2bFlUnXGcbV4ZkqdmGx9I5SBFqIbLaosr6W2mEjcfGNAteasuLxP2LI7Y4c12whQJSPPKy7nHwKN2juQIYtsW5M0WpCWp1HdADgN9sdAVIDgeHDaVI7QmOopHvXeKuqagAes0iJ3IqkDjbwXcoBIwAqXO9KBmImVbMWTY2_UKRDuE2503jguiOv09SKk9DIyjMgIfOJ2gVeCM2M-OsJ6hkgClnK6sj6odMEdBC6Ki0fXOZ63i8tuBefyvlRvl7NpvZ1CyoOP1IdqrCdA-ji5FifHPheZ8pxh1EdaUpjPAlPbmgawkq_YHxsDqSbAYk_Mr-V_hSvl_dE32cTpZ60ntYsFqlrPt98k_UQVbPnArhiaE2VvDggu92J91VAcEUz-Z8rFhKDFo92jx7L3K83e-s4piwY-aq4dA13yEdXJdA13HAtSSK1saVlvRnBwrY8nLikadl-orR0J8GSwEfHk1tgae_UxQAJfQ50hYZ3Zs7cPkbt02PhCKEqVFzDoN41JXNTK-_rrSeTGU4NvTT8IxK7fk-ScparwDR9ZBMdzTwU7B7IGgH2dgpyjcIVbKkyEn5HwXCaPHFZYK46nM86Hv3vJAiwsek7-e0yZYOT10mqUXfMveZwzbh-XCwgC5MlJfPN1l_ldAorYCiEzXvtcq554YJKZepzw-Q5f4_bvEHz31pY_96Mgn1H9iJcd5jis1ApCZtsygV4JUFyzabb4XJcJ-bq3ZIEPqmtAprr57JE0mYVwAcf0Dy10UawMBdqXkTwFx2S6lmiRbiclNM7krhDhf_QBWfZelLVjfvpRAcV8db-5pglWjq7kLyvfOCibLDJBdvq13xgfRe8hiLLVNDEDXoc-13ZBSa6BTF91yfV3OfQvG8unVF3yL8LZrJp_4VCsI22du1jhP5iiltUEyAOso9uw8V80Gv3ZsVT3cc_camHpAw0IDQSt_9KPleuxt0LZcDz-ovnxQqCeA6mbX4JtrRKLD8fM5pcgCKKB1S0kGSPAHqUE6zbycnn9Fzw8zH53yoGZICJYdTKbJ8WHRvKJgVFCGsHE8OXr5tamZDLXSO6KiGhJNLyEuOhyCiuYZ_oUaoc7VXvYZ-S7R59ZSugbyvoHAVQaW_vZ82WguPX4p9ATMk1KudEqUf7NHJ_CIZxIt9bxOcH0YOrlHJKNZkzOBuHSuIBIJ-tyaFqAlCQHejeVu9OG3dxijJZLrIsSi9adiBtSSMJqHAfZ9dbT5soNqssoku0Nr_pP5lPlH23QXhQ1Mh9ksxliSb-sLwLUe3wog1PZ9rfcxa5aKVYm1awblOulbbWuXktO93uuM4bTxSBfSdClcpAqcns07PJ7DLFS1lD1AsQ9PtotJ4UpFOYwbS715gk3P5SnJjuM3Cddw40vNjqwLD0ugC7A4ivrWe6I8am920TGyKvA1K-fO8nR6IFtb3hQdb2QANz2PY8qHRYsh5gEcpJmRQ51B3-c9aJaFJhdnqaQ6rJZ0Tsi5jiGxpBLvBz6Ym27wEQeS0W4otFnRwhB8iZha2E2PFSe_TPmKlxLbGF8WKKQCZ0v18IE89-7V5_8TSHb1jphXF9xRbrliTRkNWpbxkiDqvG5GtkNcDA6dse7I3BJG7b643IYvQ9YEVe-qkpBJMxh4FC6O8M1Uc5g-RazLfTtOtzC-Cmigd7IfYfKb7lq-yRfxrIew0_pSHm-lVvDOn8_rknDxq7997RGbZDQAEbqLtNMRQUPsIi2GNL_aBGDgFtjCADo8pZOQgNj-9jykEtcFLKZAL-kuIler5DXAujAsELN4lOqFa63CV_iVMWzpq3DnFLjEbN_lfTk3FFz54pgI1Yxkwo_ixW_96Db9oEkpAIOrl1oCUdlQ4WnmNbdsfC9eMVKPz4JK_ZuWhlFtNS8dl3IZOf72Y27zbDZTfzKYN9R_2zDnFHut1I4wxyZ0TbeNvU7Fy9VY0cKENZaCqBR2guu_CvB-Iz00R8ItHrxLypRpybvGeptga7TybiZlmnREF0_eqBeGgdbgxZ2IubGBY9Rc15qhc_YK1YX56JgG4L7NxGaqYrkx3Jw24OnsHqxgpI6l4u7eGA1EVAaT6pQyO92tWMUEsGFfbqPJ6p4J4Eecg9nlOwNeqI3MiDirgf0CnakBfU4y8Wv89zHvcVgQu-YKgAF2gEurthaeDHjF9sg_2oXNArIvislqQkMpxYjfYtDhF5937JOZ8FN2Vq4zAOokGx_VezT9ZkwN8hK85gy9CekzLRyWm7auDg5eynUb3wO0x5t6-u4aTo7cvyAwTM1VjN63hd1HLyHwe6sXSKImX3TiUXbsYyPRZsOvftej8Vpw4OxdGS2ANlhg1oeHF0Fj8FhBGXJiP6HNeXI38U-VDVfA-pKkPMTu1ejXvtbUDM7s4fSgFA7cZ3b1bNIfEtnDs4IJWn391t1akGxuDmZ99FQJatus0qFw4oZ7KK2uKZYsFEGmXG42GF5NoMWXRw0KAaZ7WvsIgiui6pF99jqmCluqbchKbGsUK5MgX5-rhx1Dgqk62SQ3UTJ4CJz9Nc_pH01Z9qELLOIgyaMS0FS5gJq0_zEinT9POVAIbGRQhtt_D0wDhhOFjvzPsU5NGN1oX4S-isO6FHXYgCvQMX08Iyj-e0tC5fq2uAFBzQghpOjHWzUy7p3RRVbl_mfYXouon7A5_l91EU70pMyaBle_dIQ4x5aUta_3DnpcIRs56tR48wMMGHFLXl4zaVwFUiWeFF3wXgEptUwaMX-vf8CVDqr8tTILlc8p5aP4-8d_KUIs4miKFwK9Xqp_B7dcYacCwLs40OeO5n0GE9KTEzGoy9UZe3ltuZKWKGsGRP7FNWgEpxXLCj_sPwW9_I6t6ed4yGnbJjy2jltSwl_CV8zt6624DNi22bNjkYw2FeJKqIOsKzdeCfmx65par-dojeIHaVsGv69g6qBaqbjUae06lcguubPNCBP8ub3dnWFl9gYBgf-6kS4l7Wd7KCiSqLnuKlkz6SWRPoMeDTLijvQueGEIcTCQqshnof5u9SH_UNFGXSAu439yQcjm39tdVgf10M9z3tHbbiR6pVVZLeKkd1TmycGOeJDhNZBhAGeGPUhklpq0mlBToWV0R8ID48lY6_5qZicve3eQz3_lMc48FbhQXQwXXvFfdmWM_VD3A5AypMpcl9XBTUuhdM1Lxkev4_3-aE6fJgDYdq4MdShkF66kPsb4K2QG8qhUq9IGvyn9UgWE4wOxpPHIB5uqEhW12Erb7KpmOzCKH19pssPcb_s25t2amMwgDVjJFUA==",
+      "status": null
+    },
+    {
+      "id": "rs_09cb6a907ef23c54006ad7668ed30087d19239712960a494ba",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq12asZCtIByqwW87NdkOkp-XpQFiP9AMtGbpY5ipuH5rK3utsHaOAL5SKgkCwl_bX1aXb3gL0rOlI-L7APXfgdr0nMlf8pltTw3-UIUxiWsPXAz7wi2yzMTHgjBOJ0deK9gDBpIX5y_E1dGSG6FZtU-f-6tutSxkneeHakXUB4APQCx-kNu_9aL4POtZFTou_S-9rjd-_1q5aaXVvDYJJZF6z6fzGHvx-_V8e6lJJ2h9ekQez3vE9UdO6VTWq0lbwTn_olmIlpDvftwPPu91LdbD00TvoZXRXdHb9pPbXmpEsjrTbmiEbK-VUbmo5FitOc8IkyIKHo19b4omKHbXhNYWNi2qGgI1-eJaxJv1akfIpBJZSS_PotjJKN7Z6J3Obm0hkJ9tk7tOLQvnL693gZt4_1H5Wp-NKG6f_7KsUXnN4aNlx1UYvxX6rlLnBgfTSqE0jNh0dOeorY4FGqzsu1l0MRz_1gtywIvCUVSrub3TcW7mhJW105OR8fNF6W0NpIaECZRK3riahFXlN0gTSI9NPveiVZlMuaLNH4-tkgeOcen2C1nie79jfYwctjUVlvlUyTLUdZEhbR2jXl8rlhZx2tkLvzOHGWIgaSKEVem0zfYZIPBpBDYIGyQ4ucg_fexAqc7eBBTP6_vYNqAxw4WRh0aD1H2G4pIAgj_oWboLXjwl7ksEvvyq6riCpqG7J6HUb93XiuSq4FQZvtqP-WXYG5ybdEYv2tg6tssZEgy2lyy-u2JC5SbHqF06UJfUnjJAx8FfX0ojLI6Gc7rsdiwdzcVnnfa4_YFoH8qxR6aybIbeO_TojVEH4RXVrtFKPuLauyyWakWqercf35j6XE7-RNpPa3d5e9Bsjpi72i5uWznJ5z5PfRheGa9zV_IRmSn_qUcQ30ed9MNCAMRiyr6HLKhGQPdl4AXXeY-VdktvD7WrdK10RgmNVQPPo-gtRDGQoPBM9x6nv0hL0p3-aq8xp2F_fn40ZTj97HjjceILtIbFaZjYZvStoIUDjAcI2kpCJe8oELru-3cxoEFV-Dciba3ceIFT5wDsroz0mPD6KDrcZ_MtpUFXypqENre3nqzq1ivm5BBXXfB9Op3GxM-w54Q3mwr8gBUKKdbLPh8lhWTyTwg_WdPViIVQVTR3hMqTyjpDUeoOmgKsxbs259Xis2Ii2q3j5C5WDHvnB-h_5iN9U0pIG_gLaIu_l0GSpzUGc5le2LPBcZdLdlJA6-X_A3r9V3FORosZfHgjSfwy7r7pNzj2hDMVP2iHJKXpVoRXW5rxO9Li4-3MCjfUIvOf5AMtzlzhGdF6Bs_ffueoP8ujdJNJoOdTL5fBVWblh_-XhgHhbF2OvF_zKFM4MqEqjLyStQhYeOpHh_AoNYqiPFSroGA32UH-TY-TJuCHo_IRzbb7zz0fsPa5GqgXhGRA17Ubr92BWHacOAIMbn8ZLntfsk0fQtiGtvvdzOXlMn3_QvmYlUupMQdVeB3uRdLDns4X_pSpsVf_1f3Zxq8gjTOR22OzvBN8taI1lAH1ONiei8tZUJoalJs_irWGAbZwLn3TuIbqUURQdp6wIojWo-SxZIVTAI0NFi1JbpNwFwu2i168ZcDJFnMGsMYvjO6GfMB3bqaOUPBONKm0PmKIYhJjRxzrkP4JFGrnQFmCPvetaq4_2IX7tmrxbk7l4AzuCT2e85yieJI4zQU0ZvGx6wHgvLlRkdGkuSLELgHmXG7ZgQHreKzt_T0EPrUdUoFjVpNE7vPnviwwOBhuRrfmORq2HXb5FpfOzYMMKjGp52OocVCuQo7orlrqyuQ9mYrms2hH46XDlhf7RJaKpqD4IiQDm3MS2ZFHPoV2ul6O1RPZZHr2JAGRGwPdaTLn4SBCfsuibDQKmeAV4A7m3Itz2AaDa_DxsNNZc7P07T_TRcbvRS1J1F6ScUZowaOSxprvzJYeuRP7MudqEVoN9Hn30HM8XBBEV9wiXI2sZe4UWBVkjbKqkpN6KzqZdm6F5ujvpUIr9pUgO6L856ryA6RruW6NsP5Z1dWs9A4AyHI3MbYolbq6bSdkTRWXQQuw7sMIsB2knOwcYO8nqjJprYO-yDbTFRAoz2On4GVWfEkl_EIla6slt5GAYeAZmNGo6Hx5euEXk2PorfzbGcvMpLHlltPfzXxRaTlD4AQChPqUmAh8LYy1kETBQgXXT4W-K-QJFw4PwiHkzfAdBbQG5J2E_wWMe_u6mGBIVS4ywVcpqAR7eHgtiknsLNVjXVvaInqr2xH50jtDy3TJ82uJc5S0uKzZ9FYvv8jsllyZG64UIKuJq3q204F9Zd8_7IlHCyH42AnySdpawpej9WSXJ0csgfQQyLmHz-tA9xYAT_p0bFV67lsfF2WNKgxZwMG6EmG-BLx23badXR2ZyBinbbb_xULzxKWDIw6ZEAfi4JrDh9VDkHk6ZH9sIYMpgNs0Wjv9_RWldkrZ5OEE2khHVQPyHS4UIhtBzuVgHHLAdDApCHZKaWr-4c7xoom7EF0GCeU2I20VHlLZDIS50ocAjt68eLH-4tFYmqmn0VNO4WSaBejSxXaB6z2OJGO7EGwUf1RljAgGx70JwFkbJdmz9v1ncqAjhP6OBRMMFHJ5szbHkbmX40nRdcIHR2j-uriVJ8GsKiwg3AJZua0cm5QbbgMMJKZMiCUOU43fo7HpjSdrRwirunhbcFy8NqL_i8eIMPzIpK0E-YeHQtwAAhZY8GHtg0U7P3LJIR7iFAMMsazJWOu9U8L4BAtx4njFDjD_TPSVcEhiBvRyAsLvjlA7ae4sTaresh2vxccST2OTwdTHD8EbpzkJ-xX4OiHOWN-jLGMMFI2G6W-8U9NLOy95CMrTYO5AlFXU0LWJQmdGd665CsDBWGbGSpG8EkemmKPeeysoCxG4axm7Zr5sNZuK6VdZAwdq5AfY80Cu-FRWLpknA1Np6C9L8JaHjh48fuCyRRN1cz8OANqwFMo9kOhrAG3TgIynPIdi9-0xkmwrXyNd0bVZa_fblNHCyO7JRhU7VH2vRajO7-L6x0rZYrDPNKKWkU4ISgJT7yRbl_PEa_7faRaW7HPWw-rG8PoL4mQm9XrXf92TKDn8Y3QsUsa46drXan6fxWT_ghFNyhK0V0O7nc4CtP_pVYp-W1-hOYlQJ2OFDsxtaahsagKYuJejD-qx6RVFoZuKnJddc530FiQ2QkG172U3jiFesJktzada02xoBcKfnfJCbBJN5ePKiKKM8hiUZmouKMhuAjvz5kFsZwZYldpC7QHH6oxFPurwhHyuK_end9jgGZIkP7U15gRcsF3BcG4dL_LYH5B1Nn-A7SVV_nAteQu1M5VI6Ly0XsSDhEOltJ_1PYeA7I_P1oqmLTwxD_DQGKwwaZGT1gA3sDcb5v360Al8WeoIKkOURNLpGODD6YKJnIQNLKdY49oQtB5oZQ8cs54QKvTvE_UsCTGIYZlUcrSZ82PXeyxEWGAvDeLkIQqv_KEIJW3hHnz4dRKjlWR-QLI7IJ__BjST2F-P974OjJW4ocUuoGUhU0zvlQFMSHKl0tzexsRlVbQT_6KAAp9jCxAt650grdPCVZrqNJgO0X8J9OWj-E3c6KokjMmpNRBZtZ_ry27pQWo5vsIsHSotfBf-T95kk7dbRrVU-pLy90_n8bqvTI_GgWwXyCohzC75f-WLQ35TlLqwHEQPDBv3QXPuubk76Y-uTPC5t-fT7basUzx5TC9rNFD24SQpOtW5xmxXADy0hSvMb7Gi8zeE390RTbSHyUQIcIwYv0YCbZ36O3HYFMiX1n25oQZiaY6aTw2bQQ8L5oK2la8JfF3bDBXYhe_IMXa2u9PYgVmWhaOdVnoIE2Ulx8KhKqKBwLBwEJ-PYZgzJ3oOn960jfzsA91p7nqF643cGxKMSi1cOgS0ZFIEZLjUlFyJp6EpJWU5fU70klhjlN67PhltIShgCBOiVlVFMOmsTmIzwL78SYcrBt66dYemj1Vs_S39G72ofjvBMCCYIiibBRHGTH3S0oUFCsWvuHUjXKZCoXklRHOL6lTh8-sFtCM9VGGyDN9IsL3oVYrk9DiUSUGGcC_9VWCWaeUL-Lr7sgwpOn6trYbJevSGQDUqot_vpXFYaIALE7Tx0Qe6XLVn64cI8XH8d1yMzMxi35gHQRV_t0rE0o4ErgpsVoh4gBV5C8gxBoEEyBM-x40q98nICmGa4qlzBCc6YQu4Br18R6Qp07WybLvbv5oja_vNjSuLpOMSf1jqzZi42G3ZCwX2gnMLkXtsjx0wj6um2yMOksl_UdluDesSn5zi5v435E2FQ9RJCII5GC0NCpvYTxztIGUpmw_23fQ6A806FsBaBxTHceS34E0YkyKaNwAr5I6JccoE64OEUJLkNR5VvrzxRF3M8CumXJbrt2FzT1rD3ik9UjKfIR3mt0mHoOA3MEmGWuOHmiUGAbZ2NZwg-a-1Qo-q-L88rzrdCbkIaV_KOLPlRCdoGEF3eXDRK80SwOzUlEDxHZSSrhwLh_2d0Vjrd7pGAeNXS_mIYcUbSuupReNcJ8PGYra3laerawK0d38i4TL3CkbpsIQsLJFyu54oTIwEiR2zFZHZy_jHjKhhL_bsOh2Vw5q3_s5FsBTqoOaqTJ4URh7xXHfJ8qS8xpJ8J3kKAEwv8rBK7uheD3Wz_r5QmwjdAN70xrB4IXJVEJzff-ER4BVb5gUa9062BB9zvJnaCz02eGrMDPkljJJPGgqjX1xteuG32S0luMl2OREHoICRZYtH9KeIEuCUb-MWsAxhyaSAXUKMzyFMCDKvHHw9ZaEh__amS5Wt6zeotXctbeoUi5958TQ5fZw6Tfogd13j9g62JJrdBrlLtEhtIBQydDAtLn1i37i6CMN9Ee1FO_ruCNM0OlONaVYqdhIPwH3fi116XhXUjZKeJ8oQ5g_JMsS3J8Y7Iy4Pp7Z_PpuL1xOBknfqhBRDSCS2dVif2ASSdx31pl-8Iol-jy5LGTXjKcfEV-O7HSdtifnwdlf8xgg-iYw8MGGgsmO7LoMwRlrBQ8TduwzkZZ_xuB9K4B_zy3qhQW16Pql1xDbLcZr6fyRVcwffhRWe_KiWhwGoYVRPS9Mu0JZgYRaSfMjuH5BzS1cxoJyJAePIdhvqKGlBdmk_OXnMBaVfLfPs1ZIFAdZg6V_3ZGo8q6fc1jRTIF9KYhqviDEgjrmN60ptDaioqPr--3GKQeGiTMTXerRukOiaSwQIB3EBbOIhZcNXMq0eModoa9sti12UzS6THgVKdZRlKOngZQ2gi9Qy2MyByV15-4Ih49UJ9-ZLuqYwVT1vOzQZQq82xqhQW9WibJUhS3ibfVKzE2YmgZUsp4S16PJrnxmzgkUOOy63-zYgXnBbV0e2LwH9daCd6SIvSVFJY6h9KvJy7N-dejXoWAfXS09JO5k29TFqRyHp41zD9FJ3jcGu5tX1NHOBaxq3GdlICeja4ejI18TmV8o7OLbTJ7XyHJ4Ztt6tzP_CRUbvlolwiYsU7DjjtPWD4GaF-l1ZDdqJPMMBP2B-6sXBxN9-zYRdltQvfDzPaO8C_loGranDTY_O8gGbOyi0JuyDUGGi42RZNJY0oOzuvr6Du3x8sM0EOcw7PK975yFMUYOtbCz2NCXnnHs4siFOBm3SITTJcsGOjYXjjlT4IDseFjYXIpvFhl80UXqZeCMMZnmWk6WHsR1ByV1XW9WuPHElh0Gl59o7Nv0LtB6HPrvxgoafNRL0n0OO25Vpnj6rZ3My1I94DGPnumjF7WKGQbhtQZQoZZJYROVu9GEGkt6QAHBUlN3G0Gzi3GTJ6xMFFtC39udK0dXkl6ey3hBPfgOrWd6vXGsH9lNEsLzC1lcn_97o84MeXFMnvL4YWmAGhvIg1kV0PzbRL5U2N8qAXEbDDOgfPWRdsT9OikDpeqy87I5OysDW0MRl4so9jG_nh5RLB4KJr4kZmNQnE61RDxkG-5_5Dz0d3BbuhLPk4FY-oiQzaFxp9Wn7D79C3-lH1BctAYXxXQs77LZUfuxDVOk26rU0ouHqJxTUPJ1cH4HVJVN8T1pOBIG_B35AzBxi8Vuc4PJNinYWMNTFHYgNXTf-3chYsGQsdBBaBDj9-4hwvSOSRsqjWNbs7JHCjPXD7dB2g7z8zuglqvwiQOLsSuU8sDNwE9uKiSijp8QzVkpPcB526WlHLpA34BH62c1Zuz9tHi3AZVQ-0hXmQQFNnBVFGsIlKm9QQqs_DA6ILkbqK2P28btC7PveKdAbQo43-6QnEAHd_v4MvRcPjjAwvE3yLdLCoMU3K5N1HY07WXBLto7frfyhMXWklUMzL88NZDCPr8eKKYpIu_0M5jeJGRveu4ek6MjZg8KfEq9wAlmrdCBQEopb-l90pdoa_PXxjsG-skxBplrR_BG4C6qw2JFilGsBG4r457eHVB4XuSZnLe6uVvWfD2FqTBVfup6kLxjpTZySOar1ZnTo2gJ5PhDRgzmkxdp6PCGuJAk4r5PEqj7B61_rC3logkptD78AVfgkvGtg3zcW5eYHbBVf8HPhBjcO-U2mcEf1er2a9Dwwk2fMUWgxUJrg1a_TeWMxQRYXH01T20uU3RceIX6jowJfJ1S0gSEg4lsFBVP313YfYO5HDqWK2b8GtkQzchnEO-K_AZDFCqhql6oRhokuR-aUUzuG9TE2Qve9cjP-x-FZdz70MOWoB-HU-YlUs6HgPIguhm8uh1wQLxVg9yBrUd47k3p5V_pQzyiPOPPZTF5WnqXT3MmaSPL5Mn-urF6u-pejbiETB9484Mw4nvquEq2PwlA4BB2q64_QwlNK3MANrPOSKLIys59BEmCzAo5o03Zjn50YDrAtub7qdclOf8HdTU40yO7rHsAbJjcTaTkbjyPm4I-PVKNqPaq59-V2yOB3f5KN1BqIzQDTzvdOrm2yeX9DLip-1Gl7xC5V05Urap4R--CXhl5WXThx42Upn0UTqqqaTcT3F00JBSfh0LE4GcmKGkeatnlJhxwDx1oGwiq0n74PrAbtWhxi9DhCrdiE1hlCUCFSdv8KPiEgn-Jk_jeWdn7gY9AkxuJj2WQmhOU4eg5lAwlr7fEMyKaVuR_DW8tqQ9ywck8caOVXHjRp5u7B48nGWnwY4RFGmUKsQjJqy-7zOvjXQ1YTNkAfdaUAFr-76saeTXNctsProLJCyaFwRziwRwORNHYiROr2Ntl-PkvuaK-7zRx42XwNeB52I200WaXbDsABv3dpEUU6acR3k03p1IccIJOuspF9Px9a3PnQOWywCH75ZlL45Siy4GZ_cDytf6qPIC1MC8jZ5hwapQg==",
+      "status": null
+    },
+    {
+      "id": "msg_09cb6a907ef23c54006ad7669515fc87d1a8bab5ca1e865832",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"funde\":[{\"regelwerk\":\"KI-VO\",\"fundstelle\":\"Art. 6 Abs. 2 i. V. m. Anhang III Nr. 4 Buchst. a\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"begruendung\":\"KI-Systeme zur Einstellung oder Auswahl, insbesondere zum Sichten oder Filtern von Bewerbungen und Bewerten von Bewerbern, sind grundsätzlich Hochrisiko-KI-Systeme. Das beschriebene Ranking fällt voraussichtlich darunter; die konkrete Einstufung hängt auch von Zweck und Funktionsweise des Tools ab. Die Anforderungen für Hochrisiko-KI-Systeme sind für diesen Prozessschritt zu beachten.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu\",\"fassung_datum\":\"Konsolidierte Fassung vom 27.07.2026\",\"sicherheit\":\"unsicher\"},{\"regelwerk\":\"KI-VO\",\"fundstelle\":\"Art. 14 Abs. 1–4; Art. 26 Abs. 1–2\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Die menschliche Prüfung konkret ausgestalten: zuständige Personen müssen die Grenzen und Ausgaben des Systems verstehen, Automatisierungsbias berücksichtigen und befugt sowie in der Lage sein, das Ergebnis unabhängig zu prüfen, abzuändern oder zu verwerfen. Im Prozess ist nur allgemein eine Prüfung durch die Fachabteilung genannt; Kompetenz, Befugnisse und Prüfkriterien sind nicht beschrieben.\",\"begruendung\":\"Bei einem Hochrisiko-System muss wirksame, dem Risiko und Nutzungskontext angemessene menschliche Aufsicht gewährleistet sein. Betreiber müssen die Aufsicht einer Person mit erforderlicher Kompetenz, Ausbildung und Befugnis übertragen und diese unterstützen. T3.3 ist dafür ein vorgesehener Schritt, beschreibt aber nicht, wie eine wirksame Prüfung sichergestellt wird.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu\",\"fassung_datum\":\"Konsolidierte Fassung vom 27.07.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"KI-VO\",\"fundstelle\":\"Art. 4\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Sicherstellen, dass die mit der Prüfung befassten Personen über ein angemessenes Maß an KI-Kompetenz verfügen; entsprechende Maßnahmen sind im Prozess nicht beschrieben.\",\"begruendung\":\"Anbieter und Betreiber müssen Maßnahmen ergreifen, um nach besten Kräften ein ausreichendes Maß an KI-Kompetenz bei ihrem Personal und den sonst mit Betrieb oder Nutzung befassten Personen sicherzustellen. Das ist für die sachkundige Prüfung und Einordnung des Rankings relevant.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu\",\"fassung_datum\":\"Konsolidierte Fassung vom 27.07.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. a, c und d; Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"begruendung\":\"Bei der Prüfung des Rankings werden Bewerberdaten weiterverarbeitet. Dabei sind insbesondere Rechtmäßigkeit, Transparenz und Fairness, Datenminimierung sowie Richtigkeit zu beachten; der Verantwortliche muss die Einhaltung nachweisen können. Die Prüfung sollte daher auch falsche, unvollständige oder für die Auswahl nicht relevante Daten und daraus entstehende Verzerrungen berücksichtigen.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung (EU) 2016/679 vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 22 Abs. 1–4\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"begruendung\":\"Relevant, wenn das KI-Ranking tatsächlich zu einer ausschließlich automatisierten Entscheidung führt, die Bewerber rechtlich oder ähnlich erheblich beeinträchtigt, etwa durch automatischen Ausschluss. Eine bloße oder nur formale Kontrolle durch die Fachabteilung muss nicht genügen, um eine ausschließlich automatisierte Entscheidung auszuschließen. Bei Anwendbarkeit sind die Voraussetzungen und Schutzmaßnahmen des Art. 22 einzuhalten; Abs. 4 begrenzt zudem Entscheidungen auf Grundlage besonderer Datenkategorien.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung (EU) 2016/679 vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"unsicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 35 Abs. 1 und gegebenenfalls Abs. 3 Buchst. a\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Vor Beginn der betreffenden Verarbeitung prüfen und dokumentieren, ob eine Datenschutz-Folgenabschätzung erforderlich ist; falls ja, diese vorab durchführen. Ein solcher Prüfschritt ist im Gesamtprozess nicht genannt.\",\"begruendung\":\"Eine Folgenabschätzung ist erforderlich, wenn die Verarbeitung voraussichtlich ein hohes Risiko für Rechte und Freiheiten mit sich bringt. Art. 35 Abs. 3 Buchst. a nennt insbesondere eine systematische und umfassende Bewertung persönlicher Aspekte auf automatisierter Verarbeitung als Fall, in dem eine Folgenabschätzung erforderlich ist, wenn darauf Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung beruhen. Ob diese Voraussetzungen beim konkreten Ranking erfüllt sind, hängt von dessen Ausgestaltung und Einfluss ab.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A32016R0679\",\"fassung_datum\":\"Verordnung (EU) 2016/679 vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"unsicher\"},{\"regelwerk\":\"KI-VO\",\"fundstelle\":\"Art. 27 Abs. 1\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Falls das System als Hochrisiko-KI-System nach Anhang III Nr. 4 Buchst. a eingesetzt wird: vor seiner Inbetriebnahme eine Grundrechte-Folgenabschätzung durchführen und dokumentieren. Dieser Schritt ist im Gesamtprozess nicht aufgeführt.\",\"begruendung\":\"Betreiber, die Einrichtungen des öffentlichen Rechts sind, müssen vor Inbetriebnahme eines Hochrisiko-KI-Systems nach Art. 6 Abs. 2 grundsätzlich dessen mögliche Auswirkungen auf Grundrechte abschätzen. Die Hochschule ist als öffentliche Hochschule beschrieben. Die Pflicht betrifft die Inbetriebnahme und ist daher nicht auf die einzelne Prüfung in T3.3 beschränkt.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu\",\"fassung_datum\":\"Konsolidierte Fassung vom 27.07.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AGG\",\"fundstelle\":\"§ 7 Abs. 1; § 12 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"begruendung\":\"Die Bewertung und Prüfung des Rankings darf Bewerber nicht wegen eines in § 1 AGG genannten Grundes benachteiligen. Der Arbeitgeber muss erforderliche Schutzmaßnahmen, einschließlich vorbeugender Maßnahmen, ergreifen. Die Prüfung sollte deshalb auch darauf gerichtet sein, ob Kriterien oder Ergebnisse mittelbare Benachteiligungen bewirken.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/agg/BJNR189710006.html\",\"fassung_datum\":\"Aktuelle amtliche Fassung auf gesetze-im-internet.de\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"GG\",\"fundstelle\":\"Art. 33 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"begruendung\":\"Bei der Besetzung einer öffentlichen Stelle ist die Auswahl nach Eignung, Befähigung und fachlicher Leistung auszurichten. Bei T3.3 ist daher zu prüfen, ob das KI-Ergebnis die festgelegten, stellenbezogenen Kriterien sachgerecht abbildet und die spätere Auswahl nicht an sachfremden Kriterien ausrichtet.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/gg/art_33.html\",\"fassung_datum\":\"Aktuelle amtliche Fassung auf gesetze-im-internet.de\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"SGB IX\",\"fundstelle\":\"§ 165 Satz 3 und 4\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Bei schwerbehinderten Bewerbern sicherstellen, dass ein Ausschluss aufgrund fehlender fachlicher Eignung nur erfolgt, wenn diese offensichtlich fehlt; andernfalls sind sie zum Vorstellungsgespräch einzuladen. Eine gesonderte Prüfung dieses gesetzlichen Maßstabs vor einer KI-basierten Nichtberücksichtigung ist im Prozess nicht beschrieben.\",\"begruendung\":\"Öffentliche Arbeitgeber müssen schwerbehinderte Bewerber grundsätzlich zum Vorstellungsgespräch einladen. Die Einladung ist nur entbehrlich, wenn die fachliche Eignung offensichtlich fehlt. Ein niedriger Rang oder eine negative KI-Bewertung belegt für sich genommen nicht, dass diese gesetzliche Ausnahme erfüllt ist.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/sgb_9_2018/__165.html\",\"fassung_datum\":\"Aktuelle amtliche Fassung auf gesetze-im-internet.de\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayPVG\",\"fundstelle\":\"Art. 75a Abs. 1 Nr. 2; gegebenenfalls Art. 75 Abs. 4 Satz 1 Nr. 13\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Vor Einführung oder Anwendung des KI-gestützten Verfahrens klären und dokumentieren, ob die Mitbestimmung des Personalrats wegen eines automatisierten Verfahrens zur Personalverwaltung oder wegen Richtlinien über die personelle Auswahl erforderlich ist, und gegebenenfalls die Beteiligung rechtzeitig durchführen. Eine Beteiligung ist im Gesamtprozess nicht beschrieben.\",\"begruendung\":\"Das Ranking kann Teil eines automatisierten Verfahrens zur Personalverwaltung sein; außerdem können Auswahlkriterien oder Vorgaben für den KI-Einsatz unter Richtlinien über die personelle Auswahl fallen. Ob die Tatbestände im konkreten System erfüllt sind, hängt von dessen Funktion und organisatorischer Ausgestaltung ab.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayPVG/true\",\"fassung_datum\":\"Aktuelle amtliche Fassung auf gesetze-bayern.de\",\"sicherheit\":\"unsicher\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "funde": [
+              {
+                "regelwerk": "KI-VO",
+                "fundstelle": "Art. 6 Abs. 2 i. V. m. Anhang III Nr. 4 Buchst. a",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "begruendung": "KI-Systeme zur Einstellung oder Auswahl, insbesondere zum Sichten oder Filtern von Bewerbungen und Bewerten von Bewerbern, sind grundsätzlich Hochrisiko-KI-Systeme. Das beschriebene Ranking fällt voraussichtlich darunter; die konkrete Einstufung hängt auch von Zweck und Funktionsweise des Tools ab. Die Anforderungen für Hochrisiko-KI-Systeme sind für diesen Prozessschritt zu beachten.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu",
+                "fassung_datum": "Konsolidierte Fassung vom 27.07.2026",
+                "sicherheit": "unsicher"
+              },
+              {
+                "regelwerk": "KI-VO",
+                "fundstelle": "Art. 14 Abs. 1–4; Art. 26 Abs. 1–2",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Die menschliche Prüfung konkret ausgestalten: zuständige Personen müssen die Grenzen und Ausgaben des Systems verstehen, Automatisierungsbias berücksichtigen und befugt sowie in der Lage sein, das Ergebnis unabhängig zu prüfen, abzuändern oder zu verwerfen. Im Prozess ist nur allgemein eine Prüfung durch die Fachabteilung genannt; Kompetenz, Befugnisse und Prüfkriterien sind nicht beschrieben.",
+                "begruendung": "Bei einem Hochrisiko-System muss wirksame, dem Risiko und Nutzungskontext angemessene menschliche Aufsicht gewährleistet sein. Betreiber müssen die Aufsicht einer Person mit erforderlicher Kompetenz, Ausbildung und Befugnis übertragen und diese unterstützen. T3.3 ist dafür ein vorgesehener Schritt, beschreibt aber nicht, wie eine wirksame Prüfung sichergestellt wird.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu",
+                "fassung_datum": "Konsolidierte Fassung vom 27.07.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "KI-VO",
+                "fundstelle": "Art. 4",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Sicherstellen, dass die mit der Prüfung befassten Personen über ein angemessenes Maß an KI-Kompetenz verfügen; entsprechende Maßnahmen sind im Prozess nicht beschrieben.",
+                "begruendung": "Anbieter und Betreiber müssen Maßnahmen ergreifen, um nach besten Kräften ein ausreichendes Maß an KI-Kompetenz bei ihrem Personal und den sonst mit Betrieb oder Nutzung befassten Personen sicherzustellen. Das ist für die sachkundige Prüfung und Einordnung des Rankings relevant.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu",
+                "fassung_datum": "Konsolidierte Fassung vom 27.07.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. a, c und d; Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "begruendung": "Bei der Prüfung des Rankings werden Bewerberdaten weiterverarbeitet. Dabei sind insbesondere Rechtmäßigkeit, Transparenz und Fairness, Datenminimierung sowie Richtigkeit zu beachten; der Verantwortliche muss die Einhaltung nachweisen können. Die Prüfung sollte daher auch falsche, unvollständige oder für die Auswahl nicht relevante Daten und daraus entstehende Verzerrungen berücksichtigen.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung (EU) 2016/679 vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 22 Abs. 1–4",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "begruendung": "Relevant, wenn das KI-Ranking tatsächlich zu einer ausschließlich automatisierten Entscheidung führt, die Bewerber rechtlich oder ähnlich erheblich beeinträchtigt, etwa durch automatischen Ausschluss. Eine bloße oder nur formale Kontrolle durch die Fachabteilung muss nicht genügen, um eine ausschließlich automatisierte Entscheidung auszuschließen. Bei Anwendbarkeit sind die Voraussetzungen und Schutzmaßnahmen des Art. 22 einzuhalten; Abs. 4 begrenzt zudem Entscheidungen auf Grundlage besonderer Datenkategorien.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung (EU) 2016/679 vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "unsicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 35 Abs. 1 und gegebenenfalls Abs. 3 Buchst. a",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Vor Beginn der betreffenden Verarbeitung prüfen und dokumentieren, ob eine Datenschutz-Folgenabschätzung erforderlich ist; falls ja, diese vorab durchführen. Ein solcher Prüfschritt ist im Gesamtprozess nicht genannt.",
+                "begruendung": "Eine Folgenabschätzung ist erforderlich, wenn die Verarbeitung voraussichtlich ein hohes Risiko für Rechte und Freiheiten mit sich bringt. Art. 35 Abs. 3 Buchst. a nennt insbesondere eine systematische und umfassende Bewertung persönlicher Aspekte auf automatisierter Verarbeitung als Fall, in dem eine Folgenabschätzung erforderlich ist, wenn darauf Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung beruhen. Ob diese Voraussetzungen beim konkreten Ranking erfüllt sind, hängt von dessen Ausgestaltung und Einfluss ab.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "Verordnung (EU) 2016/679 vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "unsicher"
+              },
+              {
+                "regelwerk": "KI-VO",
+                "fundstelle": "Art. 27 Abs. 1",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Falls das System als Hochrisiko-KI-System nach Anhang III Nr. 4 Buchst. a eingesetzt wird: vor seiner Inbetriebnahme eine Grundrechte-Folgenabschätzung durchführen und dokumentieren. Dieser Schritt ist im Gesamtprozess nicht aufgeführt.",
+                "begruendung": "Betreiber, die Einrichtungen des öffentlichen Rechts sind, müssen vor Inbetriebnahme eines Hochrisiko-KI-Systems nach Art. 6 Abs. 2 grundsätzlich dessen mögliche Auswirkungen auf Grundrechte abschätzen. Die Hochschule ist als öffentliche Hochschule beschrieben. Die Pflicht betrifft die Inbetriebnahme und ist daher nicht auf die einzelne Prüfung in T3.3 beschränkt.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu",
+                "fassung_datum": "Konsolidierte Fassung vom 27.07.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 7 Abs. 1; § 12 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "begruendung": "Die Bewertung und Prüfung des Rankings darf Bewerber nicht wegen eines in § 1 AGG genannten Grundes benachteiligen. Der Arbeitgeber muss erforderliche Schutzmaßnahmen, einschließlich vorbeugender Maßnahmen, ergreifen. Die Prüfung sollte deshalb auch darauf gerichtet sein, ob Kriterien oder Ergebnisse mittelbare Benachteiligungen bewirken.",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html",
+                "fassung_datum": "Aktuelle amtliche Fassung auf gesetze-im-internet.de",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "GG",
+                "fundstelle": "Art. 33 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "begruendung": "Bei der Besetzung einer öffentlichen Stelle ist die Auswahl nach Eignung, Befähigung und fachlicher Leistung auszurichten. Bei T3.3 ist daher zu prüfen, ob das KI-Ergebnis die festgelegten, stellenbezogenen Kriterien sachgerecht abbildet und die spätere Auswahl nicht an sachfremden Kriterien ausrichtet.",
+                "quelle_url": "https://www.gesetze-im-internet.de/gg/art_33.html",
+                "fassung_datum": "Aktuelle amtliche Fassung auf gesetze-im-internet.de",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "SGB IX",
+                "fundstelle": "§ 165 Satz 3 und 4",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Bei schwerbehinderten Bewerbern sicherstellen, dass ein Ausschluss aufgrund fehlender fachlicher Eignung nur erfolgt, wenn diese offensichtlich fehlt; andernfalls sind sie zum Vorstellungsgespräch einzuladen. Eine gesonderte Prüfung dieses gesetzlichen Maßstabs vor einer KI-basierten Nichtberücksichtigung ist im Prozess nicht beschrieben.",
+                "begruendung": "Öffentliche Arbeitgeber müssen schwerbehinderte Bewerber grundsätzlich zum Vorstellungsgespräch einladen. Die Einladung ist nur entbehrlich, wenn die fachliche Eignung offensichtlich fehlt. Ein niedriger Rang oder eine negative KI-Bewertung belegt für sich genommen nicht, dass diese gesetzliche Ausnahme erfüllt ist.",
+                "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__165.html",
+                "fassung_datum": "Aktuelle amtliche Fassung auf gesetze-im-internet.de",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayPVG",
+                "fundstelle": "Art. 75a Abs. 1 Nr. 2; gegebenenfalls Art. 75 Abs. 4 Satz 1 Nr. 13",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Vor Einführung oder Anwendung des KI-gestützten Verfahrens klären und dokumentieren, ob die Mitbestimmung des Personalrats wegen eines automatisierten Verfahrens zur Personalverwaltung oder wegen Richtlinien über die personelle Auswahl erforderlich ist, und gegebenenfalls die Beteiligung rechtzeitig durchführen. Eine Beteiligung ist im Gesamtprozess nicht beschrieben.",
+                "begruendung": "Das Ranking kann Teil eines automatisierten Verfahrens zur Personalverwaltung sein; außerdem können Auswahlkriterien oder Vorgaben für den KI-Einsatz unter Richtlinien über die personelle Auswahl fallen. Ob die Tatbestände im konkreten System erfüllt sind, hängt von dessen Funktion und organisatorischer Ausgestaltung ab.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true",
+                "fassung_datum": "Aktuelle amtliche Fassung auf gesetze-bayern.de",
+                "sicherheit": "unsicher"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "eur-lex.europa.eu",
+          "gesetze-im-internet.de",
+          "gesetze-bayern.de",
+          "tdl-online.de"
+        ]
+      },
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792501419.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 33784,
+    "input_tokens_details": {
+      "cache_write_tokens": 3457,
+      "cached_tokens": 4741
+    },
+    "output_tokens": 4645,
+    "output_tokens_details": {
+      "reasoning_tokens": 2343
+    },
+    "total_tokens": 38429
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 3
+    }
+  }
+}

@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from .llm_client import LLMClient
 from .models import Fund, Stufe2Antwort
-from .normierung import norm_regelwerk
+from .normierung import norm_regelwerk, regelwerke_einzeln
 from .prompts import fuelle_stufe2
 
 
@@ -41,7 +41,7 @@ def ordne_zu(client: LLMClient, vorlage: str, firmenprofil: dict, prozess: dict,
 
 def lueckenkandidaten(rechtsrahmen: list[dict], funde: list[Fund]) -> list[dict]:
     """Regelwerke ohne Zuordnung in Stufe 2 + alle Funde mit typ = moegliche_luecke."""
-    zugeordnet = {norm_regelwerk(f.regelwerk) for f in funde if f.typ == "zuordnung"}
+    zugeordnet = {kurz for f in funde if f.typ == "zuordnung" for _, kurz in regelwerke_einzeln(f.regelwerk)}
     kandidaten = []
     for e in rechtsrahmen:
         if norm_regelwerk(e["regelwerk"], e.get("vollstaendiger_titel", "")) not in zugeordnet:

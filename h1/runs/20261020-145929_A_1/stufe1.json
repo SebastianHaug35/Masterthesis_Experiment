@@ -1,0 +1,201 @@
+{
+  "rechtsrahmen": [
+    {
+      "regelwerk": "DSGVO",
+      "vollstaendiger_titel": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung)",
+      "ebene": "EU",
+      "begruendung": "Gilt für die Verarbeitung personenbezogener Daten von Bewerberinnen und Bewerbern im gesamten Prozess, insbesondere beim Empfang, bei der Speicherung, KI-gestützten Auswertung, Dokumentation, Aufbewahrung und Löschung.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+      "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayDSG",
+      "vollstaendiger_titel": "Bayerisches Datenschutzgesetz vom 15. Mai 2018",
+      "ebene": "Land",
+      "begruendung": "Ergänzt den Datenschutzrahmen für bayerische öffentliche Stellen und erfasst Behörden sowie sonstige öffentliche Stellen des Freistaates und beaufsichtigte juristische Personen des öffentlichen Rechts. Relevant für Bewerberdaten und deren Verarbeitung durch Hochschule und Bewerbungsportal.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayDSG/true",
+      "fassung_datum": "Fassung vom 15.05.2018; zuletzt geändert durch Gesetz vom 25.07.2025; Text gilt ab 01.08.2025",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "KI-VO",
+      "vollstaendiger_titel": "Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (Verordnung über künstliche Intelligenz)",
+      "ebene": "EU",
+      "begruendung": "Die Verordnung erfasst KI-Systeme zur Einstellung und Auswahl von Bewerberinnen und Bewerbern. Das beschriebene Ranking kann darunter fallen; die konkrete Einstufung hängt von Zweck, Funktionsweise und tatsächlichem Einfluss des Tools auf die Auswahl ab.",
+      "betroffene_teilprozesse": [
+        "3"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
+      "fassung_datum": "Verordnung vom 13.06.2024; allgemein anwendbar ab 02.08.2026, einzelne Pflichten gelten gestaffelt",
+      "sicherheit": "unsicher"
+    },
+    {
+      "regelwerk": "AGG",
+      "vollstaendiger_titel": "Allgemeines Gleichbehandlungsgesetz vom 14. August 2006",
+      "ebene": "Bund",
+      "begruendung": "Gilt für den Zugang zur Beschäftigung einschließlich Ausschreibung, Auswahl, Vorstellungsgespräch, Einstellungsentscheidung und Absage. Die KI-Vorauswahl und das Ranking müssen ebenfalls im Rahmen des Benachteiligungsschutzes betrachtet werden.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html",
+      "fassung_datum": "Zuletzt geändert durch Artikel 15 des Gesetzes vom 22.12.2023",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "GG",
+      "vollstaendiger_titel": "Grundgesetz für die Bundesrepublik Deutschland",
+      "ebene": "Bund",
+      "begruendung": "Als öffentliche Hochschule muss die Organisation beim Zugang zu öffentlichen Ämtern und Stellen die verfassungsrechtlichen Anforderungen an Gleichbehandlung sowie Eignung, Befähigung und fachliche Leistung beachten. Das ist für Anforderungsprofil, Auswahlkriterien und Auswahlentscheidung relevant.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/gg/art_33.html",
+      "fassung_datum": "Zuletzt geändert durch Artikel 1 des Gesetzes vom 22.03.2025",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "SGB IX",
+      "vollstaendiger_titel": "Neuntes Buch Sozialgesetzbuch – Rehabilitation und Teilhabe von Menschen mit Behinderungen",
+      "ebene": "Bund",
+      "begruendung": "Öffentliche Arbeitgeber haben besondere Pflichten bei der Besetzung von Arbeitsplätzen, unter anderem hinsichtlich Meldung und Einladung schwerbehinderter Bewerberinnen und Bewerber. Das betrifft Ausschreibung, Vorauswahl, Einladung, Vorstellungsgespräch und Auswahl.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/SGB_IX.pdf",
+      "fassung_datum": "Zuletzt geändert durch Artikel 6 des Gesetzes vom 22.12.2023",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayHIG",
+      "vollstaendiger_titel": "Bayerisches Hochschulinnovationsgesetz vom 5. August 2022",
+      "ebene": "Land",
+      "begruendung": "Regelt den bayerischen Hochschulrahmen und erfasst wissenschaftliche Mitarbeiterinnen und Mitarbeiter als Hochschulmitglieder. Es ist daher für die organisatorische und personalrechtliche Einordnung der wissenschaftlichen Stelle an einer bayerischen Hochschule relevant.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayHIG/true",
+      "fassung_datum": "Zuletzt geändert durch die Artikel 15 und 16 des Gesetzes vom 08.05.2026; Text gilt ab 16.05.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayPVG",
+      "vollstaendiger_titel": "Bayerisches Personalvertretungsgesetz",
+      "ebene": "Land",
+      "begruendung": "Die Hochschule ist eine öffentliche Dienststelle mit Personalrat. Das Gesetz bildet den Rahmen für dessen Beteiligung bei personalbezogenen Maßnahmen; die Einführung oder Nutzung technischer Systeme und die Auswahl beziehungsweise Einstellung können Beteiligungsfragen auslösen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true",
+      "fassung_datum": "Zuletzt geändert durch § 5 des Gesetzes vom 28.07.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayGlG",
+      "vollstaendiger_titel": "Bayerisches Gesetz zur Gleichstellung von Frauen und Männern",
+      "ebene": "Land",
+      "begruendung": "Erfasst bayerische öffentliche Stellen und ist für gleichstellungsorientierte Personalgewinnung und Besetzungsverfahren relevant. Die angegebene Beteiligung einer Gleichstellungsbeauftragten im Gespräch macht die Relevanz für diesen Prozess zusätzlich deutlich.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG/true",
+      "fassung_datum": "Zuletzt geändert durch § 22 des Gesetzes vom 26.03.2026; Text gilt ab 01.04.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "TV-L",
+      "vollstaendiger_titel": "Tarifvertrag für den öffentlichen Dienst der Länder",
+      "ebene": "Tarif",
+      "begruendung": "Die Stelle ist ausdrücklich als wissenschaftliche Mitarbeiterstelle nach TV-L bezeichnet. Der Tarifvertrag ist deshalb für Stellenprofil, Eingruppierung und die tariflichen Arbeitsbedingungen des Vertragsangebots und Arbeitsvertrags relevant.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.tdl-online.de/tarifvertraege/tv-l",
+      "fassung_datum": "TV-L-Stand 14.02.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "WissZeitVG",
+      "vollstaendiger_titel": "Gesetz über befristete Arbeitsverträge in der Wissenschaft (Wissenschaftszeitvertragsgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Kann für wissenschaftliches Personal an staatlichen Hochschulen einschlägig sein, sofern ein befristeter Arbeitsvertrag vorgesehen ist. Ob es im konkreten Fall greift, ist aus der Prozessbeschreibung nicht ersichtlich.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/wisszeitvg/BJNR050610007.html",
+      "fassung_datum": "Zuletzt geändert durch Artikel 1 des Gesetzes vom 25.05.2020",
+      "sicherheit": "unsicher"
+    },
+    {
+      "regelwerk": "TzBfG",
+      "vollstaendiger_titel": "Gesetz über Teilzeitarbeit und befristete Arbeitsverträge (Teilzeit- und Befristungsgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Kann bei einer befristeten oder in Teilzeit ausgeschriebenen Stelle sowie bei entsprechenden Vertragsbedingungen einschlägig sein. Die Ausschreibung beschreibt diese Merkmale nicht, daher ist die konkrete Anwendbarkeit offen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/tzbfg/BJNR196610000.html",
+      "fassung_datum": "Zuletzt geändert durch Artikel 7 des Gesetzes vom 20.07.2022",
+      "sicherheit": "unsicher"
+    },
+    {
+      "regelwerk": "NachwG",
+      "vollstaendiger_titel": "Gesetz über den Nachweis der für ein Arbeitsverhältnis geltenden wesentlichen Bedingungen (Nachweisgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Gilt für Arbeitnehmer und betrifft den Nachweis wesentlicher Arbeitsbedingungen nach Abschluss des Arbeitsvertrags, insbesondere Inhalt und Dokumentation der Vertragsbedingungen.",
+      "betroffene_teilprozesse": [
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/nachwg/BJNR094610995.html",
+      "fassung_datum": "Zuletzt geändert durch Artikel 50 des Gesetzes vom 23.10.2024",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BGB",
+      "vollstaendiger_titel": "Bürgerliches Gesetzbuch",
+      "ebene": "Bund",
+      "begruendung": "Enthält die allgemeinen zivilrechtlichen Grundlagen des Dienst- und Arbeitsvertrags und ist deshalb ergänzend beim Vertragsangebot und Vertragsschluss relevant.",
+      "betroffene_teilprozesse": [
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bgb/BGB.pdf",
+      "fassung_datum": "Aktuelle amtliche Fassung auf gesetze-im-internet.de",
+      "sicherheit": "sicher"
+    }
+  ]
+}

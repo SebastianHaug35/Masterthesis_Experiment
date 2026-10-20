@@ -1,0 +1,731 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayPVG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Die Hochschule ist eine öffentliche Dienststelle mit Personalrat. Das Gesetz bildet den Rahmen für dessen Beteiligung bei personalbezogenen Maßnahmen; die Einführung oder Nutzung technischer Systeme und die Auswahl beziehungsweise Einstellung können Beteiligungsfragen auslösen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 76 Abs. 3 Satz 1",
+    "task_id": "T1.1",
+    "fund_id": "F001",
+    "fehlender_schritt": "Falls die Bedarfsmeldung als Personalanforderung zum Haushaltsvoranschlag weitergeleitet wird, ist der Personalrat vorher anzuhören. Ein solcher Anhörungsschritt ist im Prozess nicht aufgeführt.",
+    "begruendung": "Die Vorschrift greift bei der Weiterleitung von Personalanforderungen zum Haushaltsvoranschlag. Ob T1.1 eine solche Weiterleitung umfasst, ist aus der Beschreibung nicht ersichtlich."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "TV-L",
+    "fundstelle": "§ 12 Abs. 1 Sätze 1 bis 8; Anlage A Vorbemerkung Nr. 1 Abs. 2 und Teil II Abschnitt 6",
+    "task_id": "T1.2",
+    "fund_id": "F006",
+    "fehlender_schritt": "Die dauerhaft auszuübenden Aufgaben in Arbeitsvorgänge gliedern, deren Anforderungen und zeitliche Anteile bewerten und anhand der einschlägigen Tätigkeitsmerkmale die Entgeltgruppe bestimmen. Dieser Prüfschritt ist im Prozess nicht ausdrücklich beschrieben.",
+    "begruendung": "Die Eingruppierung richtet sich nach der nicht nur vorübergehend auszuübenden Tätigkeit und den Tätigkeitsmerkmalen der Entgeltordnung, nicht allein nach Stellenbezeichnung oder gewünschtem Abschluss. Zu prüfen sind insbesondere die Arbeitsvorgänge und deren zeitlicher Anteil. Bei einer tatsächlich forschungsbezogenen Tätigkeit ist Teil II Abschnitt 6 der Anlage A einschlägig; dort hängen die Merkmale unter anderem von wissenschaftlicher Hochschulbildung, entsprechender Forschungstätigkeit sowie gegebenenfalls Schwierigkeit, Selbstständigkeit und Verantwortung ab. Aus den vorhandenen Angaben lässt sich keine konkrete Entgeltgruppe ableiten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 3a; Art. 70 Abs. 1 und 2",
+    "task_id": "T1.2",
+    "fund_id": "F007",
+    "fehlender_schritt": "Die vorgesehene Eingruppierung dem Personalrat zur Mitbestimmung vorlegen und das Zustimmungsverfahren vor der abschließenden Maßnahme durchführen. Eine Beteiligung des Personalrats ist im Prozess nicht beschrieben.",
+    "begruendung": "Die Eingruppierung ist eine mitbestimmungspflichtige Personalangelegenheit. Soweit die Eingruppierung in T1.2 abschließend festgelegt wird, ist das Verfahren nach Art. 70 zu beachten. Der amtliche Abruf weist für den dargestellten Text den Geltungsbeginn 01.08.2023 aus; wegen des abweichenden Änderungsstands im vorgegebenen Rechtsrahmen ist die Aktualität dieser Fundstelle unsicher."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 7 Abs. 1 bis 3",
+    "task_id": "T1.2",
+    "fund_id": "F008",
+    "fehlender_schritt": "Bei der Vorbereitung der Stellenausschreibung die geschlechtsneutrale Ausschreibung, den Hinweis auf Teilzeitbeschäftigungsmöglichkeiten und gegebenenfalls die besondere Aufforderung des unterrepräsentierten Geschlechts sicherstellen. Diese Vorgaben sind im Prozess bei der Ausschreibung nicht ausdrücklich genannt.",
+    "begruendung": "Art. 7 regelt konkrete Anforderungen an Stellenausschreibungen. Die Berufsbezeichnung soll grundsätzlich in männlicher und weiblicher Form verwendet werden; auf Teilzeitbeschäftigungsmöglichkeiten ist hinzuweisen. Das Geschlecht, das in erheblich geringerer Zahl beschäftigt ist, soll besonders zur Bewerbung aufgefordert werden. Die Vorschrift betrifft unmittelbar die spätere Ausschreibung (T1.3), ist aber bei der Erstellung des Stellenprofils und der Ausschreibungsgrundlage in T1.2 zu berücksichtigen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165 Satz 1",
+    "task_id": "T1.3",
+    "fund_id": "F011",
+    "fehlender_schritt": "Vor der Veröffentlichung ist nach erfolgloser Prüfung einer internen Besetzung der freie oder neue Arbeitsplatz frühzeitig der Agentur für Arbeit zu melden. Eine Meldung an die Agentur für Arbeit ist im beschriebenen Prozess nicht aufgeführt.",
+    "begruendung": "Als öffentlicher Arbeitgeber muss die Hochschule die von § 165 Satz 1 SGB IX erfassten Arbeitsplätze nach erfolgloser Prüfung zur internen Besetzung frühzeitig der Agentur für Arbeit melden. Die im Prozess genannte interne und externe Veröffentlichung beschreibt diese gesonderte Meldung nicht ausdrücklich."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 13 Abs. 1 und 2",
+    "task_id": "T2.1",
+    "fund_id": "F016",
+    "fehlender_schritt": "Bei oder spätestens zum Zeitpunkt der Erhebung über das Portal die vorgeschriebenen Datenschutzinformationen bereitstellen, insbesondere zu Verantwortlichem, Zwecken, Rechtsgrundlage, Empfängern, Speicherdauer und Betroffenenrechten.",
+    "begruendung": "Die Prozessbeschreibung nennt den Empfang der Unterlagen, aber nicht die Information der Bewerberinnen und Bewerber bei der Erhebung. Werden die Daten direkt von ihnen erhoben, muss die Information grundsätzlich zu diesem Zeitpunkt erfolgen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 30 Abs. 1",
+    "task_id": "T2.1",
+    "fund_id": "F019",
+    "fehlender_schritt": "Die Verarbeitung der Bewerbungsdaten in das Verzeichnis der Verarbeitungstätigkeiten aufnehmen beziehungsweise den vorhandenen Eintrag für das Bewerbungsportal aktuell halten.",
+    "begruendung": "Die Hochschule muss als Verantwortliche ein Verzeichnis der Verarbeitungstätigkeiten führen. Die Prozessbeschreibung nennt keine entsprechende Dokumentation; sie kann allerdings außerhalb des operativen Bewerbungsablaufs geführt werden."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayDSG",
+    "fundstelle": "Art. 31",
+    "task_id": "T2.1",
+    "fund_id": "F020",
+    "fehlender_schritt": "Im Verzeichnis der Verarbeitungstätigkeiten zusätzlich die Rechtsgrundlage und, soweit einschlägig, die Verwendung von Profiling eintragen.",
+    "begruendung": "Art. 31 ergänzt die Anforderungen an das Verzeichnis nach Art. 30 Abs. 1 DSGVO. Ob Profiling bereits beim Empfang stattfindet, ist nicht beschrieben; das spätere KI-Ranking ist im Gesamtprozess jedenfalls gesondert zu prüfen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 28 Abs. 3",
+    "task_id": "T2.1",
+    "fund_id": "F021",
+    "fehlender_schritt": "Falls ein externer Anbieter das Portal im Auftrag der Hochschule betreibt oder Bewerbungsdaten sonst weisungsgebunden verarbeitet, vor Beginn der Verarbeitung einen den Anforderungen des Art. 28 Abs. 3 entsprechenden Auftragsverarbeitungsvertrag schließen.",
+    "begruendung": "Die Nutzung eines Bewerbungsportals kann eine Auftragsverarbeitung einschließen; aus der Beschreibung geht nicht hervor, ob das Portal intern oder durch einen Auftragsverarbeiter betrieben wird. Der erforderliche Vertrag ist daher bedingt zu prüfen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1",
+    "task_id": "T2.1",
+    "fund_id": "F025",
+    "fehlender_schritt": "Vor Beginn der Verarbeitung im Gesamtverfahren prüfen und dokumentieren, ob wegen des KI-gestützten Rankings und der weiteren Verarbeitung von Bewerberdaten eine Datenschutz-Folgenabschätzung erforderlich ist; falls ein voraussichtlich hohes Risiko besteht, diese vorab durchführen.",
+    "begruendung": "Die Prozessbeschreibung umfasst neben der Erhebung ein KI-gestütztes Ranking von Bewerbungen. Ob die Verarbeitung insgesamt voraussichtlich ein hohes Risiko für die Rechte und Freiheiten natürlicher Personen mit sich bringt, lässt sich aus den Angaben nicht abschließend bestimmen; ein dokumentierter Prüfschritt zur Folgenabschätzung ist im Prozess nicht genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 13 Abs. 1 und 2",
+    "task_id": "T2.2",
+    "fund_id": "F027",
+    "fehlender_schritt": "Bei der Erhebung der Bewerberdaten muss die Hochschule die vorgeschriebenen Datenschutzinformationen bereitstellen. Dieser Schritt ist im Prozess nicht ausdrücklich beschrieben; die Information sollte grundsätzlich bereits bei Eingang der Bewerbung in TP2.1 erfolgen. Eine Eingangsbestätigung kann sie gegebenenfalls nachreichen, ersetzt aber nicht die Pflicht zur Information zum Erhebungszeitpunkt.",
+    "begruendung": "Die Hochschule muss Bewerberinnen und Bewerber bei einer Erhebung ihrer Daten unmittelbar über die in Art. 13 Abs. 1 und 2 genannten Punkte informieren, darunter Verantwortlicher, Zwecke und Rechtsgrundlage der Verarbeitung sowie Betroffenenrechte. Der Prozess nennt eine Eingangsbestätigung, aber keine Datenschutzinformation. Daraus ergibt sich eine mögliche, nicht abschließend feststellbare Lücke."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 6 Abs. 1",
+    "task_id": "T2.3",
+    "fund_id": "F032",
+    "fehlender_schritt": "Vor dem Anlegen der Daten die konkrete Rechtsgrundlage der Bewerberdatenverarbeitung festlegen und dokumentieren.",
+    "begruendung": "Das Anlegen und Speichern personenbezogener Bewerberdaten benötigt eine Rechtsgrundlage. Aus dem Prozess ist nicht ersichtlich, dass diese festgelegt oder dokumentiert wird. Die passende Grundlage hängt vom Zweck und der konkreten Verarbeitung ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 13 Abs. 1 und 2",
+    "task_id": "T2.3",
+    "fund_id": "F034",
+    "fehlender_schritt": "Bewerberinnen und Bewerber bei der Erhebung über Verantwortlichen, Zwecke, Rechtsgrundlage, Empfänger, Speicherdauer und ihre Rechte informieren.",
+    "begruendung": "Die Informationen sind grundsätzlich zum Zeitpunkt der Erhebung bereitzustellen. Der Prozess nennt bei Bewerbungseingang und Datenanlage keine Datenschutzhinweise. Die Pflicht betrifft insbesondere TP2.1, bleibt aber für die hier angelegte Verarbeitung relevant."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 28 Abs. 3",
+    "task_id": "T2.3",
+    "fund_id": "F037",
+    "fehlender_schritt": "Falls ein externer Anbieter Bewerberdaten im Auftrag verarbeitet, vorab einen den Anforderungen des Art. 28 Abs. 3 entsprechenden Auftragsverarbeitungsvertrag abschließen.",
+    "begruendung": "Der Prozess nennt ein Bewerbungsportal, lässt aber offen, ob ein externer Anbieter die Daten im Auftrag der Hochschule verarbeitet und ob ein Auftragsverarbeitungsvertrag besteht."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 30 Abs. 1",
+    "task_id": "T2.3",
+    "fund_id": "F039",
+    "fehlender_schritt": "Die Verarbeitung von Bewerberdaten im Bewerbungsmanagement in das Verzeichnis der Verarbeitungstätigkeiten aufnehmen oder den Eintrag aktualisieren.",
+    "begruendung": "Der Verantwortliche muss ein Verzeichnis der Verarbeitungstätigkeiten führen. Ein entsprechender Schritt ist im beschriebenen Prozess nicht genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1 und 3",
+    "task_id": "T2.3",
+    "fund_id": "F041",
+    "fehlender_schritt": "Vor der Verarbeitung prüfen und dokumentieren, ob wegen der KI-gestützten Bewerberauswahl und des Rankings eine Datenschutz-Folgenabschätzung erforderlich ist; falls ein voraussichtlich hohes Risiko besteht, diese vorab durchführen.",
+    "begruendung": "Eine Folgenabschätzung ist vorgeschrieben, wenn die Verarbeitung voraussichtlich ein hohes Risiko für die Rechte und Freiheiten natürlicher Personen mit sich bringt. Das spätere KI-Ranking kann für diese Prüfung relevant sein; eine Folgenabschätzung oder Risikoprüfung ist im Prozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 13 Abs. 1 und 2",
+    "task_id": "T3.1",
+    "fund_id": "F047",
+    "fehlender_schritt": "Bewerberinnen und Bewerber bei Erhebung ihrer Daten transparent über die Verarbeitung mittels KI, deren Zwecke, Rechtsgrundlage, Empfänger und weitere Pflichtangaben informieren.",
+    "begruendung": "Die Bewerbungen werden laut Prozess unmittelbar von den betroffenen Personen über das Bewerbungsportal erhoben. Eine Information über die Datenverarbeitung ist im beschriebenen Prozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 28 Abs. 1 und 3",
+    "task_id": "T3.1",
+    "fund_id": "F050",
+    "fehlender_schritt": "Falls der Anbieter oder Betreiber des KI-Tools Bewerberdaten im Auftrag der Hochschule verarbeitet, Auftragsverarbeiterstellung und einen den Anforderungen des Art. 28 entsprechenden Vertrag prüfen und sicherstellen.",
+    "begruendung": "Der Prozess nennt ein KI-Tool, lässt aber offen, ob ein Dienstleister Bewerberdaten verarbeitet. Bei Auftragsverarbeitung darf die Hochschule nur einen hinreichend geeigneten Auftragsverarbeiter einsetzen; die Verarbeitung muss vertraglich geregelt sein."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 30 Abs. 1",
+    "task_id": "T3.1",
+    "fund_id": "F051",
+    "fehlender_schritt": "Die Verarbeitung der Bewerberdaten einschließlich KI-Auswertung und Ranking im Verzeichnis der Verarbeitungstätigkeiten dokumentieren.",
+    "begruendung": "Die regelmäßige Verarbeitung im Bewerbungsverfahren ist nicht als gelegentlich beschrieben; außerdem kann sie besondere Daten oder ein Risiko für Rechte und Freiheiten betreffen. Das Verzeichnis nach Art. 30 ist im Prozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1 und Abs. 3 Buchst. a",
+    "task_id": "T3.1",
+    "fund_id": "F053",
+    "fehlender_schritt": "Vor Beginn der KI-Auswertung prüfen und dokumentieren, ob eine Datenschutz-Folgenabschätzung erforderlich ist; bei voraussichtlich hohem Risiko diese vor der Verarbeitung durchführen.",
+    "begruendung": "Die systematische Bewertung von Bewerberinnen und Bewerbern anhand automatisierter Verarbeitung kann unter Art. 35 Abs. 3 Buchst. a fallen, wenn darauf Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung beruhen. Der Prozess nennt keine Prüfung oder Folgenabschätzung; ihre konkrete Erforderlichkeit hängt unter anderem von Funktionsweise, Einfluss und Umfang des Rankings ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 4",
+    "task_id": "T3.1",
+    "fund_id": "F055",
+    "fehlender_schritt": "Sicherstellen und dokumentieren, dass die mit Betrieb und Nutzung des KI-Systems befassten Beschäftigten über ein ihrem Einsatzkontext angemessenes Maß an KI-Kompetenz verfügen.",
+    "begruendung": "Die KI-VO verlangt von Anbietern und Betreibern Maßnahmen, um nach besten Kräften ausreichende KI-Kompetenz des mit dem System befassten Personals sicherzustellen. Schulung oder sonstige Kompetenzmaßnahmen sind im beschriebenen Prozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 27 Abs. 1 und 2",
+    "task_id": "T3.1",
+    "fund_id": "F057",
+    "fehlender_schritt": "Vor der ersten Inbetriebnahme beziehungsweise Verwendung des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen und erforderlichenfalls aktualisieren.",
+    "begruendung": "Als Einrichtung des öffentlichen Rechts muss die Hochschule bei Verwendung eines Hochrisiko-KI-Systems grundsätzlich vor dessen Inbetriebnahme die Auswirkungen auf Grundrechte abschätzen. Dazu gehören insbesondere betroffene Personengruppen, spezifische Schadensrisiken, menschliche Aufsicht und Maßnahmen bei Risikoeintritt. Ein solcher Schritt ist im Gesamtprozess nicht beschrieben."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 49 Abs. 3",
+    "task_id": "T3.1",
+    "fund_id": "F058",
+    "fehlender_schritt": "Falls das System als Hochrisiko-KI-System nach Anhang III eingestuft wird, vor seiner Verwendung die erforderliche Registrierung der Hochschule als Betreiber in der EU-Datenbank prüfen und gegebenenfalls vornehmen.",
+    "begruendung": "Für Betreiber, die öffentliche Stellen sind, sieht die KI-VO bei den erfassten Hochrisiko-KI-Systemen eine Registrierung vor der Inbetriebnahme oder Nutzung vor. Eine Registrierung ist im Prozess nicht erwähnt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165 Satz 3 und 4",
+    "task_id": "T3.1",
+    "fund_id": "F063",
+    "fehlender_schritt": "Bei der späteren Einladung sicherstellen, dass schwerbehinderte Bewerberinnen und Bewerber, die sich beworben haben oder vorgeschlagen wurden, grundsätzlich zum Vorstellungsgespräch eingeladen werden; eine Ausnahme gilt nur bei offensichtlich fehlender fachlicher Eignung.",
+    "begruendung": "Die KI-Vorauswahl darf die besondere Einladungspflicht öffentlicher Arbeitgeber nicht unterlaufen. Der Prozess enthält eine Intervieweinladung, beschreibt aber keine Sicherung dieser Pflicht bei der Bildung der Shortlist."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.1",
+    "fund_id": "F064",
+    "fehlender_schritt": "Vor Einführung oder Anwendung des automatisierten Verfahrens zur Personalverwaltung die Mitbestimmung des Personalrats prüfen und gegebenenfalls durchführen.",
+    "begruendung": "Das automatisierte Bewerbermanagement mit KI-Ranking kann ein automatisiertes Verfahren zur Personalverwaltung sein. Die Mitbestimmung des Personalrats bei Einführung und Anwendung solcher Verfahren ist im Prozess nicht aufgeführt; die konkrete Einordnung hängt vom Einsatz des Systems ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1, 2 und 7",
+    "task_id": "T3.2",
+    "fund_id": "F069",
+    "fehlender_schritt": "Vor dem erstmaligen Einsatz des KI-Rankings prüfen und dokumentieren, ob eine Datenschutz-Folgenabschätzung erforderlich ist; bei voraussichtlich hohem Risiko die Folgenabschätzung vorab durchführen und den Datenschutzbeauftragten einbeziehen.",
+    "begruendung": "Eine neue Technologie zur systematischen Auswertung und Bewertung von Bewerbungen kann voraussichtlich ein hohes Risiko für die Rechte und Freiheiten der Betroffenen verursachen. Der Prozess beschreibt keine Datenschutz-Folgenabschätzung. Ob sie im konkreten Einsatz zwingend ist, hängt unter anderem von Funktionsweise, Umfang und tatsächlicher Auswirkung des Rankings ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 26 Abs. 7 und 11",
+    "task_id": "T3.2",
+    "fund_id": "F074",
+    "fehlender_schritt": "Vor dem Einsatz des Hochrisiko-KI-Systems am Arbeitsplatz die betroffenen Beschäftigten und ihre Vertretung informieren; außerdem Bewerberinnen und Bewerber über den Einsatz informieren, soweit sie einer Entscheidung unterworfen sind oder eine solche Entscheidung durch das System unterstützt wird.",
+    "begruendung": "Die Prozessbeschreibung nennt weder eine vorherige Information der Beschäftigtenvertretung zum KI-Einsatz am Arbeitsplatz noch eine Information der betroffenen Bewerberinnen und Bewerber. Ob und in welchem Umfang die Informationspflichten im konkreten Einsatz greifen, hängt von der Nutzung und der Rolle des Systems im Entscheidungsprozess ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 27 Abs. 1 und 2",
+    "task_id": "T3.2",
+    "fund_id": "F075",
+    "fehlender_schritt": "Vor der erstmaligen Inbetriebnahme des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen und bei geänderten relevanten Umständen aktualisieren.",
+    "begruendung": "Für Betreiber, die Einrichtungen des öffentlichen Rechts sind, verlangt Art. 27 vor der Inbetriebnahme eines erfassten Hochrisiko-Systems eine Abschätzung möglicher Auswirkungen auf Grundrechte. Die Hochschule ist als öffentliche Hochschule erfasst. Voraussetzung ist, dass das konkrete Ranking-System als Hochrisiko-KI-System einzustufen ist; eine solche Abschätzung ist im beschriebenen Prozess nicht genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 86 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F076",
+    "fehlender_schritt": "Ein Verfahren vorsehen, um auf ein Verlangen betroffener Personen eine klare und aussagekräftige Erläuterung zur Rolle des KI-Systems und zu den wichtigsten Elementen der Entscheidung geben zu können.",
+    "begruendung": "Das Erläuterungsrecht greift, wenn eine Entscheidung auf der Ausgabe eines Hochrisiko-Systems beruht und rechtliche oder ähnlich erhebliche Auswirkungen hat. Ob ein bloßes Ranking mit anschließender wirksamer menschlicher Prüfung diese Voraussetzung erfüllt, hängt von seinem tatsächlichen Einfluss auf die Entscheidung ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2 und Art. 70 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F077",
+    "fehlender_schritt": "Vor Einführung oder Anwendung des automatisierten KI-Verfahrens zur Personalverwaltung die Mitbestimmung des Personalrats durchführen und dessen Zustimmung einholen, soweit keine gesetzliche oder tarifliche Regelung besteht.",
+    "begruendung": "Ein automatisiertes Bewerbungsranking kann ein automatisiertes Verfahren zur Personalverwaltung sein. Bei mitbestimmungspflichtigen Maßnahmen darf diese nach Art. 70 Abs. 1 grundsätzlich nur mit Zustimmung des Personalrats getroffen werden. Eine Beteiligung des Personalrats ist im Prozess nicht beschrieben."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1 und 2",
+    "task_id": "T3.2",
+    "fund_id": "F080",
+    "fehlender_schritt": "Bewerbungen schwerbehinderter Menschen nach Eingang der Schwerbehindertenvertretung und den weiteren in § 164 Abs. 1 genannten Vertretungen mitteilen und die vorgeschriebene Beteiligung sicherstellen; bei der Rangbildung eine Benachteiligung wegen der Behinderung ausschließen.",
+    "begruendung": "§ 164 Abs. 1 verlangt die Unterrichtung über vorliegende Bewerbungen schwerbehinderter Menschen unmittelbar nach Eingang und regelt die Beteiligung der Schwerbehindertenvertretung sowie das Anhören weiterer Vertretungen. Der Gesamtprozess nennt diese Schritte nicht. Abs. 2 verbietet eine Benachteiligung wegen der Behinderung."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 14 Abs. 1–4; Art. 26 Abs. 1–2",
+    "task_id": "T3.3",
+    "fund_id": "F084",
+    "fehlender_schritt": "Die menschliche Prüfung konkret ausgestalten: zuständige Personen müssen die Grenzen und Ausgaben des Systems verstehen, Automatisierungsbias berücksichtigen und befugt sowie in der Lage sein, das Ergebnis unabhängig zu prüfen, abzuändern oder zu verwerfen. Im Prozess ist nur allgemein eine Prüfung durch die Fachabteilung genannt; Kompetenz, Befugnisse und Prüfkriterien sind nicht beschrieben.",
+    "begruendung": "Bei einem Hochrisiko-System muss wirksame, dem Risiko und Nutzungskontext angemessene menschliche Aufsicht gewährleistet sein. Betreiber müssen die Aufsicht einer Person mit erforderlicher Kompetenz, Ausbildung und Befugnis übertragen und diese unterstützen. T3.3 ist dafür ein vorgesehener Schritt, beschreibt aber nicht, wie eine wirksame Prüfung sichergestellt wird."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 4",
+    "task_id": "T3.3",
+    "fund_id": "F085",
+    "fehlender_schritt": "Sicherstellen, dass die mit der Prüfung befassten Personen über ein angemessenes Maß an KI-Kompetenz verfügen; entsprechende Maßnahmen sind im Prozess nicht beschrieben.",
+    "begruendung": "Anbieter und Betreiber müssen Maßnahmen ergreifen, um nach besten Kräften ein ausreichendes Maß an KI-Kompetenz bei ihrem Personal und den sonst mit Betrieb oder Nutzung befassten Personen sicherzustellen. Das ist für die sachkundige Prüfung und Einordnung des Rankings relevant."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1 und gegebenenfalls Abs. 3 Buchst. a",
+    "task_id": "T3.3",
+    "fund_id": "F088",
+    "fehlender_schritt": "Vor Beginn der betreffenden Verarbeitung prüfen und dokumentieren, ob eine Datenschutz-Folgenabschätzung erforderlich ist; falls ja, diese vorab durchführen. Ein solcher Prüfschritt ist im Gesamtprozess nicht genannt.",
+    "begruendung": "Eine Folgenabschätzung ist erforderlich, wenn die Verarbeitung voraussichtlich ein hohes Risiko für Rechte und Freiheiten mit sich bringt. Art. 35 Abs. 3 Buchst. a nennt insbesondere eine systematische und umfassende Bewertung persönlicher Aspekte auf automatisierter Verarbeitung als Fall, in dem eine Folgenabschätzung erforderlich ist, wenn darauf Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung beruhen. Ob diese Voraussetzungen beim konkreten Ranking erfüllt sind, hängt von dessen Ausgestaltung und Einfluss ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.3",
+    "fund_id": "F089",
+    "fehlender_schritt": "Falls das System als Hochrisiko-KI-System nach Anhang III Nr. 4 Buchst. a eingesetzt wird: vor seiner Inbetriebnahme eine Grundrechte-Folgenabschätzung durchführen und dokumentieren. Dieser Schritt ist im Gesamtprozess nicht aufgeführt.",
+    "begruendung": "Betreiber, die Einrichtungen des öffentlichen Rechts sind, müssen vor Inbetriebnahme eines Hochrisiko-KI-Systems nach Art. 6 Abs. 2 grundsätzlich dessen mögliche Auswirkungen auf Grundrechte abschätzen. Die Hochschule ist als öffentliche Hochschule beschrieben. Die Pflicht betrifft die Inbetriebnahme und ist daher nicht auf die einzelne Prüfung in T3.3 beschränkt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165 Satz 3 und 4",
+    "task_id": "T3.3",
+    "fund_id": "F092",
+    "fehlender_schritt": "Bei schwerbehinderten Bewerbern sicherstellen, dass ein Ausschluss aufgrund fehlender fachlicher Eignung nur erfolgt, wenn diese offensichtlich fehlt; andernfalls sind sie zum Vorstellungsgespräch einzuladen. Eine gesonderte Prüfung dieses gesetzlichen Maßstabs vor einer KI-basierten Nichtberücksichtigung ist im Prozess nicht beschrieben.",
+    "begruendung": "Öffentliche Arbeitgeber müssen schwerbehinderte Bewerber grundsätzlich zum Vorstellungsgespräch einladen. Die Einladung ist nur entbehrlich, wenn die fachliche Eignung offensichtlich fehlt. Ein niedriger Rang oder eine negative KI-Bewertung belegt für sich genommen nicht, dass diese gesetzliche Ausnahme erfüllt ist."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2; gegebenenfalls Art. 75 Abs. 4 Satz 1 Nr. 13",
+    "task_id": "T3.3",
+    "fund_id": "F093",
+    "fehlender_schritt": "Vor Einführung oder Anwendung des KI-gestützten Verfahrens klären und dokumentieren, ob die Mitbestimmung des Personalrats wegen eines automatisierten Verfahrens zur Personalverwaltung oder wegen Richtlinien über die personelle Auswahl erforderlich ist, und gegebenenfalls die Beteiligung rechtzeitig durchführen. Eine Beteiligung ist im Gesamtprozess nicht beschrieben.",
+    "begruendung": "Das Ranking kann Teil eines automatisierten Verfahrens zur Personalverwaltung sein; außerdem können Auswahlkriterien oder Vorgaben für den KI-Einsatz unter Richtlinien über die personelle Auswahl fallen. Ob die Tatbestände im konkreten System erfüllt sind, hängt von dessen Funktion und organisatorischer Ausgestaltung ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 22 Abs. 1 und 3",
+    "task_id": "T3.4",
+    "fund_id": "F097",
+    "fehlender_schritt": "Sicherstellen und dokumentieren, dass die Shortlist nicht lediglich das KI-Ranking übernimmt: Eine zuständige Person muss die Einzelfälle tatsächlich eigenständig prüfen, die Möglichkeit haben, vom Ranking abzuweichen, und die Entscheidung verantworten. Falls eine Entscheidung dennoch ausschließlich automatisiert getroffen wird und rechtliche oder ähnlich erhebliche Auswirkungen hat, sind die Voraussetzungen und Schutzmaßnahmen des Art. 22 zu beachten.",
+    "begruendung": "T3.3 nennt eine Prüfung durch die Fachabteilung, lässt aber offen, ob diese eine wirksame menschliche Prüfung mit eigener Entscheidungskompetenz ist oder nur eine Bestätigung des Rankings. Ob Art. 22 greift, hängt außerdem davon ab, ob die Shortlist beziehungsweise der Ausschluss aus dem weiteren Verfahren erhebliche Auswirkungen hat und wie maßgeblich das Ranking tatsächlich ist."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1 und Abs. 3 Buchst. a",
+    "task_id": "T3.4",
+    "fund_id": "F098",
+    "fehlender_schritt": "Vor dem Einsatz des KI-gestützten Bewertungs- und Rankingverfahrens prüfen und dokumentieren, ob eine Datenschutz-Folgenabschätzung erforderlich ist; bei voraussichtlich hohem Risiko diese vor der Verarbeitung durchführen.",
+    "begruendung": "Die systematische Bewertung und Rangbildung anhand personenbezogener Bewerbungsdaten kann eine Datenschutz-Folgenabschätzung erforderlich machen, insbesondere wenn eine systematische und umfassende Bewertung persönlicher Aspekte mit erheblichen Auswirkungen vorliegt. Aus dem Prozess geht nicht hervor, ob diese Prüfung oder eine Folgenabschätzung erfolgt ist."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayDSG",
+    "fundstelle": "Art. 35 Abs. 1 und 2",
+    "task_id": "T3.4",
+    "fund_id": "F100",
+    "fehlender_schritt": "Die Shortlistentscheidung muss durch eine natürliche Person tatsächlich eigenständig getroffen werden und darf bei nachteiliger Rechtsfolge oder erheblicher Beeinträchtigung nicht ausschließlich auf automatisierter Verarbeitung beruhen. Außerdem sicherstellen, dass kein Profiling Bewerberinnen oder Bewerber aufgrund besonderer Kategorien personenbezogener Daten benachteiligt.",
+    "begruendung": "Das Bayerische Datenschutzgesetz enthält für öffentliche Stellen Vorgaben zu automatisierten Einzelentscheidungen und zu diskriminierendem Profiling mit besonderen Daten. Die beschriebene Prüfung durch die Fachabteilung spricht für menschliche Beteiligung, belegt aber nicht deren tatsächliche Eigenständigkeit oder Entscheidungskompetenz."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 4",
+    "task_id": "T3.4",
+    "fund_id": "F103",
+    "fehlender_schritt": "Maßnahmen zur KI-Kompetenz der mit Betrieb und Nutzung des Systems befassten Beschäftigten vorsehen, passend zu deren Kenntnissen, Erfahrung, Schulung und dem Einsatzkontext.",
+    "begruendung": "Die Vorschrift gilt für Betreiber von KI-Systemen. Im Prozess ist eine menschliche Prüfung des KI-Ergebnisses vorgesehen, aber keine Maßnahme zur Sicherstellung ausreichender KI-Kompetenz der damit befassten Personen beschrieben."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 26 Abs. 1, 2 und 5; Art. 14",
+    "task_id": "T3.4",
+    "fund_id": "F104",
+    "fehlender_schritt": "Für den Betrieb als Hochrisiko-KI-System die Betreiberpflichten umsetzen: System gemäß Gebrauchsanweisung nutzen, geeignete natürliche Personen mit wirksamer menschlicher Aufsicht betrauen und die vorgeschriebenen Protokolle aufbewahren. Bei der menschlichen Aufsicht muss die zuständige Person die Ausgaben verstehen und das System beziehungsweise dessen Ergebnisse nötigenfalls übergehen können.",
+    "begruendung": "Diese Betreiberpflichten sind für ein Hochrisiko-System im Bewerbungsranking einschlägig. Die Prozessbeschreibung sieht eine Prüfung durch die Fachabteilung vor, nennt aber weder die erforderliche Aufsichtsorganisation noch Protokollaufbewahrung. Nach der durch Verordnung (EU) 2026/1744 geänderten Übergangsregelung gelten die Pflichten aus Kapitel III Abschnitt 2 für Systeme nach Art. 6 Abs. 2 und Anhang III Nr. 4 Buchst. a ab 02.12.2027."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 27 Abs. 1 und 2",
+    "task_id": "T3.4",
+    "fund_id": "F105",
+    "fehlender_schritt": "Vor dem ersten Einsatz des Hochrisiko-Systems eine Grundrechte-Folgenabschätzung durchführen und dabei insbesondere den Auswahlprozess, betroffene Personengruppen, Risiken, menschliche Aufsicht und Maßnahmen bei Eintritt von Risiken erfassen; bei Änderungen die Beurteilung erforderlichenfalls aktualisieren.",
+    "begruendung": "Die Hochschule ist eine juristische Person des öffentlichen Rechts und der beschriebene Einsatz betrifft ein Hochrisiko-System nach Anhang III. Die Vorschrift verlangt eine Folgenabschätzung vor dem Einsatz; im Prozess ist sie nicht genannt. Die Pflicht gilt für dieses System nach der geänderten Übergangsregelung ab 02.12.2027."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165 Satz 3 und 4",
+    "task_id": "T3.4",
+    "fund_id": "F106",
+    "fehlender_schritt": "Schwerbehinderte Bewerberinnen und Bewerber, die sich beworben haben oder vorgeschlagen wurden, in die Vorstellungsgespräche aufnehmen; eine Nicht-Einladung ist nur zulässig, wenn die fachliche Eignung offensichtlich fehlt. Das KI-Ranking darf diese gesetzliche Einladungspflicht nicht umgehen.",
+    "begruendung": "Die Shortlist bereitet die Einladungen zu Vorstellungsgesprächen vor. Der Prozess nennt keine Prüfung oder Sicherung der besonderen Einladungspflicht schwerbehinderter Bewerberinnen und Bewerber."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1; § 178 Abs. 2",
+    "task_id": "T3.4",
+    "fund_id": "F107",
+    "fehlender_schritt": "Bewerbungen schwerbehinderter Menschen und Vermittlungsvorschläge der Schwerbehindertenvertretung unverzüglich mitteilen und die Schwerbehindertenvertretung im Verfahren nach § 164 Abs. 1 beteiligen; ihre Rechte auf Einsicht in entscheidungsrelevante Bewerbungsunterlagen und Teilnahme an Vorstellungsgesprächen wahren.",
+    "begruendung": "Der beschriebene Prozess nennt die Gleichstellungsbeauftragte, aber keine Schwerbehindertenvertretung. Soweit schwerbehinderte Bewerbungen oder Vermittlungsvorschläge vorliegen, sind die gesetzlichen Informations- und Beteiligungspflichten zu beachten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2; Art. 70 Abs. 1 Satz 1",
+    "task_id": "T3.4",
+    "fund_id": "F108",
+    "fehlender_schritt": "Vor Einführung oder Anwendung des KI-Tools prüfen, ob es ein automatisiertes Verfahren zur Personalverwaltung ist, und gegebenenfalls die Zustimmung des Personalrats einholen. Die Zustimmung muss vor Durchführung der mitbestimmungspflichtigen Maßnahme vorliegen.",
+    "begruendung": "Ein automatisiertes Bewerbungsranking kann als automatisiertes Verfahren zur Personalverwaltung erfasst sein. Ob die konkrete Ausgestaltung darunter fällt, ist anhand des Systems und seines Einsatzes zu prüfen. Der Personalrat ist im Prozess genannt, eine Beteiligung an Einführung oder Anwendung des Tools aber nicht."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 2 und 3",
+    "task_id": "T3.4",
+    "fund_id": "F109",
+    "fehlender_schritt": "Die Gleichstellungsbeauftragte bei Personalangelegenheiten rechtzeitig und umfassend unterrichten sowie erforderliche Unterlagen frühzeitig vorlegen. Eine Beteiligung an Personalangelegenheiten und Vorstellungsgesprächen erfolgt nach Maßgabe der Antragsrechte in Art. 17 Abs. 3.",
+    "begruendung": "Die Prozessbeschreibung nennt eine Beteiligung der Gleichstellungsbeauftragten im Vorstellungsgespräch, aber nicht die Unterrichtung über die Shortlist und die dafür erforderlichen Unterlagen. Die gesetzlichen Beteiligungsrechte sind insbesondere dann zu beachten, wenn die vorgesehenen Anträge gestellt werden."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165 Satz 3 und 4",
+    "task_id": "T4.1",
+    "fund_id": "F110",
+    "fehlender_schritt": "Vor dem Versand der Einladungen prüfen, ob schwerbehinderte oder gleichgestellte Bewerberinnen und Bewerber eingeladen werden. Eine Nichteinladung ist nur zulässig, wenn die fachliche Eignung offensichtlich fehlt; diese Ausnahme und ihre Grundlage sollten nachvollziehbar festgehalten werden.",
+    "begruendung": "Öffentliche Arbeitgeber müssen schwerbehinderte Bewerberinnen und Bewerber zu einem Vorstellungsgespräch einladen, sofern ihre fachliche Eignung nicht offensichtlich fehlt. Die beschriebenen Schritte nennen keine ausdrückliche Prüfung dieser Pflicht für Personen, die nicht auf der Shortlist stehen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 178 Abs. 2 Satz 1 und 4",
+    "task_id": "T4.1",
+    "fund_id": "F111",
+    "fehlender_schritt": "Bei Bewerbungen schwerbehinderter Menschen die Schwerbehindertenvertretung unverzüglich und umfassend unterrichten und vor einer sie betreffenden Entscheidung anhören; ihr die Teilnahme an Vorstellungsgesprächen ermöglichen. Die Beteiligung ist im beschriebenen Prozess nicht aufgeführt.",
+    "begruendung": "Die Schwerbehindertenvertretung ist bei Angelegenheiten, die einzelne schwerbehinderte Menschen berühren, vor der Entscheidung anzuhören. Bei Bewerbungen schwerbehinderter Menschen hat sie außerdem Einsichts- und Teilnahmerechte."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 3 Satz 3 und 4",
+    "task_id": "T4.1",
+    "fund_id": "F112",
+    "fehlender_schritt": "Mit der Einladung auf das Recht der betroffenen Person hinweisen, die Teilnahme der Gleichstellungsbeauftragten am Vorstellungsgespräch zu beantragen; deren Teilnahme am Gespräch von einem solchen Antrag abhängig machen.",
+    "begruendung": "Eine Beteiligung der Gleichstellungsbeauftragten am Vorstellungsgespräch findet nur auf Antrag der betroffenen Person statt. Auf dieses Antragsrecht muss spätestens in der Einladung hingewiesen werden. Der Prozess nennt die Teilnahme der Gleichstellungsbeauftragten, aber keinen Hinweis in der Einladung auf das Antragsrecht."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 2 und Abs. 3 Sätze 2 bis 4",
+    "task_id": "T4.2",
+    "fund_id": "F118",
+    "fehlender_schritt": "Vor der Teilnahme der Gleichstellungsbeauftragten prüfen und dokumentieren, ob die jeweilige betroffene Person ihre Beteiligung am Vorstellungsgespräch beantragt hat. Spätestens mit der Einladung ist auf dieses Antragsrecht hinzuweisen; dieser Hinweis ist im Prozess nicht ausdrücklich genannt.",
+    "begruendung": "Die Gleichstellungsbeauftragte ist bei Personalangelegenheiten rechtzeitig und umfassend zu unterrichten. Eine Beteiligung am Vorstellungsgespräch findet nach Art. 17 Abs. 3 Satz 3 nur auf Antrag der betroffenen Person statt; auf das Antragsrecht muss spätestens bei der Einladung hingewiesen werden. Die im Task vorgesehene Teilnahme ist daher nicht ohne Weiteres für jedes Gespräch verpflichtend oder voraussetzungslos."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165",
+    "task_id": "T4.2",
+    "fund_id": "F120",
+    "fehlender_schritt": "Im Zusammenhang mit der Einladung (TP4.1) sicherstellen, dass schwerbehinderte Bewerberinnen und Bewerber zu einem Vorstellungsgespräch eingeladen werden, sofern ihre fachliche Eignung nicht offensichtlich fehlt. Die Prozessbeschreibung nennt diese Prüfung nicht.",
+    "begruendung": "Öffentliche Arbeitgeber müssen schwerbehinderte Bewerberinnen und Bewerber zu einem Vorstellungsgespräch einladen; die Einladung ist nur entbehrlich, wenn die fachliche Eignung offensichtlich fehlt. Die Pflicht betrifft die Einladung vor dem hier beschriebenen Gespräch."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 178 Abs. 2",
+    "task_id": "T4.2",
+    "fund_id": "F121",
+    "fehlender_schritt": "Bei betroffenen schwerbehinderten Bewerberinnen und Bewerbern die Schwerbehindertenvertretung unverzüglich und umfassend unterrichten und vor der Entscheidung anhören. Eine Beteiligung oder Anhörung der Schwerbehindertenvertretung ist im Prozess nicht beschrieben.",
+    "begruendung": "Die Schwerbehindertenvertretung ist in Angelegenheiten, die einzelne oder schwerbehinderte Menschen als Gruppe berühren, unverzüglich und umfassend zu unterrichten und vor einer Entscheidung anzuhören. Das kann das Auswahlverfahren und die Gesprächsergebnisse betreffen; die Pflicht ist vom jeweiligen Einzelfall abhängig."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 69 Abs. 2; Art. 75 Abs. 1 Satz 1 Nr. 1",
+    "task_id": "T4.2",
+    "fund_id": "F122",
+    "fehlender_schritt": "Den Personalrat rechtzeitig und umfassend unterrichten und die erforderlichen Unterlagen zur Verfügung stellen; die Mitbestimmung bei der Einstellung ist vor deren Vollzug sicherzustellen. Eine Beteiligung des Personalrats ist im Prozess nicht ausdrücklich abgebildet.",
+    "begruendung": "Der Personalrat ist zur Durchführung seiner Aufgaben rechtzeitig und umfassend zu unterrichten. Bei der Einstellung besteht grundsätzlich Mitbestimmung. Die genannten Vorschriften begründen nicht ohne Weiteres eine Pflicht, den Personalrat an jedem Vorstellungsgespräch teilnehmen zu lassen; sie verlangen aber die erforderliche rechtzeitige Beteiligung im Personalverfahren."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 9 Abs. 1 und 2; Art. 32 Abs. 1",
+    "task_id": "T4.2",
+    "fund_id": "F124",
+    "fehlender_schritt": "Für den Fall, dass im Gespräch besondere Kategorien personenbezogener Daten erhoben oder notiert werden, vorab eine einschlägige Ausnahme nach Art. 9 Abs. 2 und geeignete Garantien sicherstellen. Gesprächsnotizen und Bewerberdaten vor unbefugtem Zugriff schützen; konkrete Schutzmaßnahmen sind nicht beschrieben.",
+    "begruendung": "Daten etwa zur Gesundheit, Religion oder Gewerkschaftszugehörigkeit unterliegen dem Verarbeitungsverbot des Art. 9 Abs. 1, sofern keine Ausnahme greift. Für sämtliche personenbezogenen Daten verlangt Art. 32 ein dem Risiko angemessenes Schutzniveau. Die Anwendung dieser Pflichten hängt davon ab, welche Daten im Gespräch tatsächlich verarbeitet und dokumentiert werden."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 13 Abs. 1 Buchst. c und d",
+    "task_id": "T4.3",
+    "fund_id": "F129",
+    "fehlender_schritt": "Vor der Erhebung beziehungsweise Dokumentation prüfen, ob Bewerberinnen und Bewerber über Zweck und Rechtsgrundlage der Gesprächsdokumentation sowie gegebenenfalls die berechtigten Empfänger informiert wurden; falls nicht, die Information nachholen.",
+    "begruendung": "Werden Gesprächsinhalte bei den Bewerbenden erhoben, muss die Datenschutzinformation unter anderem Zweck und Rechtsgrundlage der Verarbeitung sowie gegebenenfalls die berechtigten Interessen nennen. Der Prozess beschreibt eine solche Information nicht ausdrücklich; sie kann bereits im Bewerbungsportal erfolgt sein."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 3 Satz 3 und 4 sowie Abs. 4 Satz 1",
+    "task_id": "T4.3",
+    "fund_id": "F134",
+    "fehlender_schritt": "Vor dem Gespräch die Bewerberinnen und Bewerber spätestens mit der Einladung auf ihr Antragsrecht zur Beteiligung der Gleichstellungsbeauftragten hinweisen und deren Beteiligung am Vorstellungsgespräch nur auf Antrag der betroffenen Person vorsehen; die Vertraulichkeit der dokumentierten personenbezogenen Daten beachten.",
+    "begruendung": "Nach Art. 17 Abs. 3 findet eine Beteiligung der Gleichstellungsbeauftragten an Vorstellungsgesprächen nur auf Antrag der betroffenen Person statt; auf dieses Antragsrecht ist spätestens bei der Einladung hinzuweisen. Der Prozess nennt die Teilnahme der Gleichstellungsbeauftragten, aber weder den Hinweis noch den Antrag. Die Gleichstellungsbeauftragte unterliegt zudem einer gesetzlichen Verschwiegenheitspflicht hinsichtlich personenbezogener Daten und vertraulicher Angelegenheiten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 69 Abs. 1 und 2",
+    "task_id": "T4.3",
+    "fund_id": "F135",
+    "fehlender_schritt": "Sicherstellen, dass der Personalrat rechtzeitig und umfassend unterrichtet wird und die für seine Aufgaben erforderlichen Unterlagen zu den Auswahlgesprächen erhält; gegebenenfalls dokumentierte Gesprächsergebnisse bereitstellen.",
+    "begruendung": "Der Personalrat hat Aufgaben unter anderem bei der Gleichbehandlung im Beschäftigungs- und Einstellungsverfahren und ist zu deren Durchführung rechtzeitig und umfassend zu unterrichten; erforderliche Unterlagen sind ihm zur Verfügung zu stellen. Eine Unterrichtung oder Beteiligung des Personalrats ist im beschriebenen Prozess nicht ausdrücklich genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1",
+    "task_id": "T4.3",
+    "fund_id": "F136",
+    "fehlender_schritt": "Bei schwerbehinderten Bewerberinnen und Bewerbern die vorgeschriebenen Mitteilungen und Beteiligungen der Schwerbehindertenvertretung sowie die Anhörung der zuständigen Vertretungen sicherstellen und die hierfür erforderlichen Vorgänge nachvollziehbar dokumentieren.",
+    "begruendung": "§ 164 Abs. 1 SGB IX sieht bei schwerbehinderten Bewerbenden unter anderem eine Unterrichtung der Schwerbehindertenvertretung und der in § 176 genannten Vertretungen sowie deren Beteiligung beziehungsweise Anhörung vor. Der Prozess nennt für Vorstellungsgespräche nur die Auswahlkommission und die Gleichstellungsbeauftragte; ob die besonderen Beteiligungsschritte im Einzelfall erforderlich sind, ist nicht angegeben."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 2 und Abs. 3 Sätze 2 bis 4",
+    "task_id": "T5.1",
+    "fund_id": "F140",
+    "fehlender_schritt": "Vor Abschluss der Auswahlentscheidung die Gleichstellungsbeauftragte rechtzeitig und umfassend unterrichten und erforderliche Unterlagen frühzeitig vorlegen. Eine Beteiligung in Personalangelegenheiten beziehungsweise an Vorstellungsgesprächen setzt grundsätzlich den Antrag der betroffenen Person voraus; das Antragsrecht für Vorstellungsgespräche ist spätestens mit der Einladung mitzuteilen.",
+    "begruendung": "Der Prozess nennt die Teilnahme der Gleichstellungsbeauftragten an Gesprächen, aber nicht die rechtzeitige Unterrichtung und Vorlage der Unterlagen oder einen Antrag der betroffenen Person. Ob diese Schritte tatsächlich fehlen, ist anhand der Prozessbeschreibung nicht feststellbar."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 1",
+    "task_id": "T5.1",
+    "fund_id": "F141",
+    "fehlender_schritt": "Den Personalrat im vorgeschriebenen Beteiligungsverfahren zur Einstellung beteiligen, bevor die Einstellungsmaßnahme umgesetzt wird; die Beteiligung im Prozess nachvollziehbar vorsehen.",
+    "begruendung": "Die Einstellung einer wissenschaftlichen Mitarbeiterin oder eines wissenschaftlichen Mitarbeiters unterliegt grundsätzlich der Mitbestimmung des Personalrats. Der Prozess nennt eine Auswahlkommission, aber keine Beteiligung des Personalrats an der Einstellungsmaßnahme."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 69 Abs. 2 Sätze 1 bis 3",
+    "task_id": "T5.1",
+    "fund_id": "F142",
+    "fehlender_schritt": "Den Personalrat rechtzeitig und umfassend unterrichten, erforderliche Unterlagen bereitstellen und eine gegebenenfalls verlangte Vorlage von Bewerbungsunterlagen ermöglichen.",
+    "begruendung": "Die Prozessbeschreibung nennt keine Unterrichtung des Personalrats oder Bereitstellung der für seine Aufgaben erforderlichen Unterlagen im Auswahl- und Einstellungsverfahren."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T5.1",
+    "fund_id": "F143",
+    "fehlender_schritt": "Die Mitbestimmung des Personalrats zur Einführung oder Anwendung des automatisierten Verfahrens zur Personalverwaltung sicherstellen, soweit keine gesetzliche oder tarifliche Regelung besteht.",
+    "begruendung": "Das Verfahren nutzt ein KI-Tool für Bewerberranking. Die Prozessbeschreibung enthält keinen Schritt zur Beteiligung des Personalrats an der Einführung oder Anwendung des automatisierten Personalverfahrens."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1",
+    "task_id": "T5.1",
+    "fund_id": "F144",
+    "fehlender_schritt": "Bei schwerbehinderten Bewerberinnen und Bewerbern die Schwerbehindertenvertretung und die in § 176 SGB IX genannten Vertretungen unmittelbar nach Bewerbungseingang unterrichten; sie bei der Prüfung der Besetzung beteiligen beziehungsweise anhören und die gesetzlichen Erörterungs- und Unterrichtungspflichten vor der abschließenden Entscheidung beachten.",
+    "begruendung": "Der Prozess enthält keine ausdrückliche Beteiligung der Schwerbehindertenvertretung oder der weiteren Vertretungen. Die Pflicht greift, wenn schwerbehinderte Bewerbungen oder Vermittlungsvorschläge vorliegen; die Schwerbehindertenvertretung ist nicht zu beteiligen, wenn die betroffene Person dies ausdrücklich ablehnt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 22 Abs. 1 bis 4",
+    "task_id": "T5.1",
+    "fund_id": "F148",
+    "fehlender_schritt": "Sicherstellen und dokumentieren, dass die Auswahlentscheidung tatsächlich auf einer eigenständigen, substanziellen menschlichen Prüfung beruht und nicht ausschließlich auf dem automatisierten Ranking. Falls eine ausschließlich automatisierte Entscheidung mit rechtlicher oder ähnlich erheblicher Wirkung getroffen wird, muss eine Ausnahme nach Art. 22 Abs. 2 vorliegen und es müssen die anwendbaren Schutzmaßnahmen eingehalten werden.",
+    "begruendung": "Das Verfahren nennt eine Prüfung des KI-Ergebnisses und eine spätere Auswahlentscheidung, beschreibt aber nicht, ob die menschliche Prüfung eigenständig und wirksam ist oder ob das Ranking faktisch die Entscheidung festlegt. Art. 22 greift nur bei einer ausschließlich automatisierten Entscheidung mit entsprechender Wirkung."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1 und Abs. 3 Buchst. a",
+    "task_id": "T5.1",
+    "fund_id": "F149",
+    "fehlender_schritt": "Vor dem Einsatz der KI-gestützten Bewerberbewertung prüfen und, falls voraussichtlich ein hohes Risiko für Rechte und Freiheiten besteht, eine Datenschutz-Folgenabschätzung durchführen; im Prozess ist keine solche Prüfung oder Folgenabschätzung beschrieben.",
+    "begruendung": "Die systematische Bewertung von Bewerberinnen und Bewerbern durch automatisierte Verarbeitung kann ein hohes Risiko begründen. Die konkrete Pflicht hängt unter anderem davon ab, wie das Ranking funktioniert und welchen Einfluss es auf Auswahlentscheidungen hat."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 26 Abs. 1, 2 und 4",
+    "task_id": "T5.1",
+    "fund_id": "F151",
+    "fehlender_schritt": "Falls das Tool ein Hochrisiko-KI-System ist, sicherstellen, dass es gemäß seiner Betriebsanleitung verwendet wird, eine zur menschlichen Aufsicht befähigte und ermächtigte Person eingesetzt und unterstützt wird und – soweit die Eingabedaten der Kontrolle der Hochschule unterliegen – diese zweckgeeignet und ausreichend repräsentativ sind.",
+    "begruendung": "Die Prozessschritte nennen eine Prüfung durch die Fachabteilung und eine Auswahlkommission, aber keine Qualifikation, Befugnis und Unterstützung der aufsichtführenden Personen oder Prüfung der Eingabedaten. Ob die Pflichten greifen, hängt von der Einstufung des konkreten Systems ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "KI-VO",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T5.1",
+    "fund_id": "F152",
+    "fehlender_schritt": "Vor der erstmaligen Verwendung eines erfassten Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen, sofern die Hochschule als Betreiberin in den Anwendungsbereich der Vorschrift fällt; dieser Schritt ist im beschriebenen Prozess nicht enthalten.",
+    "begruendung": "Die Vorschrift erfasst unter anderem bestimmte Betreiber öffentlicher Einrichtungen, die Hochrisiko-KI-Systeme nach Anhang III verwenden. Das Bewerberranking kann darunter fallen; die konkrete Einstufung und das Vorliegen etwaiger gesetzlicher Ausnahmen sind nicht beschrieben."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "NachwG",
+    "fundstelle": "§ 2 Abs. 1 Satz 1 und 7–9, Abs. 4 und 5",
+    "task_id": "T5.2",
+    "fund_id": "F156",
+    "fehlender_schritt": "Sicherstellen, dass dem Arbeitnehmer die Niederschrift mit sämtlichen erforderlichen Angaben innerhalb der gesetzlichen Fristen ausgehändigt wird. Die Prozessbeschreibung nennt den Vertragsabschluss, aber nicht ausdrücklich die Aushändigung eines die Nachweispflicht erfüllenden Vertragsdokuments. Ein schriftlicher Arbeitsvertrag kann den Nachweis ersetzen, soweit er die erforderlichen Angaben enthält.",
+    "begruendung": "Die Niederschrift muss unter anderem Beginn, gegebenenfalls Befristungsende, Arbeitsort, Tätigkeit, Vergütung, Arbeitszeit, Urlaub, Kündigungsverfahren und anwendbare Tarifregelungen ausweisen. Die Angaben sind gestaffelt spätestens am ersten Arbeitstag, am siebten Kalendertag nach Beginn beziehungsweise innerhalb eines Monats auszuhändigen. Für die Angebotserstellung sind diese Vertragsbedingungen vorzubereiten; die gesetzlichen Aushändigungsfristen laufen grundsätzlich ab dem vereinbarten Arbeitsbeginn."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 1 und Nr. 3a; Art. 70 Abs. 1 und 2",
+    "task_id": "T5.2",
+    "fund_id": "F162",
+    "fehlender_schritt": "Die Mitbestimmung des Personalrats zur Einstellung und Eingruppierung vor der entsprechenden Maßnahme dokumentieren und das Zustimmungsverfahren durchführen. Ein Beteiligungsschritt des Personalrats ist im Gesamtprozess nicht ausdrücklich genannt.",
+    "begruendung": "Die Einstellung und Eingruppierung unterliegen grundsätzlich der Mitbestimmung des Personalrats. Mitbestimmungspflichtige Maßnahmen können nur mit dessen Zustimmung getroffen werden; die Dienststellenleitung muss den Personalrat über die beabsichtigte Maßnahme unterrichten und seine Zustimmung beantragen. Da ein verbindliches Angebot die Einstellung und Eingruppierung vorbereiten kann, sollte die erforderliche Beteiligung vor seiner Abgabe geklärt sein."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 78 Abs. 1 Satz 1 Nr. 6 und Abs. 3",
+    "task_id": "T5.3",
+    "fund_id": "F177",
+    "fehlender_schritt": "Vor dem Abschluss beziehungsweise Vollzug der Einstellung prüfen und dokumentieren, ob der Personalrat über die Einstellung informiert wurde.",
+    "begruendung": "Art. 78 Abs. 1 Satz 1 Nr. 6 nimmt wissenschaftliche Mitarbeiterinnen und Mitarbeiter im Sinne des Art. 74 BayHIG grundsätzlich von den dort genannten Beteiligungsrechten, darunter der Mitbestimmung nach Art. 75 Abs. 1, aus. Nach Art. 78 Abs. 3 soll der Personalrat in diesen Fällen jedoch eine Mitteilung über die Einstellung erhalten. Ein entsprechender Mitteilungsschritt ist im Prozess nicht genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165 Satz 1 und 3; § 178 Abs. 2",
+    "task_id": "T5.3",
+    "fund_id": "F178",
+    "fehlender_schritt": "Prüfen und dokumentieren, ob die Stelle nach erfolgloser interner Besetzungsprüfung frühzeitig der Agentur für Arbeit gemeldet wurde; bei Bewerbungen schwerbehinderter Menschen die Einladungs- und Beteiligungspflichten einschließlich der vorherigen Anhörung der Schwerbehindertenvertretung vor der Auswahlentscheidung berücksichtigen.",
+    "begruendung": "Als öffentlicher Arbeitgeber muss die Hochschule frei werdende und neu zu besetzende beziehungsweise neue Arbeitsplätze nach erfolgloser interner Prüfung frühzeitig der Agentur für Arbeit melden. Haben schwerbehinderte Menschen sich beworben, sind sie grundsätzlich zum Vorstellungsgespräch einzuladen, sofern ihre fachliche Eignung nicht offensichtlich fehlt. Die Schwerbehindertenvertretung ist in sie betreffende Angelegenheiten vor der Entscheidung zu unterrichten und anzuhören. Diese Schritte sind im Gesamtprozess nicht ausdrücklich aufgeführt; die konkreten Pflichten zu Einladung und Anhörung hängen davon ab, ob schwerbehinderte Bewerberinnen oder Bewerber betroffen sind."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 5 Abs. 1 Buchst. e und Art. 17 Abs. 1 Buchst. a",
+    "task_id": "T6.2",
+    "fund_id": "F185",
+    "fehlender_schritt": "Eine konkrete, begründete Aufbewahrungsdauer samt Beginn und Ende festlegen und dokumentieren; nach Fristablauf prüfen, ob die Bewerbungsdaten noch für einen zulässigen Zweck benötigt werden, und sie andernfalls löschen. Der Prozess nennt keine konkrete Frist oder deren Berechnung.",
+    "begruendung": "Bewerberdaten dürfen nur so lange identifizierbar gespeichert werden, wie es für den festgelegten Zweck erforderlich ist. Sind sie dafür nicht mehr erforderlich, greift grundsätzlich die Löschpflicht; eine pauschale oder unbegrenzte Aufbewahrung ist damit nicht begründet."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 5 Abs. 2",
+    "task_id": "T6.2",
+    "fund_id": "F186",
+    "fehlender_schritt": "Die festgelegte Aufbewahrungsdauer und ihre Erforderlichkeit nachvollziehbar dokumentieren, sodass die Hochschule die Einhaltung der Speicherbegrenzung nachweisen kann.",
+    "begruendung": "Der Verantwortliche muss die Einhaltung der Grundsätze des Art. 5 Abs. 1 DSGVO nachweisen können. Die Prozessbeschreibung enthält keine Dokumentation der Frist oder ihrer Begründung."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 6 Abs. 1 und Abs. 3",
+    "task_id": "T6.2",
+    "fund_id": "F187",
+    "fehlender_schritt": "Für die fortgesetzte Speicherung während der Wartezeit die einschlägige Rechtsgrundlage und den dafür maßgeblichen Zweck festlegen und dokumentieren.",
+    "begruendung": "Auch die bloße Speicherung während der Aufbewahrungsfrist ist eine Verarbeitung und benötigt eine Rechtsgrundlage. Welche Rechtsgrundlage die konkrete weitere Speicherung trägt, ist aus der Prozessbeschreibung nicht ersichtlich."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 32 Abs. 1",
+    "task_id": "T6.2",
+    "fund_id": "F189",
+    "fehlender_schritt": "Für die Zeit der Aufbewahrung geeignete technische und organisatorische Schutzmaßnahmen sicherstellen, etwa angemessene Zugriffsbeschränkungen und Schutz vor unbefugter Verarbeitung oder Verlust.",
+    "begruendung": "Solange Bewerberdaten gespeichert werden, müssen sie angemessen geschützt sein. Schutzmaßnahmen für die Wartezeit sind im beschriebenen Prozess nicht genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayDSG",
+    "fundstelle": "Art. 26 Abs. 6",
+    "task_id": "T6.2",
+    "fund_id": "F190",
+    "fehlender_schritt": "Vor einer Löschung prüfen und gegebenenfalls dokumentieren, ob die Bewerbungsunterlagen einem öffentlichen Archiv zur Übernahme anzubieten sind; bei bestehender Anbietungspflicht erst nach dem Angebot und der Entscheidung des Archivs oder nach fruchtlosem Ablauf der Entscheidungsfrist löschen.",
+    "begruendung": "Soweit eine öffentliche Stelle zur Anbietung von Unterlagen an ein öffentliches Archiv verpflichtet ist, ist die Löschung erst nach dem dort beschriebenen Archivverfahren zulässig. Ein solcher Prüfschritt ist im Prozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayArchivG",
+    "fundstelle": "Art. 14 Abs. 1 und 2",
+    "task_id": "T6.2",
+    "fund_id": "F191",
+    "fehlender_schritt": "Klären, ob die Hochschule die Unterlagen in einem eigenen oder sonstigen öffentlichen Archiv archiviert. Falls nicht, nicht mehr benötigte Unterlagen dem zuständigen staatlichen Archiv zur Übernahme anbieten, bevor sie gelöscht werden.",
+    "begruendung": "Für staatliche Hochschulen und staatlich beaufsichtigte juristische Personen des öffentlichen Rechts sieht Art. 14 je nach Archivierungsmodell eigene Archivierung oder die Anbietung nicht mehr benötigter Unterlagen an das zuständige staatliche Archiv vor. Das konkrete Archivierungsmodell und eine Prüfung der Anbietungspflicht sind im Prozess nicht beschrieben."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 5 Abs. 1 Buchst. e",
+    "task_id": "T6.3",
+    "fund_id": "F192",
+    "fehlender_schritt": "Eine konkrete, begründete Aufbewahrungsfrist und ein eindeutiger Löschzeitpunkt für die jeweiligen Bewerbungsdaten festlegen und dokumentieren. Der Prozess nennt zwar eine Aufbewahrungsfrist, aber weder deren Dauer noch die Prüfung, wann der Verarbeitungszweck entfällt.",
+    "begruendung": "Personenbezogene Daten dürfen grundsätzlich nur so lange identifizierbar gespeichert werden, wie es für die Verarbeitungszwecke erforderlich ist. Nach Ablauf der erforderlichen Frist müssen sie gelöscht oder anonymisiert werden; eine längere Speicherung kommt insbesondere für gesetzlich vorgesehene Archivzwecke oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen in Betracht."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayDSG / BayArchivG",
+    "fundstelle": "Art. 26 Abs. 6 BayDSG; Art. 14 Abs. 1 und 2 BayArchivG",
+    "task_id": "T6.3",
+    "fund_id": "F198",
+    "fehlender_schritt": "Vor der Löschung feststellen, ob die Bewerbungsunterlagen nach den für die Hochschule geltenden Archivierungsregelungen einem Archiv anzubieten sind; gegebenenfalls Anbietung und Entscheidung des Archivs abwarten. Falls die Hochschule in einem eigenen oder einem anderen öffentlichen Archiv archiviert, die dafür geltenden eigenen Regelungen berücksichtigen.",
+    "begruendung": "Ist eine öffentliche Stelle verpflichtet, Unterlagen einem öffentlichen Archiv anzubieten, ist eine Löschung nach Art. 26 Abs. 6 BayDSG erst nach der Anbietung und einer ablehnenden oder nicht fristgerechten Übernahmeentscheidung zulässig. Art. 14 BayArchivG regelt dies speziell für staatliche Hochschulen: Archivieren sie nicht in einem eigenen oder anderen öffentlichen Archiv, müssen sie nicht mehr benötigte Unterlagen dem zuständigen staatlichen Archiv anbieten."
+  }
+]

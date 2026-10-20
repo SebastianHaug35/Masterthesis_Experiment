@@ -77,7 +77,7 @@ gleichzeitig getroffen würden.
 11. **Regelwerk-Normierung:** Musterliste für die 10 Soll-Regelwerke (Kurzform oder Titel, z. B. „DS-GVO“,
     „Verordnung (EU) 2016/679“, „KI-VO“ → DSGVO / AI Act). Unbekannte Regelwerke (z. B. BDSG, BayHIG) bleiben
     unverändert und zählen in Stufe 1 als „zusätzlich“.
-12. **Fundstellen-Normierung:** erste erkannte Norm zählt (`§§ 164, 165` → § 164; `Art. 44 ff.` → Art. 44).
+12. **Fundstellen-Normierung** (ersetzt durch Punkt 22): erste erkannte Norm zählt (`§§ 164, 165` → § 164; `Art. 44 ff.` → Art. 44).
     Absatz aus „Abs. n“ oder „(n)“; bei Anhängen gilt „Nr. n“ als Absatz. Satz/lit./Nr. unterhalb des Absatzes werden ignoriert.
 13. **Bewertung je Fund (`typ = zuordnung`)**: Kandidaten = Soll-Zeilen mit gleichem Regelwerk und gleichem
     Artikel/Paragraf (oder leerer Soll-Fundstelle). Keine → `nicht_in_soll`. Passende Zeile (`zuordnung`, gleicher
@@ -106,3 +106,16 @@ gleichzeitig getroffen würden.
 20. Container-User `app` mit UID/GID 1000 (per Build-Arg änderbar), damit `runs/` und `results/` auf dem Host
     dem SSH-Nutzer gehören. `config.yaml` wird zusätzlich nur lesend gemountet.
 21. Git-Remote auf SSH umgestellt (`git@github.com:...`), da das HTTPS-Token des Rechners ungültig ist.
+
+## Nachtrag nach Testlauf A_1 (20.10.2026)
+
+22. **Mehrere Normen je Fund:** Das Modell nennt oft mehrere Normen in einer Fundstelle („Art. 6 Abs. 2 und 3,
+    Anhang III Nr. 4“, „§§ 145 und 147; § 611a“) und teils mehrere Regelwerke („DSGVO / BayDSG“). Ersetzt Punkt 12:
+    Jede Norm wird einzeln bewertet (`zerlege_fund` in `src/normierung.py`); es zählt die beste Bewertung, und alle
+    korrekt getroffenen Soll-Zeilen gelten als gefunden. Absatzlisten/-bereiche („Abs. 1, 2 und 5“, „Abs. 1–4“)
+    werden als Menge gelesen; „korrekt“, wenn der Soll-Absatz darin enthalten ist. Bei `;`-Abschnitten mit eigenem
+    Regelwerksnamen gilt dieses Regelwerk.
+23. **Zusatzkennzahl `s2_recall_inkl_luecke`:** zählt Soll-Zuordnungen auch dann als gefunden, wenn das Modell die
+    Norm am richtigen Task als `moegliche_luecke` meldet. Die Hauptkennzahl `s2_recall` bleibt wie in der Anweisung.
+24. **Soll-Liste nicht verändert**, obwohl der Lauf fachliche Zweifel an S26 (Art. 78 BayPVG) und an der
+    Gleichstellungs-Kontrolle (Art. 17 Abs. 3 BayGlG) zeigt. Die Entscheidung liegt beim Autor (siehe ERGEBNIS.md, Abschnitt 7).

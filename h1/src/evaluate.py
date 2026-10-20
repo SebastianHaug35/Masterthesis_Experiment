@@ -11,7 +11,7 @@ from pathlib import Path
 import pandas as pd
 
 from .config import Config, lade_config
-from .normierung import fundstelle_text, norm_fundstelle, norm_regelwerk
+from .normierung import absatz_nummer, fundstelle_text, norm_fundstelle, norm_regelwerk, zerlege_fund
 
 TEILPROZESSE = ["TP1", "TP2", "TP3", "TP4", "TP5", "TP6"]
 MANUELL_START = "<!-- MANUELL START: alles ab hier bleibt bei erneutem evaluate.py erhalten -->"
@@ -62,20 +62,19 @@ def _art_passt(zeile, art) -> bool:
     return _leer(zeile["art"]) or zeile["art"] == art
 
 
-def bewerte_fund(fund: dict, soll: pd.DataFrame) -> tuple[str, list[str]]:
-    """Liefert (bewertung, soll_ids der als gefunden zählenden Zeilen)."""
-    rw = norm_regelwerk(fund["regelwerk"])
-    art, abs_ = norm_fundstelle(fund["fundstelle"])
+RANG = ["korrekt", "falscher_absatz", "falscher_task", "nicht_in_soll"]
+
+
+def _bewerte_norm(rw: str, art, absaetze: frozenset, typ: str, task_id: str,
+                  soll: pd.DataFrame) -> tuple[str, list[str]]:
     kandidaten = [z for _, z in soll[soll["rw"] == rw].iterrows() if _art_passt(z, art)]
     if not kandidaten:
         return "nicht_in_soll", []
-
-    if fund["typ"] == "moegliche_luecke":
+    if typ == "moegliche_luecke":
         passend = [z for z in kandidaten if z["typ"] == "luecke"]
     else:
-        passend = [z for z in kandidaten if z["typ"] == "zuordnung"
-                   and z["task_id"] in (fund["task_id"], "GESAMT")]
-    treffer = [z["soll_id"] for z in passend if _leer(z["abs"]) or z["abs"] == abs_]
+        passend = [z for z in kandidaten if z["typ"] == "zuordnung" and z["task_id"] in (task_id, "GESAMT")]
+    treffer = [z["soll_id"] for z in passend if _leer(z["abs"]) or absatz_nummer(z["abs"]) in absaetze]
     if treffer:
         return "korrekt", treffer
     if passend:
@@ -83,13 +82,27 @@ def bewerte_fund(fund: dict, soll: pd.DataFrame) -> tuple[str, list[str]]:
     return "falscher_task", []
 
 
+def bewerte_fund(fund: dict, soll: pd.DataFrame) -> tuple[str, list[str]]:
+    """Liefert (bewertung, soll_ids der als gefunden zählenden Zeilen). Nennt ein Fund mehrere Normen,
+    wird jede einzeln bewertet; es zählt die beste Bewertung, getroffen sind alle korrekt bewerteten Zeilen."""
+    beste, treffer = "nicht_in_soll", []
+    for rw, art, absaetze in zerlege_fund(fund["regelwerk"], fund["fundstelle"]):
+        bewertung, ids = _bewerte_norm(rw, art, absaetze, fund["typ"], fund["task_id"], soll)
+        treffer += [i for i in ids if i not in treffer]
+        if RANG.index(bewertung) < RANG.index(beste):
+            beste = bewertung
+    return beste, treffer
+
+
 def bewerte_kandidat(k: dict, soll: pd.DataFrame) -> list[str]:
     """Soll-Lücken, die ein Lückenkandidat trifft. Kandidaten ohne Fundstelle (Regelwerk ohne
     Zuordnung) treffen jede Soll-Lücke desselben Regelwerks; sonst muss Artikel/Paragraf passen."""
-    rw = norm_regelwerk(k["regelwerk"])
-    art, _ = norm_fundstelle(k.get("fundstelle") or "")
-    luecken = soll[(soll["typ"] == "luecke") & (soll["rw"] == rw)]
-    return [z["soll_id"] for _, z in luecken.iterrows() if art is None or _art_passt(z, art)]
+    treffer = []
+    for rw, art, _ in zerlege_fund(k["regelwerk"], k.get("fundstelle") or ""):
+        luecken = soll[(soll["typ"] == "luecke") & (soll["rw"] == rw)]
+        treffer += [z["soll_id"] for _, z in luecken.iterrows()
+                    if (art is None or _art_passt(z, art)) and z["soll_id"] not in treffer]
+    return treffer
 
 
 def ist_gleichstellung(k: dict) -> bool:
@@ -102,11 +115,13 @@ def werte_lauf_aus(lauf: dict, soll: pd.DataFrame) -> dict:
     run_id, konfig = meta.get("run_id", lauf["dir"].name), meta.get("konfig", "?")
 
     # Stufe 2: Funde bewerten
-    zeilen, gefunden = [], set()
+    zeilen, gefunden, gefunden_inkl_luecke = [], set(), set()
     for f in lauf["funde"]:
         bewertung, treffer = bewerte_fund(f, soll)
         if f["typ"] == "zuordnung":
             gefunden.update(treffer)
+        else:  # Lückenmeldung, die eine vorhandene Soll-Zuordnung am selben Task nennt
+            gefunden_inkl_luecke.update(bewerte_fund({**f, "typ": "zuordnung"}, soll)[1])
         zeilen.append({**f, "konfig": konfig, "teilprozess": tp_von(f["task_id"]),
                        "regelwerk_norm": norm_regelwerk(f["regelwerk"]),
                        "fundstelle_norm": fundstelle_text(f["fundstelle"]),
@@ -119,9 +134,8 @@ def werte_lauf_aus(lauf: dict, soll: pd.DataFrame) -> dict:
     for k in lauf["kandidaten"]:
         treffer = bewerte_kandidat(k, soll)
         luecken_gefunden.update(treffer)
-        art, _ = norm_fundstelle(k.get("fundstelle") or "")
-        kand_zeilen.append({**k, "regelwerk_norm": norm_regelwerk(k["regelwerk"]),
-                            "art_norm": art or "", "soll_ids": ",".join(treffer),
+        rw, art, _ = zerlege_fund(k["regelwerk"], k.get("fundstelle") or "")[0]
+        kand_zeilen.append({**k, "regelwerk_norm": rw, "art_norm": art or "", "soll_ids": ",".join(treffer),
                             "falsch": not treffer, "gleichstellung": ist_gleichstellung(k)})
     kand = pd.DataFrame(kand_zeilen)
     if kand.empty:
@@ -150,6 +164,7 @@ def werte_lauf_aus(lauf: dict, soll: pd.DataFrame) -> dict:
     zuo = funde[funde["typ"] == "zuordnung"] if not funde.empty else funde
     k["s2_anzahl_funde"] = len(zuo)
     k["s2_recall"] = soll_z["soll_id"].isin(gefunden).mean()
+    k["s2_recall_inkl_luecke"] = soll_z["soll_id"].isin(gefunden | gefunden_inkl_luecke).mean()
     k["s2_praezision"] = (zuo["bewertung"] == "korrekt").mean() if len(zuo) else 0.0
     for tp in TEILPROZESSE + ["GESAMT"]:
         sz = soll_z[soll_z["task_id"].map(tp_von) == tp]
@@ -294,7 +309,9 @@ def ergebnis_auto_md(auswertungen: list[dict], soll: pd.DataFrame) -> str:
         md += [f"### {k['run_id']}", "",
                f"- Funde: {k['s2_anzahl_funde']} (korrekt {k['s2_n_korrekt']}, falscher_absatz {k['s2_n_falscher_absatz']}, "
                f"falscher_task {k['s2_n_falscher_task']}, nicht_in_soll {k['s2_n_nicht_in_soll']})",
-               f"- Gesamt: Recall {_p(k['s2_recall'])}, Präzision {_p(k['s2_praezision'])}", "",
+               f"- Gesamt: Recall {_p(k['s2_recall'])}, Präzision {_p(k['s2_praezision'])}",
+               f"- Recall inkl. Lückenmeldungen, die eine vorhandene Soll-Zuordnung am selben Task nennen: "
+               f"{_p(k['s2_recall_inkl_luecke'])}", "",
                "| Teilprozess | Recall | Präzision |", "| --- | --- | --- |"]
         md += [f"| {tp} | {_p(k[f's2_recall_{tp}'])} | {_p(k.get(f's2_praezision_{tp}'))} |"
                for tp in TEILPROZESSE + ["GESAMT"]]

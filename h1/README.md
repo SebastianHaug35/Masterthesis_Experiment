@@ -40,7 +40,7 @@ docker compose run --rm ma-h1 python -m src.evaluate
 
 Modell, `reasoning_effort`, Domains, Anzahl Läufe, Parallelität, Retry und Preise stehen in `config.yaml`.
 `input/`, `prompts/` und `config.yaml` sind in den Container nur lesend gemountet – Änderungen daran
-brauchen kein neues Image. `runs/` und `results/` werden schreibend gemountet und liegen direkt auf dem Host.
+brauchen kein neues Image. Nach Änderungen an `src/` ist `docker compose build` nötig. `runs/` und `results/` werden schreibend gemountet und liegen direkt auf dem Host.
 
 ## Ausgaben
 
