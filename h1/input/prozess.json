@@ -1,0 +1,30 @@
+{
+  "prozess": "Bewerbungsprozess wissenschaftliche Mitarbeiterstelle",
+  "teilprozesse": [
+    {"id": "TP1", "name": "Stelle ausschreiben", "tasks": [
+      {"id": "T1.1", "name": "Bedarf melden"},
+      {"id": "T1.2", "name": "Stellenprofil und Eingruppierung nach TV-L festlegen"},
+      {"id": "T1.3", "name": "Ausschreibung intern und extern veröffentlichen"}]},
+    {"id": "TP2", "name": "Bewerbungen annehmen", "tasks": [
+      {"id": "T2.1", "name": "Unterlagen über Bewerbungsportal empfangen"},
+      {"id": "T2.2", "name": "Eingang bestätigen"},
+      {"id": "T2.3", "name": "Bewerberdaten im System anlegen"}]},
+    {"id": "TP3", "name": "KI-Vorauswahl", "tasks": [
+      {"id": "T3.1", "name": "Unterlagen mit KI-Tool auswerten"},
+      {"id": "T3.2", "name": "Ranking erzeugen"},
+      {"id": "T3.3", "name": "Ergebnis durch Fachabteilung prüfen"},
+      {"id": "T3.4", "name": "Shortlist festlegen"}]},
+    {"id": "TP4", "name": "Vorstellungsgespräche", "tasks": [
+      {"id": "T4.1", "name": "Kandidaten einladen"},
+      {"id": "T4.2", "name": "Gespräche mit Auswahlkommission und Gleichstellungsbeauftragter führen"},
+      {"id": "T4.3", "name": "Gespräche dokumentieren"}]},
+    {"id": "TP5", "name": "Auswahl und Einstellung", "tasks": [
+      {"id": "T5.1", "name": "Auswahlentscheidung treffen"},
+      {"id": "T5.2", "name": "Vertragsangebot erstellen"},
+      {"id": "T5.3", "name": "Arbeitsvertrag abschließen"}]},
+    {"id": "TP6", "name": "Absagen und Löschen", "tasks": [
+      {"id": "T6.1", "name": "Absagen versenden"},
+      {"id": "T6.2", "name": "Aufbewahrungsfrist abwarten"},
+      {"id": "T6.3", "name": "Bewerberdaten löschen"}]}
+  ]
+}

@@ -1,0 +1,35 @@
+# Modell laut OpenAI-Modellübersicht (developers.openai.com/api/docs/models/gpt-6-luna):
+# für GPT-6 Luna ist nur der Snapshot "gpt-6-luna" gelistet (kein datierter Snapshot) – siehe DECISIONS.md
+model: gpt-6-luna
+reasoning_effort: medium
+
+domains:
+  - eur-lex.europa.eu
+  - gesetze-im-internet.de
+  - gesetze-bayern.de
+  - tdl-online.de
+
+# Läufe je Konfiguration (Standard für --laeufe)
+laeufe: 5
+
+# Parallele Stufe-2-Aufrufe innerhalb eines Laufs
+max_parallel: 4
+
+# Retry bei API-Fehlern
+max_retries: 4
+retry_wait_s: 10
+timeout_s: 900
+
+# Preise in USD (Stand 20.10.2026, OpenAI-Modellseite gpt-6-luna; Websuche: Annahme, siehe DECISIONS.md)
+preise:
+  input_pro_mio: 0.10
+  cached_input_pro_mio: 0.01
+  cache_write_pro_mio: 0.125
+  output_pro_mio: 0.50
+  web_search_pro_1000_aufrufe: 10.0
+
+pfade:
+  input: input
+  prompts: prompts
+  runs: runs
+  results: results

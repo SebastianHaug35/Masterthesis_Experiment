@@ -1,0 +1,31 @@
+soll_id;regelwerk;fundstelle;task_id;typ;inhalt
+S01;GG;Art. 33 Abs. 2;GESAMT;zuordnung;Bestenauslese im öffentlichen Dienst
+S02;AGG;§ 7;T1.3;zuordnung;diskriminierungsfreie Ausschreibung (Benachteiligungsverbot)
+S03;AGG;§ 11;T1.3;zuordnung;diskriminierungsfreie Ausschreibung
+S04;TV-L;;T1.2;zuordnung;Eingruppierung
+S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Kontakt Agentur für Arbeit
+S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber)
+S07;BayGlG;;T1.3;zuordnung;Vorgaben zur Ausschreibung
+S08;DSGVO;Art. 6;T2.1;zuordnung;Rechtsgrundlage der Verarbeitung von Bewerberdaten (genaue Norm prüfen)
+S09;BayDSG;;T2.1;zuordnung;Rechtsgrundlage der Verarbeitung nach bayerischem Landesrecht (genaue Norm prüfen)
+S10;DSGVO;Art. 13;T2.1;zuordnung;Informationspflicht bei Erhebung
+S11;DSGVO;Art. 32;T2.1;zuordnung;Sicherheit des Bewerbungsportals
+S12;AI Act;Anhang III Nr. 4;T3.1;zuordnung;Einstufung als Hochrisiko-KI-System
+S13;AI Act;Art. 26;T3.3;zuordnung;menschliche Aufsicht, Protokollierung
+S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+S15;AI Act;Art. 27;LUECKE;luecke;Grundrechte-Folgenabschätzung (öffentliche Stelle)
+S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+S17;DSGVO;Art. 22;T3.4;zuordnung;automatisierte Einzelentscheidung
+S18;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+S19;AGG;;T3.1;zuordnung;algorithmische Benachteiligung
+S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung des KI-Tools (Norm prüfen)
+S21;SGB IX;§ 165;T4.1;zuordnung;Einladung schwerbehinderter Bewerber zum Vorstellungsgespräch
+S22;SGB IX;§ 178;LUECKE;luecke;Beteiligung der Schwerbehindertenvertretung
+S23;BayGlG;;T4.2;zuordnung;Beteiligung Gleichstellungsbeauftragte (Kontrolle: vorhandener Schritt)
+S24;AGG;;T4.2;zuordnung;zulässige Fragen im Vorstellungsgespräch
+S25;DSGVO;Art. 5 Abs. 2;T4.3;zuordnung;Rechenschaftspflicht Dokumentation
+S26;BayPVG;Art. 75;LUECKE;luecke;Mitbestimmung Personalrat bei Einstellung (Norm prüfen)
+S27;TV-L;;T5.3;zuordnung;Arbeitsvertrag
+S28;NachwG;;T5.3;zuordnung;Nachweis der wesentlichen Arbeitsbedingungen
+S29;AGG;§ 15 Abs. 4;T6.2;zuordnung;2-Monats-Frist → ca. 6 Monate Aufbewahrung
+S30;DSGVO;Art. 17;T6.3;zuordnung;Löschung
