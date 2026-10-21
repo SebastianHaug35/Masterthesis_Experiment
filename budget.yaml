@@ -1,0 +1,5 @@
+# Projektweites Kostenlimit für alle API-Aufrufe (gilt für alle Aufträge).
+# Nur der Autor bzw. der Planungs-Assistent ändert diese Datei.
+budget_usd: 5.00          # Gesamtbudget ab Stichtag
+stichtag: 2026-10-21      # ältere Kosten zählen nicht
+warnung_ab_anteil: 0.8    # ab 80 % Warnung in ERGEBNIS.md

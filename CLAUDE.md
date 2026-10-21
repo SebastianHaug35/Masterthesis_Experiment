@@ -20,7 +20,7 @@ Geplant wird in einem separaten Planungs-Chat. Die Kommunikation mit dir läuft 
 
 ## Zuständigkeiten
 
-- **Planungs-Assistent (nicht du):** `h1/input/*` (Soll-Liste, Prozess, Firmenprofil), `h1/prompts/*`, `auftraege/*`, `ANWEISUNG_H1.md`.
+- **Planungs-Assistent (nicht du):** `budget.yaml`, `h1/input/*` (Soll-Liste, Prozess, Firmenprofil), `h1/prompts/*`, `auftraege/*`, `ANWEISUNG_H1.md`.
   Diese Dateien änderst du nur, wenn ein Auftrag es ausdrücklich verlangt. Änderungsvorschläge schreibst du in `h1/results/ERGEBNIS.md`, Abschnitt 8.
 - **Du:** Code (`h1/src/`), Docker, Läufe, Auswertung, `h1/DECISIONS.md`, `h1/results/`, `h1/runs/`.
 
@@ -33,4 +33,11 @@ Geplant wird in einem separaten Planungs-Chat. Die Kommunikation mit dir läuft 
 
 - Läufe nur im Docker-Container (Befehle siehe `h1/README.md`). Nach Codeänderungen `docker compose build`.
 - Nach jedem abgeschlossenen Arbeitsschritt committen und pushen. Commit-Nachricht: `h1: <was>`. Niemals `.env` oder API-Keys committen.
-- Kostengrenze: Kostet ein einzelner Lauf geschätzt mehr als **3 USD**, brich ab, setze den Auftrag auf `blockiert` und dokumentiere das.
+- **Kostenkontrolle (gilt immer, für jeden Auftrag):**
+  - Jeder API-Aufruf wird mit Zeit, Auftrag, run_id, Tokens und geschätzten Kosten in `kosten/verbrauch.csv` (Repo-Wurzel) protokolliert. Die Datei wird mitcommittet.
+  - **Vor jedem einzelnen API-Aufruf** prüft der Code: Summe seit `stichtag` + geschätzte Kosten dieses Aufrufs ≤ `budget_usd` aus `budget.yaml`. Sonst kein Aufruf, Lauf abbrechen, Auftrag `blockiert – Budget erreicht`, dokumentieren, pushen.
+  - Ab `warnung_ab_anteil` des Budgets steht eine Warnung oben in `h1/results/ERGEBNIS.md`.
+  - Bei `insufficient_quota` / `credit_balance_exhausted`: sofort abbrechen, kein Retry.
+  - Ist in `.env` ein `OPENAI_ADMIN_KEY` gesetzt, wird nach jedem Lauf zusätzlich der tatsächliche Verbrauch über die Costs-API von OpenAI abgefragt und neben der Schätzung protokolliert. Ohne Admin-Key gilt nur die Schätzung.
+  - Strengere Grenzen eines Auftrags (z. B. je Lauf) gelten zusätzlich.
+  - `budget.yaml` änderst du nie.

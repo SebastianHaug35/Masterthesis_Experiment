@@ -65,6 +65,8 @@ Diese Testnormen stehen nur im Test und dürfen nirgends sonst im Code vorkommen
   - Würde ein neuer Lauf das `budget_usd_auftrag` überschreiten (Summe `kosten_usd_geschaetzt` aller v3-Läufe), wird er nicht gestartet: Auftrag `blockiert`, dokumentieren.
   - Überschreitet ein Lauf `budget_usd_lauf`, bricht er ab: Auftrag `blockiert`, dokumentieren.
 
+**Projektweite Kostenkontrolle** (neu in `CLAUDE.md`, Abschnitt „Kostenkontrolle“): Setze sie hier gleich mit um, und zwar in `llm_client.py` vor jedem API-Aufruf. Dazu gehören das Protokoll `kosten/verbrauch.csv`, die Prüfung gegen `budget.yaml` und die optionale Abfrage der Costs-API, wenn `OPENAI_ADMIN_KEY` gesetzt ist. Trag alte Kosten nicht nach: Der Stichtag ist der 21.10.2026.
+
 ## 5. Auswertung (Ergänzungen)
 
 - **Neue Bewertung je Fund: `existiert`** (ja/nein). Die Auswertung prüft jede Fundstelle über `lade_norm` (aus dem Cache) auf den Artikel bzw. Paragrafen. Existiert die Norm nicht, wird der Fund als **`erfunden`** markiert. Das gilt unabhängig von der übrigen Bewertung.
