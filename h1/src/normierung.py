@@ -43,7 +43,7 @@ def norm_regelwerk(regelwerk: str, titel: str = "") -> str:
 
 def regelwerke_einzeln(regelwerk: str) -> list[tuple[str, str]]:
     """'DSGVO / BayDSG' -> [('DSGVO', 'DSGVO'), ('BayDSG', 'BayDSG')] als (Rohname, Kurzform)."""
-    teile = [t.strip() for t in re.split(r"\s*/\s*|\s*;\s*|\s*,\s*|(?<!-)\s+und\s+", regelwerk or "") if t.strip()]
+    teile = [t.strip() for t in re.split(r"\s*(?<!\d)/(?!\d)\s*|\s*;\s*|\s*,\s*|(?<!-)\s+und\s+", regelwerk or "") if t.strip()]
     return [(t, norm_regelwerk(t)) for t in teile] or [("", "")]
 
 

@@ -1,0 +1,74 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "SGB IX",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": ""
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayPVG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": ""
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "NachwG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": ""
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "TzBfG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": ""
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 13 Abs. 1",
+    "task_id": "T2.3",
+    "fund_id": "F013",
+    "fehlender_schritt": "Bewerbende bei Erhebung ihrer Daten über die vorgeschriebenen Informationen zur Verarbeitung informieren, sofern dies nicht bereits an anderer Stelle im Prozess erfolgt.",
+    "begruendung": "Der Prozess enthält keinen ausdrücklich benannten Schritt zur Datenschutzinformation bei Erhebung der Bewerberdaten. Die Information muss grundsätzlich zum Zeitpunkt der Erhebung erfolgen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T3.2",
+    "fund_id": "F022",
+    "fehlender_schritt": "Arbeitnehmervertretung und betroffene Arbeitnehmer vor der Inbetriebnahme oder Verwendung des Hochrisiko-KI-Systems am Arbeitsplatz über die Verwendung informieren.",
+    "begruendung": "Die Hochschule handelt als Arbeitgeberin und Betreiberin eines Hochrisiko-KI-Systems. Art. 26 Abs. 7 verlangt vor der Verwendung am Arbeitsplatz die Information der Arbeitnehmervertretung und der betroffenen Arbeitnehmer."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F023",
+    "fehlender_schritt": "Vor der Inbetriebnahme des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen, einschließlich der betroffenen Personengruppen, spezifischen Schadensrisiken, menschlichen Aufsicht und Maßnahmen zur Risikobehandlung.",
+    "begruendung": "Die Hochschule ist eine Einrichtung des öffentlichen Rechts und verwendet ein Hochrisiko-KI-System im Bereich der Beschäftigung. Damit ist grundsätzlich vor dessen Inbetriebnahme die in Art. 27 Abs. 1 beschriebene Folgenabschätzung erforderlich."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T3.3",
+    "fund_id": "F030",
+    "fehlender_schritt": "Vor der Verwendung des Hochrisiko-KI-Systems am Arbeitsplatz Arbeitnehmervertretung und betroffene Arbeitnehmer über die bevorstehende Verwendung informieren.",
+    "begruendung": "Der Prozess enthält keinen Task zur Information der Arbeitnehmervertretung und der betroffenen Arbeitnehmer vor der Verwendung des KI-Systems am Arbeitsplatz. Die Vorschrift verlangt diese Information vor der Inbetriebnahme oder Verwendung."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayPVG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": ""
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 76 Abs. 3",
+    "task_id": "T1.1",
+    "fund_id": "F001",
+    "fehlender_schritt": "Vor Weiterleitung der Personalanforderung zum Haushaltsvoranschlag den Personalrat anhören; ein solcher Schritt ist im Gesamtprozess nicht ausdrücklich aufgeführt.",
+    "begruendung": "Art. 76 Abs. 3 Satz 1 sieht die Anhörung des Personalrats vor der Weiterleitung von Personalanforderungen zum Haushaltsvoranschlag vor. Das kann bei der Meldung des Personalbedarfs einschlägig sein."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 5",
+    "task_id": "T3.2",
+    "fund_id": "F035",
+    "fehlender_schritt": "Den Betrieb des KI-Systems anhand der Betriebsanleitung überwachen und bei den gesetzlich beschriebenen Risiken die vorgeschriebenen Meldungen vornehmen sowie die Verwendung aussetzen.",
+    "begruendung": "Die Vorschrift verlangt eine Betreiberüberwachung; ein entsprechender Überwachungs- und Eskalationsschritt ist in den aufgeführten Prozessaufgaben nicht ausdrücklich enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 6",
+    "task_id": "T3.2",
+    "fund_id": "F036",
+    "fehlender_schritt": "Automatisch erzeugte Protokolle des Hochrisiko-KI-Systems, soweit sie der Kontrolle der Hochschule unterliegen, für einen angemessenen Zeitraum von mindestens sechs Monaten aufbewahren, sofern keine abweichende Rechtsvorschrift gilt.",
+    "begruendung": "Die vorgesehenen Aufgaben zur Aufbewahrung und Löschung betreffen Bewerberdaten; eine gesonderte Aufbewahrung der Systemprotokolle ist im Prozess nicht beschrieben."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T3.2",
+    "fund_id": "F037",
+    "fehlender_schritt": "Vor der Inbetriebnahme oder Verwendung des Hochrisiko-KI-Systems am Arbeitsplatz die Arbeitnehmervertretung und die betroffenen Beschäftigten über die Verwendung informieren.",
+    "begruendung": "Die Vorschrift begründet eine Unterrichtungspflicht im Zusammenhang mit dem Einsatz am Arbeitsplatz. Ein entsprechender Schritt ist im beschriebenen Gesamtprozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.3",
+    "fund_id": "F041",
+    "fehlender_schritt": "Vor der ersten Inbetriebnahme des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen; sie muss unter anderem betroffene Personengruppen, spezifische Schadensrisiken, die menschliche Aufsicht und Maßnahmen für den Risikofall erfassen.",
+    "begruendung": "Die Hochschule ist eine Einrichtung des öffentlichen Rechts und setzt nach der beschriebenen Zweckbestimmung ein Hochrisiko-KI-System zur Bewerberauswahl ein. Der Prozess enthält keinen Schritt für die vor der Inbetriebnahme erforderliche Grundrechte-Folgenabschätzung. Diese ist ein eigenständiger Schritt, der nicht durch die Prüfung einzelner Ranking-Ergebnisse ersetzt wird."
+  }
+]

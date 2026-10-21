@@ -1,0 +1,380 @@
+{
+  "id": "resp_0800087f0116b314006ad89b6596bc87d1a8917c02bb5d0b86",
+  "access_programs": null,
+  "created_at": 1792580453.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0800087f0116b314006ad89b665ee887d1ab147148db0d5fb8",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2JtoOu3XoNuULNiWlLKbClw77M1KNhHFFcQHVs0H1Z-lpUa0J325q4Kcqels5D2oWVixH_OJx4f9t7uNA5WFD3rM-SkTD-yd1ZJ6i-Aga9EDXPJz77CNlh4S3Y12vetq1ETlGpCkt8FgKq8DoQw05g54Pdj5LFfqAc_pgetzdas2XW8cd-OVuMu21KvOYtrWjHxW5RuLK1eG8G7Z7_RXpRWPwWEpP0PazmkTrsGIV26ubRoqEr_hr0bMSLtmL5232TUoZOOi92XWsrhgEzbny542vk6wNyhD-MUIbtzUqqOlwjoLoNuxl7nhu4H_VEfzmDihechQAh80pIlw-V9OCHGFVzBSsd3bcUBTRuF-3UMvZrMjV1JXZQpFCkaSguRWTzUEYpF9DTP1y7a_H0RydfcfpxwQue7JkIDvnkhkHC5heNj2f8Cjv0pwd9b0vInliAc89e6SSyxfRtHksxmtSjslDpodeWZqv0QxOFBjc7g6mGae6VF0wJ6bJ3NgsESSQkhV2ZcyHkQ_2VsJNgcBRr2YXFH9lQJ9C4nH5lbUbucuMu1g-ZYDhCcRiKMa1mOfA70nKpZXELcuuMmIGKIWgSAy-8FUCI97t9v61j5wRxHWBz_A2xuhcTJxXP1ZbN3I2d53j1VuXTG1iKpy6CzDUque4dupaYfPyGqpZlQOJGpPNOrpgC-QanJfg8nzOwsGp7YbWU6fn3558eOD31vjRamzRI5fkdtUfEeqvC9xMqCNzNVn5VvQcOKC4HhN2eTfz6kFg5J5aycpP6ta4Dr2xV3nL42X2hMxv-jPQglBsgG1blrJmBOji1ahgQ2YlUZWeLtG5XOQ39UmUlF0Rz98YdJzIit1dl9Cg3j4g73xG4aI9Qoij69004MjR9EE2MeJ1QKbvGBEGeTnFjXstUS0rwFuDtodb2tbH8PK5tlTk3v4QwPZRrKaEPtSRBRkeCdnKNN63S4STz2l6c8mEUehrURhbJ3Y4LeHbTbbY7spYujN9YawhAarOP3BIBpWaZ-uktqvuBnzaZj6EuuAKmemlsQ7-8ruGje7pcqjPx34kOSn7uJSgU10HZnLB1oJDMHpw6mc9x5Uh7Z3GgMP6WxbjMyXVrhVpljJ4prrF9A1w-PiuF5ue3SzJKX_BRr_XP9-YCpQmWL00_eRD-QrDuoB4TsnWr8IlSFGy68pxmG_Ztv_VIalgxOzkf47YJbNiED-Q20NNWXjAXAx6gzZXTmBP0siW0HYYSL4dHh1V6Tm-AUfe6N5pC0hxkF6sS2KIpOWZakm0D3yg0jzHHuevCeE5PccbLVMuA7xerITT00CJW1qXZnSooejTy607tuawrZFZehRXRVLbZb_l4NzavyvBBg8eEpoBW-Y2oNQXwdUZDFRN5Vau4knoSZ8PIhUldoZQ111MHCN_sZlu6mvW7pTP60eg00irZPXBhlwpMd99AV4-qFZlxgxQdmFgopDFJ6oZCNvfwfv1XRWQt1IWXVkD7lCtvUVQp-lJtLg_yUNj4LIATHTohttUm46LjX-2msvXw0IBeZI7SQN7exxoQJvZAWKdjUKe63RJCc5X8P74Cf2Qcfhpw2OCU8ryEURBqab31b4e9_gOOkKCiLJ6M7GZ4ch1i1U4IXwaWbguX7UmePM0WNxi-bp3HTmAXg0h4g98ELLqNGiTxaNrbnqwbj5yQe0W9Hr_V7aeiuDuxzxDJvcDQY=",
+      "status": null
+    },
+    {
+      "arguments": "{\"regelwerk\":\"TV-L\"}",
+      "call_id": "call_iy98yCMQVsJwbp4jqDogTEAt",
+      "name": "inhaltsverzeichnis",
+      "type": "function_call",
+      "id": "fc_0800087f0116b314006ad89b67943c87d1b9c8f202c08cfe7c",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "TV-L"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"agg\"}",
+      "call_id": "call_4PEg07v8aldg3LySe0Jdxdeg",
+      "name": "inhaltsverzeichnis",
+      "type": "function_call",
+      "id": "fc_0800087f0116b314006ad89b67945087d1a91d8688ff3fcab5",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "agg"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"gg\"}",
+      "call_id": "call_vMH9c6MeP8B4oNAkCyhrk80f",
+      "name": "inhaltsverzeichnis",
+      "type": "function_call",
+      "id": "fc_0800087f0116b314006ad89b67945887d188ec71d9eaa209f8",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "gg"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"wisszeitvg\"}",
+      "call_id": "call_a5JUM4BapIPpSTqmbOLI9G4z",
+      "name": "inhaltsverzeichnis",
+      "type": "function_call",
+      "id": "fc_0800087f0116b314006ad89b67946087d1a9b945153b85bf51",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "wisszeitvg"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Bayerisches Hochschulinnovationsgesetz\"}",
+      "call_id": "call_qjfYmKlgNtHI4hGu77HbIMNU",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_0800087f0116b314006ad89b67946487d1a0b191b6afc40e78",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Bayerisches Hochschulinnovationsgesetz"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Bayerisches Gleichstellungsgesetz BayGlG\"}",
+      "call_id": "call_TWdkxdgU79Titb6qG5luy92S",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_0800087f0116b314006ad89b67946887d191e4075046c8831c",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Bayerisches Gleichstellungsgesetz BayGlG"
+      }
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "name": "suche_regelwerk",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "stichwort": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "stichwort"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Sucht Regelwerke (Gesetze, Verordnungen, EU-Rechtsakte, TV-L) in den vier Quellen nach Stichwort, Abkürzung oder Titel. EU-Rechtsakte am besten als 'Verordnung (EU) JJJJ/NNNN' oder mit Wörtern aus dem amtlichen Titel suchen.",
+      "output_schema": null
+    },
+    {
+      "name": "inhaltsverzeichnis",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string",
+            "description": "Abkürzung (z. B. wie von suche_regelwerk geliefert) oder 'Verordnung (EU) JJJJ/NNNN'"
+          }
+        },
+        "required": [
+          "regelwerk"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Liste aller Artikel/Paragrafen/Anhänge eines Regelwerks mit Überschrift.",
+      "output_schema": null
+    },
+    {
+      "name": "lade_norm",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string",
+            "description": "Abkürzung oder 'Verordnung (EU) JJJJ/NNNN'"
+          },
+          "norm": {
+            "type": "string",
+            "description": "z. B. 'Art. 78', '§ 165', 'Anhang III'"
+          }
+        },
+        "required": [
+          "regelwerk",
+          "norm"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Lädt den Wortlaut einer Norm mit quelle_url und fassung_datum.",
+      "output_schema": null
+    },
+    {
+      "name": "suche_volltext",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string"
+          },
+          "begriff": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "regelwerk",
+          "begriff"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Sucht einen Begriff im Wortlaut eines Regelwerks; liefert bis zu 10 Normen mit Auszug.",
+      "output_schema": null
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792580455.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": "resp_0800087f0116b314006ad89b612b6c87d1862a57c1f48b7aa8",
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6127,
+    "input_tokens_details": {
+      "cache_write_tokens": 2349,
+      "cached_tokens": 3775
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 6300
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

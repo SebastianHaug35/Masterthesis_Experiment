@@ -1,0 +1,29 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayHIG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Das Gesetz regelt den hochschulrechtlichen Rahmen der Hochschule und enthält Vorgaben zu Gleichstellung sowie zum wissenschaftlichen Personal und zur Förderung wissenschaftlicher Karrieren. Es ist daher für die Besetzung einer wissenschaftlichen Qualifizierungsstelle einschlägig."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F035",
+    "fehlender_schritt": "Vor Beginn des KI-gestützten Rankings prüfen und dokumentieren, ob eine Datenschutz-Folgenabschätzung erforderlich ist, und diese gegebenenfalls durchführen.",
+    "begruendung": "Die systematische Bewertung von Bewerberinnen und Bewerbern mittels einer neuen KI-Technologie kann voraussichtlich ein hohes Risiko für deren Rechte und Freiheiten begründen. Im beschriebenen Gesamtprozess ist keine Datenschutz-Folgenabschätzung oder entsprechende Vorprüfung aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F044",
+    "fehlender_schritt": "Vor der erstmaligen Nutzung des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen und dokumentieren.",
+    "begruendung": "Öffentliche Stellen müssen vor dem Einsatz bestimmter Hochrisiko-KI-Systeme eine Grundrechte-Folgenabschätzung vornehmen. Ein entsprechender eigenständiger Schritt ist im beschriebenen Gesamtprozess nicht aufgeführt."
+  }
+]

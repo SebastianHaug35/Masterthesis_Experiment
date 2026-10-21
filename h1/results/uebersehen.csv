@@ -32,3 +32,143 @@ run_id;version;konfig;soll_id;regelwerk;fundstelle;task_id;typ;inhalt
 20261021-112400_A_7;v3;A;S28;NachwG;;T5.2|T5.3;zuordnung;Nachweis der wesentlichen Arbeitsbedingungen
 20261021-112400_A_7;v3;A;S46;WissZeitVG;§ 2;T1.2|T5.2|T5.3;zuordnung;Befristung wiss. Personal: Qualifizierungsbefristung, Höchstdauer, Angabe im Vertrag (§ 2 Abs. 4)
 20261021-112400_A_7;v3;A;S47;TzBfG;§ 14 Abs. 4;T5.2|T5.3;zuordnung;Schriftform der Befristung (anwendbar über § 1 Abs. 1 Satz 5 WissZeitVG)
+20261021-123226_A_8;v3;A;S03;AGG;§ 11;T1.3;zuordnung;diskriminierungsfreie Ausschreibung
+20261021-123226_A_8;v3;A;S04;TV-L;;T1.2;zuordnung;Eingruppierung
+20261021-123226_A_8;v3;A;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-123226_A_8;v3;A;S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz 1)
+20261021-123226_A_8;v3;A;S07;BayGlG;;T1.2|T1.3;zuordnung;Vorgaben zur Ausschreibung
+20261021-123226_A_8;v3;A;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-123226_A_8;v3;A;S15;AI Act;Art. 27;LUECKE;luecke;Grundrechte-Folgenabschätzung (öffentliche Stelle)
+20261021-123226_A_8;v3;A;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-123226_A_8;v3;A;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-123226_A_8;v3;A;S18;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+20261021-123226_A_8;v3;A;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-123226_A_8;v3;A;S21;SGB IX;§ 165;T4.1;zuordnung;Einladung schwerbehinderter Bewerber zum Vorstellungsgespräch
+20261021-123226_A_8;v3;A;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-123226_A_8;v3;A;S28;NachwG;;T5.2|T5.3;zuordnung;Nachweis der wesentlichen Arbeitsbedingungen
+20261021-125331_A_9;v3;A;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-125331_A_9;v3;A;S12;AI Act;Anhang III Nr. 4;T3.1|T3.2;zuordnung;Einstufung als Hochrisiko-KI-System
+20261021-125331_A_9;v3;A;S13;AI Act;Art. 26;T3.1|T3.2|T3.3|T3.4;zuordnung;Betreiberpflichten: Verwendung gemäß Anleitung, menschliche Aufsicht, Protokollierung
+20261021-125331_A_9;v3;A;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-125331_A_9;v3;A;S15;AI Act;Art. 27;LUECKE;luecke;Grundrechte-Folgenabschätzung (öffentliche Stelle)
+20261021-125331_A_9;v3;A;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-125331_A_9;v3;A;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-125331_A_9;v3;A;S18;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+20261021-125331_A_9;v3;A;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-125331_A_9;v3;A;S21;SGB IX;§ 165;T4.1;zuordnung;Einladung schwerbehinderter Bewerber zum Vorstellungsgespräch
+20261021-125331_A_9;v3;A;S22;SGB IX;§ 178;LUECKE;luecke;Beteiligung der Schwerbehindertenvertretung
+20261021-125331_A_9;v3;A;S23;BayGlG;Art. 17;T4.1|T4.2;zuordnung;Beteiligung Gleichstellungsbeauftragte auf Antrag, Hinweis in der Einladung (Kontrolle: vorhandener Schritt)
+20261021-125331_A_9;v3;A;S24;AGG;;T4.2;zuordnung;zulässige Fragen im Vorstellungsgespräch
+20261021-125331_A_9;v3;A;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-125331_A_9;v3;A;S28;NachwG;;T5.2|T5.3;zuordnung;Nachweis der wesentlichen Arbeitsbedingungen
+20261021-131115_A_10;v3;A;S01;GG;Art. 33 Abs. 2;GESAMT;zuordnung;Bestenauslese im öffentlichen Dienst
+20261021-131115_A_10;v3;A;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-131115_A_10;v3;A;S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz 1)
+20261021-131115_A_10;v3;A;S12;AI Act;Anhang III Nr. 4;T3.1|T3.2;zuordnung;Einstufung als Hochrisiko-KI-System
+20261021-131115_A_10;v3;A;S13;AI Act;Art. 26;T3.1|T3.2|T3.3|T3.4;zuordnung;Betreiberpflichten: Verwendung gemäß Anleitung, menschliche Aufsicht, Protokollierung
+20261021-131115_A_10;v3;A;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-131115_A_10;v3;A;S15;AI Act;Art. 27;LUECKE;luecke;Grundrechte-Folgenabschätzung (öffentliche Stelle)
+20261021-131115_A_10;v3;A;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-131115_A_10;v3;A;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-131115_A_10;v3;A;S19;AGG;;T3.1|T3.2;zuordnung;algorithmische Benachteiligung
+20261021-131115_A_10;v3;A;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-131115_A_10;v3;A;S21;SGB IX;§ 165;T4.1;zuordnung;Einladung schwerbehinderter Bewerber zum Vorstellungsgespräch
+20261021-131115_A_10;v3;A;S22;SGB IX;§ 178;LUECKE;luecke;Beteiligung der Schwerbehindertenvertretung
+20261021-131115_A_10;v3;A;S24;AGG;;T4.2;zuordnung;zulässige Fragen im Vorstellungsgespräch
+20261021-131115_A_10;v3;A;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-131115_A_10;v3;A;S27;TV-L;;T5.2|T5.3;zuordnung;Arbeitsvertrag
+20261021-131115_A_10;v3;A;S28;NachwG;;T5.2|T5.3;zuordnung;Nachweis der wesentlichen Arbeitsbedingungen
+20261021-131115_A_10;v3;A;S46;WissZeitVG;§ 2;T1.2|T5.2|T5.3;zuordnung;Befristung wiss. Personal: Qualifizierungsbefristung, Höchstdauer, Angabe im Vertrag (§ 2 Abs. 4)
+20261021-131115_A_10;v3;A;S47;TzBfG;§ 14 Abs. 4;T5.2|T5.3;zuordnung;Schriftform der Befristung (anwendbar über § 1 Abs. 1 Satz 5 WissZeitVG)
+20261021-132320_A_11;v3;A;S01;GG;Art. 33 Abs. 2;GESAMT;zuordnung;Bestenauslese im öffentlichen Dienst
+20261021-132320_A_11;v3;A;S04;TV-L;;T1.2;zuordnung;Eingruppierung
+20261021-132320_A_11;v3;A;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-132320_A_11;v3;A;S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz 1)
+20261021-132320_A_11;v3;A;S07;BayGlG;;T1.2|T1.3;zuordnung;Vorgaben zur Ausschreibung
+20261021-132320_A_11;v3;A;S09;BayDSG;;T2.1|T2.3;zuordnung;Verarbeitung nach bayerischem Landesrecht
+20261021-132320_A_11;v3;A;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-132320_A_11;v3;A;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-132320_A_11;v3;A;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-132320_A_11;v3;A;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-132320_A_11;v3;A;S21;SGB IX;§ 165;T4.1;zuordnung;Einladung schwerbehinderter Bewerber zum Vorstellungsgespräch
+20261021-132320_A_11;v3;A;S22;SGB IX;§ 178;LUECKE;luecke;Beteiligung der Schwerbehindertenvertretung
+20261021-132320_A_11;v3;A;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-132320_A_11;v3;A;S28;NachwG;;T5.2|T5.3;zuordnung;Nachweis der wesentlichen Arbeitsbedingungen
+20261021-133323_B_1;v3;B;S01;GG;Art. 33 Abs. 2;GESAMT;zuordnung;Bestenauslese im öffentlichen Dienst
+20261021-133323_B_1;v3;B;S04;TV-L;;T1.2;zuordnung;Eingruppierung
+20261021-133323_B_1;v3;B;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-133323_B_1;v3;B;S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz 1)
+20261021-133323_B_1;v3;B;S12;AI Act;Anhang III Nr. 4;T3.1|T3.2;zuordnung;Einstufung als Hochrisiko-KI-System
+20261021-133323_B_1;v3;B;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-133323_B_1;v3;B;S15;AI Act;Art. 27;LUECKE;luecke;Grundrechte-Folgenabschätzung (öffentliche Stelle)
+20261021-133323_B_1;v3;B;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-133323_B_1;v3;B;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-133323_B_1;v3;B;S18;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+20261021-133323_B_1;v3;B;S19;AGG;;T3.1|T3.2;zuordnung;algorithmische Benachteiligung
+20261021-133323_B_1;v3;B;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-133323_B_1;v3;B;S24;AGG;;T4.2;zuordnung;zulässige Fragen im Vorstellungsgespräch
+20261021-133323_B_1;v3;B;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-133323_B_1;v3;B;S28;NachwG;;T5.2|T5.3;zuordnung;Nachweis der wesentlichen Arbeitsbedingungen
+20261021-133323_B_1;v3;B;S47;TzBfG;§ 14 Abs. 4;T5.2|T5.3;zuordnung;Schriftform der Befristung (anwendbar über § 1 Abs. 1 Satz 5 WissZeitVG)
+20261021-134114_B_2;v3;B;S01;GG;Art. 33 Abs. 2;GESAMT;zuordnung;Bestenauslese im öffentlichen Dienst
+20261021-134114_B_2;v3;B;S03;AGG;§ 11;T1.3;zuordnung;diskriminierungsfreie Ausschreibung
+20261021-134114_B_2;v3;B;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-134114_B_2;v3;B;S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz 1)
+20261021-134114_B_2;v3;B;S07;BayGlG;;T1.2|T1.3;zuordnung;Vorgaben zur Ausschreibung
+20261021-134114_B_2;v3;B;S12;AI Act;Anhang III Nr. 4;T3.1|T3.2;zuordnung;Einstufung als Hochrisiko-KI-System
+20261021-134114_B_2;v3;B;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-134114_B_2;v3;B;S15;AI Act;Art. 27;LUECKE;luecke;Grundrechte-Folgenabschätzung (öffentliche Stelle)
+20261021-134114_B_2;v3;B;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-134114_B_2;v3;B;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-134114_B_2;v3;B;S18;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+20261021-134114_B_2;v3;B;S19;AGG;;T3.1|T3.2;zuordnung;algorithmische Benachteiligung
+20261021-134114_B_2;v3;B;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-134114_B_2;v3;B;S24;AGG;;T4.2;zuordnung;zulässige Fragen im Vorstellungsgespräch
+20261021-134114_B_2;v3;B;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-134730_B_3;v3;B;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-134730_B_3;v3;B;S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz 1)
+20261021-134730_B_3;v3;B;S09;BayDSG;;T2.1|T2.3;zuordnung;Verarbeitung nach bayerischem Landesrecht
+20261021-134730_B_3;v3;B;S11;DSGVO;Art. 32;GESAMT;zuordnung;Sicherheit der Verarbeitung (Portal, System, Aufbewahrung)
+20261021-134730_B_3;v3;B;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-134730_B_3;v3;B;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-134730_B_3;v3;B;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-134730_B_3;v3;B;S18;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+20261021-134730_B_3;v3;B;S19;AGG;;T3.1|T3.2;zuordnung;algorithmische Benachteiligung
+20261021-134730_B_3;v3;B;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-134730_B_3;v3;B;S22;SGB IX;§ 178;LUECKE;luecke;Beteiligung der Schwerbehindertenvertretung
+20261021-134730_B_3;v3;B;S24;AGG;;T4.2;zuordnung;zulässige Fragen im Vorstellungsgespräch
+20261021-134730_B_3;v3;B;S25;DSGVO;Art. 5 Abs. 2;T4.3|T6.2;zuordnung;Rechenschaftspflicht Dokumentation
+20261021-134730_B_3;v3;B;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-135453_B_4;v3;B;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-135453_B_4;v3;B;S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz 1)
+20261021-135453_B_4;v3;B;S07;BayGlG;;T1.2|T1.3;zuordnung;Vorgaben zur Ausschreibung
+20261021-135453_B_4;v3;B;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-135453_B_4;v3;B;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-135453_B_4;v3;B;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-135453_B_4;v3;B;S18;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+20261021-135453_B_4;v3;B;S19;AGG;;T3.1|T3.2;zuordnung;algorithmische Benachteiligung
+20261021-135453_B_4;v3;B;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-135453_B_4;v3;B;S21;SGB IX;§ 165;T4.1;zuordnung;Einladung schwerbehinderter Bewerber zum Vorstellungsgespräch
+20261021-135453_B_4;v3;B;S22;SGB IX;§ 178;LUECKE;luecke;Beteiligung der Schwerbehindertenvertretung
+20261021-135453_B_4;v3;B;S23;BayGlG;Art. 17;T4.1|T4.2;zuordnung;Beteiligung Gleichstellungsbeauftragte auf Antrag, Hinweis in der Einladung (Kontrolle: vorhandener Schritt)
+20261021-135453_B_4;v3;B;S24;AGG;;T4.2;zuordnung;zulässige Fragen im Vorstellungsgespräch
+20261021-135453_B_4;v3;B;S25;DSGVO;Art. 5 Abs. 2;T4.3|T6.2;zuordnung;Rechenschaftspflicht Dokumentation
+20261021-135453_B_4;v3;B;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-140126_B_5;v3;B;S01;GG;Art. 33 Abs. 2;GESAMT;zuordnung;Bestenauslese im öffentlichen Dienst
+20261021-140126_B_5;v3;B;S03;AGG;§ 11;T1.3;zuordnung;diskriminierungsfreie Ausschreibung
+20261021-140126_B_5;v3;B;S05;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der Vertretungen
+20261021-140126_B_5;v3;B;S06;SGB IX;§ 165;LUECKE;luecke;Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz 1)
+20261021-140126_B_5;v3;B;S07;BayGlG;;T1.2|T1.3;zuordnung;Vorgaben zur Ausschreibung
+20261021-140126_B_5;v3;B;S10;DSGVO;Art. 13;T2.1|T2.2;zuordnung;Informationspflicht bei Erhebung
+20261021-140126_B_5;v3;B;S14;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+20261021-140126_B_5;v3;B;S16;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+20261021-140126_B_5;v3;B;S17;DSGVO;Art. 22;T3.4|T5.1;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+20261021-140126_B_5;v3;B;S18;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+20261021-140126_B_5;v3;B;S19;AGG;;T3.1|T3.2;zuordnung;algorithmische Benachteiligung
+20261021-140126_B_5;v3;B;S20;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, automatisierte Verfahren zur Personalverwaltung, durch Experten prüfen)
+20261021-140126_B_5;v3;B;S21;SGB IX;§ 165;T4.1;zuordnung;Einladung schwerbehinderter Bewerber zum Vorstellungsgespräch
+20261021-140126_B_5;v3;B;S22;SGB IX;§ 178;LUECKE;luecke;Beteiligung der Schwerbehindertenvertretung
+20261021-140126_B_5;v3;B;S24;AGG;;T4.2;zuordnung;zulässige Fragen im Vorstellungsgespräch
+20261021-140126_B_5;v3;B;S26;BayPVG;Art. 78 Abs. 3;LUECKE;luecke;Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 Abs. 1 Satz 1 Nr. 6 ausgeschlossen, durch Experten prüfen)
+20261021-140126_B_5;v3;B;S28;NachwG;;T5.2|T5.3;zuordnung;Nachweis der wesentlichen Arbeitsbedingungen
+20261021-140126_B_5;v3;B;S47;TzBfG;§ 14 Abs. 4;T5.2|T5.3;zuordnung;Schriftform der Befristung (anwendbar über § 1 Abs. 1 Satz 5 WissZeitVG)

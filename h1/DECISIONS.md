@@ -233,3 +233,8 @@ gleichzeitig getroffen würden.
 55. **Abgebrochener erster Versuch:** Der erste v3-Lauf A (20261021-112159_A_7) lief noch ohne Sitzungs-Lock für die
     Bayern-Suche (Risiko vermischter Suchergebnisse bei parallelen Tasks). Ich habe ihn nach dem ersten API-Aufruf
     abgebrochen (0,0004 USD); er liegt in `runs_ungueltig/`.
+56. **Normierung korrigiert:** `regelwerke_einzeln` trennt Regelwerk-Angaben nur noch an „/“, wenn nicht auf beiden
+    Seiten Ziffern stehen. Vorher wurde „Verordnung (EU) 2016/679“ zerlegt und nicht als DSGVO erkannt.
+    Betroffen waren 21 v3-Funde; alle Läufe sind neu ausgewertet.
+57. **Keine Wiederholung nach Werkzeugverbesserung:** Die Schwächen der Regelwerkssuche (ERGEBNIS 5.2) habe ich nicht
+    während der Läufe behoben, damit alle 10 v3-Läufe mit demselben Werkzeugstand laufen. Vorschläge stehen in ERGEBNIS, Abschnitt 8.

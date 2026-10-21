@@ -1,0 +1,47 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayHIG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Regelt den hochschulrechtlichen Rahmen der bayerischen Hochschule und enthält Vorgaben zu wissenschaftlichen Mitarbeiterinnen und Mitarbeitern mit Weiterqualifizierungsaufgaben; damit relevant für die wissenschaftliche Qualifizierungsstelle."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T3.3",
+    "fund_id": "F044",
+    "fehlender_schritt": "Vor der Inbetriebnahme oder Verwendung des Hochrisiko-KI-Systems am Arbeitsplatz Arbeitnehmervertretung und betroffene Arbeitnehmer über die bevorstehende Verwendung informieren.",
+    "begruendung": "Die Vorschrift verpflichtet Arbeitgeber, die Arbeitnehmervertretung und betroffene Arbeitnehmer vor der Verwendung des Hochrisiko-KI-Systems am Arbeitsplatz zu informieren. Ein solcher Informationsschritt ist in keinem Task des beschriebenen Gesamtprozesses aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Nr. 1",
+    "task_id": "T5.1",
+    "fund_id": "F063",
+    "fehlender_schritt": "Die Beteiligung des Personalrats an der Einstellung ist im Gesamtprozess nicht ausdrücklich vorgesehen. Vor Vollzug der Einstellung ist zu prüfen und gegebenenfalls durchzuführen, ob und in welchem Umfang der Personalrat im konkreten Fall mitzubestimmen hat.",
+    "begruendung": "Die personalvertretungsrechtliche Mitbestimmung bei personellen Maßnahmen kann die Auswahl und Einstellung betreffen; in den aufgeführten Prozessschritten ist eine Beteiligung des Personalrats nicht genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 178 Abs. 2",
+    "task_id": "T5.1",
+    "fund_id": "F065",
+    "fehlender_schritt": "Sofern schwerbehinderte oder gleichgestellte Bewerberinnen oder Bewerber betroffen sind, ist die Schwerbehindertenvertretung rechtzeitig und umfassend in die sie betreffende Auswahlangelegenheit einzubeziehen. Ein solcher Beteiligungsschritt ist im Gesamtprozess nicht ausdrücklich benannt.",
+    "begruendung": "Die Schwerbehindertenvertretung ist in Angelegenheiten, die einzelne schwerbehinderte Menschen oder schwerbehinderte Menschen als Gruppe betreffen, rechtzeitig und umfassend zu unterrichten und anzuhören."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 178 Abs. 2",
+    "task_id": "T6.1",
+    "fund_id": "F083",
+    "fehlender_schritt": "Bei Bewerbungen schwerbehinderter Menschen die Schwerbehindertenvertretung unverzüglich und umfassend unterrichten und vor der Auswahlentscheidung anhören; die getroffene Entscheidung anschließend unverzüglich mitteilen. Diese Beteiligung ist im Gesamtprozess nicht ausdrücklich als Schritt aufgeführt.",
+    "begruendung": "Die Vorschrift verlangt grundsätzlich eine Beteiligung vor der Entscheidung und eine anschließende Mitteilung an die Schwerbehindertenvertretung. Die beschriebenen Prozessschritte nennen diese Beteiligung nicht; T6.1 allein kann die erforderliche vorherige Anhörung nicht abdecken."
+  }
+]

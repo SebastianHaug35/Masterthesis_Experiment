@@ -32,6 +32,13 @@ docker compose run --rm ma-h1 python -m src.evaluate
 
 `python -m src.evaluate --runs <run_id> [<run_id> ...]` wertet nur bestimmte Läufe aus.
 
+## Recherche (v3)
+
+`suche: eigen` in `config.yaml`: Das Modell recherchiert über eigene Function-Calling-Werkzeuge (`src/werkzeuge.py`:
+`suche_regelwerk`, `inhaltsverzeichnis`, `lade_norm`, `suche_volltext`) mit Cache in `cache/`. `suche: openai`
+nutzt wie in v1/v2 die OpenAI-Websuche. Smoke-Test: `docker compose run --rm ma-h1 python -m src.werkzeuge --test`.
+Jeder API-Aufruf wird in `../kosten/verbrauch.csv` protokolliert und vorher gegen `../budget.yaml` geprüft.
+
 ## Konfigurationen
 
 - **A (Hauptkonfiguration):** Stufe 1 (1 Aufruf) → Stufe 2 (19 Aufrufe) mit dem Rechtsrahmen des Agenten

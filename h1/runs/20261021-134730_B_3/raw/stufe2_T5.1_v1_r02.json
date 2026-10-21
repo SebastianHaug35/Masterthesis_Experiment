@@ -1,0 +1,414 @@
+{
+  "id": "resp_062bfdaa62ac6f79006ad8a6da60b887d1afddbce07db54c95",
+  "access_programs": null,
+  "created_at": 1792583386.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_062bfdaa62ac6f79006ad8a6db2a0887d1aa43cd0dd171e4ed",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2KbduXKA_A9sAG_cG0w9EPE1eUD5U1K28_OSMIKiVa-ATv27ZnLYnNuBoUD22VBRDXKCxkQJ89dEHrvEAR9QzkRktaa4Q02Rjv_cbirgWFnlE1lryX0POKWfmKRY52Ikt_noAH0fvV443Rkv9W_JVfCr5X-VYJ13K6libukJBgsyO4yFIZmECc0Jb7aDphGSZIkB4ah1BxaPgSqPXKv4n21NctTSywfZ81iVZlbk3fZadzkkWisVLKVIC4V8Yc94R4fiS3ktZdCu1AcukI2L-F988r645F6gaB_o2SfTqkkpP8HCyOZapx8fZE94klDPnYEliLmruGNGQzf841woC5bJpe22y2tXqD4FKXX84DOZLXThX42I649Jv__JrFtBQOmdckXgL2O4KhxG1IAwP4ac_Aa-7V0PjMEHALs00ZE8HjiIO50BwD2D3q4jRoMpCPYabWsb2SoQcLKeHmbOt0Bdn_M7iaE-DqhL40c_3cZ1TLiBDwpzL_D9sY09rd1_V1Kp_w7zSMDblo44D-KGbSZpClm4HlOY_R1jq_lQwqEoZtPqr-B5i-yRJKAo9j-9-aJ784svIMB0soAG5suRQGrXdd6RFW-0T84RT3ywcAcUDJdxdMB3qyUs3hyVybc0eSUX4G-DgW2lQbMdAoLyzL3ELmnwMgi_TlyzzIiXZQ8PP6CUbXXqKWH9LjrLTKZ3z_bBBPbyqWrzS68ivoboprrMSuRe7IVdrB-c3fSa32BdBv97f-kalOlfWygEY83KXDJlah-kvh9AnBM4ApUCO7mE2XjFYDluDIAoanm85fg9sJI64GYQFo-OXEcISIn5mTLkE6T357HXPooq6O6MXwP5n19NlKmN-pBEA2GZzdRvODibUokDaGoGE7BU5126yJ2txJNnYykFvRYmS3FkLXBAIDerkzVI2E78wIW54NAyDWqbaTtzVZaxH3K6Q5H5HyYI-xCNFws_n_xi6vT0ajh25rcrAnHMvD7zFMV9d1dHvdP0nrLi3OcFJdI_XiUC1LenETBLwuKfa0bCC8pKITF41-JcGoOZy7ZcXc0j7mAGYHZty4-mRiYfN_kIIZ-w4HGrCOw66fqgyyoKrUyCTZhc8fNmvxUft-D_GN6MeX_0RBD4IMObcX_b1-29-Ds-jNFa6tx1xIib2RqieGWp3CZO8nQMU_vOAb-0Hm9D32bs8o63DrrM2qvl1ZmR_Uykg81DSQH8RJPiAVD6BR-oAa_80jZ-eepQxcDJQP2BjE98ebRpuopt2186ew4SG6cpkqSemleGDJRpq2PzN9g4jSBJELotjpMGs2ivqR0cwKG9RjdXekcBvzvZNCcAL-U5i_WFZLgh4L6v9UOUUHUnQPw5KyBKCPUfS8jGMH-6G0mdV7WUCR8Js1Yo6mWAD0-5YJn-vk8JTbhmeI10trH__cen-mcHv9uKJs84--jqHfqlWQ2NRC1AI2B4krkk1M7pepVmm4SIdVbCOvDW7QO8YMmixR_DUx1mpCAHyRn-0Vui68Zl3E20qwAcCn8xrGMobDYDHCO2mhKw3O2uxDJJP8JSa_EAS9nn_5z-CE9aByR2YxemtGw5nvsCWVPl4OVlluvUm2JEimJBbSCM_j6wTqnKUKfhmIGJ5_WQrCFT0qzDKyi3UtsjB2w8X_qeEqnAWIElxOkS4LO2Nj3k5Q32BKV51ew5MtXAvfADFaxEQwsTdqJ3xtiK1MufHNw9dx2r3BvxEFVzpKQ6hlu5UZtuMfOh9LQjvxGe2iH7sxiFuYRkAKY=",
+      "status": null
+    },
+    {
+      "arguments": "{\"stichwort\":\"DSGVO\"}",
+      "call_id": "call_9kguKOuq4bDIc0YhKRxYYfG3",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_062bfdaa62ac6f79006ad8a6dd044c87d1b7cb721c099d0957",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "DSGVO"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Verordnung (EU) 2024/1689\"}",
+      "call_id": "call_gjns6tLX6iAc3SwufYj4NHiN",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_062bfdaa62ac6f79006ad8a6dd046087d19eac5caa4bf6da72",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Verordnung (EU) 2024/1689"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"GG\",\"begriff\":\"Eignung Befähigung fachliche Leistung\"}",
+      "call_id": "call_PF2W1Ghh7gkniwlAtYJJ2dtP",
+      "name": "suche_volltext",
+      "type": "function_call",
+      "id": "fc_062bfdaa62ac6f79006ad8a6dd046887d1a67d46a59ec756de",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "GG",
+        "begriff": "Eignung Befähigung fachliche Leistung"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"BayGlG\",\"begriff\":\"Bewerbungsgespräch\"}",
+      "call_id": "call_EVyKRNqroL1TVjO3m4Sm19Ii",
+      "name": "suche_volltext",
+      "type": "function_call",
+      "id": "fc_062bfdaa62ac6f79006ad8a6dd047087d1b0ac0737a98f1738",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "BayGlG",
+        "begriff": "Bewerbungsgespräch"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"BayGlG\",\"begriff\":\"Bewerberinnen\"}",
+      "call_id": "call_0uu0avebr0gpE4jjN4fps3cO",
+      "name": "suche_volltext",
+      "type": "function_call",
+      "id": "fc_062bfdaa62ac6f79006ad8a6dd047887d19309b2a6a0cd59da",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "BayGlG",
+        "begriff": "Bewerberinnen"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"BayPVG\",\"begriff\":\"Unterrichtung Einstellung\"}",
+      "call_id": "call_ZnnqGKs7VjSEnZvb4FzMLvtT",
+      "name": "suche_volltext",
+      "type": "function_call",
+      "id": "fc_062bfdaa62ac6f79006ad8a6dd048487d187d8e30a4c932519",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "BayPVG",
+        "begriff": "Unterrichtung Einstellung"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"AGG\",\"begriff\":\"Beweislast\"}",
+      "call_id": "call_15BreG0JLn6qQNVb13Ums6DD",
+      "name": "suche_volltext",
+      "type": "function_call",
+      "id": "fc_062bfdaa62ac6f79006ad8a6dd048c87d1a87be94d8511dd1a",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "AGG",
+        "begriff": "Beweislast"
+      }
+    },
+    {
+      "arguments": "{\"regelwerk\":\"AGG\",\"begriff\":\"Entschädigung\"}",
+      "call_id": "call_apVXpt1N5Vpktsr7EXNDQLWV",
+      "name": "suche_volltext",
+      "type": "function_call",
+      "id": "fc_062bfdaa62ac6f79006ad8a6dd049487d193f3a3bcc2466f21",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "regelwerk": "AGG",
+        "begriff": "Entschädigung"
+      }
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "name": "suche_regelwerk",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "stichwort": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "stichwort"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Sucht Regelwerke (Gesetze, Verordnungen, EU-Rechtsakte, TV-L) in den vier Quellen nach Stichwort, Abkürzung oder Titel. EU-Rechtsakte am besten als 'Verordnung (EU) JJJJ/NNNN' oder mit Wörtern aus dem amtlichen Titel suchen.",
+      "output_schema": null
+    },
+    {
+      "name": "inhaltsverzeichnis",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string",
+            "description": "Abkürzung (z. B. wie von suche_regelwerk geliefert) oder 'Verordnung (EU) JJJJ/NNNN'"
+          }
+        },
+        "required": [
+          "regelwerk"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Liste aller Artikel/Paragrafen/Anhänge eines Regelwerks mit Überschrift.",
+      "output_schema": null
+    },
+    {
+      "name": "lade_norm",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string",
+            "description": "Abkürzung oder 'Verordnung (EU) JJJJ/NNNN'"
+          },
+          "norm": {
+            "type": "string",
+            "description": "z. B. 'Art. 78', '§ 165', 'Anhang III'"
+          }
+        },
+        "required": [
+          "regelwerk",
+          "norm"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Lädt den Wortlaut einer Norm mit quelle_url und fassung_datum.",
+      "output_schema": null
+    },
+    {
+      "name": "suche_volltext",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string"
+          },
+          "begriff": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "regelwerk",
+          "begriff"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Sucht einen Begriff im Wortlaut eines Regelwerks; liefert bis zu 10 Normen mit Auszug.",
+      "output_schema": null
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792583389.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": "resp_062bfdaa62ac6f79006ad8a6d5ec3487d1a1f1b9310edace62",
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3943,
+    "input_tokens_details": {
+      "cache_write_tokens": 2086,
+      "cached_tokens": 1854
+    },
+    "output_tokens": 267,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 4210
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

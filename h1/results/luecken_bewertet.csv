@@ -98,3 +98,25 @@ run_id;version;konfig;regelwerk_norm;art_norm;kategorie;soll_ids;soll_zuordnunge
 20261021-112400_A_7;v3;A;AI Act;Art. 26;luecke_an_vorhandener_zuordnung;;S13;2;T3.4
 20261021-112400_A_7;v3;A;AI Act;Art. 27;luecke_korrekt;S15;;1;T3.4
 20261021-112400_A_7;v3;A;DSGVO;Art. 35;luecke_korrekt;S18;;1;T3.2
+20261021-123226_A_8;v3;A;AI Act;Art. 26;luecke_an_vorhandener_zuordnung;;S13;1;T3.3
+20261021-123226_A_8;v3;A;BayPVG;Art. 75;luecke_ohne_soll;;;1;T5.1
+20261021-123226_A_8;v3;A;SGB IX;§ 178;luecke_korrekt;S22;;2;T5.1,T6.1
+20261021-125331_A_9;v3;A;BayPVG;Art. 76;luecke_ohne_soll;;;1;T1.1
+20261021-125331_A_9;v3;A;SGB IX;§ 165;luecke_korrekt;S06;S21;1;T1.3
+20261021-131115_A_10;v3;A;DSGVO;Art. 19;luecke_neutral;;;1;T6.3
+20261021-131115_A_10;v3;A;DSGVO;Art. 35;luecke_korrekt;S18;;1;T3.1
+20261021-132320_A_11;v3;A;AI Act;Art. 27;luecke_korrekt;S15;;1;T3.2
+20261021-132320_A_11;v3;A;DSGVO;Art. 35;luecke_korrekt;S18;;1;T3.2
+20261021-133323_B_1;v3;B;BayPVG;Art. 69;luecke_ohne_soll;;;1;T1.1
+20261021-133323_B_1;v3;B;SGB IX;§ 178;luecke_korrekt;S22;;1;T6.1
+20261021-134114_B_2;v3;B;SGB IX;§ 178;luecke_korrekt;S22;;1;T4.1
+20261021-134730_B_3;v3;B;AI Act;Art. 26;luecke_an_vorhandener_zuordnung;;S13;3;T3.2
+20261021-134730_B_3;v3;B;AI Act;Art. 27;luecke_korrekt;S15;;1;T3.3
+20261021-134730_B_3;v3;B;BayPVG;Art. 76;luecke_ohne_soll;;;1;T1.1
+20261021-135453_B_4;v3;B;AI Act;Art. 26;luecke_an_vorhandener_zuordnung;;S13;3;T3.2
+20261021-135453_B_4;v3;B;AI Act;Art. 27;luecke_korrekt;S15;;1;T3.2
+20261021-135453_B_4;v3;B;DSGVO;Art. 13;luecke_an_vorhandener_zuordnung;;S10;1;T2.3
+20261021-135453_B_4;v3;B;DSGVO;Art. 30;luecke_neutral;;;1;T2.3
+20261021-140126_B_5;v3;B;AI Act;Art. 26;luecke_an_vorhandener_zuordnung;;S13;2;T3.2,T3.3
+20261021-140126_B_5;v3;B;AI Act;Art. 27;luecke_korrekt;S15;;1;T3.2
+20261021-140126_B_5;v3;B;DSGVO;Art. 13;luecke_an_vorhandener_zuordnung;;S10;1;T2.3

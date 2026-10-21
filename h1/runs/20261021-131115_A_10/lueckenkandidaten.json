@@ -1,0 +1,83 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "Verordnung (EU) 2024/1689",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Der Einsatz eines KI-Tools zur Vorauswahl und zum Ranking von Bewerbungen fällt in den Bereich KI-Systeme für Beschäftigung und Personalauswahl; die Verordnung ist deshalb für den KI-gestützten Teil des Verfahrens relevant. Die zeitliche Anwendbarkeit einzelner Pflichten kann gestaffelt sein."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayPVG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Gilt wegen der Personalvertretung bei personalbezogenen Maßnahmen der Hochschule; zudem kann die Einführung oder Anwendung technischer Systeme zur Bewerberdatenverarbeitung und KI-Vorauswahl personalvertretungsrechtliche Beteiligung auslösen."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayHIG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Regelt den hochschulrechtlichen Rahmen für wissenschaftliche Mitarbeiterinnen und Mitarbeiter und deren Weiterqualifizierung an einer bayerischen Hochschule; damit für die Qualifizierungsstelle und die Einstellung relevant."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "wisszeitvg",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Die Stelle ist als wissenschaftliche Qualifizierungsstelle zur Promotion für drei Jahre befristet; das Gesetz ist daher zentral für die Befristung und den Vertragsabschluss."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "tzbfg",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Enthält den allgemeinen gesetzlichen Rahmen für befristete Arbeitsverträge und ist ergänzend zur wissenschaftsspezifischen Befristungsregelung für den Vertrag relevant."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "bgb",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Enthält den allgemeinen zivilrechtlichen Rahmen für den Abschluss und Inhalt des Arbeitsvertrags, soweit keine spezielleren arbeitsrechtlichen Vorschriften oder Tarifregelungen vorgehen."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "sgb9ua_ndg",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Kann insbesondere bei Bewerbungen schwerbehinderter Menschen Pflichten des öffentlichen Arbeitgebers im Auswahlverfahren und bei der Einladung zu Vorstellungsgesprächen auslösen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 3 Buchst. a",
+    "task_id": "T3.1",
+    "fund_id": "F036",
+    "fehlender_schritt": "Vor Beginn der KI-gestützten Bewerberauswertung eine Datenschutz-Folgenabschätzung durchführen, sofern die systematische Bewertung persönlicher Aspekte auf Grundlage automatisierter Verarbeitung als Grundlage für Auswahlentscheidungen mit erheblicher Wirkung dient; den Rat des Datenschutzbeauftragten einholen.",
+    "begruendung": "Die systematische Bewertung von Bewerbenden durch ein neues KI-Tool kann unter Art. 35 Abs. 3 Buchst. a fallen. Im beschriebenen Gesamtprozess ist keine Datenschutz-Folgenabschätzung als eigener vorgelagerter Schritt aufgeführt. Ob sie im konkreten Einsatz erforderlich ist, hängt von dessen Ausgestaltung und Risiko ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 19",
+    "task_id": "T6.3",
+    "fund_id": "F075",
+    "fehlender_schritt": "Soweit Bewerberdaten Empfängern offengelegt wurden, diese Empfänger über die Löschung unterrichten, sofern die Mitteilung nicht unmöglich oder mit unverhältnismäßigem Aufwand verbunden ist.",
+    "begruendung": "Bei einer Löschung nach Art. 17 Abs. 1 muss der Verantwortliche grundsätzlich auch die Empfänger der Daten über die Löschung informieren. Ein entsprechender Schritt ist im Gesamtprozess nicht ausdrücklich enthalten."
+  }
+]

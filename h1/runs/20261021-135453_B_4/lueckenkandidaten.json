@@ -1,0 +1,83 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "SGB IX",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": ""
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayGlG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": ""
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayPVG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": ""
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 13 Abs. 1 und 2",
+    "task_id": "T2.3",
+    "fund_id": "F027",
+    "fehlender_schritt": "Bewerberinnen und Bewerber bei Erhebung ihrer Daten über Verantwortlichen, Verarbeitungszwecke und Rechtsgrundlage sowie die weiteren vorgeschriebenen Datenschutzinformationen unterrichten.",
+    "begruendung": "Die Bewerbungsdaten werden bei den betroffenen Personen erhoben. Der Gesamtprozess nennt keinen ausdrücklichen Schritt zur Erteilung der vorgeschriebenen Informationen; die Unterrichtung muss grundsätzlich zum Zeitpunkt der Erhebung erfolgen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 30 Abs. 1 und 3",
+    "task_id": "T2.3",
+    "fund_id": "F029",
+    "fehlender_schritt": "Die Bewerbungsverarbeitung in das schriftliche, gegebenenfalls elektronisch geführte Verzeichnis der Verarbeitungstätigkeiten aufnehmen und die vorgeschriebenen Angaben dokumentieren.",
+    "begruendung": "Die Hochschule beschäftigt mehr als 250 Personen; die Ausnahme von der Pflicht zum Verzeichnis greift daher nicht. Im Gesamtprozess ist kein Schritt zur Pflege des Verzeichnisses genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 5",
+    "task_id": "T3.2",
+    "fund_id": "F035",
+    "fehlender_schritt": "Den Betrieb des Hochrisiko-KI-Systems anhand der Betriebsanleitung überwachen und gegebenenfalls Risiken melden sowie die Nutzung aussetzen.",
+    "begruendung": "Die Vorschrift verpflichtet Betreiber zur Überwachung des Systembetriebs. Ein entsprechender Überwachungsschritt ist in den Tasks des beschriebenen Gesamtprozesses nicht ausdrücklich enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 6",
+    "task_id": "T3.2",
+    "fund_id": "F036",
+    "fehlender_schritt": "Vom Hochrisiko-KI-System automatisch erzeugte Protokolle, soweit sie der Kontrolle der Hochschule unterliegen, für einen angemessenen Zeitraum von mindestens sechs Monaten aufbewahren, sofern keine abweichende Rechtsvorschrift gilt.",
+    "begruendung": "Der Gesamtprozess enthält keinen ausdrücklichen Schritt zur Aufbewahrung der automatisch erzeugten KI-Protokolle. Die Pflicht betrifft den Betrieb des Hochrisiko-KI-Systems."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T3.2",
+    "fund_id": "F037",
+    "fehlender_schritt": "Vor der Inbetriebnahme oder Verwendung des Hochrisiko-KI-Systems am Arbeitsplatz die Arbeitnehmervertretung und die betroffenen Arbeitnehmer über die Verwendung informieren.",
+    "begruendung": "Die Hochschule ist Arbeitgeberin und setzt das System im Beschäftigungskontext ein. Im Gesamtprozess ist keine Information der Arbeitnehmervertretung oder betroffener Arbeitnehmer über die KI-Nutzung vorgesehen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F038",
+    "fehlender_schritt": "Vor der Inbetriebnahme des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen.",
+    "begruendung": "Als öffentliche Einrichtung muss die Hochschule vor der Inbetriebnahme des Hochrisiko-KI-Systems grundsätzlich dessen mögliche Auswirkungen auf Grundrechte abschätzen. Ein solcher Schritt ist im Gesamtprozess nicht enthalten."
+  }
+]

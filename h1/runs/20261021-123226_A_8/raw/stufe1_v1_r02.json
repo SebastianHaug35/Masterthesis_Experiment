@@ -1,0 +1,419 @@
+{
+  "id": "resp_07111772f4fc2235006ad894c5160887d18211281f6d8e2b38",
+  "access_programs": null,
+  "created_at": 1792578757.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_07111772f4fc2235006ad894c602f887d1a9873ee9566fecb0",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2JTJg6h2BnX1A5FH6y5kGt0yMwtrqBJjTbFhEpAy8Vj9XDjAav3fWuMTOpizmCtQQ51CCZCeGa9nVFljVAJw4dZrJ1JjD1Y-3ko5eYciGPRtUBVDaj6s_0WGZc3X3ThRqaF-YlJecS2hXqZwJsQfjO1O80CZSpEjcPZsc48dEDyg0g9SfzmGElenecHrmqvpa8hvqiBE7D1a1MnbXc7VZxW-LXp8uTpxQSOFI7UF4VmwT4U8jlJCcHPlpH1EBuNmtLOQwnA4dW_mkgGfKHdSBm7YoTF9IYGpuLOnfV2dcBLaFSs5E6KNvc4skbJf_E9ywBB3X1wgQOoaGsSKPuzV_-gk72KgWm46qCgl0frJ3QMmPoUbLQvY6tZ3CAsIcKG9jGC5bMsKyo0RR51d0KOpx_yvgGA0xDHjbAXXFvKmd69Dr0A5kB8ZNF-8-_1gxuGvir8h_Z6o5t8-1zT-grVzneHu9hsSAgbxKI5dwlLNQ3xBs2bnLsla-1uvKU7gjqg1IrQVYzHP8k4dqxu9nKiYpyWwUwysxXyuUzbEwaXXVJV_GTFP4P7i7DlCMNLC6VpNqCjizwd2Klu4QfcUrf8BRkfK0vSFfAnPHWfn21pHNL0sAxESb4EZq_KvV4X_-Jykn1jMbLOPyLISbUCicz--WvzFfvLDpCyLNEOpCPOB9z0BLPwEe8EhR5eR0ZVxnxXdJj5gArTqZb2roh3mAi4XkE2WnmZdLNjqYVFxXbg4cxJu_d1mwpsDdMY-QVrkZmZSI0FMca4Rb4OlCF57hmXX-9dlIfkJp_TOQUbXvcNqkRmyJzAjVHU5t8rsnH0lMXbo7ZTZf4mPkAm69Hsur93nDWv5vKmto4trwYRMZ-atERt7vDJjXyJEwlF0c0F_Pqw7YhKHcxTZLGFapuDFDkfKv6eWT-3visf0Wu_yDpa3azOVx0HKwtL2EPNv_PYXBduslmzeLO3Pb1VIrQbdyOyCCDoxpAsY92gtTcQoL8BB7aFyrRujKhYBwHV8ZtI7bkRtfbQeZHHeBBlxxUlM5b7WqOEzTrXZfZsFN9_JVw3R0AQ5rHt50uj0yNJtbbxn8MEEu8f67Pf2UeJ-vMKxZVqN-jzP4p-NIm8vgKabJdybILfCMP-mauFCcSoyQgbU9D1__YYnJ9pPRjxC76Od2Zcq5YBp7BH8uRhe8yGANpmwTRuRncumWzaaa8Qy_8wURGf5smhfaSoe7nycpeYfogmbuXnHwJF8iiUslQB96wpu40opFSMB7UKX012x5NTzbm3wehz5m26beb55kvUBikPd3KTvEf0CNFPA0NedNF_yZlycJJhIEjWb16MHWMLHA3BJRUCt1UWmVgrRotvV2aP-rR6OyttjEl17jJ5O7NDtsqi8zuU_4aJnpxMNnO7QohHaomfzhbcz6aftvtDePCjIIDrj8udfoAH6Ab6xG-yTzHzpqN-KUXDW5eRWSat4swD6Sat4gzKsRiB8RM1i2yw4RGpuD_tegIND9IRieba3PWQmluZby8fYE6AgbIu1yk_OvpKCSWtLAZedfLcFpnxmJpvMcX2o1N4T49Y2_dRkENTJFub8qO5rOX9ApvlXbbeLfLYhISy-OTiDXCdrnOLLl1TsCTOYjxiAUDVTurzCWJCuO5wuRqE4Wx0ie6nt_OJM51YaZk5kENcMbmSRyeatU_9bJ4WuGly9schlkNpANKAgMubuMul6dz9BaVuk3C0_I-BAv3zGnG5EzRT73eCub6Rc7JWc09F7UZ-sB6NkTFK8de_7qGpDIS-AJtTB9ZWpJl4yfWwvhqGUACbHpQOzw_C5SIThbeqLuuyy-QMcIi2hGF2iwxGtmbBqjcgVjM38jEJvfmURjN30DeaeOSxtxFJTSP4rg3xDMgVRBohAajBKl5A=",
+      "status": null
+    },
+    {
+      "arguments": "{\"stichwort\":\"Verordnung (EU) 2016/679\"}",
+      "call_id": "call_45ejnDQ08M2Xwfu8ucsUcSne",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bb4c87d1926ffa508968139e",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Verordnung (EU) 2016/679"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Bayerisches Hochschulinnovationsgesetz\"}",
+      "call_id": "call_DT2vaJHlTIe3jRenbNTYIPh8",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bb6087d1ace61adb5c6233f8",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Bayerisches Hochschulinnovationsgesetz"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"BayHIG\"}",
+      "call_id": "call_kcgHDXHVUN2eMxw4aKGWbBRV",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bb6c87d1b3fdb8bd99e3150d",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "BayHIG"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Bayerisches Gleichstellungsgesetz (BayGlG)\"}",
+      "call_id": "call_VM2kHH1dOeYvxUy5NXgOotse",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bb7487d19cc1a68e63c1ea46",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Bayerisches Gleichstellungsgesetz (BayGlG)"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Wissenschaftszeitvertragsgesetz (WissZeitVG)\"}",
+      "call_id": "call_1vuOkS426R6J7kUtBafIraB0",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bb7c87d1a6727dd2db79af22",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Wissenschaftszeitvertragsgesetz (WissZeitVG)"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Befristung von Arbeitsverträgen\"}",
+      "call_id": "call_lY8oks3cCp3kmI5cT3yTIShT",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bb8887d1b265833c079a86fa",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Befristung von Arbeitsverträgen"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Bayerisches Personalvertretungsgesetz (BayPVG)\"}",
+      "call_id": "call_ecXcN1mimmjDuzrV1DxqdTlu",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bb9487d18e697be0d2f08128",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Bayerisches Personalvertretungsgesetz (BayPVG)"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Sozialgesetzbuch Neuntes Buch\"}",
+      "call_id": "call_i2aqA8GvjDJGBnHYWScRc8aS",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bb9c87d182adad4579855bf1",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Sozialgesetzbuch Neuntes Buch"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Grundgesetz\"}",
+      "call_id": "call_Pu8sn3pXifhprGgAYMxpKc2a",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bba087d1970fbcc5d64b8ed8",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Grundgesetz"
+      }
+    },
+    {
+      "arguments": "{\"stichwort\":\"Nachweisgesetz\"}",
+      "call_id": "call_0NFv8SFNrSdFjIv1YcGJKNaI",
+      "name": "suche_regelwerk",
+      "type": "function_call",
+      "id": "fc_07111772f4fc2235006ad894c8bbac87d19081a478e3315264",
+      "async_": null,
+      "caller": null,
+      "namespace": null,
+      "status": "completed",
+      "parsed_arguments": {
+        "stichwort": "Nachweisgesetz"
+      }
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "name": "suche_regelwerk",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "stichwort": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "stichwort"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Sucht Regelwerke (Gesetze, Verordnungen, EU-Rechtsakte, TV-L) in den vier Quellen nach Stichwort, Abkürzung oder Titel. EU-Rechtsakte am besten als 'Verordnung (EU) JJJJ/NNNN' oder mit Wörtern aus dem amtlichen Titel suchen.",
+      "output_schema": null
+    },
+    {
+      "name": "inhaltsverzeichnis",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string",
+            "description": "Abkürzung (z. B. wie von suche_regelwerk geliefert) oder 'Verordnung (EU) JJJJ/NNNN'"
+          }
+        },
+        "required": [
+          "regelwerk"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Liste aller Artikel/Paragrafen/Anhänge eines Regelwerks mit Überschrift.",
+      "output_schema": null
+    },
+    {
+      "name": "lade_norm",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string",
+            "description": "Abkürzung oder 'Verordnung (EU) JJJJ/NNNN'"
+          },
+          "norm": {
+            "type": "string",
+            "description": "z. B. 'Art. 78', '§ 165', 'Anhang III'"
+          }
+        },
+        "required": [
+          "regelwerk",
+          "norm"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Lädt den Wortlaut einer Norm mit quelle_url und fassung_datum.",
+      "output_schema": null
+    },
+    {
+      "name": "suche_volltext",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "regelwerk": {
+            "type": "string"
+          },
+          "begriff": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "regelwerk",
+          "begriff"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true,
+      "type": "function",
+      "allowed_callers": null,
+      "async_": null,
+      "defer_loading": null,
+      "description": "Sucht einen Begriff im Wortlaut eines Regelwerks; liefert bis zu 10 Normen mit Auszug.",
+      "output_schema": null
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792578760.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": "resp_07111772f4fc2235006ad894bbf5cc87d1898f7e510b9676d3",
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Rechtsrahmen",
+      "schema_": {
+        "$defs": {
+          "RegelwerkEintrag": {
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform, z. B. DSGVO",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "vollstaendiger_titel": {
+                "title": "Vollstaendiger Titel",
+                "type": "string"
+              },
+              "ebene": {
+                "enum": [
+                  "EU",
+                  "Bund",
+                  "Land",
+                  "Tarif"
+                ],
+                "title": "Ebene",
+                "type": "string"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "betroffene_teilprozesse": {
+                "description": "Nummern der Teilprozesse, z. B. [\"1\", \"3\"]",
+                "items": {
+                  "type": "string"
+                },
+                "title": "Betroffene Teilprozesse",
+                "type": "array"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "vollstaendiger_titel",
+              "ebene",
+              "begruendung",
+              "betroffene_teilprozesse",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "RegelwerkEintrag",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "rechtsrahmen": {
+            "items": {
+              "$ref": "#/$defs/RegelwerkEintrag"
+            },
+            "title": "Rechtsrahmen",
+            "type": "array"
+          }
+        },
+        "required": [
+          "rechtsrahmen"
+        ],
+        "title": "Rechtsrahmen",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4761,
+    "input_tokens_details": {
+      "cache_write_tokens": 3262,
+      "cached_tokens": 1496
+    },
+    "output_tokens": 323,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 5084
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

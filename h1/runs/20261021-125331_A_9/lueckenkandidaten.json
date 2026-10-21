@@ -1,0 +1,56 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayPVG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Gilt für die Personalvertretung der öffentlichen Hochschule. Beteiligungsrechte können insbesondere bei Auswahl und Einstellung sowie beim Einsatz technischer Systeme zur Bewerberauswahl berührt sein."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayHIG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Regelt den hochschulrechtlichen Rahmen und die wissenschaftlichen Mitarbeiterinnen und Mitarbeiter mit Weiterqualifizierungsaufgaben; relevant für die Qualifizierungsstelle an einer bayerischen Hochschule."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "SGB IX",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Für öffentliche Arbeitgeber relevant, wenn schwerbehinderte oder gleichgestellte Bewerbende beteiligt sind; es kann besondere Pflichten im Auswahl- und Vorstellungsgesprächsverfahren auslösen."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "Verordnung (EU) 2024/1689",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Die KI-Auswertung und das Ranking von Bewerbungen fallen in den Bereich KI-Systeme für Beschäftigung und Personalauswahl. Die Verordnung ist daher für Einsatz, Aufsicht und Anforderungen an das KI-System relevant; einzelne Pflichten gelten nach den gestaffelten Anwendungszeitpunkten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 76 Abs. 3 Satz 1",
+    "task_id": "T1.1",
+    "fund_id": "F001",
+    "fehlender_schritt": "Den Personalrat vor der Weiterleitung von Personalanforderungen zum Haushaltsvoranschlag anhören. Ein solcher Anhörungsschritt ist im Gesamtprozess nicht ausdrücklich aufgeführt.",
+    "begruendung": "Art. 76 Abs. 3 Satz 1 BayPVG verlangt die Anhörung des Personalrats vor der Weiterleitung von Personalanforderungen zum Haushaltsvoranschlag. Da T1.1 eine Bedarfsmeldung betrifft, ist die Vorschrift relevant, sofern diese Meldung Teil einer solchen Weiterleitung ist."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165",
+    "task_id": "T1.3",
+    "fund_id": "F008",
+    "fehlender_schritt": "Freie und neu zu besetzende Arbeitsplätze nach erfolgloser Prüfung einer internen Besetzung frühzeitig der Agentur für Arbeit melden; dieser Prozessschritt ist in den aufgeführten Tasks nicht ausdrücklich benannt.",
+    "begruendung": "Öffentliche Arbeitgeber müssen die erfassten Arbeitsplätze frühzeitig der Agentur für Arbeit melden. Die Meldung ist ein eigenständiger Schritt und wird durch die beschriebenen Aufgaben zur internen und externen Veröffentlichung nicht ausdrücklich abgedeckt."
+  }
+]
