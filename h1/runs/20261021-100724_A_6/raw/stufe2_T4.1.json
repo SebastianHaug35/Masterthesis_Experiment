@@ -1,0 +1,377 @@
+{
+  "id": "resp_0a4c0bd66a0a914b006ad873839b2487d1aaf720eb10156027",
+  "access_programs": null,
+  "created_at": 1792570243.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_0a4c0bd66a0a914b006ad873856f9c87d184996091257c083e",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu 2016/679 Article 13 Article 22 automated decision recruitment interview",
+          "site:eur-lex.europa.eu 2024/1689 Article 26 deployer high-risk AI employment informing natural persons",
+          "site:gesetze-bayern.de BayGlG Vorstellungsgespräch Gleichstellungsbeauftragte Antrag Bewerberinnen Bewerber",
+          "site:gesetze-im-internet.de SGB IX § 165 Vorstellungsgespräch schwerbehinderte Bewerber öffentliche Arbeitgeber"
+        ],
+        "query": "site:eur-lex.europa.eu 2016/679 Article 13 Article 22 automated decision recruitment interview",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__165.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/SGB_IX.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-FR/TXT/?uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG-17?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-PL/ALL/?from=PL&uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-13"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV249478-14"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-4"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/swe"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayVwV153871?all=True"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0a4c0bd66a0a914b006ad873882f8487d1a0dda6870737c055",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HOTjYNF5VanFSx5Wz9hZOluul4aa90rF3QdlpjdgHHu68P1Lb6Gj3OK7G8rJupTVsuC301b6CL89PTchuWhaHyL2VdqU4CJgdKG7LblAVO9e7PqPuwZrCFcRvtE9vvf4Ruy-2WT32b2SrxeY3gkVtiIt6PqwvkpazZDmnSfrH5Y0nF5KEeB5fuT-zFb3BWC1b2M-OJH8qvlTYOvQEzyDNNMjEEtir0Gb6-MNzUwS8CGk_fNyV18ZOq_kudShre1534h9-6wqEcKktJoYyegBm-TfDm8karNAoPDVl8yKMn_QFi74C7nVoCT08T1sX0ehB7BRm2nF90Fo6YDTE5JW2Nkw2J6y_yOHTDAQs_xhYKBLD1kgYggE5dyDFuV8XYhLxqZ5lfnwJyftnZ8bXOKQobG4Kvi51kMZmC_O49VfG8n_O8i8TkaFpF5aRPEe3S0UwysGSFWQT3QZJJz7oZOUdGdD2ml2nqBRzD-8pljB5U8efWLQUfoCuoSz7qv8yRCGg73eDJ2NJFqeABQYiuGFUHo4DDK7UDIaO3VxZEtMomu_4r4dR2gTvVFKjhvJGNbzJ0rypzRkEWtyQaoNjL_wJ6Z1-G2hjyAMWQkacabp9Uvb-h-m1AhwYIx2_3APK9Wkj_7eY6Hi1_9fFvADFiAyw87fzTf0jfwLV6EWo-vCvbnezGmqM_whgsIHyuT0gZGAIo7Rfl4yASDYIUrkdJ8RFO37xhH3XqtlKwSE5gCooLvQgTD80lDb3R5bVrsR1NbL2CWEK6akrh245sJl8aYWSvrRsWKY27pQ3gp9buO2EGG5un6UsikyNdMIufH1GNSqhtbWIUpYSJzl6_r5jXNApu34qH_1KuZKvzGplV07zW-XiI-juFCQOU90TT5h6rh3TmRfXGwrQFf4hNls-ixJ_vNKcMQxdhIIfOySDKgiqipZecq-_sJlCGyUJwtwGb0dj5LAQErlZ-4cWAcO-OfnkWUn6n3P00tayCUNDmBjcFg_kxSjKgEGNE72qG-u6_UIbXbM7vVtVS26NAZ6robg1nPdqCkOfVwV2lFlIOvY5qJUgvN6Y_0iP57qNyz6rtcPq-_0K-3TJ3oIg5eJTllYBYCbrVV-PMrvtJ2tx3GSjMPSPc_VRD7IydZXe89JstYTIS_vw0IVXDZQl4md7tF9P2sh6AG1Q60Vo9KVNpxXkoWUdgyFqBKGint9DJ4frG0HHpSMCrqQ20jipMQwlb76cmohohet0a1w8Clxqe0CSp3LW-q_9pyC0dfckurmIRW8NQGK2o9IAAZd07Tr_4w6XyM-CAC9BwgzVLrMbM6knte5X1Of9wyr8zKqsTJ9kWy7-UaL03RzNRJOwj5NgnlSIjQZYCP7GEMF8lXULO2hWT5o8Bhy1MOmTWoytrM8wHO50gN0IcXKaegxXsHtu6gAsXJQcsbHcJ1F39BQjhNdYFzsaZc6_RH4ZjltxPwOoYX_Os7kJ5Wviia5LITmX_D_bhfi9foqIMeedKOYf9wBYHHcMyPYYkIE1nnMvXlpnnHlqwTJ_xZF69kZ5_cnPo-JAO2aL2yETNiH7_Q9oN9LCSOl4SHe2m5uaj_wB69BBVNDhR2S-0g5PJlKGaHECglR5OmlpjhoJTBVO9EZoPNloFSCG6J_Odl60KETB6utlRink2f9IXtw2v19a73cqlyUldiCYzTroZYguELoiq8mh--PEPXWwEgnjsRMSfOqhZW5E4_NpcShVmO_V7Be-7DC9AwPepEeI9GxFRmiNH_nv74YmL_XOqdffAzVyfM981NFmT9RBuyWJtx-g1gByhuaeuFg5HnLDQMIx6OiUta4HNwJosnaN-bL94gQaXQ3B4AG0K3WrCrLgzq48BGKvUXls3PYtUcihOqMixkL_0cuDz0Gxu0Z0CLm4rw-eISnQBje38XwAD7DChKhmQE8f91ZzIIYdw8agEeVV9aNGGGq2iDA6sSEiZRBGj1h75E3UWg3H9SB07cnDHHKRX2d_F96Qg7AuU6o1tdx18JJYxgYSOemnTCNIMCCZ9CFz8dJEjIsh54sNRx2DLlPgxIvAg3_gybDCblGIwjWL8XUkWReFnKAWD0-ZdAhi8HNRbWXWQ7Y-SdOlN23oQmNg9b0zr69u5WcS_rAq-ovscGPQN9mv-JMiYq45A-OJeHmb20v2P9Iu3gcyCjrkYikYoejSSMXFjEO5NTa-HCyAv091efCRTXQZeh8H_1lRVkn1hwpEsaVWfOrxhf5k1wKQJZ2ZKSMIyIIpp8CqFmAw4shfujSghc42fjzOQJbzdBbRv-PwWv7GcLeq7gB5mqf1ybNh8uRck7HT3zVRF8l-wVt24igH2v9n4R4vkE77QGuNujeThsakEMYHrBkGd8cbjHpMijnJqPRTMkpkPxLYhOfhVOKOcq4REi8aXdHDJb747Vi_n7UpXZfqo0cdZJtvQnee5rwWUgrDNs8ItbSJwFo8jYH3FQg1aYAGwx7eyqqQ6fZoeiZQpmLxNH9Vg9ND7Z8ZRnjGmHz2Glzt4VQP6FzuZqj6rnWgzpfcbS3z0z8jF_QpKbDmM0fr3iAn_uGhYOakF7RrPm9bNbNrwaZMvBZnvxHmIy7caVmf4i32X1Q2f5GjDzQePAlN9HD1YRE_IfCJqPgvb4Ooc2-Yla0d5KsHhF3fbn3bPcE_hfu_6bKG4EOyJuxlHksay1x9TM3xyz477xdM8j6pWzQdhAE43QQPd8v6G5bNcH1Ko32Gaj2FuVpE1YWZuRybTMHs6az7VVfOyaLhPAPGqPEOi76tHgwmbcgjMi8DQ-jIfv-2HfD8Bw0aW8-4XtCxMwOVDk96JA42v6uC0PnYl3CkYmvIGUV_VyeLA5ML7xc6Ya7Ct4mC0ZMVUxhrZTmiQQktxDBZ7WMxGKTGHFPDs5rMUGXcIMC1kup2EH0cZZGo4LZ_Iybqs4JRmm3FcP-xh6-McVROClzxzhHbwScoo-wE4nv1JRzReOCWoS1CKka-aYyEByrwp0jFlPSbRoffuSpt9YLs7jvUII816MFD393eGits4BihV48HdzrIa1IX4Kcmm2uW7FKTy7ZgFC51-t9zMqLvQE18vN7ZlxYoEr_i2uwkEP396L0In_6nbZtI9h6isvPUJVGXSrBuJ9YqkzQwmWQEA8hhAdSSm8zEW9Y0qowqv2qgv60nm43_JVduY1ZvUwvQ1ebnxnKDHZVVMhhkCxV59sbEZeaC94mVDIMAdkz_G4nNENHpsc-A6KSurQt-fUTttINdInNiNoO-iDZMl5kIgyZfl_usmkZbt63OEfVsUMrpyoCBbUQ1AdSyEbFslZz0T6wyaY2YTctgrWxM0JiresEbnKRPFAjVyawkEpdMey1HcsEpx7BP5q-WaEjk9Mg7EM2tn4yPA1F3e8ir9JRipuolCXkGl_GJXHQ_aCCLVVjftgyW38pw5zPUmAkvXCPaZVApuRro7R6SlyDEpDVwuyJmLoWxeCkrVFg832mko7KF6Fudsffk4sDFjL1NVwk81K81eq9bVw_HqeNONU-EYdh5XOg-fyXx1nbItuCq7dSvTkY0_qGGRvlMOtlaaFBvpT4Zw6GotjkV6YOKpnAfPhuQnHVLoeMKKZzakfqeBMkEDvnKjI_2xEtI36Z3J2_dUTvUA1cgTXHQwORNydejiexZ4rZmcD7eDrkPpDAnthQyvdX8FOTEBOK0AiiD6P4qcjp04YC6_hX0NAAmPUGf3pcuRG6RXMk3OAl4aPKRZywnGqLBk_c9npQ6KZemIIGHKJpRh7gnavQLROkjJCb-sjRh0bAI4DWPQQGtyxXYDZ226dE3FY7rrcqT_YhK7yCYHxFmFoFjmVNGBxqPeMYyuwTIvoWkZIA_tZcJgpzy14vJMUKmp7UiPDszpUiH08dFilLDxcBm_T1DLbT_LSlRlD8YpmRZD2nZpZRLsBFQFaJ-pcriALIl-hnkwAcffzNcTiM4tq6uShXknyXxbYoUnZUdA0sROn-9ixDshWii1HCER9ZzoXcFj7OupcwcfWGKLujYw0qUJUxXpuHSBScIWf64GlcJ4lwFLyj1UGtxJ10XaYWkWJ3dFYRHfPoh2BGLGaZFkQuao2JBCW6wn25LyhhWZGp3SpWEanV64OXbVQrXPFnfw4gogNVTBsiHvQnmCH1VvtxrgQUZJijp9E_V8wFQBioc83k2BLgkyrqkugSoSp3960dk8U7dUv-z668mTA5y7u6i0HNH7HvBmt7NCcOFwzcjZdqsyoHLYGxpPpV4iEA4el0TbYgIlsv5iBBK-LTkrYuk2h5ctPcXkJK4HufU_uXfkiOFrt_Hf_gDiHoLADvuyP-sD2ORQI4XeiwyuZY5VfCJXvs9IXjjnXKcKWkUWubvzYlUqQJZ2FTzm9XlWiOgbJEsgcqJBHBaqjHBaz12SeaGkybMbIzIWdVu4wiJib5DFeFVlJP-zwpXSGrSoAV_Y2c5fVcz5ksx4Q7jfffzuIzEfVaqUzHXvEaO4SKFUoaEw7pnqysBP-k6OOaTxZ8126Q1MvecepRpQAa-XNbSHDdpT1IhQ4oNSNBnUgtP3qb7KCoDCRjEWatK5MkCHQIpPPfCY6bPhpxmZftwMYdD70PiZmht0FTNds-C6NViwvkrTqvgqnkz7jnvC5rMJ5yTA0jIIxw1PnzW2IzcfaVhWECkMncPoXAyCKIY_uatZiT1lX8XNPuFo9lJam5px5RrA7KvgkvB9nlAmofWXNhKSSoPnuoV8BqbXVqCKnaZsiXp261RIPSaE5Ne_qrXIe0hbfW5qfyUULhWBTZu8HrEDiIoCA4eaLFXge7vWPpzfxHMh8-ElrLrfqDxssKyOcO-0UlPU71x7aGABrb-KJuSPpqMWtFtetSq3p4rawPgvBwO2AATuZrARy_ZRCaErzyx4yPg7dqcqEiPtOkRlMSwYORQPnz7aJ4V216ppZpxKt6wPdfc3GSXMJtxB0QZeBDmtqotsXS86MtMRGj5QoRaQResFWgj02ojpFuvFeNxUT-w61Z8BX5CmkYvySVLgMABgF0K5SVFrvwOcDl-2450gETE9MKSE0uU_w0yrJU_s3jEW8br27mCuYJsFzzuxVKXP-NPjudKwptVNzIAPZgeW0MywYBKawijsQdiWg38utdu-26bYWwhPLZH4KWhhefEpCnkWwY7KTrJ0HsF3CYtuHPt4S-MzwvQmv2uE6yyCVB-MxFlDyyDjLoOdWHdK65mOAZy5wKPLHYrjKyW-rBI6Pnn74ao-Ew-rxIUqQHERTRWYpUFnVVN8hI0mYI5oTmAYTqEAC73MkPlROj-I9GgV26anSnuiwS4mwB9Uk8bLD_Uwco6_7sXm0QjRT6qd7Ruh1_YJfDAIj5e-aTL76HIwIxMA5QXlAdT5f9e-TLZ5YIIImUchMkHXCusXy6SC0rrLP89RFObzm9yJNGlUFs2At7MgzTP9RuPkJkeA1oXFRDJCSFV0JQefzlXAjk9BCQXdOfbtMLLeQacqQW8FiObzqBCPGnieBMYHXOktGJWRIU13121Uqm1q3Q1bg-5KIMV6T-3U8fn3-lx3TzEF3Kr6Xl40x5CoIAeHZA_TjBt3Mc3cJg06KTheUEpNQ43oBLp6HjdIh3YqurhcsnsMhs5f37UgLm8GhaVCWhSMRRsCYr58SCxJtXOYaMhmaZmKFXSqZu0ygnwSa0vHiM0jh2508Jb8R4L0NwI5JFJ2ZdmO2-t_23LsHoIBEu-3OSvShHwgLVxI9xfrAiO8sSc-Xg6nNJjh7CeIus0PI_gMdG89Lb6VKGXQuJFD57QlutyUlT1HwjdYu-U2HSFjGsvq9-ulFvjZvrc3NCFyp1DTtd_tyxLXSI09ksWUVA5w5tUagvlnt2bumw2n0ThalyOEGFQ9OOPxL1PyU-ue2NNXMMDK3KSfUHskvVyJxri7tr3by3LgFWgdhmPx1Qiup6Epe-3sKFtO_vzuIe6o429fWU7EmmIsVV-s9wLYJ87_PW4NxcDW6J-0rZKXZDc8Gu42Wq9f48PoUY6yd5lBPknhpIfr8s0auoRlankr-fPXqQ326P1lFyQx9jZQcmD4SypX6B8fBmY9TkIxVRrJs_ZwkefI1BJIYBBLsvwc0d_NJRu_hCf-PeeIg5nUxoIVCz6p4zPcgPOcjdQxW4hnS_Oja48JTPG9Z1p_IYfff-4SJHSNwXRBDboty21zmBJ6x8DNNm0JRGRqVrtYXy-smBFR7BzhiYTfsEnCwhjpBwha0zGydqtlp2wA7SgPGLDk0XoCzELaGCVIYeOFZ2T1mlyemfHaYThb7dxuS7Ae3BjRwJA9Ai1ZuWLO3ZP81hDcExqd6YbNGbqRDiHFsxa1q1_l2FYQbpYL4y9TJDFHzm-rr6RwWH8jisGrH58DBRpc3x4oUB1FHaE_UhNAGYisj9XNRfyiejxgmhodi8LkgAwsv8yMuJt1TkfPMr_bKCvbzgjPLRiBAsGsBcOwN_i9JtD2aqgGYr_17gTEcT9xBXui7lgbj23qEuMIWm8jn0l0naa1-pxAFiqyt2q77FJ1taP4_-o4y9khzDZcny8-631atYu19tlqJrLAPcWCgmdmG4g9EukMP2XRemRHc7_PduUSBgMaiJavimG3_gX3Nv1S2zmLAsUvwOvtuwAG8_c8ZL6EDtB92rcA7-gzDA5Ml9DpaMld2xNkD9hXkjKsu7oeVgrDBo3AEEOfIZzxl07WxDr0Sc5o0FfhcT0RnvrunAhDnbjy1L_9tajZpG-QcENplJ2whPYUIdxA32nyTwVhcrP6PmML_z85ZCGNZNJ_mYPCUT52kEX3b66eB-j_5foHfJ2Tdsr7aWyGRAGxD7NmS--TeH-EQmWt1EN2dzQ3C34vunyC8bVZS_TuDIH3s-73MlM78Pozltp2_kn_StLnsq9uNjpa3W5YACkcHPoZdvzll3V6YekTU9IzGW0G0Je7pG1F9CGIMJHZ65FDvfweFPJFlBWWWzTOskUDjNxA9XxZNs-jEzF_8Lcl11ppCq71Ps2OjZoUDwl7RG_uFdwXfy0pLBX_h9dnvxUSoQUo8s4GCgDSNaJPWzOLPywCv9scL87AHU-pelf0fk0u4ihHWJMgsIGm5Y4iuBmmTdgfOcKdXCzmcxnSG5hrE1JKGyHeIGoRHECyVhyPtYOihQVza5R6YleTJN1DUeeaupIQpPf6RQm04bwQp1JI2nMYUIY6AGJJIlaXcEXTDvcxATRZ5an3j_SXZouEqBaUnQ9WkrLyPoMM_9bOyRJzV7W6A1l7AGDeQhJXC50nvd27d5VldrgC8SicofAdz90Cp6rKwFnXvK_uePPEeFWgZv06JN155AOW8rENdDZRIjdYtM8ZOHJwDcrtjFdNZt35cW99myqU1A4Df-lI9gDgUvU1JCSCqPMVk9D7TF6d3Hf5_1lqBm3ZaiAD815ek24433PBE24c9pJBT8Lkf9LidRPZLzEgDTen1elAVNns=",
+      "status": null
+    },
+    {
+      "id": "rs_0a4c0bd66a0a914b006ad8738d42a487d1a56280ce4e9bbb6a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HOTC2AbiBY5gGVa7d5KXeQwDCJZ5I8NkhaMaQpJPk8RkTEG4BGVMBWAgE4_-xIh1tTYGMIlk8Tmic0dEOeJZaKed5I98NM2185WtIfjIMTSEK-8yHsgbW7IUV3nAYzDG-UOf1hSrXCUNfQRgXgx9flSqqx8fND5KKsgGy4X6wccJxXDo0GvoL39DXl_YWMvkA1mPI09N9HmEkPlNU16P_3IW45osJH2HLjOlSUp2mQBZx_2teFqsrbDotVmbUTo9jh3UztvTIY2k06Bxglyk7KGzgHqWIheGyf9WkU6oJ-fxUdF8MB8ZfzigoDkEmr39zK_xSyTSGx9aoqwoAjgRth-fqodSvCEn1uQ97SzwxesUYE1rs-4kMGZjjFw4J5SyDdcRqM4RYRF0ChIQjHJqRaOjSX4vGNylHxNr7KDbdATLfGtn-mWgDEMR9trwjj1FBdPAxFA0Pg060CzLWHP0CGZphlmcFB0wmsa8ty4iyZpEMxyTd4nLD_btcNF9CnqnNUwcTpqnklc3fwv6B1_yblujWu9haVoipUCa2UethD8MAmi2yOF-QupygVA0Yb72rMvb_-NUyiYgd5Hi3bl1Rqkt3ip7uRWeAUKmQWeZfUyFcw7OYTi6K3_3Wj1KU2R24S7TZcNVTLpcCYOJzsynMAOOlOMzcekbniqT4Z5NcikLvonTtkfY3kjBPzYnFGlP8QyFmM-mEvAvKDZHe2UIq4CXzYkz0vIKD6gdvg6yU741FkZm_VF_EQI9eR4yMCy2c9JQHPP7JEBo-SizPjYKjw_fDEVnfFS3-KwBlzLHyRKnMg0VW_m9nviP9DCk5m4ARZQ5NKfG-Kw2BjQbt0dZd-WxOYM-B6rNTBWwfhPEvP1yZGL947TML4_crQydPkTFnJTo8wVTIsRfWrkInAIAmQdZQa_c4grP2ANSAQSRAbyKFx6ZNRwa9DNhQChW7frFmA8qQt9Ib8m1pxrBM6zD8hm1VC-AfU6OY_pdXTkK9YU3zeEumB0GtJYrqa5lrD1T93AzrY_WhNUv00lk6qTKTIF1H5BiiZ47rhBMTWxlukHRLoxNlC2Swgu7hT05xAiEl5OkwiWv6wQfsEaXQo3tMpylGwSSHGpk-d35AcTm6f1E1pXADqR7FGHyOdlzTqrjc7Su2uYrx3gKebEnRPRhoNlb7hKFlZw4Y-6MUsM78GBoFOoezWq094aJM06fDNVL3f8hCd-aYb7VvW5-88q90BKc-E6_PKFmH2PoQLwKCJ_MGEM9-im-eN1ZKbCMbp5pGikzwM3CHqTpcqn3cUK2DHG2bt6xAOSRBGEMm0osvb6-i1WUHtsAwcg_RzVokBofOpzv4JlYZ61YuDUpO5jlRbeTVZmkX2YwulfgiFleUSGBoQj0ezzTbB5OZvog0f-3lumEMn5jearsifGE5KdGXdgMsdenh8r4Ju5OxVI87n9AgrGS9kl6t0s_4Ah5pPOPfzL7nUSO94BRTgTcpqL_tfRKMpmbqvs40THiy7erbJEqyw3D6vpi0RWzN1XALHE0mbtU8IHn3kZkyCzfBJnWjrKrIypsEQkbaCLv9IwIKJNmJP9lb6WLOkUzdAI67DfVbOiJJXQIciMHcPs2yZ2IK_75Qpt16vRk8MYXIbQV0_EyByQPMCb5_K0x7SHiYbqyc8_dK2TPMURKox9XsGxj0sfbsNONcZWgC3DeKyerZtn7ZeFhq1YxxoOl1PgL1Kvo8wS06kL418ZWd_qpjCoyv4cJtFS5NiA4ea5lrP2-zpGAo04EN9NqcgXuAdCupMnDyeMO8bjwJV45bRtCznL2jKkCqjkimy_R7RllzQleJis05COmd91wxLYQD5084RXhJ_sbt4VVw7LbM1rxbuiKfLDQMs9Vykh4gmlj0ZeNCfQQht6IuxWXp2pd2Z7iNdta3jWIUKeNO9_qRfrtNIfLFzxm88Lm4tcbYWVefcYj6ytV7d6tLS7z6QsMtEAfyjDppOKWA0uSPBVk2QhKrd17FXdjQyD2rVRcL_C2osLC07IgmH9ECYHN_lj7rc_IeNwnMcIsUeLOTiRK5fE8UbUB312q-iiHhRc9iOftRT8P_-jK03t5aOXd_sjMZbQS3Bz4sbthM-wIdoakJLllgpZ-Nqty5Qc3l5O7KhTkU9X-44-GZ9qNyhxuRC8veGYXzk0ch1qK8cSSy7eHyeQ50gbs0KVJ1qkCIzqoVqTUhAtuYOVW_vt_ZPdBwc6DPus4CwVCt4wLZnJaW4pEfcaH3sATmVMAY4p2x5MXynsN2jtH3Zh5DmVoKxzoF7oEaCXW-rWKfPfxiK2esoExXx43NHWzW749wD3a53S2W3sRY7UgfZ7XBMUZSHTwvKCVPT4v01EoNE_4HSmjU1976Re3asNAlTdpPuaeeBohCOw0kEK49e0fx7mx4Ugp_dXlt-Ra1bUiTI3FT3TpDbOeV22fSisV320CR8VGRW_Hbf2eoVIHfwIzJZ7QzzUxLsuaFW-_6_m3fJfFBM4Z5iX7Ae3xG0i8Dk2plETdbSI-jWKYwjd392xpglxpeMV07kDW18UG5_dRXqFzBGsNAJBb9lvZAwIBXzIDeUhnsEf4Q4uirhezfJeUmJy1tycyNp8f-wlsv1i-RITvi0GK31jAjB2DauJoSXPgRwsXXag7-SWwIcTkwrXqLFqkRr9o4AicK9hxdx0GdlKlV4q28_6oDj6xdXE6cndc1SDGhr7OGldjTPbw-Nlh6WN1z0LpwThMi_f-1brrVrEJ2z1bvMoyU4HLGBXaa_dXZOhx_J0c1JhKEOTKa-qagvxZq1PZexR4ZDh6ZwhFYzocc8il1MMK3-IYe1Yy7aVINife3PS9_wG0exMwniuv4Yx8EjtcKMd4q3HnnlizhWefAat8tPkX49ab2MuEqQ7SswWwydibST685f5WbatJzKeKluGWbHXEOPoVAGlUPbtFrkge6Oje7G-WNCcx1vgFZlcz8wriBldalPHUQ-zT8POmIBX3zrVDxKgUTPQUb1EjY83vjZYITJ6-WAfBWEyTDphUNFgrH2Gn674nzVJmsySESnfmG3GlQWqlch12wh5CUQnvft3MPMS1GDt1D5S4H-suPEmwnONAJ39y3oWDBBaXnJSnqbPzPouc_L49NWnQ-8lB7HE3O7p71EdvVW3VqDJjdXxEGEXLtE7pcaLhfE=",
+      "status": null
+    },
+    {
+      "id": "msg_0a4c0bd66a0a914b006ad8738eb26487d187a04223d876af87",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"funde\":[{\"regelwerk\":\"BayGlG\",\"fundstelle\":\"Art. 17 Abs. 3 Satz 4\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Einladung muss spätestens auf das Antragsrecht zur Beteiligung der Gleichstellungsbeauftragten am Vorstellungsgespräch hinweisen.\",\"begruendung\":\"Die Vorschrift verlangt ausdrücklich, dass auf das Antragsrecht spätestens im Rahmen der Einladung zum Vorstellungsgespräch hingewiesen wird.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayGlG-17\",\"fassung_datum\":\"Text gilt ab 01.04.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"SGB IX\",\"fundstelle\":\"§ 165\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Schwerbehinderte Bewerberinnen und Bewerber sind zum Vorstellungsgespräch einzuladen, sofern ihre fachliche Eignung nicht offensichtlich fehlt.\",\"begruendung\":\"Als öffentlicher Arbeitgeber muss die Hochschule die besondere Einladungspflicht bei Bewerbungen schwerbehinderter Menschen beachten.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/sgb_9_2018/__165.html\",\"fassung_datum\":\"Konsolidierte Onlinefassung, abgerufen am 21.10.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"SGB IX\",\"fundstelle\":\"§ 178 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Bei Bewerbungen schwerbehinderter Menschen ist die Schwerbehindertenvertretung grundsätzlich zu beteiligen; sie hat insbesondere das Recht, an Vorstellungsgesprächen teilzunehmen. Eine Beteiligung unterbleibt, wenn die betroffene Person sie ausdrücklich ablehnt.\",\"begruendung\":\"Die Einladung und Vorbereitung des Gesprächs muss die gesetzlichen Beteiligungs- und Teilnahmerechte der Schwerbehindertenvertretung berücksichtigen, sofern eine Bewerbung eines schwerbehinderten Menschen vorliegt.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/sgb_9_2018/__178.html\",\"fassung_datum\":\"Konsolidierte Onlinefassung, abgerufen am 21.10.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 6 Abs. 1 Buchst. e\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":null,\"begruendung\":\"Das Versenden einer Einladung unter Verwendung von Bewerberdaten ist eine Verarbeitung personenbezogener Daten. Für eine öffentliche Hochschule kommt hierfür die Erforderlichkeit zur Wahrnehmung einer Aufgabe im öffentlichen Interesse beziehungsweise in Ausübung öffentlicher Gewalt als Rechtsgrundlage in Betracht.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\",\"fassung_datum\":\"Geltende Onlinefassung, abgerufen am 21.10.2026\",\"sicherheit\":\"sicher\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "funde": [
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 17 Abs. 3 Satz 4",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Einladung muss spätestens auf das Antragsrecht zur Beteiligung der Gleichstellungsbeauftragten am Vorstellungsgespräch hinweisen.",
+                "begruendung": "Die Vorschrift verlangt ausdrücklich, dass auf das Antragsrecht spätestens im Rahmen der Einladung zum Vorstellungsgespräch hingewiesen wird.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "SGB IX",
+                "fundstelle": "§ 165",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Schwerbehinderte Bewerberinnen und Bewerber sind zum Vorstellungsgespräch einzuladen, sofern ihre fachliche Eignung nicht offensichtlich fehlt.",
+                "begruendung": "Als öffentlicher Arbeitgeber muss die Hochschule die besondere Einladungspflicht bei Bewerbungen schwerbehinderter Menschen beachten.",
+                "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__165.html",
+                "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "SGB IX",
+                "fundstelle": "§ 178 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Bei Bewerbungen schwerbehinderter Menschen ist die Schwerbehindertenvertretung grundsätzlich zu beteiligen; sie hat insbesondere das Recht, an Vorstellungsgesprächen teilzunehmen. Eine Beteiligung unterbleibt, wenn die betroffene Person sie ausdrücklich ablehnt.",
+                "begruendung": "Die Einladung und Vorbereitung des Gesprächs muss die gesetzlichen Beteiligungs- und Teilnahmerechte der Schwerbehindertenvertretung berücksichtigen, sofern eine Bewerbung eines schwerbehinderten Menschen vorliegt.",
+                "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__178.html",
+                "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 6 Abs. 1 Buchst. e",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": null,
+                "begruendung": "Das Versenden einer Einladung unter Verwendung von Bewerberdaten ist eine Verarbeitung personenbezogener Daten. Für eine öffentliche Hochschule kommt hierfür die Erforderlichkeit zur Wahrnehmung einer Aufgabe im öffentlichen Interesse beziehungsweise in Ausübung öffentlicher Gewalt als Rechtsgrundlage in Betracht.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+                "fassung_datum": "Geltende Onlinefassung, abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "eur-lex.europa.eu",
+          "gesetze-im-internet.de",
+          "gesetze-bayern.de",
+          "tdl-online.de"
+        ]
+      },
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792570259.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17295,
+    "input_tokens_details": {
+      "cache_write_tokens": 4196,
+      "cached_tokens": 4775
+    },
+    "output_tokens": 1414,
+    "output_tokens_details": {
+      "reasoning_tokens": 788
+    },
+    "total_tokens": 18709
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 1
+    }
+  }
+}

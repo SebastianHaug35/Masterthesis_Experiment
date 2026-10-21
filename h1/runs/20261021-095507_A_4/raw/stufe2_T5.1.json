@@ -1,0 +1,765 @@
+{
+  "id": "resp_050996828332b995006ad870c526dc87d19db8bd0647e93239",
+  "access_programs": null,
+  "created_at": 1792569541.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_050996828332b995006ad870c65c4c87d193f00f9a71d5f168",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-im-internet.de/gg Art 33 Absatz 2",
+          "site:gesetze-bayern.de BayHIG wissenschaftliche Mitarbeiter Auswahl Einstellung Personal",
+          "site:gesetze-bayern.de BayPVG Einstellung Mitbestimmung Auswahl Personalrat §",
+          "site:gesetze-bayern.de BayGlG Auswahlentscheidung Gleichstellungsbeauftragte Personalangelegenheiten"
+        ],
+        "query": "site:gesetze-im-internet.de/gg Art 33 Absatz 2",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-14"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayWO_BayPVG-5"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-13"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-G4_3"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-19?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-37"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2022-N-26272?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHG2024_2025-ANL_2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2023-N-38425?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-19"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-38425?hl=true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2022-N-26272?hl=true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2024-N-18633?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayHG2024_2025-ANL_2?all=False"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_050996828332b995006ad870c8f7f887d1b0bc46412b7c1d19",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-im-internet.de/gg \"Art 33\" \"jeder Deutsche\"",
+          "site:gesetze-im-internet.de/agg \"§ 11\" \"§ 22\" \"§ 7\"",
+          "site:gesetze-im-internet.de/sgb_9_2018 \"§ 164\" \"§ 178\" Auswahl Bewerbungsverfahren",
+          "site:gesetze-bayern.de/Content/Document/BayGlG \"Personalangelegenheiten\" \"Antrag\""
+        ],
+        "query": "site:gesetze-im-internet.de/gg \"Art 33\" \"jeder Deutsche\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gg/art_33.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gg/GG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__164.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__178.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/SGB_IX.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayStRGO?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Resource?path=resources%2FBayVwV247814_BayVV601-F-697-KF-003-A005.PDF"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-10289"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html?ec1313ec_page=3"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2022-N-16878?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2022-N-11681?hl=true"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_050996828332b995006ad870cbae8487d1996d51a0c91a902d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HDpTB7BpYNzpVdXUKa1JIaUvaHHwqK-1LFIfqqT3xkgTA4vhUmQWwO__Rlt41FkXMXki6QHJAINNZCUYciqgEXbXTb6S05TP-x1_qsUWFBe-8TTKPX1RvRbF5BbqHG-0fU7e95GBs6ZYA38uvWCSuV51E4YvTNearmXLLlythPyeWRpyM_6sA3V8c-6KLMf1jUs59X-oZe748fJfFu_o-E1JQTaQaoGc4P9ChfS8XpWv7aj-vHNecYOKUxQMYNz8pHK_ALcs6LuQCPkBgjkJ5yvzG5S71qYEYxTjR7ghFO-1j__eOHblQxmak4HClH9UAMIdzZF1qUpKjk4BUPjzzNau_Vr-hl2bvaqdCTXoDNhqZHZ4qj69frBhjjpma1CPQClGxOfS0UV9p1Aa-mEbxaggEoCdLRDf4tqKini3EfVfnayA5lXfQSdo-HSa2uulYjVfcBlULGE7eOZAFmysv4UP-ApGkC6eFEIr7CEnbOoXzffpcW-19nryOlZA1SKqYCW-zmSkpyLuphO7J5ea3hHZBxZe9G-0jtRuCWNb2HFMDPVd2ZAm7QOIwk1ViBKAWqlEiFFcYAh1jFOMRTM5P4SUjO04gMxABlmNmRJgSinSRo2aBnmdLLCo0JX8v7qz4OKR9bwYSBIgmN3zC15yYBlHMwFFIWMJogvXcBYB9RO5OSQQeeaiBR9vOpScFG3yF2BqAFYRc2Xl36AavTXPqRfCRqIZFLj72ZKeLEWn9ydtDbNEtqbJnWCD8pcg-SoSbPvf_Ypb1IuA050O_pWi5x4v4CfRvIrYv29nbFS8igiTtm8kqfCu8WBWqFwBMrHsAVU5ifVVy9nbPj9IhdBupXc0TU98ZJjhtTKPNVy4jVS4I7kuOYDb-jHVuN_euPshY8RJ8INZoyBajjcQv5T784pbqZ_fBR1klxpmIasJgLOitFMAqNgp3_A4TQJH1KIDWA5kDSsH5IWAJyy4SiJSwxntJUzPMjCpJxRmCoDM_X05h3z7lK9XyjKi8pcv_OPd076Lk7PHUeFalTJsoYkZl_a6Gv7SqwsuLxvOtZ1wbdWuSz-F6uzdK3K_pYNOzh6EWENDiPIb39ExR4-NgCkz1B235pmz1xSg9u9Ryex9yfobFnpkMoJCmr6MJULIVawNpo9_EP_gtRRJ2qzmXnSk_1rXVWvL5FBb3IMZdtmSBHSn5NzlePHuqc1D-gzFnruqbUz7ys3Z8OsBcCAxtyJXasx1dl3llwMjHcNHxXPdfhKLAHqYaSjvUveem1aD9cQeY7V30EGJoHUvynKmlnbfZg_NeGgv_CY8wsG18TEfLjjBZsfgCYbaNsXf8TzJpwu0uLHyoAfiyPc2cG_1apapEkdXWC9wyXmqzLhLhN4Lve7zkU2TajfAV9RNKf3TCPWEhzTDnlAbCThWllZuUEuYC4KGur9ebcagnykwtJhlgfr9SOFwozsXU4R2VUZvWiTC-ePxDBUDib3BLTvyW8VwiaW43f5fkuaSleizlOjIbAuVz_L3MBsB948e_ylCnfNxOqxG_hhTBOZrckT-D2jxoEhyc3r-Ny_ZYcR0qaxKNXdkQWzljYYGhDKFLJHBw01Og_QjzwgNN4Gshv1wBXGmQ8Oi0MBv6OY5_LIILLnr8rCxNdgRHCe8A9QCySpcFVcEoSfjgA-ykBNgdFDEEJLjk8592TIgHro-2rE6idYHQq5MkiXT3SlsSz0E8zCnBV-MQxZYyD209gddPJrU1pHl11cdEJDCV5-QRqZpx6cs0Ae_M-qWBbAOamjKr3huRX-9k7rKP0MfJvLY28MdjR9vlBizFWvFAHXsgeWFNGfY9iou3xG5D7JKV9OC8nMbUsMQ8puT9XQw2Kw8sni9L3G_8eSwcnJ_dZV16GXlqvYo-TSC8B3gLUZXyeFj9jLoUt09ZxyOffdYWf5-9WT236ta-UDnRs9BDSrArZ-1qIFebvjykQtUVmqdPoNlNQfaEDxIGRj7aRiKeh2LgAd34p4mjR94nt10kFU2XiUjhfDoYUkyEvN-QjVMrz7iYlBPG8P7BD0cpxR03YsNkU25eFb55KdgvSXj-7ptmw58IJnRzrwzRpfnx98_9IU9pXX6ApFffUNCaG8k_KtkQKFsAxMSIcMJeg_LPTi4RxJBSXdU6EmqIhSGaT4X0s1rW0f9-x43LwH4N9bfruLxrLWN4P4L0wiRNUbn8z9LS6bTaeYAgPMY5536GKEcZck4YD-s1-fk2HJt3Rilqq-a-DwG9FSNRhM9gZAooKNfAXhzVfmy9UquiaYvf67pNSVWccT3JYwtJ9bGuoLPSqoBUpI0sl7MpYDKBhxJNmyzkpRcMkzMsGSi-puQXtZwCIR0QHOnUkkaaSB-SFSKSr7uITQOmfzqdv_eUViCq2CqKdrPWnIyYSZ88MM6ZarHmIdYi3oXUZGGekmx3seFrBc9mwWeFgV7vevjqyhQa8ZHTOey4_qo7jl4yD-wGnFn1EQ2nQzrhuA_efA3qu0NRSztilmPmGD9i0mVgihrG3yfK7WPdxUy7AYyxX6dH8ddzq5wlaHHZDJiYFk2gfmTkswsizUBgAP4ISwG-_uI-lX0vEWmD4XESrYO4u1WrpLVXulBTjZsanwrvHoMFpvBklRlGzBXltE4UH42msdjqrOf0SK5Ak7fCkWZTPiLDILhZ42sF5W09Uvf52EZuWSEtursHKxsJRNQmHAGxPSs4KV_4TUPGMT-f9ywLBq9W_FRETQLEjWXVnPbyTM_bl3Frwp5DnDdYxdYQ1VnQl5eqwPaTrcD15rBxa4dzrSeIipeCza30cxPVM6gID1KXHRgQtSMcbxSDhgTKpVcgA3-RUhQsVct_JhOKDPhNNHCgtcRJgd-Fed3VHJQr0U91Yol22n3r3BtxEG4D1gqo_l79sJCUkcqDpD37F_-S9lZaiznhWX1mOQts-zgSiK3HyLc2eg-7X2pdjBAvHWy0LJhNKhbJ3to81ippKf6rGpkMR9yEEnZYPYwJgT2eQNytWDTsQkn_1F2AQeGFQgLdn1u1FctoATJFv0at8o78gQJQH0jgw_5Qw5GbWAokcl31QRWQSf7lzXbsREfzdCs5--yZyCG8F_8UdozGm56hm3ErmYtDMNJdDSQ-naomzV8dQxVsvYavePpyvq6HVlnKKmVQGqQf7mcHu2pS3uO_0fd6HPMLYwg7z72h5nyPTooN4ohDqmqH9txoX3WmjLPs1CFPJAfH8Lk0Vc5nwi2wcYWFyIdNXq1SJtgPH1P8Cc73bIYwByBz4ksG5AFQxGKME5n2-okgCnxfgD8_1kq-6BRD8CG26eDzyfyIh_0I-KloqIwtYNwZAybYHqF9kiHCHvOoeWYBSUWmGr7SAgZgJwglpxLTx62bPhMeFfJ7ycDhzP5HQ-12kqclGwFAO9R4U8j0Eg3YgoRuSU8BpI5cCov3gNaMUkWyOx6XHYP7qvivmMY2RTMTaD37Au9nNiRBGfMnJx5YyorjtCewxD2OmZKePjqspN2rIAN-_dxHhhFQYBpUoLJMkm_tGTPx_CTUCaCIJWEiVKMxtn1HwXZ_Dg_-vmUt63ixZ-5mT9XQfg9h5MBpnw9otMgO7PwlR2Wuur6kPlUqceL9itd5eMBIk7c5fUTzZUiL6jabuNj1AlFG1M-dUyLBYcCpBmUDYfpvjdb32Q10-UIgK_H8LeFMM96gusnCf_0ADsjokDXtNNu2WhyKKmnn4ckGePJ-orolD9Sit196QPzrFEaKkpU8BkXxRqIb9jw2IPLJPH8Ufgwc-sSYqsngDms2Hb-0LgGQXXxse1jqxY1l7tLaueVfT6ujFLhMnk9MMZDnQgadxn2mqNxdISfqytgN05rw9b8FROymwbNMYwbW7rGoYSVfBZjwF_rcFBL0I091wiJE89yCDlNkSaZpk7Q1b-tVxzwf7SUy2ckd230QCo5-fttvBsA3HGdS8Y5SBArOycwltbjb2UrmNvtGM7GGxf1clQGgQV-1qO_sH58D9V8LOdosquDHXbeg1_MBEWygZuYS39k5pdyBI2vu1jBI8BG1SR97R5snB1qII17npQKnrMiwC-WEF-nVKpsZc997dKpaRpmlrKZJwv7MovyKYDYZYcD_ahzeLzjoLekjXrVaEf7DeeFsaXfw6PasfbOqXtqe5kFj2IXZMUGU-eU38jcshfMqCQhKeVCLi6JFU3ZvnZ7UGy2DMoTW0TJZDMmUQcqBa5KfxoHf6C57aT2pVmQ5Rw5IbSpzZF5mbdrL9n38riI4RW_sLqsjLelRTdCdhehLuP79vuGZ14szCT6O1tUpcG7dqU6eJuoev3yEBhaLr1XXi4YovdAqdhOyg1xKq2ZyW5rZbYatsG8gQ8ZCd7ZYNq_91Xiytz_xEOM_nVTQQEre9pkgWpYHYyMBSAqqnRRB13wG1LDvHtOOBVw7XNqMN3TsmpLFzlPrlsOR4BSnNA8r64S04suV-0LOLZM0QlhbKIjPR8eRhKGovonqlUFH33an5AjujSVUoEmhGk6uvvI21H2gvcD0UABCrQRYqQ6_QlRRvofu8sCvxSwrL_fyNIaBGpowDkjdqGx91mTl8N_WX3pwdt79Zbbe5MEKgKDMwCMVz1zy-E2ZxuTM_Xng0enw_woDhhLu8VX980FqaazTYOJPMvDb34zo6b_XQ3qXWmU8eHlpIY291bKzp9orSK2B1OJ1guMW4NfoWcYW3f4U-QtJSG_M8OGPL7OJQlybTmNe9WqeuKswiPIk4jM5Ct-X8DVIENze3LLgqeiu6NCYWQUy3qgo5jGjE-0a4l5OliFHgX2EjeYQKnO-eXq34aBKVSkcNcCQC-XGc8yufoQRY8XLiAlTykApiarDDHZ8r65gB8sWnobQ5YznHFACJW2O7brQtr7FHKEeqVa1Pxr01N0CXaWu4TFoaG0WRaRGVgKN5ZIxJyK-UO_TmYC_Y8ndgnhq2Mm8TCbg9Ss4YW9MTW6gOzkYF0z7_P3RiORPqTFsrkqi_F-9rctOa3v8BRP5nvKtmijjfygjIqCZ4vg-bJ5pw-mlkFbFAhrnD4NPjJJ4lnAelcykTeAZwly1LaM6-oySJkSbobtnMY-455fooKf0AIIeurIyRO6Si1_OQbFK45w2eAmJ7WCmoetLmFBYfvQTwpvevKA9IdJipCgm3Rw9Aiowof5njBik4_fQwSzarwM_pcA_AbUwRYdOZFL2Nvatig3aLX4urM6heBDlxEn3ANzgLZFJralxiqSg_gtXhaZqSE5HxkButSSkhyUK_WLcoS0TCnDqO1nfA5_Ke4Fi78XUz2_ljl_1aJ5SMCw8wIDnedR2NflyBiWfANg1RhkweSGt8Sgq93Y63IJqwEoWGtbeShv3H8_dqreXxUMth8itAt4QDIGGesj8P6Qb0rcgCPyxRctcqEDCeDMwD6Vrv8wYMZ9qqkWW7MPWAqu1dBop2u8gTeJdAGrWV9ikWPmwsUkDGV_XSO61SEEAsGadBAvKw-xwXdUTWgw__1rJIHPOSfCOEkLEIrb5ZPNlEVP5uf8t-mAJYdDogyguI4pjARx_EJalLmQOdoaQSg-9S50-LD2yJ7sFlH75BOGtfnpqHhZ7LmFYT_OKD9i9FYNKKAbtKF2aKS16L6mAt8g8l0UMNkhcP0FkEEnZ-2pTVRfoTdJfYiQ7BTVzaTfYEyTSwvsFSstqrtyjf2YiP2-eJzW9Mm9u_wcEdr_sJ-KLdkFM2tIHyrAv2CGSSQzxDTDAFcxbON9UqNI5_YOu61I-eimbzC_BvW6Fe6Kx46yPak54dBxs8TeNyep5VUKM_Xcgg2H3aH3cYluip-bHEQQNEtXGYfAIBFGSSx8MJB0A==",
+      "status": null
+    },
+    {
+      "id": "ws_050996828332b995006ad870ce6cb087d1a2a44bf635d4384b",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-im-internet.de/agg/__7.html § 7 AGG",
+          "site:gesetze-im-internet.de/agg/__3.html § 3 AGG",
+          "site:eur-lex.europa.eu/eli/reg/2016/679/oj/deu Artikel 5 6 DSGVO",
+          "site:gesetze-bayern.de/Content/Document/BayPVG-70 BayPVG Art 70 Mitbestimmung vorher endgültig entscheidet"
+        ],
+        "query": "site:gesetze-im-internet.de/agg/__7.html § 7 AGG",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__3.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-70?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG-70?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/AGG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2022-N-26272?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2022-N-26272?hl=true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gentg/__3.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/dng/__3.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-G4"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/nehelg/__3.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-70a?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/eeg_2014/__3.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/betrvg/__3.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG-G4_2?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2023-N-31756?all=False"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_050996828332b995006ad870d2001487d1b7d32e326cd40767",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HDpsD_hdj7Jl4qYH99DUZhAf9ljkBiaw9s2BCTGuoHu2de9db8dFyZrLuxyfaYUOdJcFuaG0ABhw107jOBdIYGuFMTpcLNdFFffizimD3w3TW0f1MMVWyOkiDbQ1f6UdrXLvtfMsn8fZc6FDEUp3TMnSdFHMUhXVdI9HgRNGqJwG74VuCAeaEM9hR3CMn7PdSZyZQBptEu4lch0tKbztLF02yij2PR9EAkyjFrWw0VV-jGx2O4Tsngd_QYF4KmrMSpqZWM6YYdxL4cW7-WjqfRNxo3WSSyh5r5EtXCSVJQ25z1AkWXdviYbT8uYrcCF90XMc676Rnp7wvg-7Gpyb8-7YquJU6VPLfRU_olAdWXojSgi5c_n5tjTyhFBAhr6ME2j5XMsBgAUNFZxk-jGpiNRu4sncigrsauQ78i9A1kboxtSx9iuixmYtxSt9FEr3yKZWl9YLud-k0ZReQmL5K5SpXuExs1dHgUz8upD-9WAvnD5X7fRWO56tUFVT5FzANmXOvsqscCFwR25r5MyFphIGaa4JSgsbi5sbjOxsABVeBW7KUwVD4XNH_HqIMpvG7SlHW25t4JFPuivvu9xgL3gDEQvgODNvIuNsAEvcP1V64eJxL_KyuIXnSzS-BLpac33xvZxkXkWtQbRnI7E6uxdwCz9qp-fKkrSQs9SLmohI6IzElo1yZMPNukzmbiy5PNt7_nMl7NPZsflA48hXxAkA_c3eWKSPjwRkQOrX9lJJtztMPU7pg6qA4QjkunZerYmDNOydYwbCPYteEOs2PkVM7WXL5NOuzgzX8eI8bh3bp9eIFCgsdvC7990evVjwkIM2HxuR1RSHQ2L-M0W0mVDzx1hb-JRmIKv9SKrihNg0K7ezfO5ArO04b6otyzgtZxPOWC_7jYr_Hvx8_lOI76xXacojzeXvuh8NE0iXH7PDXN9iD7qJqHJ-Hn9mlYIYuWlhTAJxjmwNeO0CCuG064lHKgPiA2WPsDs_j_umRIpKy0HDlk28ZCR-06Wa2WL-Cl3CwyEiwFZsSg01x98_FAvMsVTC-VdSOJEGngfdnr8I4pYmGVRA9HI1bUG91ZUBZflEQahZuj8_VvGM3S-HOuPkF9Iv1pSVQh23YZakLcsH0dBTeq-0EWsJ3SYn7RumOjQFj-JETIGMQGEwCPDHjNlkWhJtf-ko_ujbPdrgNVtcSA8NyLwzgKrvaXd87cKyMaPdoM34CQQQXG2tKJ4sijfh1OyC7iBP-FJBQF-8NPY4LGhuGnlLEiWJOHzYLRNThQZRxNxmignB329pwHjDFgxkV2kz-RQ71SiMPRj52onYRl8kwdkSuauezx5XWtqe98dYMixW-wFdgsH48UjudO7t3_MAQHESD14ux6URfPze7ZGAKeyEK5yciAZYwK0grSe_KRPH0XCH5unu6yiRPw5s1g3QEaHoppg4n69YLy6xp7Sfgu-HioImvEyjp6csHdrlyPJNHhkYIkbyoaeWrL5D2xv63Rix7HDCdoZXIYrouOU8OEO4QSk3J-Eol57PcGz3p5HDlj_uXLxixCepz_n2F8MM63MGNgcElDc2tVPGT643J8Cd93JIYw67TkLD2NnNOLPizbMSYaFhYF2a45NqbFj7rYTq-h-V_QZe6c5uQANSKbvEbxHjPi_NADU9qfch_ZtJ_vZEtLWIEI2jTqVxjexwLLzCfelyEBk5coGJrvOXfuN8KpiHPxlevQNLxM3BIJ_SRpiJign2Ml7IBmkjnVBy2tYmTw3oa6dkBWzYlJZ8E53yWLqx8h_65CWsUtog8EAsRqzL5Hfx6G5oBd5jv4bqGhiurvcm-ryMaJanuY=",
+      "status": null
+    },
+    {
+      "id": "ws_050996828332b995006ad870d2971487d19f1ea6f2c6411fd3",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679 \"Artikel 5\" \"Zweckbindung\"",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679 \"Artikel 6\" \"öffentlichen Interesse\""
+        ],
+        "query": "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679 \"Artikel 5\" \"Zweckbindung\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1515659960728&uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?tid=111476392&uri=celex%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-FR/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ%3AC%3A2016%3A159%3AFULL"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-FR/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-DE/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?qid=1787347134762&uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-CS/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-PL/ALL/?from=EN&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-SL/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ%3AL%3A2022%3A164%3AFULL"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/FR-DE/ALL/?from=EN&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/NL-DE-EN/ALL/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-PL/TXT/?uri=CELEX%3A32016R0679"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_050996828332b995006ad870d5c21c87d1b847febd763e9eaf",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HDpszBdOT0DC-renDrxstsFfjBk5ZRCU8qyrOj4-cFKcVMPmP0dxJilrv0Iu_iUBquAo3Dh8iNpHQNqYHve_1eVvthJPfSBuOqJPCeDUmkt3Wx-oBpekClVIlon6CzYhnzs7EtjhtZBC6-RQzMH9PLto8rkdykIcXOgcwOabQmc7-cCNKdwbnABF6JlrYTOy4kiVCyD-Tg_tf_zhFGfrIlYCi--BYWeE_p9yRrhHYGEYjOZmFn79bBaXdKtAK224JTqmBoxJVCMNa2YJ0L4WXJIMfBYvWprEfzt62LwZ-vCY_yggAwi6KiOIH1rv0DdllCMtgKsq-aN1snM54m6g5JCa1DRDgAYLkprcj7w3-VCgrAaUmVXHEdslS7MSE1ohu-VH1tULmSsTWvCZ8YsnVew4EpVLgi8-w7zJEbhM4qgYVrCm3RlRPnP7svEmmOhmSwZ5mxEuS_sWzlQbEZxVGIjQNOeRK2B2DrxiCoE55r8JA3VzKsqBld_6sOAY_iK_rBhD4S6xPp1I0PWTHBIEWK0g47Doe_JvOId9iOD2li6rVP6N6-sK7OEznCm6v5S85yZVuh-mtzt-a_O2EI0uifHLhQOoVQq5ZTDStaf-9be1g2oAGVy-8XdOKzio0v8l5WqHT1yd6ZS36pkHu64A_9DyhC8VTz0NdxacwsVBDxuG71zPqZgFS4S00IvqNl4IC00sQAg2yUB32F1tuT4E21wJ_4vluqTMHuUoAOBDfFub2hG41t9pJkcRzp_s4bPfR6oLKl9fvSaTg6-OAb2fBnoZ7e-oHpec58SRxS-UKaTyt2AnqncPst42DQBCYcBEVzC7tygKAmxWcj-RMJy8VU6Lq-TPMHMUYdQxzbicXGMa_lENUKb8s4pQp51mDeVLKl7MYpGi6-UwDyyRDqez9ilv4udd88TOPUizyUUHrdpJgSj1Dij5pQ0AuQ1MQOFnXVqEYRT0WnYAUaCe0Scc4wH8_GevO9HNxIC2ltF2YUk8dVFUfY7fFIWk_vlXFmxzH0802vveWuIiFFgVydWHH8pk8o_nx7wMekdevle90ESsXWUz3YYR3afPOEVPyODXzx3SmL6od-Jdc2nTBjKls0FLwjS78zxHYEGNn5a-YhrO_BmmMGulSc3sCKTfisOEAQl0UzmwwcpsQlRww6ymvNnqR4K3AF3IcVoqCmlr5ejswSxR7hmlfrM35Deo6oJwFK0Y4pmwy_sIGwXrnZJO1yequXytaiBUjlrgYIDc4Dywb1eSoj_Xp_rAZ78ZZBSQCIofr4dZxGDmx8_NIqttfkOI2gfX-a74AU3-xPaNElHFF8D56dNBt5LAJADp0LwBcqVf6XmPx8wjzxbXa-uqDBFbrBXjtN322zfQd0a0oqA79f3zG3KwduhdnSiqHuO41GW3FtioQ3lcNUV5_Dr7276ZlC665IIhqXRTzVa5ltf-SwoVZEoPOJo9Ujgjm-RuHzcmUS3CpiFgB8qyOAZlm99v-jMbDe4jx_Y26DHsw8UMXvhAToygBWjm01jaiPp64dom--Gm87HKr-HD1cynOXKpwAwnPaGq02LChC0i_-QOJ5LNDF0-QLhqY9RvBUssJJ9OHxuOpXZDspTi4Hgvp46oFQ3ghvPr75CHXK0Od3c2Bj9ypUFZAYWrJXRogRfWsd4zQyC2L8GJlCgQuOLaXaVFb0RhSM-zB-WofExrwprvpK8d8eCCpPF0KfMQs_8gv3VaOJGyz_Pbtzh9q8P4lmQVX6J2rCNipi8AvRaGAl4B1QyCLdJoRQ9q6LmjIBOIH_ghr1jmdOcn1jD2oLhJN9x-KP14gEKYAtgtW-kCJr-LrV4HZk39fTMQnBGb5yGjFEwbroYKPpeRG_aavudmBGmCRJ9G9HSvlIpBJsHWEBTWufoSO2Fy6xSdL8digBj4zN5DH1cyuNk709o4Tu_Ku8GfvnA5GpV_wuEO-o9GjPquroqfIPY8b7OLICmN6QUx4ciAxR9iRTSAb3tTIMCcqA76kgTLCVY1B6s4qF88MITCowNSNLU47qGuNzLlXzFoEjlapxfyFN0AapnqEMNYCCkROB7pwRxFsTwVHKWNz08LIxyL29U5R9JOWhG86QUhNakCvLE6Cr_UJpJcUbgdOqY1L6aYUjQeR7KiMP1S_Mv_tQYj5XPrfmYk4pD9Ug9DeWAYXhKMcxitRIyogoZ4R3hofj2NSX2hzRE1E0VDVxFImAVDmZhBcIP4PYqH_bzxkLCv0XYn7nvNNf_Womnyh8qHbgmjYjI6TWla5fFyqZv-uWgp04jn-NyKeFHsFsoKXb94jvbyfKk70q87S0H21NWU_T5e-sO41I4b9vxjwXPTC3OnnFpVNIa817Xq36x_K-Jb178LLdomj-QG6ZNd8rJlIURNuPv3DmMf6A0hX31DcPvikVFzbg0nNNwfVBa5-XMR8bCc0riI6UagfU-QPDnUTGYOR7C3rBYHIW6x4PcDcBWVG4zwkIxpxYrpl1hheFrOZ9bEUo6I7NQBaXw7Ud-Erbh62uZDRSqhnS__vp28DTeQ4DLrOPihDdCkLptj_pGzKBAQ-jLMkEF8lUREWer3QTxrynV9czKgmGP4nLHioTEkuDAEU__uDXC4Rt3Ts2eU9blWLU0TPNAA90qEKuM5rDX7SSe5R6SD7qAHVCDfJuL-aHB4AscVfYSHglpXQP-ryRmM54fqDh5q81mTaQuQG7Vx_cl6pMfCOcLgKKCviv_Ld_ObnRgYSrhjqYnXRKlqRywfjfzVaUUtxsKNISkBs8_nhE7m7bLpIgNHhjBTNahmnuHRKTs5eaiB9u0EX0muoox7X73GJiTFfLzshUpK57AD2BTdON8wDsdoarDvFVF_4Sd0986IcIQJPyzEWkYdTeoymo8eNFhkovEYhvnqaBU-dLk1m9tvfaY29OjkkjaGIY6VyzSm1z-RD5uF6gNDjQXwxAZqoRu1qeZ1o--lDqAXtY4xQeM4Im6r_zeAIdumzjmuBNclLOoNaxTCpnHHbprWUogor-cSAtFlNR664u43tXr1__rvMY_-jLRS_NVnrIjrxhierH4mRkY2kx4SQIOJuZHZVyODNl-XAGaLd6rPAXAxuUU0GrP9-QnMMp9mGBIhvoXMVLKKbZX-bsQr4TA-jEDkBpta_-0UqItnCU9N2uiBwfh1l3kH8RBFwR_08Tj9ekjzLW1sXST6kJ5P8w3CIwUzyYfIi-8UroqR-iwlsdXpEjHhGvZiNiyWqlVK6v822lMk4UebAObowvgI2zRW9XU18m1IQ294horEhUOz2f5SacQaHdY3D23VOQvIlM6JlQDeBJKIrDoM3aeHAfEqdFw2kPSps1848x0Rmp04AjrdaFC_eVZ3v3bAEXIlKAxnvNMl83nGJpDTuJ3uEn0Zh7cCQpKOO684VliCJXnamZdfMhsUBL1TNPuicnZbIMtH3rk4RYWzuPqO3dVVfmFo3js7kar8Ix4RxdGm_4F1x-RnSAPqQuXHJsg6r2bZpaIKZCqo7NzkUMBAVUTTeYoqVkK6L6fjdcrz2OA02G-UWes1SrTLrkZ9XUuTQL1d1jrvz94GyZKH9aXq7Fe3DnbiQTii_-JwmZNWKvcBNZcwqIg-CItYllila_Q0yaWed85qvZWFem0wvQInv37cTNfO7rVvTUUusnQmyPT--FENFYEeafv5vKuIGauBytsI3ok-puaXl2d_XYOzR9kSeDXJP4MpJdXQnCTdLvYUF3NFodPl0I2L3oJwyWIYYqqjvPq_m4bbrXdjN7I8uGjZG2XnAcQs_XUP9QAF07cLRKAwtVyreL2RHk7ycnRIWZOXi38_RdbeqtfKxfa0F5HgvcgIu4hDLKTz9g2Yxh0CQatx6iodSQfQD4RZ4v1HGdAFEksKVooWhhsOGcyDTrlzkwZ5A_eyOO7_9_8aaeVTODPKKez9X5rUgmmGx7dlC9GPO86yqu8gv4D6hWqPjWT",
+      "status": null
+    },
+    {
+      "id": "ws_050996828332b995006ad870d727c087d1b686280dcf3b4f29",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG/true"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_050996828332b995006ad870d8313887d1a92900df8c9126b7",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HDpthvj2Wdz-cImf0f1-UpLu6iH3aK_HM-AF_l3etdweYMALZVvXOlSPfeFC-rFtAAH7W7VrOU0eHv05KntW9lxqtvCVWp-ACyhFOOF5bXYoiufjC9aycSMxWWbV6kqBilYPwyE09C0wMRR4DKbrVG8qU8udGPlCOwF44L7AkvZoNKmBczaX2e1eZQdK-kF78j24oqx-txupQxsKEm5UPCkKiWGLBogwPjyeO1CTZie4NbBNq3OYAhdneUAaomrCgP0_XxSrKx_Qrie6uyPIAgIWmNc8Lbirq-7FpC3qLnikRsP8a2x3sep2aBFYd7EQsJxZs67MhRrp-y5t4WzPgFZnn0cBj0q4-e2Uhh-wZNXbYHIoXEous3kMK_7D6PO_P5X6A3B-RBQq5u_53SMPbhUHHgLa50eKMTCe2IdDv4e6oqt1tJdwLUw8RKT1g1Z2z0nmkQO6Nl7g7-U6Y_pMFn5m8bGNF66LmcnPqNhE3hchjsFwVO6WrRMmzBov3TeLar-j_1H6_-a_53ClBcVLCIeJuNulN9dig9WrMQn2McpEHbkyoqdyYN6qJsVoq7GF7D4mTRaYP2ZyaTiabCGY9HViUTiwzMLFjjO_UqlR2yQr2o23sc2vxxV33Po8ysFAUuM1nXK-_UzsPWnrCMKYPqqFgEiHRirRwFN58v5b_ggAMzFblJD7Qb2wsH87V2JC3w8Unt8AW0zYV2vdhT6VzIxB6GOVUmtcvmkE0FA-vBCI6rCojvrWz12eyyuZ7b0tOtzQ4qyb9oGyrX8N0rm33rgqADxVbNAcxkyulz-ee5obd2O9liwSPYPA6hPBELt16fOEQOpYy9BclsuIZ2-R_rmghBGZtvpOQZvdR1zx1vacCI3t4XPJQ4cFxAYYRtAMcW3A0e4jW3SqHGfO4DCgU1OfyuuEtZmELe0wTm6swU5xXYYtKjVH3ReOH-jMrUIgTQM5l-vImFSj9Y6-Wvmo1APvkQ4eV-IvXuPyxwl_8p1xOFgdeBlgQGTU9iROBnpr1yiNKr2EtPi7i2qIxjNlUqk4J9AbfVhr3sTXXctXztW30F4lTBE1kYGK8YqO1dfbgMaOImP-c4db4Xfh5m60jLC_Y2NiQ_2It9ARdw2kWahgcd-YCu4H16jbY3OLeTJGUQLRrDjgEtv4RX3aDeGG55EZxTF9dxTVHBZMMSRy1UN4KPjLp3HGWWat_8bCafj7qPyyLqDomF_6aNF8x_XSPYgLnrJ2CEE_a_IMd7EFfEPETlx4C7LsLDiXt6cmH3XJmvoXIhjRS3nLQ_3IzpSJv2osicFrnOAF8m21DeCS4BtrtAG4Y-rhzugvGoSju3HDZqg9qerGGBt5bJRrJa1JIudF21rdwNjzpWq1lFF0fSeW4j0XeQylqDxuthmvvhzu5PF7kKiMiK4a8Lbdk9e-5igtQf9x3UREa_D113FlQMM0Ji7X788PbKg5IYBLpOuabWmmS-q6dRaV6vGr4QfMsz02Se7muV_Wp5MWvGHMX6w5IpZPcVfFBDK4-cxzdLuFM81i4v82LCTsBrvLEnNAfv5RBpOjmTI572gsc2LyoK2Jfz5gFJVuRVklCHr3snaOeLyf7Pe47iipIayiqlgdz_4GkuGnKNTRU9HLU0P5BJ1bpidyJPnN5DGicvqvxJXQZzRIxfdltMAQF5EmtWZuA0HSyG-OpmVC3lOK1_rTeWH8UuO8sCoBkr0eVLh-IISc0SOsLxbtdAwNipSBzcxBbF4Gdt4T0c1VB8df8QCHzwOFveuZHL2fkUkk-Avny1kh4mkd8RQ_rO2pNegToDrgjnZJBsf6XsAMdUO1jhjmWH5S1qZdUZUYluHAellV1Vo8vcl_IqR0FdSKSETRH9iaAcjQLM1rl6ZuFO4KeU2yMRVaceI7C_POUwsfirQ43nx-5sWin7To-m0gHYm7nnFhmODg120VwB-m7xCGj1PY689YW7uBbKYoi3XmeNYWT6Wer8aRcDvUtegYT7QhrVfAn_pqHyF9K5mZBFRoYUBxkupJzcK42rWFUAbjFZDO1vikuT2fP-vwBj0JFMP1Zv9cCSAqmID2OjAdHQTDHIYzQtwO3Pyvx0lCJlv6hGIbTBgraAZcDXcg5wLxo8gsil3yovUsPzgY1bw8LjEpzCnYvUmf17b6auej8-dzsL4mwzcGCdn5GDt7392210L4SYRWX2J4Bnn8f-cZ4T5vdMgzEymqClW77vTi1NSjS1-0XsecVEOLPKkANfepLH3gsWETTa_3DjFrCk8RhqfE23zUD53HWsUa9jYa5dz-iALpypP082blr94ZcW6mQhk21KBCuSri9AOoQvlKrMNnl9zDZ4aZ-eMigHXNQ43xIvd04OZeDFVdSkBS97OxgyUoiVySMJ8FNpAePJVGUyX3VrcDuXtAM5oxlj-JB334znVSfLE-9JYiTnKzl2LSqyXdYMsqhkxe0lEI6wN99C1Xs9maZfUjml4uFBSgbWPwDRooa8Tk_vfe2oU24uvawFffC02StrF_fapWahIqcxjPxwSEiKBKaPda1fV6epdDXOGZXEe5ibq3iYfUazP_9hUVML9M8QMngAI1XamSQcxB4DJsYryWvJIzU2Pe6imsNK8CoXBxn1uDSDAm4lBNUBLWw9z2soP_MS7Lo3GuZvQ-oaLeTpsWKR10O44949PFK3jSMdaACystr3dlFE81JNk73f8POF14bRvnwe-I3PgFOjuI7qZ4KjvXSLRMQ7LTuDOEgzppTUSNxHYM_W9N8orvWafbD16oqjPyu0i51bq9Ocfn1qN1WR6767d9Z72tU3usx1Npk_4wZOrl-_bm1EfVLjI8jGGZ54nGmDxN46h2KBTwm-dPQo_RpPfkoImrnorakbUkmXELUV4qnO-8YEzn06sbeQpnKoyUmrEU7Vtsdye27hABwONvlDO6MV7v7_1DsGnVanyCckfXKkqt0Rb-OYut12k3_fpblvQgKtu2kAK9IILjFn2xfhH7oSvHwa2hSKYQQpefJl1vz_IZxUASyAtqEVzB3vqPy_amymybUqo_PzUzMBL62soMDl0IZsaRUK2yYpexrDjEhjWcB14QrSVer8cgBhsCCXUiNFVfP6HiVZ8cJ5rB2NL4ax-p5LzhNnqWdp-0XBuS-Wyx8F0FxaX15hfEg6wkxFdK6_rtSaaGvdAv4OdfKlCKLmBbvq_oDvwTF-iJsmu3JQNtzAi1LxfpJ_oyrIsblPD5Pyfd7_Fjw-afQ_jtojY1gaN0L3FvPCu3-cQMH_V_nO3uvwhXRLZTzA2wJi_ij5UKMsScbIeUTJHWjDD2uzNp9mFIq4ccqYL5PaDBO6WhmlgCpNlO3aHLKI5b13xs2BJeMHPT8CN5-3i2oKewq8SAoA9_hLL3r0xSNrTdvak306mhzsEQN2NSrAhgCtDJhrkeDpt_HHybebKx24Tsl_iJHxIocV4bLRAAN0CBPTD1LVquWCJIVO8yZHX6FuxV5iv4he_NYjBAJrdPt50ZU_Nsao3vLYkWTQxBB4cCrLp5EFDjtFA_i7TmSaVRUF4JV7zCQQaNDkTWqdlM3chXiAUx7sTsvr4n19wy__ToRhvO5Nrs9LaJeGC6yS1Vl30zwWdmdPJXq8heVB-ww4XUjTcyH3JqbIJhxl-43HLnBPO7nCCW20O6v5vZlbouUdkwuYn_R3xcLMSCP842safT1cWvmbVjH-EU9IPl_qf41pVQDXrjvv_2S_a6UBYbGj1LfuyiIQ2uPYIn-Fd1bVas54Ij9N3l_h5VeFarPpjg_6ZPnlL_we3LeZjTA23uhjlSajSg5ryhhOciYASozBXtbviL_S-BPKJt3x1jsc1kzuHloI3eJU6oJYYag56-s5wDlTUspTjIZDGSABd9m_pQpIj442Qm4fBf7TbZzrDsbZE4rjsoHAP2LJcTQ_OpnuB85iEsBOVLdJYaDYFGfNMefYgl7UXE-vz5OqAyV6PwP9xYPOVd4qCBO9RpZmofXUUeAliwI3aGUQ4AXKdaaXcksg5Z2gOEgi5aKHL_YLmovzJHED2vGIP7cKcqv_qxEjfejMnfkv5Wy86_5w2K4eAHP_mOk2tklv0GRiO7WypBonbuAsVz0GIUSuJuRV9cqy8GcuHWgF-c0RhiFvqgjIbm2HGN5jwK1ZaIUtTLnhrtjaGtJMhTq77m1al6r1IN8mzSiSDPDUngNNMuyAfexhVqNSAovCXCFsBx0gfSjQQPeHo5kk0hend30IDu9xsMyLXWfyNzUUB1qjH1tjDA_7r3eHvjLBFMVo5F1BAwgoUVQInJ6x_6hhp07nKfys4JgUpHuzLaiQjeVMOId04iUxHL-Sg3mqwNVEZVMB2DY1LgUik-1qSAfWIHtSiKEilFeGTR2U-jaoFQZ2TJqSSlAk6sqQdP65KwCGAj5OvF7MCfZftQ37awts6GdJ03fIXIDGo3j5tvKVcaqSpn7Yt9qMTsww35fDLkOADI2s2ki8l9GynhzNazuOpLzyI4HI6FteVpmR1rWNX1xdChE1ydKOJ5XU8KAycloPLD8SEA0MMx5BjTGn2WLv8vexKXLUcmsaKZwKmK9bXYEci47knI-nUUVkuIAEhn6HSJVTMYhtugL5Mi7Niet76ojrst0LbThjoHa4Fuw4h5L0VmMQ_btLpNthzeg--_-GoHffRve86u_EYKeXfw2np3nDqMEjFIRb2IPuGVcdFQh-44Avd-GA35xhBvU9M7VBF9rmzNO32wvwLdZmcHj_6gbBfFH_t5hXzEwB0002j0bdyDifHKVT-y1EcG4Nf5JKM6qPLWgZUzY6PhRueM81gla83fPLNhzoNyoQhBXT71aL4EXtFVKSVtGcXt87dCH_wwAxOxgAUfvx4QZWOlQJTZKhA0Kr2xP7k91jfTSL5UIhwSadSGIMMyPfZTHGGtEiKdwG5OTS_5rpT-tX6xC8XtqMlXNxD8gH8Q7WTZd8ZcVgLfzpAT-3v2gQXMi3MUlFLHMlVu_uZnIkjVCiWMdnhilS088IbcNxMvI4iM0x_7VqCNlKu9bUgWDk7n4IgfBF1-YbFzVkLKN2gI50F23o95o56Yaw46034iz_PbnO47QQ8jgjXwaq9aRaRBoaVkBe0KypjB-lTiLMTENdASXfPLOEL37XQHU10mwoO7P3KTOYg_AMRwWNyFHpn36W4E_FapqLBK5nKw6jXBf5gPhzjAyrs8yaE_Fmx0ZnH4iM4kneADmpmO-L6kVrJzZAEXRK46qqlWM6zMMzdsvAW-o0PcqB-HqRwzXcSDrQtJofgu33h4MXUA26T7wbwqZ9BEL9Iiudlv3ae1i1RqLO39C0mJGe0yoA7XOYFxTu8ufPl3v_9eb_mAvgkLDgARl9JzJ-5Pa-YtBmEafhmKa_-A4Fc91MSF3ttCEvRxvNjJPGOIOk2Klci-H9oKCM6qD6M3n1xdty6MsMkCnngd8F8xemFaNRe-EY75Dabdu5LkD9wCB8iIem55sqqobjDYiKr1aEv1gE-E-sV8llY12P2gmGaDwDbl6rF1twoG0ePV6Mif3UCy2qUoqXSroZ06MJZYpukVkVXvJy0CzegZhNMoE_RamZVXoBj6bjJCiJu2vjU0K_jfydh6wY5617OUkJwyEzYIgicpyhrK6PkhGjjMjto64bBR7_Cd6k5Kbv-aOWDEBB55qXbdLkYd0CkwQGTeoc82tVe-2maXHLpdO-msxsRPAM3Y9nEaOF54noptdGxHGAMaaPTPyH3Nvme_IF7HSQLx8Iy4kNwEMbWAeYdMUPtwvJU3P2yG9r_Vxxe0CbkTI8muaZ1GQkHe9j3CgfWfOpQEWQ0sCGme3UcslyQi_Iqy2E-An8OF_7oJeJ_8B5uw7XzMzyikR2pfKI6enaYFMFW0IqMNhPI__BCbN3hfBgINlufNvXKtZRJpQr0KX2dCf0DYOU_1RK8ldkxzUyboxzbWJP_VC6ntC2iyp4lHBz8LzTg-SCQBhKND11WRKd7sTlsvnBzwps6SjdNAy6lAs8VmETiNZbXkz1wydk8yfbpV_D0z_JRB9lXgEinEiaQT1lQ4qTyCjHWqtgR1mZcs2BwBlW1hUytcdPRd3eANptLUVnizNaEKEzmAC7rFsjkSm_150Mq5cg67vu1Gkms6xQUE3Z1KTMHd2GZTvNm9HLcvB2Q3iCb4Qdq2ECtuPh_P9Gl20Of-BTS4YtUNVMIJ2KCkufXE8x6zMpyQJ-9WCNfExY_4DHSGmbpLcmx5r15QB4vUadnf15-MakWDUNYjPQgLHdWn6TU",
+      "status": null
+    },
+    {
+      "id": "msg_050996828332b995006ad870dbd16887d1930ddf06e292bb64",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"funde\":[{\"regelwerk\":\"GG\",\"fundstelle\":\"Art. 33 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Auswahlentscheidung muss anhand von Eignung, Befähigung und fachlicher Leistung getroffen werden.\",\"begruendung\":\"Für die staatliche Hochschule gilt bei der Besetzung einer öffentlichen Stelle der verfassungsrechtliche Leistungsgrundsatz.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/gg/art_33.html\",\"fassung_datum\":\"Fassung laut Quelle\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayHIG\",\"fundstelle\":\"Art. 71 Abs. 2 Satz 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die genannten Einstellungsvoraussetzungen gelten für wissenschaftliche Mitarbeitende im privatrechtlichen Arbeitsverhältnis; bei befristeter Tätigkeit erlaubt Satz 2 Abweichungen von bestimmten Voraussetzungen.\",\"begruendung\":\"Die Auswahl muss die hochschulrechtlichen Einstellungsvoraussetzungen für wissenschaftliche Mitarbeitende berücksichtigen.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayHIG/true\",\"fassung_datum\":\"Text gilt ab 16.05.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayHIG\",\"fundstelle\":\"Art. 73 Abs. 2 Satz 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Für eine Stelle mit Aufgaben, die der Vorbereitung einer Promotion förderlich sind, ist ein abgeschlossenes Hochschulstudium vorausgesetzt.\",\"begruendung\":\"Die Stelle ist als befristete Qualifizierungsstelle zur Promotion beschrieben; die gesetzliche Voraussetzung ist daher bei der Auswahl zu beachten.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayHIG/true\",\"fassung_datum\":\"Text gilt ab 16.05.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AGG\",\"fundstelle\":\"§ 7 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Auswahl darf Bewerbende nicht aus einem in § 1 AGG genannten Grund benachteiligen.\",\"begruendung\":\"Das Benachteiligungsverbot gilt für den Zugang zur Beschäftigung und damit auch für die Auswahlentscheidung.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/agg/BJNR189710006.html\",\"fassung_datum\":\"Geltende Gesamtausgabe laut Quelle\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AGG\",\"fundstelle\":\"§ 3 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Auch dem Anschein nach neutrale Auswahlkriterien oder -verfahren dürfen geschützte Gruppen nicht mittelbar benachteiligen, sofern die Kriterien nicht durch ein rechtmäßiges Ziel sachlich gerechtfertigt sowie angemessen und erforderlich sind.\",\"begruendung\":\"Die Vorschrift konkretisiert, wie neutrale Auswahlkriterien und -verfahren auf mittelbare Benachteiligungen zu prüfen sind.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/agg/__3.html\",\"fassung_datum\":\"Geltende Gesamtausgabe laut Quelle\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayPVG\",\"fundstelle\":\"Art. 75 Abs. 1 Satz 1 Nr. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Mitbestimmung des Personalrats bei der Einstellung ist im Zusammenhang mit der abschließenden Auswahlentscheidung zu beachten.\",\"begruendung\":\"Das BayPVG sieht die Mitbestimmung des Personalrats bei Einstellungen vor.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayPVG-75\",\"fassung_datum\":\"Text gilt ab 01.08.2023\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayPVG\",\"fundstelle\":\"Art. 70 Abs. 1 Satz 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Soweit die Auswahl- beziehungsweise Einstellungsmaßnahme mitbestimmungspflichtig ist, darf sie nur mit Zustimmung des Personalrats getroffen werden.\",\"begruendung\":\"Die Vorschrift regelt die Wirkung der Mitbestimmung und ist zusammen mit dem Mitbestimmungstatbestand für Einstellungen zu beachten.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayPVG-70\",\"fassung_datum\":\"Text gilt ab 01.08.2023\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayPVG\",\"fundstelle\":\"Art. 70 Abs. 1 Satz 4\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Als Körperschaft des öffentlichen Rechts soll die Hochschule die Mitbestimmung vor der endgültigen Entscheidung des zuständigen Organs durchführen.\",\"begruendung\":\"Die Vorschrift bestimmt den zeitlichen Ablauf der Mitbestimmung für sonstige Körperschaften des öffentlichen Rechts.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayPVG-70\",\"fassung_datum\":\"Text gilt ab 01.08.2023\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayGlG\",\"fundstelle\":\"Art. 17 Abs. 3 Satz 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Eine Beteiligung der Gleichstellungsbeauftragten in Personalangelegenheiten findet auf Antrag der betroffenen Person statt; außerdem greift die Vorschrift bei von ihr vorgetragenen hinreichenden Anhaltspunkten für eine Missachtung der Gesetzesziele.\",\"begruendung\":\"Die Auswahlentscheidung ist eine Personalangelegenheit; die gesetzlich vorgesehene Beteiligungsmöglichkeit ist deshalb zu berücksichtigen.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayGlG-17\",\"fassung_datum\":\"Text gilt ab 01.04.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. a\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Verarbeitung der Bewerbungs- und Auswahlunterlagen muss rechtmäßig, nach Treu und Glauben und transparent erfolgen.\",\"begruendung\":\"Bei der Auswahlentscheidung werden personenbezogene Bewerbungsdaten verarbeitet.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. c\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Bei der Entscheidung dürfen nur für den Auswahlzweck angemessene und erforderliche personenbezogene Daten berücksichtigt werden.\",\"begruendung\":\"Der Grundsatz der Datenminimierung gilt auch für die Verarbeitung von Bewerbungsdaten im Auswahlverfahren.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 6 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Für die Verarbeitung der Daten zur Auswahlentscheidung muss eine einschlägige Rechtsgrundlage vorliegen; welche Bedingung greift, ist anhand der konkreten Verarbeitung und ihrer gesetzlichen Grundlage festzulegen.\",\"begruendung\":\"Die Auswahlentscheidung verarbeitet personenbezogene Daten und ist daher nur bei Vorliegen einer Rechtsgrundlage rechtmäßig.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"SGB IX\",\"fundstelle\":\"§ 164 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Soweit Bewerbungen schwerbehinderter Menschen vorliegen, sind die besonderen Prüfungs-, Beteiligungs- und Unterrichtungspflichten des Absatzes zu beachten; die Schwerbehindertenvertretung ist bei Bewerbungen nicht zu beteiligen, wenn die betroffene Person dies ausdrücklich ablehnt.\",\"begruendung\":\"Die Vorschrift regelt besondere Pflichten des Arbeitgebers bei der Prüfung und Besetzung freier Arbeitsplätze mit schwerbehinderten Menschen.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/sgb_9_2018/__164.html\",\"fassung_datum\":\"Geltende Gesamtausgabe laut Quelle\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"SGB IX\",\"fundstelle\":\"§ 178 Abs. 2 Satz 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Soweit eine schwerbehinderte Person betroffen ist, ist die Schwerbehindertenvertretung vor der Entscheidung unverzüglich und umfassend zu unterrichten und anzuhören; die getroffene Entscheidung ist ihr mitzuteilen.\",\"begruendung\":\"Die Vorschrift bestimmt die Beteiligungsrechte der Schwerbehindertenvertretung in Angelegenheiten, die schwerbehinderte Menschen berühren.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/sgb_9_2018/__178.html\",\"fassung_datum\":\"Geltende Gesamtausgabe laut Quelle\",\"sicherheit\":\"sicher\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "funde": [
+              {
+                "regelwerk": "GG",
+                "fundstelle": "Art. 33 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Auswahlentscheidung muss anhand von Eignung, Befähigung und fachlicher Leistung getroffen werden.",
+                "begruendung": "Für die staatliche Hochschule gilt bei der Besetzung einer öffentlichen Stelle der verfassungsrechtliche Leistungsgrundsatz.",
+                "quelle_url": "https://www.gesetze-im-internet.de/gg/art_33.html",
+                "fassung_datum": "Fassung laut Quelle",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayHIG",
+                "fundstelle": "Art. 71 Abs. 2 Satz 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die genannten Einstellungsvoraussetzungen gelten für wissenschaftliche Mitarbeitende im privatrechtlichen Arbeitsverhältnis; bei befristeter Tätigkeit erlaubt Satz 2 Abweichungen von bestimmten Voraussetzungen.",
+                "begruendung": "Die Auswahl muss die hochschulrechtlichen Einstellungsvoraussetzungen für wissenschaftliche Mitarbeitende berücksichtigen.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayHIG/true",
+                "fassung_datum": "Text gilt ab 16.05.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayHIG",
+                "fundstelle": "Art. 73 Abs. 2 Satz 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Für eine Stelle mit Aufgaben, die der Vorbereitung einer Promotion förderlich sind, ist ein abgeschlossenes Hochschulstudium vorausgesetzt.",
+                "begruendung": "Die Stelle ist als befristete Qualifizierungsstelle zur Promotion beschrieben; die gesetzliche Voraussetzung ist daher bei der Auswahl zu beachten.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayHIG/true",
+                "fassung_datum": "Text gilt ab 16.05.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 7 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Auswahl darf Bewerbende nicht aus einem in § 1 AGG genannten Grund benachteiligen.",
+                "begruendung": "Das Benachteiligungsverbot gilt für den Zugang zur Beschäftigung und damit auch für die Auswahlentscheidung.",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html",
+                "fassung_datum": "Geltende Gesamtausgabe laut Quelle",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 3 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Auch dem Anschein nach neutrale Auswahlkriterien oder -verfahren dürfen geschützte Gruppen nicht mittelbar benachteiligen, sofern die Kriterien nicht durch ein rechtmäßiges Ziel sachlich gerechtfertigt sowie angemessen und erforderlich sind.",
+                "begruendung": "Die Vorschrift konkretisiert, wie neutrale Auswahlkriterien und -verfahren auf mittelbare Benachteiligungen zu prüfen sind.",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/__3.html",
+                "fassung_datum": "Geltende Gesamtausgabe laut Quelle",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayPVG",
+                "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Mitbestimmung des Personalrats bei der Einstellung ist im Zusammenhang mit der abschließenden Auswahlentscheidung zu beachten.",
+                "begruendung": "Das BayPVG sieht die Mitbestimmung des Personalrats bei Einstellungen vor.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75",
+                "fassung_datum": "Text gilt ab 01.08.2023",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayPVG",
+                "fundstelle": "Art. 70 Abs. 1 Satz 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Soweit die Auswahl- beziehungsweise Einstellungsmaßnahme mitbestimmungspflichtig ist, darf sie nur mit Zustimmung des Personalrats getroffen werden.",
+                "begruendung": "Die Vorschrift regelt die Wirkung der Mitbestimmung und ist zusammen mit dem Mitbestimmungstatbestand für Einstellungen zu beachten.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-70",
+                "fassung_datum": "Text gilt ab 01.08.2023",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayPVG",
+                "fundstelle": "Art. 70 Abs. 1 Satz 4",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Als Körperschaft des öffentlichen Rechts soll die Hochschule die Mitbestimmung vor der endgültigen Entscheidung des zuständigen Organs durchführen.",
+                "begruendung": "Die Vorschrift bestimmt den zeitlichen Ablauf der Mitbestimmung für sonstige Körperschaften des öffentlichen Rechts.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-70",
+                "fassung_datum": "Text gilt ab 01.08.2023",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 17 Abs. 3 Satz 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Eine Beteiligung der Gleichstellungsbeauftragten in Personalangelegenheiten findet auf Antrag der betroffenen Person statt; außerdem greift die Vorschrift bei von ihr vorgetragenen hinreichenden Anhaltspunkten für eine Missachtung der Gesetzesziele.",
+                "begruendung": "Die Auswahlentscheidung ist eine Personalangelegenheit; die gesetzlich vorgesehene Beteiligungsmöglichkeit ist deshalb zu berücksichtigen.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. a",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Verarbeitung der Bewerbungs- und Auswahlunterlagen muss rechtmäßig, nach Treu und Glauben und transparent erfolgen.",
+                "begruendung": "Bei der Auswahlentscheidung werden personenbezogene Bewerbungsdaten verarbeitet.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. c",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Bei der Entscheidung dürfen nur für den Auswahlzweck angemessene und erforderliche personenbezogene Daten berücksichtigt werden.",
+                "begruendung": "Der Grundsatz der Datenminimierung gilt auch für die Verarbeitung von Bewerbungsdaten im Auswahlverfahren.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 6 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Für die Verarbeitung der Daten zur Auswahlentscheidung muss eine einschlägige Rechtsgrundlage vorliegen; welche Bedingung greift, ist anhand der konkreten Verarbeitung und ihrer gesetzlichen Grundlage festzulegen.",
+                "begruendung": "Die Auswahlentscheidung verarbeitet personenbezogene Daten und ist daher nur bei Vorliegen einer Rechtsgrundlage rechtmäßig.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "SGB IX",
+                "fundstelle": "§ 164 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Soweit Bewerbungen schwerbehinderter Menschen vorliegen, sind die besonderen Prüfungs-, Beteiligungs- und Unterrichtungspflichten des Absatzes zu beachten; die Schwerbehindertenvertretung ist bei Bewerbungen nicht zu beteiligen, wenn die betroffene Person dies ausdrücklich ablehnt.",
+                "begruendung": "Die Vorschrift regelt besondere Pflichten des Arbeitgebers bei der Prüfung und Besetzung freier Arbeitsplätze mit schwerbehinderten Menschen.",
+                "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__164.html",
+                "fassung_datum": "Geltende Gesamtausgabe laut Quelle",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "SGB IX",
+                "fundstelle": "§ 178 Abs. 2 Satz 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Soweit eine schwerbehinderte Person betroffen ist, ist die Schwerbehindertenvertretung vor der Entscheidung unverzüglich und umfassend zu unterrichten und anzuhören; die getroffene Entscheidung ist ihr mitzuteilen.",
+                "begruendung": "Die Vorschrift bestimmt die Beteiligungsrechte der Schwerbehindertenvertretung in Angelegenheiten, die schwerbehinderte Menschen berühren.",
+                "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__178.html",
+                "fassung_datum": "Geltende Gesamtausgabe laut Quelle",
+                "sicherheit": "sicher"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "eur-lex.europa.eu",
+          "gesetze-im-internet.de",
+          "gesetze-bayern.de",
+          "tdl-online.de"
+        ]
+      },
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792569576.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 44552,
+    "input_tokens_details": {
+      "cache_write_tokens": 3963,
+      "cached_tokens": 4775
+    },
+    "output_tokens": 3536,
+    "output_tokens_details": {
+      "reasoning_tokens": 1539
+    },
+    "total_tokens": 48088
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 4
+    }
+  }
+}

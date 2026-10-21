@@ -119,3 +119,54 @@ gleichzeitig getroffen würden.
     Norm am richtigen Task als `moegliche_luecke` meldet. Die Hauptkennzahl `s2_recall` bleibt wie in der Anweisung.
 24. **Soll-Liste nicht verändert**, obwohl der Lauf fachliche Zweifel an S26 (Art. 78 BayPVG) und an der
     Gleichstellungs-Kontrolle (Art. 17 Abs. 3 BayGlG) zeigt. Die Entscheidung liegt beim Autor (siehe ERGEBNIS.md, Abschnitt 7).
+
+## v2 (Auftrag 002, 21.10.2026)
+
+25. **Version:** `config.yaml` hat den Schlüssel `version: v2`; `meta.json` speichert ihn als `version`. In
+    `runs/20261020-145929_A_1/meta.json` ist `version: v1` nachgetragen (einzige Änderung an alten Läufen). Fehlt
+    `version` in einer `meta.json`, gilt `v1`.
+26. **Schema:** `FundLLM.hinweis: str | None` („fehlendes Detail an diesem Task, sonst null“), landet in `funde.jsonl`.
+    Für A_1 (ohne Feld) setzt die Auswertung `hinweis = null`.
+27. **Konfiguration B, Rechtsrahmen:** nur Regelwerke aus Soll-Zeilen mit `typ` zuordnung oder luecke (12, ohne BayHIG).
+    Grund: B soll den Soll-Rechtsrahmen von Stufe 1 vorgeben; Neutral-Regelwerke gehören nicht dazu.
+28. **Normierung:** Muster für WissZeitVG, TzBfG und BayHIG ergänzt. Regelwerk-Listen werden nicht mehr an „und“
+    nach Bindestrich getrennt („Teilzeit- und Befristungsgesetz“ bleibt ein Regelwerk).
+29. **Mehrere Tasks je Soll-Zeile:** `task_id` wird an `|` getrennt. Ein `zuordnung`-Fund trifft eine Soll-Zeile, wenn
+    sein Task in der Liste steht oder die Zeile `GESAMT` ist. Teilprozess der Soll-Zeile = der des ersten Tasks.
+30. **Neutral (Zuordnungen):** Rangfolge je Norm `korrekt` > `neutral` > `falscher_absatz` > `falscher_task` >
+    `nicht_in_soll`. Neutral passt bei gleichem Regelwerk und gleichem Artikel/Paragraf (leere Soll-Fundstelle passt
+    auf jede Norm des Regelwerks), auf jeden Task; hat die Neutral-Zeile einen Absatz, muss er unter den Absätzen
+    des Funds sein. Eine Neutral-Zeile mit abweichendem Absatz ist kein Kandidat: Gibt es keine andere passende
+    Zeile, ist der Fund `nicht_in_soll`. Präzision = korrekt / (alle Zuordnungen ohne neutral); `s2_anteil_neutral`
+    separat.
+31. **Lückenkategorien je `moegliche_luecke`-Fund:** `luecke_korrekt` > `luecke_neutral` >
+    `luecke_an_vorhandener_zuordnung` > `luecke_ohne_soll`. Neutral steht vor „an vorhandener Zuordnung“, weil
+    der Auftrag diese Kategorie auf Meldungen beschränkt, die *nur* eine Soll-Zuordnung treffen.
+    Zuordnungs-Zeilen werden dabei unabhängig vom Task geprüft. **Absatz bei Lücken:** geprüft nur, wenn Soll-Zeile
+    und Meldung beide einen Absatz nennen (Meldung „Art. 26“ trifft S14 „Art. 26 Abs. 11“, Meldung „Art. 26 Abs. 7“
+    nicht). In v1 wurde der Absatz bei Lücken nie geprüft. Die neue Regel ist etwas strenger, damit eine Meldung
+    zu einem anderen Absatz nicht als Treffer zählt.
+32. **Deduplizierung:** Lückenmeldungen eines Laufs werden nach (Regelwerk, erster Artikel/Paragraf) gruppiert; die
+    Gruppe erhält die beste Kategorie ihrer Meldungen. `falsche_luecken` = Gruppen mit `luecke_an_vorhandener_zuordnung`
+    oder `luecke_ohne_soll`. Gezählt werden in v2 nur `moegliche_luecke`-Funde. Regelwerke aus Stufe 1 ohne
+    Zuordnung gehen nur in `luecken_recall_grosszuegig` ein und werden als `regelwerke_ohne_zuordnung` gezählt,
+    nicht als falsche Lückenmeldung, weil sie keine Aussage über einen fehlenden Schritt machen.
+33. **H1b-Recall:** `luecken_recall` (Hauptkennzahl) = Soll-Lücken, die eine `luecke_korrekt`-Meldung trifft.
+    `luecken_recall_grosszuegig` zählt zusätzlich alle Soll-Lücken eines Regelwerks aus Stufe 1 (B: Vorgabe), dem
+    in Stufe 2 kein `zuordnung`-Fund zugeordnet ist. Diese Regelwerke berechnet die Auswertung neu aus `stufe1.json`
+    bzw. `rechtsrahmen_vorgabe.json` und `funde.jsonl` (nicht aus `lueckenkandidaten.json`), damit alle Läufe mit
+    derselben Normierung bewertet werden.
+34. **Kontrolle Gleichstellungsbeauftragte:** `kontrolle_fehlmeldungen` = Anzahl deduplizierter Lückenmeldungs-Gruppen,
+    deren Normen S23 (BayGlG Art. 17) als Soll-Zuordnung treffen. Die Stichwortsuche aus v1 entfällt.
+35. **Stufe 1:** Soll-Regelwerke = Zeilen mit `typ` zuordnung/luecke (12). Regelwerke nur aus Neutral-Zeilen (BayHIG)
+    werden als `s1_neutral` ausgewiesen und zählen nicht in der Präzision (Nenner = genannte Regelwerke ohne neutral).
+36. **`anteil_nicht_in_soll`** = Anteil der Funde mit `nicht_in_soll` oder `luecke_ohne_soll` an allen Funden.
+    Neu: `anteil_hinweis` = Anteil der Zuordnungen mit gefülltem `hinweis`.
+37. **Gruppierung:** Kennzahlen je (`version`, `konfig`); `kennzahlen.csv` hat die Spalte `version`. Alle Läufe
+    (auch A_1) werden gegen die aktuelle Soll-Liste ausgewertet.
+38. **ERGEBNIS.md, automatischer Teil:** Bei 11 Läufen wären die Einzellisten aus v1 zu lang. Abschnitte 2–4 und 5a
+    zeigen daher Mittelwert ± Std je Gruppe und Häufigkeiten über die Läufe („in wie vielen Läufen gefunden“). Die
+    Einzelheiten je Lauf stehen in `kennzahlen.csv`, `funde_bewertet.csv`, `uebersehen.csv` und der neuen Datei
+    `luecken_bewertet.csv` (deduplizierte Lückenmeldungen je Lauf mit Kategorie).
+39. **Laufnummern:** Die Nummer zählt je Konfiguration über alle Versionen weiter. Die v2-Läufe A heißen daher
+    `A_2` bis `A_6`, die v2-Läufe B `B_1` bis `B_5`.

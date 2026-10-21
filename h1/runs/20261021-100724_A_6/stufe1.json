@@ -1,0 +1,236 @@
+{
+  "rechtsrahmen": [
+    {
+      "regelwerk": "DSGVO",
+      "vollstaendiger_titel": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr",
+      "ebene": "EU",
+      "begruendung": "Die Hochschule verarbeitet im gesamten Bewerbungsprozess personenbezogene Daten, insbesondere beim Empfang, der Auswertung, Speicherung und Löschung von Bewerbungen. Die Nutzung eines KI-Tools für Vorauswahl und Ranking ist ebenfalls eine Verarbeitung personenbezogener Daten.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32016R0679",
+      "fassung_datum": "27.04.2016; geltende Onlinefassung laut EUR-Lex",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "KI-VO",
+      "vollstaendiger_titel": "Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (Gesetz über künstliche Intelligenz)",
+      "ebene": "EU",
+      "begruendung": "Das KI-Tool wird zur Vorauswahl und zum Ranking von Bewerbenden eingesetzt. KI-Systeme für Einstellung und Auswahl werden grundsätzlich dem Hochrisikobereich Beschäftigung zugeordnet. Ob im konkreten Fall eine Ausnahme für eng begrenzte vorbereitende Aufgaben greift, hängt unter anderem davon ab, wie stark das Ranking die Auswahlentscheidung beeinflusst.",
+      "betroffene_teilprozesse": [
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "fassung_datum": "Konsolidierte Fassung vom 27.07.2026",
+      "sicherheit": "unsicher"
+    },
+    {
+      "regelwerk": "GG",
+      "vollstaendiger_titel": "Grundgesetz für die Bundesrepublik Deutschland",
+      "ebene": "Bund",
+      "begruendung": "Als staatliche Hochschule und Körperschaft des öffentlichen Rechts ist die Hochschule bei der Besetzung öffentlicher Stellen an den gleichen Zugang nach Eignung, Befähigung und fachlicher Leistung gebunden. Das prägt Ausschreibung, Auswahlkriterien, KI-Vorauswahl und Auswahlentscheidung.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/gg/art_33.html",
+      "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "AGG",
+      "vollstaendiger_titel": "Allgemeines Gleichbehandlungsgesetz",
+      "ebene": "Bund",
+      "begruendung": "Das Gesetz gilt für den Zugang zu Beschäftigung und erfasst damit insbesondere Ausschreibung, Bewerbungs- und Auswahlverfahren sowie die Einstellungsentscheidung. Es ist bei Stellenprofil, Auswahlkriterien, KI-Ranking, Gesprächen und Absagen zu berücksichtigen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 22.12.2023",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BDSG",
+      "vollstaendiger_titel": "Bundesdatenschutzgesetz",
+      "ebene": "Bund",
+      "begruendung": "Das BDSG enthält ergänzende Vorschriften zur Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses; Bewerbende werden hierfür ausdrücklich mit erfasst. Es ist daher insbesondere für Bewerbungsdaten, KI-Auswertung und Auswahl relevant, ergänzend zur DSGVO und den anwendbaren landesrechtlichen Datenschutzvorschriften.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bdsg_2018/__26.html",
+      "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayDSG",
+      "vollstaendiger_titel": "Bayerisches Datenschutzgesetz",
+      "ebene": "Land",
+      "begruendung": "Die Hochschule ist als staatliche Einrichtung und rechtsfähige Personalkörperschaft eine öffentliche Stelle des Freistaates Bayern. Das BayDSG ergänzt für bayerische öffentliche Stellen den unionsrechtlichen Datenschutzrahmen und betrifft die Verarbeitung der Bewerberdaten im gesamten Verfahren.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayDSG/true",
+      "fassung_datum": "Text gilt ab 01.08.2025; zuletzt geändert durch Gesetz vom 25.07.2025",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayHIG",
+      "vollstaendiger_titel": "Bayerisches Hochschulinnovationsgesetz",
+      "ebene": "Land",
+      "begruendung": "Das Gesetz gilt für staatliche Hochschulen des Freistaates Bayern und bestimmt die Rechtsstellung der Hochschule München als staatliche Einrichtung und Personalkörperschaft des öffentlichen Rechts. Es enthält außerdem hochschulbezogene Vorgaben zur Gleichstellung, die für die Besetzung wissenschaftlicher Stellen relevant sind.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayHIG",
+      "fassung_datum": "Gesetz vom 05.08.2022; zuletzt geändert durch Gesetz vom 26.03.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayGlG",
+      "vollstaendiger_titel": "Bayerisches Gesetz zur Gleichstellung von Frauen und Männern (Bayerisches Gleichstellungsgesetz)",
+      "ebene": "Land",
+      "begruendung": "Als bayerische öffentliche Stelle muss die Hochschule die landesrechtlichen Gleichstellungsvorgaben bei Personalplanung und Auswahl beachten. Das ist besonders für Ausschreibung, Auswahlverfahren und die Einbindung der Gleichstellungsbeauftragten relevant.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG/true",
+      "fassung_datum": "Text gilt ab 01.04.2026; zuletzt geändert durch Gesetz vom 26.03.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayPVG",
+      "vollstaendiger_titel": "Bayerisches Personalvertretungsgesetz",
+      "ebene": "Land",
+      "begruendung": "Das Gesetz gilt für Personalvertretungen bei staatlichen Stellen und Körperschaften des öffentlichen Rechts in Bayern. Wegen des vorhandenen Personalrats sind die personalvertretungsrechtlichen Beteiligungsrechte bei den jeweils erfassten personellen Maßnahmen und bei einschlägigen organisatorischen oder technischen Maßnahmen im Bewerbungsprozess zu berücksichtigen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true",
+      "fassung_datum": "Fassung der Bekanntmachung vom 11.11.1986; zuletzt geändert durch Gesetz vom 28.07.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "WissZeitVG",
+      "vollstaendiger_titel": "Gesetz über befristete Arbeitsverträge in der Wissenschaft (Wissenschaftszeitvertragsgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Die Stelle ist für wissenschaftliches Personal an einer staatlichen Hochschule als dreijährige Qualifizierungsstelle mit Promotionsziel beschrieben. Das Gesetz ist damit für die vorgesehene Befristung und den späteren Arbeitsvertrag maßgeblich.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/wisszeitvg/BJNR050610007.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 25.05.2020",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "TzBfG",
+      "vollstaendiger_titel": "Gesetz über Teilzeitarbeit und befristete Arbeitsverträge (Teilzeit- und Befristungsgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Das TzBfG enthält allgemeine Regeln für befristete Arbeitsverträge und bleibt neben dem WissZeitVG relevant, soweit dessen besondere Vorschriften nicht entgegenstehen. Es betrifft daher die Ausgestaltung der dreijährigen Befristung und die Vertragsbedingungen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/tzbfg/BJNR196610000.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 20.07.2022",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "TV-L",
+      "vollstaendiger_titel": "Tarifvertrag für den öffentlichen Dienst der Länder",
+      "ebene": "Tarif",
+      "begruendung": "Die Stelle ist ausdrücklich als Beschäftigung nach TV-L bezeichnet. Der Tarifvertrag ist daher für die tarifliche Eingruppierung und die tariflichen Arbeitsbedingungen bei der Einstellung zu berücksichtigen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.tdl-online.de/tarifvertraege/tv-l/",
+      "fassung_datum": "TV-L-Stand 14.02.2026 laut TdL",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "SGB IX",
+      "vollstaendiger_titel": "Neuntes Buch Sozialgesetzbuch – Rehabilitation und Teilhabe von Menschen mit Behinderungen",
+      "ebene": "Bund",
+      "begruendung": "Als öffentlicher Arbeitgeber muss die Hochschule die besonderen Pflichten bei der Besetzung von Arbeitsplätzen und Bewerbungen schwerbehinderter Menschen beachten. Das kann insbesondere die Prüfung der Besetzungsmöglichkeiten, die Beteiligung der Schwerbehindertenvertretung und Einladungen zu Vorstellungsgesprächen betreffen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html",
+      "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "NachwG",
+      "vollstaendiger_titel": "Gesetz über den Nachweis der für ein Arbeitsverhältnis geltenden wesentlichen Bedingungen",
+      "ebene": "Bund",
+      "begruendung": "Bei Abschluss des Arbeitsvertrags sind die gesetzlichen Nachweispflichten zu den wesentlichen Arbeitsbedingungen zu berücksichtigen. Das betrifft insbesondere die Erstellung und den Abschluss der Vertragsunterlagen.",
+      "betroffene_teilprozesse": [
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/nachwg/",
+      "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BGB",
+      "vollstaendiger_titel": "Bürgerliches Gesetzbuch",
+      "ebene": "Bund",
+      "begruendung": "Das BGB enthält die allgemeinen Regeln zum Arbeitsvertrag und zu den Pflichten aus dem Arbeitsverhältnis. Es ist daher für das Vertragsangebot und den Abschluss des Arbeitsvertrags relevant.",
+      "betroffene_teilprozesse": [
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bgb/__611a.html",
+      "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "EntgTranspG",
+      "vollstaendiger_titel": "Gesetz zur Förderung der Entgelttransparenz zwischen Frauen und Männern (Entgelttransparenzgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Das Gesetz betrifft Entgeltgleichheit und Entgelttransparenz auch im öffentlichen Dienst. Es ist bei der Festlegung beziehungsweise Anwendung der tariflichen Entgeltregelungen und bei der gleichstellungsorientierten Personalpraxis zu berücksichtigen; einzelne Berichtspflichten hängen von den gesetzlichen Voraussetzungen ab.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/entgtranspg/BJNR215210017.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 05.07.2021",
+      "sicherheit": "sicher"
+    }
+  ]
+}

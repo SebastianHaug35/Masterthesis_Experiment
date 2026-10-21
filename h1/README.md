@@ -56,7 +56,8 @@ brauchen kein neues Image. Nach Änderungen an `src/` ist `docker compose build`
 | `protokoll.json` | Fehler/Retries, fehlgeschlagene Tasks, Anzahl Websuchen, Cache-Tokens |
 | `raw/` | jede API-Antwort unverändert (inkl. Websuche-Aktionen und Quellen) |
 
-`results/`: `funde_bewertet.csv`, `uebersehen.csv`, `kennzahlen.csv`, `zusammenfassung.md`, `ERGEBNIS.md`.
+`results/`: `funde_bewertet.csv`, `luecken_bewertet.csv`, `uebersehen.csv`, `kennzahlen.csv`, `zusammenfassung.md`, `ERGEBNIS.md`.
+Kennzahlen werden je (`version`, `konfig`) gemittelt; `version` kommt aus `config.yaml` und steht in `meta.json`.
 In `ERGEBNIS.md` werden die Abschnitte 1–4 (und 5a) bei jedem `evaluate` neu erzeugt; alles ab der Markierung
 `MANUELL START` bleibt erhalten.
 
@@ -64,6 +65,8 @@ In `ERGEBNIS.md` werden die Abschnitte 1–4 (und 5a) bei jedem `evaluate` neu e
 
 - Normierung: Regelwerk-Kurzform (`src/normierung.py`), Fundstelle als Artikel/Paragraf + Absatz
   (`Art.26 Abs.11` = `Art. 26 Abs. 11` = `Art. 26(11)`).
-- `korrekt` / `falscher_absatz` / `falscher_task` / `nicht_in_soll` (+ `manuell_pruefen`), Details in `DECISIONS.md`.
-- Stufe 1: Recall/Präzision auf Ebene Regelwerk; Stufe 2: auf Ebene Fundstelle, gesamt und je Teilprozess;
-  H1b: Lücken-Recall und falsche Lückenmeldungen (inkl. Kontrolle Gleichstellungsbeauftragte).
+- Zuordnungen: `korrekt` / `neutral` / `falscher_absatz` / `falscher_task` / `nicht_in_soll`; Lückenmeldungen:
+  `luecke_korrekt` / `luecke_neutral` / `luecke_an_vorhandener_zuordnung` / `luecke_ohne_soll`. Details in `DECISIONS.md` (v2).
+- Stufe 1: Recall/Präzision auf Ebene Regelwerk; Stufe 2: auf Ebene Fundstelle, gesamt und je Teilprozess
+  (Präzision ohne neutrale Funde); H1b: Lücken-Recall streng und großzügig, falsche Lückenmeldungen,
+  Kontrolle Gleichstellungsbeauftragte (`kontrolle_fehlmeldungen`, Soll-Zeile S23).

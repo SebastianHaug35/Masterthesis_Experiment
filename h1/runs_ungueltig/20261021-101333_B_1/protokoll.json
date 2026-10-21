@@ -1,0 +1,18 @@
+{
+  "fehler": [
+    "stufe2_T6.3: Versuch 1 fehlgeschlagen (RateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}})",
+    "stufe2_T6.3: Versuch 2 fehlgeschlagen (RateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}})",
+    "stufe2_T5.3: Versuch 1 fehlgeschlagen (RateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}})",
+    "stufe2_T5.3: Versuch 2 fehlgeschlagen (RateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}})",
+    "stufe2_T5.3: Versuch 3 fehlgeschlagen (RateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}})",
+    "stufe2_T5.3: Versuch 4 fehlgeschlagen (RateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}})",
+    "stufe2_T5.3: abgebrochen: stufe2_T5.3: nach 4 Versuchen gescheitert: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+  ],
+  "stufe2_fehlgeschlagen": [
+    "T5.3"
+  ],
+  "abgebrochen": false,
+  "web_search_aufrufe": 111,
+  "tokens_cached": 87132,
+  "tokens_cache_write": 20136
+}

@@ -1,0 +1,848 @@
+{
+  "id": "resp_0c42772be3b506a4006ad872f725bc87d19ed76b41f629eb1d",
+  "access_programs": null,
+  "created_at": 1792570103.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c42772be3b506a4006ad872f7d72087d1a9578c2162461b7f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM43dPHbLBEr-8mxX87b9ckadYlabmGqzPNhH6bCGQWMHfKq27xB3U4htJFerI3OuGHDH0vIGqnudLKDUiuiDk_n9CDYa1gI1nCH122UbcIH_nUVN1dMIOi85f0JIlGkGj80TEHZKfGDywUQthRAhmeM-uHth8bVDqqZXVTVo2eGWBFCKWnnAOTuuoyFMd0h6m8WK5LBQBrmphz_D1SzSflV-4AyxViy21f5BjZ5d4zqewOOMZdgkTh_8kRVzpf7g_Rl0KGCGoclbqX0mfE_Mz4ylctgnOWw06loYW2hx8RozmpAv0NDlS7n3s3f_FdZcFoPtbe0ewFzZeG7h0FmgdI31qaSFsLe0cgkZYZsw8mJ65_478beGaUFhgP7JQdQU0jJKyYqDnTw_7nEoQ12S8eNCHA0AdU-UAHHLYKJ2Mx60MtIVsgStXLLJ9r62O1BCdfUqBdhlDdGLxnrFhUCR_L9SsI-VqkfKLJkMGW9uXeufcoBQO25YcT3FmiPktsOyz0WD3ieJSI4xjviOvbgZ9HbR9X5zaAYNRu1xvexmgGuLmd962whgj0M8rFQH_OLKVWG2ZVAncmDT-BaVm6007C9MifDKnFzuJAhsDviaEDHsnOaUnkEs_dfF4BXyT7yrI9xEnBjSm9kz1F5uCpAEaNsRcqbm_7NgT0rPZ8nH-vwaYcP2wfgH1O-aGBFYxfOOjaY4ny50IXPBo_up8EEZx22gqOTIkaGthrLdb7fjawG7Yr6e5_WRx_Q5gkgHTZi-iP4iKDDGHJCCi6x2vTfpR-6CsZ2iFsKTzI35Aam1XhfzM6iEFep97pIqgFlmBn6falAEWbeMN34-hDbZsM_kP3YoZyyqHd-xzc-5duFgxGNNqqhCaO6t1hmzXNtqomDHov6lRhRnW0KLu-QKaeGnYIb_azm0Tsk6yu2mGnh4YznGNwRqWOt5xU305xIK6aSxDDD0h_d6qDKXxWmIq5_fE_0R5QfHId_FtDdA9Ixd838Q6-Yt8qtfrHZc0hT0GAjYimxSQC-jMWsp1sdQkRFk-LOkeoWTUwzwO7320qTLTxDAsanpzqV9BSGt2o5ZO5vu1b73Q22G0DO6_K66X0pGrpIbRawkrim-kUKNIh-vz2l4ybpOqnh4srbs45jEQjIXQW5m4aWMYfyq4_YYoo53r_G6CSrJgixxOYTr3KNnRY_TW17xfs5DwOQHyWoYVAyatQiZ-nbIzidvPOmRQgziulocB0RtoG1zCTj2Uw8X5IaV67uw1EPmJrUGDw4mvQjpHfo6ivGxSt_Wo2_BI66QLqAdg2ZiF9iDQT4QmS_Pn56mE4hrAgEiYeS62fVRX3-T_RN7_z-YqhoM7Uyj7WRcCzAhyqYFlRO9CVaLvdB3U7AQ2mgam5ORH62KALJ_smC4UCpBJFhXPuouqQtiM5tQv_C8CSKIanrsZtrfrXUE68MFI5XjOqtLAKbKEu9jyDe6LBt3pv-SsAqNOSra8zFwWhCe6YgxPFEeU-86xPVq7CLMd9bVgdpXBvBeJp2txXxt5IgdJLp6FCySC9VuXUWcHhkPyvp13c4u7VVHm0LKib3r8aWV_kU9K0lBqh1KsnccNQSfzxMWyxH5G8v4vQTL6I3xkDVXdOMoJEn-fSh7JRfbLxVKlbH9bFMQygZyBBZr18rD7oC30b0I8poPv_JL7mcmuc87GKOK1_nMB6cmX2oXc58bb0E3yoLTa7jHio_kNypfR1tZfjNGmFU7m4hYprNdqG9lype8ZQm2Jk57H0jI7SIZU1W8snBlXbRHpxBXMNUKJM1mvEMiDUW0ColUchCd0epWWM3tVcb-v1z-FyjWOW2Jd90s7qhV-ACyrVE78-pjq7679f3wFazotO6D2iSzKCo_4IMj0g4rGaOl8eeFpyX3XePPnFP5Rd9_TgT-VWF0xez7K_GOn7d85XHhLCDG--_hdodadPN0LtOQQ11enZp2q_KHXn4hB35tjJBw1Yo_0zjExka970f0-3pQ2hG14tJF8amdNoHGqXTj1N0xVgKorDANmiUYVcNAMJooq4CiWWddFwjJzzOa_q3jizM8S3q741nCT9KKFCyfgrUELdVmaCRy1ro0WSWgWe6z6zYvdEJlFqq6XCOevWjgOJD_KUSA0vh8zJ4y0QadB3NOx2lfCEjkNEWEp3jJwGs61Vw4Ppg2Yr2lNT4lQ3vsvA6SmpkhDIP6e3XKeQTJmTPR1f4Nuyrq1tl8YK3KhcpBLvHpJ6pqqf8sMnXIrTA4JnAikWXdksas0vJzlKGTsjfkXbVe9zND6Try4CvL0GnPc7fG5UIisUVGmhNHe-S3QU_jXrqfbfD3LDyCKsaNnM3evbjHH1ba_wCvIPmX3vUKznrzCmYlYfdXW9jZx45I-ysPIrXAyQcma10jGa9Ln6zRYKO3WZ_umr9vJnAW8OGWWCAxT_wrT7EP_45FqbbItGkG4kQGu2k3_4gLtGCwrvnTYHGE4wqddlrIGuXgzrF7v0JLykiBT9RRtipjKdzfbCWs8JJ4f2NGCovQPrv7YHYa4HPCa6mSUztYhTws-FN5Y0fu4e0M90wTe4Nz15vuEDlBeMCiy8KztvPCqHqnw_CQhXRYkjxO2yEBXdvEcF6_c1a1NKQYsKjZ_fHuUQUoXAEf1-60_mN-OUOyOIr4tY7ECHGJZzW7VA34cpKU57C8Onks35o9BgL2oPMeRnx83BXfgsjAz8mabgnCHAESX3qj5S_6RweBS7rbARZsn6mayiLsRgvLaRtmBJqzMrkA_Y8Qra8MHVY9MZd4WUBvmhlsTX6g8JwzxZMVQA1SQGv696l0ibds_AVoYC2qeT99oKie_tHjW42_ziXEZSy-rVzrYG8hhjBU54MGw_i9A1XuQ6mTxmPYwx7c5EQEBGBgzgQwCwlu04UunzubQXvHIpQWax6LE1uxLjEOKaq8paWWceGMXkqrH5yoCfFlyCeAIiMJ9KR_WI11izznDYfzEPCZ1MNeQDEmplzrmU_EAM79RqkcrFKHAa6ucP1XbT5YhhBXgxauRqMZt6HMmCJLfsk0tjDBYm7h2wM8fjg1xg562zPajpuG2_2CYMUZRbjEhBBmX4349TIy4muG-AzWYwJ2hyozbN-Gma6eGOkehTKeoUFxW4nP0VSR0eu4AudOb1n6ur_1gepcvAxe2evMwpyjeGgVmK8QvViySg9EP12meHHb5rWj-TnTnyNTmEyM5R-dq9KtREKRSaY-BQaqtgIlsyzuUt0YEe7DTt_k_Ri7SmDgLpSeO9X8poRZ0Hy9W4mPMevDKY3-V-cT33oEhhUNAT8sXYUcwGPd-wOGQxAYat3CNP37agKJ7H1gGSVxiXtTJMupOWL-EdLrgNWVo3T8hnXu5XL8ZP-Lf0DHGuOfUgbjlM-bSMrYzei-u6sAlr0qljKaBMFbK4CfT5rrXjS2gnpKoNlXr1iZnV9veq9mUHimLozZfzTTv1LNsEQs8I7boOwE8oF6qjzqmaQBBhdaTVvuf1bp4wvUprU-wHfA_1m4gLLjMxdiu91HkCs73tB5upP6cBmgqB6uZN3bXYjtxhOqgLaHv1Ik7MYCfEE_IQsfdwbuz1CjyLlZ-fAuzxao1pWHt5S-ZNI7n0R1IEcCqSYb2mMoJCVlby_kYupC0u9h8Fi1hjAKdJnjU0e3cy2bpAv3diDl_2EyL-NlBxNvsr99aOSO7HM8YP0C7OkeSniCff_fHYEjI_1Y_EnM0hrZbrKm2xYVwbSBWkC8bBTnA55finl9xFqQ1W7QSw_FPnO7aE4-scUS_ZqxBsvBFzAL4hMKQ9uk0GNhCl-Iy-rwPnQHGtPIL-dgrYfghBHF_JdyS8RdDzLH71yStpMF5t03zT3vQqyd6L8QdyofnZjy19GeIeTyRnGTmC97Gg93obOB1f0GP8zDKhqk5Ztb4cc0lY7QR6po5EsyIqJ-9sAsBdUL_LW2j44UBOuEurd21bQo5VdUT_K2k0lregk20INenNvXq_OgfR7L1LGdF4CQjKUQ73ec9WlZBTqSrVap2LQYK2YLyqMJfdD-MKsgOrWrGvRXSk_WY1eCdDJ8XWyt4OzNC1qZDAX37ZUJuUhiZtu8WiyZY9NK8RFpDGtZMXD-vN2gCbgUM1SredSzZC_Yscn8r_tJtjQghcPLxSUC4q0817E3FpVKyIoeKuoWGK1GgUBQ53GmKchMB-tEXsERFJFd_K1Bs52CEA0Q1dEarOiDWDE9Kl1R7cHZkil5kj8iA2oLjlI8e82wu-XMqDJra4av4KoBIPl5beNwzCuBN_cNadDI5wDa4V0xPQFxF_3Dyo3fuXnggGA8kjI0CVfwnyXL9lyUL-N7_LdRFTGgq6ZWm8UPB-gSiAk9-AoABLPjUwGUoAHIyM4QvcCBwllAOyl4ZQwS-31OgKMl2Vte0U_FxeGzDtR8agRgg3MAUlKuvNeQmB8o7D3IKlfIxUKdHEGDicJwRBK2HajAXUkb4bd_BwUlPohLvLmTABJVPzTeFT6l_32eiW-R9m7rBX1Z40U-NL5HFNZ4VHPjEBaj3eCwJaXUVNtcEb8dU8JINrY4TTro58gCufmwkUECIXyBoUTufaBkx49JkUy_LKIcEMR4oMYZn4ZEk5ecF87fS1865Y25Ti_hxtZ3eod62iqWF6YyaMlMlNcDkwBrOxJV8DWSHa1oHXxdeFBdDE0YgziRdxqDcxDMMrRaUX012Mu3pTimon-LdaCSUsFMC4iS_5wy8ioD_vl_p7KKlsQuDWfA==",
+      "status": null
+    },
+    {
+      "id": "ws_0c42772be3b506a4006ad872fb355887d1812c543ed74ec509",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tdl-online.de TV-L § 12 Eingruppierung Entgeltordnung Anlage A Arbeitsvorgänge",
+          "site:gesetze-im-internet.de gg Art 33 Absatz 2 Eignung Befähigung fachliche Leistung",
+          "site:gesetze-im-internet.de agg § 1 § 7 § 11 Ausschreibung Stellenprofil",
+          "site:gesetze-bayern.de BayPVG Art. 75 Eingruppierung Personalrat BayGlG Stellenausschreibung"
+        ],
+        "query": "site:tdl-online.de TV-L § 12 Eingruppierung Entgeltordnung Anlage A Arbeitsvorgänge",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gg/art_33.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__11.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG-75?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tdl-online.de/tarifvertraege/tv-l/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/AGG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L_Anlagen/Anlage_A_i.d.F._des_%C3%84TV_Nr._12.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gleibwv_2015/__11.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayWO_BayPVG-5"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/blv_2026/__2.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/bgleig_2015/__6.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG?all=True"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad872fdc2cc87d1bf9780d9b59a464e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM4a4X5m8o3-e7FjAjh4-QABUkL7CqpFwUKu5zZy29sHSlaEw6YTgibyiufwSddSH8nDkQ4A7KnlKaD6-Itf3r83soHi8ChifIgWGdjzvZ8ywJYGot_BpFRQnbAXAuV4VugLF6xMpp3skSX9TrNQZoEb8HHRjLuUCXPgbhp4AHXMKTplvEATlcvgJVFb9CwM7xdpt7vNjloVz_dhk-eQR2DL-iMgb7S25CRAR8vJn-4EoDUWDfSOIYqEzpJcaVKwKhtJWOPStuNaJ-oO7KvgniUGgHcFQZIZw_9FVPfHJJyWOue79zaVnXu5GHNYuWg47FQGH0S8ub2Qv6PhpOELmIw3JSai4Jb4ABMDey0nROg-6QEu6Oe9vf0VtqH6UKAZ1GSzzL7u30B5ItvKJAIBrZcL9nL6jp2eYzUXooZDvu76yzvcR27GJzyJPnuWbzizl9I4KYQw9ykOBXlKdbis6eU_UII6Zhr8Lly4H_HrJmLtKAQ00HWj4L63pE2N_X7XP7fpMi_EZzRAviBONDOEOvWU52xy_pgzrQykoFmeGzAfDXFUkRgqon-0D3dKhsWunEuUWDRIEtDaYfL66EYsrmvwXQdZnwL8mQo0V6gWjPPV3CwGcFW3fnqdrPmG3KNcynEOouMJTxKjf3yJmYbLqk6lLNElWKmuapYqKosrgZmvyJB1inzzYJWIs_xxRDyAOe5ChzmuJUJTxAA8I3VJFWu5eXmf9Mw8NbruK4ghHGnEDqynS4a0rhHMeI2Gmsf4LiF4ERnzgGUAlIRVMgPOpXyO5xh2PdJf3nSx1HA_ljsRRWZvnZsrZeKghQBT6xicUUcCz1H5BQhGCByaDQ6Ck8AbBH29bxasIqZclqI1cXLlMC1SQRjLme5ojC496c9-MD5xHlJYfndqrDpM1j0cizKoMnhS_3KmnjEddiADzptkSXJPhpDZbbuqQhNHCeNuBjpJS1NH3DS5kl3cZoZauYflUplwZjYhPoNsBvHh7ntDoANNrw9KJXn56_ZEfr3yJQrzdUGrYEPgHpPFyUspoQd2BEiACSIoEAofhaEceAWJ9QayRkEP_GcWGb3elHkk5LX2QN6UKUFkLcwcRc8bbpePP473PPLTESq0g41NGgsdaSBtogaptAmIEkqcfj7E_mW7aKjDtas6pcdm_ozoPCe5e2_ZUXuw9BiMxZkCyQBJrNGnUh8EGY8YZbaV9P0938H7ZFT2Le2WgyKiaoAvh4Fnr4hzE0WWO4YjvT540EVpixszTZawaFJvOT0xKu-JW44kSR9LGWy56gcrfW6yPTHvd4wNU-uw4EskWZJbiwFF6DEXG9g9kqc1-6bEcbiJZnsJ_P-e5lz97q-dkmJxMXB9UWDa5Xki13nRGZ5-oXes0VqBknxSUg6wq22IyqpXYPH4DvSsAzR5bAemqZzP7xBtqNmexLmXezgX_OuCVXjBa9ZC_yKE6UTf8GS99S8eF-o5PKxdEx2GA-RhdQoPlJ1AgAWmSTE1fENKOaF_FnHzjNczNwQ-gW9dzCkALAeXJW6HjJDZMqEjFW-nzbvokQmdQtMXAghNA2vtD1AImzWdq1RpF5vHMln9jA3mDuQJMi48LxqI7RrVGGyMs6UyNqlSuuJTwjHC6XVA4ziap5E2sAhvzWd46vl4FBhpRP_BOXPQqF_Z5gQJxSd2CSSvsvI4RWNKUptMvirPlOZqcg6BLDFBeB4cxKQiWRpRQ3flHMsjsGzf9NsXgvHMghx_B7SKZBBs8ZNu6CLH4x6QzfCMXWRFiHpqEaxbnjN2wjGCz01_5m_8Q0FWxAPNHQWFlL854TMmWGFtCPbRD4xR9X4RHLXfrjXPSncIrgb95rI12fel0ewXUyRKicF7qiBhCdr-AtQkXLfPcrBmPzR5fEbl03N0ns2V5stqlkbWBeSqBPvhqmDvzYpcQrRBtLa9ZFLwMAJ-wHeDjNNaqOpakcIfNbFTp8_luWI1Wdb-hTFZ_AjqLMYw5gjcPesorYa72k8oxAOqCkDm-BDjJomdu-gFmaMV-Z53EinWyHlosCk8vUecyClaEDZJfV58aArRIG2EEh_WBLFDW0mv7zslTLmPezrASIYlO3Ube7-lxVInO8Rdw_boP_6VpzGpAlHvSZIZ_kzRWjAV7ZgT_heQ4zVF9ap125fcmMP2wd4B-9tirdn6QM36-_HiADDv2UZ-ilk0AG0Xm6lZC4apyDJJweEkBjEGOote7-B7aLc9TI4ZLwm0rZqg6E8kzZiCYk2bOSFnbEm_-IWlYrMKF41XbMIAugSL-LotRF5-xp76oQfDAKtyhRdVc7MPM3_X6mznA153MXOuMWDx0NGxNzXqq03NBvYbF4P6V36JkZypLrviNatfBXVIbPQEstGhilILNj9mqlfba0U5sS5grZqUKHZoSY8kPnBF_hwYwCxIi6toufZSN_5cbD4wXZotPe7vKxbJGZufepl4URso2ifOSCXhFdzC4R4bzbTDkhZtUf2yvwHFwhtYXOX1a7K4gXUuB2HXzzUV7G_Iy3b87uCP5QfWKVkH0Oz5T3TZzixkUmNzfnswD-c0BsSLLrUiau3e5NVw6-N0jM4BG5RlACKP-e-UOMcB4mnUy5VMPODy1YDCuIfk3PfnYZrAwNiZAz8JRJNS7arI_fsobb_gD3NiDJnIqPVIOQTB5999LgfPLibueOzVKETDYRHFXqEI0ggeKhaqrG998tnJGB2RrQos3LXx-16X6EtvTrWTOLpm0VyJWuxjH30Rg6taCESSEz6P-ok-V0JqUT5vDtOBMoaweh0AxWWR1frtT5jQ10Q1O9ZLiG4aWkHy0taQGulf2WNK-fwJyauCz5ShED30gsJBlbt-fV_kDXyATvDD9qAPSK1c9ROrcXpUmaiFNvV7xZ1O6g196l9icFwGWwuy3JSLIX7MRfRxJVy9PkbVhQyjCG-kEAonHbyjPTkfy6YRwYevQtGTpTg6wjVgkkT5leg6jtIIMbWAkjeoWXKBjFAdQNURGUNaoqFikL9uVPoCFWEqjmNlFzgFKTYpssaTQoyo0hmKa5gIxFcvqx-H8IB2zVMOooWWhYw3OOfDIT6hj1EqZES3ZULzDk9CNl612UrnMN3twsRK63kfkbIBpU-IngBKV8hVzQsQz5FGrlmXEoxYZlb1bcM3rGQR-K_vBVwMBOsFcNFjgXUeKtCOf8p2wqCGp5wxYjyytma40EVDeHm_izKtccKgRfSw_0lA5mRzFmiZSKdzhxPxOMi9fUpa5ijn_C994ecMEt9-Pgs6EJfR4LlO_1nV6psVKpqFM8szpifxGd_8pZUtAJ0Q8cM9RTGi7v-EpHMBJ0pH4JWUJunQaJQb6-5E4h-iq8_jWKOiY5thS0kQVTqXfGArYYoE1-nO7eyy3Y1qWSMFFDTJsuOc-QcHC5L0V18xksBiB532oO6h975Fep-F9pQLXpBx4FNBsBJ_IiXFAGOZCu6W1alTF2Hs7nCac_SyTwWaWxt8MtCbFxjrCtn8AI4rfi5Uf3Hqenn1J_3GaopMOGksXRXmAc4l1xqnNvq8SFWM89Q5qya-3YhNdUD7YyvmtK2mvk3_v7Ex89MgcS2VDVjR2W_89WhieUOgaHeGFNKBKnjVF0NYFbplXotbpNK1mL3OY-kDoWSMtjnbbz0tlaamP5Ls4S_5VzkZGNguf_2fuPZ1J9c3ALL6dfrQGhx9yZVHNYUHjNDIiKmKtWLt7oJHpqJEqRbpdYFw3dt-RtpKH4KEAW74TzXyQ5Bixn96jADed-MZK1hHxMwrNyXRUn9fPm5hyylxzv7dK6Wk4pOOnc4p3vZUzEEUZFfUSrlqEuly_TEgrohpAcaahpGsoNeZrTE5M35mhaXh3V-6F_ezj1XkHsQuyPuK9UPR822WQ5NIW5w5sJ-JXdmgx7ZHIKt7hWLSOm_vTPMZF_qTg2xq2kPukd_CqwZms2L_GunWuNC3Hit7emRDmnNdbABjyizDTejjw7sVggfFAwA_ZuMxcV3NQLQ6w2UixP7oU5R3pu9MUk8WAHcA31qHZjPUsF4B76VQMApBMDxAC-DFT7zJITFHx3zVL4m5QCA2SGSIxkniqg8WJiaC6CHk3HD8IUC64K5anetbr2GnCQxrz3ChuTmcDsQhHWRh2zv-TpJVZYSAJHqfUgFinXBmvKOdqwzlq6zXXPRGXEHe8pwfV49NBxb9Vb345Y6CQoutlfhFLRIShA1RKzr_nvI65coGYW4Ydl1NgsSXPj0XcxGd3zz7iuJfg_tx5uK58JuNinAs-31ebt3FUrpkUcAp6F0H83g1ABeUrp0p44Vj32QHDb8NjQs-DkHcQ8-sVFlF1jpQVezyjXsO0M9uJb05k1HNcQnSIT-xYpm6uoeGtmnr53ylq1_-mBXxyjQNvL8gm_iAvsXu924yTMfRkQRLcNe0qYzliRByfhrpHcRiqEwHGjfsLsgXFMor5VjX7E0r1NTrFMB4iVGG48lO4VgSpQh2qIHpVRb0PoxG5jS9xV76j-mzq70RtGmOLibg31HRadTQ_lBMJHcQRcUBkuEKOtF7Ta_RCMyCb7zY3EloxGuHakOA2LlQ07va9t_-xkx6GRNSKe5W7CkFjoJdG7GPPU8fhPk3PC4nsh_Sk--Vo1hZAIAWXafRcuKyxO29oEBn_e5IK4mLbEeI1zN2HrgxRAKjM10ll1IrFu4Z6L0jUgku2baLhIc5qK1DYKhO6UqBY02zcHESrjqHCQ0I89np5-ZptUAiy7wFUtLJir-DLN-ZrgEEKgiesTSik4KirrKjnwuRZE_FJ69r-p419Qxq-LW3tkaFjMw_MbtIHp1nU6IKnsY6qjWOtQmR8pSkobCxCXoLvFZAyaHOpK1q8ezMM0sI2YnTgBca-znM5jdGiDPR3Gd1Fh8vDs5AJhg-vmTJNYqc16zqB5SIagYlbruWSaqtYINjodLP_58skoqDsPxVqE4UErI8WqNe7UrMnzmGZ81B3FrXxgQQuqNgRiH0heBV6SmMOHXklqSmivEaVAc0HjygCMgbmq1vWJvxYAqAMJUDNk587QgoZ94KX1UkjRa3BNoJSpyZXT8gpQAASx0O8B3qcId3T6LbJLNPlChQxBDOcL3Mer-OtUi0uaFMbc8IbRqb4aPsEx4NrkkjDuh_HWsexNDxhhStrw=",
+      "status": null
+    },
+    {
+      "id": "ws_0c42772be3b506a4006ad87300ae4887d1a195ad4b9296cf18",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:tdl-online.de/fileadmin/downloads/TV-L \"§ 12\" \"Eingruppierung\" \"Arbeitsvorgänge\"",
+          "site:gesetze-bayern.de BayGlG Stellenausschreibung Anforderungsprofil Art 6 Gleichstellungsgesetz",
+          "site:gesetze-bayern.de BayHIG Gleichstellung Berufung wissenschaftliches Personal Stellenausschreibung",
+          "site:gesetze-im-internet.de/sgb_9_2018/__164.html § 164 Arbeitgeber prüfen freie Arbeitsplätze schwerbehinderte Menschen"
+        ],
+        "query": "site:tdl-online.de/fileadmin/downloads/TV-L \"§ 12\" \"Eingruppierung\" \"Arbeitsvorgänge\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__164.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/SGB_IX.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L__i.d.F._des_%C3%84TV_Nr._12_VT_komprimiert.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-22"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-71"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-7"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-85"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-67"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayHIG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-35"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-52"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-36"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-59"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad87303cd2487d1b2fb9c8e813b1e75",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM4sBlMlHHPrY45srvEluWN1NCzs-ZNZkNrUm3G5CTn3SRsLvJKdojq9ytoSS7jr4aRnZp3_oGVq8qbQynAYHnTsYx3b52Z3kf4GbHUA1SN4jlHL-TpOLM4VU4DDSEhp4kwBhiw4aodf_VOs6zlBskyAMOnLr45sCNm92E4_UpOT_IRNhrFRD-5gGlLAI079FbJ_1ljRXJanA-IpkVIajoYRrfIUSKcCTpFX6vJN53CcevcE6PmZFNihQFcBDRrrtQismTaH2t3Hom46pudIU2jCfoVHMgSE2NWpipANeEbhMWLn-T9ubbZyamSDijFX7mJh7TIL3Xn85OGMQIoIaTNp4xPyRoJS9UdmdhL21bkhIeLue_LEOilTEPIh5SZ-JazdF7qu0kgbm0jdGcxGOsQAU8YuJOTIm2KjP7siynG-h2EcpteR8RRD_UW5Y_8ofuTxTz4eHfab8pO810sDbBVv2Zmq6eDR088WFvU8iNeMRzQIU1tTLc6aOXV3hPdl967144iNYSCkTmxdxQ-QfBlkoLwPGio_oomiUrbPRbfTwdQrVT9dro89cYVHi6uZLOuaHyBufKGgZAzJC5MydaCb9ozAh65pKv-kVfKEe26fJmXdlLqnX3Q9EYSavM3V0dJw6SPPiUUZJfKnwCk24OunXdOW8vHzV8Foq0ybleN-cARYxYggCMDZKF_NTtQgiwxKDhBm1UM88MresiuZ4oEDWp4FITykYenYFcX7fABF-LB8bsCvrvRBNZe00sUeC6wty5CQSXb0dMKS2uKQqEDL7elxK5ac9ot3JlobCPZQteWYwbuTddMEyTy_XCRVA0an3XmpMVVi0Q-8kxeDpRS5wfjlSdTgmj938ndoVTxVzcrEhK01fvgWbCWGO3yThW-ugdUGlLNXUD6Q0GmRsobE9boPIHgvQE9QJodj4vq6dAg4CzowdjxYcllkMgInaF9RcLmFK3IS1Y6g4zQ54SfwGJlWOvdoexNcYC5Xbo4t2XGvP9t5Bj4S6YXP5gPJnfK4T-uqD1J9Tcp4ZuyBC3znhA6L0TxDPsCvG7LrfCYKdaL-g7gIDGD-xGPDEp37RhM9wBH2I8hAbK3pzo_ZhExsOeZLniRubQPNUtmEFsezZnFaDSJIgddrHilbE-ROPeJKPYytt76IAXYOk6iNiJsFMntCGXpFNrh8pUQYGe_9sehM6y8-tHpmSYjy5Umu_Bdg_WxpN7OoSES6rIk8LI4x3W-0HJ4AaSrZd0I_G1pVXtIf9Dm_q13-kXlgHaFWu3BYns3jYo0cscxahc6UinQWhAMNClCyLNG6qukCOUC79n9IQCVBiE2QtYyITUhB7h03g8TBOm0Xq0m0YXYRxz9eeoCkQ9cusriVJAIjfcNvgPfSevvmXXwdP0-auDmC-gmaapRalvAa2KSvo2RqQl1bNIt1a6hLkwLPNS57kWfCzCmgm0_Ak33X3VQ5yxms-bLbg7Q7D5Gy18YXOE06hhtkc6odgF1wK4-Vmvo1ONAt0ezl7ScLGa-gnvL5YZk0lgcp5b-Q68w_O2Jl_edTP7b-_VaSaQSdL7DDUvkoZ7m8d-Gn0uUSjmVeIf3GMTSjIid4uuDGIwhoVh0WkVOkMDPZh70HEn-OS76UGQNILL6DvCh3AHEVrIH0mbHOWFho9eYf0GicmtVz2pVnDc4R1LYeFqK0Ri40Ne248-LatioQL206xhz-agJMYaT2rTVU2PybObAHo8_cmWKn4kRKhiOTHybdIWWDW7VCgSixjU50zG_E0nKa6kf4NuW7mVV4afoIGZv7vv7Box0TaNuTxj1s8PU494Cj8iD6hxqEJjIwN3-yMvwYp73z0JqiFEphO4AW6-GJWaODQGiZZnrkW8K82AJRI2yzKOtx4lpt6_wW629bH_4BbKiZgtru30KFOdwzjIK3hHSQUdNF763jQIzE7wZDyByd4hONxuZX0SFj46MwtoiUNhccFbOW_ftza-GqASfkYYzzf3w7awAC2aU8kAFquqCgEVJjCpr6kchPvqhn7DovCIMyjMKHyfNb768U_RhBS08fxXKaAo82P2z1oEJTKRkF2dx8B6Jg4f1U6Nm6PV3NVVIYdytv23try6bTNeFKO6-9F9mD37j_k7op0dZ_n1_S6oSIjeDAsVfLZfCWAROdAWvhdCBwCkhcPAnGzEZ1PThltgLcx3BVbghglMI2TtfnoNPpIPpPwuYhcrioon9-A7Iwco82N_DpkRENrNHlYdjVCs5wtNzS8J0uQQWSdjOOGHOVOc6Jv-3ka_VnsOzagFhPxLlbWJ8O_sjkQ0uUUl_lbnfknUTcZAPMLiaupgTfE3lVYNAgpDBU6uuxjgtUvgcgUOUC4sEl6Z0RZA7wbQ_npO0nrG_xDE2PI0JpHZ0WZbh63yi5UsYjKODjDLL-HR9RNZEGLxjCIBiI410_xLbIMsMri1XpLJp8XvXggvvB3e4T-lo9SoEGG9W9POQeybc129QZCtvut9_tq2b7AS2LvzV1wxN3mIoeLmWEt7j47KqJna7z5CE0zTEcEWON3nJqwXA1LTY_V0u90kYPtdHLwIZCzobIBF5xDA5kLZ7ippSsMo_a4SfdDpgDR9Z-U9ZX68fQZJxaIQK3BJLg-8r0PKZn3Nlb8PzCy7LBw-zO6_zI3O-4EER0A3yYeEDbF4iHebZjEYCUxMJLcHzJOwPmOj31FCs8izn9PEWRIC2uF9d9fCX7vTVdYm1Vyv0Hx4dOGzvnw76dtULq0Rv5JiWLIcXFpzGPRZZn4IjYsSI6fytlgyrP3wGB5C-JQYSzocaVM9bVbqzBq3UaGNPJrUvm45FC1r-BzggY44yVyDpFsNqP9OQMFf90OfnSAY9rzjiBiJFBKL5Id_R0prxNlvbUcXIGr-xT_xgzryqN3VeWZudneFfIqlBJ2s40H8gDP67mAHD3MwU7hzwLlHn12ZJhmaad5fMnGoFZc8oORCAJv2e5KI075rEsKZAbNCe4L5gvg_T2LIHCdyzH29lxTWR3g5_9oB5uoRLZalI5iCHJI7WXDgq_xBGmZvuif9Cz5_63lC0KeC7NkLgRMyRAAiyzu1b5-5G-tDZG5TfXK0a_MNKxvNyMZFj5uU_e0Nua6bH5FjdKAej7UXtbFqkrTUM9hUpi5GMIZ_KqGn3hkqIPAiB3uu6Ao_AFn6Cgj7H-O79XebaFb48rU8W5IbEBJMt61z-q6KILKkg8rNRszTpEB3K4T465NJobmjkQORXd_xHHXv5j97WOCqSkIuCXUZ6KkgoWbaWHKmYfyc1QDaPfZblr44NIXYhv_GUpzlVUJ3hNhy3vE1SKZdQhyt7spMLNxHo9f7f7ICgQowYDd6mvGOyx6GGGMyt7xohU99A5dgnrXMQLFUJz2hbojbfXu0M5VX1GI5PdR15ZAGWld6D4Y9MdG2J3-x-dEYAHW8Rsh0T0_llu4Wcr3r17QGt3uho7_btzcuN6CztfPDhErfigqNL_eAtp3AKIch5AzO09EcGBYT0XEEhym6z8JMSz_3vSRpH6ia4M6SFSpiMMUW5p0nz8ew3twZc7R5wRXm89sZZ2s1zLpYIA8Uw7xo_NWhb5N_HvQ8rKN2CxmiRY-GD-aBwGh59xNUYCJ7zJSIYrNEGmuPtln1iglR7l4501eXgFvRRenRQVPy2Zqme9YMrS8jNGLVQ0Tg97GMpNfQpfCgGuwpYthCaDyqZ6y6XpMG3qdQhFQsE4SayLk5oFi8cG5opycAYDYmwGpwVkMVqn4YjEXfMb667WVkbXHmOfKAI4HZ01HcHK_r5WbdO2IEq3cLPJtv38YSZ-5MZzbmgp2fOQETxzBJiuHxw02azyw6CKhcMY5jp1sZ8nab9AbUL3ig4UG147Y0LTaqAdkfgjcNTQT037J6wWzINHNeB_pwDUZxluRm5v62Rsj0SgZcB9gje-0_OFP0DJcux-cVZgR256koEZvPpNSzvvdQLk2Mj5oRBarErT7nUVOuALJmkdKzDirMhPzuzyfjrFtAqYr7KLo7es9BMTOKh7-9RIkbdI_zKXkyyZuHdNS_XD6m3PoL3yfk2BmQtft8Burflwk59VEpy7YD16e-jcyZ-FngbxWCf3x_JarX9KTWjxzacA-lMEvWalkgyPSjSaw_rOQGnXabTtlQ2_7WnFpugu5lVM-etVIihmHSOYxXuWH1vl84fvECgOFGro6_pjYZaMnNuwHUxm_fzpB_-EypZelQ9CvhSJivycS8YmD_vSJo0XOP-X-MOilB8k6UaI19EjIbcGDXCaHcm8PEKz3apWy5K2fRiYzzK7_qaoOwWziGZ3qAZGsZnpEZNYOJeX_s-MM3OxArdUt6OrUKdXCwMpaDXxo-s-wAmRGifTaXM5rS7nsn2kMjlWgYebDqxIB14VEUL2fEf0In1mw6qA5fh4ZPYUCrC_z6td9jg4K2JgYWDCzv8Q9kMmBHC-qUHh4w5HM0RpaivEi-ZCU7sJy4onCfEXIrLSaycYTLkqUrmIRdaYze2J1BPRxzjbT3991LMWoE5UyVB0_dsxxnhf4TRoMpKOafz4HztQJzfj-YKd_V-9ABs7rsVC0SRddE=",
+      "status": null
+    },
+    {
+      "id": "ws_0c42772be3b506a4006ad873058c0087d184faafaefd737e34",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L__i.d.F._des_%C3%84TV_Nr._12_VT_komprimiert.pdf"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad8730746b087d18f216d82bd2a4b5e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM4A1cU9NuY569PNf0EAVbrms-YWt44L52Fq2UHnfFp7-8ewBBC8Yp5HenQ-DAoEoO8QWeUNrIgsvpoLWbdIM3VGbOqoKL_3U8LZDgT0taXIqy1vtF2e404J8PH4nw1zDclqPTD3QbyRlUp9pmAgK9Au-QfXx2nyuhniEhZ-xuMCTjf57RR69Pxa5HFxtRHRFcVfOxT5zqJnoq_qCfGL-hR8WAa8rKvlRBoAHdZb5vjT_Sv0CAwqLNRdrxX3O73mbQjUH8nLm-H8BHlqTBcaekr0ylfZ7p8UhbpmpY0sqfjZ2w65zFbQVyVOhCLB2AtVyf6rXrZUPFRv3OWhl5wiztNBafAOa_SCg-CAnQJ8Xu21_vMtVS6FHfsr081km7dpYsZ4PnKeRIU1D46axAkzNCJj2zeQj1OCy3B_Hy7ICxqz0CV2nVYkQaQknNXCocMEvI3cg9PIc57ot0Mu2xuqPaPHpuwUDrpQjRhOpxQicvntHqF9IIzAv2cUodW_ndzixND2xcK3mU1fB3TkoMYJ8Ie7quU6BfqqPOYfMHIMVvKlgP_0yMokn1LnvCPwEObCkBFUPSZGARoDPk5u7y1KhU_-e62ATzV5miiwcJY6sluTSkwIwPjaHzK3uTP6P4nNNDJpG2kvDjhOuqPj28b5ovIVEIgtuQLsCP0Q_ZpZ98P6Bb1CSTHLbLSqcSKV_pGkV9JqXhPGCVt0d-s0fEGsVMm8bKu-r_11xDIcGSNG8eqNvSQmtUiWNdhn_SXYE6A5Et8dtZGSHe7E4BaXYslQknwgvgNFT6Y6pFDxumRQLgoS7f0g7Wx9pM2N0xyNDZVxJZAoBA-f206NmbKV2lwNSh0yRmVaafqFKz8RvR-X763yz7l65tLobTRjrQXBVh0OZSMARloazRkVBmu4Zjhim6J2jTUS-Ty5a1uO3-oAr2E4-jQb2qoc3__9mdNNDWvcN33f2lLfOEBDgzxCMXsUtxJUjt_QSqEAdCV27dwHgdin9JZH162inePAsgJ7uHifh45Qo-vQbropAYWzo10XgDVmHdKWyL6JkcFbapbMGWHXI3baBkmbPmRVqqBH4iam6fNoLlHY8a7sNz-fP8HXawZyL7gqf25KIe4wvYG5QHBlnoj_PKWNvDdRahBTa8t5fTVcGrHt04TSQeg-z1ZQh0W-TiIZsax9Cb9vbJVUmXz2ysr10US1SYtdmFp7nUQZVy8-RAdXcQlN7NaQ2xBLHOXtkysq_xUFXSq2qo2zlV5ktpaSNx3m03Wnj8BNE1vzN6Nr6oBkqRKiT_QBQzl9QGQLdo790p1ZlPA4dEFL_okeehQ5Np-F_ubfmAo_NTfGGoXp97F4WbAmNV6N7V3uLNEYfpYQ2jzUP21gC0KZPX0WALA29FJzdYUn8UR8G5HSUJiComtPs4cm0d933M71V3qfsD0NWChNXHi4jQ-RrXxi_msQAAC6R6hqtYv101PXLrRy91f0m4Ox6UDF4ucYl0Y98BfVHMnzwsO_Z1TyXMSIXAu68cDi0UjPeI4rdQVEHD8Ap8Oe2fCCFvYRo1kYFGySih00htanKeL7TVCc2p0EVvTYZcLQdUJ09lT_06EiUE04ELzvTicqL5bIiQ6ElLt7Q==",
+      "status": null
+    },
+    {
+      "id": "ws_0c42772be3b506a4006ad87307b25887d18a25f7284998aff8",
+      "action": {
+        "pattern": "6. Beschäftigte in der Forschung",
+        "type": "find_in_page",
+        "url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L_Anlagen/Anlage_A_i.d.F._des_%C3%84TV_Nr._12.pdf"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad87309ad3c87d1bd5ef076834080cb",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM4C21oC6dQPXzzaeivHLUNMqLEnfnLwb-uqbQzDkzKiLTl6saFsmXwko9VMhL1Uoi6wOMKaFq8s_qvnEEMOfPVNKObwSiimOxiccQFXt3CcQEnyCLag-w445n_6MUST9mMZml6UnAlOqKp2RFHEa_kg2HyMvJXksCwOnhqZNTOAh-v0Z5u9pOfhPGBd5O9VZA9UyluC8IdQ0hFq7kLddfcW7JBH9bewbVei2bNWA_S7PtPhsAddEjE3HEDOZxKWGp8QOTgmX6HrTbD2_-1HFmkyRdShccM06BObCrOcT63szBccaGPyWX5uuffemaLx4fpK13uy4fDx1LyoV_C67YC4iW9pVxeG2EhsyKfUs44pXqG0_HniKX3cqjR8cHUdk9yijp_RBvbg191Z0zzakagrUrPNYZ4yopR7Hp_VPez4-BxL3uxrgkjas7QAlIG1wHlXN6TsrhB-7NrY0-Qit7LWRU24h-7h5LgWYdTx8OT9_QDMM22vO8YohJse-ylJYj5CIR9jFSsRDbsB2dxahTidmSYYkdDyYfBWzP-K9be4KhX9B_59VpRNgppjpR_jElQrECQB8WTcek50OGCFvQ4hFw2zUlzCfhMi9GGsZ0gVA1u0IyAdfOKz41OQzR8EQdvkq81geDHzFM3vT5LG5GdrAXpMVgl3k9doayQQc4ktNZZ-dZzXE82Y2cEPqBoPQVxEpuT345wCEpKIW4-qVBLv-J4JVkiFRfv904vQu-hfaoeKQbbRNjN04U8vfRt9vRtRQI7uTRIRQLPtcU_5icQ3GZiCWZIveD_4fcKRIvpTPHdH59DE0yRU5zBRVXOX8mlOtQvK7x9-E24-iFeU4oOCMAEicV8PBZsabcOpEQOuV0jTyZJOnHqgrNxGpkL9otqPOByJ5NvcfkOp2_Vn00Y567EgFKganHNz5YzoyJ2i-G-80dX-S1K7rhVzIL01EMEfI1KPHS7clAZriodwfLc0vx2sQR5xS-DJjVJ8q7e9usnKxXRy5eV0jW7YxDxJc9uhQtsN_ah9zZLeULBpkI6qatiem9ohQGithDY38pGfYVA3pj9Clx1LhEFHavvfMBc2cxX9irEPhCn0XTRenyiOblk6CGPSxe5juPIBuH_j9bR6wlYb83EYFGNQTN-gTQVMcnJ_zBN2Hk2R1iyXx57twRBVnXlRnoGwBXHmgIFCjrhceeiCESTnonqrCLitq2KztactSLzfI3UVkRvk3vLk1685CN0W0gomtMKk4yz_x6CoZvP8RNbuw0CKtEACao2NSA_psH2al9jUOUP89vZOBxJHsM6g8z79Z-wTrwTkA2J6Rr7XwuZPjBXIzHdZtKjQu5gxcX_WwRWX1fRv97h2G1Ez5oDPvMWTqbCleoz7MAlMN0veswfSlIDgkX3hg9AncY3PcyeoT4pkqfG3y2VuWLaDa5TPI_IKOT7O4iMRIwXnXbkJKO1SSMAp8mHLhdzGeeEe-t6Fxm-7XZG3JuaODjvHqTTlYrjN9iLeva_R31HkfDraaAf8ZoHFXv9889pND3JqKRJah1Z5w_9yZ75cdVm0iI08kywlrYZrj16B0o5nfvRyN6X65Ojm5SmvHV_TiNcz_-GZ8Gfjyr9mPK2HZ7HIUZoULmvCO5K2e0hRx4mdMhTl4GaiGSsOfBB_AH0jZzB2Hf1D1uw5JJVjq4Hc2av68AezBDUv8EEhYYunJqpIsrpLa1zL4QTqjrkFgk3d2n3nv_XG41JUTVI__4qrTpT-vErz_MWFap0GZkMLnE31NNHSw2RULsaf_mj5nFHmKFv-GDn0W_1xct0MHY3iwdjhkxiKLGmsRrtItEOXN68YXMDHiPFJuq7lTmhyP6y9ZVZd97irl-3qJ0TIYZWVpwUX8q9oOaZNsvij7-ktjxh39FzGA-IJCZSA-xksctBf3EdXDXk22hwLQ8cKHK_UB3fMLW8RtAD3Ef6agHliMbRA5lct5DjOOIblAPw11XmyWdTbdAsKSAwodODp1pthtsLDmFmeKm-7tfd9NpO2_EiGC9ThMREbS43gGCUnXpALy0TqYAZBRkdbLxm3lJveSFMJGLNPmHJXaL9URxTyGXSuUunjaibWQjMkOLRWpaoTbNEBfeozKtKd-B314XHdmoM2Ji9bQWZkoFgBIFMpZQ5SKLWiy_JnUGrDzkdPZOemku-oCAxN2GIJ9wlT43qh49W9eaJy8ME4EyLeAMp1dHOx4HBFkZm3q0fdiIX3b9VrHgvYLKIumUd1jpPU-hD4gSwGpYrPOTJCM62gGmJSbLx3QQnKoFps5oUHrfZbDGVf9V13eKm3glZYa4aq9hCe0o9Q4A2jpegd-ry-Q-M_ruXfJw8jyeaQEbLefd0Cuzdr5Tp1kPT6wJmGW7lHGQ5BPe_wvFhxxyvzDI2dYSJS7QiA7XrWF4WBbunEJBRh50xhYuZJscIT9UtiJ97yBZtJwkd8B06ltwjkxu85lx0M6ULYylan1Hc-7_MQ36Q-tS4gNq3yxHuTZIcyCVL0t8zbcNodMU_ewajLl8_IgsGWr3K79IorFUJVlupzk4tdSs4E3SJXBLHM0OIxC2oUtVo_bkezXmKPhS5p4n7rmWXPiL1GnxvEV0mD2lmcT5bBg1qJQJ-X-i3QqtHKCOSqI1MlzjDz6RO3mifF4Jr8biRJt747QFsrN4WSWfVYJfypPx3eL7198LeT_-28clpSVjZ01tWncnWZdJ4MIm9rNskHrbqqtyRipQm9A1poVGjaSW4vp_czTMNfQxCuus0wQmTZs0H6YrNblcOnw0szdrbkolHW1W9yliQBVMLoZUMjecpLxYS7VVHbzh_7wdrGu2eaTmVlMrwP9iJ_MahBvY69_nPF5wPQFDk9NA_tKzi1DKGQWeRn3wFwNP5btFU5ykrLRiIQkn4GBK51QN9L33GJUC8arBvWlzsbJUkC7tJQBbSvz4SMVr5hZUp0XJ4Q60c7k1FiQWHymqClOhX1qquEPHSquXOt-_uc2sGbEm07O1vHUNETm5zfk6ycptbRtBG-8EycKpHhLVnGHN0qTJLDa_upzG9J-jeOJwAAsi1D1QK6prd-6gBtuegopFCf23CNQAp5VKA1CIVQLXcCXX_fqYGVCjyHWw7PNQSNfOpmNuRGi005vo3uHN39nIEFMsPR07Y_RAXT2jLONsaaY-QsSnkG0BMngAThMIOu9dujkXZbdjXZ9Hd_AzLQpVNSvjdvP1k3UXBicQ3tKQ6HWej1kolhPuwrDt2AB5HvokdR0JDvjUXYEQg38O1N_7vaCmq8JjcCHuY3XwVfpsxefpKwK237aEs_m2ISaTl056O-dfoDpG7RbfMVfFqiHGmC5Q2HbggneX8l31AJ2lrNskQeJZEzPambl_2yPzG36qWJw6Dwmy_6dE2FzOcv-AflYVx-2pzaqs6RP1A6DraT-Iduy2DnZ4hPKSU6bG5KnMIidsQ38S6sGdo57D77ZC6ovHziKQSBMy2p1_SySLfkyC_9lRA1n0NHLIVV3fmPwYNgwOgJAT7P-JYTa-m2izDtuV7lesZnqvrHhV99WFmIf1oSUP9e2fnjjitg4WET1TPysolglUYy0-_TP6nlTQsuvhCIZjyMmkxM-4xGHEDesBgvcvKVJX5Ujr9vIG7b1mRmAcxbyuvpgr8LuPTGwyfqN5pCJr_jXQgcmhGPBV_8SHANqgV-qUG8oxNjXyIFtElR8G5Wxea_3Dy4vOZbJUwp4NLCEndnwtyKZoPYarKPX8DwK0cEKJf37mmxdlE3BPcYLW6G35IzfvYQszfPs8pnXUC0-jrYDw-r61qjo_b9SIGYTvrRYI8UQz2k__3ZgvdTnk5vkZ2a7H04Uc8xY_tKV0hC0VUybyk5lag_YjpW3QMwJQEChawhLVaJofYYqR-Da25crC7QK_4gSsaPCsv-EntyJ784Gtr48YGuGEXpDpcM8VUxdCIWZZqSPYSBOBDNt7HJl6WWNb0kZROREy_jyCPwV59V-TviJm02XXAMeyY6k8KOfSraioe9HG81SzSRiW34h0t_-tDBiybr8oTY5WdnGYjVyQAa38RpagYVj_clyjqsCHfrJCQXgygmAB-v4ES24w97Uh2qGkly9zL3-RLWqrfAgqq-ceg0G5fUAhgiibkYVYUH7s_nt4Q_eemovbHv4tDJJQpuVnV1raXlrWs5BrGICWH3zm1apeml4XzkqNwwFd2_jaxO5XnbBBknPazACHJUWfT3fJgvxVrWw64MlL0czmSVjDBr5LBJjoWygkDd1ujjuTrWaIwiZHe69HpA0XqIyaAeGIt6PNQmK_X06sWZe647JlbOJYDGX105iydt_h0nGPT03H2xd5WT28tZ64LVAzPdByPXCDwLHCohH4GCM_h4PulIrBsgrNofKg43hYz7tXzD1O0hpjvhQ44Nv1opINiplcZgFc-lmYO2pCi71169vIvtQ-6op5MuvoiB22bmtRAaydHSzG_sP3hqL-eJyk70G9r-lBcqdnMX0yCMXHOiCbZChZEOTVr2RVCBEh6LrkCUyA3dL7JsrfaCBNOclez0MWxJM06RV1WApj8uSL_S2L5_x0aYEqNYYQ4_EE36hhwaVOU8T85wH8rn5MGlUAC3Z1Qic84P4iE8CyognreaVF8VvgSdPhtDnZVCWLYE4-JIJMj2IH73CUKd7QwhvtcRrlLPR1vMBQp_Bx-4IgCn4ebTVVN7FImaAErPmyAktgVpnWb9Isn4sR3rQCy8jyZWM6c88HmzhGhQd26ir1CaO9YgY9LHpmFDSB444Vqm7xAoppvZ2Y01BXdbm4NV1aMbEb5wktBJAeLjwjZz93GtBU6nQPdD9xbocFRM1hpD2uViRWnVkl8zFAeaqe2r_WTa_qIdYkiaAxZr1cI5SVdy_vBaQA7nvkJkM1gek_a2ON5HyU-ZyFCd9Oa_SvaI-FMnmPG22bhUzDblFZl2CdbU-8uuWV_3_ITfzFso57H8_8G2Q6jBitww826HVdhQsjTS8MoKl_RBdtBwNzReL5p5nOZfSs4xb0_DxGI00GQVt74wSusga3RvgP1AEQNyoVolYoHL5XBKV_C2MlNHszuSoDXLYKyCLw4p8_jJ0c4J7mP0Tb6s2E0rgvktgkuCy2PC-qjgah-3jC6SF0Y1tDfMA1RbxTacp7-D8zaJxtiDLMaga_0x7FGfB-IeodQFKYiBVAIcXXzDF8Peh9nxADB6kS4zFe_lLncDawyNqvtcejzJ15XGC2cVgQxlPly6fIN6NBfzxHxYEBIm53cQOXdhw_vjv7xxhGNYJd7f7Nu5IMMdRlCFWP8i7NQGLCZqmmuJLSASGNAqx4Lho7nPmN_jCUPX79NT8V17N80ktM-mfF3Juzr1a80MNIv5_SOtqstF_v6G3JlENYiHrlfdFZQxuwKbRcB_Vjb-jhuEPVR--I4q8M3JFkxcx7tLrIXZHbx9OvD71pfAWZ5Egy6Ibaaqgm4wQ54OcktwwUnZ-iol2ilMo6ECOMxBB1H-ygwhTgzEqCfzVd-ZJF8qImuZE6ybsX7XXdaO1q5AhGGPfdtBCk2_ebD4xvtM5-z19hBcu3EYQjoBSf9xJQtE7LE7gBk5D7zASwWIs1iOGdIIvb9T1BsmxU5XG4rlrEzRSmY5CtzFdQqHU069BjnfU9mcEQcnegvXX8BtI-s-FSyFSVZcBjPzjnTgwGcfmsXgewGUHM1TmIHSlZtJYInVh39R525T1i1YS7ayGXRWD6LGkuGj1Hn8q8Ygg2HhAhiec9KQzL5nfvs--x3DFHTooUMn9HQd88W4jGxPguT_t_o8-mV26Sn76zvwr4yZvPEelwBK1kNEgnTzNLA_6iNHjK460BJbJ6_yLQ4-UVOWyh_zjzodVd8SlMSClwBl0PMh45xj6uc3YayDWvvbZ2417RewgYPgxbCglW-vpXMOrSiA63D51diCkQk-uOSmHFoqQpmi15nWV9Nk1ErH9Tg8p8gIil0-W4kiJH1wA7siJKUKNNi5Jbg_vgMwJ3OfYv7dnKJ6yMRqMb6R8wjSGkDhT0s19OWO3_GV9CaVRs346cj7FMGXixr0pXpOnXTMRwI7r2bI7-H1W_1bs84lMUsGQzmN-Cu7_tH5D9R0pShGacE_v9umox8kenrmh2_ti7aAIqigYyZL0etvrR8u_3J5bRAyjjTy1AeiTgEus9SjNnDEVMCu3ntYj_9kc0iTbVgiV6HJ8fOSCpGeZxOWLQBVbYr0rku3t8_WVy6-qPIrTnTRj2oVfii4V8qJdSFXIhMyNSzhmB2yEy5VlNHBEHxMcrCUo5gyy20kAa6kLQULDfu8l2K8swPwBzEasxp6869VPDZiszEep0SJPJBj_1YevoRR96vGeJ1tVCsytrmMcHLdGOug3ThW7Q7Cwgqd0VUWhYIZoXeVf6BdKp9hAupu46c8JXrgQAL5Jb219rmkbxeAH09cd0ePW1rcUUbt3LxZfWe_ZdXda-Nrm3J3oSykRhXT20Je8zGv8cqs-RC5Fouf0XnXnN4lXjHZoHpGySrZVLXPTqSDbcAfWYuTXXL4zwPuOjga_PAAms4EcrkTMyd-oF_6V6zpIXOrX_7kaDvwVU_QNjyLrVEuEhLXoFfns-dut91DM1e5dSo4Y5fM-vWJieTYqnbxFLQalYUU7W-rRyVaycxmRBpMPyrkjTh4oJS1lJUSuNSZj9lgMcc7zZmNOgxzblGVVTvcPP73IsjnIYsUJeQR7fc3An6m8YE-xbdLonL5iYUWmMf58c-lJHT11BtlRM5uFnwrZ1iCJGRI_726qaItHklBvIyKysyJoPOTEt54giyrMkCTONKAJtZsxTtvtfODq4EE-3AAParxArHUwZSJmECRjcwinE-w_MGBV31bgtpmb4KXWZqXBcVZNXT36dLU0P_W7_cqEWdShnQNR8Rlb_MHTe-SgS4j6T7LRP_IbujrhvSwfbfPoqNLI2fftOHPrzWKtZsyUSCleaSLO2s4a4hcBXledn1f9Mz0u_kFtZACKhdjc3G_jhuuSC6ZpCk6n4iRB7esa_3fQg2S-MPc6FzISKkvRKtn2qWq8y8MCf-iFLvvMXan56oTv6j_TOFplXeZ37BWrJY2c-Qm4t3fQtIuO0da-lyZTYvwENZKlClOJa_MVhSeqIoOw8j7G_yYzDY6m_Jg0JFqO764CrpOaS-ROyG6Y-yz6uW8IvVJJ46_hf0d1sTgNJsctu38DDZzXGJrzuvVvXXeV1D8Rl0Og3OYegpmv-bVN6Qhm8HtkKr30mkp72YyPY5JrWVXnqPJeBt-3F4gvXRV3xHTB0UWnL8RmSRwi7mRV_FF4E5UjpCheKBKUbzgqbhac19OmjfgUazTYYgwbu4yGhnw7mUEcZE0zPCBCNSGyG4gUcbd4HQpF7hL-RFM4rYabwmAnc0mlxGe7ryXrSkBPn9GXpjnDqqcMOqSOsq37XNDUkpHO-jeopc67ip_mYXYpIK0ZyvgTXcSEG3mTQu1HHgP1zmCtY0EFeCpArBNebaHymBLMjGhRRrG0dV5rZcRG6UUabrhfGjOHVeO4woE5AVoKcsqLzhgOkXadlCnmM0bytclGgaMCEQE9Djv4KZYi0E2gJ2dA7DZLDZzAZqyeNlkFr1yMaoCdb3ntDaK5ivyWCrUeD53OfyRmnIybCWjNYkTgreem_Km1vCjZVo9dhf-AhtC3U6XajfAVkbDDwqfOZt2p9ZiwnzSejE3sorlV4HkrLGuXPm91Ob8zYuNJfbADZQRN3nrZVZJ_6SVuKXpDp3ehVrHbfBcnBmRBMHrwSO_pBpCJ35BMk9AG7I0-oDBjO8-DBBKTqhhnXHubDPKrhtbnkKsbnGjaYK1nbFYlZRKFd_TlZgw6h_DXSEd17gJnuSQWDqGW0zKgm3vu3FzJtXCcGHyHxONpD237SQ0-cVTpSH55F7xOdil8bYU_37SYNKCfYP7r0wSj-OTs5Ig9V7LtDXbi_HGJ5Gma_4tw8k1iA8h5XMjT2iCN1nCVbAluGOY3kJ0T6-L3v_iS7PjEjOGRDcsSlYPJ2VZfrI_wwUPviUTsKpACtShzFviBfAGq7DwfDlDvAM7El1Y6DBTghCq0ZlP6Uf-iXDbXA=",
+      "status": null
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad8730eff9087d19790763236afce7a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM4TtOVGiWktSFJrk2RyXGI1ukV5GfANSPwTftFFAqkqKN4ulxGbi6aRRe9Z45dTeortw0fLidI-HgSXowtFO-QnwcFqiDDo1BTENU_M14DE5tzFQGQAhB9nJgDOEODlWq2V8q5XgCnjCbifwWLV-6vUieswptjfw0NuMXd4daSd3rRAw7LHSyRsxjn8CTNMlkiGkgq4T2_Qf8pXIc2JQsmeNNvGXBDqpWJA8_X5bwVmSzDSlLkU8uNxZ2_IrhkQR8POH2MsF4Q5vNhgicAmjmRANDBjRqFZglHFqP_SR34RxmFh8mgdqTSJ38TYe2N1lS5AXxh8oF0Ung1wASAwDSO6otMGQ-X54MNciKzMXPj0BgzV_KrIIwIPB1wsa7pqNgEd4rr3RBlbU51AneY76_tR1e_Xyre4F4-Ze1Vmc3yNoavGzgtJqP5c9y1a9qNPTAd_eZyB35U6iZzdzmfYtUxZXb3tvTB7rNdcqb9fXPSrx23cEY6N7f3idhr9UEuwxYBQ230oH-9xCP06kA20tdXVw1RgbSeJG4QJ7UerUGGBa6TYgDAc3DwCO-vYKzcm03pZfdQ5JO5ovObRuIfXaAzYVI5bv27CeGXbs37xYRupzGmLr_47vwMbY7gYIAUJo2TAXaQgGGea6qxqOrIbtc4y0W9nDLCzlbR_2F-ADTn7rIKGX5xMeMUuet40VQKtuBl6WGC37K79cgXrwzWpHmJL_bXQ-WE-4dpbG-b1MAdZ5dIvAIXm3_1VViL-71sHATOT2o7kaK6TQyG4mNspGam6e9fz3lbB0Bw6xLEPtAwigq0mPO7gUVZgciH22Z2kDWzOScgwYWgqDLVkgaGWsoPjoEFvKSIeT1I_zjjJ8dbQHXEtewSJl-jHs5VqtVShl7vbR3yI32oTls6NFW09WqIitA1ad2Bm-lms0VY36gI17oYiZ4AfnglUWns4R8-kJZ5sgFkvePTbNEucgyOtHizSWrVFl3aTp0wfufNHR0um0kdRP_9rD5fN5ScCGtT8babcJrX4WFjxBixsaOmgQbeQ9LgxyS6EF4zOQnBAPAo4WxEIkywqSza4aTVuWCqwcnfw-UhYL_xunc9yBnqv3RAv1Jo8yrE2NSoye5wwJHnw5gn668aRiu5S6BalXtV3MdoHw9HzD2U0NKxb-ckXnVMMysEv1CJWtp3PmA0q9nmE-fjpIukATJuxF0vWjbZVh6h7YZN6Jn9pID5qU5bY4H0ucERmOA91eHBfwCe8YgLYqPqG64ReFSbTfrP1UNdOK6CpS2M0-iWYplzDUDQ1wiBS3rzhyyQDvshGwiAgWIXOYjPKtlZFbNFbPWzYLyx8lhR5lqtUjJx7JEtf9dYY2-UyxFpv4MQ17gBnNfP2LeVA7SUAWhxBOshBLaEC1j-KHCNRw1mW-lJlL5NcXNlFOeWe-Yo2kPBWV5pgnpXaKNYs_3R7ygTq3m8hOuPsb7AM7L4v54aYR_z-ffmyXOztHiQFaFz7sJZ2yxCXOBM-d0YyZoQS83ugBWdXV_us3rIVoMy4rqyTeN_femr8AhCN2aTjB8iM3T-3YTZszkH_Nn1Dy-ojvP_tc6qA0PJNMbukpjywFtMqH_ck_kXr0vn2bgSGhG0n0tSB9NIuoucfbiDF-FMCG2VbU5KNhAwPdV-quSpjX1CcFQCVnHT-WXoWTGPgXvdb3a2F5y7UjLCzFEjwzkX0mOKw70sOBPAfH2vLL7pl4SFEcX97Rw1vNdHE6Pj3bBaHMze0uZJfefouSAJ7xGywKEoiezkc87Ien-JXria_1x00tp_1duIJPIlXvgbGcxpIkfP4d_1CcDZDQzm34kR77U45kU6Og-ouqnf2YmjvTVBApFnXV2klc8Uv655msHfaJVFz6RbNiFa1FsOWwKSkZtPvZAHSke3ELVC8RITyaxXlHce3Z_U1Wib8_KguSkmR5bLb2Q1p2qF-X58J8B_H3FY1Q7WCmfsFO-LSfuVQqeCwkOdzHiPEbceTGSUqk6dE-FUiB4M38spsP0D6WYe7Y6uPIIK-kUoexGxCrcd4Stgf8sX-KVH8bSJsIURzP2Q_-RAHjbkloWiqwTWVoahBX6DV8ThQyV815Kc3Dc0LPNUa2FWRvrCj47D8pDKhDqL1KfRh_aK7s0TMVgr-lULczfMb-5htm4XvgK8fw3TZ7dqnxtI9tohG7aMu5a9HRxIMG7urku7K2-tb2uVs5rxpj85RtuRd_OZZ_xmlxtiJuLW9m0l8IQL0M7ROy5KufW2d7m1H_serqTUQRSvHHLi-lnI7y4rtjaL7hSEvxRnXPKy9LtyxIg8UrmfSMTbH1AFVEqKEMO1QT43jkypijzxjxUnj13EgwAfibqAGrv5bu6quVubcoG5WFgXctZqX-Gxa5essGNO5_99N7oY2z7TScPebcafQnZCqX42phgLBiVKwqXruL23T7-l4_HFIGXKWzx-qrXvhJi0ztpLhX7ysl-NKnjGcpkGo9tunrkmFAQboo1LGJCYFC072873ibHK5VLvlUxhhXLLCFATNFOJjRYsoZd-tnSGiMlae4GftxVEu6lzg37KBU0GpQNlVsp63dfI5uz4JZmiwgGnQOK0SJM5FtfIdW7Yf99ryu6oV58VRCK1wJkeC23fzIDBYyk3s5t5Td82eLQm7p5lQ_aRnAeHwiCjRmif1Tce2UQBwq9d3uWcR7_4hCZVCUtryYrfZe6c_7OM7DOn2YPCZuRVR9wOZZnFgAtZZwYxRIL9FAcY1M-kRg2NDSdCgRYIrE8SuzomM5qXjgsH3H1C8LVfIMUeYKPEjcG_uq1EdrSqICaMNQjwrnIem1zZPE7fxDtNhf_F_kdpL41yWZ73kb0x8rkXYNM2keCD3v5D3eY66cPYplOdFLVs6wd0nXbHDM_TzE2bpn2dUcUQnIlgUriQC03GJ2-MrInZtBZK8z0lXlaAx59eO_WMJtCEBwhEynLB3_hPPxXDp7ms16UyLt3B3dB6Ak4Ms89vaos9WcKQjomgVxzB8a89tWJceKPMnlnTgo4e3bU1Nwbs_fwNNFavVNPASTnS2Va_kKDSht9wfZl8kAIS4iadC-SWbn_VMDoQ826BhZT0TIwaQ4AemejrlAQStQCX2cFvLUHpnYJyI3kG6QK9JLWpX5agdAoROzq6NDht0vWQIToerp1MbMNR3zF7kP7TA5Zjbq2fQQ1BV7iKi0C5IkatJHItDogcIn3Y_Yyf71TjE83vSSoBlMjDRysCfblKOOmYC8hx-R7qMtnmJp3tlCiCZUyOjwnKyGoq2u80YY1EGatIo7c1XCQ5nfmvkpVqf6MFi294BboGJe25EaSEtRaJR4MmSwIBMjYpkkEI7Ap6YRbjEXrG0UHEwNPitZWx5TdAzg0Y2Cbw6Lcpex12WyuCJB_6VtYNzd5zH156ipOgYMl8bTT-TUrXyZbIKRli3XBOZ-BiuOAZ-URQmopxq8vagP1Cw7dBZzJpT8jrl2_ePILXIRgRxuYXYId2zirtE_verIi_J3VkbpZwIOxxmrRsts6DmcR7-2cAIjfdg0IdBkIPZ2_2kbxXvHCQxW5Pq6n8QjEi6c4UuBrAXl6sx-jZs_VMVJcqfSvii4JrNi_mSxiOXLR7IifVJKZj7O4Wp46Bs91kqXgez0Es-fkILmTLdqBTdug-xe2oxskcQznfpJqPgGOrJg8BSdrYV3I58Q3-QQzZY_B0TF--43_NobV7c2VrMf1yzF3J1tJbT51li9WNZfGVYYlOsZMisSfx5_aARBxzgWWbnLmoCkt00GspP-e1IxkfVpjNJygdAx20evXQKCH6fXyvmcoMyHBHX9eEf0wb-PP__mTUp0PdIZn-DgD9_NwaGdLDMhWvp0r1AsLmOZHppQkibY5WAdxVLFOuugsuRlGoQoNU3p_qccoaV_4WanDPufb21YtfkUiymTaQ_KixcOkXcF3D_u2A_HhlMhAdr2C6IFR_gWDktbAlTYB3fF4loi5aRtIPzQDeSz2nKaZMVCJuSjyng2J2eVozSgQm_oYvWVZxW1Hi-2ZYdw1eYYGWkRMprOPow3cinSZJg_5bR_NUZw5c7vccc5XH5BPaR518WRBGGErBoMPk_f8HDdsfAi_W4vo1dGJH0a3tsTkG8CVINm37jsKs4dJ5qh9H0528vWsgDyyx6ciD5JhoWChGSfa1JMnTc6ZIGx30E-xSAixvhhp5nFG-pY7gU7U2BwYB5bx20yWZxFV0nhkuHjYEXCCrG62iwwJ0jDlBRx-lqzipQGPW7z-SQKrS0Og4W-Fk8hGMSoaonRccSC9EZXwOnJ78ZKrQWO6t3UxFMWr3k0UZois7t9QIDDqQuKXU639-ZfnKGGGQ_HjRU3ctskTFnPrCUGh1ZWKyj33dCBzrZvbxu1LHb1kchpIqv1wBsy75anJ8X2Y1czlIIlu4V7Y3pDb38W_KRrIAFkWsdNbXvzU9552gSb7tnM8CKvuPLf5e0gYqBbXKl69254QEDiKl3eYBCpCSEyfP8KROs3kgxXLo8Neex7oG2MEyW7os4w1uR2ZwyLaGBnousrrx2rkbk9RzS7jM8R-KsSasu_tpdGYQ881z47atj-hd3FjSlwIsRRe-CeYsyiFaWpydOHl7iWBv5IeV4J-9Oh20Slv6M6hs2sW6J8IDRYn8QPcf4bPdz9l5wCdVc0vJMdiw9eLysj6Vr3gJfnxaXG6-BXn78N2oM99tcmttnEkUUKWVDVWeOi1XNcDJ-1f9w4Ktdo4jl3FEKYLMMaFzDLK1SbkgEKGd0GMWu9On2zYlpU6kyT6GDE7JblwcP8QP1XSX_4LIwUg6liTStS83qcr0kCMJZMJB3MD_tPoTfzOPTFj30WArrQNovajvWeEsHuIwUWHEnWNkCJmu3kNWswV3sKz0A3b1E1q0pEn-TPkCn_Kme_aRIEwNWMkMpjYfrnwwGu_Eh_75HUKmyudVvfJNr962jOeQRGyzc1GAyDGQDkt7KRziA3HFI5tUqFx3jbTxpQjxdZ1OzHAVgDkrwfFkXNlQD6sWU9P06VfaFX7Z-LLv0dtVFfM8x2cOT6uiAab7sT-LC-nOWQWNzJCQ4x8MWyx9u1o5t-uIaJtQdcQLKyRuhVLaDibIL9IwofQ-CFEQ2-Yxh2i0TmsfGLDtOAF_2CfhNfr42Ye40T3uu0k49zBKSEro2IVjP9O5gO3XnKDAs9wKP0x6YfUv_QOCmmHh61tzKCBbKbW5AMpQYoK0_tqNmJJbcYeUt8o1MhiTyGaN-ph9F8YlbuZh273ESYz0L7KSJCjA8kljbsqxtcjTbyupmwjGtFemYt2-eGuIzGU7kqdmI9wwQ95m4LcZmWWv0VldVHHBo5YiYAMxxVoipm-ZCTT6F-lOj_SKwe9teap0DvPNxH5ZlvWda0uAo0b1stmxdwzewpERiZuD5ceRglxDCwqcIy0gNiQQ114k73tWIiokV91SxIpIO6gvpsqZ9OquKJTXV7Rq8wporV6qYKGnqo__mY35updBYGw_2XWyCDW9WoiukuFUpsGgRhEqoLmk9RKUl-hmszQhdOCMZ3uI7QnqlH3PS-T02PArdYgKqyA5MiRZgf4YObEioZ8D9LzOZq2PwiTiZ03ani35gJFeeHSRdiAPy94EWtfjB5UrOHERdaytRQMKm_ehLG3Cd3Uz5SQycbXX1kG1xGETVKmIuB48I5iBz8nc3WQPGBWs5iOOkIlZQ1lcBK_G7xRLkg2zKtiv1aylHsOl0XKcH0EIVjOmzxOApm29QDh2yeVs61G7aoyvk33jivj4Dz-XfSG-A_VS2rytaVfyYXq_3jmQeSD9TC5y-rv27-ZAB9U0ulGEbeaBih9sNI0UMaVFLzSZ6rWQVH_JevrW8gdxTzF7mlqehoN3M7gwF6G6I3ULvu1jyy59G1-mmvm83FrDlnkURli9tgPUrH9isHSu6y7B3Y0ZnC7xeO8VTbV_Vp70Czua2lDVelQz_C8oH0MafBZEVS-gBzd3Z-AK3XjNqh2FeZ59qmYO8twiPiepd4SANZzpyQ46cwfkdwfS0LcmYWjX-pGpBQupWiFJeUeXwnGdIqD1hIIcbPynkWFVIwOuCSBdLazEKDctxNmUyxkGvqAiWb3x2u7IYu8rRqoF5fWhfZDEDy3zDOZU48ir64LIOYZd9qDSoRWD795ulbuPMUnaLS408RiY64_rGLnB638GbOKxjbIkpqBIaMMIP2zMk-RCocJFmSCuBf4HfWe1HfH-p8sbGkEtpsXPel3PlodxBV2nx1f0jkd4i4IZglEgSqI4XswLgzpA7nHrENB1wZWBBFdNYDdhJLzXbwaPUX9YWaPr72FpcPeufK0TRfX4xQy4iy8dR94o8DeAzu6Xv6D_B7fB1BOykQLxGa7Qk2HNnKqqu-jeQmWPXNygxegnR8KKnVp5hpAt-3G1jcnCeGkweCH2GHdJwfyE93aNsJlNK1aPoGRDKhUnExYgnxLBItvyDA==",
+      "status": null
+    },
+    {
+      "id": "ws_0c42772be3b506a4006ad87313126487d1b62797c2ec34e147",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-bayern.de/Content/Document/BayGlG Anforderungsprofil Stellenprofil Art. 6 Gleichstellung Personalplanung",
+          "site:gesetze-bayern.de/Content/Document/BayPVG-75 \"Eingruppierung\" \"3a\"",
+          "site:gesetze-bayern.de/Content/Document/BayPVG-75 Art. 75 Abs. 1 Satz 1 Nr. 3a Eingruppierung"
+        ],
+        "query": "site:gesetze-bayern.de/Content/Document/BayGlG Anforderungsprofil Stellenprofil Art. 6 Gleichstellung Personalplanung",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHG2024_2025-6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG-75?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV153752-3"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHG2022-6g"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHG2026_2027-6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVSG-6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-13"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/TV_L/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVV_2030_2_3_G_15657-NN25"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-7"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayLplG-6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG-6?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2023-N-31747?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG-8?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/TVUeLaender?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gg/art_33.html?utm_source=openai"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html?utm_source=openai"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__11.html?utm_source=openai"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L__i.d.F._des_%C3%84TV_Nr._12_VT_komprimiert.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L_Anlagen/Anlage_A_i.d.F._des_%C3%84TV_Nr._12.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75?view=Print&utm_source=openai"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-71?utm_source=openai"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__164.html?utm_source=openai"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html?utm_source=openai"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad8731669d087d19a4bb095d94f95b6",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM4d49FvJhKo7wfldh1mwrzmsSUgHQJ61MZQrxU6rY2xDL53I9mvDaIy2VM6Wbx4XwHWHzIYJT_FxIXwphQO6N-pLSrkNE_SYL_fCOeXurDoB5kdyePP9I1qtzAKWWYTbaK_ZnZ9pUBsEi8OFccT5mhU_X8JL5qfwrG8h98XIz85Ipdw9Zg1fFTd5o-PfDxsWhDlMa9P18dN-1DVOGrHNwE3t-O0alDmdK4_TM_G_iOoN5hpSY1h56Nz7pvsZTNZRh6XgStFfUyhyIYF1BF8USpC5YanyH9Uf0M79dRxYoqmiUNQ-vP9WIhf8Up0XcyLWsMDus7LEWSLqBgm7NbkX1wx8uI6878gYKlSvZpwrLxSfPMXI_URiRaLnWnGaEkE1x_vbUfjsW53kqYhSocZN6E9O07gBZ0m5nVy-20cpFWT3XXsumh6MfW7owUd0gz4Lzn0JpArW4PoI2WWUGSf9bKaAZRJpd8uoBvOL0kQFq09wzKvqsKmGKfrv_d2tUuY8PbDmGs9QHqt1Ftc7Tw6nlPFRhGj3XB_ozYEGtWFHlVLY6_37Vip3N9l-NG_pzpri2uKC8E9DqiRZETjORWYb47TUtlxMS-SQPDOGyCmJ2X8Qss0Tl9g18ciY5gnC3-cjG7-LOyVoucNwhvwZ-v0SOTwaaXtnYgqVqY_y2IbNqUDOD0FJX1O9mytQ3gNe04og7cD7M4Z5Fe50_MukhpuHlwOriE2f5hMBwKoONsBHtouIE_9mmb3iDLniJ45JD7OtCJxlfigarFZM2zxy9UUw78-rNlILN_Br6Px5zdDnM_-8DLoosmhjvz1sKaJHZEt2z3ZZfBsDcKQ7yPUL6mwKzg3stJwONMxKA__A8WmmXrZj8JASzNWyNXjYpL7jXkVNM3dXfCJJjsimH99bEjnhBQKETU1p80TpPp_xeCf-MMtpZPimqrg36-P0auIFBn3_Wg8xuSXonclYtc7xnnZxObRBu7XesjrSs5TaAGgvR1jOvaQjDE4Jxqdt7y4MyT3qLbZyPcJ9quY8qMXkhvvqxxsv7cJRr5Fz3ilsts-oS_c-QYB1-DjeZkE2aoWH1vGYfgf95tD5ulpaNNTtIo1KiEpqVvpiOV9HvgPa4TMTFxGHmQ7FkE3Q_NQymTMw9IlIWMT05iNO4qpLhsUI7iRHCKh_TPtcq7kaQOJVOlmZNg46oPcWaVjOSF4EG1h6p4zBogqed7Uz7NmN6nDzzLxADaNMu791FCzdGzztxc9AJyOOfhLV1hX53PM0URAXaZ1v4lDDzWufqxRol8qe2WMdzXX_Caw00Mv2hpj-Xtg3mx-4hXsEL6S5hqhBFTfGE5u9GTqjyTbobxFLyjSVJeuFr6riCjPJnDUq_Qqj0U2QJFvPhCY94YudE3KO2pvGS4xDTTBB5wr34LtP0_44nRmh2L54gX1Dazk42oy-pLEfOP2l6T-Pc4yn8AUHMgvqokVd7-OGejjAD8H5FyG5Vjw_LuMfExBycZ8jTnuIHZyXupi-CwjJXfb8ugK5Sf3dE85XtqzOMwj1j2W6QhK4wYQ7iMvU1W3ipPSHnEZJgVC7uhS05uLvnVKggL4nvhLJA5E_ueOVrcRKv11WWLjR1uaD2omA47KJ9ZBLJAVVGy4M5ZSA1qy5plDxRB4mb-jvw3jpDOLbQYxnkfnxHcuqx9-QuXvRx_9MUmN_Y74o4yHf_w1uYff-o_5O39dzPN-ANZi8NTKUNX1IMAD_abwtq51ED9NPrXOhQVsQDZdHrWwdbT0FCj7xP6icOUfwIRA0Mn3Fv_hWfET3k42w6Gi_5hAUlVzPE6Ma8sosCVxbmXQWQpGOT4gXngftlSkstT366tGLCTtwKnnXGa0UelCV9n0WL0XPci1svBhCTulWJKThKWJJ573KOOthU-zTkHBnDwHw3MkIpyEIuMercR1BRbk9dj9NVdUHrEO_Oxb1ikmLRdPnVyXxASGlUHy_8p37gssKhjLVZu2dpAKTE7KZ6mkJOPvfCXwgEKjdevto5mxbc-R4QcoRCRKDAHfgexpxuKpfapNLzdpiDc_U-kGztefB28vjB-PXN3-ravtRXknqHa2HnqUW-0rkENeJTuzxa1aip4yiPgZDnnpVc_VXO_EShYo18IfFpWMpN2E1RmU8-wmOvlxIya_vwiqNA6kqdqjIKqGTy9iI2FPIxmDY_DdNtTryG8zZyGbe7DZBMKI9ROnf02CKEHJv_VgUUIVhVv9-VS07gQJVv-s7DAAsJwjZ6Mn5uIzFISX4ztyhGuVxTLHJqxmQ8-oVDzN_qqbvsUKIHmgJJhpb_xdYLrzE8-7FIux7OC8Cv37gA4kJHJfSLD9NQm7Qc7zAfPy5ThhVS4BCpe2ahSRtxnOgBfNx8BdeZwDopYDNRqFXGeGD4tECSEK1ZTE7hvHaghULP5GOCcXsCF1A5-sUHrLxAJidVJnR8hroeAMiRBuebjlR-v4fWuUrHfIGtJKHlk54hzCFRhMDCxJlUz-lt5wka_M5o_bOmPo_skjuyyUB_cxahGU-ZrrEXnF6Qaal9EUbxsQZ2CTNNmiJHnaKK1bYDq8rsTSTlbQ1_j-m_veR_USPXYNciXSFfSrtd2ai_C4ycw1Kk0X4dmgsOjkuDU4PFS_xxfIFROfncfuNzOWX6o_-jJFTIEQBZig5ZYXbnhHNRkDnfaoJmT6LqOxJSdocqJLp6b1GynSrr8luJMGD1_DK4hj8ESgH0JAGKfp9E39FsUQH0BgoxODRTu7ugaE3gxEkSt3YqIqqmb1jZ6p5L2oi9inqay8z_pE8NoPUI0Ia7YzsYQxf1qFDI2Py6unVBbhxN6gHOoLqTHMF1kTQxInb1uekY81azmE1j92geDHPwCkkjhTpTlB8f7ee66L8ZjeIYe62TAHYfPjAWtvhKupMSI6NrQh7uaGtcttZOC7FZ0LWNqD2pYsW_xbTSDMBAqrwsqQojBm4MU9xWtN7-Ql75mcED-tFqPtkb8whM4hxDn7nKG8F-NoKT0vYfqmt_qj0NutqsoiPGdW2KoUYgWmOkbsKCHBk3FjDGf0u11LYgKOyR7kp_vF639nMV4ssp3ituKZNoFlISMGXEDAAtQ2EdOZPAr0hauuxXafqIUuNdg3RnW_c3B3Mq8hg7NrHcw43Yh6Vki174T2fBdJHKZvZq3AaFg-Q1DOwFTRY0Kq4xVowy4oPm196CqqmSTpczNjtVxhO0GtjLllIA-VkbbMbCicCAas_UUn6exTENCDYRCDHecW3tSikZ78hTuBpI6Kdj-vs4r6SpL1aBc99QribhQqmxB8dzv4N-3syeIQxvpH2kxGgO6zEurTrMTvPIbdKZ6Ed2XGDZpMnBj_2bjh6mAW0BMLJkSkwd2z4BpIkiJMhXw4vi6ji4GZZSq1q4RUQbBJ_IS8G2PIXdJ56uPhoTHIJ7OkscUSxHf_Edhom02qd707qRfqRq_b8xwlgXHiy6r-qtVaUuMnZzflh0gRysveRwzZESb2yghoKxOUzYcMhsbLgh12Me-4C4vqTk2pkkiZPpjzLVlhrDZ1STAePpquefPSy9KMHOQFsfsmt11IQ_y91j6YTF0x1oeKEgsryrH70_6O7peWIsCoS3uQQ8bE1jyxi992zRhx3G-mO7ljYTai86AYo2CfmEnampVo0X5UkdLr9deCE8Syxz51kavKH6x3v-8z39DLtpI6ZFJwxm6xsB1idLS5T7Y9PqRrMQS-TAqovvAi3ikZ73J2X9EgbmLH7zWkdCRi0q3gva8jZ0JnnJWgdhFC_LJ7JVC-hM1uZ07fF_s7xQtuTlyfOm7VJrdEalpWlBcg8iKblC7orC6BRiydTdji5_6VY3UTAY4O7-ec35M6fd3otmuYf6HtE9xrkQhT-RwrVPh_EEtg9Lpkor5aMlTTmDZ52YO7TFT7gjWzxG9Ce9FOQKEOZnyE5gXysln15SbAp7mvBLZeuRxMw5lkq-bKvv1nSxdc07r-d4xnz_nOVxH5xm6-vyAA3nP4NcZRcFp7pwV_5jQGnNNGbi0vhXX8raZJMEkSb_R309zIFq3yK1Hx-gSobctBeIH_pU7X8ulGtoK5avT4GCNpAN2dCFt9aW9ynPIZpdXq1-AXK61T0DF2sZ_fQV9b4IUuKJ5x9zcYzIyF0avKmX62T8Ex4V-l9t9MyxzgNlSsB1g8T8kbw0iCSU7v7yFQDXtF0-tuk5y2h3YFpwonu8l1tivmBCpPnHMaHhpv30g-gjdIMuFWcNtVBhoXROxAJqGBKQ3JKXr3llMQ4Ahq7uJSWOd0foqYr6BpDg6BOWyR7QAC20-6XJTI184VsKuffy4R7Gk2emQFZbVlnR5lEuJG_uNvlfi-oAQizTCSVh8T4EymG-DfTudK9e8o5nYT7Jr0KNTF15PM9hAT1nCfi_PPciKmOm_69PsSoO0tYV4PB537wyAmAmmYwdejJKwehLgCEJx1nBnXyrZF8JsyXlA9lMcvuhYqDsMfk7aZsZYK4Gs1u8Os5GyX12RxsseYS3StgvI6z2EA51D2rLqm0xJXJXne3y8CpQuukp2qRP3hp4trsBI_B-0irsAqhy-vd_E1hfaVEr0uDZNg9e-a5MG7HFqXCQbyIAH7U81Igun5FLruyGmuGHz2YXuXHVnIYQGD50gUNtgRDj3wY7RyTIpSmLA-xnpaiaiZ5m22rALFvydF7Ru25mJjpoJoolbDbWsj1eRiTakUwHBMbpAq6ggQr6bIBwrQAjdnZ1KiZ8o-Sn_YlvsPifIRqMISsfCipdwlIQ-22OdnMgheVbPnhCNiEEgyA4b8Q4NWNYLYgFU-TZjjhURQJNECJJs2snSiNhyFuQOg1-suKhiWE3V5DVkyDiNW0DuPH725sVVvbzCTDov8rOKSs95dDYcHYh-kCJ865-yzjTAt8DzF_jME7eyhoXjaS7dg1dBExKHc50IqlylvU2ihFUHt2TWsYdweAjJA20u9g96RKPUoDQqNl_qO6qGXVCZKa9nLIKZgYoiBCkSiS3be5xNrrjvM-t14U6aYk4AAoZVjH-s0Nm1XPtKXqKSPsYC1opM5nhR3LvPeB2-vj3LM4MRYAw_D9RoBKlRNbiVTbgWzeqCy236b97f4BgQb2r9ZNhWMU5FQWIyXo7QXYHb-Q2eCdmPcja_WNY_Z_vQ8ieZLri72DpLiR6P9ItVkqWPWEzyGe5LqFLUmEuubppiGLGkdvT4UzfODmnW_VQh7UxtErQqf4z-KrrFTAuZdRzAMiH4bZYa3ehbllxGhbMgh-5Yt2T_uxI4c9mbibeSbX61ypgCOO727UEYrEC5EM7ZIT-g7StaOHD3RFkNv6swiHZMMcUjcIga5PHVUuu5jWByR_kefdjOlXUWWsdDly4HRKk1BqLxX1FfQLBOwr3FLmP5EkCLqTEH9e-lsuz3A8lLt4VSbAA_xZVbmjb172piXPiFI7Stw7mGxCO555uVfaacIpITNqy3BCr9bBUE4dGnvLCyN0Xj7BaUTEN9TauCy8jwRmaETcsNbsq5Yenv2jOjikFUDSBMmDlCAwmwZ0t4FGKutM8-Gm3iIspDytE2QI2yUN3BxXVR5_E5lpnoLaNbCXsIhmx0SxNqTCBbB1aohAFVeGDqucMJTtffsfu4IvFSzxcb-CfHuJsU-CHu3rgct092zsIWcSHXAMXdTABxn1FYXU5CGn715h0W1t3n04En8OBqYOzwf-PCZvC54hYU35jbT1OCEd600gw_Q_4sKhQQLYZbGlO6kTE4TLcxBg8cRMUVR-KV_-9pncwowIXqJsXq9HUl8njFjDPSfT9aLuIZ_RbZNcnrDqSIKr9ZrQYNLLWm9Ko4zRlPJjYBSEygFikBm-hs_bQP1h-hnwhJ3Oa2IGh1tccovMzhF4e1KmtCofz8hBukPuyzOajmE_JlLIfGKVdViT6cVeWlBWlA48ndL9QLCkVvTa2-FpH2Agl4P-LZmwGrbXxO880FiYqVcrWA5db1S-i_fkUqLBUeVAGnkuFlz3nnf-id56kVYKrbCO7lpN_4mdYDU0dxFcsOpvZixrvcfy4VRCCZu5qVPuaqh3893csFPB0imbtb4bP_9c9D6lR_2sqUzWMBkjrBY5UK6_TNaqLd2tt2g9YVWYMT67z0yq2TdoyjF_LdnPnzZQgglyQ5uEx8PoumkNTUxdEn21jnVX7wbEFT2ARBvlqiYd2Lrik8MA4zE0-q78B9QNrPXDoyNByfhwZkLfN8qyV8ef8ETmzY9dYwyG0VkdSPPx86vLkr5zOQ5NGrf8YR69qn1dkb-P6NzlXL1E0yhIch_73Ul9PrdUUn3s3e8kohFrhGoLvu27Ax3tGv8utqPsoJ58GOrzdp9gNdTfJ86DU_-C-7rBZB7rcUVaUIdvs5DrNyXrcjvzJpCDx_ErTbRXB8vVwGWCvS8HB1j67pqb7Vy7QzZ0oOXLAT1iBbEhPow_mH_QrO8ozuEp6MxY4olMvsB5xmeBsbVC3c75T6U3Mbv5QAai4ppPCXTxzGIAPpPWEt3gmuNldGCLG9MfrnBRgwGqdm_zy8-ZixfTQQUIcV4b0n2vvBER78PYBdDi5pr1Gb92eb6mwNGnfRMw6xH37bguevo13D38ry9N-K1qwcHy_rmbHtnVhJPnfjDvW0OioE_b3nsA0NBmZM9bEwbQIIrbFY9tZcHPEtP3gGCoVVfgpmlQmkmaeWeAramYRGhFP06hS9mMcos0rI6onMXX7Y4tv8g6qCi5R-hsz2FNPTB-CrPyJTKDp25pDpydGswbmcd2yE7cfY35m5xkiGHZ2T-BEnwRWlA3ya8Z9E5813niVh9taaL6OTEg2bRK57Hn0rBO00UvycGHT1gAI_VI77hzvEF6mr_eLHJd3aNc082IJAEw5NF2aJxIEhGlG13JUUdnNZ2VgwVeMLHN8CMH74RPvjVg7jyp8Qiw27_RnaAYNmpFUnn3EguuI5pEGgw4lWE3vXOKQp8kAGYpdeshdmezs4mX83E7szeZqQE5KGHcDWmMQ405p6vGQxdnGReDw-MvBP-Vf7japUGTCaH61z0jMrIeAle20YmSKv0dJJxC-Q-ORypQ1_45_yt6F7EW0yg13QW2SlbP9ACo1Nh6xcnKMtSj4aHYVPfkL-rVtF9ZuaIgi1qaIfcWMMf1z_KNZ5RNlgcuLh0viHDylh1JUgevU_78yHUFtYkbPw5s_5NU9TfpebcOwHhTxVumCg7uu3KabtD1d8Q2BxFCcoCfQ2cdfupQodqKC_cCa1LPy9pYR82hUfnvAqPOVuQVzOOmbgHn9jN_-J-uYnkt9G0wCIdMvXLjNIukShgt6qPOzXVEFbaoOroTi2ax0sV_fwbSCkBcsrCi_JeQN7hrv0BBhJdTu8h5RoaVceQ95icFkLeS9gd8PpRUiyDXMUbitgyxlcoCAGQiFaqiPUjDuA9vME_TrRmkQAomzSWox5ZBUEHaTnt3dDcoecQ28zCCi8tK46UYTJinytCwCWbS-zrrjK5lvYDXoN2nFwklUsy2NqaUk3VJ4lcIMT1SI1SQpHxERH4wusJs6qwK9ra2QY8x7ngzTStVXMQuY7sr31kuvMur_tGJVqYnpK0uoQM6W7QubkIki-8QV1Ylsupw2qafkZw_k0GxoUgqPGBGVA_C9pLONI8m65yY8i7ztPXSLeDpXYGVWCXSEA0EAOAzipWM5WVymi6JMmBVHGXNem-1yagZBIuwYY0BNnH06GLmDskv-FB5mO4rQPALPZZSGKlwDIQAKe3xrY-vSJyUFiTs2Plu_ZtUYrA0_8hCbwGcVQZUn-O53s3TCLLFBeiYE76dEwwhwqyrD3j41FzmVTuVNyfgl5Quqn5JiWxKCZ3FXJzQTXAGwTKgYz",
+      "status": null
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad87319eaa087d19e22c88dd6c0a7b8",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM40f3A8fPuzDuZe7mvVZkoMCybabe3-M7bM9_css8nz2gUxuLQrcEgD8dqCM4hzulNYuTojRY6fWVdY7qISV91ju1CbzxN1wpKbEatfa_6m0N-NDzs2vjjXbmqUCxTl9c9YVxkNePZ0poZlLQAI41hXpGwtONYET4bF13_lwmy3-qmP0oZXVMs74fDBT1ivLjdswmmtYAAQFt0Hu-MCJNyLhlkDAEgwb7TofLFD-mPpHioYc1YB7n5lJ8nT6vXCzVkPsLXJNr9TEkvTaeJIcKVTrWPAAbw1TIXs-KHMfezSKQoMc4DtESicTbSKUjWWX8oovTDlsUPUT3pNTbFHTnxluiAaiIftB6lYwnljUx0N7sDuE_lhiu1H-nxwO96xZGu9crb74Ap36qxdaHTg_Kpk2H7N-cJuM5Y2WQM3uqX9olfaUFv4T3T_3LF8_L9wQYzBlC_KNnD7AnPaaCd4RmVnJE8UQ6Dj1LXRLq9Pcpy1xaZ0R909U5Xt91ncddQ6amFGxbbg21bnOLjfHVAOOeOGiPNTUGqFhtJqvUUox8P9dD5poF1hmAWI3XndNglQB3hAHUv0xWDNqz5egz3cWB-CT0NXPvV3Av0MYyGoeA7KK1Jw5LLcHB0IG-neTjZlQWUycoRlKEk60yi3aSf2jsNwsh2SHpoteQIXRSn2l2MvXrca2Gl5jMCqjEUkcdEPhF0AoXgQUQNoXTs6Kls6-VYwJgMwOwaxtTERl4rnADSb5eNOha-9ozT7K7TV8CcWBiuFdWiHdGoabd29vNPrTDmVOqJBqwnYSD4ikYSMIEhYvqKHZcWOvIzqZC8D2WQkXNa-WkafCG1QvE3RFJwJ9AUAJ5x-lGnFDu3BkNFo3kbN6P0mE5z6nw7ksRt28bYA4e27ACBH77RX3wXIm1KjRNRiiHwlsyy_6Wv048n_7nDDPHEqeuhWLqEwZD8JZPMRjZmBAOidLeLAclgahHapKvua3Ar4mnAOB28TRIawOsj8AtNffUIcaLQ4RthcIzokUAd_6mvtNGWuPFiZf0WxuT_FQnoFIDSg9sSDRDb_Gqm0ArPbQBFhQ44PW3kMCQDCLDP--ssSiyMHF8ZsRALKo0bzV_Rmx4z_p2N9tAfLwRhx7OrqOLiVs4Fh3jpQiWLwGX_oHc3LFXR8upPMGFx81_r9afCJHUTS1wulYAdzqKWd0ZKbnlShknJOmNSBDJP_BvcPrwI-B-GEpgbV86N7SLCWpp70LI6vak0BaP3gGnj-ekvOMD5T-xeXVhMfeDr29RSEFiDt8OPYopmumMzFVoqPtWzIPx6KzfsSjwgKw0O3YK-IVRrlOcK-DIfb3GMP-9fsPsbcln9Zi0YuhxYTVujI94mnBNABFrk63dPBFS4NoN8zXsmZGiQjvgxGpJrky1pmu17aRBO0XBw1rdE3hy3-KMT9FWYnblsEgdFCbqhGEcLFCu35xfazr9RKcGwNbpZYzcC__qzULKxBoftbq0Rk_GRjsPnYR64bCM-017by10sCpRJ_FAzo01h2XvK7tOvok4eBfDjdglUkRrrVwzrYD-m5uDVE0MFw0wBx3X7ZXq1N6K7MK3EjHCcm99PBH6ER7KaSyWr3WNJWuHHv_ScJW2unktXJNkV6fBaUX8PXJiErJcs1-e1uV3fR26qNakUb7BJt-8fQDsDDmXtY2EOCUunU0nFZynMaHV06L-yy8ML15cmr1r0k-Br5NyZv5TZNm-x3UOUKC3uL8TgdsqdWuzvFT9f5bTkaS6L_cHzWyP7WJEs-NRM3e0pfsCvcbsC6JiPFekVHxoSOMoAZGGi16Kfo6v0t-nwted2whITKYttQmODa0UkCBsVeLc9liPxhN496vsSaOfqd5z63jTC4baDHYs2Qs3vn8urQDeHnoL648mznXzMwqi50Z0tIF0tPFbppxqAdjzGIo3z7yZevYC6cLHj1qYAoAF6-8u671MuVSBIlpeHT8aZTPFVxFqL_Q0oLLSuQjW9Jkyh1E16BQE4h6USU2mo81_zLFK2mKLzmC9DMuElbMX5RNnJ6mWWBStQcUYQKdvDhlrRZ9cUy2OZr2A03GvLQFrbMXN-4SyhLZZBysfTb8_MXfEG4XGspnwyxP6_9rlH_mmiI2KqiQnGFtyOS4_04a8bsTdsqwKWuZiJ1LleJrDpbdf9GTYvUweNnO53XdvQcoSfe-Gp1IDaoOv1PDWI3uWYXbDceOSnvM4EqiZB-VkvI8xUHAoylET9QePkEPvBACv4HbVLWBcKptAv4SgxGmoDBKP4jwtb0bQBvIlL4MBi22VIpqBhBCgmL1ke5Lb2eSMZxl2QRtHgjEM_LQQdqh5eJyuff3I2lr4xeezDHI1ISsBNUUbhWOOrcYm0glcTz6fa5I4R2xpKK1wAzTqSy_AUeHuonTNm8BpoDVOq9uBGWqqr8Hp8QGcSjPHffo6h1lLOQ25eXOpAAreP9IQKzcF0Pxs01ZFnRORdwMVQDvV7WpMZBsWj4WIgCIBWhd9rxivjLrML_wb0x0cb3YXXpbigUzX9C_JY2nJg4nBk_IQV9me1eEhORkmjbXKXkrOogqQx0omHnv5AKbheM9i-1v_hoT-HJxO_rr6I4ppSvJPXq57aosfEEbFQLb22fP3wRAwMsmy7cVPwmH_iMDAkrwZqK5k2J1jBZ2E757nXZ8hayhOVbn9T4CKDozXf0R0HVqT4zZciNk_O_pt1RVJ7juV7fvAcC_jfB-krpaoj3rfZqciS17eLV2uwDbl0kdTOWfQhoCH-xU7nLkqTnXFqO_jXvHSPt32Tk1AYwM5BFfpuP4-5r3F0LoU4fws_DJIvQwq5NgZFGsiTLLowztMY2yRR2ZpXWNjuzXde9UeiRohP3pnUvMhQixt9w3IagSB6TloIuvPVoNwr8Feoe9ogTf2e1PyB_9fSWDeBtP2PF7s8jzKK7hCFcrD1HqB_kbGhAsELczHkikPui1k3lWMlGQwywgiOF87nMsYkq_DRJNz2Y5tODSQzyzzqGaXzlla3uOACtRJhDmCXOxIRZKz3dOPv0fKygPsQn6Xr63czbBGBxRzShdvogoWDb-5TMpj7P0wVu6QN9Ztoevf2o10vsl2hm0aOrufEkUgfjULcQPhPkv1i28LjEOwDXQLTerg1Nml8kliPqTyyxSLOSKrm9lhvCc-111_plBQM-vEfjBlZok_yW1eMbQOfMOdcuLeY-zSBJnn84WcBK2Kipedl5jydlf7YIq-bY0wAHUP3UNTRsddSQvuKZu2T6R-OCmY6LWNOPiMIhY5FYmFw-2n_4oS6D3mcL55FHZGF__iaR_xuU2FLrwKmgHJsnIpt4FnSuQaCFWcVimNTMzt_MS6rKemcE3WQ8Csou7oN6QqL_4A7LYO14hNBkitS4Kfo4sOysOexsMr6o6neoc5qWOdfJsNRubldD_YyjWaEWrbSiukxLKQhZVzjOvK26gXDN5S5v9-ODJUKSmCJ91ZiAFzKlsrYOuYDXvJPhDcByPSNxIX5H_Tffx1EqnNV6oqGsbCPLR2bQHvxvr3ZZj_33gBZlsE8yM7xDAcC8X25uhWixVuITR1xME0WbBbqvwrid6sKax_hdOEbAX-yMRejW31SDz1IkCHVBr4wWEMDGRi-dssErE_6KgtEENEVu5Gfc4cqTWLSpVtkLShzwvpK72ojYE1mMPQo5Y0CemMXOAXHl_VVm5poyoGpAMdnh7lFWZWW8zqP438Coc53J3K08JMYrOOwh2mF3c9i1enhKFvmCEBZd077iNeO6meztvGriw_N67GYWqtc1CnZl3tJ10jhOgjiieQYy_gD5AtJlZpq3-kMWIzRcyoZPV97_F-8iXScK5CsbrouNS4rK0lBsNiLnocCzYrY3QWyT9OzV7TuKn_UoIAxBFY_te4Lz3Jm32XU5lsgkirZlHhntUsgm6LYOYKnpKgWTn9k7z1pPRCPXut6XQ32TLf9Eg2Tnvv2AFM4JCp_jsO903Bxz9g7AGCxv1bB25Ty20nRSY8lgjOG7yIchPAD7YkijYZ6bxoWDK-myDETsh5YE7eMbKjHkCUHlBojYLIy_mAqkVdMcQx6KXWnqVCnvYnSQf8wKb7eBhnViciq0HBUvOVLxjhVApVKe51WlOy3tSBaQpXTNjncbEDh6vAPSMrVCcit2_PXDvkWah0TlPcpz7egme8BDoFnKVshUGv9Wht7b2TxTaTRwu_lC96Un5wt1O4fAAfmwCc0hGB0iwI0NDLFtYV0w6QH8U3WmvLmi3ubSSimpeJw2-XgwyzZE-kBguX6P2o2nWz9H9z0HDYakBpmjETTYsAvMPogRoCIdd5yqO1eyD3lsy38gIwk26UTSdzSfX8MudUO2wVwDeNNgG6Ec_K3KENnkGIm0qs82p774-KUwRFcmWYSbl2XJ0mYg74aW49rH9p_ot7nZZYCYMX00LG9bJDxOEKmw7lNktFe3BC3MA1BmezVsYqF1TchpDLD4UYKRnWNtZuGEXnkS5FpI3Rk9JavUiB-_FMhOKEvZQcOyXyREtpKiLKlXHgIKEqDfZ7yx4W8fBxbYX-uH2-BIngtY9kA3y94c2BRS053FTXPUGCwmrCgHnf6mWNL2fy71H0S12IfSiIKoZRfnHKs-2wLZJJPUMF4QQWKqt9Z77q43IFXCmnq5y7BbiME6azPFRChcgFuS2BXkBogE1MoXnwgJV3GioEVYncq2NltiQDJeLQQNXsdytdn2ozW8H-5WnPtHD9pKIO9efVo1X5x4jV5AoKMo-VmnHHuRYZGRKoy5TBX06fI2jZQm_ZDO8FdaMO6-7hKoT26JszYHMcXlbt4TrorTZanv-zaHluuzdCtlxZTNiCEYGvSY4HQzB1A9QZJW1tV6gJmwaCtZDni1das30mB1PA-7RxYz8hMQZRjd_7ZbMWAerHSj0nr-APzZKElWeDiTZjl2KjyrHIAYG2CyR--eCRWXDFf6Xc7izMK_QQ5-hcm6oLmGSXq3ktGPMpPf_Yy4HgE2AT5TSMMg-sL0qmlL7fw7WNBvn0hJwhJ0wDVHrv4MfjQSG_oK43ZxtZq0mOuG-cBV8GZQqE05OLHelZDhCUSTzS1exEMG1YsEJY7lXczJTVjBSVYM0D4kLWbFR6IKqkg_w0uI1MyodZeQwkZ3Cu7IZd-gPQhI3rmWkZy6DLrClFqSkX5D9ZbzuFKkq6wvl5rlUOG750XONk0I4usTTZqBrjw7g9Lb6K5WLDm618YqWUlFz3n0ux5WsxxpSnY3NOFk1dIvF1u1_QP78OUfT6Y3hm6FQ5P9dGwBOfInPBUrdPDOVlumY17FRB-izSmjNf2hlCC093wJ6POYNkIcTX9GSqMkL6b-OThRkdUnC0SjJgFqvJnGPVuMDlnuQ18lOVhqQBRdwM68z1Zrd4En1jtD8bgnz3rdjE7v2VYtv3h0Cz2EywBdOwGG86hZF95BRJtncR8U45Ln-xdGpe2YJLixDtGrIDuKeATpOwyaceTquoTep4FgsMttMw_a_XZCxHXJvU0tygs83Y2ytB_16UcTvjCSTps7nKbznn-C-d63bLMAeHEmJb-mrm1E-RdkXJ8M8dSWmUZ722gnCKofuxdGBKEJhKHzKiN1MKKRf5U7L-xeoMLaNYKuoi1RKtaDkLxQBs7nCw1MBMfimzxdt3NlwVagwkjjirMvTYq_IZDPfT58xHK5MOQqvyfdNmGRhphSwnahBv_zcOhG0OD-gMO-hYkNtJ0omPuqhCm_wKzlYsWbTa1glDuLUWMYgf4jSImGjQbHoUSAieMAj5eAVWwpur04DMHmI-kd6RWrQxUpu8l7JoJpqkAN8xty6ooae-RSm_LKRw2Hi_QzLoJNaf-zJ5kJImrSxwsSylvNiAjXk_839WT4_W7H6YgJSJmtblxy3E32Kg6CJnl5jwzP_X_aOVZYCuMiDQNiJ2QQCNM8YSESctfQc_24_PLILaWy0tgDXdDqMTL0dxBzT3M4ZC9MWdvMPU0liCMvq1fXD_U_CRLNgQ6LZ7t9NMisCCE7SuA1s7JOvwOgZ5ub_xf2bA-UHk6471Y5kzFXf-EFivgPkWwuM5OS2zJGxMmEG1KOt20kZhgUWswZ9RtOPYtyGqHn-7Ds0yqca0QSUUGNui6QEHG5iLBVqAAuTBfGzGwWr5Ifhd4w_SPmHph2YsTzqeWDP24QbcVYczgCpGNx7MEhw66sdJLuyhgtHkBKSaOjmnurV1LC_axLP-WF8GrBTY3ZkxO3lXdOXpWj2NhKaJ98Cl3RKJj7VLWFcx9enhT5ozZiQ2j1df-EL0CMLq_lE5fEt1NB4YZbXW65-NR94l4AI6Tub0sQ3wa8dcyBi1eVluGeixezZg-H70_Hd7UyVUjb3GfVdp-tSCRYXXdIc5Xw1UGgf2zyhUH6a_to-ONuJ7aejeix2amhjVkWr01wSh1yJZ54Z6TylTxT_sFVp-iGuWjVuTHhIcpwweUKCvVKcWb1Er7bL_YOVrDJLzhiDh44I9JM8gQsr2pf7IF4PuBuvDSgRoTwddiKWn9EztKSOdorNO8TxJFJ-3KQIsNavEzSMCKuGZsV50Q9ck9euzQf8x9OFeQGCB9SGi-xkoykfG7-q-OL4s8PdYftUmfG-PIxDtL4DVSzlb_wHCGBtuinNx_kl7Q6HdB2uw5WZR0Oy5K62JWXoFQK3udwWmI0BEEcw8-ZHZWOAdLMtEg15o98jxDwB9l3GngAhqW2IhSDQGiJ42XhoIR4JeVNrbWvcZaROWUrT1Mz8pFxwKL-JhgXStrwPQTLELIoZYRLcodxr8Ih1ReJ4AShnVnWreekl_uoaXlmntDvoi343Qe43HC1F2tPQt6vYoPOe4Y6t_uKzIeOGrqYYfDR42GJWh6GWyQoeDT56AMHtTRpB4FonasdKp46a4zuKTxWaiR_YOe4llH_FDDtyh9P07e_eTzO9x-qzULWyjn2xlnkOyHMHsoRODMIbMLjNUqBTCW3ZuRQG-2L-ecThmkjJ17Um8nuv_lL7TfVfdSAz-hINEy651PRpvsdx-qG24SF-0hxOiWeCy7drgqZD0TSpvGE0glMMSLwMmCbK4xk1qua2F-Xka21GdJJhM73WKSTGjL2jvPlD364l0VJncWhBy_XT8BL7r7Sq5mex2FonpQtSX8fqh0WKg7yebvdq7Ch19dSGDq8M4XkDabuUMm3BI1CHJMizUJIGEZGGPayjJbbo_90tARAbS87Zn7j9G_03IrbOSh42z0d36nhwLWtITp9LYKzGAumumof6sudLjFYwfZ_8luxZpAdh7VTiDzfDYf1-1gfbSXfoR2dkPEH45G3VR3ZuSw9qyjYKWery5J0T2TWTEDOOSnc2ZVSohgiLV7cTuJGxnlbDAiypJYwwL9kFGJPBd5wNZAzc1mwYmtB4y5RKgqK1LDmA4Dq4Yuk6-Ph-k8wm1ul0xCe2a1qn163dr8o_kmiUiw6O5uuH4VCR1Lfy1S16l-SM0wZyes0ZY25YXR4COiINPPhlhp-JlAvPkwN4Q2Tuc7hTMoc7ZeJ6i8lnjgWjRMAqNoENrP7IqAetrHzExgFsqKf8PJ0azeQZ5UAmRNv8Rx2ofOruzvBVNVW-xoEDUiMEg13YFzLLqu7bJjIeQsKZoMaXnZnsZAxhcp-ljcXTrGg54TXdXTJRBWAzTH3uGJWmd-EYysjY6govygqnpnf-V7UHeubYidNu905ewiyN_cSSbgenmHjPqko0DMjpiDQS5riBz9qgCXbCg3m0Tfy8JBz1yWcLdFztSOiBnKNUZWDfDUUsWqhEUwzGY5nqWOH6uRVhMeQ28sAW6UyS2olz0eDRBszR728fh0Kcwr7n1iWDWZkLBiGWpz9spCn7RTO7GEjJlK2ttCgf4ulIxu1rDsqmVTUxO9b6G8pz95Hv2j3TobLU28uSICYS6x5LJAx7mzli4iFFR2HsygoCGL6yECUA==",
+      "status": null
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad8731ebb6087d1a5da38b641e058b3",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM4f1VqDg8xCKXo3rQQCZ5AsAWjgjuUNdhMrZjUs_Val-_uKdKYIwCOqcVfw1WcwiL8KzU_Mse_FW6yJcpd_KKFBtqe8qCTkG6aOn2F_sspVWy96NAtxWTSVtHPMheO8sQLwh3I4wnnrzKu8Fsz3pC_r0ZytUmLi38mVBMTuv19pwZKqRwafDZAXZc3XvI8sH-QBbNfIzY4CL8gzwM6aF-B8LD4SKsREBT-HGKB2NnEVCE4X323GM81IbtSBZGSy0QUvaiY1rAUHTe0zmfll0wBUYgGd_qbRQchScCDQZ-rbXEoRABuiW1W44Nq533JDV_YADval5eaN2JvenxVgC83RSrQIRYi28y7gTRQzaYyS5-juMg_xudMT66b_dNzHwk3NBEmHA3HqxQf_Nsr_sKT2zltQBuWaJYgyJz3tTn6Iayd3oj9mjHR4AtKrpE3cO2yP1e3n0qKJIvMu4_bstygMJk2aybBVur6ddHMWEYiIgtFDMvGWGMsU3eXcWuLd7Hu41bNRqPV4Z4ygyJUo9vyBG8xZ2uvoD3ForQoCmg59i_My0uP0Z_NrqQxkG41sXz_nqW-pG-GYSX-dTZ3es2A7NxFUg8xKCV0h53vsa-3y4ETwLzqMwK-HCHA8RSVFZQ5eSAcKHE1vHeCc7nSlCze62LzSsaYoVl0Zokl0OAWOGrYpYp-KkZDCc1DAbEI53CgVXJybdKHud8ywtg0C4MpjymXL4Vwqnk6nY4h-HdBmp-ZJonkjPhZ0HROsVdBWkW7LGx6eNioTzqCUB1QawcsPLuFdoA7Fgg_7prpnqSf2gJ4vgqK-Wcsk-3YxaidZqYDHB7qVHQ5h7BdXiuMKkbkm5Pl8gqIeNHJ6MZZlcsCADWr8A1dUeWeOTiBECPrBPeDDWncT9oxWFUfyBOyNjBy-X5Bn44VSE85kCq4nbwn76V7LZhm0SvbEmiT4xXHezORFwaUFm-DB_nELUOtE5z-h1OdupX0ECxmbH5f3R2WVPwcdqv244oRUCkj4-T3hZE78eff7ryI9evfSTFH_w0fYLdUSrrC-XZtyF6teAJIdeL-vQiu8qmLNhkT_cB27jv82J31VpF37QoYuZTW4psfcHhV-6dt6XVNvoYFme07_g3ZS5op_txabQZw73MqUGmahfa1dZlBjF5ZpHcDrWc7kE-p8-2jbhHZ4Z1oozsMVkhMrLEP2kpqDLWLaBXh134gUqdJFVQws1nIZtyz_PYek2z51SpvZbkmRY7B_iqWz6aeUnfEujlQEjhCMSfIocSVJMx0gCr3G8_QkACZmBcMZk7zdSCVL2KaYEzrs_k0UAua_2JeyxpTeeLSaUTJbpk9Ao0yaiBYSfMmOdbTrc2HtY9WNvZ76imlesaTrPMJ-7Ml9aByAQe83gM5lPW-MiOQu49z8POX1Z96jxSHT4_zD_dtaCPun2-C5uspWt8YLNl6FqZUI7jCqZOlHVCwZDmDvIZSvmjdbxsYKhMQsJrB4YLb75j6N1-Ziif1CYOCGgBZlZ9cLN8XIwOfBW19qgn3fXyT0-5iK_u_ReLQi_SYqqxRD8WBZ-myhQ8rpCiVeL5Dvw-60KY-vZlBOVsKtBGXthxV3sFXJu0FaN0dkGsyT4N80HtfemagQaVtC-VyG6nGtu4eciUZrpHv5M9aykTAH84RjzOkHOwqXN0HE4FOsVlIY7qIXzqVFPXw6LP7j7IObYIUIxiXr_ylyjyBD4WnuJHX9-SOeNQbXwhUisTqc2YiUZMVmHFPQfXRcxWrD8d4azRhPEYy2SRNXTGE14CZyxvo1qBcbKji-EiWa2XgGLfsx8nyw4PEHll4w80hPUSRUVeeoXgCTl05JV2Y0ySxeyFzx7UY6UvRLTJ2PHSK-wJafAGsJebOBzeTwkGxAH2uozln-YG9NdNYPeivFc-HOA7IHohbyPq9vqk9ZQUwB4ndIPHtl8sf7XlHElQCtYEL4GEtjc09C15G7sld2jYdhuHn3Qsb6fY4LKNHVGNHeI5QnISAkKp3hDGAYJQCS5SjJBlJvfY1nAyUhrN2hHE4DZJ7wtpCJUcVWf_vy4UvRf3Eq94Y1Z-gAuWwhyFyx8iupaIVk0cInQp_PENGEs3lmWLYfC-Wb-LrbH3noghcOgFKTsTYNS9TAw4-9UKN9N6-j2unLX7mUZ2LbT-QpyfX254_wATuzpNGmB3lUFFMRywTPT9n_rjZuTSryoZlLRijh6gOkjGU9hl5ViQxqf5vsR7VpuCZRpz10tyqCB4_1fMi4NEVb5gaYBHGUk-PPDjTNnmwRCgpMSrjj8Gou8MUQz9ySTDKOA7CNCkphVi-rh7tyYssTT83fTUAgW5Z8vX45Ueva2L0LeevtOfu09WZsU31dtuVJGcuWY735lSK9P0POOqBMfebM4luArzuwcMUF_iyfvInAJvuT0ryETL3Qm7lJrPYhny2L_URYTx3eMD2Y5sWHx8cjfpMc9m_uI0ko-1gcYMqZEUhMkO-JoL7yAn04ila-HtFzu-hxeHZb0miwEh8V-TgoA-Upr_y-gYiBj4ol5QVUZD4VoA2g9oYUnrWu7ImS6KdObs52likWT3dTeetosVVa3CejQTCM1KZN25MoAK0wz5Mv5EkhfJqjILkJY019e7MGqwDdUVaiXnUTSFty8rnte7JiVM-uzpZM_2NUQ76HDGKfqT9wbl41gFWE-87sf6L-8atymj0xUW_luKSJw74PRhvPEyQF5HdAaHlXCu59akDLI8w9RAbkpb_WkPNGbxS1uOb-l6KnQ3vUdjqyn_RqlMBZ9uTz9eJITtEkwLvSWhikBEo89JrZdTPhNxiv1votkscsf4U1Uxn6MVBkcyb9iQ-rkgIfTOsloNClOeDd48yLFSVVTazx6L4zNWCTwm7r94iHdb65yMGjnz_AlzzXiAMdVxkedH92wk4YeBgEG4XkjagifXBLKx-clOpeFclp7VV6f6Ly9L9aUgsdZrRV7eF3LL1iFoGahDfL0ZNcpfn1Sk9j-643kCCLALjkfBJVcQG7Ueno4rSHMa6mZuyTIdoPNiu13Rt2lvZW0RcGrqRLB2GRUB6eXct1MTPBk0k_aILkP6963_Deq76LmZzQgl9Vp5zYxCjJV3TlFKWCbWDEuH7jw_I6pGMwMhMWpgOGIvOBEqG5738mP21duuxaMAA_cnrXDeo06F064EFjK7ykOC5odv7a0dBVSxp103uR_rs-84aYseNjkDR2euq0HkH0F_DOE5nWF79i-5gKIV8jAvxQ3WoAQnNkuSGezO77LauDsLc8aDDk4PYq8z5_DHEFCUsebXRe9kbU8TxvLpxfKHsl7jGDeJeIg_erJ7MMLZi4HyUF1iIeIFJOFzYSsDYKAKIBqEIlqUfxkRSbX-DlXnR_4vczTXqAKhPAYMuAa7FLfVI36dXTuGHIMBffoROskp7qet0-pg0SvfGCybyroU0Bd18Eh66AlgD27HVjtTfcSrIiO5vSHVTBz93Cyuoa3zl231htTJk63wh-ZKTYLL2_R6t1ZQX4jU-jEUfzm3tYJrnEOY2WcT-_rBMWDxSAtsYxBtCAyjkxv_tRj05raCHtVFx9zLYJlXyqPDpjDqf98Av_6m1_1JtDvxEJM7F7tdpRfhPSLxvO-5tKlACHNkBpLQeS4uhIIEpGOgDpVaWqsQ9aMxV3eRj_qAog2ryIGJ5G-E7QCcv2DDlNaRr_x1QRz_PlLVgeD7riueOx0Xpwt3-nV-PgzwqoJsGt89MtpVwYdMkooToSFGJff5ra3usOccl_5HPYUt5T6gB6HTahcXSKTaOphBWxtSLsYS92M66P5w6uuLk8kpveqpbazIWm1duH5EkuFmI9sJ4xaIHHNblE8CMQFuLuE9NjhXkvllxlhWZP_Mq31FyYmY9m20qwKEilc4hKrxCCUYVhNQDe83ZoDj63h9_kAtSRJdei6vXBncSk6Lxem8ss4Dbh_Rt-5LqQx6SagSdx4JWWhFsyo8tEQi-abAcGXKzNV6vsstAoWbS8apKZEm40PlesOzYfxPfKZ5pzDEgCVpYP5LGXO9k2lSmwqwI1CmLF2XF4yGJn67rOvTsHm7rMisy0wu9HwY-5RAtSQZRcaFD6vLPaU5aYHI-PsZPssINLgb3IT_E-9Vy6sqAcwjGWlZOZtl5KfYy_z8bhNonCUA-AUylPGq2Wp2nFP8QN0wMcV8OlP2jANlmzUbtMMQUv6UlGUrA8fE4o_9JYX0FK41qqV462Y_aByx3_kpCOBCstoje-tygzXShyZ2GyOIwwS2pCW-9KJjhj6OtVqy7CdN6hBVFmjfNu8tTLpq8p55t7AMbJ7tQ5KIGQx5QxNR3tmwI1gaHXtHni9RmrLBrJJ9CWL3ZlFtoNkkQr8wAsyNbSsNrSo67GtyCoCeP6kYKbUi6a6nP-lriu46L7O0Qvi1tx4itGymhBbFmhXHgiIRR7YDqX_SneNEwmzRm_16zttbdvo6FiIbbBa929tbNA1bL4SX77nOFy_Pxs33xqqttImPt6dP4bHTNhp0nQeiIkGDTZGq0J6EoXzPcQa1m0jA0imFzleyY7Dve8H9Uh0cYxK-Wyyuh27G0jx02NCZZnWeiEiD45t1vnwzrDWF5k2tMWEgLV09xEfzbkSK9OFbf5ZPJxcFKCXiY-R6wT77gEQQAjmu7NIq2uj54y0EMKLsj0m_KhfxlQ8dRA0RCZG6tDPdwEPeUakTyJiv6Y39THtS0g_TB8JXnZTw4NxEyjKy5VLMoO5OM1nGAAm1ZApatA44JypbV_SxDKTuComdDGR1nyBq4AhN5c8wygIGr_QPWxuUYJVSrZoTQ8LTwxhnWzZcLv3YOB68KXncVb9Omz0jrqO7u1Ohn9HxNPt-29MVTD0QfswNikZGG_5tGohgCQTVwMUqI7HuQ_Xtg3UM63BJfoK6A72Lkx_NaT5dHKUBHQ0_ElsPtLFufZSYttkFWypTKRG9hKaraFyLEkAiNOWpp_FQAgKC9N5gN-j_7ilOtX_COYvB7Kv2thWqPkbVniuggT-RAQGkNwVhjXvHMKtfcCKhudw-WG8d2V3794ssZt8cHa9c7ih99JxpP5mhbo_BmfLIaWSp2Jpz1IfgShbNfPNez6VFGEQ_dz8ACPWJ7Iki_KZMqbzqaCl3bs_xPZCbhx9YeTF9Wgai3GZuGU9L5RgllxH4ltZhaHflZLkNBKuQs69U8VBC_ozOUPn9IZUk8RR-Nh8EZiWrJ4F-GEVpGZM97F3pinPt0AmPG3XF9SlX7QhwwpnkoE65yqBYGEzGHAqn4z760jOhobxFKaQRl7RSpEAcPu03So4Ns1hxasj6Oafxe6MaIM6hA1wFEVebussbnJEj1wxpuScrlmjrP8CCBjpEIQ6zqkDAOs9YqkgF7J4OopG9DlH3i0k_U8lw4iBTjAsKpsCS4zbDHFdj96I4n6c9lilQ4qlLaKW4AizAhwOjiK_TB_EPJjp962qoiiBtH4Zn8iFIxvZypRJtKsEf7IFOSGUawQCwHhWfoesclT1YM5jemMncislmScPuXqPM-DtVprqE5T7AEzdRj_GgboI--sDI_CFJgYPH-bUYKet6S4pNzqe4DwDPmxBli8i8WH4BpGOw9W44apY8Wu8QCVZjAC8v2jP4xOLsg70IGickXd0NsQXLCcQF0XdgX6NKxrVC_141BFexyJTYJb-WmqW8xbd-ssUaJyQBFnVsRBN5rn68rifRL42yFSdmpAcWVxvE0QHWX0Jai7mV3M3zn2pg0bes97RZidl4P90_ALeF_0cEx744ps1Kuv97Fi-FHzu3YZYbhsJ8gRTI6UzHEchnqVKnHIWZ-LxjCt6uzPaErNpG7JX9dMtRGuP57SHtmq5nquwtRynajkA5otQzT8Ahpp2AiCHh3-NHboG8jFJnGcr5chsk_ycqoW3zltzUfiDLTvNtH6zxPecXKkoSTHwJSRMCeiR5uwIMcKS66Jlfjm9YmhPoF7k4mbuFcoG-qhlNUj4xDw6e0UHCunlEA_SDF6ywNwV0jD7eKVxLP5uXPrh8SitD3p6J_-y8FiZ4YMSCwCRwcQa9XvZFB6Dcn5SkPDsJwyOdIZ7XoVIsl3pzQNUdEbCXLmNuNlJiPHgmyv0kE87vjvrcqur5wC1iEUlaaMYBeA4KmdaynBcedaiY_GAHwkFzYhmy52J3xEbdOFAuNz1cJbD6e-EzNEkhY0UeRboibJKWSMLD0dA7zLOHTPUtpOpWwTLG3GNUbYvMzDLnY-i18elMGd-_spf0szOzN_Ad3Onc_SOCuucgxf2sm4HyTbxncPT3kfSG5aJUUfd8llGQyZ_vYN5SgR3H3tXQiKU2dH4f7nz7Lr6uXfahGqoS_Cg5PdebbAZ4tFRdO1rD5ddUzFB6W923Zph0zm8y81Fn1_b_CVZhqGeM90tmtTKv2Al4EYoVpmiCHaVRWTHE3E4X9CDac1x9sSb8o8YA3RBrz-P0ZUSS7Kc0hK5s4SMhqkbVO8zEXcsphmCjyRxslzRd81e2XGt1rXardimdoc3OdCyB2EaAnvBObIQYX-9RlSaKfRsdBuLC9WDaL3d7A0Ww6oYyzvX43WML5cOBPdelfCOkafg6pBzZb4OxRvVS6Iad1UYGKAM2Y9ojzmTSsCxiKtUJBxML0osP8KIC2pE3ZQ-XSMgwgQDZK1_IEmL49_miK-TEsaGof6V8AObfjAIgjsTzaHt5hOcsw5DAyfod-Emqtl0pMfASZd3IEnVBre5GYxoq5CFfdgSw8crumMzpdZvdE0ASqWQkuMW-ii8q0hDu6J6qn5UaDEzcKtVuKQDZWf1XA_CpswfAyF4y5UILwbnBYSTgBTi9aEvBYgxZ_xAocDoff5OD4-vWbxm_nZXU7uSSfEsqzs9EFoyAQFdojl5c8Z7g2hiE5Fkwl68GAU-8p-iY2iVbsSay4g0ooDlcxuFAWGbsbT6keZCWFWd7m15kD9gteGlAj740KZmaPC5AGaRsr_Dup-f9p3iysxhrZQpV1G1SNOljkdPuXZlSwr8Qxacb2unf_WVyYD5tPl6y7h60j5Xnwtq57Cbwsn9xiuE3bpObbNk5RGM3BotxFzbRPnuE_0A-r3Cvtq-VdfR6YkfbvQx5MPCiDooyLuJWH6SIp5ZeFsSq4_q6ASs0mSVkQBqMroKRZML0jklDTITa-5GIMZxZ4yBvPWWGG4qnAN7aOAfA7S3-AOqJflqStqzNuYoZN473_f006CdJGg2aWO5I7z26dXKiTAFOvTlhuDHO2XIP7rcOx-_xtcOHJwDBBMweVTnicrYXPA9Wnz96BbVIKdaZmof3lT9Ww1EoD-n2W79Dozso5evU85eyrgptC9vI-_xUkusnt96tFZuTjUwnQdkmYZ9jglNGDGCLHiGDgzAz7l7xBIJqjM06ncH_MAg7xvtNhBp8ibMFNXMJhfewllP7hNGj0jYxzotxgxP_ug5cCIpKf-1ewo4WCAFBRgq6irJVXMAsjPvv3z2jdEjT6ISqr4EosANvgUQshP2CLlymtG9HQnUjwikiaLxw3j1dezlH3QXjwQRvzGpfVkn4YPWD4dzpc8BLEi09OFbN4fLpbz0uWuE6WOn16j67FFDyDZYyGxlmKh8gYbO3fTXNEh76equlAQv_xquckVcfeUGAzapfA2C7R-Wu5ok1Q0sytQOV-rZAWxFyzh62ZUumoyE2pn3aU5oRP_pG0y94ltaqvjqhRNbXOPeoEiP0HHWNCgF1REG1YWOf-3qppD2UOC3H4an_Y_SkLW2y1ch1_eNsJmc_Ch21xtjTCivte_4LRU3TKh-FohGtX5OkFDA1narAjyPfKDE0h3ceJ0ZDuT_3Qak22jys84eS7hxYhJhGYLnsSuSbGPj2sY73e--624sC8bLEwL-qCy4F-YiTfBTusQJSqE6tXfstHIra06hbxZDeSqS_M8P1L8BzW6LgeGqoqaGcIyv3ye_DnIiVdht8zNrbGZcNb2Y6Xaf7iGeRBC2SJz80c4esAEPoiOEUp51Z520nhOqZ8xY-FeEGLm_hmHaMlnN34QSkJJFOjtWMat0I2jjsw6erCzBC-44txFZOCnQF60YVVM56iqWrOoRTHzLk9lbDFKBIK-BUYT1LUAEHQSAHl_vYCGKuwYrbCuivwGGJSuqoDa_fJVK1sQwfMRnyXdiw=",
+      "status": null
+    },
+    {
+      "id": "rs_0c42772be3b506a4006ad87323fe8087d1accaee06c8859d61",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HM4NYtxvJbQG-8zsb98UeiqM1Qne2JgcdLNAp2dMNHHAxYR7z6elt6h2Esu9u-3Q53T-n0DgJ3XRCxUUdEiMSZrCc5HsqrB0vajcllrwi6lWQQSZOkvnu8AQqPCz25gFzeMSThLJ8nkImzh0znzsf_ndHTI5csoCLPnBHpg5q0SwOh3mU4Q-cm6Z1TRHBF4nWVHYgUbA71d7sFVYvUC_hCX9QOEaGV0d-WlrQjIzgt-dUr3a1sPyIajNoHpkXxuKvBCwgtt_NJ0UblJke0YDskXPV2xAR8F8MaGvYo86FE1JRXRe7rVqs-FJSP0Bdl3jq_h1tqWOay8knd6s43oUCBdvQWYKHI9f8xorx-B0xbd3JNplnt7I8FnnZh9LvwqVKEQUT74DDim2gGpDcjXVthH-b2761PeQfV6U-5u2-e-MSE6WaCo2HxVlV2jpsjP6V9nffYJZAn4XknbArndRM0uAGXchYrbWM4569sxSwt6_01s4M6h-uri4RA_bFckNeSasI-6rf98v4-M5fOOUGs076srm3YrbGOMMi4TAOagU3GIZirYK3ltpjtoWh6VGOxzM18zM1LtONpqdDPjg4b6YCqno-pLR-MQ9hL8WXVFFHwvvKJL9DoH1q2nBPs6ZtiEcDet89RHtI3_3MtF5pfZAP5b4hIucPQSNuoKEIyq2dK_kGd2fBFNr2F3KJCa2ev4GLoaupMM1WGcDgMU9DGiL6xjH-6nGdtndBQhok_5gXFUJdRiYxBMOsUC7eHhNDRG7ptcIrm2Cy-58MzWkBx9XjcX6HX4PEePyUmXxEynvS2ULLD0UMzhqKCTmzzeP-pXowiXte25mAiDsV5NnuvvH80x74LvT9cYlkhLk9lXx7D-Q4XjRGNc8fKEgQ-lr4CkfEVoBk_L7Q0B-VMSjOxBGLHUloAYRMBzXTCPGtDIKclLFqzNChmhbVsJ2qSy6mn30Tk2tpmwyuJ_lUlOaqnjl0dH3u8CAVMGbiuy1eIiF-IjKecnkJub_dE1XxZ9_1N7T5Ss0HvDqyLrbTYiP_UrQ99DUZVkmx0pKRcmjbpDsiemzpK0vpRUP4eo2fQ9bEp0FZ49rkbKnPZfbfpT6g4loPN6_NP8SuVeaW6eTHqkq_p6eGAB8fBy4_o5TxqAPfV9PnaTqm3ofMQthbhS2uGzynmbbfw4nKESSpyVRBQjfLO7qkN2m9bpMrJuy-0Av027bytQd5U6xb_YCVTnor5636AkJf1n1VOOfFfRpU1eIx6vcw5Ad-BAXUICcozAugQSuGnnqQe6kmW16RISF-Lb-juyN663tWTDBFSQqopuOdEuHbklZQ7vQ7umV_vDyTD-VaGxn6iVbvWxJrdadRZ-u9al7b1f0dDg-8rp_4YO0m-9DUBLxRGlFPptXP73fG_11vRi_5D6OtScNTMBrtXHASery_yT6IQdGf47BKfZ1wLV1Ms_wxwV-5pcpnymcw_lLItXHNZeLdlEf5kZdlqLaXhTk1GwUKtbewlXM7DKhrxMOlBdNfTCCY2UDYhBPKnIPDhYlDLe1z4r6KDNrTo8Ik1UoD4qP9nxqHpnHje9zKzd9Rb1YN8Gi1Te3k47INdaWVlYxV24Y0NnFsurSH3hLbhIQZV8FmtXH8c0Hw3D_cAdhqmDfhTUkFGc09Rxj_1KriahBswE-oIFk7mGEqc4i6PiMFPrm53eEeliNsonSX3FrEMzV-cnElYn2F5uRa4Wyi7tfRPXpd9ALPmJQadZ2qiYyBFB8lwyRiwxqlceO5p1NDyx9yhsusCfAc_hkCfbDW7PJjMnMaS2ylvXJJiiQ_SLAqJk2k0EEksOD_o2tvsTLynWTb2UYIdEmYMgPtvJ401Rz80SXpGY25Z0O9M3o1QkE4vSwQVOMRN4NVXq3MMDgZ2C3kCYpBzYKaJJVU_gPvuYKLOgSVB8o8m-19CKCH7niiDnauwxTPegEwfhuT8TcBDm-SvPs84cqE6u6KgfdEsN7VEfHe32nfspxRKusdh2Ke4OGEfg9yckhmlFyUHOYX_OV0mxUmWVZ74loEpFHrypCK8YE56Tiku-Mh5XJOUndBr9ERH_5K56I_bPVBhI3nOBY-hUjkcVwrJ1igZwlEgW_heMgQYbk2G9ev5pYmKJlH49vUzLcoc_hlfD7S9zCMMDuRykfQ91Hkf2yPkqbl2nSMI_1ZXZzy6WN_lWW8kCx7peEv55SvMwSw9B4P1WRSdK1-0iiL3kzma0OAnpnk7LSqbpup1dqd7d7Wf_Pjs6Z6dTVDVgJfRENJ_AYB3joKEGubX9FgpsDX5vE_Jw1N_ZFwLp1a3TvZ1tTdO472IUFA6eVVw4A4FOavyaKfmFpS864A1ABJXz50PZIIaQW7my-cL0z8MeMAJYhxahSFGs-RH5BUsyX0Y_V-W76I3Ac4So8aYAKqK12yL2uNEEVl7xDl6Tgji8XTa1CptlWEALrgsu4hzAfyn0RWQ6xWTBh5MMRGJp06syXmslxZrAfau0R2plKXmMfL0DGhKswJagBSzACl40pulw7SbYzo25Z1AL8tn_yMRBWd0iOJQP05v2GMTPihu1c1PdcrxacWt7u2gVoDWI5vbcV6XbsSj2lc-oBYFDwTA9G6L3KlUgVe5yHTBL65oWfB4m8uqFnQvSZ-9OewIEAkt3NKlkfUPe9Q_gkauhDLTzDXBxpsslf9sAdOqKtg1xSLWk4P8qd3eG-lA4ENQZvBWMPWrhVr3M-HPzrGIMnnYl5yArDIcwi3r9SdvmBMv1RXdMdbcM6uSpdpvwIuus9gZHzxYwMT6W0BW41Rwva8fvpStPWm0H1IdW-k6q3alim96F4QyGM9J_-_U_lA_xvWISoA3jNa94q2f5H8iccQ7o5hZuVLXWpEkakc4gYJLszqndHh5BCf1FEaS7fN6UaCfOSetm2QwO6UU9fyZ9Qm-1bIqBaRJol5JL8F1T0CjKjljXDNnGXzS1HNwAS5DHUFjaq2PjHxYORz7jL6FzYp0gpEjy85lI1QEc6Aes-GRWXuboqco2zA==",
+      "status": null
+    },
+    {
+      "id": "msg_0c42772be3b506a4006ad8732588a887d1afbccf4a6af7d432",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 517,
+              "start_index": 422,
+              "title": "Art 33 GG - Einzelnorm",
+              "type": "url_citation",
+              "url": "https://www.gesetze-im-internet.de/gg/art_33.html?utm_source=openai"
+            },
+            {
+              "end_index": 1170,
+              "start_index": 1067,
+              "title": "AGG - Allgemeines Gleichbehandlungsgesetz",
+              "type": "url_citation",
+              "url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html?utm_source=openai"
+            },
+            {
+              "end_index": 1913,
+              "start_index": 1810,
+              "title": "AGG - Allgemeines Gleichbehandlungsgesetz",
+              "type": "url_citation",
+              "url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html?utm_source=openai"
+            },
+            {
+              "end_index": 2559,
+              "start_index": 2465,
+              "title": "§ 11 AGG - Einzelnorm",
+              "type": "url_citation",
+              "url": "https://www.gesetze-im-internet.de/agg/__11.html?utm_source=openai"
+            },
+            {
+              "end_index": 3239,
+              "start_index": 3161,
+              "title": "BayGlG: Art. 7 Stellenausschreibung - Bürgerservice",
+              "type": "url_citation",
+              "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-7"
+            },
+            {
+              "end_index": 3779,
+              "start_index": 3701,
+              "title": "BayGlG: Art. 7 Stellenausschreibung - Bürgerservice",
+              "type": "url_citation",
+              "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-7"
+            },
+            {
+              "end_index": 4408,
+              "start_index": 4330,
+              "title": "BayGlG: Art. 7 Stellenausschreibung - Bürgerservice",
+              "type": "url_citation",
+              "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-7"
+            },
+            {
+              "end_index": 5292,
+              "start_index": 5171,
+              "title": "",
+              "type": "url_citation",
+              "url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L__i.d.F._des_%C3%84TV_Nr._12_VT_komprimiert.pdf"
+            },
+            {
+              "end_index": 6197,
+              "start_index": 6075,
+              "title": "",
+              "type": "url_citation",
+              "url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L_Anlagen/Anlage_A_i.d.F._des_%C3%84TV_Nr._12.pdf"
+            },
+            {
+              "end_index": 7002,
+              "start_index": 6894,
+              "title": "Bürgerservice - Druckvorschau",
+              "type": "url_citation",
+              "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75?view=Print&utm_source=openai"
+            },
+            {
+              "end_index": 7945,
+              "start_index": 7848,
+              "title": "BayHIG: Art. 71 Einstellungsvoraussetzungen für wissenschaftliche und künstlerische Mitarbeiterinnen und Mitarbeiter - Bürgerservice",
+              "type": "url_citation",
+              "url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-71?utm_source=openai"
+            },
+            {
+              "end_index": 8783,
+              "start_index": 8681,
+              "title": "§ 164 SGB IX - Einzelnorm",
+              "type": "url_citation",
+              "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__164.html?utm_source=openai"
+            },
+            {
+              "end_index": 9509,
+              "start_index": 9399,
+              "title": "SGB IX - Sozialgesetzbuch Neuntes Buch – Rehabilitation und Teilhabe von Menschen mit Behinderungen – (Artikel 1 des Gesetzes v. 23. Dezember 2016, BGBl. I S. 3234)",
+              "type": "url_citation",
+              "url": "https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html?utm_source=openai"
+            }
+          ],
+          "text": "{\"funde\":[{\"regelwerk\":\"GG\",\"fundstelle\":\"Art. 33 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Das Stellenprofil und seine Anforderungen müssen sich an Eignung, Befähigung und fachlicher Leistung orientieren.\",\"begruendung\":\"Bei einer Stelle an einer staatlichen Hochschule sind die Anforderungen so festzulegen, dass der Zugang nach den verfassungsrechtlichen Leistungsgrundsätzen beurteilt werden kann. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/gg/art_33.html?utm_source=openai))\",\"quelle_url\":\"https://www.gesetze-im-internet.de/gg/art_33.html\",\"fassung_datum\":\"Konsolidierte Onlinefassung, abgerufen am 21.10.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AGG\",\"fundstelle\":\"§ 7 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Anforderungs- und Qualifikationskriterien dürfen Bewerbende nicht wegen eines in § 1 AGG genannten Grundes benachteiligen.\",\"begruendung\":\"Die Festlegung des Stellenprofils bereitet den Zugang zur Beschäftigung und die spätere Auswahl vor; dabei ist das Benachteiligungsverbot zu beachten. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/BJNR189710006.html?utm_source=openai))\",\"quelle_url\":\"https://www.gesetze-im-internet.de/agg/__7.html\",\"fassung_datum\":\"Zuletzt geändert durch Gesetz vom 22.12.2023\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AGG\",\"fundstelle\":\"§ 8 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Unterschiedliche Anforderungen wegen eines geschützten Merkmals sind nur zulässig, wenn dieses eine wesentliche und entscheidende berufliche Anforderung darstellt und die weiteren Voraussetzungen der Vorschrift erfüllt sind.\",\"begruendung\":\"Die Vorschrift ist zu beachten, falls das Stellenprofil unterschiedliche Anforderungen an Bewerbergruppen knüpft; eine bloße Präferenz genügt nicht. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/BJNR189710006.html?utm_source=openai))\",\"quelle_url\":\"https://www.gesetze-im-internet.de/agg/__8.html\",\"fassung_datum\":\"Zuletzt geändert durch Gesetz vom 22.12.2023\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AGG\",\"fundstelle\":\"§ 11\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die spätere Stellenausschreibung muss diskriminierungsfrei formuliert sein; die konkrete Veröffentlichung erfolgt erst in T1.3.\",\"begruendung\":\"Das in T1.2 festgelegte Profil bildet regelmäßig die Grundlage der Ausschreibung; § 11 untersagt eine Ausschreibung unter Verstoß gegen das Benachteiligungsverbot. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/__11.html?utm_source=openai))\",\"quelle_url\":\"https://www.gesetze-im-internet.de/agg/__11.html\",\"fassung_datum\":\"Zuletzt geändert durch Gesetz vom 22.12.2023\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayGlG\",\"fundstelle\":\"Art. 7 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Berufsbezeichnung soll in weiblicher und männlicher Form erscheinen; eine Ausschreibung nur für ein Geschlecht ist nur bei unverzichtbarer Tätigkeitsvoraussetzung zulässig.\",\"begruendung\":\"Das Stellenprofil und die daraus folgende Ausschreibung dürfen nicht geschlechtsspezifisch beschränkt werden, soweit keine gesetzliche Ausnahme greift. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayGlG-7))\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayGlG-7\",\"fassung_datum\":\"Text gilt ab 01.04.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayGlG\",\"fundstelle\":\"Art. 7 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"In der späteren Ausschreibung ist auf die Möglichkeit einer Teilzeitbeschäftigung hinzuweisen.\",\"begruendung\":\"Das Profil ist Grundlage der Stellenausschreibung; die Teilzeitmöglichkeit muss dort berücksichtigt werden. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayGlG-7))\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayGlG-7\",\"fassung_datum\":\"Text gilt ab 01.04.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayGlG\",\"fundstelle\":\"Art. 7 Abs. 3\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"In der Stellenausschreibung soll das Geschlecht, das im betreffenden Bereich erheblich geringer beschäftigt ist, besonders zur Bewerbung aufgefordert werden.\",\"begruendung\":\"Bei der Vorbereitung des Ausschreibungstextes ist die tatsächliche Geschlechterverteilung im betreffenden Bereich zu berücksichtigen. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayGlG-7))\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayGlG-7\",\"fassung_datum\":\"Text gilt ab 01.04.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"TV-L\",\"fundstelle\":\"§ 12 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Für die Eingruppierung sind die dauerhaft auszuübenden Tätigkeiten, die daraus gebildeten Arbeitsvorgänge und deren Zeitanteile maßgeblich. Ohne ein konkretes Aufgabenprofil lässt sich keine bestimmte Entgeltgruppe ableiten.\",\"begruendung\":\"Die Eingruppierung richtet sich nach den Tätigkeitsmerkmalen der Entgeltordnung und der gesamten nicht nur vorübergehend auszuübenden Tätigkeit; grundsätzlich müssen Arbeitsvorgänge der Entgeltgruppe mindestens die Hälfte der Arbeitszeit ausmachen, soweit kein anderes Zeitmaß gilt. ([tdl-online.de](https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L__i.d.F._des_%C3%84TV_Nr._12_VT_komprimiert.pdf))\",\"quelle_url\":\"https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L__i.d.F._des_%C3%84TV_Nr._12_VT_komprimiert.pdf\",\"fassung_datum\":\"TV-L-Stand 14.02.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"TV-L\",\"fundstelle\":\"Anlage A Teil II Abschnitt 6\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Tätigkeitsmerkmale für Beschäftigte in der Forschung kommen in Betracht. Welche Entgeltgruppe passt, kann ohne konkrete Forschungsaufgaben, Verantwortungsumfang und erforderliche Qualifikation nicht bestimmt werden.\",\"begruendung\":\"Die Entgeltordnung enthält in Teil II Abschnitt 6 eigene Tätigkeitsmerkmale für Beschäftigte in der Forschung, darunter Merkmale der Entgeltgruppen 13 bis 15. Ob diese auf die Stelle zutreffen, hängt von den tatsächlich vorgesehenen Aufgaben ab. ([tdl-online.de](https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L_Anlagen/Anlage_A_i.d.F._des_%C3%84TV_Nr._12.pdf))\",\"quelle_url\":\"https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L_Anlagen/Anlage_A_i.d.F._des_%C3%84TV_Nr._12.pdf\",\"fassung_datum\":\"Anlage A zum TV-L, Fassung zum TV-L-Stand 14.02.2026\",\"sicherheit\":\"unsicher\"},{\"regelwerk\":\"BayPVG\",\"fundstelle\":\"Art. 75 Abs. 1 Satz 1 Nr. 3a\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Mitbestimmung betrifft die Eingruppierungsmaßnahme; die Beteiligung des Personalrats ist beim formellen Vollzug der Eingruppierung sicherzustellen.\",\"begruendung\":\"Das BayPVG weist dem Personalrat ein Mitbestimmungsrecht bei der Eingruppierung zu. Die Vorschrift ist deshalb bei der Festlegung und späteren Umsetzung der Eingruppierung zu berücksichtigen. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayPVG-75?view=Print&utm_source=openai))\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayPVG-75\",\"fassung_datum\":\"Text gilt ab 01.08.2023\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayHIG\",\"fundstelle\":\"Art. 71 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Für wissenschaftliche Mitarbeitende im privatrechtlichen Arbeitsverhältnis gelten grundsätzlich die dort genannten Qualifikationsvoraussetzungen. Bei befristeter Tätigkeit kann von den Voraussetzungen zu Promotion und anschließender einschlägiger Tätigkeit abgewichen werden; ein konkretes Anforderungsprofil ist damit nicht automatisch vorgegeben.\",\"begruendung\":\"Die Vorschrift betrifft die Einstellungsvoraussetzungen wissenschaftlicher Mitarbeitender. Sie ist bei der Festlegung der erforderlichen Qualifikation für die hier als befristet beschriebene wissenschaftliche Stelle zu berücksichtigen. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayHIG-71?utm_source=openai))\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayHIG-71\",\"fassung_datum\":\"Text gilt ab 16.05.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"SGB IX\",\"fundstelle\":\"§ 164 Abs. 1\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Vor der Besetzung ist zu prüfen, ob der freie Arbeitsplatz mit schwerbehinderten Menschen besetzt werden kann; dazu gehört die frühzeitige Kontaktaufnahme mit der Agentur für Arbeit sowie die gesetzlich vorgesehene Beteiligung beziehungsweise Anhörung der Vertretungen.\",\"hinweis\":null,\"begruendung\":\"§ 164 Abs. 1 verlangt eine Prüfung der Besetzungsmöglichkeit und frühzeitige Verbindung mit der Agentur für Arbeit. Im beschriebenen Gesamtprozess ist dafür kein eigener Schritt ausdrücklich benannt. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/sgb_9_2018/__164.html?utm_source=openai))\",\"quelle_url\":\"https://www.gesetze-im-internet.de/sgb_9_2018/__164.html\",\"fassung_datum\":\"Konsolidierte Onlinefassung, abgerufen am 21.10.2026\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"SGB IX\",\"fundstelle\":\"§ 165\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Nach erfolgloser interner Prüfung ist der frei werdende und neu zu besetzende beziehungsweise neue Arbeitsplatz frühzeitig der Agentur für Arbeit zu melden.\",\"hinweis\":null,\"begruendung\":\"Für öffentliche Arbeitgeber enthält § 165 eine besondere frühzeitige Meldepflicht. Eine solche Meldung ist in den Tasks des Gesamtprozesses nicht ausdrücklich vorgesehen. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html?utm_source=openai))\",\"quelle_url\":\"https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html\",\"fassung_datum\":\"Konsolidierte Onlinefassung, abgerufen am 21.10.2026\",\"sicherheit\":\"sicher\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "funde": [
+              {
+                "regelwerk": "GG",
+                "fundstelle": "Art. 33 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Das Stellenprofil und seine Anforderungen müssen sich an Eignung, Befähigung und fachlicher Leistung orientieren.",
+                "begruendung": "Bei einer Stelle an einer staatlichen Hochschule sind die Anforderungen so festzulegen, dass der Zugang nach den verfassungsrechtlichen Leistungsgrundsätzen beurteilt werden kann. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/gg/art_33.html?utm_source=openai))",
+                "quelle_url": "https://www.gesetze-im-internet.de/gg/art_33.html",
+                "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 7 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Anforderungs- und Qualifikationskriterien dürfen Bewerbende nicht wegen eines in § 1 AGG genannten Grundes benachteiligen.",
+                "begruendung": "Die Festlegung des Stellenprofils bereitet den Zugang zur Beschäftigung und die spätere Auswahl vor; dabei ist das Benachteiligungsverbot zu beachten. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/BJNR189710006.html?utm_source=openai))",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/__7.html",
+                "fassung_datum": "Zuletzt geändert durch Gesetz vom 22.12.2023",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 8 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Unterschiedliche Anforderungen wegen eines geschützten Merkmals sind nur zulässig, wenn dieses eine wesentliche und entscheidende berufliche Anforderung darstellt und die weiteren Voraussetzungen der Vorschrift erfüllt sind.",
+                "begruendung": "Die Vorschrift ist zu beachten, falls das Stellenprofil unterschiedliche Anforderungen an Bewerbergruppen knüpft; eine bloße Präferenz genügt nicht. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/BJNR189710006.html?utm_source=openai))",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/__8.html",
+                "fassung_datum": "Zuletzt geändert durch Gesetz vom 22.12.2023",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 11",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die spätere Stellenausschreibung muss diskriminierungsfrei formuliert sein; die konkrete Veröffentlichung erfolgt erst in T1.3.",
+                "begruendung": "Das in T1.2 festgelegte Profil bildet regelmäßig die Grundlage der Ausschreibung; § 11 untersagt eine Ausschreibung unter Verstoß gegen das Benachteiligungsverbot. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/agg/__11.html?utm_source=openai))",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/__11.html",
+                "fassung_datum": "Zuletzt geändert durch Gesetz vom 22.12.2023",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 7 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Berufsbezeichnung soll in weiblicher und männlicher Form erscheinen; eine Ausschreibung nur für ein Geschlecht ist nur bei unverzichtbarer Tätigkeitsvoraussetzung zulässig.",
+                "begruendung": "Das Stellenprofil und die daraus folgende Ausschreibung dürfen nicht geschlechtsspezifisch beschränkt werden, soweit keine gesetzliche Ausnahme greift. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayGlG-7))",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-7",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 7 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "In der späteren Ausschreibung ist auf die Möglichkeit einer Teilzeitbeschäftigung hinzuweisen.",
+                "begruendung": "Das Profil ist Grundlage der Stellenausschreibung; die Teilzeitmöglichkeit muss dort berücksichtigt werden. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayGlG-7))",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-7",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 7 Abs. 3",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "In der Stellenausschreibung soll das Geschlecht, das im betreffenden Bereich erheblich geringer beschäftigt ist, besonders zur Bewerbung aufgefordert werden.",
+                "begruendung": "Bei der Vorbereitung des Ausschreibungstextes ist die tatsächliche Geschlechterverteilung im betreffenden Bereich zu berücksichtigen. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayGlG-7))",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-7",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "TV-L",
+                "fundstelle": "§ 12 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Für die Eingruppierung sind die dauerhaft auszuübenden Tätigkeiten, die daraus gebildeten Arbeitsvorgänge und deren Zeitanteile maßgeblich. Ohne ein konkretes Aufgabenprofil lässt sich keine bestimmte Entgeltgruppe ableiten.",
+                "begruendung": "Die Eingruppierung richtet sich nach den Tätigkeitsmerkmalen der Entgeltordnung und der gesamten nicht nur vorübergehend auszuübenden Tätigkeit; grundsätzlich müssen Arbeitsvorgänge der Entgeltgruppe mindestens die Hälfte der Arbeitszeit ausmachen, soweit kein anderes Zeitmaß gilt. ([tdl-online.de](https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L__i.d.F._des_%C3%84TV_Nr._12_VT_komprimiert.pdf))",
+                "quelle_url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L__i.d.F._des_%C3%84TV_Nr._12_VT_komprimiert.pdf",
+                "fassung_datum": "TV-L-Stand 14.02.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "TV-L",
+                "fundstelle": "Anlage A Teil II Abschnitt 6",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Tätigkeitsmerkmale für Beschäftigte in der Forschung kommen in Betracht. Welche Entgeltgruppe passt, kann ohne konkrete Forschungsaufgaben, Verantwortungsumfang und erforderliche Qualifikation nicht bestimmt werden.",
+                "begruendung": "Die Entgeltordnung enthält in Teil II Abschnitt 6 eigene Tätigkeitsmerkmale für Beschäftigte in der Forschung, darunter Merkmale der Entgeltgruppen 13 bis 15. Ob diese auf die Stelle zutreffen, hängt von den tatsächlich vorgesehenen Aufgaben ab. ([tdl-online.de](https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L_Anlagen/Anlage_A_i.d.F._des_%C3%84TV_Nr._12.pdf))",
+                "quelle_url": "https://www.tdl-online.de/fileadmin/downloads/TV-L/TV-L_Anlagen/Anlage_A_i.d.F._des_%C3%84TV_Nr._12.pdf",
+                "fassung_datum": "Anlage A zum TV-L, Fassung zum TV-L-Stand 14.02.2026",
+                "sicherheit": "unsicher"
+              },
+              {
+                "regelwerk": "BayPVG",
+                "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 3a",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Mitbestimmung betrifft die Eingruppierungsmaßnahme; die Beteiligung des Personalrats ist beim formellen Vollzug der Eingruppierung sicherzustellen.",
+                "begruendung": "Das BayPVG weist dem Personalrat ein Mitbestimmungsrecht bei der Eingruppierung zu. Die Vorschrift ist deshalb bei der Festlegung und späteren Umsetzung der Eingruppierung zu berücksichtigen. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayPVG-75?view=Print&utm_source=openai))",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75",
+                "fassung_datum": "Text gilt ab 01.08.2023",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayHIG",
+                "fundstelle": "Art. 71 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Für wissenschaftliche Mitarbeitende im privatrechtlichen Arbeitsverhältnis gelten grundsätzlich die dort genannten Qualifikationsvoraussetzungen. Bei befristeter Tätigkeit kann von den Voraussetzungen zu Promotion und anschließender einschlägiger Tätigkeit abgewichen werden; ein konkretes Anforderungsprofil ist damit nicht automatisch vorgegeben.",
+                "begruendung": "Die Vorschrift betrifft die Einstellungsvoraussetzungen wissenschaftlicher Mitarbeitender. Sie ist bei der Festlegung der erforderlichen Qualifikation für die hier als befristet beschriebene wissenschaftliche Stelle zu berücksichtigen. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayHIG-71?utm_source=openai))",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayHIG-71",
+                "fassung_datum": "Text gilt ab 16.05.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "SGB IX",
+                "fundstelle": "§ 164 Abs. 1",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Vor der Besetzung ist zu prüfen, ob der freie Arbeitsplatz mit schwerbehinderten Menschen besetzt werden kann; dazu gehört die frühzeitige Kontaktaufnahme mit der Agentur für Arbeit sowie die gesetzlich vorgesehene Beteiligung beziehungsweise Anhörung der Vertretungen.",
+                "hinweis": null,
+                "begruendung": "§ 164 Abs. 1 verlangt eine Prüfung der Besetzungsmöglichkeit und frühzeitige Verbindung mit der Agentur für Arbeit. Im beschriebenen Gesamtprozess ist dafür kein eigener Schritt ausdrücklich benannt. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/sgb_9_2018/__164.html?utm_source=openai))",
+                "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__164.html",
+                "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "SGB IX",
+                "fundstelle": "§ 165",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Nach erfolgloser interner Prüfung ist der frei werdende und neu zu besetzende beziehungsweise neue Arbeitsplatz frühzeitig der Agentur für Arbeit zu melden.",
+                "hinweis": null,
+                "begruendung": "Für öffentliche Arbeitgeber enthält § 165 eine besondere frühzeitige Meldepflicht. Eine solche Meldung ist in den Tasks des Gesamtprozesses nicht ausdrücklich vorgesehen. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html?utm_source=openai))",
+                "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html",
+                "fassung_datum": "Konsolidierte Onlinefassung, abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "eur-lex.europa.eu",
+          "gesetze-im-internet.de",
+          "gesetze-bayern.de",
+          "tdl-online.de"
+        ]
+      },
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792570167.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 48143,
+    "input_tokens_details": {
+      "cache_write_tokens": 4183,
+      "cached_tokens": 4775
+    },
+    "output_tokens": 6296,
+    "output_tokens_details": {
+      "reasoning_tokens": 3973
+    },
+    "total_tokens": 54439
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 3
+    }
+  }
+}

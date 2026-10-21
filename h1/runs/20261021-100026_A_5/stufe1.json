@@ -1,0 +1,258 @@
+{
+  "rechtsrahmen": [
+    {
+      "regelwerk": "DSGVO",
+      "vollstaendiger_titel": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr",
+      "ebene": "EU",
+      "begruendung": "Die Hochschule verarbeitet im gesamten Bewerbungsprozess personenbezogene Daten, insbesondere beim Empfang, der Auswertung mit KI, der Auswahl, der Kommunikation und der Aufbewahrung oder Löschung.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+      "fassung_datum": "27.04.2016; EUR-Lex-Fassung abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "KI-Verordnung (AI Act)",
+      "vollstaendiger_titel": "Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz",
+      "ebene": "EU",
+      "begruendung": "Das KI-Tool wird zur Vorauswahl und zum Ranking von Bewerbungen eingesetzt. KI-Systeme zur Rekrutierung und Auswahl von Personen fallen grundsätzlich in den Regelungsbereich für Hochrisiko-KI; die Verordnung ist zum angegebenen Prozesszeitpunkt grundsätzlich anwendbar.",
+      "betroffene_teilprozesse": [
+        "3"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "fassung_datum": "13.06.2024; konsolidierte EUR-Lex-Fassung vom 27.07.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "Richtlinie (EU) 2016/2102",
+      "vollstaendiger_titel": "Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates vom 26. Oktober 2016 über den barrierefreien Zugang zu den Websites und mobilen Anwendungen öffentlicher Stellen",
+      "ebene": "EU",
+      "begruendung": "Als öffentliche Hochschule muss die Organisation die Barrierefreiheit ihrer öffentlichen Website und gegebenenfalls des dort eingebundenen Bewerbungsportals berücksichtigen; die landesrechtliche Umsetzung ist zusätzlich aufgeführt.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "4"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102",
+      "fassung_datum": "26.10.2016; EUR-Lex-Fassung abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "GG",
+      "vollstaendiger_titel": "Grundgesetz für die Bundesrepublik Deutschland",
+      "ebene": "Bund",
+      "begruendung": "Für die Besetzung einer Stelle im öffentlichen Dienst ist der verfassungsrechtliche Zugang nach Eignung, Befähigung und fachlicher Leistung maßgeblich; das prägt Ausschreibung und Auswahlentscheidung der staatlichen Hochschule.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 22.03.2025",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "AGG",
+      "vollstaendiger_titel": "Allgemeines Gleichbehandlungsgesetz",
+      "ebene": "Bund",
+      "begruendung": "Bewerberinnen und Bewerber sind vom Schutz gegen Benachteiligungen beim Zugang zu Beschäftigung erfasst. Das betrifft Ausschreibung, KI-gestützte Vorauswahl, Gespräche, Auswahl und Absagen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 22.12.2023",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BDSG",
+      "vollstaendiger_titel": "Bundesdatenschutzgesetz",
+      "ebene": "Bund",
+      "begruendung": "Das Bundesdatenschutzgesetz ergänzt den Datenschutzrahmen für Beschäftigungsdaten und die Verarbeitung im Zusammenhang mit der Entscheidung über die Begründung eines Beschäftigungsverhältnisses; dies ist insbesondere für Bewerberdaten und die KI-Auswertung relevant.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bdsg_2018/BJNR209710017.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 03.07.2026; Dokumentationshinweis auf der Quelle beachten",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "WissZeitVG",
+      "vollstaendiger_titel": "Gesetz über befristete Arbeitsverträge in der Wissenschaft (Wissenschaftszeitvertragsgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Die Stelle ist eine befristete wissenschaftliche Qualifizierungsstelle zur Promotion an einer staatlichen Hochschule. Das Gesetz bildet deshalb einen zentralen Rahmen für die Befristung und die wissenschaftliche Qualifizierung.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/wisszeitvg/BJNR050610007.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 25.05.2020",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "TzBfG",
+      "vollstaendiger_titel": "Gesetz über Teilzeitarbeit und befristete Arbeitsverträge (Teilzeit- und Befristungsgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Das Gesetz enthält den allgemeinen Rahmen für befristete Arbeitsverhältnisse und gilt neben den speziellen wissenschaftlichen Befristungsregeln, soweit diese nichts Abweichendes bestimmen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/tzbfg/BJNR196610000.html",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 20.07.2022",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "SGB IX",
+      "vollstaendiger_titel": "Sozialgesetzbuch Neuntes Buch – Rehabilitation und Teilhabe von Menschen mit Behinderungen",
+      "ebene": "Bund",
+      "begruendung": "Als öffentliche Arbeitgeberin muss die Hochschule die besonderen Schutz- und Verfahrenspflichten bei Bewerbungen schwerbehinderter Menschen beachten, einschließlich der Anforderungen an Ausschreibung und Vorstellungsgespräche.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html",
+      "fassung_datum": "Normstand abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BGB",
+      "vollstaendiger_titel": "Bürgerliches Gesetzbuch",
+      "ebene": "Bund",
+      "begruendung": "Das BGB bildet den allgemeinen privatrechtlichen Rahmen für die Anbahnung und den Abschluss des Arbeitsvertrags mit der wissenschaftlichen Mitarbeiterin oder dem wissenschaftlichen Mitarbeiter.",
+      "betroffene_teilprozesse": [
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bgb/__611a.html",
+      "fassung_datum": "Normstand abgerufen am 21.10.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayHIG",
+      "vollstaendiger_titel": "Bayerisches Hochschulinnovationsgesetz",
+      "ebene": "Land",
+      "begruendung": "Das Gesetz gilt für staatliche bayerische Hochschulen und regelt den Status sowie die Aufgaben wissenschaftlicher Mitarbeiterinnen und Mitarbeiter mit Weiterqualifizierungsaufgaben, einschließlich der Promotionsqualifizierung.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayHIG/true",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 08.05.2026; Text gilt ab 16.05.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayPVG",
+      "vollstaendiger_titel": "Bayerisches Personalvertretungsgesetz",
+      "ebene": "Land",
+      "begruendung": "Die Hochschule ist eine staatliche bayerische Einrichtung mit Personalrat. Das Gesetz regelt dessen Beteiligung in Personalangelegenheiten sowie mögliche Beteiligungsrechte bei technischen Einrichtungen und automatisierten Verfahren. Die konkrete Reichweite kann von der rechtlichen Einordnung der Stelle und des KI-Tools abhängen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 28.07.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayGlG",
+      "vollstaendiger_titel": "Bayerisches Gesetz zur Gleichstellung von Frauen und Männern",
+      "ebene": "Land",
+      "begruendung": "Das Gesetz gilt für die Gleichstellungsarbeit im bayerischen öffentlichen Bereich und betrifft Stellenausschreibung, Einstellung sowie die Beteiligung der Gleichstellungsbeauftragten. Die Organisation nennt eine Gleichstellungsbeauftragte und ein Antragsrecht der Bewerbenden bei Vorstellungsgesprächen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 26.03.2026; Text gilt ab 01.04.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayDSG",
+      "vollstaendiger_titel": "Bayerisches Datenschutzgesetz",
+      "ebene": "Land",
+      "begruendung": "Das Gesetz gilt für öffentliche Stellen des Freistaates Bayern und ergänzt für die Hochschule die datenschutzrechtlichen Regelungen, insbesondere für öffentliche Stellen sowie für Archivierungs- und Löschfragen.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayDSG/true",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 25.07.2025; Text gilt ab 01.08.2025",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayBGG",
+      "vollstaendiger_titel": "Bayerisches Behindertengleichstellungsgesetz",
+      "ebene": "Land",
+      "begruendung": "Als öffentliche Stelle muss die Hochschule die gleichberechtigte Teilhabe von Menschen mit Behinderung berücksichtigen. Dies kann insbesondere bei Zugänglichkeit und Nutzung des Bewerbungsportals und bei der Durchführung des Auswahlverfahrens relevant sein.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "4"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayBGG/true",
+      "fassung_datum": "Zuletzt geändert durch Gesetz vom 26.03.2026; Text gilt ab 01.04.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayDiV",
+      "vollstaendiger_titel": "Verordnung über die Digitalisierung im Freistaat Bayern (Bayerische Digitalverordnung)",
+      "ebene": "Land",
+      "begruendung": "Die Verordnung enthält Anforderungen an barrierefreie Angebote der Informationstechnik öffentlicher Stellen. Sie kann daher für die Website und das dort erreichbare Bewerbungsportal relevant sein.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayDiV/true",
+      "fassung_datum": "Zuletzt geändert durch Verordnung vom 22.04.2026; Text gilt ab 16.04.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayArchivG",
+      "vollstaendiger_titel": "Bayerisches Archivgesetz",
+      "ebene": "Land",
+      "begruendung": "Als öffentliche Stelle des Freistaates Bayern muss die Hochschule Unterlagen, die sie nicht mehr zur Aufgabenerfüllung benötigt, nach den archivrechtlichen Vorgaben behandeln. Das kann Aufbewahrung und Löschung von Bewerbungsunterlagen beeinflussen.",
+      "betroffene_teilprozesse": [
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayArchivG/true",
+      "fassung_datum": "Text gilt ab 01.01.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "TV-L",
+      "vollstaendiger_titel": "Tarifvertrag für den öffentlichen Dienst der Länder",
+      "ebene": "Tarif",
+      "begruendung": "Die Stelle ist ausdrücklich nach TV-L vorgesehen. Der Tarifvertrag ist daher für die Eingruppierung und die tariflichen Arbeitsbedingungen relevant, die im Stellenprofil und beim Vertragsangebot zu berücksichtigen sind.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.tdl-online.de/tarifvertraege/tv-l/",
+      "fassung_datum": "TV-L-Stand 14.02.2026",
+      "sicherheit": "sicher"
+    }
+  ]
+}

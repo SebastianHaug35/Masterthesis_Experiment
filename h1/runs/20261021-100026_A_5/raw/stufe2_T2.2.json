@@ -1,0 +1,479 @@
+{
+  "id": "resp_0baf09e1288ad235006ad871882f6887d19f38e72393f0e380",
+  "access_programs": null,
+  "created_at": 1792569736.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_0baf09e1288ad235006ad87189236487d19b6e91babf0eea38",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu 32016R0679 Article 12 Article 13 acknowledgment application receipt recruitment",
+          "site:gesetze-im-internet.de agg § 22 beweislast bewerbung eingangsbestätigung",
+          "site:gesetze-bayern.de BayDSG Bewerbungsdaten Eingangsbestätigung"
+        ],
+        "query": "site:eur-lex.europa.eu 32016R0679 Article 12 Article 13 acknowledgment application receipt recruitment",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/vsvgv/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?qid=1789069736876&uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/bpersvwo/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/aktg/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gkg_2004/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/fev_2010/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/pbefg/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/tkg_2021/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/beurkg/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/AGG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gentg/GenTG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gewo/GewO.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayDiG-24?all=False"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0baf09e1288ad235006ad8718cfcb887d18e3ef62e63e51273",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HGbTaYrAc6lUwHkpWqpsin7ikzQr4GQLtTo5jWnUa0cfMejgBOxXREIAzgdi5up2ISJYgl0PjRYcG7Euq6_RqeyY2c_bYU5qyleWuQucWajJc8NoNej97EIwwvoO6FoNiGHggRanfdarii-lZdINwY1tm_5lyL8lGy86qesS1G7mzfwjoCKavoEysTdTZ5h3MydDZLOLZYzXtzvmfebFVYkZHUEhtFkxMGRHdrBC5qb0eMeqdNmcNzAY9Xu-cGZyRcOpYjuBY7s4qeuoDNQ5NSyU7z4-li8Mw3UlXFATFu1KpeHu83to13RF0Iw9LBRfyEsWcm_9CmXBIvFp_nVL6UZM2F8Hp6tv_7AvgWG2XPFLE2YMtX3zYLu2Ksewg04bBKjPFMnqZ1umhXchUccbi7CSeE6T6OCATmsrQS3OXm879-fLHvuvvKDR-noNEzvr0j8fdyGbC3SaXGS6Nk2XGf0ON2Pd-0uPzDRRWl8wtmk3a7IXjd6sLPz8TGuc6ea4b8yfbLtJoH-mz92bPYll0-ZskKqj8Fz71acltVpf6yTd7jNmfPcrFxHzrNCtkuhP89FS60MFygVOBVlF40Pxl-lbC-G66ybQlWGEs3c5q1_Tkss0pakAR9YgqWkUUliuw7YDkkfHeGtPRo7ZFPSR4BlBRj6gWPB1fzXIm_qMGim5ej_NmOrz5uSzzbOOQOS-8MhZdir_Xx0NwsJTdewuyeu3K9rYf2ktdW-6r0flmh_QwGbKSInUWP5ScbTYoV40hb9uA6NM0pxurtLtX1DWG9ftbSu5SM3w8A3iyGmVzPsVAEquT-gp6z3Aynh6DwoKb5h0RX-XiS7dtP3lX_oKmtUYYfxTVCEy-JWONfCdleW41y-U-tEi5b1ikesM_6CqjdzjfDkJ3isZPmtD1IApJsPP_2P5d9TnZPOK_TsaZCzECJ2s9ecWKEJFR9RgkNEDpsDbnG0l5_1bLLMg059P4xJXcFMw6EtgGJkGopbDyCeyDOTw45vi9fM8eEvfk-UjX9iJYtt9ALXMVG_LavFmWtK6n95cDZce1A04qu0SfW2fGVr5ir7w9rHm4QLXkgayieKimE5VtUemb9qOxMkIHyUklAnMU1KGh8uBmQZGdNVg-znfxZy_7X7F1LKpfvFUWjZUdfsb-_Q6U8G-M04t0q7hKCSHTbWivJQ92fHCC9u6I0VPQz2NDtxHa6HU4s8VovlPBhIbxu5HTjSnPYTKFWllfmouV-jkg3-USqVSwdzTG1WLIQfjI-fGWgBZs0oyCuHO2z5tSBY5kkIdawWwRTZGYbCdvp9-KYGEkkGDzDKktRRKn2R9bVRERWJ2CiITQCD7g45th2SVwXs2HNEwXz_FgZFaBJHwOm6cjegFbj8SicEfcMPXiI7HgwWqNMXZgkNFkx4loG_sX1JLnP8hoaue9eMackdLfrKpTlFiiJxAacRZzV9pH9F8sg4X19hr9MOHjxWp9UrwI7jY89codgO-u2n1he7_cKbRRGueWX17UB8tTT2SC26-btwEEKWcSh18M6wecx_BKElueGJy3k3V-DfltekVsiX4MMqXneRrylXd2aW95uG9CwE2_Fx6vP_DRJL1pURNh4wVitr97B8QHGRHtjsT4iqwfejdrJ8GKC-advjsYivpew5PmSgIeuu5tl9eKb5HXsdjDLYpjLnPGprBnJHNkK3CaqA_8_bgvAeASio2JEHUfc_MyorU1HHQ1ia6zJ2SCwq_sE461wJNVp4ibIXKX300X3eZavDIR87E1G8oKO7wmIyIn56F1dbEqlVyRfPp7nWzolBgYvpDen0EToTC07YeoLJoRpt5lGgmDL5gy1fsCy7wGlZ-ah_tYezsuOIIf8fqFMCerTQcSruSvPKdDBtPiMm8jfpmhliu4NRqJu02330RJB1kK5rsHXDdf2f8cI3mSxOf4TNnMqF7rsnrh41WOFz4PidDTHXOdBqHxGqzWahZSlTjM_J6wFTcRCGFdblJMF4OQlLfivHfrd8LGxR0b30zlSAYFQ5KMcnNCPqdBGXRLTZ-MmVT3gHCw8WS-A8ugwJTLDQrfl89uGRFa9tjFjsAJEPXyhQguabtn2O6JaPCTPDpEnW9X_o-XZOZvrJeoS2o3KCKDDHOPfviVTR7F80hOiy-MuKoW6vKmLM_mU2quS7V6oHkJXwCf4CZjebJ-6DuSklOwglr_4nLWDk90TbK7o9beH_k7xl-f-ONu71KTUDmAY6rV-gNs8IgLTKib3x9TMviEDWAgF0adqI69y1XueUmPvrJ22U_tf7sqRS5gQq5ITDoiYwKDcGc50sawiDYjy1WOdBDD07U9c4Hn4jmQ2Qdnoisw61_6gKuOiC4jG7L4ddDjFrb92seYChkqc6XWgxvn37Fnzy3gAlZl2NFXuUNb87PY9ulGYZLP9oGNeDEuli-q42Byzr82rHZ4k1N7MAMrlCcT7Fu4kUZ_GEttFbuN6ew3I6SjeizbXq13qB7sXvSOciTl-lN2FLUYR9ST9NPna68ivE9xH9BqQ2Q0OkW9j6Com4im1a5MRxdvBNBZ9BoIlH1HfiYdETMbe96zFOblxeSmi5xYqoDKBwHCfcL1dyxaHuAOWIWSHScxe5pkU93UWmbFztdhjHsA9b2SrrV24Idy8kWiKEQytRGH2HLTuVyJpFV5Ar05Eq6tckZrcE2IzgVCcIyyn5BhdeqBTVksGe8Bi8TL_Nzyzt6vmwyrvtxNWD7Yvdc3VpqGLxF23ekRNKQQu-pGj-88ONg7Kh0XEynyt54T2UX6d1lzVKXpBTWbB9m3-ZQNfYeMUdjw5nC7SCDhN5KmJ8jsH5mGYGtGxt9aghpEIGBgVwcWAuYnnKv2v0mmuj9qyikAlJdKOXasjeeB6fqLnTJdzS0gPShZFcJvNWEDWj0DSg54YVV5z4iGiBDRFzG2RlhCgh48woO8Yohe8xH6d3bm_xNx1truNTEF6jJgfFnI5b3dFmK17vJvgB_Y9a2xQkRc6JFtJCWM3y4SvDQE9L-gLpzBJG5xUeQiunt0tWR7GKEBQA9gGo7YWuUfv5l57K9u-QzYh7Xh_g4qc7nl_gFyuqK6LsWIbIigzhxMXStn0lxotefED0IiNBp-Ypdu9Ehxwv5vriYEwUoXvD2baiYMq6_qcKP7J1oZREBw3j_V2X13bPnryKtseNB3oLX7HeBBAnOIzKFKSTOPr_b8d47A0gGrliBPXcxH5hsq-NwfNyB5-Oz4nLXZ3_6KPgwnEViGtsQ6c9gW-S3mOS1to0L6eKpn0a2a3FcwyaUmSkGa599Q-lUb-91eNMQBzn8usFDD6tq3GwvhuQrqrDanxj1MBzx5nq5E0QcqXDnLiKPwXm1h_8T2bdlMcObpM-gH1QdtI5_iYfnZ1FeNe5RUWaUyn0stmAzc12APfvBOlTt4gsVMZMtBeuoxnf8bsD2A3k9H2ki7tb5lMaVtksUj1nMybgA9Kzr0Ek2FlGHL58y0iV3CLjNhh7Ij6RCRnjRHFsmf_BXNd4tgyY_uxK-BwLr0iV5Xngh9bUhX7HL7xIJ_DvPTA_PnTumEPxE2y0H42IdqpVpG2jaEkaNcp92RAP1hW9D0adHCtCJQ_JoftyZZ7Eye5pmhTthj63MBghoJrNAHRHVp5OuGMT6BDSG-f_IKdePTP7VuaFOUU3SfJq6h_f9tnhxukZ_QvjJ5tfIH0teYpGWcXQl2BX49ecEVibBqp3o2XLQzU0hgMVp6DlK-oATA8joYJaDqGuEskFsgKjuWNCgckcoYiuvn5L9zb438DOGxJ65q5C5VDgZYwE7eupPHwGl9_3BTrotz2i-_ofIAHmdt75r7AU7wYlC0tO1m7Qfzr6cV4yN4bhTLBnteLRwtLdwDH9NCMfIFBEhowmtWvnV0dRebvmCUli1-ovYgFBZX4MqakP_qZ2aZLQEUxZPtVB8vOdKtcBW-xgZDpO4MCO82dA9Yo99UcnB9pTuhAm0bFqVsEZgwRyhOFBOHNyN0F_YQJM_ahSugUDgxtLAhtMmT4UHl1yKK4OzxUs5JdpK4IiuRhiA5_3Kojd2DMkYO1M0V_vaXWJwJaPS4iGDulxKFgDGg2UY_b-BRbhL1w45mRTLsiOVx_BKJnl91lBoJrZ3_jrgIN6rnphGOf8_BmIgvbEpDaa19l5SMKA8fWcCH2lxrjs3Zih1LhI7pU7f_B-rg552_dQudPh2w-fWt_RFrv77ZLX7CzFx8CyChukG8tlekm5R6hR4VR-R_vs5OKgbeshE83vhpK_d0_GdmzqkWjGiCCMjIbsLQT3ZlBdvSbeIPkgoFV2__-_PMtuAW958HH631fW-V4DTGSbBIpt-Ctj-A_zF_XvpzI585soCmxOW8DSqdGiSrMAin7xEn2PbTbNj_3vpYzEWg71Y4otilfoDmAd6FZEyGETcLeYrhXN9a75RjRrdjhgHS6aCbzai7bHmsKt06umWzyKyjXGYbqqRnl2nXROqbhtOZmh8WXuTLrAjmkIANaNiS9QQpkVMsZaKJR_sr0JSn8Hrep1DT9jPrZGuwpo-qogouxhx6lhEEm5ZDDkmUt8p6bVA8t4K1vAy59dAdT5b2RO-Ap9LomFhBNU6qI_Jmwg6S0baMJ_pssNz3GPCTd1_Wa2FP1w3ajJv1jdeOoJSw3jjdF5GJUPN21zRIL_x7WjssqfT2KFsQey3UpHBWady0g9otvrPL9sUBcpHg3JUKZOkgZorO7auzNDkeogT-oPEYTLqINilOKPEAi02Ua7gYsRTn4ZOxN6nguBWdpZlTxg5GaUP-dFfcAx5WTldbd7C2lMovtvPnodvCjNQYiMhDqfH7k0SbLimno-OSuopWKpwy0WAd9TmoRKF_9QKApiLvmni6PBaYRLVRhbJ5YTosH56Z825AUlrK9-CLtPgvvM-GwYtdyo_WgDIZwlMPBPpC2VHZyRRnEEyWRRki4OmiV3k5Irevpo_DCVZOBNtwwb4ZTyXA_lgHzcecUqRp7joMdGR7HsKdnztDcYGJrl9Z7uiE6y-AbqZOv6kNZ6JLr8ZfJrjrh9M9G5KEqjWihPYV-JH6w3bUYUjtGdqHppyMtN2TQBlsxLExIWzJk3LRMEpf2l2mOwXRqt_R_x-tCMmIc5vcnCc7GoRfJA1XwTUpTk_xtvfKXQgvXB_h94eMPkPH--kJBeCiJMf5dc-2uMOGF7TCBPRDGXSzsg_TCfRdN9WsEMdZFNpcY0qfH86jXRVq40Vz1mhicIl6jkH1_eXADIvdFcBaWnjDFZRE6WXVWf8Moo9T6j_kkvwhhyIG7-raS8yy5Br2TiP3ZdOvgowU3f4auD7xKRuU5Nx9s3m_Rnw-BU-kN24wWWToW5WwpeI1Sz679utn7JEbpViC2cB0fPyZQ_nZvioYQEnJalbV2B2Dah_Tht1x-E2u7OcXzOocTo7IoN",
+      "status": null
+    },
+    {
+      "id": "ws_0baf09e1288ad235006ad8718ef83487d1a518c8200a30d9c7",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679 \"Article 13\" \"at the time when personal data are obtained\"",
+          "site:eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679 \"Article 5\" \"lawfulness, fairness and transparency\"",
+          "site:eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679 \"Article 12\" \"clear and plain language\""
+        ],
+        "query": "site:eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679 \"Article 13\" \"at the time when personal data are obtained\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32016R0679&web=1"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?from=DE&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1496048922207&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?from=FI&uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EL-EN/TXT/?from=EN&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CONSIL%3APE_16_2016_INIT"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-SK/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-DE/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-FR/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/CS-EN/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/FR-EN/ALL/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-ES/TXT/?from=EN&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-PT/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-PL/ALL/?from=EN&uri=CELEX%3A32016R0679"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0baf09e1288ad235006ad87192072887d18bf9993ee457bb08",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HGbsvVwAwN3JNCyzxPVu0pMNXUtLo4Da3flxF-o_0ACtiT-0_NOhdh5ot9oxnIvOlKY72v1bgHj45z54Jl1O7mm2V4eI8lji8-G-GAV8BhRwYWzMnETAtVvHp-Wd5zeZMenbkBcZG_QZdvX_hfaKETmcUvKSWI3J1Ftiz-1jzGjzo_8Lf8M3dCSG9euytUVc50DeaEMqai0zHk-jTsqYpnPvryE_4Y515hR4lBahkrAJcKjCjmzJdzM7G9N9vmXUZfBNyfK7iLjD_9yJK1_8xtKb1IOAswZQh1XsLEpSYIEIqfTIr9faML7OAGJftvdpV3wAmEppjTk1SMkOSs0qU4Fg_gcjLsEhsw6YHGeUBp_D1ii67JppjCL2c133ancB2jXqQUUStfsxI15aeFFcAP7YKCMLeNbZBQd-2Ooe3OwxYMUEynXCd3L8lC26UPB52ou2x67DJnILHKEkXwaUOQcFE_NULiD1XhKk8ftF7mrEXRWxI8vTcvJ4xlIdRig7QRI7ExcBXAK1Wn2FmxrizmsSpUguSSsrfKX_IHzwUgJuozZ-5sHXvzd29nOJhuD2YApTlIq9YifS3py4Wi1QsEXiH6jsHhthbCeUNKVDcCRKLvTmpnICjUxTp68zg6aIKLXwNV4h7BkOvVnV-_gukcHxG5wdbH8cgRD0QNuTY16IGC85nQ39bgnYdAzZkZymSor0SnLXmFWWdMER42zVZeusXizblLTCw7pv0mr0CVkGVmjeRBEodr61Zab-8GqB7CcK5d-GEasXVkkB3pEOuxMjSSLK72FPjGxrAwkQ-SjcxRfiAmLZv0joLSNCVatPqtbcbeoHT4-iATMUten1Mu3KG_svJ8GZAB44Y8S8IDTZENEoptdJs6Q2JfmKuYknH1aIJXQSLFvCtBZ81S2INf82J3Zn4XPdz29CdMVDOzBGzPZ28xCM3aID32-UPCvIcVelpGij_oNTGrCKkuNFuEJ0TZ2WrHwL4LzG1DQ3sYQFZ8gIHgv3X4WTblnBTgQ1DQNNo2plTKimpdQNp3grSshxfQ34XXIPFy-QSVnIwyqN3pbDhx8qQfpeMcsfTnAeaEFv2r6BJIcZyWQFQwI-PO_tF0xDsYyOuP9wAW8LWbYYkAScTXHBvqjVyTXkLcPtYD3lrvSifzgGhnoyA7Es2Cp1CpavQ9HxWmmbhsdTwfZhxQf1vRPCwqcgn0csNQzVT-lgEd6Z9sszr2Xh-SyQdSnupBmzfBDzqgANBTNty5044tA2rqVF6ZYQ7N0RBsPLlMpj_JcoRkHd4cNJtbwst4aDfEK8MNxFHeiiBp_QocesZm7LPYgMRBglghNVvA7afeHqHttgF8a-_jZthmxE1O8oQqC0XAsf--hDEoKDRcP6ENUb3FGG8UXOakAcxr3yY5vjiGUzHY1q9FlDyRnA1TUucyVHvN2dw6b_rrRCH_gRYhROaOML7uwx-dUnMk8_bqo97erdbHVSunTdYVMwcFO8AJoAQwabzvG4vsoeGCx7MPrr09mQwEnwwbjzK3cuufNb8E65QYJcc0gzPJn4yYmhbbDmW-BWydPK6BtalzYhVtMb7fp25Lw2GnbTdCz_iav4-W4sASGzsYAs5yXYVD17lVm5YulRg14tDgTe2u2vkde7WXTLxIgrqE6Wgu_MlOq5bwFaOKTEy5v77degCgFvos1XeykRZ-Oh1cWqOQK6RuyijBTWstut5DxWUsw0zGmf2Q7hqAifjWqB1jTvnaHPEa1mJzJpkVJxMmwwabYrTkr-5kK2oaPkq5Olk9gOhSgUdnY81cu4WiPBqCNssEyTVHzvlV1xpnZ4ceQDErjDdAhWlYqQ8-xCmV0hcpO-keaVuCRYEGBwSCq8v_bmSQbKQAGdM-EJcgIzmqse5NF090snwxqGqPeDFZ78ERGXO9hdwSD9sl8qHfwmCaqP7HHRTxNuKz4UIUNbn8VQ-cSXuqxn7t_hBMnMQNeug4xaTHdmnBPX1bI56vB7MS9PrjC4Si1zTgWo1TwgQU-51HeCcKtzejXHN7HRaFci-qj_oiXI7yOVGsYYfKOB_Clg-qOZS6vZDYwogpoDYOSOXHjYw8fpp49-ZRyCNIOgOqD_I3w45jQ3_Kper-M9YxE8d7HGo1_vj5R_7JFOjYUlNPVccbft-9kuM49Ld7VD9O420YzJEvpCkMDVHDkBQ7Gw0TS06sgzEhL6ADM7ZCiGxlZoyY4rgAL_-MO0x-g2Lbp85kxIlKzu5sYFKxwmHtFvdE3r1jKm_21vUBORr3aWTakRB1ftjDLeMNfvBBSsK3_8XP7IlZB7dsgxaVdJqLUwwJWlZ-z_nnZezUyw1xAwWsltxDX-rnqzZ1hN-THS_9kW5pKFzlIK1NZMwcEOOvRrBjcdivfFUBbMEhyd2H4AS_nTT1Xgl2bXgP36h7dtDKi4XVtaZDAHlcLhZ3fR5pxekRidarOqFNllZixLnefor8SZbV58WewXeN43Dwg55nwWhg0M9sx3K0M33gIiviZiOncgxXp5rWYW8Nc3F_5FB6VevkFk3wvPjybfkrmwtSQvmAzwEs6I0FFd-Jdv1KPftOQiM_DpDHcCCInhOR15ydDEIofahgkStUaL8S5lNkOMp-VOnew1CNEsjTrlUY-uMSjQe9KLlzbWfwz_AEmQcLVzdYCv0E3b72xpBae-NWr2q9HmzWxhj3a7zWQbi0jOZfm2_N2N7Vkl4obKEtMC0jtbH1yLracGHY1L7O5fjWtb1xmgE89ttHzpcEHrBJgayB-o5QKTSxYK2OancF6GgkXNxWH3qoOCkswSJJFdD-2XafJV-0_7tVUEKaMwuZwJsDwRegggCZ62AC6AsQPql4lwu1sYMj6XLjkaRcWznxXq5zhTGrdfk9vUgWRdgj1vveVJfPb_R5DzIfPJg_9jeeR4iLsFxerfUQty47X-izQAoqTaQoitrYKYTwWGhocrnMSfs-FFJxAriRIEBWnRx3XOEZKe397wr19HBHRECIc0tkT6itJUvoV5E1UhUqoHx7EuxhgxT6WVjS-iM4pt9PUVpmo8ORROs0ISn3pcziH1WR4V5Sg5K9FL1phPWbz9Vjmz00uhNtZ9uoIDMydhsQgyfWfJ4x0MCG9qyIrK1igR_sg-SQt9t9-uGW-KvSVa2oLbYwXgxOGV2ycVj8SASYPPvCI0XkfHNyTNUJDYhaNrK25KoCVZ0pK_pK2ifWDKbx1UzNML6m7rPQzKSoiodNs29UPinbZKKXKh3gcPOptyyKY1Ij2vP2ar3CVaHUJZ94_4JatrsZf_-6hUEBW_a4u6GcCGFIpn1mZke-Ez5_Xg1GaDOCFktfa-7pqx7FS-pQrsRpQVowHEq0CW3nNsqQ0winRnYRIq0gI5Xh60NfK0-GCG9eWuhF3Wp-e0_ChvXWeLl0A_iaUllG9ka5_cqLPFfBAL7ydb8ZwXTj-1n1ou8h-qS6IIo8onkXHKw_CwUXW3suuF-8TJ-HRl-Up9hOojr4d78xJkGEbTcn3AKkAKTm780so7Q_0l_jbKqJiUhn8ycT-470IMptYlys-ow9dWwoMq0vB1uCtE8NprT1ftKDOcfgsWKnZmkpLZ2ViIOWKJACkb7IDDmjOupdH1jmG9EEQ4TQoZ8PitxDeispRQhDCVlKmuKLijGc5cpFEKo0AWkI3nnkH2egjvfY0DttlCzdqNYsg4bRuGSw501OkaNgQ_iR_xT7sOYXxbypGcU2pwg-pDXqQkTSeMyQ9BsReOEGu0Hz8QIbUwZQH_SP5zuwQ-qIQT0V0ZKkrisyqgHti4auy3HA51J2aJ0Nh53o6ESntz4263ux_QzWmgUYkj3Sc-CLgIVc3YtAyRRZDQaCQxWz0G_opnXkpQ05nhd9922UkL8lReNeM2NWJ2xRuLcuQGDZpp8M3Lsi1Eg8uTfeavjMRyD0z-gmt6TirgSbxfWNidPsdBn9eFRoVNzN2Z0v-",
+      "status": null
+    },
+    {
+      "id": "msg_0baf09e1288ad235006ad87194a26487d182ef98b3c6e9aaa6",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"funde\":[{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. a\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Eingangsbestätigung und die dabei erfolgende Verarbeitung von Bewerberdaten müssen rechtmäßig, fair und transparent sein.\",\"begruendung\":\"Der Versand der Bestätigung erfolgt im Rahmen der Verarbeitung personenbezogener Bewerberdaten und hat daher die Grundsätze der DSGVO einzuhalten.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2016/679/\",\"fassung_datum\":\"27.04.2016\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 6 Abs. 1 Buchst. e\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Für die Verarbeitung personenbezogener Daten zum Versand der Bestätigung muss eine einschlägige Rechtsgrundlage vorliegen; für eine öffentliche Hochschule kommt insbesondere die Verarbeitung zur Wahrnehmung einer Aufgabe im öffentlichen Interesse in Betracht.\",\"begruendung\":\"Die Eingangsbestätigung wird im Rahmen des Bewerbungsverfahrens versandt und verarbeitet dabei Bewerberdaten. Diese Verarbeitung bedarf einer Rechtsgrundlage nach Art. 6 DSGVO.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2016/679/\",\"fassung_datum\":\"27.04.2016\",\"sicherheit\":\"unsicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 12 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Soweit die Bestätigung datenschutzbezogene Informationen enthält, müssen diese knapp, transparent, verständlich und leicht zugänglich sowie in klarer und einfacher Sprache mitgeteilt werden.\",\"begruendung\":\"Art. 12 Abs. 1 regelt die Form der Mitteilung der Informationen nach Art. 13 und 14 DSGVO; die Eingangsbestätigung kann dafür genutzt werden, begründet aber für sich genommen keine Pflicht, eine Bestätigung zu versenden.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2016/679/\",\"fassung_datum\":\"27.04.2016\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 13 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die erforderlichen Informationen über die Verarbeitung müssen grundsätzlich bereits zum Zeitpunkt der Erhebung der Bewerberdaten bereitgestellt werden. Die Bestätigung kann sie enthalten oder auf eine zugängliche Datenschutzerklärung verweisen; die bloße Eingangsbestätigung ersetzt die Information nicht automatisch.\",\"begruendung\":\"Bewerberdaten werden bei den Bewerbenden erhoben. Art. 13 Abs. 1 verlangt, ihnen zum Zeitpunkt der Erhebung die dort aufgeführten Informationen bereitzustellen.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2016/679/\",\"fassung_datum\":\"27.04.2016\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 13 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Zusätzlich sind die Informationen nach Art. 13 Abs. 2 bereitzustellen, insbesondere zu Speicherdauer oder deren Kriterien, Betroffenenrechten und Beschwerderecht, soweit jeweils einschlägig.\",\"begruendung\":\"Die Vorschrift ergänzt die Informationspflicht bei Erhebung der Bewerberdaten um weitere Angaben, die für eine transparente Verarbeitung erforderlich sind.\",\"quelle_url\":\"https://eur-lex.europa.eu/eli/reg/2016/679/\",\"fassung_datum\":\"27.04.2016\",\"sicherheit\":\"sicher\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "funde": [
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. a",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Eingangsbestätigung und die dabei erfolgende Verarbeitung von Bewerberdaten müssen rechtmäßig, fair und transparent sein.",
+                "begruendung": "Der Versand der Bestätigung erfolgt im Rahmen der Verarbeitung personenbezogener Bewerberdaten und hat daher die Grundsätze der DSGVO einzuhalten.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2016/679/",
+                "fassung_datum": "27.04.2016",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 6 Abs. 1 Buchst. e",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Für die Verarbeitung personenbezogener Daten zum Versand der Bestätigung muss eine einschlägige Rechtsgrundlage vorliegen; für eine öffentliche Hochschule kommt insbesondere die Verarbeitung zur Wahrnehmung einer Aufgabe im öffentlichen Interesse in Betracht.",
+                "begruendung": "Die Eingangsbestätigung wird im Rahmen des Bewerbungsverfahrens versandt und verarbeitet dabei Bewerberdaten. Diese Verarbeitung bedarf einer Rechtsgrundlage nach Art. 6 DSGVO.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2016/679/",
+                "fassung_datum": "27.04.2016",
+                "sicherheit": "unsicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 12 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Soweit die Bestätigung datenschutzbezogene Informationen enthält, müssen diese knapp, transparent, verständlich und leicht zugänglich sowie in klarer und einfacher Sprache mitgeteilt werden.",
+                "begruendung": "Art. 12 Abs. 1 regelt die Form der Mitteilung der Informationen nach Art. 13 und 14 DSGVO; die Eingangsbestätigung kann dafür genutzt werden, begründet aber für sich genommen keine Pflicht, eine Bestätigung zu versenden.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2016/679/",
+                "fassung_datum": "27.04.2016",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 13 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die erforderlichen Informationen über die Verarbeitung müssen grundsätzlich bereits zum Zeitpunkt der Erhebung der Bewerberdaten bereitgestellt werden. Die Bestätigung kann sie enthalten oder auf eine zugängliche Datenschutzerklärung verweisen; die bloße Eingangsbestätigung ersetzt die Information nicht automatisch.",
+                "begruendung": "Bewerberdaten werden bei den Bewerbenden erhoben. Art. 13 Abs. 1 verlangt, ihnen zum Zeitpunkt der Erhebung die dort aufgeführten Informationen bereitzustellen.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2016/679/",
+                "fassung_datum": "27.04.2016",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 13 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Zusätzlich sind die Informationen nach Art. 13 Abs. 2 bereitzustellen, insbesondere zu Speicherdauer oder deren Kriterien, Betroffenenrechten und Beschwerderecht, soweit jeweils einschlägig.",
+                "begruendung": "Die Vorschrift ergänzt die Informationspflicht bei Erhebung der Bewerberdaten um weitere Angaben, die für eine transparente Verarbeitung erforderlich sind.",
+                "quelle_url": "https://eur-lex.europa.eu/eli/reg/2016/679/",
+                "fassung_datum": "27.04.2016",
+                "sicherheit": "sicher"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "eur-lex.europa.eu",
+          "gesetze-im-internet.de",
+          "gesetze-bayern.de",
+          "tdl-online.de"
+        ]
+      },
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792569755.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24034,
+    "input_tokens_details": {
+      "cache_write_tokens": 4390,
+      "cached_tokens": 4775
+    },
+    "output_tokens": 1567,
+    "output_tokens_details": {
+      "reasoning_tokens": 768
+    },
+    "total_tokens": 25601
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 2
+    }
+  }
+}

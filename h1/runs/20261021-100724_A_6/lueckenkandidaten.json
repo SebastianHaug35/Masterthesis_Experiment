@@ -1,0 +1,380 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "EntgTranspG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Das Gesetz betrifft Entgeltgleichheit und Entgelttransparenz auch im öffentlichen Dienst. Es ist bei der Festlegung beziehungsweise Anwendung der tariflichen Entgeltregelungen und bei der gleichstellungsorientierten Personalpraxis zu berücksichtigen; einzelne Berichtspflichten hängen von den gesetzlichen Voraussetzungen ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1",
+    "task_id": "T1.2",
+    "fund_id": "F013",
+    "fehlender_schritt": "Vor der Besetzung ist zu prüfen, ob der freie Arbeitsplatz mit schwerbehinderten Menschen besetzt werden kann; dazu gehört die frühzeitige Kontaktaufnahme mit der Agentur für Arbeit sowie die gesetzlich vorgesehene Beteiligung beziehungsweise Anhörung der Vertretungen.",
+    "begruendung": "§ 164 Abs. 1 verlangt eine Prüfung der Besetzungsmöglichkeit und frühzeitige Verbindung mit der Agentur für Arbeit. Im beschriebenen Gesamtprozess ist dafür kein eigener Schritt ausdrücklich benannt. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/sgb_9_2018/__164.html?utm_source=openai))"
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165",
+    "task_id": "T1.2",
+    "fund_id": "F014",
+    "fehlender_schritt": "Nach erfolgloser interner Prüfung ist der frei werdende und neu zu besetzende beziehungsweise neue Arbeitsplatz frühzeitig der Agentur für Arbeit zu melden.",
+    "begruendung": "Für öffentliche Arbeitgeber enthält § 165 eine besondere frühzeitige Meldepflicht. Eine solche Meldung ist in den Tasks des Gesamtprozesses nicht ausdrücklich vorgesehen. ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html?utm_source=openai))"
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1",
+    "task_id": "T1.3",
+    "fund_id": "F021",
+    "fehlender_schritt": "Vor beziehungsweise im Zuge der Ausschreibung prüfen, ob der freie Arbeitsplatz mit schwerbehinderten Menschen besetzt werden kann, frühzeitig Verbindung mit der Agentur für Arbeit aufnehmen und die gesetzlich vorgesehene Beteiligung der Schwerbehindertenvertretung sowie der Vertretungen nach § 176 SGB IX sicherstellen.",
+    "begruendung": "§ 164 Abs. 1 SGB IX verpflichtet Arbeitgeber zur Prüfung der Besetzungsmöglichkeit und zur frühzeitigen Kontaktaufnahme mit der Agentur für Arbeit. Diese Schritte sind in keinem Task ausdrücklich beschrieben; T1.1 „Bedarf melden“ benennt sie nicht."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165",
+    "task_id": "T1.3",
+    "fund_id": "F022",
+    "fehlender_schritt": "Nach erfolgloser Prüfung einer internen Besetzung die neue oder frei werdende Stelle frühzeitig der Agentur für Arbeit melden; die bloße interne und externe Veröffentlichung im Task benennt diese Meldung nicht ausdrücklich.",
+    "begruendung": "§ 165 SGB IX verpflichtet öffentliche Arbeitgeber zur frühzeitigen Meldung entsprechender Arbeitsplätze an die Agentur für Arbeit nach erfolgloser Prüfung der internen Besetzung. Ein solcher Meldeschritt ist in den aufgeführten Tasks nicht ausdrücklich enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1",
+    "task_id": "T3.1",
+    "fund_id": "F059",
+    "fehlender_schritt": "Vor Beginn der KI-Auswertung eine Datenschutz-Folgenabschätzung durchführen, sofern die Verarbeitung voraussichtlich ein hohes Risiko für Rechte und Freiheiten der Bewerbenden zur Folge hat; das Ergebnis und erforderliche Abhilfemaßnahmen dokumentieren.",
+    "begruendung": "Eine Datenschutz-Folgenabschätzung ist ein eigenständiger vorgelagerter Prüfschritt. Im beschriebenen Gesamtprozess ist ein solcher Schritt nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.1",
+    "fund_id": "F068",
+    "fehlender_schritt": "Vor der Einführung beziehungsweise Anwendung des automatisierten Verfahrens zur Personalverwaltung die erforderliche Mitbestimmung des Personalrats sicherstellen, soweit keine gesetzliche oder tarifliche Regelung besteht.",
+    "begruendung": "Die Einführung und Anwendung automatisierter Verfahren zur Personalverwaltung unterliegt nach Maßgabe der Vorschrift der Mitbestimmung. Ein Beteiligungsschritt des Personalrats ist im Gesamtprozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T3.1",
+    "fund_id": "F078",
+    "fehlender_schritt": "Vor der Inbetriebnahme oder Verwendung des Hochrisiko-KI-Systems am Arbeitsplatz die Arbeitnehmervertretung und betroffene Beschäftigte über den geplanten Einsatz informieren.",
+    "begruendung": "Die Vorschrift sieht eine Unterrichtung vor dem Einsatz am Arbeitsplatz vor. Ein entsprechender Informationsschritt für Personalrat und Beschäftigte fehlt im Gesamtprozess."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 11",
+    "task_id": "T3.1",
+    "fund_id": "F079",
+    "fehlender_schritt": "Bewerbende darüber informieren, dass bei ihrer Vorauswahl ein Hochrisiko-KI-System eingesetzt wird.",
+    "begruendung": "Die Vorschrift verpflichtet Betreiber zur Information betroffener natürlicher Personen. Ein solcher Hinweis ist in keinem Task des Gesamtprozesses ausdrücklich vorgesehen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.1",
+    "fund_id": "F080",
+    "fehlender_schritt": "Vor der Inbetriebnahme des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen und die darin erforderlichen Angaben und Maßnahmen dokumentieren.",
+    "begruendung": "Die Hochschule ist eine öffentliche Einrichtung; die Grundrechte-Folgenabschätzung ist ein eigenständiger vorgelagerter Schritt, der im Gesamtprozess nicht aufgeführt ist."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 49 Abs. 3",
+    "task_id": "T3.1",
+    "fund_id": "F081",
+    "fehlender_schritt": "Vor der Inbetriebnahme oder Verwendung eines erfassten Hochrisiko-KI-Systems die Hochschule als Betreiberin in der EU-Datenbank registrieren, das System auswählen und dort registrieren.",
+    "begruendung": "Die Vorschrift verlangt bei Anwendbarkeit eine Registrierung vor der Verwendung. Ein Registrierungsschritt ist im Gesamtprozess nicht enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F087",
+    "fehlender_schritt": "Vor dem Einsatz des Rankingverfahrens eine Datenschutz-Folgenabschätzung durchführen, sofern die Verarbeitung voraussichtlich ein hohes Risiko für die Rechte und Freiheiten der Bewerbenden mit sich bringt; die Schwelle ist bei systematischer Bewerberbewertung besonders zu prüfen.",
+    "begruendung": "Die systematische Auswertung und Bewertung von Bewerbungen mit einem KI-Tool kann ein hohes Risiko begründen. Im aufgeführten Gesamtprozess ist kein eigenständiger Schritt zur Prüfung und gegebenenfalls Durchführung einer Datenschutz-Folgenabschätzung enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.2",
+    "fund_id": "F095",
+    "fehlender_schritt": "Den Personalrat vor Einführung, Anwendung oder erheblicher Änderung des automatisierten Verfahrens zur Personalverwaltung beteiligen und die erforderliche Mitbestimmung sicherstellen.",
+    "begruendung": "Ein KI-gestütztes Bewerbungsranking kann ein automatisiertes Verfahren zur Personalverwaltung sein. Der Gesamtprozess enthält keinen eigenen Schritt zur personalvertretungsrechtlichen Mitbestimmung vor der Anwendung des Verfahrens."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 4",
+    "task_id": "T3.2",
+    "fund_id": "F099",
+    "fehlender_schritt": "Die mit Betrieb und Nutzung des KI-Systems befassten Beschäftigten müssen über ein ihrem Kontext und Kenntnisstand angemessenes Maß an KI-Kompetenz verfügen; hierfür sind geeignete Maßnahmen vorzusehen.",
+    "begruendung": "Der AI Act verlangt Maßnahmen zur Förderung von KI-Kompetenz. Im Gesamtprozess ist kein eigener Schritt zur Qualifizierung der mit dem Ranking befassten Personen aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F105",
+    "fehlender_schritt": "Vor der erstmaligen Verwendung des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen, sofern die Hochschule es als öffentliche Stelle einsetzt.",
+    "begruendung": "Für öffentliche Betreiber von Hochrisiko-KI verlangt der AI Act grundsätzlich vor dem Einsatz eine Folgenabschätzung zu den Auswirkungen auf Grundrechte. Ein entsprechender Schritt ist im Gesamtprozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 49 Abs. 3",
+    "task_id": "T3.2",
+    "fund_id": "F106",
+    "fehlender_schritt": "Vor der erstmaligen Verwendung als öffentliche Stelle die Hochschule, das ausgewählte Hochrisiko-System und dessen Verwendung in der EU-Datenbank registrieren, sofern die Hochrisiko-Einstufung greift.",
+    "begruendung": "Der AI Act sieht für öffentliche Betreiber eine Registrierung vor der Verwendung bestimmter Hochrisiko-KI-Systeme vor. Ein Registrierungsschritt ist im Gesamtprozess nicht enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1",
+    "task_id": "T3.3",
+    "fund_id": "F118",
+    "fehlender_schritt": "Bei Bewerbungen schwerbehinderter Menschen die Schwerbehindertenvertretung und die zuständigen Vertretungen unmittelbar nach Bewerbungseingang unterrichten und im gesetzlich vorgesehenen Prüfverfahren beteiligen beziehungsweise anhören.",
+    "begruendung": "§ 164 Abs. 1 SGB IX enthält Pflichten des Arbeitgebers zur Prüfung der Besetzungsmöglichkeiten und zur Unterrichtung beziehungsweise Beteiligung von Vertretungen. Die genannten Prozessschritte decken diese eigenständigen Schritte nicht ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.3",
+    "fund_id": "F119",
+    "fehlender_schritt": "Den Personalrat vor Einführung, Anwendung oder erheblicher Änderung des KI-gestützten automatisierten Verfahrens zur Personalverwaltung beteiligen.",
+    "begruendung": "Der Personalrat hat, soweit keine gesetzliche oder tarifliche Regelung besteht, bei Einführung, Anwendung und erheblicher Änderung automatisierter Verfahren zur Personalverwaltung mitzubestimmen. Das ist ein eigenständiger Beteiligungsschritt, der nicht durch die Ergebnisprüfung der Fachabteilung ersetzt wird."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 3 Buchst. a",
+    "task_id": "T3.3",
+    "fund_id": "F120",
+    "fehlender_schritt": "Vor Beginn der KI-gestützten Auswertung eine Datenschutz-Folgenabschätzung durchführen, sofern die systematische und umfassende Bewertung mit automatisierter Verarbeitung Grundlage für Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung ist.",
+    "begruendung": "Art. 35 Abs. 3 Buchst. a nennt systematische und umfassende Bewertungen natürlicher Personen auf Grundlage automatisierter Verarbeitung, auf denen Entscheidungen mit erheblichen Wirkungen beruhen, als Fall einer erforderlichen Folgenabschätzung. Im Gesamtprozess ist kein entsprechender Prüfschritt aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.3",
+    "fund_id": "F126",
+    "fehlender_schritt": "Vor dem erstmaligen Einsatz des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen; sie muss insbesondere Einsatzprozess, betroffene Personengruppen, Risiken, Aufsichtsmaßnahmen und Maßnahmen bei Risikoeintritt erfassen.",
+    "begruendung": "Art. 27 Abs. 1 verpflichtet Betreiber, die öffentliche Stellen sind, vor dem Einsatz bestimmter Hochrisiko-KI-Systeme eine Grundrechte-Folgenabschätzung durchzuführen. Die Hochschule ist als öffentliche Stelle beschrieben; ob die Hochrisiko-Einstufung greift, ist wegen der möglichen Ausnahme nach Art. 6 Abs. 3 noch zu klären."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1",
+    "task_id": "T3.4",
+    "fund_id": "F130",
+    "fehlender_schritt": "Vor dem Einsatz des KI-Systems eine Datenschutz-Folgenabschätzung durchführen, sofern die Verarbeitung voraussichtlich ein hohes Risiko für die Rechte und Freiheiten der Bewerbenden mit sich bringt.",
+    "begruendung": "Die systematische Auswertung und Bewertung von Bewerbungen mittels KI kann ein hohes Risiko für die Rechte und Freiheiten natürlicher Personen begründen. Die Folgenabschätzung wäre vor Beginn der betreffenden Verarbeitung durchzuführen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.4",
+    "fund_id": "F137",
+    "fehlender_schritt": "Vor dem erstmaligen Einsatz des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen.",
+    "begruendung": "Der AI Act verlangt von öffentlichen Stellen vor dem Einsatz bestimmter Hochrisiko-KI-Systeme eine Bewertung der Auswirkungen auf die Grundrechte. Ein entsprechender eigener Schritt ist im Gesamtprozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 49 Abs. 3",
+    "task_id": "T3.4",
+    "fund_id": "F138",
+    "fehlender_schritt": "Vor der erstmaligen Nutzung des Hochrisiko-KI-Systems die Hochschule und die Nutzung des Systems in der EU-Datenbank registrieren.",
+    "begruendung": "Für öffentliche Stellen verlangt der AI Act vor der Nutzung eines in Anhang III aufgeführten Hochrisiko-KI-Systems eine Registrierung. Ein solcher Schritt ist im Gesamtprozess nicht genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T3.4",
+    "fund_id": "F139",
+    "fehlender_schritt": "Vor der Inbetriebnahme oder Nutzung des Hochrisiko-KI-Systems die Beschäftigtenvertretung und die betroffenen Beschäftigten über den Einsatz informieren.",
+    "begruendung": "Der AI Act sieht für Arbeitgeber, die Hochrisiko-KI-Systeme am Arbeitsplatz einsetzen, eine vorherige Information der Beschäftigtenvertretung und der betroffenen Beschäftigten vor."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.4",
+    "fund_id": "F145",
+    "fehlender_schritt": "Die Mitbestimmung des Personalrats zur Einführung, Anwendung oder erheblichen Änderung des automatisierten Verfahrens zur Personalverwaltung sicherstellen, soweit die Vorschrift anwendbar ist.",
+    "begruendung": "Die Vorschrift sieht Mitbestimmung des Personalrats bei bestimmten automatisierten Verfahren zur Personalverwaltung vor. Eine entsprechende Beteiligung ist im Gesamtprozess nicht ausdrücklich enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T4.2",
+    "fund_id": "F163",
+    "fehlender_schritt": "Vor Inbetriebnahme oder Nutzung eines einschlägigen Hochrisiko-KI-Systems am Arbeitsplatz die Beschäftigtenvertretung und betroffene Beschäftigte über dessen Einsatz informieren.",
+    "begruendung": "Für Arbeitgeber, die ein Hochrisiko-KI-System am Arbeitsplatz einsetzen, sieht die Vorschrift eine Information der Beschäftigtenvertretung und betroffener Beschäftigter vor. Ein solcher Schritt ist im Gesamtprozess nicht enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T4.2",
+    "fund_id": "F164",
+    "fehlender_schritt": "Vor dem Einsatz des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen.",
+    "begruendung": "Öffentliche Stellen müssen vor dem Einsatz bestimmter Hochrisiko-KI-Systeme eine Folgenabschätzung zu den Grundrechten vornehmen. Ein solcher vorgelagerter Schritt ist im beschriebenen Gesamtprozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 49 Abs. 3",
+    "task_id": "T4.2",
+    "fund_id": "F165",
+    "fehlender_schritt": "Vor Inbetriebnahme oder Nutzung eines einschlägigen Hochrisiko-KI-Systems die Hochschule und dessen Verwendung in der EU-Datenbank registrieren.",
+    "begruendung": "Öffentliche Stellen, die ein erfasstes Hochrisiko-KI-System einsetzen, müssen sich, das System und dessen Verwendung vor dem Einsatz in der EU-Datenbank registrieren."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1",
+    "task_id": "T5.1",
+    "fund_id": "F185",
+    "fehlender_schritt": "Vor der KI-gestützten Verarbeitung der Bewerbungen prüfen und dokumentieren, ob voraussichtlich ein hohes Risiko für Rechte und Freiheiten besteht; falls ja, eine Datenschutz-Folgenabschätzung durchführen.",
+    "begruendung": "Die DSGVO verlangt eine Folgenabschätzung vorab, wenn eine Verarbeitungsart voraussichtlich ein hohes Risiko mit sich bringt. Im aufgelisteten Prozess ist eine solche Prüfung oder Folgenabschätzung nicht als Schritt ausgewiesen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 1",
+    "task_id": "T5.1",
+    "fund_id": "F192",
+    "fehlender_schritt": "Den Personalrat im Mitbestimmungsverfahren zur Einstellung beteiligen, bevor die Einstellungsmaßnahme abschließend umgesetzt wird.",
+    "begruendung": "Die Hochschule hat einen Personalrat; die Einstellung einer Arbeitnehmerin oder eines Arbeitnehmers fällt grundsätzlich unter den Mitbestimmungstatbestand."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Satz 1 Nr. 2",
+    "task_id": "T5.1",
+    "fund_id": "F194",
+    "fehlender_schritt": "Prüfen und gegebenenfalls die Mitbestimmung des Personalrats zur Einführung oder Anwendung des KI-gestützten automatisierten Verfahrens der Personalverwaltung vor dessen Einsatz sicherstellen.",
+    "begruendung": "Der Prozess beschreibt ein KI-Tool für Vorauswahl und Ranking, aber keine Beteiligung des Personalrats an dessen Einführung oder Anwendung."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1",
+    "task_id": "T5.1",
+    "fund_id": "F195",
+    "fehlender_schritt": "Bei Bewerbungen schwerbehinderter Menschen die vorgeschriebene Unterrichtung und Beteiligung der Schwerbehindertenvertretung sowie die Anhörung der in § 176 genannten Vertretungen sicherstellen und die Besetzungsmöglichkeit prüfen.",
+    "begruendung": "Die Vorschrift enthält besondere Pflichten öffentlicher Arbeitgeber für die Prüfung und Behandlung schwerbehinderter Bewerbungen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 178 Abs. 2 Satz 1",
+    "task_id": "T5.1",
+    "fund_id": "F196",
+    "fehlender_schritt": "Die Schwerbehindertenvertretung in Angelegenheiten schwerbehinderter Bewerbender vor der Auswahlentscheidung unverzüglich und umfassend unterrichten und anhören.",
+    "begruendung": "Die Norm verlangt die Beteiligung der Schwerbehindertenvertretung vor einer Entscheidung, die schwerbehinderte Bewerbende betrifft; ein entsprechender Prozessschritt ist nicht ausgewiesen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T5.1",
+    "fund_id": "F202",
+    "fehlender_schritt": "Vor dem erstmaligen Einsatz des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung für den konkreten Einsatz der Hochschule durchführen und die vorgeschriebenen Risiken, betroffenen Personengruppen, Aufsichtsmaßnahmen und Abhilfemaßnahmen erfassen.",
+    "begruendung": "Die Hochschule ist eine öffentliche Stelle und der Prozess enthält keine eigene Grundrechte-Folgenabschätzung vor dem KI-Einsatz."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 49 Abs. 3",
+    "task_id": "T5.1",
+    "fund_id": "F203",
+    "fehlender_schritt": "Vor Inbetriebnahme oder Nutzung prüfen, ob das Hochrisiko-KI-System in der EU-Datenbank registriert ist, und als öffentliche Stelle die Hochschule sowie die Nutzung des Systems registrieren.",
+    "begruendung": "Der Prozess beschreibt KI-Nutzung, aber keinen Registrierungsschritt für die Hochschule oder das eingesetzte System."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 1",
+    "task_id": "T5.2",
+    "fund_id": "F212",
+    "fehlender_schritt": "Personalrat vor der Einstellung beteiligen und dessen Mitbestimmung zur Einstellung einholen.",
+    "begruendung": "Die Einstellung wissenschaftlichen Personals unterliegt grundsätzlich der Mitbestimmung des Personalrats. Im Gesamtprozess ist kein eigener Schritt zur Beteiligung des Personalrats oder zur Einholung seiner Zustimmung ausdrücklich aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 3a",
+    "task_id": "T5.2",
+    "fund_id": "F213",
+    "fehlender_schritt": "Personalrat zur Eingruppierung beteiligen und die Mitbestimmung hierzu durchführen.",
+    "begruendung": "Die Eingruppierung ist mitbestimmungspflichtig. Obwohl T1.2 die Eingruppierung festlegt und T5.2 das Angebot erstellt, ist die Beteiligung des Personalrats im Gesamtprozess nicht ausdrücklich abgedeckt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 70 Abs. 1",
+    "task_id": "T5.2",
+    "fund_id": "F214",
+    "fehlender_schritt": "Das Mitbestimmungsverfahren durchführen und die erforderliche Zustimmung des Personalrats vor Durchführung der mitbestimmungspflichtigen Maßnahme einholen.",
+    "begruendung": "Mitbestimmungspflichtige Maßnahmen können grundsätzlich nur mit Zustimmung des Personalrats getroffen werden. Ein entsprechender Verfahrensschritt ist im Gesamtprozess nicht ausdrücklich genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Nr. 1",
+    "task_id": "T5.3",
+    "fund_id": "F231",
+    "fehlender_schritt": "Die Personalratsmitbestimmung bei der Einstellung muss vor der Umsetzung der Einstellungsmaßnahme eingeholt werden; ein solcher Schritt ist in den aufgeführten Prozess-Tasks nicht ausdrücklich enthalten.",
+    "begruendung": "Die Einstellung von Arbeitnehmerinnen und Arbeitnehmern unterliegt der Mitbestimmung des Personalrats."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Nr. 3a",
+    "task_id": "T5.3",
+    "fund_id": "F232",
+    "fehlender_schritt": "Die Mitbestimmung des Personalrats zur Eingruppierung muss vor der Umsetzung der Eingruppierungsmaßnahme eingeholt werden; ein entsprechender Beteiligungsschritt ist im Gesamtprozess nicht ausdrücklich ausgewiesen.",
+    "begruendung": "Die Eingruppierung ist nach dem BayPVG eine mitbestimmungspflichtige Personalangelegenheit."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 70 Abs. 1",
+    "task_id": "T5.3",
+    "fund_id": "F233",
+    "fehlender_schritt": "Vor der Durchführung der mitbestimmungspflichtigen Einstellung und Eingruppierung ist die Zustimmung des Personalrats nach dem Mitbestimmungsverfahren einzuholen; dafür ist im Gesamtprozess kein ausdrücklicher Schritt benannt.",
+    "begruendung": "Mitbestimmungspflichtige Maßnahmen dürfen grundsätzlich nur mit Zustimmung des Personalrats getroffen werden."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayArchivG",
+    "fundstelle": "Art. 6 Abs. 1",
+    "task_id": "T6.2",
+    "fund_id": "F250",
+    "fehlender_schritt": "Nicht mehr für die Aufgabenerfüllung benötigte Bewerbungsunterlagen vor ihrer Löschung dem zuständigen staatlichen Archiv zur Übernahme anbieten; die Archiventscheidung abwarten und deren Ergebnis bei der weiteren Aufbewahrung oder Löschung berücksichtigen.",
+    "begruendung": "Bayerische öffentliche Stellen müssen nicht mehr benötigte Unterlagen dem zuständigen staatlichen Archiv anbieten; die Pflicht umfasst ausdrücklich auch Unterlagen mit personenbezogenen Daten. Im Gesamtprozess sind Absagen, Abwarten der Aufbewahrungsfrist und Löschen vorgesehen, aber kein Anbieten an das Archiv."
+  }
+]

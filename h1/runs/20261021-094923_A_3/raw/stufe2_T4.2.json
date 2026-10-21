@@ -1,0 +1,734 @@
+{
+  "id": "resp_0731cb095aecc0b4006ad86f53720c87d1a27a0c8ffe088b1c",
+  "access_programs": null,
+  "created_at": 1792569171.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f542db887d1b09912c98fe6b971",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-XliMJAfolsLVK4VSrm3vgCHNnWZLm_jPwOpVLpvNBoOEvgfoOmyN0RTwrFn0BXOJ_sqwIE71fx592OaSlkhgcR6lZwYVy7gho9gnoitPXmdwElB-OvYzQv38yhzPH_mEJ-MKKpfA7flbNXJpZLyr7zAw4719-cBIJWEs7yDW4z3CfaiP9ekSLog2SFUMbiN94ucQHqdH8r7dGPDFlxH_T5Tfzvx-rDbWgDkH1fpGcOkhjlP4n-HjBHPrm-gCleOLopqdH0eEH_dC6ZePO62LFtctV4hhWXSKXXYe-r4w33Q-3whpkVuCO4rG7M0gMHqj9TfjPFxIMctwK-Cvie-CHYjjfdJFnngQy_q23ZazrYAKyClRxbUgvH7CZAlWCsbDn9aK9Au8TBW5DaPbucdBJOzH4jZ2DyRgt1jXNWgtRGQ2DOzGwJha1OsB17z__JpkeFSRspAUcRa_sKvnshlbEAR7Jcn5LuPgbN2SJ1KzUrjqIygGiT2RRDs_Fa6cn0-vPCy5EzBPBtUzR9_El21yggPWMwS2vVfXvkDk-uv3_yj7_nIdlPe_CTbJ818WMYuVkKnD_DTbnLD70I43CXlQKpIyLmg6oB-p-swmYJ8gUjq8bBF9_p10FKg84Qqm9HNJ6Crqv2WlILXLZEW1dZZ9JXf03C2QttNmKfMF4vfPJ0bHUWnJorNCOaf6391OS8W071qRJbSSTazat93cDEcoHY0Ozg-5uDOj0H4P_TZH4PVSvL-xCK5WOLzjADosAz78WKCIv5MEdP7EaQYS7tYhTkFRBOOctbuav9DvcdcfdOndgqDopStjBvTDbe73Kf6LTj7c2uqJPcFtXwjjkSVOiXXJVrNbQtmtLo3lbnPr9cCY3jgcBWx96icZX-cZO28qAYCwtkj1Z3PZI0APHDExT46bRmJH0_rjwgnuGckZoqiT8laKzunOUN9EoIhUzE-fduhPNIsuTbo0-fBzBXPsDNqgRmpui3BdKjpsAPiFWjR5emqJiu6_uo8SLBRAL28TuJQ5T5NFWVtys40JLKqsQuu7hqYsdK6V2J_xfNsdLvrSmoK3qK-ITK1rc8Qr0LaX9z5sGSXgnE8bQWVJqnKoW5Wco96_uBAQzScjupJMs4gjVgFnwELZJIC7Bg2BRu9qDEPRrbO1sDmgS7WyOiDjuGCbndQJbFUg89ZRaOmJvxXFHd5kQgvgBl-mEv4bB9afwxLltOwDOGr8r73RvSVnHOUvehMJ8vQy4RdJNJHd2nvWfhbA9cLbwoJOJdZpEk-ykrTCwKF63Qftj-4p8Yn8MN69G3mQY3eRfkM_sXzkOuc16PSCzALHkZ7XU8sJ5hLZmx9PXWgDYVI9V6x8zIGlOfMwGEV-KhEmA__u1E1R8Cg5A7VTU8Bc7GZLmlycHgX_GYIzEKiOlBBiaoTTKA3jmkT5RlrK_-_YgGdNKqun-N_b19jAf-yKlYUQf000VZL4buEx_1C3CSE9vKppKLXWO7kReJoXnA9wLpjNBKhX0su6VnzNTl_3rbo6e7-Ne7pkke3UMYmYLLkj51cP3SbjtfbtctW_3EasOwW2nhxmThRKsu91AdQEeiWS30H-I345gHkQ8XpuuX6Gy-CKdKJCj54nK-8cq-Taz1SzuIZTE7kwfKz9OczEpnu8A1OWdlAphZEY6H1vgBZcCrjs9cPkeM-lLxI_We-IE_iUCg4TgjsdKBVHlLYmvhaGkBA6bKUQ7fqtQObrR343hJGa9WQfg80i2QUasxjXEeuwUn4kWCwGcC9KXD6gTkwdeB4gEAmf4lYQkZbm76Ry7y3l2T_oujg052JAPAzIDcrVy5YlteJe--ZkXljXAhj5vqKvd18_kpIMyCshGqkjlmovHo3A3vJSNOSw5ZGoVtywFxvzvSnvPYblB1NQzo6UhdcAbGRfBRB9WLbdrY6RxRPTqdSccWYdWdHmhbkfoKSOieCqET90dOgRUV2KB9AoaIR5PTkyIZM9gjg67FvMOxrvSbVV1KfufPMs_EfpyHzSLN5dJ2BtpcGUGlno2DsdZiVEl3ql3X2BSn8NqmhxlgC6hoRpMk6tCGlcHbpxHj-PBcKKqCOHHc20X316DbRZ5pNH3W5oGuZu8sdMo0wa-i8dhEZFH8tFeuEUgHNPZQZNoigAtveTD8Hrj2Z2rVSWky7LcFblKswnUG7IZnq5hRYmySRfwkriLd__5BUQZmAvrvg_Xeb91zbpaj5MRjPWb1-3ZpMIustukxpPGp5Ye7KvS9krmrhck-bR3XpH3DoBFdfxhm9yR59WpUsTt1iXpX40qFNpu9sb4ITOctZ94q-gvonqnPW41DTtY-gbs8eyCNhoPi4GdWRJwC19W2u87imFu8pU0h6gNYOLxBGbylEHMdkU_oXOWRzPlO8l78912mfqyxSUP_Hwzz6yIMU6MTLw3oyG3VPgyqXdgaUngH1U7EK0cZaZKLeiNE_uZiOTDnzIsd9Ar0xNcPednT7YvXyps3PFYkgr-Cb9IOSenQIVDMm5cdhQCZnuha59Y92tPcCAqtt-w6oARW7YIxea8UrkwxyJmvefS6OapyfKZJdJrLwvlhUEz4Mkz-t7AelaZzC9Lu5zylzWN__dyU94WQzd-MB_E-0s30aIiA2e91l4Qu71AxeTjqB7r0pQ9A0UExeiTNstkYMCWwd5YcEmc4utw_Lw49NQ3aCxFO8KuM-245t8B7ZbaFd5WUeV43iXKgt3oQqydLjgjBpjVatWLA78JKGac2wNhVI-g4J8FfzFjTIBgbsbyBPYYjmyUpnfAyDSPzi4ZMuYKByTESdR47rxYWQYKYdIZ9HcmPbZQXFSfoZkJQxqkMoHrb3I4PEUUQSllMJvz0IcHgasoyA3LgeRAXQRav_tbW8dVmDXEK3KEFm4In9nzYuBwPkb3rMAJuxgUqIqeSeKoCmQPyP3AFkpR-UAGza8XQqJrNXvZs5BVVE4O_4nr86UT8Nja-gb_PbMZyZGO8Vioia5LlRb4PkKLeTL6f0MWmoeVwP3F6k_96W9JpD4w6X3z8xWAU9HuJYes_oBwrudQSVJKfZUL9TThuEQOqP6io4AHAh_yzuejCui9rPAes2Trt4m9Zv4l-SSgGOByft64k6WTXSO_lNTqHcfOFI75PYQhcpZI74UjdHN8wlQ6H6YziLXuJym-7uLwD3Hv3xouqY4GgT0_6IWNEra_c4is52io8h3e7en-T1fpCggq3EQz-5PBR6aCv_bLhTHWtBqmbUZ2MJk8qDRgiBEPJo4kLke3G1LylwwFzL2QmN-ivrwj4znSmtZ6WvBhy1IgDQ2ljgqADSTNTlgLXNLh",
+      "status": null
+    },
+    {
+      "id": "ws_0731cb095aecc0b4006ad86f558ad487d184778a7e1dabc4c2",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-bayern.de BayGlG Vorstellungsgespräch Gleichstellungsbeauftragte Bewerber Antrag §",
+          "site:gesetze-bayern.de BayPVG Vorstellungsgespräch Einstellung Beteiligung Personalrat §",
+          "site:eur-lex.europa.eu GDPR Article 5 6 9 recruitment interview personal data",
+          "site:gesetze-im-internet.de AGG § 7 § 11 § 22 SGB IX § 165 Vorstellungsgespräch"
+        ],
+        "query": "site:gesetze-bayern.de BayGlG Vorstellungsgespräch Gleichstellungsbeauftragte Bewerber Antrag §",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__165.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-78"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-69"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2024-N-18631?hl=true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-G4"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG-17?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-40"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-1892?hl=true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV249478-14"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-2888"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/SGB_IX.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-46"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2024-N-37694?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2023-N-28203?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2024-N-18633?all=False"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f5803ec87d192c0d6290409ccbc",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-XO_te9s4-zB6lLQlnurXauD7DxPMUHxMirj91PK7WAsPOmnazyZ0qX7fUwqJEs3xD50uoTLwfRWXU_DjWuf5Gvo_6pZoPEG9lTsE_Ci-Nf5UjB26gilVLZroMqrM-IFHY84-M-iVSQ6qtka0yFBwvpN6d96ToY7kywoX2bN5wwaOA7yGdxEJxnE3lKyWwIfZCQCf_7Ep64FBlaX_zs8qGiAPZunpmPf_9lfTdQSfs2shii4t8MScYicLoz7qAuas9ieXDRQ3QXKSQk6Yq6glmEPPrLPkm6znefAtDgdpw-bINWLQ1lMnTVJHYTENW_EK6jWi4osbXpQlSFeIApx8CSNvZES-Qsw4XbF9vW0c4PErWUwq5vy78QydQl7zBF49NhXcKU_XkMRtVHPYsv3ck6VPkCWmpwCrqZ0oyf8fMRWDXfUXvsPr_UmPBt-kiH3n55yxxklKDw2r1ikcWs05_cA8t6wMqb2FTzMUpf07FgR4JuA-Ob04nXG6ziBUGp5BqYS4Ioux8MTa6YL40VulMyhcZcC27lUuWEiKIgmNQRnZC9TWU1YWGTBzuuJ0flP4Bp7fmdDHG4NkZlDvrTcNNWkwhJbjOo_pkBjMLEArRb0V3zEhd9xyFqbmWqBqgwj_oTppEl0XN-kyw8A9yq0soUCibO9pS0iroDFAvM9iBMHOMl1wkt3eDpD1y2NBbQj808aFReVp6yV2tCFJMO38RDVqUsXkdUxMjsyTW1_jWji8giEpVKoDRuLHQTPIA-X6Md9BJQvc5WQvwtmvXmb05XXlL5cIZ6h6iXze4ySNF9TYlyhWbggox7sluVZedIYkNdKqWSmB5vdD3kj_2cIW-8hxYMRHcPn1CdpZuspr4VnSx6d2gPR84XlUYqO1qZt0wRVHSWdegp9ApZTJnPvU8uyzreYEQ2zpq41N5O-yqK5-Kk8YPW-BadnzXKlNZR-Yzc7tZoFliJQowtVBTk8nlhDJrSayGYFjAoteYAvn2TxvvijexZ9mMcRJkfl8jbGl4okiGarFR0aqvP-CQVb9-CcPYH5AXPVCLRBrP2FKLe1luiicqmV_FdDfaPj6GsX-YOwaOj-EIIUuD5nqBsLj2IjPsZydhyluuJMJ2_Ty0oMNbsawWzINVAeHwyUh-f7vsuco9iBc5sDKHJYUJ-ixZNP1bsQhQHap1fSLCBxQJAopsMLq2hkIHoEmTF2NbEXkfZGVT-mUqkEJWuw6EEHafEw-2PC-0MNAHHq9XL9EgLVTyn7iiSTiWXhPrkf8L7Ohd3_dobYyKAVOSDekoSOzTCDUgXRv_9oSPvSpwyolRkDpJcTemOVMbbx1xZ5SbYsPlwjZytpjOLi94tMjh0LxAHQSVYc6XFGRNNPNxmWKb0RtTgvfm5__hq2RG5Ubics1ELf7_kv_2dftGpxxlCcQ0Vy_aEX0bxKH0lI0YKvgZRxFR4uTplj1RL_-ugJWrzMuHRxdbFhtvksTcXSKH4pQ70LV-bC0bBfKLUxUtWk3O8fRtAhepn3D43ahnejbvPAk7z4RH2Gu0GN9CS_HaZgYAXCJgUDJ16ySsmWos2JJ_p0p2MMuxDZkR_Cl6v1mslQsf7QAsAzNAOe3CIZaH6_yIaZwvOmz8oD_BTXyw-kbfoeesHNwpdbGDukqXy7dF9rKHfEJ_8qdnjvpoKgkA2FpoW08dL_29WSt8pLRVed42CgamNrj6Ln2BHoZJeNKwj2ZcvvL1ePOIBYuwHrtaAe_fuqub0oisBZ0sogWlpCy_kV67k9NNWhMry-I2ORxGY5xT07nK4NjOa3p1VZCUHVYRrP75RiqtnjytscteQ2WW5NFfQ9oF2XMmwHEo5SDIv0UtXJrf4elAmiEFcjZSVroGogeJ5bwNkcCLpVE6Y4maxmpnLtkUc-ozQm-5J0KutaSXXbb5cuHsEyC4lhz3TktyPfHbZmdwQ73qh9HDNvgXbG_kZjhpP04SSHcoCG2eMutXPCbPs055Bfaj1dAJSUCnMiDB1VY-WbzaD_7nMNny8KMRXDacWR6tpw-rGogQQiEmvdy1f2yixVDaPZQTY7oB4OKwjB7534Ogy-FDDu1dmwlTdBpyYFKvlq1tGlou-6zcOBZXaxGhB-Elc1cp_VWUJWR8KdBC-KAOpzVtTVR85tdcjg09HhGE_1Q1C-mjSv4T7jujtWzfEx88YEc4Eiz1nM7XyDGfMdYrdbUWbTBjl3kYg9qle_uYzMcFXs3Fz0csiidCgr0Fx62BUlY7e1JL1JRToDRj9Ubz1T0QUtrdN4oAGn2fGsGVVw1L0c-TuRUQjpWqai8nFI-hyy6dFHi0lFKZ7Yptgn41Y576HuD3HOe7lbZ0l-3IP57PEAZ7m3RnQfJG3ER4gmg0TXix6dORagXSUo7LIPVF8ReTV8yYaUnSlW6if213ky-J9TPGquhCdMLOb9FEnOWB7WPq9JLtUksdlyA5JGl21MPSF9o7Zh7gu2PZt1m0uaoDj0dUC9KxQLk16m-6XQEj-PZJfRVTTH91rhV1PC1nupb1K7szKb1jUNb9tp_SmSVAHna1C5H1rcEIqUuUY1ykmQR0oDWrSfMep89AQwB-qV5dHtRKcoEI_Kn7YyjZM8g0NtG_iEihxdbjSLyGiezTQEEoSUVFlLmGPTMXX_3i5KIr6yrLx2I6w_xPJ6RnqDkR7f-7j2UYGUX668J5_ysE4tmPh0ptcHnBQA6M8CmCFdJKmq9XSTZbyD9hT6oK0tDEN29hp2TRhrjtlKpJeZfyVGjiuHpcMgpSRlUoy6uH2i2_SZSPuz77kSib6LqExApzF359NlVsdaLztZnoYvdssjE3SAFN59uuIUiHJ-dbE-bOZQCTeMvrks9YsgzPZtOMaK57w9kom1MpkeMUyarHtMh6RVEa4b7xQiA3S8jA4iHVfvEEpzBreZv0ODKBnehHD4x4QSSUTmPAbwZgRvWwaeoonPIitGf69gV8Nvklgx1aR0mQ8XzXrmREBRdqU9sO5YsTl7u7JSZpYYRavNCJ_iX-VVArR3kDiI5eriMO6sHpQF_pK8tkRBPM9YNKzsG2Rz9bU1aWVGj8Mu1KxU59Q8UeuQJxG7obtE17UATrgsdRFXs6pFjqbI3f_UonCMg84TZRtVU6k4ZI7NoJ8T8rgBZQglPcGe8H1EZxI6XjoFwqu8A1zt2mBCigLhf6s92MTvPN93FZhuG5gUG0AhzQvQNZyiM0oV60r0evtWZ8r89cDOu17GYeLQVbuQ36iEDrxOcnllM-X1R4dzRJK55DCItjU6fK3-vPH5sPkVyqa5aPwPPLeAKU1w31aWj5H1ApePPPbxpMIQHT2w-oH7oQtqKlNnUyonNpFxrxzOjdCt0mWZ5z9YeqMMDWjytR2K1QI34sjOhgzqb2tFB4WQ2EAbh61q9U6Qck2KqBPSbzG2y6-GeUvvc3Dzoe-3EJFNv8ffuJGQIODxC0gOYTVXUSnR1v6JRlCYwZVrn-FzvSMU19jooqAaucq38AjHD5OR-YH5kgP3AyHC1wVkNfwszUN-eDiHHIgi59ljCrE2MQyl4aA2aqp6aQBzBWAs4VfKBv7aiM_wnBixM4Q-qhimD7UgFECibJ4wMNnMMM7WPkdytwZuplE5mnTKfUca9O3ckHfuffRtqx0ckSDN63UG6kDRVeiE7iNNfYtSGTQbklGlTloqOFja1VaymsKxGBoqGo_P-9Xn6JzC4clZSb9AwTYgLcmJevR0p4LC0zrBRRavx7tiEuTwh-YLyMGiYMN9VMd1_RuzsnZqtH8s5KigD8B2TDW1VVqQaWx-Ghg_Nn--eAZh2-233aYxPSJ_Eiq_agBNWN-0svG5Y24Q1lCiC9yzlp9za1wwuljpUM-dlEfvN1uFdo5Ml7TC47IoslF1uibivFSrbBiLCQ_Yb_RQXKCK_Rr-Lx2LulQqnV53VRkgxCNI7no9yshfHl4aTNvExxViSSccmApUiyFBN0uu9hHIhE6zvxsmeo7ZdFq-qk4baJjRrvAQe4o3lsPxNYn0-qgiWCKczyOemgexMPGOpP6IfLH9YZwCVu-ZgTDCDQeZrpmdJXJr9L-I0PcKBW9CBHygeI5BAAF3UMox3oUD7wxOVd_GyasAyVX61I8i8MXmNX7fqUQUctRfvEpo9-BOFVm9KJA5uTu6jzgQjVR59zsZlMVdR5eHJ53gax-yFeBCwhOMMEE6JEZkeSF1glerE2IcF5JU3uSTQwhraK3sKsUrwSPRXvsVLfcl39_LXC3ytRC9AmTWQ5ssJnWI2lkyQf2gXJwcKSMiBUw83F_RXJxsI_5HujXs-Ox3IZGrfQwbv8hTurqW1kXNRwiawF9iRUqpk4snWCYrXGCMsKQNPUy6yaBh_FbnNO8vjqOaz6feW9_j-UbdxJkGNoBjp6HrWJPg_ptAxaw-wm7IDus8u7dqUC54_JMdgr9mAetDvx4C2XlOCmBI1hXKm1Z-aE1yStVg1-A1vy2qGsQU3WJ4M8a-Nt89Exjb2z0YFJBbOOGSm7elL4UkksaLce8TBgE4tX9YB9Dpzngg_eT-TakgFmOdiiay_E9NeXFgf9cUWattEotNQlFogix7f4M6yM4FljcZCUAQJiiHj4-lns19cS-gw1kpM5VXVXyR7RnVDJ995OW8UvueXbN6Jr6_45J0MWYtoYwhnS",
+      "status": null
+    },
+    {
+      "id": "ws_0731cb095aecc0b4006ad86f59895c87d190e0bd8c374d751d",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-im-internet.de/agg/__7.html AGG § 7",
+          "site:gesetze-im-internet.de/agg/__22.html AGG § 22",
+          "site:gesetze-im-internet.de/sgb_9_2018/__178.html § 178 SGB IX Absatz 2",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679 Art. 5 Art. 6 Art. 9 DSGVO"
+        ],
+        "query": "site:gesetze-im-internet.de/agg/__7.html AGG § 7",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__7.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__178.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/AGG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/stgb/__178.html"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1496048922207&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/grestg_1983/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1526454630652&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/milog/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/bimschg/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gwb/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1773166096692&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/bgb/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/sgb_9_2018/SGB_IX.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.pdf"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f5bfb6c87d1962f95e3b8d021fd",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-XDy29qR4jsPktsRGk57tki2P5aWUkz8Al_T9NsM7perWZw1xvVpvBqh5OfCgW7xhV3rUnkbJdch2XT8xUC1FmmH23Z-CtS_2OHhK2x3KkkFl4JSe6ZS4v0IpXSc5p3j03F6ZhF5nVBTT_-SZt8jO3ZrekMDRgSukK_O_ay3K4b25gRUeLwOCht5tX1i6LomR0w0Eps4xP1BGBtlxfzjBfzsR7dagGR2sv4ihsKY72ogzS98o7gZ_k_gHnHAF8zTRObDqM47_61-KcZrR6HaFbssR-wWe6f_MUIhrvOEr_5BKfjpPMbH-BGta-23Ol5ti4_-Jn8a9XJpITLWHctgyEx2ts1AR9ZUx79wucZkAudbCHDnir_ncjeTf-mfkxDjmfCkEkAf05caYPVPCw5m6-qu2V0Dnnpl5VxLubP8daJYdNGEO4lOE7wYe23hyTSEvbRzkNT---QyhxyVbvmmDRP_3QZ8j8M91KYBLpCkf3VAPi3G1td8aFco79ckaQKZMKyoqWjw5Lht0yCI63DambdFwOBLwzXVE_NC0Jes8cHQeU3kBX2-nWfZ43oBJMBA-Ku-60OjHnAfjU-Iz7IGiaPgO9fIpPNB6hDDOA_va-bdYL_2LuJ8sLfyHSHdukDJGeabYgAp4Mn2d64TYdQy2Kvl1nRuutsEfekK01pIAm-dyi2xBvxXy1iqIoOr-gnwxhu0x5rYt8FnBZ8em4dSrTJ2p5BjZQiXeDFl5rHtaF9Va_9Jgbh_N106hB7Wbuc7JcP-FYKm12jb8e5Z5cgEzyXpfrf5vW-ZtuyM8JpOymFMZwA50n8ymD6j8kM4WZ7dWSe9VIPi5J4u3ec5YjRzEeg9XuRZwdeUBDuLUJlaJYwmfqz5JxhmH9w8AF7zs-oiECtHQZpEVE4Ya_YYSCjwr1OrB2uLPb2HNBCP9q-uBkt-lQFa8psRKobWsPOGZdgBltTuhVNbz82WcmUHNaWsggIXmeYNOdy3_wLX9j6-DILa8XItMA4o9rx2neqGyuR49PlgbvUT_cB8qhnTHsk2thO-gRNC2rWf1RZml8ep6ZkuiFs2plzITBOox75mP_iDpnBUFLuNEC3Pu6tjngAc1hcAy1w1F18OIYsZIWSDnPc4BjWMbMnXPsaaKuRMJDUlMuEcihIPSk7JYKUoPJu0hmuv5y1NjdX2wjKhmrtPx6OI9dehj6FTCgTVl36kx2dHv6gwALDnstDmyGU1Jlzj0ODf_O6h1ztTcfn_kxTUmWeIJhmGyqthMrsS5gdVFJqHMKsW-CS8e_smWjXGFB-QdRrioFE6D-UuLG3R8aIr7tn-xFGzcSGicSrntZehETe-xvLdCp2BLZGg3Zab2HAFis5fZiV80RNnSR47tdlbJqBKOA9581wPbMexFbmn71VBHsqkhSM-7_l6Ycf8lQrWar1rwqZur6M-IpSvAVQRqFruGxPjoWxDnEv1gHa5QwcfAjFdqGHZVTT4z8UUjMploVYlRo5HZ8CNfECWlufihr-_CK060M_yoiRRIMDVIbv7AjuwvF2G_G9JbRcRu9_Ni01PYnnl2z0iPxzlnXNhe2O0iZk4XZRqiRO-x1zmhe43hi8agXO11l8rerckPokEwkO8uwBTpp6N8s7bg2oFkEIM3K2SDzexvsIpo1O6dmxwpgEZrZ1V5USFJTt8rxAbZexd_TNazEnESXpduEdyNlK3wSMSMlhQyCHtk9qIJT59SlRDcJlZR2jNObNrHbmgBUwynKw01-mhz4211NM0pZNiSdZn3eWT5JQErgytsLGIPtZcg7EbPbhFq0LLatYznWHRyHS4mMoWDOaA4Ej3xhsFUI5Gj9B_8Janrt2UuFGlyGTQVIyeRv0xLtOoHRY475Hn8kJ1v1MCtaHMG_m8lXs0dWiiZcz2Q8K_mlQFGrlzWSpIopvVMrn65IZ6Vmttc4_X7Kbt5qsB7d_OpF-8iIWkTif1RBiebFVEdQPFwRZM7sQ8SSBfpspvv2R4h_AJs2xf9_0KZfUiQk5RyRHyCwGe-Q-dWegbulw70QrCf265ai3GTHXuDe2JQG7eNLaeQWyuvQFq-OYutmYssTwd34drsfgmpsuB5mVE5zcyPhX53G7hFsktZ3gFqlTd6biai_43Le3E25DwrasIv-VyiPOmxuhtIRvUCv6UVdxE58U9WKRqEyPoa8HqghigVufiAV1UccOSv6n80S10bCH9TMbw_rHc_ZIgeMZFINDeeopYzOYZnAinrVe9jykMiGB5SQzaPmin0I66BArDV-ia44F1w5v3iOj4XK3MLmu2tiSZ96uHoMl2a6I8nmD9GGrIS30FJCGHQQwt5h0aln6FCXzHWyxiPPyg4r635tSwKmcKOOEwEJrojjVyQIiSM8XQcGK1kbxhpsRdOcV_jG9KxHryYDtYTfaHt9cJVktEpCXVnUe63koNzxtpHEuNNVVtHDWoP_86Q-GEMEK5zr6jRMTbD0wJd_jvXH4s4BTeNMe12OX_JKBcdOol_x9F0sah8gEre1tc1wSVh-ylWB-wej1DmYz88BydxjMAOnj-eLD0KVQq8wILqLIHzekOB58A4Z4629eUXLcWqn0X8hYg0ZGdeH7uP1mD0-cSvRjeCX_8IIzYrKC9oHC_FGkJxAmkfqL8i0vo_0KPb4-OXrNWhnT4LVWBzYrWdO3Il9fN4Kw-Xbu0rMxfMwU5qsXTQSBQ5T7LuxHCrlC6X8ur-SCL2tmKbWbkK8yow7Vq41QC3WGeMFJua7WuQHU7gFwethEMQaWpGyuUzX11xa2QwB_pQRkhd_axu726U3wrTXHNJcbcwdbijbMii3jmEXe91Oi9VNKG1dhEYS9nCt944IvVF5BZtIZbwf6f-e1QgqH7RIieu-6gaBhRCoFAvE-rLUHhor1Gw5Zh74VSCbLJiiP5rpkMnc1H_CqK8FWDSBA3D5a0oc2j7fi0tz3eWNECrXoqWBVrwzEvCBL7Mn66DAXsiHrU5wSPx--6gR6ueUx2cD_fLTbppaqBvYnR5lprVWOkkpr6Z92vEcooaNm6mJutd7kwoSw3dVzb_x3N5FBgtRrQdbW3wd5xA6MDEceVpUM2zd5ybyXySDEFU_SUIz4z8aJC7peSzTmNCu5x8DReNM9AtZ5VlHDDsJ2da3RFtjdAWIj1JviozViweOeL3WMAAroSRx_IgxyU2siI7RzluigGsfA0nfvBETki_kvzMQJY3Yjn5aqEe_r1AJr8OPOY21m4XcDAC25evrwCowqeM0UiBfMCiaH_WrSpfkpp_ymZSkmBap0jo7JYd0_b0Sr9vramwzjGPGPyA9IjoOmaR_ecnTsGoQe6RM6onZmkh5X9I4hlHnPbJh9Z8ytkYSxnDzaFzTc5Y_7JdpaEJPB_VmljmmjKTl1-99N8dB6aKQTS-WD-mRPkGcL6LwyHWK4cZlJt-awwbdQCV69xCOeQRJ9obxk01Lt7N7nOTC1hyZ8n8jKWmU12yQVy6m8ASw_7Sq3Csc-RFtnl2Y9jK5X2Pr_KKFfFcBMXcxAtANbttonAuGwLPNUmEm2f2QqQ_G7Rlb3MLZ8JvsyCZnR3SdKdYZebM9MoA3ujf6igkV38xuOET99KVLMfuv8wtRDw9TGtQKd8pvl_UiYbt_dsI0D7B6A0oBhChNdWjSYsUQ_KbNQKF9Arr5VetFhSJdJQTFuldM1uE0XCcipwvYCFvyZZd2ZRHPWd8dSxpiRjqnIb_G8xWwm79olDlROKRMibxi2lnxXzXm52EnpiafAvJ3HonMTZsc5vG_6Nt2jtdO_LwadgfNv-TSvrywvU29k1EKKyk5O89UxcMa274ysjCCO48-CixVzKHoH090ThV2WyN7cvSPUcB3EJX4rMnWE1eDIoUt8f6wn71nXliu_210BEWtcfb6NLcCJfuUJSgt7Qg2_kNZQJiMY6TEFd296TT9ynNsNUH_88y6PGNC-8yKyQUcZd1zK1BHm0IzZl93ezEk8p-U0CGc_IiS4rr2EGwfjIXjv7eqIRlEdnsqr6xerDn2EKpxRAzzG161s3CYWh5qUS-svm9-qClrBRNtTVqC-ihzxS-FHpg09FRc4qR1Bcx0qZOVRPMjfMC3B_h39EyGlE1y60pzOXsRQLL6aXYa3OHR8YzLTYHhe01jgRoO4w4zbDff8C6pJV46u26a6GTSkV9KWd_qbE98HnR8e7V4tPxRifY8-nDN91boBcQaIPIWgNqrgtLyNmQSK09G4aWXXHjP9pN93YrB7k-vlYTzxDaITB7FXG_ajbTFm8i-JUV5lttQlEy9iGgIglfKDLh6DRY2hkBma2H9WDxrNs66F2qIHWM_yAkVqDCYo2-wieCszWaucQ1z0HFViM0DUHo1G6uoC33ydkxSmZT3YzjOCF_f8AIuoFKvNE3OP5SRUKktIDnhXVJmK9XCI5pm4y95gQuWu-3qmqktu3jFfiPdn8lVXRdFVVmaLi8XFO16GkiTyCbi7xqf_nyaWh8EG-j57uA6tlzatpUd7IRDBbLaBSyaDl_N7Q5QWad8RO3d6h8fBtG0aA0GnlBUcd1Mh0inaZxqcYAVrrSzne_h3vh2ioCgmHLDRk9Db4lIiwc8Tp7uyq1nnwEAqCCcthNka0fvUTJH9RtGNJy-ZmdJ5yLDe2eZbKczumGxT09cjOIWpY8butMQUGW_1GDEH5bV_nGej3IUD4wvgbXbLVqBV7FeZKkXCWvMsU8yR6j9zde-1tCUAVCPJeN9x2x29FGXxm5q0BogkrpIU1TeBQD19wfmy183YBNESNPGviIdOMcfjQ8Mqx56AAv4dXxSiln9y1HfVuefuL-qe2iSB5Gl7QEE2A4f5jP5hUGQhIBeHVThk1dLp-neaQFVrQEjHSooBOYgn93BUkT5TvkHXAA9TzBV8ClX1QbHdGfr7buKLs2KydCvIy1SIcw7uFBOdZrEr1mPKPgIoIOIMWNPlE1lRAI7ZBfC-O-ZuUlB7TN7Th_DHwYhIBhk8O_l1Q-zzIwvt1clx_L9v4pUeas5bT6koPSGSvCCMJCa3rw2gM0ldUkQd2FtXkRu7KC-AEDl0qaa8zYORw1PuVlk01BVvrdzGsgBI5IV-heFc8aoubvOi9SWg9F5f8-DRXhXdYACiLu1MDDypUol2vZFHpCnUjlCmm3q6fpKEUvWR5hvw1Q91Bdw5SYlvVpXe0W-p2fIctbuwiLf-PGNyGMNzlOJ4P5-uNyAbpJ3KDUg1Eek16eP1aJol6xwT1J2cR6w5qvx1AB9cp3vfVsx1ixyr0ENOy6W0gJrh-VZbJNuqiJu17_zfv-OuJesOsqLS7BeRvsdEiQHs3lr-yIfGVwUrxdSsO1ZeCM5aM0Sd1Z4jvTqyDRHp-lShfIfZ7RvpQV8SLcjmGj3vk8g_WyvGfsnSEV2-pGNunH-e1DMY7sb1pWnNVNEFvEhvjZycOR32BC5myNOsPf2U3qG01gpAnXhQy-NQ7PAo-rBZrF4jWJPAP-715RaMKx_GZzSuPtUotu4TlK3IMoPXKd1MVwwpsC7tTX3ickC4ywBAuZdeGp2G6he8YWcGJB0JdQnPJhLz7xB3jzv90e0RCv6AlCo7vGBrjhyotIbvpE9s-P9FHSUI8RJ4eb43ieao0_P8xkr74TutQ4Cm_L_Q4ocIHP3RIjfcfarN0OOt4I5SP4H7Pm3ANdpTttFksZa_JXX-RBRd2_9wWoNMU0SAo_q53yqwMyuvaLDH9OBGXLqLMqSdx4IYWswPgI10f5gJnANpWw91LdVf9Nl3pnGa84AYvSqOzDLFNWy47Ky2NT1zhRdLLHKMp4ghRFwvyI9QlREf2_ruI6Lgk6_o7_ozvbhpUmLyIlpjrm9xvQZncDnd2DHdCrRg56eccXIjbwMKfKlYu-CpqSyHYrGyKsBw6EGH4NyKTD-W1EaskrXWN0ZCKbiwuCUHmEOtDTA1oymmQvQOAAWOmchKMmFTJ4f1HkYL5zpgdEIc2mcL0o6DGQCMw9NWsNO7hHFwfBFvFyOVdpY4gE7QM74msvKCmhVwuMudsq2Br9d6BTvDdfgkw1BFxrF2T4n36iJsRbtLoDoZXTMR64CID5F1Qa8b14ZZ_HcknvLGHPF1LF4EoNYS8-a8Ah6sYRPCcPRo4UUW_Wg5dvy6EiF4F08VPDlCFiwEXQ8YR0g9A-gMNDxCdcOskz_6jKUndNZPf1Q5qu1R9uMjlI8YWHlFZrvAHACiLd8I19gVyaLccpEcYeu8TbJJchyooR7t2ExQIR4PA2oSn-susTquWuoF888NnAm8dZ61TFaOVFd3N3DRXxF1STNfzY9CorCjwwm3iaZ8lMWWPXaNOyg17Ro2A41n1y5C-4P_nvNlRBMrIzjJLGDC-R0EWOc6z9ZiyD6dfEubXJjn4PZYTRA6gL-YBsBeQT5d6NKqEnui7UPfqCElsjaZD8-biweNVA7LtUqeHDVxX5anuSRTR3IXqK81S9KTXQGOVr8GumT8u0eV__re_3hZkpFnd8RhVi6ZJKIyrL4qTnqEtR_RBTcng-sxuD4iqAtVp3dRIbb6BPg2J4p-Y8cB7Iaojw-tozqY2Scr-CY25_ZENU5g3cCybFUNJvnC-I6aN6OxG2NJnEl1sHtmj1zdAy5WJjzhyNMhHbm6rrn59Wnai4MS1sw8IhDtOVjd6tMIZxVQvE3p3aHWjRPCXrSzVJpmHNpIg-I0lrq3kVavCWySF4Ba-kMojv71LIFqXUpy0ZeDC_wyWaMv8k04QUSKlSJJT_XKl41r7hXpdhrDNo0qegpggCg-P-EZxLUSRUH611fyjv74C5SMj9Opq0hihJh_Yf6HSKnu95G1lF2i1kd5VlpOkhqJfQD6QCmdHLR4MetTXpeimQV8hAxltQ4YoLqncbGQw7WKjGfz-4xbjcUf4EW1J3s8nqaiuGuXJWU13xm8a3YT8P59navPHf2qGYBgFQ_l3RIi86JwtPP-_eTz6o863IGX0xL9_kbUiq1Mi5Kjva1Ofj-SDWX6tb4XA_Oz5JIq50jE5negxP0Jc6P4arAC-0aDB5LAR37mXagXLU-fjSfdf0EcJJ7AKsa4NCUyDjCkbW7q9BDycajuZeZcVfCZ-TWCijPx4cI_Iktbcyyq1LCud3mY0X7d8EZmK5otgjA9r0o-uxpvyPtiG9XfyJYPqTgkZTu7clIwldwvwhK27fDRL0xeA5uSn5_Z5X5CTX3oLDmIcoOZ1JG977-nRE5EXaAdmUG1uLKSWwlRNnoiNMJ6X4HALlv1PzaXjTZv6RlHvj2ERbZkJO0cPSWX6bp4Lp25FmdSP-ZKYtufiApWR4NeLYoT6V5tn0_22Lun0snZClxIh_4qt6OJ62Uw8jYvxK912bPTduxv2EP0lZaSDnSnLa-4zMLn1za98hZmFRRmqIkNpCryU0Su36lCblyYqdNNOx1912_eBtrPx-tPeN1GfPB0jiYiEdsBQURHIcIbjew_uIQW_WURQqs9cAZQTcz97AfWz2tHhd2ddrzSdSgmtwTUIWgJb8yappDwJ0opIq6EYuobtDW_l_BzzjYCbZgk-zW28WXDJ35-ZZ-zqivLSKy6FKJ1RZQr-7BBSmC8Aq2Tlgl6vBrgALWoXTOaoOkBAlGSfbaPPLZ_bcHYz4cvQn6IwbyLnuDJvCuQM4VMFmX21OPIeRPKbydtUcOk1K1cWI9q25z1Bc35e5QRgK8EfJY8FLm5PXNa_Dtis8XnW4ouGisO-DuSdnixqI4zNqX9yRr9RUbVDJjGpHjjxyK19xJJJITp4AnaLyIy9Urcn3bQfjeoNvp3ZzSqbcvui11fLwB",
+      "status": null
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f5fdfa887d1b6d9496fc2afeb63",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-XpvtAEFJDO13W7aqyj6JYpuP0wUA4NI-8CZgApbBjIq930xRrqNtKYSdqcRkohWAjDoo8LAeclZNH9tLU3Kg3ozGnX0jSSdGH_DBBayhk17U_-1jsHC7hfIyeUswJnYZa-WE9m2DniZOhDGA6aEMWPJcMI9cW1f3j7TGRd5k9GxGncrR6PDNfxs7ZWOtoPSpr7Ia2iAgmcWyIfch33c3QFSaktS6FAL-zs2bm1CDDD9Y7qkOu-t-OYRlhJiMtQvdmt6Zb74HURR4Aw28tG1ZaTQ5Xqj6jclqyn9Yl-vslhaEEByosDtlkCOQ96E1lUByLTdg1Zz_UNHz-q1QYtaIgoeEIqMEIhkpid_E0w5l6e_qKwSZ9wCHqFuC-dD8u92DcwKyYAdGTIW-h_RZ3D8mVhUn79y_y6G9QxEqj3zb4a5V9KyXMm_fk55nEQUNBOMIg-Sp5YRoyMf0z9au6GxgkiLuKxRApAJpsPTYhOGYTxu9aZU8ViZA-uH2a8xDgqZvUdTbAc1SmIdvaOWQ66DLu05Y_oZV_WtjBm2iRxoO-ofsqXDAlzlCuDjdZVwdf4EKKlb_WUAOufiYddArvjIBhrq_HVT6ZpCTrWO-a4MDCsGLnakM-wLw14803XmuXY9K--cdL-vW5iY3B4Ej64oQ5onTUOJDuIFppOYYmDh71jo2yE4py8Ukzi3E9YYnaHHcjfkil_QB5gKfePKga-Kf-TecagHD2amQsrk61ULUhXS9IeRHXhfEYdG7_OuYRgyQZdTrkHyeiGms0XM1Jcoy6fvm-Jo7q2dVYANW43Jt1Y3Sz0McBDOfNngRhr8qosVBGeGSlOHnIMap5A97dOLNbV_twG2m9bPexp6YLD4v4kT86XPSXOZjOc1myYBR7lqTEitHHZx9MPd5mC0gRkKcHAWEPQKwiByYmJeB7o3boy8mhOWeuskU4IVROTZMUaKoEImJa04yuP1p111gIg73nvgHtVUvYHo8tE7sZp_UVK8RhqchBku7vfU8t8e3A3dWTSJDn_LFpTDoCbOz58mIZ1HIPf1wIQfGRLVR0bmAAX009N1-x5jyEM7MxOco326krCzURG81My1AMmtmvz99P8uZsFfmIN4D4SVVhjVbyeVQ-audtV9FfiPoBFz47XfqwkJnN95q_KyP1jyM5lL33Uc985bFJ1xMdZbkCwVTS3Mx6I7T4dQdQTBa5jCgpt56HxfEHrRw7mUPxs-qdVLiYmVMhGIIiiajq_iMSa33mKV_LWyYvcSnoIXGZLD5UrokSO79dZNLpX81xhqE8MZu6lFJTAHEoO1Nq7axuYyKG4lUr_hpNZkql0oJt3D4vPS2V-mfXgRcvk-Cfro6Q26U9oIx8bBfobtigu724iKwpAr7Wcd5tjYZRvLyc1hLBAjVT1IVbhEFLuEyVHyaVWTSKyoockP0tBRd9jEyvhAhkbRiBfpsPLfsKsWZoGYlalmli3BaEnK8LGdNz6JKMyzlD0UixT-_2B8hvJtLVVmtzOu_BJf-4wNHCSXeZL6tmOuNo3i2F-x_52FZMYuWrrgYtcntZzVdNRGRkeq8StInobFp8BKaUuhTFRkLlWPpblllQJAf5JchMEyUTTj3m1-XpodTaW5x1u16yLcLvvkMNNA8CSVpIEj2yDGeB7JOcpIAV2hWD67GSL_ISJUrUm0Y9gD4hcqapz8CmK5OzKvBMAl7CtP1YTPyQMEAm94X7tCjV6zpVGzq3rZfVqDGOZTf3ksNjEhl_FQuK2ek1_7gEPRzKCn0UgQ8x2FbPHZacB33qeVM6gUEJP4GUNfWV89B_yz2FfW7_72k8KaynG1wTiJNW6okgFsb7L0UXcpIk7VKgxBSOD4c_prVrbee28mE3p1dZ2-VcskTGw0IaAqtKIImv6skJm2ABTaDQxAzl2wKpkxJQSwBFZRMeoE3n1Uxeq-5a-ehGPN7kJbGwUGvPuS45JXPC4mwuWRUfaY9RAE5W1bvmT6NqYV708_Yhoc7oty1odYjXwX_f3_fjibyj8Rt3xNBukaFplddJohv8frPyxm7QnaIb6ZWST0daHqio_iN3QekHLZf-ysBDapeG1iNnTz2rosOskXDwkbqpd_pWx7eTC2rGXzwQ_ceTIeMQ134j7Vkw2hv7NLc-UztTFN0VO8UWXZ-0WGVH_iym_A-nUoDhFDv1DV-b4Be2jgIjsEp5_tntHQigSpqcaJrCPi0YKoRoy02AX22NGK4cwPGQh8MGc-bQtAPysvWTb_Lnaia2BSI_VBbNtvssmlIOvNkPg8Lwun99MOEoRickfcjIbGCWgy1C7SJdO32AUMRHYmJ9qLi2ebP0j-vw7KuhC_dya8Hh2jY9b-95BSwj3GD8Ym0UavULRl4iBh73Bbk_2Td45EDsHuvdUQncsD89joJdZ3voU-wJ9OVXvVS6uGtxYnZjgI1Z1TlkKZNFbOAvnaAP8G1DfycyifduHx0HnkaUqn2NPzGg20ZUVJL1bZQzQzCMG9DivU5Wu3Q5m9jvMnVVjexEoxA6raFnbYqLqc9DdPG8pSK2tYLLFT9UKAd0eYiU2nb7nXprVwIYeO_IYkpvRWkDPJP_h1Wf2xFzM9DUM3tIFzUZ4bnZPzqnXjRzatY4NX3dyrNwqYwWVnxTrnNSAEhpvJt7X2ImHLiY4b0H8FP96qUfHw0xknj_LXkiGoVBKq3pBqvZ5ofEt__O4RuriFJVFMEXmaEDmoAueHFVrWEu7q7T-0tBI6PW-MZ5EqWny8N9GGI2yQfUmpx8NhQ13p3Z8QHRYbb5-mlyiOB7NsMpYGwUh0YUKIWgd3HCM7isDRFw0hRIxLBEjLN4h0WIf4v8Zu_y1d4wIjLsqgVjv-j-IjwbYCUsqfwU9UQTmv-03_dMKwYnFWRdClUP03_Xz1F26UXiqL0fpz1bQoY3jhrOTR4Qn3wlkXTRKLpv1BIBEf1NqBVflOnJNUyO9U2ZRlDHSiM0uLV-mF0MqgwHZZOgWzYrEmmsLg2Ovuz0JRXfKCq9E3n6OfHImwt6OBUhu7bi06TXscrzGsGysQmGKVBBGyuw1LW6E1Nr-lE_pbTEG_B7nh9Ta3LF5SOpxLorD4QDTA5r9mRyPlHaatpsK_m5sCZafZdA1TlazHHnqQyM0EfyAWMP_Sp9IcZr0euLPea3uDF8ViGGjLfoLEWPSInjkQd-4qohGZ0kK2oYjelWKgjN8JJoWk5R-VdriGUhcNeflU-XMnaRcPMjh9uQY52I5bV_8paPHP4A8Ejmv_AytNlJlN-9UNQyPMGpzeveIVYoCUU4JuHSvdMox8dTiHUfAcQ3VRMCgulH7-pZMjYSXCg-9_pqshimftDkxhhYijBg1pdDzJg205kJklgsP9hwBL8FbLcpacy9wdUi6Itqz0rHsOKY1t4S_O1wNnFrSwp9x4c0b6eP1hKcMJjR0jH0t5lq7fc-0PRSuV56AGj2ZZuTcqFSzN14NOzuuJ-LPpe5QUrUi5tSRSDUAWywruz0xRWBa34aQTH-9P_jHwS0suMVC7i4lLcGwXF4_CTHX9Hx0pPrux2QoopKOmObYAiJnhB0o0w5aCqBA2VVZEcy4hxmpWXeoAno0BCRkgIVojV0fJuzkuevRrOQRShLwEPB8yXW3Np5uFTO3m_xc767YHRtvpn8UfITsC1Xh2vVZmBA31pg1qNvtoetK4fdsPEJHvszTPKTyOcDAZpm2MpfknEaLVIsPsrMWUha-XjVHNrsFjwHNwZM_mb_t0NDslL3gMppJSihLpRkk07cqiBITbSGkiH_1YTlErqLfzhZb4aAHFDNllmo33At9Fby6nCGlreShUiP5UpeUABC3_UJ9tFdVEUnld_mfltx6iIA7vqJej14itcQ1GySoubhRyHsG7Y7xp0AphNw62ijzyxl_pcZcznZW8qJAV2VfYJyuZ6MGIm7noFtlaJk1gI6-OQ6vxySjyDOtDdYIwBFi7gqqSatPoT1F9I1zwzLVyPeHeYyVPe48b09HOoZAcbL9D3I_YXMjVuUsUYdSMnzzE1eTiXfQ8mI4QSCA8uFNd1JLTtmo1zog8XD5sAUN-uAFIS9c3QkubHBBB7RelzKWDfFe4W5gr2BTJsxu32Iu6noR-sbsBK2fbtO5d8zUoSkPZRyvgshvk_Psjdxb8ds6VESBx04mXI5h04NY7xhAqHtOBovyZ1_ntkzIb31kwEtqeWhbGLyCH4vbihLVfeIP26vQkucVOrnd4EPuq9aOT8mSzdSvLPM3suNTMHMxB8=",
+      "status": null
+    },
+    {
+      "id": "ws_0731cb095aecc0b4006ad86f61d91887d1abc9be090e40d6f9",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f63c34087d1add7dec8246b531b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-XF-bnpnYQBZXMnHHDvE6ya2bOAwrHnfTn1X49VU6B4sv5OmDoduO4cf7rrWqRjy9HnC2wY4Ei_V2RIOCSk1AGFp2xa4oM3rvkC0sse6-ylnIITh_epF8BWZebqBhUftCpy9HSD2n-mwvq-xHKswLylYPoHWbpSpXfd6l4tkJVvVTcmzVmEt_efgYKuBwtJ0dFFFe5CxOZ6UG6CyldB3DHZjMl9vubeXG2HaGWVjxH5N506wqDvzBkay-hcP97ithCMwDnPG8DS72L6gpkcOBcXdALhUsh2llTClKlIqaQDntYdwgDtQumnWk86qYN3yNUi8ovFZgDfIKZ11vJeH-5BWBbVjsG8Kqz5HdJspMmRnLalDOlDO1dliNvMnONmwF246re97oOb-xkUIt-7qi1xO1z1CcWbE9npyapsQNje3LzbHtuAwf_kOxR3sF9eUy0hGQTp9ZVbzVwDne0cdfQfK4ZHPEKfIRn3C0w1KeoyDCfFiiA5q5-OHdLN53W1nm2qp6ngLLoyLlitk60GcJ3_UmotU839Urls_NqkgA6fzX7P7nL7BqhiiNBJNNKeywuc_ctV_NqfiQXBXEQWEx0fuqIj4l2dc8YQs47oyp8JoMFQXoOQhgk8M6U60OjhkCbnH23sOKx6LSpOy8uhLdBrLCPlEfcYb6Csx9vnbfdwok_GK-YetLzEvRWOjZ0Y6Hw4ffjZI883hhnWrl1Udkm2R3re8Exkkse6ZTiq-MW2D9MZ-AVfKLIjXeRUrhxQmR-23ZxVWFpGXkKaDeuxVAsWoB5_7-88acson82-sDc3QtILgydaH67say1QEMCMPZrLOG8IZZTVLQzeUvOyFGkn5UIq2-Lz0CZ1eAswNS-xezeLyQTuULY2bhiB4KAYQlBZHTNfVAOeaGcYLJebNn3rMOb1cqMA-jVfbXFqTizrPylC2h5DmYcqhubOT84WYT--aJn4OzuO7vkRd7WvSv2ymvfYYyx4vAURTQwP8FgQJPjL8kyhyG9pckWVE2r9ev7KFDb70ZA1DbOIIZ52Qffff6PudG7kKbbCrwjVzR0lGsIXONhUo2NDBh9p_ZNdsAaKe7AvIGsm1uCjiZ_s6fSE8fziOuAhO48relWDRQKqd_vSsjl2kRdYoA0KmU7Bp01CB76zjaYLjPGig8VDFd3N-7QJr1TVGak4VksFT_gQRe1QnLukAvWGxtsVbObz3BjwraUP05avOTdOuZ2-SzIpklFEZ32hGHZ5g_W2-JOFeVjdr8fNJw1-xGI93lnmJW8_Ezc50NY7tFGYlB4EV55VTmTCnzfI41yL5s8O8knHyDvF05j7y2lm5Jbb_1L_9DzQB9y-oi-JxiMWuvaeX7Zvv9hHe3jcyLUxjmC4mAVtNKBbEh65JQaE9gMcKJJIglUmFtehmzNDr-gHNQW8-EaTQhZRlmaAbZdlSKCzeoIgKFy1QxFt5VVi_v_wwZB-27Sgd_T635h4kUkPOaS7nTBmrzgMpe15T5Bq7uLTHVt4ps1CXv3-ekPjhEcPnv8LfsdaRqOG2txzKgzpHz3sMcGprO9UE9yX7fr6mZS3vfHZRQ9r9BQWbd8b4qog8TlMm-GFyikhOI_DwhED-nBzb3M4yLjtaiBwwEPbljEpPlFSpMfA92_gN9-I9aJ9YcVPj88RFyjUNNJt3kofecW6N1WLohE4qtvXx3T80WmNuoBSBM-w0VR586PZtJ4o1WS6DTFTGzejTfAvXyEdsuzssjwioo6nTFK4tHIU5aEp4BHelDgWMMFVXjyxD6wMKDDTjl2JH26f15GMh_hBrHfaoBuFuzk3WN_HLttvHKFqOhGA1hFxwgb2MK-w6RotYXcC8usshbaTCyJuhaWMYqVfpYUELMh1ziF3Q4H3_PAAHIuUaB051zD4DEg3Z8pPexLYL38d_xm-bpHUmyOcC8i2iCTGp4rim4bBzS6OhfOnAfxvdB1-wJN1HedlHXIJitS46133aDaxA0qIFphplDnFeJO4-BtgauLj0YYlQbYQXMfjOZzDdLmHOVecQvkEqPlyum62wOSpG79MXiIjyEMQyzy2cWphzdJ5HriSElctTDiNqnV9pOOaAGT6KdfPXk8eK66QtWYM1zex6tjoD7Y1c5LiNOKCZOlUDBbjV0tX8h2zwamusiRqxinZW3NOV5Y5B8PT7HpFaVaJrikoNV7ktbl43-MYBkijq973TPCwUz3DSZPuWslQpLVP78Gobt3smNt4yOy1jGJG6CTyMcnNxaPw1UNekoxqIaL92dFBMNisLHaLGuhS6h8SVnp8DIch8JaIxW7HiVnC_YUldVZBXk_rlHO0UPoPNfOmI_JSPWTC2fOI1GO99ZFjZwh8YScGyD3u1yQVC1KRqpFQ5MjvPgvl06000vZIRKt-o0TVaPz2fmcdWqBlOR8s-NZ9LX9kzYpuEc7gsLhesmilXcg2DZvZUJLJsDB8YWvqc3f8MBnlXe1RSEW2eArnu0fhXw6OT7IlWaFb86m2QUvSKgZ2tpWyNnjupQOKd619Ft8Aqex7098JHsEgX78H1VPTG8F5IInCAqdlqLVCQraKkD8SLxhZgI1RnswlL5-X8Yx2YLkDuZelkJEhcDi12uZ051VQS6QmpSN5_bGeqHG07TK8bq_cjir8avkT3fSGF9MErMApNyPVeEslgPHDeRiLFJ8Ko3-fC80VwhNrCFHP-RictN7aRUA--YdgP8rWLd3O7YlTope9VQHiWB1-9BFqyij1PPn38UIMA_2HvMcXIJEdldx_FaI5abGC6yt0b2XGG1Q6hfkWlhlV7xR4x_KZ7MiIbgLiOLC9Cmt3hRRrbFtcv7BCN91BAhNtt61ke6Ct8-jIMPdS-_PeqOXWgIzY0uWkYRV5wdU7kDHaC0F_e4kLL1T87eJFL0f6BaS7YWHnUgFWOokN4kb7nExd8dikYwmPZVFd4mQp-564PSJW_9gByb588SjZ_Z4cAddW93FZFaDCVZoOK8X-iWVdvzjaO-KVgcdlUX_kKunLh8WQ12K47oLavYNsw1XrmmUpUBX3DarZ4u4qcjH0T19mlf2ZN5pYtTeHtorDuR4DqbTJN2-8csY6v6MXiw1lTKXxG6y6UjaPo_lG2r2Ui5gg5yx4OaKPuzKGvG0vrkasB7XmnD18oV2Zk59En3y0AmKcLBO_FPKQ9jldOURfxcUmmXsFyzilKZSMZCA5RwD-sTwsLZW0hWdkyZT1-LNltGaVk_R_g5gVeJ9XKcVbdlw-Yk1OslOiIbnfTeyYDBTgFvROiGF3n445-_2RnTPlB88r7oAnUMFU-oKW6vzSOvQHdCYWxiqMT2UBpY3KpjlB--kos7FKujc-_mkV_SQWxPtIi58zw15yVOVRwg71lK_t0dxmIRfye9M0ICa06tjlFGWxj8xFfg-3HhFmV-gNAq8fTz2eH8frm6GryAEoc90lb4nGG3Lh9J98q_H0vE-Yksfdp2244VzUwWzK0VxOf_4OyJLqiEVsESsKg5rlP1ACPI1nf8KcwnvrwykkIX5Qfo61U44mzQi1N4F2SeEPrbhLHQSWIokpElaMT1WrWD2AbspI-8kd0uuG2i0s-XtKaYLiRwzQ2_YjlRgvl1K44f0c2oJLIqGI7kqMyicU3j0iSaNUNJQ36ec_H6lGC1FfwxwySUrFjzCIqlnfIgCrMzCXfG49CtQu9fCMLO4bg20bbfne5h3Zf4IYUWrYf_-MH94gPuMYzj6OYdxdrQUbL2Gsx5nljHjXAtuZk7Scx1RQBRFo_56J2Hjy2UmeY3Jv2s7aPgCL9HoiCH_voDV7UPPq01bQQb7R0aVCL25P3NigPnIFzHXDKrcRR2H5HFmG-C2owqO47m6TnSW26kZhWUTHGYNyyJ6CIqIdS1vQDZLRJqEibcI_j4DfQzVpzxmc9GCQ9J0969uCzzU2l9PgZGx9raV5O4Wf_wKKegDSWH9_i1GSTAI1rbXWenyDAVlfbUE9day95K8cNYU_MIfyvyWDj6qB-qN5yKHiWZ8swmb-XTC1ytXD_Sa5lNnqFMliCiwbK_g7rWRHtIwKXfgA2sMPUNIm1MWS16Ya9RyJjpInQUhlilqI5RLzkEAHVhsBxW2Xarhp4c25wVkmjbQs3_2ZSKRszcbZsuBBbGyi6pY2tqyiMvp8F4caG3N3_7Lh5rl0g1cdozPVo0tdJcoLYdxdot0ozZ5qLKXdxc5OBnyemzwgakcdzE4HmXR5B_9po9sGjGWsFf4MD_PDuHV58noJcd9EFSGUH2sA672BHRJ-WIXo_sIWLBidC-s0V6NPBY8hMVv9jdrmAZrY79qTuD097VITFk6vFf-0kqfdwu5jNJ0pOviqWiSll8FAeg4gXh7miIDi05Yi0ATE7xepHcYURNasqGQhFg98SUMFwS1hewt3BkSALkSac9NjTo1JrCRLh5ahEi-kZLaLLk7hL49EiERYk6c2IKllj63aUs8-UtNteY6fZBwD7TTF2_9FHBfg0tlVe3op2nGEL3GGu4ijwF4spOGnrCH9TY7AWS-lgNIJbMv_awer7vahOIjoCWUyuN7WeJNLKJSSxJO6A40odQKI2ctwtOM_uuIM93jljwS_Fmpt1oTPBhR9i3qJnLnKHaqwrRDdTjyLimm-_rU_E93_DsLuz5M2QkNtzzg2tER1glAH_U-ixlAeQomF7NMRgO3HkJUgY2CJPiuqZ2cWgQzVPtDn2DWsv0kDdKF0HWDjI9eZoBGGcyXqPCTgKWyP-Of93DrJYKWjzy2JfzP8CfbUnSOznF9tWApXmZP9vQgx0NI5_oL06HXaw7ZhYHjSkkyBbuwsQbJi2dKsjb_zWN51vpm_hOLwiAwWsZGpllNVFWIOj6iLHZihWmOlG71zHpDhx1jBYTVsyTgfFwUEcN-aj75rEAWUvaCMt9Em7DJNL6e6WoCkukSWIi6LmwIem9w0OuVmB7BmZK62CqZeCBRo4iyAb2QJZSSWq1sxDbzwZU6b-wHlZNIYKOhlo1XPkDIohibz0IoMQI9sC9Rmy6euOcbkWPQhK1VSyD04O5IwG_t8_hzX_W_VJw22Y_Dz4mIavABi8ZHQYrlrQrJsPKS1jEtIr1FHXdEJtKjG3rzMUlpFPTW48egdc930Y1iD3du0cMn4uueMcyV-3T4vY8RiyEdevBdHrsZMx-y88nimxH6fGtAcpdfHWah5-B3g5NsfFCGDI4FkDuwIUG2TG-5xsoZFn2ig1ZMMamn9mrescDpa02dUiBZ52OCnadOY_n5JEcL44TibkwMF_vWdHPBHlP11HTSm_wrjbhLHFUu-MIttNPuVrC-y25vwVbYNRXE2gWnDO0M2tcsQwbleAKAACsG2KbbJUiLjH0XnOvk__pU-6qSxuKDHsXnWucQsgo9qvFoqUgh67zkzhkloEDW3EML1r92i_sQxjd2uUkBsy6wevN0ZUUOWH63IDL8or-RwyTLbsDauYz8GRk-l-5ftHtfSubYetw3TdwKh-tF2zrl1RJHFdOiq6Orpw4wreoHyCtlWAsh_i95gl21R74qwbWTPiJE_TrkFj7nAHDNnVANcTquiUlG5Mk7AH0lv_YSpFDKoYXcxnKiiFQWdExo4VET1gwo2enuAdqpVsnBU2OD1GT40EhuxPnJoCaEcTzIOa0ir4oBYt6BnZmttZcbKpRsJJRcuqqPdc4jZmz4i6QodCUqEuhwKvUDTFxqFX1jL7YzYFk98GsjB7lxOfWlGkOL0znrfvqRAgdB9YPHyj8rmsgVzHokfTIQjdHPB2H4pjiKqH7r3y6ktbnF19V19y85rjCz2Z_Oiu_uBEj0EbhJqQZ_MTtxFpABp9CrUzzraVwuUU_fvjZvf__Zq7OMtm3UailNltIPwpzwaHivpubf-8s7JzM8NKUjrC0pABdvtzYW-Upvvl-_7ikuXJZNwrTytan2YjJ5mE6BYlAQvkejxfDbtUjPBJILY3ChRUvmMiMkx3AiFF3-HrWkGIhEYT13QCpDj5BUs1GM6ZJ8cY-mIGTbEeBC1Xl43p22hK-HIxuzG-HFCcJ3GVhZPY-3FyABranZ_a9m-bT88xxmqWAHoMuYxopyOvjN_CZXQ0VN27SBQRm4drKFTsg_0dYXECW1VQD43MuNiYRmuecINBu1RXOxxjncmB6YH7J93wOb7rRG4jyHK4PAVLIr2pucA5K5vILAOHqP3LHIHkuzSqLjdXZ27fuM6-2DmkNoNUtxEwjrKXwy-edsDLGftBQQI-OEZ_3KbROxV3GitgdPOwQOwDyWQDYsAhdQLb-h2B9g1icB8YoQ6ye_QaRXA0tD7fz6EOg1XPPMiT4SOr7ZXVv-khF9s8YdX8rdI_zzYpkaRgApFNHNGNKSn85i9lyP936SdsQi0zkR2iF8HNPfp_LQuHpKJ94SLQ4C5zsewfvRL_7tismmfRSEloFTGlo37YNN88790hshBWLI0jMHGcZDRZCxY6dKwzyO7kFlvztxgUX9qrOJs9Tdn15JiONPFLcp4s1T-xC2h47t5wkBeJKXbuTX9RrVTsSTttyVNN6hu_jgX1kQt92QaxZVSpOioS1Z0SyY83QBZEXFwwZKK2pQEscn0satqEARLgvXl5LJ07CinagDcTGJX4Bjubwwm4yORnfDzkNjynD5NcEfmdZYIYPMBGIS8NkdyTCUUJN1N3sY-CE09b96HLlU-pvyXFgwrOtRaHj-sWG2wQU8lQ4t4vJiQrZe2SuCzxAHWEmS6RX1nV4apEAfhdHDye0gkR4ZutQhC_8zi_48ZUIp4Dcgl-uKg1JkTPUsFdpXbXUZcwBFIhp_0R5YDtCLXdgiiqoSiHYLf9qSjBYxntKYdvJsVaUCH0qaLRrCxUz5I_D4-weXbxSIQFOoQ-uYuuQh7ZGH_aZitkZZY7spJdCbagGymTIrpEcqEaIB_unS_Tu7bwNoGagAlG4YWKS6Av7r7NPTZ95KHa1l7pH7SnLfu0NaxkY0v7orZnoMNtl5Lx-7ZTkZRyytnZBKdtgcnccJyleafusf7Iq4FoCs4ph03XNNEnErLjP4GrYDyY82ABjdDyRRmfBDg1YhNcfspVy8UlT5R_GrZKjYVIjIDubK05sn9l8isngOOKi0WI5nGXS_mc7Wl8kmEjtS1oCsQaStMFOKMk7tTXqcUQgFrvm8DSJMcXUUjOB9ABYwNgoMgJ0HuKhZRB2ocHWT_CBhA6Xp-hPM7LGDvYYk8n4d-DY5uHM66HG29YzZ32grW8zHOJ4RxSTi3GVwLqXVDy6X5NUWuQ28l9zx8BILkGgAybxSRo5U92RjfE9CUnFS4HlfW-1BJ5oRt-6PB3WKET1mloqERO9NJyU96VjGuAuhjmbW0QwEcat2A7WnpHLXXybBPlRdpL4Q76iCjV-8YCE2Gh_EloQ77J3EMbO9QxOo5ye4O6HT_pMHIfmZ57vfkjxLbMhzy-M5Zyk01szCQPyecnEofeas5i6Y71Rkc7hAtp1WXnGkIk21aSqv9-amRtgoRgWGAxhRDsfSirIV1cETWlt59ML-PtKCTFmT_6II06ltm9zIMx3B64ALpIkDxQ4mz3kIjFxM_zTGEX9RT1YgPD0HftjpV95AP4czZqdtNdVcaAtTq4F41lzgCmz35t9cpSyQ9eMo4OkR80qETHJB2hTw8uWfSU0XRxQnpeAZZ0m5ZwNU5cpTiHjvgqVT9CgtZWWgNnDiiLNyzwwdWxNw6m8kWIulHDv95UnQJ_vXRr8uApxP0vH4bxZFS0nDv5oAVPz_R9FdJOeXqsU0yA9xrHPUd1pyv_eGaLWfl-F5Tl_aR7eKN-iWJhLWFBycGhae2harFooLKAFX6G3a0TpTs32aGZtF5Q3nmINOsrWrC2HgippJZTtIsXyS9OMIpHiF5UQngEcoVQ==",
+      "status": null
+    },
+    {
+      "id": "ws_0731cb095aecc0b4006ad86f6843ec87d19ad7fdb357f4ac4d",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-bayern.de/Content/Document/BayGlG Vorstellungsgespräch Auswahlverfahren Art. 8 Art. 9 berufliche Gleichstellung",
+          "site:eur-lex.europa.eu 32016R0679 Artikel 32 Sicherheit Verarbeitung Vertraulichkeit personenbezogene Daten",
+          "site:gesetze-im-internet.de/agg/__7.html Bewerber Einstellung AGG § 7 § 1",
+          "site:gesetze-im-internet.de/agg/__22.html Beweislast Indizien Benachteiligung"
+        ],
+        "query": "site:gesetze-bayern.de/Content/Document/BayGlG Vorstellungsgespräch Auswahlverfahren Art. 8 Art. 9 berufliche Gleichstellung",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/AGG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-8"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?tid=121257617&uri=celex%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayBQFG-9"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A02016R0679-20160504+"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV249478-14"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHZG-8"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-8"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/HZulStV-8?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVV_2030_2_2_U_13853-14"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayLlbG-22"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG-8?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayLlbG-8"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?qid=1788603812977&uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVV_2030_8_F_10382-52"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f6bb0d887d1b5c5f2ff34f0aa33",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-Xho2wQ398ITLPoxqQE2I-Kyy4OE6zRe7JI23ErW38Ax1vsP2Vw4XfbcsSHG5uVg14ZbLSvflebKq0TmSeoqZ81BXXJXlcl6DkXxzs1U0rDoT6nEg8d42OuNmYLQVVjfDE_SEbjGDmMJYxZk6j_FtgEEwDV0oGto6bqEIiE6mYImL7jB_GJSTeR4JQnODXhgKcgso0WOLUNscepinTI5oRHIexH_pvdpchhfMpdbkaAmgqZW_YrizOZ6q4TRiiviTzg50DUI-tbmIuGVcRqiiOVBs0SGXxKKkMRAYoLctC88Trdf1-qS27IHdYo2x5XS3OHFYvQx1dN0dDAWaRlFeYox3dKWR3ttB8Q99rDAjtfytg-wUOD_fDwnWQXXHQ5ec2n8owfTla062-ZA1Xn2Pu5ThknvotT2fdO4zHsrTr8UVmYo0veO7dBvN1O-1AOMH20TgMnMymB5i99jp9s4yO2TCWmfSzs0D0ggHuoJHyr90Gkg69foiKnBdS9LMKUJhA5a5DvI7011wpg5owueAXSGglcrB_draxfbgwhkLYuMQPIzcizWuXDw7RfJqMS9_soBmCDpEwz0ZLUkKJK7hn8FoP_CVXwEIlmORL9kJcShbxWwSf6xsj6dQbSroIenR2cs2ltGun0b5Y1hweliDJWJTtdYHn-pdAtpi8Xjz111r0x2Mg3dgX2opEgU_V1mWcVx76BG1EG_ZgGzzeW140etIfTjKxY-fy-OM9WLDVtCDYR5owBtU0pXBE1KxoXWkLyofrxKLP9UZDoQV9u8xw6FXi0YFaKgiyMQ1UsJev6ChuBedpe6RE7pj_0V_tNFMdOvvGn9xnHcO37-wzb-dtCKBvzv5Z03yqsXyvQx7BGccDrQAg1EZ4ECEwshFL9CsjcDMGupTAusfxPOoXr0dOUDAXSOZvzAlfmwK4WKdEgITHQWG9hP0yYHnA1zBdtPXWdXF_rkIriDUy0kP-G9tJYGwX991P7K3-3_3_qlFms8dWXw9nNBQb3KlWSPdOgDue-_RFOmgB3Qkl3XXgunCGFqy9vtrmNLOr5GoMq9DepbZGDJ7LCFOUJcFxYJ17vmERDUE6g9yTpt7BW6MoU3uuS1VFRtPWGwxBVLtw3qI6Kqv9d27nIC9VG3IYEj28AWa7fW77oP5bgoD1zF5bXgpMMkyT7DVwHIr0jM66KjevOpyTCisLwrM6l85CGDU-tlSBXPyYpU-DkBMGLYbkxIFrwOxufep6HZ18c_MgfrxBM6QxTMbldMx-eI69DVeUw61-SwyA8x2wQurh2g1C9PnyFxeaD20MLDHuqfMFMBVy9iPo7DmzoX75N3bICtFrT2BYy7ZTcb97ULpoWZfOp2YDssu_YrHAbTgtZ0PejWzHE3fgqsGFM46V3nmo7wEk23C0StNyIGm84w9D6xLS7VMBpJeN5nbr4iAVQD0YGGAujgBXZ6r7NXV63TMVTSST-2CSOpFXsx9gx065SKebA9AlgmPmO9cW1Pc1TcRR9A4CdhNu3uJmBqoisRVj0KVW6ngQPkEp15qeJCa0VHXhSAgnbljBmAA3lIQ1qaj0pRy-ZcAsNFIaGG1Y60PgsnAOvVj2Ym9yW7XvXPHZdgJ_NxHpwdJTPf_dul11CsuYh7nHoFeEUHdBS4hx3dlbJJNR-J-AKGGTLaqwkUHBbG-oyMW_wv9EDeEX45fIrkq_t-V2VoQTIzpnxdmCfxRd6F01Jw4PKlUkpHWwXUOenAVCbqXLOjzicdazqadk-T2TMwdAxvPdjq1T2tBUjxvZ1bOrsFTttEv1UuCSosxDGT0bqlC_75i8m-fIsb0OK9HfUtwig1JPMheJe4K2WCpIw7cJRcunHnZzMIWeM0hoW2XvehPSFkdUKcVatM1DwT_f-Gfh27Fr6g1JqeWmVDim9rSMdkM1Vyfiu-seEF5eReB1NFcpGARLK_DbmSGZo3oS7FxI6UK_NEyC8KDFoxv1dsl5zTSFs6JO1Y4HjGdHtp9CAMFz_pYE3OVjOY7VYVWBtk0xZos4uTaiopOqCte2k9TEJFHY3TCZC_BTUAelIjwoWf5GPNJviD4VY_OJi25CJc-jODZFhHFGmcX6dHLitZ76PahJwdkBUN3XtzqBrLuYlgJa3MXgyIwkmoGrBCvCcDUaDVKufRpAQ6n_G0O8CePOaX4bJwHc5yIWGVasNNBZY3SfYQ6cC8xvWRVO8PkBadL29xQCyLLYMtQ7BlRISOFXAgISaxZp0eZn1VM3t5o6SRAVFRXc0_DwUuGxVCP8-QEcb2xEUyowL5zLirlCxWvOuLKLJf0odN4bZNYkQ2Lf-niANa5IaxFvQY4gfA-lxb_yEPB0CTVunEcegEdg5edbM9zXr71GS60PSJzN2HcOuS3SeS7JkBEE4QDtkML736LV0K3j5TfEbuT_1GqevnO-TSTgBc_8r0nmdzpoa-2magaayhCI8aFmwhtrUQOHMYgKgdAC4Qp9ozW46x-thWZEW4BvHzKQy7fFH6--ssFwnA0kGEN_fVKqFKzdBHoC5ZtUSeu02mvqb0rD6Uy02GwkWEXPyF2PFS3t_a8UpzIp2el_7tw12K5m44Eb_Vn6GNgXobmijXUbvJyL66HrLGt0FTpcbcJOF1lL6ktXYb83Kd1hHaFfCXUg1PEWHfYVbTOPYzkKOaFqv7FhWAEw08aOoEcBqkd0Hl_bbnC0Lqwwth8kKP4eDq3DiKGyI-21O38WvDpW6_PY_ixP9ZpZnKXDcXOtPNz1lKg6vZ8CDuYyqZ7p-ftG3LB0qlJaKOzJqPKPXYbVoLecb_tnh2CiLP5c7KqXU7tCTPFmooHnBxevGLNSV5ClahShrPsSomAV9I9HfgPCt7elGCZEKiSSkNiFo1-XlRwE_H71uBNKWo2GLZ6qrtvLSjW-Awja13s6Ecdyyu2wjwARAXK9cpTJkherVM87jvqw6elEQrrEiVUy-w0UjA1IUCOQq_1MXKHs8sPru0g4SAvi4Q6BYeATflQg8_Ldfxx6u4CiSRJxLnTDsWl7gRQZnAporNfwrOcgy-3TVlVL9auO0b72x8Nq9mhzhYJrhVGDNxvKEPmTZV409ZevyqkpBm5xHla4KJJSa28JBXdO83u9lzdLPA6Pof_OqqVE5OrfweHxjYrQMQJHePquGkVwbHEpru_iTc3AICAkQmnzta6dS7SmnJheJfKed4Otl8QXDegvselqGUWYaDNDpyU1OM6Q9uMCxKnt-qBb5SmB8uyajfBV6_lXHIyssuhmRUQmYNb0SUwTPmdXbJ5msvwN2S_UZ6JO4R_fMnR3u-NyD97cVBR_8l9b8GuMHDu2KE_4mneWHtzbCGzrtZUdBt07K4ny4Yf3TGLJXj25EWLLozgvm8Y-0CdjcLN4qD1uhiWTZtkpHFb-ozdSBwI3bgqB13ZRVqWorT5Hu-G7BF0buYRhPO0W6ZX6mV-MPTrVDvpVMO9jH8S4hwC1rC4xVd0NyvmnGlQ_jtp6c4SzdxcQnLCZW05C9ZUMXWmw3qX4l3HoAX7qRES-gm1_Vfxoa6R_9f5TP0wFBQ_gUBjDj51ODKKpHH9TRAtWwggOOModxMcfK7lt61PXXXvODlnRWKmeX6joz2cjCMnDlQCMltxTkypUOU1coD2_X3A5QAtHNrsGfMjvRptXgEG8N2vnyDtkX9tyXHleBBmXLDQfOyTMsRfTwXw1uLMtbWWovW7BQKzNgtv-ppFx1EC_5S55_E3CRYQD2uNXf6s80jktb2QjUjt-oUwUYt7kHg_VRQQyLXU9f_tHz2VDGIHiJLvBa0QvPYhs7JMlOBLD6zCTiRiW9WG_1l-iNHbEVt1kgIqInFKcORQ5vkFkbUpRBAnevaWMKT8PJk6ACr0C8ns21v9lY1Ds_Ju-6k6nPbxDtFEkwmS4pre0AEra9koCpWqNRyfV6ZF-6mHYVYsq54GH8o4mf1tAFlOVhSKsmXU33D0bccZLod-tXp_E1Le8wdkdb1rgFqxJXtAvkEsJ9OqXOgm1FWD7hmX-wSp3Fk8gCdxNXMskr6a8Qu5vvPJ6r14VAWZEWVHu_HoDLP2xKH5s6a-dLKQmOsMN64oZMsXhgWrfgAUM7DSiVZpA7W8hBpyBXEnBTiSti-La8F-3DsbAV0G9i-DzfhVK_noSjs9Ua31O2eidJpQ4XPYKLbzrc1g-kmmkaFbkwK6McE8XuYrZwk6Qlu7ZRNSwu74KfpnL3ejjSHu3x621hZbZbhqmAx_FwKtU1BCH_LbwdXjV_6I-8HTnkThEgKMaO2mm5C88FkxN8Vqly-cMY7Uh1wV-_LPZhsSR__sx0FQT9qb29q2QFgHiFDmHB0rldhFTyCKqBSAvRBTKr2SdMOZNvsqaEJbMq__XA1QXS9iIfhXhx6-PbbH3rvNdnDcaDcb0zpn_brH9zuuauA5cYg4jYliCNvjnbUxxVEYOIIf4FuavZ69oobb0zthiVb4TgfZbaQZ-nIpFXNC3R3JvocjOcKFyDwvUr0kHn0acFDNvR5n07UBKq9s4DdinJaHJZ9owHqNtiXEutB1-ouwnvW5abYbn1LslD-T3ao-Z8ymCdddmCbAj24RXErL10ZWH-y9-Ir1sXR6DkgNEk9kvUpcZy-IbEUqfzEMj8HziHwMm93RAU9edVFfXyM5JOJmoVuidNXrRCkvbUQ9ZKlHqEBtMmI3_qPn12jY5K0mTrGKRPvl69ffSLhq8h5hz49b56-Ocn9PxmsV-AddYFtpJlpoALVGgq_PCDA7n-dVHnbsZm65k4fCpaa5XCH5x1xvrs1OZMlxcCIhLKpA0qUI4K2Hm0PvCZoWLNKpyTkDn2VQHl3Q1Vz-lSTjf3PPJ7-ZDDeJi--MZDQedC8n82cHdgNvT9VQXwniUb_gmni-74nZG0RNa9qdTZFoKMOxRuufilHB4gizAIMykAhsQCCcFrX9qH-XDRRGo3zykR9-ydGdXCv1fn4rDj_mPy-1kFSsJwr_lWeF8bS_Ds5ARFmLacLK_zlOix67Gw1F_lbOlwWDm2I6AB3-Aa23sOq7S9wiQuKj5ngO9a3MUizB6hDsn7dlru_tol81lLFqawGJoJt5fK-hwz2j4xtOgtRQxZKOUFyTQcE9hXR-sGByg7PAHnf_6ibsSNTKtCOi6FFa29TJRtqB-_DXFBXHzJKCoQrBs_3uCs9_XyguOWjV_daVbkRFZSmxhRU6CAtAO4FP2j5KHk-GMYGCo165qEXBRvPwJF19Oo-AHOOpLVp8d_-xpeH6tfk9nJShZm96dADyGCnmDWS3KTiKVguFSvMnoJCrytakQSKRxfqY4opwUfg0St9IHqQD0Q3YaHe94syGc9V6-N0-rSlkRQdc3bDjyRq96gPMtHISHM4nTGp8ZvMbbWlgyJpKDx23EwEqkVIM9Ud19ywJilTTS3PjyuhFg1zp-66PLfxv74ZYgapLEM2cZtOxr_JR7PFvm8h1iPg8Th3D7tsYcJg-lMyxiRymABid9acwYOj6eNxyFCeosDMO_mmuUIGsua6p-_LuiP5q0wzJ7QTyM6WgIZyzSCGGmQEiMAfQwTOJZiLCvXO3B6NIGnmqJ6uPY213_nQh9GT0dRKePrFqHZl1tXe-98lzGrH0x3o9ZKjoli0OSOvAEkfzZBedomFI5GaBq3q_VhUsVporB9r7Coo4vboypWWQPO9F7MhV8hmCgk7u8ht9c9tI8UPNrm7JBRwgEJpYk4mH2t9SXnrb2wlnj_1JJCxzG-8ZDH5XkqrjgE9JPtMX5j7240FIk3V8nEOzPrftd7vQp75OVnBSu2Nnnt4nxQCuC8Qv8vnAzkgG63Oif13v5M0inwil5WqxZ9oQoJsBopCvh4OgH_oA23IPqFU30_b9OpNsH_njYp7n6_vcTCcV5J6B0f_qQhcYYzk83vaK6GYPUHdyuSyCNTCN6Gi4rrUTvlVyuotxY0g4lhSoKww5uDXKMEb2-8TB6ZXrpGUtraYQBzhHkgEjbvsgPYkp5B3HYjSfdRasyAM0tkPtUVwcG2Rtown5x_J_fdcV1sDkn7dIBliK1m4IE5SbqUXU1BvkGJURnvLV_uDJ_VSbYlGqAw1LApwY-tOi10GUvnxwnNaHMorxkyMrjJJxtOIqUoolWL_QbFXjBr5waMGSDE_GpX6tddOhXOIpVZxA0fC2GL58-faxbrggkAE4jj5ReX2vEEOitiMeZ6lpli3yBrDF-CkDa89wT87rYfBHy1hZjFCpBFgQHCwaSpgB7M1CIKr8MF2ulJ7oVYvV0nN8yBqAyLfgXqOoUlEvj2A750iPxnJYe26JgaNIiurJTRiHhhPStf_Agl4ueuzoyWyb-k7G-8IOKDWA8qYtOh-guT4j3KvZzSU_At9IeSBCXyOrDIhfGAsv6GKp5uGjIruK6O5S79fYojO9H77MK4CPlfAScAhOAYc39vdMcab73ll_0g2HBlEpPC2wFMeBRIBLBEPAh9EA-L72XkgdYXBA6-DSUz5DwLdya9aMO-MPqqv8EC_hlSJ0WtoV5S-_GS4LZPlykvJ4KUp8xIICriUzagPLuOrcezAP2z5d0woPJ-m7EcFm0KXizv9PED2ffsQPQaIoq1WgqRizYrfPe3CMwsQRA-Fw0pZN9zOdIttd76oa1L_bda-PbG4l1V3LQI1YN3LyLJ8Jz5x-MCxoLbkyzvXDYrMu-OFPiZ81WYFtlUmWnZzMNwwejdeBbuDAjP36AfoWGJn9lE1nVDXngUXxUUzQLNfqBGnvWI6QQGkPLDMByhrxasAUDle4e_aCijEGcQWs11rGrF0JW2WOeAawXvfo5KzaclqfjvDnDsw-KMHn874k2h7EYc4rg3hlQRtR5BpwAIZcFZD79KL5wqy7I9F-yaZ-CfzxMhqcwgYNZJJ5WaL-Z4kMFk6ibZKbqbeMfexXRqVeyntDER-HL3LJcZE-yuwH1UtW0Xl6uTjmf-bfVTDM_fhAEYNb0kSgeTrlf4WxYW7qsJB9SHy9vlApByXWvvyqareXUjUJD1-70ZKdSotQlmUsrpAdi1S9LsuR9pDtO1-ty56D_VixT-df2aT4rc_TOqUf74s4Sa-TRUuA_4_CSV9WA0bFv7wEPTMkB1uKkKODPEp3lRce1duIzHIxxanavrLQ0iY48SiMJpid4YaJ6IJkJLDaDnZNlTd0RqMSXBQm27TROHbj-WBmDQt4FZ-6sZ-xoHcaRVYRZQTcq-n1n_IV3nHqLNZpPZPXHhhOEXnPRYaBB43jo7_dALTGKQzqqdkvtS2gcK3oVPsVlE3xdNM4vHsYld2qUYsWdzEA92UwNYBkLEJ0ACThgatctxhywbWFnOX1ao1zSVTr5u6xt2Gtq8rFf4_daUe_sll3TnIIK0DdS9vqvD1Dz1yWDwjKQKxM9nUM6nz7QyTVCT1CdCGU6mSWuQHgljGUjPYfc2B6q8N7JyWTLvj_WCinHxf38SA0sRRgpaDFTFhLZPRNtIpkBqgtryZlbKClexBPYmGBZCLSAJdnLu-MIoyzZZF_jtBCijkJ0tfkeudDeJH6Bjn_pi_c1uzPuLWyqVfhbGbrwyB5BvKeu7CiLcnVhV3LhTOxIyiWA6HC9KNRAoVYMFdaJJWV1wgDJTQBL3Dt_Dr62fC_wN0I7ZloCg9YLkcOimdIzoEBRKJ5OXoqTIRpgEIYDK1V9tz7bEEyt-lJPmvSwvgudxPmf8vOGzolI0QsSlHADRZbwETG1pk3UjLG38Wj8WtKHLz-6TCZbQrx7OVGhPyw7yBCbemm-qLh7isPN-wCZBhl1e4Csg036kjg-Rxu5gJLZD8rBuMVySkn0io5wBtJzjILtu-FLf11FhYNr8BHavSp7E4_Y3y9qHcqrm9VftZMvy0aKmOgC",
+      "status": null
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f7006e887d19bb3ed02e5034198",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-XpXFe7Is8_nzB3gzuwti_WNglCQCM3N1fP41lDa0bQkh53MlMVFFyOQAV4P_nwiCJzKJpEI_bYaUBRKyqqKDO5Y1TRax9WNj2tAVsyHhqOOU6ezbQcK_q3sr2eKi48NpG0fTGwIRuA9D-nmdUcSavPh3pV7E8FL0MCCxL-cgBiiBsS0FbgJeu6puGAt5PwlR6jb4s0sGW3WJFxxjoqbpaQ_vrmKyiyzQQevi8Mez4HywQKqlGF5qE9CpjE7gFaYCJnff7bPHRDHO3ED_vWFm3btlZAHV761ZitUJ6Qk2JZt-N7b3O3A4j_P3CpDo8tsP1RBtUKn-hks3gqXSVKelIPAa6ddJS9QwtzTvgl4fNmPpl-o29vJeI8UxNFNwKVF0KKQPswfd7pnaSdtDairttaMAKOKSa-W2qwndARTExXWLMhL9odtP-aQcp4VXgXs_-rjdJZlUnytI_85Cq0N8xQEXdyua1tKnq1gA1url6FJVhZD9b51VdyOhQv2r2_pV_COjqtL2NbCvBdnjytGjLP7U9-tmzS6itEGL8UKf0kXvuiZugrwdKsQaOccbIpozH1PWRFT102Ok-aodVI5Xs3MSarl7V-c3tx-YsY2vZDU99Keq2t1IBKcDrBIAbPXOAnWinODVi3XbRBJYfpC-ZPbTBWh73pMA657ES7LWHLypHViA-PMbpzUlMcIeodwaOT8x1jQXgQVBom_uV7BorKiWdh5kXvlwOel9GrrntVnMcDtFMi-zb855C9RhS1VRTbv0u4g2WIerMyp8oQWPK8uCUSdTOP6CJ9xJwuygqP5rEmgCdCEhHMy7SqyBFsPf6M0PQbiz1IlG9IhEsY5EwJinMPX5f1dGltLm8IvOD5lLMD0YXvXlJ2Rx9RMMuXr4gEFfaKhIb2Eif-nLJlw4VRj1qtZjkC1jl4cgeO18q-wbx1Xaz9408msgpV2P_IyyMdNBeEgFYbaAzGk-pkJ6lXRU3KRz7NxSo-BXKcQ-1jHqW1MG9bAAgGHyGtVX9QMGnDDoMOZOexbgAPGwTyM55YP2oB8dMrOTdbR1fIFcBh7LFG9AKBXswP7d0NqF5iUTEuu6vF7Hw9Tl10dsIodUNT1YVbeJsNm59w6jZ_rxmn7kCrvzPJpR2TCRCNaX9A7cRh0woEZKdC8ppLEKp6R3uUlLDXbKrofWzS2iq91ZxsIzH5kJGndJm0GXysU4vNmz9Vl1SBiMs-SWfpPYhAMwL4Wxc0zgtLiOguR02Da77axVChQRsANawjUd8I33sF-2GADNZ23swUBfPF2TuV1W4eyCcrHYC2YtHK0Ot0DxaJ40spIeQWLN0Lr-1aHZtdl2nlDvaeeOHPsK-4oaws2W0YFFh3DkDaSwKzo9z6oFm6Tfdx1d_jQSI3_KEBke7osod1wH2_scYOANEgnsYRh5FqGB9wJzIpfcokFKZCApakyhOqaayXyFmBeX6ezH9GPZr_PPnKH8-Bw-8IeLTjeaPv-3Wb_va1Q_lnvQ2dZ29xQ9Mmi-Oi7oGxPTqZ-KuyTW5XJwfJn0_EVmEZj7sS9Y2lWqtrxC9pPfRKfP1tejgGTlWb5KNL5xKZtKIicB40EhudXqAW0MMP3nZOJzsYu1o4nGf_Ex-_I0QsI5GMtPVhybuLHYcrCi6KR_AKfWX4xqrZqFwxjIoY42FDXL8I-eTpR_gwVGUpz-csSD4iYsw0frgxybt_sMMs5HAeEb4tj10xcGy74TDKrN-A1WU-RXRYonVmzXcpATxIL3zYxKqtghj4kkydJMfUb-4RNd0X2WKeygBt8FpOvUQqYivBagKc6e7xvTlBM5xHyy9nOuARPUS_yjCxnOc4F32L8VfbGz6zLl70zaA20_cilKJ2AQ3CYGZ-r8RpDQe7XYlaqGE8c02sqG3tmXmqXo3trX7JSBGSRHncfhhXo1u8EXhBcSfmUFN9cs-w4StfPxzAT4lrxyCvidDzj3Xlgn6nTPuvxKWWmwH8pl3afvI9nXkuHj3RMTETHm5BNIZi3KOihk14I4qO8578WWOspTc14AOuI_ob2GdzZYaQ29aMGWgPeCfzhDC_1KGyVvzwTgkv5LwBtSbUD5K3NozMNl9Tu7owFp6a4Qrbc1HChGoJger6_NVsi5SS2TXMsw-_1GZD3cnRUPuEyCK8wJl9H8oDpllttyjhiKzP72By8owJgwYDgV4KwLhaqdGavdN7P2kMSkFQo3ImoteRQt_gWAYpzvBjIDlz0JBscaGjbnetzGz3C9obadiBJQxbMmrXiuN0KAvZ8lvYGmhIYqHiKKit-EAqecJV_awbVVswjdE1DGKoyzcKzVAFXXq8AouGV4X7tYxdpujjdpGmGeKmoV91y8INQvdydLz-f_Pk3_hjoJSgY4v5to57wGmRtoNf8nPGZqIiBCewykRLOvuRjlzYzCFHwzclk_y31reV_bmAPgepAyK-afKTFtIN7H7JrWHB50KdTObDERR_587M-3Awf2CiZLwLHXud4oJ801DQedEytZpXtuxU_GLZ-dy2oDuysXprJ1IRRdkmRBs-NIb7_E5gvqSGn06VNJnCegsUsPu2jW241ScvYJ46bYQsP9al1SRK3-GfSb6JEBYwBCh8wlRqZzGy1u9MO65tMromSbc-6JTAv9czXrRLcvhJ_mjM_q_Fdy8_0Rdc93Wjl75F2egVqK6P_7Mw0wIvZ8ZljWl9xpSyFNssa1TNUs2RXqeaL3ZU-WsUW-4nr7YSKOPgdRmIuR29fI3FiH5Ub29LRo6LrUoXhnODX8fSgqAf5yig6XgqpHoqheJ1sPoeRs7IKJD72npC5Sw7MH6UIRZv2hdI-kU8nn-qTJzqE9saO1cST8JHbaLAqkZBCfgNjy0nIFDUfizCrRZL0BKwaefV4qVDiFc919iyN-lYNkE8EM_b_qhVmfgam413VKr5HoVDdGuZamuPkYiVhpN2Pm8yLfWOGPIBwN2-BqZGgyyK2CoHlH6pofLlLeyLRA3i4KMoLGw53LYR14e3HkbAXdhhf2GKYW0hreWL9X5zSZikhGjgZuyuvD_Yhv4DoliWIxxvuxImkRDJ7rR8XMxVrlmj1syQogHsvJZnCiCF6V74xDQjqf8F-P74SbH6F2o1V7UthQIVxUjkkuUXfFyTRlKfJ6__bcW-YQd7rIhVWV7lieODAWV6HKnAoKQFlLxHprf90oypWzyYTKKxhHpOOMbU6hXietduIvnvZWt67bKdenMqiO5znq-IvpZ6wSxtOCI9Io9YJl1rfK4BRCzp7KHEPZTqaC_Zz4FvVtRJX4MvszCaaXsAeX4cAEbZos1UebJKZRWZ6RfhpEHalKfbhtZ9MWub1x1oLm1ffmld6IWvkFqbAyBzcYfP6zZHDubmuRzf0QRy-VF8PAofLJf5mF38E_k6E545TPRx_L_OpiptWTCPeEp5HzdvkbXavMUVY_vs_qF_iAwO6q8nZodUpUP9P22ms_zOMbA-4RY_9BogC57GmTZVmayz-68UGn9TKjD7R7sar3rNYCGUHf9xSSwqPUFcMzIj36Pzsi0oLlaL-6_QqnqsI4XccvkbN6JKjQ7NTXuXhi3zU1QmsfhGBY4VkYDb7z7_f7fhRxC0yCsrRzU1N9P-tZzDNcKws3lF95SAiqysd9oYEp2dCrRepke6QIXDv6pUI4cIpho4Gq_kThN5U5SplnE6fQZX2lLNHOAmXmnD-UrwY0eR2p7rEcn61e2gnqPal_5_Hu4pH_eRjAD93IUZzqiK0ePA7P4GrDUpHp2uY1tWjN7xuwayWY38ZW5OPE4mZ5DE9gVUTpGkULQU5WRMMT9Z6jcgto2O8fuJJ6qzrz8maDHcGTZ57_N16kTjixkE5dZ1dmOI9z1rBdYttuJbAO3D1oN5ga7tBpA0bf4fLEkwfvKNRG7QInDtF_R_cnC9Q5vVDcnoSSrO5_ZIgfiKvlsjXoavUWU_3oyI6EqrogC34sVsttj8C8N3clHXJl-kn3xEou-PvQYez9jRe0TJ6KbDDf3XdfjFSuSvd0AQ-ntraYKekxR0pBNS-gW-jVdFr0dtzBihSvu9MTXyGl4XOXuigjx-YIbjoqfHOWiyAyJjEHKRB_5swlVhejQ9X-l79PQbLX03hLtiYdX_a2_0TOSulwxhOFRqLKtwrGDM6HT2w0vDZF5Xzk4b8yY7JJ6LBBKzUrH_FXgG36L8lD2qGGVP8Z5hnJG2N27y_jU2Wmr8I1PS1o8jIipKQnFxPYMnxiRNPNM_kV_vylQqjU9PBG5_Tms98tCsIjYzKkWlnAJFIS-DeF_thNmOHAgG84XtBf9GQJHM4zaoo_p71nool_knJbhS_TXapk8hZxEqvpelVdnoyYq59smS8x_zIrGl7y9pCNCYs7EkuEdzuJLO0iXzLVe-qIX1-Bc4NGxNTXcqKbQv1r5ZwjzmFCXZBPghMZtzPUKSdBCruClZAfz6RK6nxjtZPhKh9n_hMpIrF6gdiWtxUtecZLjdJAV3T5Fdr4nLGyFNMDcO-wmXCjCQ2tzHFsEDK5pHxBNg3nJ7NA7eEygflV_jwf0DnFYJliGeRXlQPWxMLcVyWTyypl4rtJkg1XQKTWGd5HBaNs305Xb1Z2Ru5c6xHirB_1tJ2mK35-d4ymBNTrxpFw5ALULeN51lQnTIHmAacyn2BQKN4qoHKjBkpWvxNDEfh6Q7xqLHcUPZOI26TLjXe21QJoHNysIAP3rfIzGT-jJB6Al1BQ1iTB_YYwwzYK5uOxt7iwNFE2QiHQIyQA5hesNPiw8W5OdZdeLzF9VurlA-CVIwdc4Chh--OQDTFqMc3FYqqa6vqhvkOkq1td3ELcFk08ZWt6aLwVDTPlScpyajA8qTYQrgvMlXbtFbkg0It-9yk0asX2ZvpIowEktnAC-a-l8WSgx2JftOlmoX8-P3bDUABflx33jtIOhZudFZwH_JBCi51dJ1ns8K04Q3yTojtyeeP1KDOmotAR9dyAYKCIe1L4zT3KmzEsTd1bqAfNUXY71-UZezYtRHDx0aCwe_5hQs7ideCPkPI-_ZmvIH9weU6UMM4LCSaye3XB0V_SFq9KkhxjVON0b3Wj4A9j2Og6-I0D0gf24dRmFNDU5ZQs0X9Di1WY33U4oZBzzM9TWGoRPuhuoRRgSWay4EZrgw61vH26Vl4AuWzWoTeVLAs5kYDMoa46TinmJiNT8xwOWEuFDm-c5SnJk35N_Xm-uvUKQnIOUV7WYra1f-Rysowvrvd3P83tMIS6Y-xOeN9rdVJgDYVsAwKOeMZ5L4GaSijUEccEcUGJwYhLpvWuMARPBWgiHQnHbg_hmnbtN8SXW0pJbixctd3DX94bfeuNoUrNULse1WK9aNxiEQoxwzXGQfFZSxQx9-ipOmA3lJ-7OTwSa-lyH_f6poinCtE0LxcKJfqAjmWsRiNt3YxgC-vh7Xc5gWkgd1dKIuDhNwgBr98wGBOPiwjU9pJL9kYZH2KHfE13n5G1DsgRUs8noOLlvpMEFkLs0wNiAtXVa3DU0qcnvNVDi-9VeDtHCBeZxrUSDy5s1GbENOCizzGsF6eOkmXtYUnA50o3s3NQRonbMXFSKgjzAEX6nfxji42_ungtZPjEU04GaryWWZpGkWPMUrpABOKXKrFEiv50NZyG25_1kNb6iQf3nEK9GKmPOM8RQlYW7TwF_53FzpyYm7hgDoMPMaM3zMmcF0Janz3_35kUhjRvYel-kNJ1tIvdYJ5R0S0WeVIyfh4tBow81zPIBIi8U3cLzZchbEfYZeqy8qBIt5ov7YzSlFJgoXIJt5raprYsw4UGZlJrlXEmV84-cLLc9WxDt2KI1eYdRg6u2pn7gjuz0GCKnrE9gzm9exKlM5IMMwgf6fsA5STeMHPSrUiCMBhP0ZPvyY28-THvT4sZIGLo4VmvLGPiUKSaATiKkoo5EXHQ-RmjrNdrFje9cBiObLWggHmyX5ySO6UcibPBHs4IwHIHZQ87ardzRpQYwH3_HjPlDm5BEO5pFcu-sYp1r-Hk5WphIo17p_cNVrN64vQ-JJmKlCF9Fg_9kzJTb0DAau_JX58ThQTU8DzjaOq2r2waJJPV23JuxKVZW5xjTczbzlgcPsUe6FoHc7VDf1l6pQmPszc1nP0KM89DRXgK39lm0zjkP6XRK40PaH8n3jBmUXONnuENKWsKZydBScM8yANMDGtKv7Cwd4Rps-S_Vg--UZ-C-Ss18XVgQPGX8orqwj7uZkJMrSG_H9fBajHA6oijG-AS0c8e_nHrY52Juay-1R3vmXXlNEcd-eP8ito11srh6CSd8x5bAQ7Duy5Oo2KYiE_JJF1v40YjBWm-4hCnju3sUtGgjUj39XoGX_SZN0IZKquMXErZwMZXh38BfXRI1SwH9O0HF1JenMhtW7z-txW18nVm6dAoKr3QryQWXdSHy3jGXNUU95NanSUyFv47AePh5KErQpsmLEFk39niOUcNOjkXtmG5QtoNwfwU1FaNco5avJqQ3Zxm6NsUVyftWwS08WBHRi8TDIk0Vg-qeRWpTjo8VRkt3S8C8jCll5hDIt12yj0Xgxswu5kWW32nESDg0IUMmGin1m3lmBFBmu_Ya2XhbZYGW8QSYLgpl4fv-bfQHoU-UkenEZhzJkf1ncd2MBL8JdNqriIvqBREdD045H2x6nu4Cj_-je8MYsEXOdbEYRnofVCABbwIafHA6wQQqLoR9eXH_srKxH4-zfZDV8SDUFTHX8llBT0EhcGiX75jX3MiSdHa8jkPozg0WxCOSfhQhP5xzg-rDT996Al6fdFYgPnChfjTmOs4_oM-vdt1WnB4XNJv4e8QGbZd_-8_4qCnc06ESz2EvvW-47YFrAHmRU4UOCeFRNDUIa_GGnpVeEvkUFcJ0vgTdxXJVHH48xoCVHcyMZrO1PvKzbqjZhpwkd8sgIbrLWVbr1iKO5zYrDkL-CFbNoUc8QFdDcDqc1-XenFlN32YkvU-dMz0HbKcnX_iLPMj7pKK1Mg9h9uz5YiaCcVeA2kXdIGZVv06Fbhr3dR2MQXvkDvcvQzRHX14MnMll5dLTklkfKXJtYXGexNFkWzfsbJ78K7W6y3B0jtn5Bma7SdGUCquUetATaLReeHWpKQerhEHxGkLdakC1MVFqQSXNlQVSYKBFeKIF96djzazrQz6rRyPtwDRKsStIynoH3AmirfQWYsiq9BzC5frB2dInFFCc4M4KILY3_QAYKWuNYKE3JELA3ghUDR1ual9NX3pZldMoMRCQ_72yJCUUA-VpiauprPnHybkDZtQTCBql16xMs5bOVH13cDvF9Sn1of0C6GjaSR8wZIU76mgHIFQdLO5y97LhFGQLYFVTrCjxTslPzqD62tjnWUv8PYpQZkW_5O9RkSztkCHB6ezOLrevcZ7eV10lViBeJBIouc8oe6VC5tKKpy6jkwlNolHyTmu73TbAkPh04DtePNS27XWU8-yFAyp-nsUgmusv2Pg9hLPv31fmc7gYOHpKTh0-6J4cFpfgYn2tgYMRJP2j4jXwlMc=",
+      "status": null
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f7464f087d1b660aadee0e9d454",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-X2QKBxqVj10DxYE9JriMFBe-w39-k4XV5Y5ctmVZQc3bauT5dmncC2En-vPU0uSsiFPygiAoDgF7vA2oE7YCcx-Cx5GqCDPxw-kzCCtlVEIc9-gcHGbYrVknAvMWrXb6zodvmcphG-5zubYKcKtQ7hdCwGnni5781VbD8eogoPS1AP3XFISUYcfeL2qnOtE5MFJQbfL2z9O-lZXLcQv8yrnq_GCha4ev9PyNyqzQu4_debvtV_A_Wat7NhWakrPAAeWiS4H4NWc_H7U62BRHddsXvOjZP1bVEUw6CyiZHLuLSh7Qknn33TSO2D7Sa2vjcWJqXMZZH--LxGqIkzXM6Xo-949q8YJJQ7av2we-h9qvk8WNUAub2daiaY_IBshGOSrImi8u94yjd1rSszK-FoanZvu0ul8zrp-fPfJDhVPXIHA-4HZ1_2iRf1k4lByLf1onyTJcY2OfXdTN6J6xNyJSObj9fcBWaQaJRVTUZT98R1lvu5HDkduUFfe3a6o7flYINx4V3mfaQGS9ePRtZd5_hAFrig9HbavdScIQ3hBULsGWwO3c2FUk3Ag57CNz39OB6u1LJ2-PEXGufUzU7VqZ2WBkZYau7h2n2eIGAUWm3hObRVIewjNv3PSDRh5FUck-47sptS6QdIYIhVX03KiWS7nvAF_4AYuzos1MXwvc09Ctw1bb5ZOR99sMAp8fO3nav8DKgjAQfzrk-NoFpv3g9p6unBSLADXN-Mfz_-3PnABvLrSSLIVHbImghZe_zQy3o278yqmkCMncpKUZaQ81-R_gzLS8vegH7pVxlDvMh14kM3wACwRW1DnzpVrhspnsTdzS9jdtExWblvCc9TemmxIqgcagvNX4IsIQZ_vB3cu0IymRAxhwD7i4_xoHk7uA-doZNv822keGrRBfzNzqVkLnMHp7eg3BO5a5NCh2dJtmEtTQpC00UNgXgAN7qCsy7p1GNJlGvQdo2WRV9NU4Q9mK9YaXxnsRr-krfh4KgNU0ww4fAEmfWcBEtjOeG0TtrfbzqLfbE1dBUSVXkD0AvC5kCb3cSngILTYWkpEJeXMz6KZQQ9eRfKUOTOVlngxSJir0vAk-591EIQ68_1RCrzWwAjXnBznjfcT-KWOV86cVFMiWS_NO7H6P0iFWLrdS2tI9Dv83jqhB-CXRSpsbjKJTZl70guE5U49y4o6XuCcMUhj2umeeemHczY_HAtS5soiKpN0QQQTy6fYgvcWxcRyiNUwC6WNQawWQcHYjpGDmuVaw0r5Gk6BWR48o3bEfL9nl9s_EwU28UT7bg81ccuignuJWd0OzDnI4F9kCYGoibYznTNgX-GDW_rOCZ10R_peGk8ZGvOXDLL5QVRX6-Qnsxn6VdQEztTCPIodQ9aVjc_wozuGJXLjjeXWdOWpGpMW7bUh8XQXUOEe8vK4bEKXUQV1o528-Rl0RG2ZWpFrWxUx3FhKeoYsyvdpmuoe0Ej4O9MNdV4AZS2uQCNvFjui98ppRNicz0JMoEGw9ifWQ3LQkaaeR9-4HnzGyhoaqF21Cs3JHtZksJhwWkqUozWtjXBDzwos-Y7L_G7Z_SqTVh9ALixSEEDN0Tb89fp-rd0-1UQFVAYh71RFLj-Odl0Z3bGV9S2t4fc0Q7jxRO98Vu4aOW85M5gVe-R8EpB1NJ4MoVjJvRVEGsfH3nQd4mTzxGyr8UjB9vXeFH3_9deGvljU0cceoMOuQrWvpdGemloaoNEIB6id2NBke7jmLIO6pU5ekg1nJCYHE_G-Q8jbVMoM5s0kOhqpImqO9xgnufPLGb_Br70vBEUMyfSnEQMJ3VBTF7ujerOeeQnQCS4nx7SgmRfSobosQEZ59Sx54tk1sTJJ6UcXDlaRmiRHN01ric5Wduih_wRQk3AVu8et9sqlZQRWUuLHjVpzt0YwqoC1zHqHG5mu8zVurWxfrockh38jeZcRbuIkeQYLB3zvAacvZftPoyJn7jwe-FkXdIhOUlqBrum49gWp5IxVeqdQS4LaJvotPR0PTDmq0SWFuv6Z93-mJ8vJ0OlwMTY99UjmwvuC-m4szc0SBwFDeruBg-L5RrpnSfj_HRD1OlUROD1Vfe6gNKnLMewDRySwtDL5WXF8hqicMcRIKzeXd-zg5mEuwesU7h2b7oTH2O5t0EWkKE4yh94EsEd1LDMik9u8WVsfcenOZPeUI1epLe3pl2pOaY5ftj9Lz48GhbQIsMElzm5VM-pdrCT3EpsqD6w83l5vfXmue55CqUKABmyHeAMC7NzKuk87k7BHM-WLGhXuBtcwGbgggHYS__g7MAkHD0lPhV686kJZXkK1xwgEL5c4MRNO19lXllzSiSqS4jU_Mf594SWfDMkGaLnhoAxpe8aSJthehzTVYuyinLDLYQz6oKZ4gHXXhezXx0jO8p9icRxJ-QpqDkKDREgNTcXvPcnlxrtte5EU92smU4wBl-QbB-5-KYdQX1xim0NhNgStBboyKHuAHLciqO65Kr1wGO6cIYU6HFy7q_infrYAGBE7lyezwJJF8iPXmH2zuzaVG2pgT46LSqn8JFqhIhB1r2n937PKpWaoMm0RNn467aabxZeT-A1C2JnedvacbvxTUcqBU6wO5aIP2UhuD0LyzBK9t0FeJMz9w57tqmYu_G0-85JS_KgInEmE3i94hgZsjL-hWo3pNCT3HSMB9XfoCQoUxfMjrUg1yjL4Oc4oLffWch6w-Jy-SYA_ylgyV7YbeCFbP9H1hWjTMrVFoOusAUsxMnOnrwO2IbTpJK_oOm6bIUbPrnnD2YVRr6ZT5b9P-Xel7SqKX-ju6OFS_xY5aAx2_WSWDE8K68G8-i56xX6qIlUoY-BpW4bE6LS2V6BlkiHzqZwU7zr6CMPZ05IrhNnKTNJcIlsv4RUKgxn_31nIrqRbQqSBPQEDOBfZn7oPfPGm9-yGFBGAUFDkM-Zk4Xqys2SBiUEKSUzyrfqQmBdeX5HkLh0uqaEX9gEPS_XqXU33uBNGtybxj7DUXPpXOmJiCzdKYSBE3ml6JHiM_sNwi3myWoHXBz3xPqa7VyFU9ziu3mMmeRfOrsTGWWQdCQfRCmayJxUq93491qkb0m4hYoJOJg30MnGfTZBYxPiZn4QFhoTJmFs28agWucR6dscZgPf-xGDFOhuSHzYoBnuWYdBmBnVdviCM5Vt-_XMPCrQN_O13k50j7SmBV0UQDZVQ2Lw2DKN1FoGM3UQChTyC2v6lo7jjMS25J7Fi2pKNGVfXA_PmMLVi_S9olicdHhwC3eiv33jX7l9RRHlYBDpaNnBqGvut5lLLY-teWnGjO4BmBPV4aC87rDCUdOMV7FuGt2Q-9hmktdKziYmavtX-m_dpePs2hb6XTpWJj7CQ-d8WCmcX2aiuWTrpuGSXwB74mZ47YQengD0O7Ie-bZhBaaZr0rf-2u7bVkFSOgxhqiXKn4G2QP_D7Z0hcYzoIgyv0vY6058MbgUEX00Jo8kpcj5y6uvCACnihtgNAqdE4Qz2n83SaK6tGQKmXUZa7F91c5ROC38FdnA-LdyERSxmdirZ9cyP36fM381eXOI6qw6Vl0Xvz7HfoRJ2KprSV4itPMigroIG3_44P9jgQE0GMf_Rc4xqAke9EIyF4p73rTl_TjLdWmpW0ut33RF3mC_stfMLcoO__R2dGTtyHttQnAETseyzFHREhOdYKELCWfRLSmgQzEMwJ0vx-NApKKckxZbmyPzDjbuEIB-BqzFDOsTZP8wRVaBAxW9pjn_kOt7ofqCo7gPb53xp0h6O1nV0qnYQe3SeX_fX33lBsdXRLUfrpsxaVyv8szhYR92ZKc0cagvE4yt2ty4xzFfw3gd1VDygDC5CRo3GUPzUbO5fvgkjOIc8FC9W-kMgBBcp8DeQaPsGndJrqwrm557SWwjHlPJrE6kXa1We2XxpNoVFVHpSjNsumGz74liUd9AvtDxLdqGKJToJhi9rckCb9gAcricbUoBwi0qqeJmHmEB9zQSpWz5_Z-ExcxmtXis5UBdkUyv93iF8kHqIdQIjV0jlmJQtzRdhJv0npd7KBv0_6URyYXpnqIr3W8Y7RaWKn7CeJKR_4sBw3XaVHP6t6uAXyFJPCtnYGm0SRztjzRpvITM8lSYCFBhHavCA1gALDz3GXNK3OIKOJo4tz3Kx06vpmCePmBJQ2xwyu-yJtQqtJsPTwex3c-qBVl_IlU6ayE-sr6cvENSxWthx6F23XrGvoIMo0rsxyzPSQRC7yDwhNprtmmSTEbyisgU9D9XGintX--44JEqRKmdwAeTr2hB0SdDpO1Ju3AlC7oXJfeqyHeTdi1fmdtKRiHmu7RBGa4x9ieCc44_SlJ2lpnFulhE1gAE4yulxw3StU3CjlHHas65g6mP2iV1D5OEhA9FkT_iYtzPZrGa-DMNq9QZcmhppyB1hbLZS2oFU43-iLbaiZ5lZQM1WhrpFkuX0wVLIej3_bO0eGPyeLPEmkIkmAICrMEV8X_N1FaGx_mncT97Ku_7nm68wjlCn2k7wsJm08t9rAONHRYccLaAn3ZBftGaXW7k4d2sA_UTTBBVPuZFwToBViv8Y3WsZQ-c6XAnlUYZq1y_NfvIeYWb8zZnNT3bz0msHwgStQrZaKhySLtlOyih1jWTknqf7vouH52Or8pmdzt4srjasO1GTX1hhd1fQsTjEjvKuCB-gea_NQEv23enbgh2aA9l-ChSVMhCSwr7aAftz4N3kxcrGbbIdCGed7EaXi2mFR9nojvUVxTrrjRkCHHega9NsLf-bUYd1Svzk8i8MVEiTLmH21ehqHNjbWPGigKNrufqENiWcsiPglil5P-GJ1tU6zCN1TAa_YrMDFr5URBdmJbh8LJ9y_Bhy0rDsB1SnZi9QAOuqoC_YXBOy3WcYc1M6K3WuGeOQ-u2fQLIBUBw4oaBvAm6SxNkDoseQUP1CK7PLkwsAyC1tiTjGOeaSe4swrqOhfQCmgYIHLTPn6Rjqo6iMiXs2HtY2bt5YP_cIYUyOte1iF6kIehi-6DMVEWVyIKtgs1rKwwf8RELZrQBXRnfM0tIpQKcPeG0tVE_MV-n5xVQKwblbI9vVGhawH9kDdpyr4VjnzxSWaqMv0LGQWRrbVG64WcGZsZ2O5Iqge6Ls13as0_p10PujXuVGMW96gt1PN3rejM32rwZ50rdeeYOms-UZgLy9rh-w971_usuXIc_d2E8YU5OPLoxT0SydplexPVp7lfMfaoxYz_bUXbyJftu2bd--WyzxzLQKBY1FxBw3mWPhbB0nnhG4XrNpUxqMPe-5AqnqWZ5xi5j3DLCXXvAJnc2qCo4c0HP_6qc3kA-0wjLU6kCLfbwfCNyg4-VcRFNGNEuwsnZrarloc8NKQ7NOcgsu_ESssvWtZC4XvsN6XaEox-RZ5bjz5FSpW0dLM0pL6u0obbt5f4hdgnCKWB_2Y8q5SJhw7NIM_WUupLFAYjk-cbPEvgF1UoSMOlg66kDLu0AXyYt10IyOHgXX5Bhqugv3tbuVTbmwwC4JljeGKUCL28qEMAwL4OnqnLCclagGl4ExF_b3qHr8NUEZuZ9SyUVyPT3ZZhnwdju0CS8f5VShp-VLuK-iLynWovT9sNtE-_gLvnHfUJEI8_pbiIKNFJXbdA9V8Ga9SOJydpnmxeW5arT7uXvWNCjpZsM5zdp8TE9MQ8lLDtp8-ZS-UXPT9C8dMSC5LQJhaM6CNtJqoz-l2H1tAFLqjddFhoicT28FtQLT18n5_9XtJ7W6bFmV6-AN9PS1djPXXyaURbpnqSnupjwFvzgIPrQ5Uk0ypctD-fC5JTTB-WTlwd0AUeEK41VxPizad2fUWK2r1F3nqvZpxMyddL2IY9K1-yK316weqdqN26-bseSzCtft4n05esoXWB08kXLms4xY9MY3bS_rbtkbpblaKq92JeMRXnVwU40RkJo3HvCiJg5Ldv2SF-4oIhM0yggu6iz6DSN5F4n5tjid_EOO8lNLyCgWAeg5lPQ5SsTWLLhGD88-4j5uphVj6LFjb45UemWIIidOzgSJMApkuThftcytpzBo6LOeJFfj05P-8x4MNgd9WlIcjeMfHTn9siDiY5ZUyQF0idtUbF-BPiBpWVqJw23nKL2H2mK0V39aFw2TvNQa2AHQamMaVNebunF-7mZkiPBm-jmdNnMHs6JEEeuwdO4xidYhbxzHFrq3WY8NhB_F3HfUONCcJvWwUdSJ9mCdaDRMw2HTEGmBglQ04hIOqg0z-rlJy0F_an2oTkpKaB-U-QXbeJXKaUAngdI5FxocyrtzUpRLZeoD8d_Atqim-c8oihRceKlvKO2EGqIs7nxE-H5OAzpi35JFUDXcCBt47rkT5ivc4GEJ1mgA7A0IDP7mWfytNognEm7Jz0P_8t0DadzM07tAaNtMvvr9ibRWKx0AEHhEZEHwDYhnynTBNy4CsCPNxKCj6v15XeHLXbtbYt8-0l3P6ua_O_w8xGzPMQ4u01efl4KJXk0aCFQdweVSMsSYMm8qtVWbpLgKZ-KwcZdWYzjLfr-qQftwXzrs8wjBrcmaClMxGu4F-GUDgU2Bhv58_KjiQKT0egTAd4tke_QAIO8kNUrmdXtC_WMSKtZ7EDmCnQklma5nyZ4HTqZ0hLC2plx1YOiDSXo2UUakqpb4z08V0akQ3VZuiDFRZOLs7s3LX9UJF_mdtNltudyOm7TqoWjx-qxWd6575dk_FIM6hj77If23vS5Cx_vBuEalicHb7CCLCDiW5RdHElIaoLKlv9RT5NE1bqLYxvVgLgHi0Z2yqf1XoNZGlpymgyXGTyDns3D5DrYoxta33IzgTsW7pb8graG-53v0dVfmiJ7e_dgchniFpGNRPXKFM6oAbo1-VljMwBr6A0esZ13-TMcAAnqGynYCBah3BniCa5Z6QTPqCz-kWk2STMax4mF_KtuN9S-uUcINAeiIzVBnPLllDbOFD6eoDIO0a1MAfhIRcjliMpo4ur8DOmDp0fyTfU_bHccCoHL-EEejLVpCqBbK12544jJLkC9b9rGw2DhZmSTv3SvL4fWgNpYoc6kFu1PTtztTnT3RAH9SyEHJfroycgcN7VTmezPa0mrxI0nhutG3wd9d1BjmmnVO0s4VbZqj--qTAaex_nMzpuce3m9HmE61rkPxtRJxXIQTvOt8vE7gds6czfUiYwuhWxauhWOF8BKBL5Kl0FbswRkPphQfaAZVWrR3v_AtIF0tjJkG5BVSM9k68Drk3sQRIMHdzFAiJGqBVTe4Wc42c-CVRQibCzbi9Q5v29-LabelJwsmiV9JM7w7wk7dim5gv5WEJoIzy0hpC8aWGRtyCwnPJ6t9CJX78IN8KNIB5bUnLFVpDRdBWSQkyxtndwDb8bN0xqfLQKuFPvS6hPxux39Qm_h3fXjw5nnuyXSfBVq6EdXRFeKE60nvCWOCux8rcjfBa-HOBGs__5lsMG6C4_ec3vGvqEJJhuu0CP-vriNp5a94PFwhGVogF-bXfquB4egdtVsdtHSVrXtDsYoQrmejck_bikDwmQAJ_cL6hEXJaSua6-1DS3FuFVADsAKipeakLolqiAZU85J-X0zO0S_SHtwUoEHL29fcqX9Y3giJpW4X-65BBSWMGsQHeNOKZuH1vdv9fyu9DOY7aw-n1zWJti7c5bAOVdnEMBQZWvA3yj0v0ovCXlA_09JItVs8BK3YBFXhelPbVQbdaamhmn5220_T5YIzHfoHBJYmSm4xCYbKlUJl-3BE7uNUvMqB7Cr9yeOxjlP2qFsH3IGhjNLxGMClL-aGDqIEK0LbKrg9LYkMEKNjxjumTSa2s6nWjeHFhUX_wk64a3l5ONXZ7R2bZPmlt5-ePzYXjeke6DeQMqWArv2lPGMHgLN97Vlm76JmQefEKxo2EDWqgdF1uC4Vp-_sTMQKHXXsjpjTTpbC4UskCbGTnsNtn_t5XDUTvs_Ciin9_8TgN8rqRUJ6sDHEEyOF0a1XxJbkn_zw_RZnq8ZP94llNdFA6kgt2788GRWuS5lii1x0IoWPawJ5CmzQDt4hcEzyIi8LdPmtdsE7tFI9_Dw_Mv1uFrT3lF7IJ7pRvVQte2LG2XLFc0Sa3ZdScdUFvewoDaPNxVLfYuTH_OjYl_sg1wj4GpY6uMKKP4MfKokxAu4hsKDU1h-6QmlUQcA5KEgWKNMEGYG6NmOy0cuOKu_tkOwo8xBk7ti0a8pACPH-23EmHbdrE5iQFPMCP1RggzP87LOotTCMdIC9Lx5exthQiCMNIPecWrlqkxXCPOOF3skbbWi9cBBlc=",
+      "status": null
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f78fe3887d1b8fa99c94ba5f00c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-XdP0FsquPHKoOh_eiPvidOp5NGPb0rIi4N2HF7Htw0S9RaAkrHquOtuQ2g0AsdAgU1DMmGxQhdcKFCoOfJI3WP7_JRKELbe-mGFSIDj95cbHLiHSv1iPHZU3Azoiy-sQbBdgVhOh9i8BQQeuXsRpeWJyaoVpQwVS_HxhF8rLK3RxpC5mZr5mj8iUkAX5LKPBOXZeuTxwnrYLf-2g9iw5cmIqtt4mN_-BJv8-aG1HOwgQrZOJ46GK8PD49UbXxcoNBrfCiue90m4y-P4Yc1YswllAb-6jzvOGVnv0dqC4Dp7LixJx_FUB86Nipsg09r9NvfxXNKJdXVFPSaXDEUQUERgNodubom_eVBdeQfsEoj4KG60YkpTQTsD_ABQKgg14ImPb5vebMALJpNiAYtrrTZsUah6NGlyLnBDIOKwUgOUQTOZ9w42n4V_MvXm7lkiBNk9i11HRqITJ98S2XMyJQTE6EIfu9yqrK6918IlD70dGGU3HHAQ4nC5-IDTsLeWfIl_d4PpsIvRPunu2ywkMSr2rYUGJlYGvnyTxFC8IMNLJeXKECq7-8_Lj0h6YCg2cK7gGzqn0g_EdZ2A5RPb4dPajrl633z4wOYAjdaMcazLcgbGhpe9V31qsK23zaXANLKtWKb5-BEnbtQ9OrU_9M9R5iPyT5wqm2_lUGdTctWtjwStagSt2mQ_BNHNmAScOkvmNkmfBlYd-OcXhBvrTIvJTlfH6wJOqjP6pTFXoMJieDJpJP-xZeZMEO7IPTtYhAkgfQ9JBGnTkHtRNctIAnlno2ccws3CBygaC6weC7X-JK9biOQvihDdD7rjPZkLtFKJQmCdTp2YRRBUG6FzB8T1iMsAhOiJEjtL_EELIoe_lbtiLwrXgktX2_bK4goUZc_rzK7Y5LY43q6bLP6sbOlE_uBKR5sJ8S0HLqsEYbh7dITtM0634nVg6snepYDvSuxYkB0Zk2tgnnjO7k5t7vKug7WMSi56f1UVf_MMfeoqk0p0f21aWFyAY1qr7wSIX04oYtgQCOvSIt-NbfHPCtwD-VDo9MFr8uWx9UR13Vcj5IrWoCDnWCE81FpVZBPh8VsCBtgfmVVhP4Od2LxtzgLnw3Y986uX6xuNvJ92NL31t4YokgCSZcce6Gf0nHnO-DrjU8FhATpFxEMO2_e0ujrcxwzbFEnqdMFWGTmjuoA81LJPDytmHwANdH1ecbWLmeeJ7_gzLQPkS-69yOmVONvuPKkctiSCiD5lHpyDwWGU0Mc6tBcZktlhksNgfLy9vwBpOqNW_j8DarzbRMIOx2QASnberk3A-nDc7w7ShJdvT9wMrMlO4OPF9SKdSTZHWvnZI0RNzcyptnV0k49fYAfl14WSK561IsWIKNNGwPiC_j_pn6ycEPUYLFfAbXh7Va8WT3Nfl-467ysCTOkPZpvLZ7eVUYgTZgizAhhBfnw-9-lu8PfvkbmcLJRNsYN7_UYVga0L5CsxEQyCtkFvYzQ3t0LpMJ0d2ZKE47eSJWAfEScJ-iWPsV8oiYzE2s18wu-ihti1USuJzsK-2VbwfUyhp6SEFtovkTNYzM96lBZYShfWlDvQ5zDqgyjnYCC2mFJW_ply9RPKAr2OlCAnaxPqixSFsuInFGfqFW7_rjcdwpHbaC6aeUCarJ6BluA6a4Z7XNznEayvo3Oi3S6-bTJ9YP7q-hAUw6VozGO1baaxYwT67VrcdPWE4v9CNMkYIB6TI8cHrpCHddBpbh-VM0URL0iN7WrnqebQjsiGLrKGn91LeIsVEgcQr44oY-GOz25NvIKq3rrs7LMEA8oLXceuNpuXjDD7KxJFMB71S0-IuIF6dxLjarupMXzHm29lkZ2Z8hlCVH5uTSq5abddqT_y8PSsTi7RPZietyvyPBLE8TjOWbX3o1sji8xN-xOBaADq1Q2MS96uPmV2ImWfsNJe6LVWcNN7-VITRxisC5GJQ3P3MDAoxTQf2Pdk3lBKZxCKvd9VRYdiX64rHE7iJFYvWG4rbsRahd46DUo0Glbc15MVTSyxZA-vrnRhKJZvOWI4Nrgu5Nh5oV58oXUYg1485KLnQhpv-YNaRFL3AYaL6YJ14SkKxzq68n_OCTttFZy7n8ZhZnDtWV55cG7ioi4AhV7Sc7FczY7SqfOao9gmUis36mAA4byQG6XtiyIiIlamG7iaRItnx1qaJP3iXjEjnwFhbWHJG93oByPkjbeQnartF7qLsT16uDID316_ia8wR0ZJGbEcuCRxGvtTXIUMs1wQVn2ih0rcgCaKgnzu5VoilIccBXbBX8DvbIg3f5pco9u0VRKo15p-O7earLeVzTtLoLe7dO-zU3RAwxiUTQIzi_J290UNgn6uvIEnbftsEMvgxupkGfTTbnpvbA3kc0E31HiSGAmCiaz7G7EzmcHzb3Pp810KvDm66r03hbHAG4B03HZyuwfUwA9U_zNsGcAtUhSU27LQlFCRvDQVgradgVmOOh4Qr9f6qATGKlRLn6VksX0wCqrsNUyAD42PrsWxeu2BRkTSF1P4uwJ6qeYE4Ix0jQj-WGa98YOdmRVBwr95oOnZ_r-g7EXc2gAwYOMhuDP2iFmf4n5imXEKWRFcUueKjo0Dvhmzx0kTZ2b7HaFpqfIQqiSWiE1KKHERlNqw0uwsQspgkZvfVVpvzUmalhJ8Dh69pdT8FqhWg2fXI6oZdRZ3BfqyI5OsPk86i9GxcEdFIGxEFhFDKM9ScTHLcZiKO2aK81OLWLZqZncL1P5rX_mU10znrAqO4nzb6rcytlFEMlH-SJ0mdX1cRV4eCGGQWlaBHq6Vbs6Qy5yFlTjWlS3cOteFmlK4JVg9lOgDQM7fB30e_-qeOYlYh4mQmj7RV8VaMmFz2XS4Ob0Ke0tfxNStuUqKrBc8XqxvWCPr2X8el_WGTkcI4qAQyShf3nYGWiTZMDDp-TAoitM-RuejKL0JmXTK0qVTvfVQhORNO_NBRWvhy4xB4mXAm8NBhg_jq6jKXz4hFYIX8ai5N8WJSj33uqJXxlqyUmlFQLIoUnlxKCfCLV6yKWGKdlaoaMpn0cNo5yyTAVejgMVs17y0o-IGo5H1JDfKECmbOj-_y8YJ6chI-921KcTmfjyIRBrWCNzjdXd6_CW9V-_Uc6Qk4kS1_E0IpkKm8IItokQhaCqHymEo_KreqdrX3BIix_ISEHS3x_W4JTIDvA4yQek1T2S7YmK8gIcbrKJZriTuAPCSrS5niWyt-nBKpIKWcsL9obe_Ep7YEnkH-tolf3RUDX8_o-8-dsVAhVQCvWuzZgA15T5GxxI7A_as_VVZPqiASXQArYrjeo4CA6lgtip_KETfwiEOZmjo6_qdNFdBVdbJjyhDOlbUklhJ89KBvTLQRQZBU2JN1tNnhN-EFcyzTSBLUIhYzcOm_1dLaksiMzcPJMQ0GUj1Tq8UbkG87BNaGSSqD74Cc5jXWAB97bOJqreta8Iy9ikVZPWlWr9GS3-3f68z-uH0qfGd0ZJMkIp7-F7cQw54Z-5htN5VKfY6OJ_U3X2znj8ZojiunNJTvQCuLaswByUpBYpMYLzsyGfEak0d6dOijB9SASh9uHfY9NnN6So3ChpIltnmZwMuYP7oLKWOoVesTBgMPWoIb33tKvHjAdpZgg646Q8vZBGv2ZBMqL8HbQrl9xLEgjuv5nI53ZPlEdq2aj_60FzxXYfzHrfQiMBUCskbHguv16D2JKNVB3rY9c-UcXzBNW31gYpCzHPpw4J01GAO-HCHrI3nKYgBxT4YIu0n4c5VuUFrk_gIbeBgqYxcUB-ZnldoWLYKDi-_MF4aslcAp-NOy-pZ2Q69RqYgAGYT9uHOsYqjbIWxtrmA_tJVux3weW3yBmMVeCxZNnVyWZ7J9Ba48on7wS2Hgtlv-Qzo24SfMKCTeq5D5nuV2CBy3ubmjxJ3sjwYxt3mkaLl9kbE_8YreN1SJkBvoqV1-LZ802it_I_IIwivV_u19fQTx0Dpj9ZxZqIJAM4juWupGnmQYyCwrm1TxloIQK5AFw0UMuIf9XEqkafWI4CeNqWwkVc9jkH8YxZm_ththJKjxab7kmhws0i3cpG45E_LMuY1d6HlpNVMDvyOqUKI0WqzAxBodaD-91OkFsAUf0OV2v4Op9ROxpwcWJO7-A14fp-CyvruOdvtjsHYd0XswXmGNfdZie6YgvdhbwAyzid45eKjY6CrCCuw98WrDWFM7ov0G8FWPXNCz-spBPOM7BqZPC4vmTEepIfwSkZfCpVMEdAy3n9-HEBxpzwo-pCy0D3eOEqvRd2i5hsUJp3T0EpPEP2oBtPU5f8EQ2P8J41k8waWl9zKtBUSDinosC6lSCoUcSR9DhSWLfoKSAXwei6Xsx3BCKcEAvMMgIDen6CpA3y3TdF1pt-sJOZK4v7Acg-bwbuoaiTW1H4a9W2BtfaDlO_lrePFv92ApJpkH0uUvNCUgz8PcCtblTG1HEFPrPd_OmU57zHODiZ5JB9N9mOVgcAjkA4__ZF8-kUBI4ujCxPGyIJEewmX76ZlD-bXBX8gU89lq2inQOHXAixzSJ232G8CDoUJKlKZHwJ3gPUDbzrBg6-wU9mYHV6UkDcyrriXFyjafd3b2GuyqjHnFeSAALuCdNjlML5WNxlpl-yIFL-7Qys6MctAHvTgEucO4BP4ooIm55gTT2g6zzwtPYXwgX_1WK53O8Zaq1WjFIeCf6qTZZBL5RoI1XrSGAK98Xub7HGscJm1QcQ8DovS9nm2wNczTqal9Kn7dKc0UL3BOkOTWWV3bWGH9YMq8tbMCZhs8hecBfZaqOLjVfKBY0Wp7NDg7f0_Ba_sdJrbrLdwAgWhVPgOwDneq6I6HukX3K4R3UTl2rwHmARTq4vHWefAt7Z2e3hY14bMp3nn0wP7642vvunFV5VuUSK2CxX5yVq2ZWDRqQ8eTEbVSy3HhoYEPmN_cH6K6ZNrByHq0opiXGwP6OixENpB8sTLPxCnC6rp6NsbfUs7Lb-9GMmGV5BrYYOFnxh5wd8j2_uBrpSdhzsV91CxEq3aYdpMEImbUWx3o1nO276OC2EjBB45A1kwIXiUSKZzlPNHqrkQjUQvBJv-KH0RVIFMilRfbpnUVC08QzRyk5869--tGo9b1nxzuLKGi2JmyGq4imVlNbMh_mKUOCK64Pc2yRX7dD_g12fhxL3sshR5bOlDHlE6V_dlB_ycnO5uYKRbaQXezNZztVagYJsIUBvKnO3vasLeo_PJNNTbl2US_bKAYCeGEOe3C-BmSHd0VSiKmgkXbSrAP5QQrqJIXreFaF6O6aYVzrPrYTtnU7sNZgRShrhEM_5lobND1a5XB5OPBvFuiXtWjY0jMQ3Poc72fZhLFEVNWw_tlVwsTM-JOicFbIs2_UYg2tAmSZmE7ZiN2aCnCRTh5dG5jX3zG4h4JA3a1VcDWAqL1ROhLXZGRVY5n5EwIrNGvM5FhzUeV10lU-2cq3vko3GIpu0JpFcVW1dLQ06e4ZYBIeNVx0HjWc3SDrgk2mMCJf-pP8U8S7Mm-Y6l4qpqPzX9X1dzHbaMyxluZ3vYhB9MC4nws7X5-rfQN4AaTbnFIqPC-8MIiuNXw1HkJEFJLcdVQiXv98h9oP1flAk4vG2qRmSYKpHQiuYV6znwfiWOVf2-mculDsN0hQllV79ZH-4QnbIac-HvxsRxciSfNGXfy8NM7-YhSPgiyN62n1VWEO_fYEZZxWtuB7Xas7SzOSSZ_LObbTx1ZpMAYGsxdlbckAf-HhMJLR92pS2KMo7XuSop8BVwKN5j8tFY_1XFaKxyhLwMRBU-tCjop4tU8m8FeskhWObSU5ZjtjEJkl6k4astkOUTqMmyicdesqqQd8sYJsvvT6rIItH8Y8l42wyB4J8YruwInY1BgXitXbijKWgPDMBNviYEUy1jSTkp8EfEAgIHJ941eTopzqIrdWxjACbbNOcIa3HMW4LrIyQtRU2ke-T7X83lPAsNXhR-Fac10aEOabifd5M8FENM3GvfPz6IbhYdT4now5uxTkwvJlZqctNHzV_HDLkt7xCKJB-DGCk-vCUkQ4UQFqHO7iS90N1N1tmA2teXUmpS2njUH8x7S8UKo42Y6Ej-70qHWls0DPsEdLuXyf0dg-vpfKOW_sZeNiTzpC_AAp3zbnLlHMkQzhZ_h9jj5L11vHOyF8tVnU6AHW0_bzWHcpEk00PVfkDyZloYIrezM9WvF6GdhA226l2nRQYROLMcAmCUJdMedR-UoYPEt_QQkSJ6-bRQ-NazO13o2rjtfMnRMaySrUFLjXLVQvnrINN-sUAbyv9QK14xGLSrfs7-kDl7lITbQQQNSACrptnQiUvfjgX00ZBH42jGV8hJ258GGRs2B7ZsdZlTH_3CWAAfMkmmoPhBA7UPRIlxm_KdpPA6pxjKWC0Eb02BJ27axSGY5hZB8kxMng0LLV_Cg9Ye4z35b-2IwfmCgWqDslcm6cfVXJaiJ5DU93qfnVeAeLQI2TRXj38zuEHilvwdR1Mz7Dt9mpsWRakYxjJ-7YrG2QOADDFj-CtUJBWurKDgI104r0pbUttUaWMZv7Onp-lFS6V5OFJkLXYo3jyNPgeFFTQTCtj-K8dOz8LrzEEgpJQLNLBkOCIAD4IqIwai1IlH0Tbn8agBo-6lO9MpTO5ZQjAa7VQsiupG19uw-Gm0PXgg9rq4sVUJ3axNc8-wQ7k3zdGBE8ffjNxA76wvdcix9R8tJAn5L_Lf4ew53hyLyhYUBydF7mBWd7SFpfGCO_ZWZAfcl7eipAxi9w1YEUHvjayGPEEuT3b2tSJEOcq18FjRwzb5pfi9Gc2ovSIdW5o08bUMWL1wbtTc1i4nJaYpYlzRXuCUPHFiVJhOS6tOLsq4hl58m1BRTIKzOBtjBrMSD7vEZWxoTGLlBhl3fEJX4n9BLUwN20ubU5o9h-70YkgXFXL3UkyRjwf9MoT2gyaE1_vkaH_Pd_wg44px2C324fv15gGZNWxtrvKaFDcxf22RSFsL8xXXpzc7QCoZMMwIz76OW7y2sshXle8mTJr4B8XmbzZZVEjh2PSHChfiRtX6aZisk1vci30Uo6tPG3OcUvaC4M8awanzs1dR3VaXo6v4BL6T7CbDx_Wjqr30fWNnN5oTN-DnvivUfnG764WXmadXXmyLoXspC-6lGSiYvA-DRLjoGQWQH02cYiX0v4MTIuj_l-LQV7k3qJ836lXL7f5DLm2NBmM84LveMhGCSc1Cf3F8pkOddnUJn1iw24DHygKDcZDSD1BpJm8qBzKPAmR2xuIS_LJVlomymvyImUYDTrNSRW8E6RlquGHHtRvI4PLlHmYRnQfPcgpZKdMkT-UryQJNtb_dUp1wT_KtSyZ4UThujF7L_KBh9lBHAvY_XS6GQvwu_wnBPGaoRlD55_vTT2giOlPYGKnl2E5n2MKYnUf-Z2D2lAYHhracDmn3x3TlDH5OG3iPjnC-Z23uDX5Z_dZBdGdVPGKzkg21bcaSdAkEsVmeGMMev9WvKEpMjsO8ChWoleT7rDKa9MblvS32FegEL4LxzjIaMKcwwEkyzD-hgGdzL3VoCTFZuIL8qc-xYi-_aCTI5HWajKhsR5jJklxmXca_PjS0jg86ohYJWZaWJxk3Eq7zmEZedg9vfZEmFXm7GNlEHkSywv7etnHZp-d4-h__VbArwGlouiHoEZBpplWEa4lJzaANWNuLYdLLFMyw4rluag7wFfvn6UWp5UnXk236d5hWBSbixe6ZQWvo_LVs3eMMEqBPUZlZ2xkAVWIR5wbiBFrMAHd2NWaJrBssgnj2sE-TmNRGtrid_YC6r7lR8_Jh9maCmMAdvb0m6XmA8GBBRlYNSjr4ahrNZpK_1JYerRTZlI2MnPzbB1NjepTj92dILT6wr3R_dgDyMZcSzuAHXsmdT-Wz_OKf_fC8QyhEDF4l2eyf5-DzeNpb7iANDUuREmz2IwTDO5YzEOXIkkQ1LxwIlB2hd4I6uTl23E9waggi3DNa0Upsh38Y5R1JcbltDT1j7THoz2XluR_pBuR2_EKobUihz16ZCC7a6UzIaaJ-uhQ99x_IKF--c6LfRRP5wWjbPDsLBx9pClC0s=",
+      "status": null
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f7d6e4087d1a7fa743f08a236ac",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-Xh5SzfCz9OGCBIUe1KPA3n01F8XqPb1Exn_qnKXTrI3Jj_uDsfej8uGSb-C4QkgqwrlMM3ZZU5VvgjBbHXXuX6o-awhV1u6qXWzmwgAtRELPtKzduRVlv5s_XYQ2Bj2CDDi28QJDIWRTU0wjk2CmVII-S82699pmAs94Tc5N1zeviFdKok5c4pcFlQkfnejH68wGBQk0ZqGlRAtQdR2Jxje0z2AtJfpRrScEgX5X5ppMRAq28Rk_ZqoTSKAByI-AHEGhoOfVTSJhJwtcPIc2cTC4hnpH0CZIKQQAgpthXhwPQtFRv1MQZGBHbcknL-q6RzFWUHoddY1yTNQCC7vNMBPS8cITwFW1vFvd9W2B8Qd3k4v-1Bw1CtaSMHCHRsp8MpzWjG9Y9Kl6BHs34QdadAqdMhs9t9yvbXr4PO-o8Wawoq8GihH0hHj3Pq4d8gYvaVbtrswn6EUHRTg0GKoQwzCEo0Wxt8kZOm6PeLGPht1EPf1V9VI-X1AcSf3FlhDmQEuOwWhfI4QX9BZY6SbQZmdEp69VhuPJ35jYI_dGqzXSJjWKNVmX1vlH4MijhmiM9767k5jswQQRYU42reYVS0GbQLa6snDDjcyU7xj6Y347SBVVPRBHFfeK5h99kD3hxSIXQNXfqFY1wVqhxxijjW97kCyCAciepzOZanRMSftsInT8xSwEYexTYKxmxey38rsMREt946qiFcV0pn8mszpkwgcnx0OTnPZRmYxD7c7crHoIDFnwpKuzjB82Qyaza0c7S1Er50PXkumGsmfIfMoZBEYu5NNA9E4CSpfVwzbBWvfs0BYgiTiQ2zZFmS8jK138KxUxvN0djPW-7cpz2gIgctNMEjJvYNq544PUIMTlstD6t6zfaKGJVOXXjBtYb1TkqpNaY4HLs9q6qk1nGJEJgYWpbS1K57EDM0J5gW0vsN28qxbsvsxElS3Kbj7Aqt7ScpLoFiA1VA3M6JHhm7So8J-xPiqsL9dbcgx6QY1muz6NeNriwXSYjbv9znFH_oUO-rzG03tIXpIFAO24G6zX13fEbZd1drvd4qr-bsvAITBP_jcKcsRyu9WmHoXYhfSov0wsPpQtlVLeAuSoE0G9YoNPTtN58bRdoohb1c5cHghMpeSO6QeKcTac7Mcl5Cn0Y0QiAjsfQKHG0J6f-toAftNfPBDfnDsueKxebK28-BZUkFAnzM_FRnidhvZsvWapD5IUegzaFa5cHIlCX1e8J9anDroB4niqOH1s_47wN-kl3t-D_cH-Beq7QFJyyAQLv6WoNcIuwU9aVnqf2StFK2ApdtNQnAsPe-7qR_w_Nohrmo8CB9gAQZek3PyBSrs4L5yA3Ys2NsbMl9BLv-aKKBXYNWN4pWloah2urVMVN77dPVLui5zlyHOCS7OF5MMDOAbyfMDBvjjg7PLKVOAl3WXO5_7mMSkDq2IZmOVelTzQEyZykQJnn5vCYOJgiEprvU_-xH7kU22jYMCgCuYPfgFEAaUcEh5_iDLted8Qu_DfIuVoqylmPAFUTdKc9Zj11syubquNezWKGYogBYABTKB0lRjFWFyv0CRfcUN0mHN-711yKC08sTTX62Y3QmWv_n1g3NNhkgpSTGc8RUv09x03MP1_4kDtmEIeuP4ueWC5wNMd8d49jqTJl86qTB6Znub9VOrntrOJKibUDkQx55EUdXU-rRceMH7p1GIFL6ooueTn27bC4AvLjiTwv_M-7y-0LbIkYWknOD_FIta1zBide9JTqFQth7xqka9kbanptV6Z6ivwpa-J-8wK-UhGcN0WNAWHkGYQEn7ugFx5zrej6Gy47wZvHuTcDRwGPdJq209AcI3Ewrw4QK9crq1opZCJra7ihQQVqJD-9HPHGYAVozrbNiLv1O9892rotuZ4EFwHVTnI3xv-bZEgLZkCKz2Jdx3spkxVuVta5qm4nhOb_pCnfU-DXik_b8RnPnLh4WRI0qijDz5mGYm29Zf2E2wddJm4mfcX_hXn41EkiUwsj9bPgu-cPmWYOhJEbY9WY-YCt2RtE-hQwZPBc5cos7afqR0lIpOmMrF0G_ubual624aMOdOYlWYPz3OQbcj6x6ZoCE_EOmqrOBZL7HO-96d4sLDgzJClJEwyhcTGNHD6YFXLmeGgb9oPm-VawD_VcjkFsxrc0OJguJnXLLBUTvnUNsqnuYlstFN0RB6Hl1D-ib7OmKT0Uo2bvxy7fadErGMSQEbE4vGIIdt2S_8ksrvCfD4aZ82O7M1n5a9auPgUa1lGEFYoG2eqaly4-6yozmfHLYw5CiNFeYxljBP-MJcLYxwz37xEIYxD_xcWB7lJ7teSfrb7oSo7Pb5iVqP7b6PLIx7oNTOlXZ6nfLwqx2zzESZ5f4hUqM6orJANINLL8YHT64EQs8Izq-0O_MHsm_yARM_-rDI5xFhtgUBuuSI8gSWJacDrbbVOHHsIOFcncH3Aat6W6F8vTEvD6cYs5kpvrZKYRqWVVHk1lPKeO5FEG9PIrNDtFUGbE7UC1s45y6K7o_fe5xxc7Ojp3jEhqO35cBu5XZ1OvaXrg_4e3IBvox67oI1iqbN_w9tF0HSWsJW3pZ0PUnP5jAZ4ixj3suhg494dUPlLZSeb6dumuXZKbU1mE3ypfEy6qtHGzghJdleE7uXVlfEQb8aLQM47UtUhpetOBXb6aQ6wBou8YeuMUXhLqG4bkpUjhO7Zs2b_9cuviLbl2XvBCwKjxy9Eqtx-_0MYIuhKxloP5CU8MlvdF78te9pUWsMAYi7BRTSr4FPQ63puqEIyd5IdmtzuHKNJQSUkjw6oIrAhVgN12pBrTWvXVrSQcAhR_oBL4GSZA7iBkxb3g2fdxZi10q0KUMcuMgSNemQgvRRuz_cyRorm8gL0ieLJ15Dbs2_VXHheOHq-9ZeXBiJm4MozlkTNmolgUoi3YvE4u7vX_-2rmrqBeVFkeEO-LagqT8HXJek4jpYqbBLy3VKPRA5SKC6PT6tI8shzPw_L4yJrwYqzYosK8gJj0tylxLLh7I-lVi6YZi95iWZ26TYkYR3S3wx_Hf6CUX_y8k-_d6jZbRYRtObxhJn1bqmaEV540ivs6lPpxTtVs1uu3mGBUj9W0ahGrGK3miS4CwQX7cXqYlmEX4DMOEAPlxPUnujQYfQgLs2mICc1QPtlv4QcyL1zFR13r8GEQkzbz74lpqvrFKibLKJ-PN6nKa1OpEU8CfT30DEdJ2eBqhORjPGpbUkwJUVQSBMnxz1VSpf3ttSvt9kkVCmdMA1uss8J4akPxxIvIrVHbJHujWaIBj2gwZcrGsjGdr9WHxw7498Svy_K1yIp0VlrRXkFIq9ey-EgVNIQAMuU1FknM0iuZpRpBH5Ejya3QzcZQpzG03J7SHCV--iNXWXJX8A35-DBh0G2Wxc7mha8nCi_AHJP266h9r5w3wEtItmY0JIPvbGeKdtZ-dreGqhSF9MEpjo8RnNqF068AOTjbXkk8-3EK3qWOG4ie8iOUHwjoaYm4zGSxsa3BrhkL4Gn7Zshyar7H2xqLE2fcXDdhjiv7jawan1c_yPXZTKs9wQQn4U1ejOqb-tgMm0bGgYpu-Gi1KunIkTZ02gYQQh4TOPBGVb84-HQbUE7r0FNRXH5IDvu9y6be9F_1hVxK5SP3HCBpepX8zaYwEUizGIzDW4hXdFAo7X5Nd-2Og0hWvZWQZiQeik4aC4tqfYGvC9t6aHfI8TkPzy40uT79mKx11py5YYhdGObuIBscGQHPZqKIIvRpKrSi2eELgJvenuXzFjoDdml8vjZc1hpOjk1wXYM9MfHY-s6E6ZCwsrLrXnA_zUbMYHMAMwaPe4G-GvupRpur7CakYm_A4mLlx4RawxrE5VmxSRvUXwlL8gBKH_j59cJbFZO6ukMZIfZNGr7KR_0x3XjcT954OsuxytHg5pREv8ApJHlmMmfW0KoUdQhK43ueYJTsmPrgolqFtn1BQLTuzs48Zh8dJgYLin5O-nLckNuvelY1JfX6ICV_boZHNAZbhSLH6JiT4gQe_vpLfE23LTtHYJdEUI-WoUBPfB7cmgdUcbVvKydNtch4bI7erThhYg8oAxbAfZHxDB3hZzADI14Axf0LWuYmCVOALDGLaNg2BQf8T9-ZMHu6c5ZjDlUIzzBg7AcrjZXBU62cigA6sLhieQEBpeCQ9pS3F7VXio3DdM1DKDgXDdzAIiCpLXm4aluBynfT_Ua24oJ8KcEh4tloFji3H9v4B0C-og0f6Kma1nHeq_nZq4Riak0C5Yhz_7BzMbBuvX8HC9jPCCOh52o4g3Jo03LZvPGUtqKPQs7ehXf2nIuOaITFm99shU8mizBiazzuH58YJ0QAG-w3WPTSi_Bb5OrbrpkMi6e-HKUS84oqxTpQMn4S1PjfnnLivudF-HyzYsbVOOCsRZl3Psn9ix0msu1JbGr-g4yHtuWJ1FUfOFFSY_1yIF9_DCnmFu1Z50ibPzlJpAaYvy-wOtAMREfHzf2GB0cQIHc67De91AuPetZtVlAO12Q_5qfVGrBM2Y18QldF904AS15QCR5fGQNHQ9CUy5niOGDlC1vIrgU_eAx7VxJY0HzrjwSEup6xjc1T2MobuFwgVrXcilVTH5BYyfrfqFZWcw2Jpph2Y9iWe1ncbP0_xJnuxJ3D3GCHeXrTUZnBVea1XEAfWeD2WqdiSHubFarZ8c7xMDQ6Gd01Jcszvdl3hIjFIfA3lNFaC7Yvs5ysauB9pYBtyyf5XtqiwZuZcnP6VzbZdxY_xyoRw_BvaqEs4k9VRfZcYfqlkLoAGsIURQe8w6umTUIHiO0me_FtjdplNffizPEXDJT46n3hM6O5sduEvci-YR7faCuXpEOmpnz-G1SiJSeumv08GpAlOdhePp5qdaWHG2q0rjgBHnAW1S3Xcma4ZA5bi7KOH_0cxwkKLd5pV1i71NLtRPQs2uU8pS05P0hgnV4kPKnn7G5VcuYrwi5n-CJpS7afQtHhCBucdSJ2MKTKfCr8CFZQtyO07Qb1LDgoRHK1RvngITM6mw6rb9DD1b6CkPQ2unl7EJJ4IKhZUU1xQ7jLx_xUnNgSpRUcYc2bNpO9RO7YldVVkup7dt6FQ6XcatSngi9DqZwWFKk4JBtqwPTiCRKH3RbfhcEJaI7yze433ZG1omBRY7_K6Bs7Uk9DRShcQ3GjfowgteLEecpC4jUjtrx1qduJI-X3cJ4beGGMDMaul8_48lRBrrFSooEECrnLI1NsG1KVd6JR2DmxMMvW9OK6Hhy68ElyQJomebBEhQxSCpu36BY9j242zZfE5XdS5RGdTwk_EunlDh_EHw9SKiWbT-CXDeRifGRmCyJPiHTJCpPBzx5cLAW59IpWbxsLfcOtty5RB7N1H9Hng5RNoaaPc1XQsYU34gUJ_bizPxsOHbUuc3qOWfuP1ZbHkOoNAetPXKfjGHm6XoEXlLohbyCPbMb4GmH9rl-0SS5owSqXiXKua9DPBXGvn9pyztkjPCE4RnvvPkSyGr3X3LQcobRF5PLGCgCc0IBGtGWkMOoyNnD4QKWbHnJNetxnN7CeJQQkx9-T2wg5RWarVEpGw7DVS1vZt4A_q40FdAK5BD0bTX2f7vfUc6fFH8Ojw5OwPQhlzmkatREu0Spun04gS_-yhJcoyYZJooXloUw7c5NsQ4lNGyft08pfKflssFGcA6K6NGYfj8Z5tgQdh3m3QkEM0kdNEY3TaSQUtBGTRWYOrYy33ie6-nFNKyiucay-oUp0Q8W-BfpNCrLwAUqZyZVzxzGWfI09L1TR2p9Vq6HFfKL2yhv_aXgtylF8vQ0ttUU82ykcE8A30_B_J1eq4ywAmbWQQeX0WFz1d9nSnBT3pwbCNgY-oWTRqnp9FJbqmRhi3NsL4jCJz4nBt0HMpR9ZN_7ODy3wnY_X84vQSIF_T1m6GoIXgIPidv3qFqyMhcBdQOrGByQTXhdaoyCCT4GiBCNyBOKQw4dHuIfORlvCHLZQopz5QgwSEDQ6g-2m7qFbDKcqyWBJWfGzrJhsphuvUVp-B_QeG03TiKw3oRUF_REcavSA_YQgxJmel2T8HdLC_QNehVrNiEhJny-OoIpz8okq3iaA4vEMl6sBiNryYY3ZeQ9zz33XcnlopCxivXYww8OwOE9v2fOrbcNehFCoD0xyMyTbVlQuqlcYGWHAYjfngI_O2e64OLpRTbBV41cUFtl02-qyk8JTUfntYe49kPIaJyxgo5-uuyACaUZYJKwyw1LTMVslRVmVEhqDQJ7YJ3s6bKug7wkkGlkf7GvQj0lD8JZEJsuw5WYVXkIZXRrmxGmKbKLSjh3_HWsYWfV0Shb22olH_qcX7nqyMmf9pFH6i3eLbhuNuyppv_cxOFzNTwupNMdV0XhZRYcB8HvpvfXKV-2oAuFy3Ae1PCEnh2XT6OW5-MW03gl1NBiFErc1eOaomWfyrGW8HftIFr06aI0YFdHEHPEb6c94a8aOu_O1gcZs_2P9ELvqPbLmPLTHwG3ZXdj9TNY-lM6PS7ejo9_uXxqVjVUIw3ke1daK7OHj6bRbTZ66F0AZb2OpVB5XOWmyLsWfwh-9qEpZLrONJuz4GkyxHbZLrjjbIvbYdWAImcI-M72WFD5SVvX7mTEFP28enlLlf4Fo4H5bj1CpUdM-j2L5SrU51me1DUnyN2J-WfkdchL648nJzlvL7bx7MVZ3xZzJLamYftqPb3Udf6-3d3g3SFIFRChxiWrun8n0cLqpT6NuPJ31dtC95gmGDOq6F_CwxZE-a4TJ7h6vTOEU9Qt1l3ORSGuxfkIakRwiGw0y_wrcr9gZPwyKE2eKL4j1TmA0uqN07bptYWVvvhszMI0JYQCzRYzLw0yRqNBf0kAn-sb9hJ7ltQiSBWUwpQ1-CFKkZaND8q_AURY1wIY4r8plalN1OCpN1e0H3IiUnUj3qQZ9LsyFBQs8G2MHWPPlCHGcUOALQ7pgZID_DRjzs91iCtD-01fvvbpIoXBtL_jLk1qxGH7v0hEjIiE-J-pwbLO7L_IaDpxFqz1zYrlv07EZ5d5Tn5iAm8SsDVC1leHZI_myFYzYr7wKuyX0Vtf_T0fewa3UaKUDTAFHzJKIvLHuK-hVc3dkC_GmN2D_de-AHYYTXDw-blo5sZoL3Hzf0eZ1JubqzVY6cIFwWJoHLZB1u7khpBN6MPnOTL_FDMWPHjN3c6i-nt7hMeXWyCXXYHCAF1n645FLNxG4B4Idy25fsr0pj-Gj5aNz0pwL43kN_-71OnZ8Flm8gX4GXc0mGIyvZe5pdIMg-W59PZfviGk7OIpNqU1hBslLPlxdamXpzuMZ1irD-10LhClW6x_yAchQSMEZ2Rx01WVa2iahehnDiQbgq99Om8CGf1tXAMM7re5_hzq64nJg_HZ_tYEksYGA5lqVO71VdExDFLKn9AZQI3HJCJMY60VsL4MOr85RfVGkQXrl4uRP3fr8G73o67i0xpRXxvI8cK6nCDvAcmiQFElEPsrGQfYmNfeMdFcex-dr82sSX3vkXJ8E5LMs2cCaJIEMT41oh_NIxIzTJr16oRFWE8ho2A==",
+      "status": null
+    },
+    {
+      "id": "rs_0731cb095aecc0b4006ad86f81990887d1a2163353506831a8",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G-XAnFdg_Pstr2gjBkXKvhiu9nD5DprgFkQblB10p5wjyRpAzcgClvs5upl2Dd3iWc2bZbeSkfrjh7rofLeVdPWP25aiipO8nFeeK7z3f69RtzdibDI4kZfSmWDyYedYG-tm2f6DDcsPIp8GtagKeezrlyg5gD0mk5wWAw5wdDMVMhZHX6kM0PJZml9sZTuO_t1XY7l64mHy8D7j1x0_1qnEomF-bZU8jzviXX7jH-l_t-pwiskTMsIsJcQEVFgrgyzM9og1_S6VZFZLormuOscAlWqrBJNsxrOCWuHtbM6k0WXTm2u11-EgBiYvQAjD5v_sc8-CEEUz7yZgXSnzYS3prJNovG4NxVAeESQIG-Q8lhZMgG7JM8cCD2GRfthZfHbrMez2PlbWTn--g5yUklZd6nTu-Xli-XGVDsaXKK1aBIi2SwGumntF5LhqQNLXjhmvK93sdzc4laAu78aHskPVliGKrrDihRXPmREBr4O0hgDWCEll_tpi-uk7FI8CqWh8t-B9shz_vsHb4I9MDEi64Hj9UGJ8BThi7kVTXYfbF9A7rRP9L6yPyULPTVXndVNqVxWFUqXyivE8gn7oO6lvWMJ342Vuzyh6aHpSP47kML_rRifu-mnJZGSPZebvJnUk7QTF9MDYywQPT6yfGdd3GxLA4FrNoBvClhvxansMu-MIj7uDnLYAZT9d7QRWlKyuRPQ4xIbXDGlh-k9LTbOBbpDqS5t90Llv6fCr2bU8iL74OlVR8VrA8geXHLdgGzM7MASdO49m-0j93y7blRNP_-ICLCgCDk2R4ZUt7QikVFz5ml0N0uCNZtt4DUZ7-65e4fXhoUgalasHVyWU2IYOT6w_8WymO7vEjfGRKKieSc4yAV-T3pNC7LawaxZyLdxJWgyOpy2TvnqDsV9fcd-fYKxJ18MpPQ7yvcr09hgYM-GibbpQbPofkHOlmXTQVbUTQJXHdCzYdC2s0WeGdbOv1CStlQCOS2ZTNqfZziHTHCEqmFIwORzHrr_ZUclN_ZNPTdth6pXTdQYVhi4TSK4GQI7O9Ij6g7evsyvBLEXxXY2xfb6mI6KHJLCFTX0u5TwXlf19TqzHqUXMj-rayUtAL-iLE8lNLZKGYzOAkD6LO1NW2aJyDrHO8t-UKVHOBAbmVmJWl7dTyQFNMbbmp9D2GeWBvzkpd_KN4EvcvAouJq8A5Ge8qU1qAHOpmnqZ_eaJbyxTwmYhm06M55e9P2H0YMSFPmzA7C--7Joeb3YQEmHA8_h7un1FxqKHAqb71AbKAX31no-cDCOFaHRJxm9Je57VUp1QtpJC9EuS0CFKDYEvlJVZFKT_pby4AFy7YPsIJPGsCTQ6mzwd8zbF_vArKHDsy6qnBQ8P-uX7ydmyduapsFf1tO86d5FwAR57kHZPoShEPYzBOsPnWB9AR300W7wHKZAUWQ5bj46UJ7ncCImxcgMquxjHDZfWQ5xDf3vIT9O-cpQ5B9G0hfSHXaz_XEyt0q0OWYRODnweE7zDzQ8RGrn8rPHZfDsxAQNi0XnazsGWGq1lJ6eluhoS9Mjl9yR9rF1eDCsf1xiC6nbViOawFwCAP2mvqO23H8EyX4U2uOAwYl5HIwzwzvcstk1ERq4yeliy34gDChBjTDSoQY1ZdI_W-hV2MEmMaMr3z77vEN-9SK_zahSIxVepWfUYJKO332LLPSrMSKzIJlOblkCtj2Vhz0gSIZ-NTIxOxq7hX3TE8Cv6E5B75MO8NsY1c10oMaDcKpKRX3Trm8Of02aWMiPs0nfdjYC90F16mu1ubprP7MuLqxVBCft1TkQdB6EilFyyB-9HR795Ef9DLN5clhbglz2RoTOSJg_uExD-fixJqsXtmV1XKliXCfFy5fxJYwB9ehgxuKNe-ZNE_PkP9gkyBCaMi5KTmNfwS1e886A9_dWTd2zh5kIQmfR01ArECEku6HgBc-ndpXDSXCB-VcP0vcXQT0BQGjaN2fi49PywUiIPbTi7zEfda4FJhUGtDk8H99uUBrYarjE9tM-VavkBmD1Ar0X54l81k2gOFOQKRweJiEcCxIUieK4EIRWTSxvj0LEIUCaseRD3x2s7FMGOmzyq-H7gpdF632ckjUOgtSfras_aqbdst4QUOz888_xkuJ4dxPilkIS-Fk4RVxXrjfWqUIAtGOrvuk6VZWSr_n3MGDyPGdCEv-jawEQL9RnA5cEUtroqlitBpZBdksb96N7kCiGQf_L5c3ZvqLEQfYhIhT_mKK3X-Y0vhOqRTfgbMxyv9EWbDhK6ntulONwpCp2KPIFIkSe_B5izth2sMmLZx1Uqhm4CUcbgLGxTTanUhL_cxKKCmFblEYFQLQUttO5_Qls4jWh9g0twXzG9Bz1m5UfDqm5HgNdwDG69FiiG83gKB5XfJXM6tmqxAFJJvQbJDotr-w3ECajFpEPot-joWlPpndxUra5H-GZZ1cP5LXQLm9PTyaIpN0WjG2a6KDG0qoNKns8RpzxjYG3IjI5aKpQnFSX4r5W8kLw0Flrk1o380wj99xW1bSFMbnXXl4CV2LmUNGo6N9pU5IE5zWtUn3z9bynFPP0E0qpoPr00-GDA9YTouFr9FHoQtq8eOmM4oj5ZYFCTuZseb1rVdrX5-NbK09Gxl669rgCRgw4KYdNtU1ypkihrSZl56tF3YKqZzQBp0VJd7Oyk_97ozz9GZhNzYjAdLfC6iXR7Y0Fi_ywb2rgCyTlJJFAPwY0J81zxlnbgz19zo4x3Sxd_sut590rPGKRYkhyR9JlPqZQmYXyJY6iQORVExj7JesIBO7cfM8LHZtynHmszNed_HgbeHpBnFQhT_L6liR7qI8APMY5tUxCIRlO5ou8g-WNb2wVU3tv4N2YlYaF41sqHocwOrFdrgWgmy-rQ4DS9-f_v2qg-HtnyaJdnp31iacd3PmO2h23Wk3OnEojTAhKHhHeVxbkTfo_C5Haa6ENFabEwwE3UPscGB0vOuijHlLmI0Pzo13iascvZ00gf99EToSRI7VX3duM8Si05D0N1-Ecpa5cib1TKBXaXag-OQ2l_XWvdzw_SBOKpwaXkAsxw5OitwzECOYngu1E2EHcjY2y_azjKXDAVdJ9Oz0JGsWkE7TMVxsxo8w2StLTScf4A9lcI2iAprXABHRsZwovNtlkfpYJKPKKSXdnpyFNLWwB4xtaQ6f45KAWrshl69n8szu3LG_F5S4VeFE8OHdjsZ7QMoBM_Xe6S6olF-Hdn4tVfHud9kRpBO0G5GUyQ_IWAWzLDet5JkyI9mIvqM8Xlp4YMTCDBdSDKsxiD9Wv8vD-YmQhSxeALyjn1lJ4swbmStwVgS3cW7cPNMqNW_hsAZLv6kKaCiR9D6KAwxbVXgRf--n88NwItmaww3wzy4IA_tyH7cR3V_37yvxslR_enFc_kRQc9yjJHz7AUvAsIbcMfeS1LcOC18fb3eX8pXXbE0dQTA_l63kifcaJuUz1cyVinTMVEgf8qQhe-pLPljaLSfrkqh57t9JAcNtV5_bN3W0eob-pf7XCTAefekY2UY5DliCkP5K_0WG-3iPozz8IcREEwBby62lcAKOdhkehO6Tf5HFFw4XsDDtV-Hk5lw4WEDcdFluQBpH7Ig04zdl3Quz1cjHHvWAIzgmIyryZ7bpY8lILNnFaol1bcaxfQrV9Ow16NCr4VTW3NU3z752S5gRZjpnQj4tNsRxLjn0YessdRJJLawcbmpl6LAakUEOrdQlTdic6NkfwYR_eJpKsnrEwiezTIsvoVhEPmRZVXf7JgoesoEEk7kKInAn_uqXHTs4DaXLUMGqKwDHsHw6Tzsg7JO3ctGhGSYM86dpYxs7_4DGBds--XdUbzLGSi1v3tfz23RTb4uAMYQGgeurGvZ7Xa-uFUN0Tv5d4gw-TiV85EvfUVz3APvvHrPjenpa1nUTbOQoPGTeFG4BXmNwU1UpwWdPG1j-1hbyK7mrAZUJC_zFzY1TzGj6-wWWekXna0HDAtR4wx5ZP6xIkwEUKEMig6rZzSTJcu4WvJMOYKDn2k6UIoZ4Q7053-i_T7VPjINCZPQb9LAs_Bs5rKhqjLayCK6U63AGdUXao-sgkq6drmin6HhA3dJohesSM_xcXYwszeh3Q6gLNyEiTEt-EdDUYZqLBmIlMcdqGDhn4aawb8nvfp0zuWMbi3BCkUAPiYEMp1jqcT5di0GYN8fwanVGTWCrTz_df4tg81bSkwwsXTl51J6Guk4ri8pnjACd_C4Cy6MRK3zASaCfFmLi5u06zzlfzCNftfCM1Q6LTclxJCe_3y3HwlX33USkhBYXUeRJ2in24YOMwvmMT4z-8l1n0tXx4lr-VfA0nJdUharFMOop0fZ-5scOmevapMRp2v4H_2MMb7Bz32YpwBkWV3sQNUFcpzk1mVycgovPtCG7CQ8o4QZNOBjo2-XTFHlQr56hbPQ4D2QQyJqOiS0c7t6lwWA5uvtqsNfD5VDXGyIklUitln5TLChJopeE70_4CqrcGuLaXwCAHjN08e68hkcjcTxaL-Pga7us_q9eGKlOiP-Hs0U1xUjG08purUIPKBGHNY3b9SoaFfWKRlzQ86PkybBtDxLoBENtSoz1DNekbTuxyeakynK6Q9t0Pbe2NnEd5VtqnI64bM8tfqGSxyMqEtm7w76WlsF03VTfe-rsGQ2gXDP-1GHTb2VYFKWJSdrouJTWBccK6Z5K-wUPBdSyZxwa7XGXrtnomTHYa_GgwMmXPUTJpzYd3L3lQzz1iVlEP895Jn_T5V_DyCFuf1Wn2dFFShwiv-V7kKBPvilVZZ0T2T4R0BXphBHpzYewX2BYBjcafiMRQN7-4waCUrhXpHPVInotbCwlVxfpSK5umf91RIeLrQHlyUNfL5SrO303d5qWkYOolg-Td_anvT9_p1fqCjUhciz-L_5JBoluWc_SmWDxN11ya4qtDvJZ2vI1Vbn_afxcSFtSgE9FXVNxYq8uRshOnwVc23p1g2eLwgCzjS9FS5SU2I6_p8AcdY33b3DwN18umrd3vWhsDMTSN8giSpAOVzUDUkGTNmW5RAIxYB3No4dJE7ynJ8vIaD7psJT6v2tSjBmARltZL52nT51xUgAmTR-M9ihIbJ1lDfaEHan-EQf5sD1zG7gLkGlHd0vaJG2EkeezvoFzsUIDGJV9VP0hUyMbxtpJc0vqus6Ts5OhcWGhOIpWlCLsZXPBTlsVOBjzee2pXvc7NoNYNSw03S4pQmRIifbUp-F-cBk4SVqFL7Jw5NQZ981jMBu4D0qcBhTWQ7DGx8A1SwlialoblbxYU6490xNHr4ibM6roWeKC8xFWHbj2GpUfhVSqwYXlu-vPAc-3h2Z2PLWeTKOWkPdg-enBG35PzBFW8eVAsO2Q4Z_6EUf4PZTVE68RdMS4OifIZZY4uc3xoKF8Y8RI0Y9u9omLkvXUuOoFjLJ83BzR8BZuYx0a51ak1LidVY8k49EWvKDrEWO8d4XmBGnJksHpGJ6tklLeqMgUiGwrGhbUJHSTRG7QRiucwhjHpbJj6N-vyC6WrH0xwjLmXnjT1bI7dY_cpFhw-Ibi0m3qITpY6vHRmhHzBb57Ss3F_m5X7j122DSjEhbWuaVVvedW5HLUuwFryH64AjQmHuZuc_xXzpoyvkQNo6tPCRCA0cIeTAKEV7Jvf-ZV59I_QyWWdgl0uf7qmNW7SEe2tVaxZ64nbu98kS6EExuvrXtQrXzPNMth-al4WioivfGL2diG39MESRMgctfNAjchq_sVqfygUU5yN1K7d2pvnWQt4QvU4ByzCCqDOavY73ZZMiE69td-KTrKwA_8n_f9hdtQ-OEA34L5e8zBDWCUgjD5OnMjvDu0Wpz_GbOi5GgGvGDWLaa3ywGKd8j2qc0RFaz3CJPdpUmm7T2KpsBFE823cZ7vYcSJO_T1CU7XPwWb6eiJAP5z3RVwusK_e_-JM0Ee7p1QVklWjBffH5W5X-iXOWdlkDHvBDOYn0e8KDdCQTDyyz09r0ztR_6GQ9F28rqSvnDGTUrAZrQwQDu32k_keV8t2NsrBH45IhQHpJbLwhgpz5rpt4TjdxJI_zFA4GotvycX8o5YSpeVn1BNzBGXkwXiKYwBMdHL2kq_ZgAYVmFDGqLIxr9iugTQpYd3OsJZz6yOaAeAjIwB-Q78TA03ThCDYw7s1OT96rw6ASw7WoEJ0lm5su_Rf6hcfl-K-pVNJzDL3GdVDP99n6GdsSyjKySAKbM2N8owpk0dOzvgFYJIeLzHmMg4jSQwgciQOmNN8qs_7h7mHuA==",
+      "status": null
+    },
+    {
+      "id": "msg_0731cb095aecc0b4006ad86f8539f087d193894a30a9e22dc3",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\n  \"funde\": [\n    {\n      \"regelwerk\": \"GG\",\n      \"fundstelle\": \"Art. 33 Abs. 2\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Die Gesprächsbeiträge dürfen nur insoweit in die Bewertung einfließen, wie sie Eignung, Befähigung und fachliche Leistung für die Stelle betreffen.\",\n      \"begruendung\": \"Als staatliche Hochschule muss die Hochschule den gleichen Zugang zu öffentlichen Ämtern nach Eignung, Befähigung und fachlicher Leistung gewährleisten. Das prägt die Durchführung und Bewertung der Auswahlgespräche.\",\n      \"quelle_url\": \"https://www.gesetze-im-internet.de/gg/art_33.html\",\n      \"fassung_datum\": \"Abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"BayGlG\",\n      \"fundstelle\": \"Art. 17 Abs. 3 Satz 3\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Die Gleichstellungsbeauftragte ist bei einem Antrag der betroffenen Bewerberin oder des betroffenen Bewerbers am Vorstellungsgespräch zu beteiligen.\",\n      \"begruendung\": \"Die Vorschrift regelt ausdrücklich die Beteiligung der Gleichstellungsbeauftragten an Vorstellungsgesprächen und entspricht damit dem beschriebenen Ablauf.\",\n      \"quelle_url\": \"https://www.gesetze-bayern.de/Content/Document/BayGlG-17\",\n      \"fassung_datum\": \"Text gilt ab 01.04.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"BayGlG\",\n      \"fundstelle\": \"Art. 17 Abs. 4 Satz 1\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Die Gleichstellungsbeauftragte ist hinsichtlich personenbezogener Daten und anderer vertraulicher Angelegenheiten zur Verschwiegenheit verpflichtet, soweit sie nicht davon entbunden wurde.\",\n      \"begruendung\": \"Bei der beantragten Teilnahme am Vorstellungsgespräch kann die Gleichstellungsbeauftragte personenbezogene oder sonst vertrauliche Informationen erfahren; die gesetzliche Verschwiegenheitspflicht ist daher zu beachten.\",\n      \"quelle_url\": \"https://www.gesetze-bayern.de/Content/Document/BayGlG-17\",\n      \"fassung_datum\": \"Text gilt ab 01.04.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"BayGlG\",\n      \"fundstelle\": \"Art. 8 Abs. 1\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Die Vorgabe greift, wenn Frauen oder Männer im betreffenden Bereich erheblich unterrepräsentiert sind; der Vorrang von Eignung, Befähigung und fachlicher Leistung bleibt zu wahren.\",\n      \"begruendung\": \"Bei der Besetzung von Arbeitnehmerstellen ist nach Maßgabe der Personalplanung und des Gleichstellungskonzepts auf die Erhöhung des erheblich geringer beschäftigten Geschlechts hinzuwirken. Das ist bei der Durchführung und Bewertung der Gespräche zu berücksichtigen, sofern die Voraussetzungen vorliegen.\",\n      \"quelle_url\": \"https://www.gesetze-bayern.de/Content/Document/BayGlG-8\",\n      \"fassung_datum\": \"Text gilt ab 01.04.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"BayGlG\",\n      \"fundstelle\": \"Art. 8 Abs. 2\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Dienstlich feststellbare soziale Erfahrungen und Fähigkeiten aus der Betreuung von Kindern oder Pflegebedürftigen sowie aus ehrenamtlicher Tätigkeit sind bei der Stellenbesetzung mit zu berücksichtigen.\",\n      \"begruendung\": \"Die Vorschrift erfasst ausdrücklich die Besetzung von Arbeitnehmerstellen. Soweit solche Erfahrungen und Fähigkeiten für die Auswahl relevant und feststellbar sind, muss die Kommission sie in der Bewertung berücksichtigen.\",\n      \"quelle_url\": \"https://www.gesetze-bayern.de/Content/Document/BayGlG-8\",\n      \"fassung_datum\": \"Text gilt ab 01.04.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"AGG\",\n      \"fundstelle\": \"§ 6 Abs. 1\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": null,\n      \"begruendung\": \"Bewerberinnen und Bewerber gelten für den Schutz des AGG als Beschäftigte. Die Vorschrift eröffnet damit die Anwendung des Benachteiligungsverbots auf die Gesprächsführung.\",\n      \"quelle_url\": \"https://www.gesetze-im-internet.de/agg/__6.html\",\n      \"fassung_datum\": \"Abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"AGG\",\n      \"fundstelle\": \"§ 7 Abs. 1\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Fragen, Gesprächsführung und Bewertung dürfen Bewerbende nicht wegen eines in § 1 AGG genannten Grundes benachteiligen.\",\n      \"begruendung\": \"Das Benachteiligungsverbot gilt auch im Bewerbungsverfahren. Die Kommission muss daher diskriminierungsfrei vorgehen und die Antworten anhand stellenbezogener Kriterien bewerten.\",\n      \"quelle_url\": \"https://www.gesetze-im-internet.de/agg/__7.html\",\n      \"fassung_datum\": \"Abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"DSGVO\",\n      \"fundstelle\": \"Art. 5 Abs. 1 Buchst. c\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Im Gespräch erhobene und festgehaltene Angaben müssen auf das für den Auswahlzweck notwendige Maß beschränkt bleiben.\",\n      \"begruendung\": \"Gesprächsbeiträge und daraus abgeleitete Bewertungen sind personenbezogene Daten. Der Grundsatz der Datenminimierung begrenzt, welche Angaben erhoben und verarbeitet werden dürfen.\",\n      \"quelle_url\": \"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\",\n      \"fassung_datum\": \"Verordnung vom 27.04.2016; abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"DSGVO\",\n      \"fundstelle\": \"Art. 5 Abs. 1 Buchst. f\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Gesprächsnotizen und Bewertungen sind vor unbefugtem Zugriff oder unzulässiger Offenlegung zu schützen.\",\n      \"begruendung\": \"Die Verarbeitung der Gesprächsdaten muss eine angemessene Sicherheit gewährleisten, einschließlich Schutz vor unbefugter oder unrechtmäßiger Verarbeitung.\",\n      \"quelle_url\": \"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\",\n      \"fassung_datum\": \"Verordnung vom 27.04.2016; abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"DSGVO\",\n      \"fundstelle\": \"Art. 6 Abs. 1\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Für die Erhebung und Verwendung der Gesprächsdaten muss eine passende Rechtsgrundlage feststehen; welche Rechtsgrundlage trägt, ist anhand der konkreten Verarbeitung zu bestimmen.\",\n      \"begruendung\": \"Die Verarbeitung personenbezogener Daten im Gespräch und bei der Bewertung ist nur rechtmäßig, wenn mindestens eine der in der Vorschrift genannten Bedingungen erfüllt ist.\",\n      \"quelle_url\": \"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\",\n      \"fassung_datum\": \"Verordnung vom 27.04.2016; abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"DSGVO\",\n      \"fundstelle\": \"Art. 9 Abs. 1\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Falls im Gespräch besondere Kategorien personenbezogener Daten, etwa Gesundheitsdaten oder Angaben zu Religion oder Gewerkschaftszugehörigkeit, verarbeitet werden, ist die Verarbeitung grundsätzlich untersagt, sofern keine Ausnahme nach Art. 9 Abs. 2 greift.\",\n      \"begruendung\": \"Die Vorschrift ist bedingt einschlägig, wenn das Gespräch solche besonderen Kategorien offenbart oder die Kommission sie erhebt oder festhält.\",\n      \"quelle_url\": \"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\",\n      \"fassung_datum\": \"Verordnung vom 27.04.2016; abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"DSGVO\",\n      \"fundstelle\": \"Art. 32 Abs. 1\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Zugriff auf Gesprächsunterlagen und elektronische Aufzeichnungen ist durch risikogerechte technische und organisatorische Maßnahmen abzusichern.\",\n      \"begruendung\": \"Soweit Gesprächsdaten verarbeitet werden, müssen Hochschule und gegebenenfalls Auftragsverarbeiter ein dem Risiko angemessenes Schutzniveau gewährleisten.\",\n      \"quelle_url\": \"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\",\n      \"fassung_datum\": \"Verordnung vom 27.04.2016; abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"SGB IX\",\n      \"fundstelle\": \"§ 178 Abs. 2 Satz 4\",\n      \"typ\": \"moegliche_luecke\",\n      \"fehlender_schritt\": \"Bei Bewerbungen schwerbehinderter Menschen der Schwerbehindertenvertretung Einsicht in die entscheidungsrelevanten Teile der Bewerbungsunterlagen und die Teilnahme am Vorstellungsgespräch ermöglichen.\",\n      \"hinweis\": null,\n      \"begruendung\": \"Die Schwerbehindertenvertretung hat bei Bewerbungen schwerbehinderter Menschen ein Recht auf Einsicht in entscheidungsrelevante Bewerbungsunterlagen und Teilnahme an Vorstellungsgesprächen. Im beschriebenen Gesamtprozess ist ihre Beteiligung an keinem Task ausdrücklich abgedeckt.\",\n      \"quelle_url\": \"https://www.gesetze-im-internet.de/sgb_9_2018/__178.html\",\n      \"fassung_datum\": \"Abgerufen am 21.10.2026\",\n      \"sicherheit\": \"sicher\"\n    },\n    {\n      \"regelwerk\": \"BayPVG\",\n      \"fundstelle\": \"Art. 75 Abs. 4 Satz 1 Nr. 13\",\n      \"typ\": \"zuordnung\",\n      \"fehlender_schritt\": null,\n      \"hinweis\": \"Soweit Richtlinien über die personelle Auswahl bei Einstellungen verwendet oder erlassen beziehungsweise geändert werden, ist die Mitbestimmung des Personalrats zu beachten. Art. 78 Abs. 1 Satz 1 Nr. 6 nimmt wissenschaftliche Mitarbeiterinnen und Mitarbeiter von dieser Mitbestimmung nicht aus.\",\n      \"begruendung\": \"Die Norm erfasst Richtlinien über die personelle Auswahl bei Einstellungen. Sie ist für das Gespräch relevant, soweit die Kommission solche Auswahlrichtlinien anwendet oder deren Regelung Gegenstand des Verfahrens ist.\",\n      \"quelle_url\": \"https://www.gesetze-bayern.de/Content/Document/BayPVG-75\",\n      \"fassung_datum\": \"Text gilt ab 01.08.2023\",\n      \"sicherheit\": \"sicher\"\n    }\n  ]\n}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "funde": [
+              {
+                "regelwerk": "GG",
+                "fundstelle": "Art. 33 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Gesprächsbeiträge dürfen nur insoweit in die Bewertung einfließen, wie sie Eignung, Befähigung und fachliche Leistung für die Stelle betreffen.",
+                "begruendung": "Als staatliche Hochschule muss die Hochschule den gleichen Zugang zu öffentlichen Ämtern nach Eignung, Befähigung und fachlicher Leistung gewährleisten. Das prägt die Durchführung und Bewertung der Auswahlgespräche.",
+                "quelle_url": "https://www.gesetze-im-internet.de/gg/art_33.html",
+                "fassung_datum": "Abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 17 Abs. 3 Satz 3",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Gleichstellungsbeauftragte ist bei einem Antrag der betroffenen Bewerberin oder des betroffenen Bewerbers am Vorstellungsgespräch zu beteiligen.",
+                "begruendung": "Die Vorschrift regelt ausdrücklich die Beteiligung der Gleichstellungsbeauftragten an Vorstellungsgesprächen und entspricht damit dem beschriebenen Ablauf.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 17 Abs. 4 Satz 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Gleichstellungsbeauftragte ist hinsichtlich personenbezogener Daten und anderer vertraulicher Angelegenheiten zur Verschwiegenheit verpflichtet, soweit sie nicht davon entbunden wurde.",
+                "begruendung": "Bei der beantragten Teilnahme am Vorstellungsgespräch kann die Gleichstellungsbeauftragte personenbezogene oder sonst vertrauliche Informationen erfahren; die gesetzliche Verschwiegenheitspflicht ist daher zu beachten.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 8 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Vorgabe greift, wenn Frauen oder Männer im betreffenden Bereich erheblich unterrepräsentiert sind; der Vorrang von Eignung, Befähigung und fachlicher Leistung bleibt zu wahren.",
+                "begruendung": "Bei der Besetzung von Arbeitnehmerstellen ist nach Maßgabe der Personalplanung und des Gleichstellungskonzepts auf die Erhöhung des erheblich geringer beschäftigten Geschlechts hinzuwirken. Das ist bei der Durchführung und Bewertung der Gespräche zu berücksichtigen, sofern die Voraussetzungen vorliegen.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-8",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 8 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Dienstlich feststellbare soziale Erfahrungen und Fähigkeiten aus der Betreuung von Kindern oder Pflegebedürftigen sowie aus ehrenamtlicher Tätigkeit sind bei der Stellenbesetzung mit zu berücksichtigen.",
+                "begruendung": "Die Vorschrift erfasst ausdrücklich die Besetzung von Arbeitnehmerstellen. Soweit solche Erfahrungen und Fähigkeiten für die Auswahl relevant und feststellbar sind, muss die Kommission sie in der Bewertung berücksichtigen.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-8",
+                "fassung_datum": "Text gilt ab 01.04.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 6 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": null,
+                "begruendung": "Bewerberinnen und Bewerber gelten für den Schutz des AGG als Beschäftigte. Die Vorschrift eröffnet damit die Anwendung des Benachteiligungsverbots auf die Gesprächsführung.",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/__6.html",
+                "fassung_datum": "Abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 7 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Fragen, Gesprächsführung und Bewertung dürfen Bewerbende nicht wegen eines in § 1 AGG genannten Grundes benachteiligen.",
+                "begruendung": "Das Benachteiligungsverbot gilt auch im Bewerbungsverfahren. Die Kommission muss daher diskriminierungsfrei vorgehen und die Antworten anhand stellenbezogener Kriterien bewerten.",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/__7.html",
+                "fassung_datum": "Abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. c",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Im Gespräch erhobene und festgehaltene Angaben müssen auf das für den Auswahlzweck notwendige Maß beschränkt bleiben.",
+                "begruendung": "Gesprächsbeiträge und daraus abgeleitete Bewertungen sind personenbezogene Daten. Der Grundsatz der Datenminimierung begrenzt, welche Angaben erhoben und verarbeitet werden dürfen.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. f",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Gesprächsnotizen und Bewertungen sind vor unbefugtem Zugriff oder unzulässiger Offenlegung zu schützen.",
+                "begruendung": "Die Verarbeitung der Gesprächsdaten muss eine angemessene Sicherheit gewährleisten, einschließlich Schutz vor unbefugter oder unrechtmäßiger Verarbeitung.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 6 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Für die Erhebung und Verwendung der Gesprächsdaten muss eine passende Rechtsgrundlage feststehen; welche Rechtsgrundlage trägt, ist anhand der konkreten Verarbeitung zu bestimmen.",
+                "begruendung": "Die Verarbeitung personenbezogener Daten im Gespräch und bei der Bewertung ist nur rechtmäßig, wenn mindestens eine der in der Vorschrift genannten Bedingungen erfüllt ist.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 9 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Falls im Gespräch besondere Kategorien personenbezogener Daten, etwa Gesundheitsdaten oder Angaben zu Religion oder Gewerkschaftszugehörigkeit, verarbeitet werden, ist die Verarbeitung grundsätzlich untersagt, sofern keine Ausnahme nach Art. 9 Abs. 2 greift.",
+                "begruendung": "Die Vorschrift ist bedingt einschlägig, wenn das Gespräch solche besonderen Kategorien offenbart oder die Kommission sie erhebt oder festhält.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 32 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Zugriff auf Gesprächsunterlagen und elektronische Aufzeichnungen ist durch risikogerechte technische und organisatorische Maßnahmen abzusichern.",
+                "begruendung": "Soweit Gesprächsdaten verarbeitet werden, müssen Hochschule und gegebenenfalls Auftragsverarbeiter ein dem Risiko angemessenes Schutzniveau gewährleisten.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "SGB IX",
+                "fundstelle": "§ 178 Abs. 2 Satz 4",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Bei Bewerbungen schwerbehinderter Menschen der Schwerbehindertenvertretung Einsicht in die entscheidungsrelevanten Teile der Bewerbungsunterlagen und die Teilnahme am Vorstellungsgespräch ermöglichen.",
+                "hinweis": null,
+                "begruendung": "Die Schwerbehindertenvertretung hat bei Bewerbungen schwerbehinderter Menschen ein Recht auf Einsicht in entscheidungsrelevante Bewerbungsunterlagen und Teilnahme an Vorstellungsgesprächen. Im beschriebenen Gesamtprozess ist ihre Beteiligung an keinem Task ausdrücklich abgedeckt.",
+                "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__178.html",
+                "fassung_datum": "Abgerufen am 21.10.2026",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayPVG",
+                "fundstelle": "Art. 75 Abs. 4 Satz 1 Nr. 13",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Soweit Richtlinien über die personelle Auswahl bei Einstellungen verwendet oder erlassen beziehungsweise geändert werden, ist die Mitbestimmung des Personalrats zu beachten. Art. 78 Abs. 1 Satz 1 Nr. 6 nimmt wissenschaftliche Mitarbeiterinnen und Mitarbeiter von dieser Mitbestimmung nicht aus.",
+                "begruendung": "Die Norm erfasst Richtlinien über die personelle Auswahl bei Einstellungen. Sie ist für das Gespräch relevant, soweit die Kommission solche Auswahlrichtlinien anwendet oder deren Regelung Gegenstand des Verfahrens ist.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-75",
+                "fassung_datum": "Text gilt ab 01.08.2023",
+                "sicherheit": "sicher"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "eur-lex.europa.eu",
+          "gesetze-im-internet.de",
+          "gesetze-bayern.de",
+          "tdl-online.de"
+        ]
+      },
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792569238.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 42262,
+    "input_tokens_details": {
+      "cache_write_tokens": 3695,
+      "cached_tokens": 4775
+    },
+    "output_tokens": 7937,
+    "output_tokens_details": {
+      "reasoning_tokens": 5211
+    },
+    "total_tokens": 50199
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 3
+    }
+  }
+}

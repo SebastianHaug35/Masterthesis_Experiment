@@ -1,0 +1,219 @@
+{
+  "rechtsrahmen": [
+    {
+      "regelwerk": "GG",
+      "vollstaendiger_titel": "Grundgesetz für die Bundesrepublik Deutschland",
+      "ebene": "Bund",
+      "begruendung": "Als staatliche Hochschule muss die Organisation die verfassungsrechtlichen Anforderungen an den gleichen Zugang zu öffentlichen Ämtern nach Eignung, Befähigung und fachlicher Leistung beachten. Das prägt Ausschreibung, Auswahl und Einstellungsentscheidung.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html?level=1",
+      "fassung_datum": "Fassung laut Quelle; Art. 33 Abs. 2 nachgewiesen",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayHIG",
+      "vollstaendiger_titel": "Bayerisches Hochschulinnovationsgesetz",
+      "ebene": "Land",
+      "begruendung": "Das Gesetz regelt Rechtsstellung und Personal der bayerischen Hochschulen sowie wissenschaftliche Mitarbeiterinnen und Mitarbeiter. Die Hochschule München ist eine staatliche Einrichtung und rechtsfähige Personalkörperschaft des öffentlichen Rechts; die Stelle ist eine wissenschaftliche Qualifizierungsstelle. Für die privatrechtliche Beschäftigung ist insbesondere der hochschulrechtliche Rahmen des wissenschaftlichen Personals relevant.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayHIG/true",
+      "fassung_datum": "Text gilt ab 16.05.2026; Gesetz vom 05.08.2022",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "AGG",
+      "vollstaendiger_titel": "Allgemeines Gleichbehandlungsgesetz",
+      "ebene": "Bund",
+      "begruendung": "Das Benachteiligungsverbot gilt auch für Bewerberinnen und Bewerber und erfasst Auswahlkriterien, Einstellungsbedingungen und den Zugang zur Beschäftigung. Es ist daher im gesamten Auswahlverfahren und bei der Einstellungsentscheidung zu beachten.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/agg/BJNR189710006.html",
+      "fassung_datum": "Zuletzt geändert durch Art. 15 G vom 22.12.2023",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayGlG",
+      "vollstaendiger_titel": "Bayerisches Gesetz zur Gleichstellung von Frauen und Männern",
+      "ebene": "Land",
+      "begruendung": "Das Gesetz gilt für die bayerische öffentliche Dienststelle und regelt die Beteiligung der Gleichstellungsbeauftragten in Personalangelegenheiten. Die Beteiligung an Vorstellungsgesprächen erfolgt auf Antrag der betroffenen Person; auf dieses Antragsrecht ist spätestens mit der Einladung hinzuweisen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG",
+      "fassung_datum": "Text gilt ab 01.04.2026; zuletzt geändert durch Gesetz vom 26.03.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayPVG",
+      "vollstaendiger_titel": "Bayerisches Personalvertretungsgesetz",
+      "ebene": "Land",
+      "begruendung": "Wegen der öffentlichen Trägerschaft und des vorhandenen Personalrats sind die personalvertretungsrechtlichen Beteiligungsrechte im Auswahl- und Einstellungsverfahren zu beachten. Das Gesetz erfasst unter anderem Einstellungen, Eingruppierungen, Auswahlrichtlinien und – soweit die gesetzlichen Voraussetzungen erfüllt sind – automatisierte Verfahren zur Personalverwaltung.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true",
+      "fassung_datum": "Zuletzt geändert durch § 5 des Gesetzes vom 28.07.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "SGB IX",
+      "vollstaendiger_titel": "Sozialgesetzbuch Neuntes Buch – Rehabilitation und Teilhabe von Menschen mit Behinderungen",
+      "ebene": "Bund",
+      "begruendung": "Bei Bewerbungen schwerbehinderter oder gleichgestellter Menschen gelten besondere Pflichten des öffentlichen Arbeitgebers sowie Beteiligungs- und Anhörungsrechte der Schwerbehindertenvertretung. Das ist bei Eingang, Prüfung, Gesprächen und Auswahl zu berücksichtigen, sofern solche Bewerbungen vorliegen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/BJNR323410016.html",
+      "fassung_datum": "Fassung laut geltender Gesamtausgabe; insbesondere Regelungen zu Arbeitgeberpflichten und Schwerbehindertenvertretung",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "DSGVO",
+      "vollstaendiger_titel": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr",
+      "ebene": "EU",
+      "begruendung": "Bewerbungsunterlagen, Kontaktdaten, Gesprächsnotizen und Auswahlentscheidungen sind personenbezogene Daten. Die Verarbeitung über das Bewerbungsportal und mit dem KI-Tool sowie Aufbewahrung und Löschung unterliegen dem Datenschutzrecht.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+      "fassung_datum": "Verordnung vom 27.04.2016",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayDSG",
+      "vollstaendiger_titel": "Bayerisches Datenschutzgesetz",
+      "ebene": "Land",
+      "begruendung": "Als bayerische öffentliche Stelle verarbeitet die Hochschule Bewerbungsdaten im Anwendungsbereich der DSGVO ergänzend nach bayerischem Datenschutzrecht. Das betrifft insbesondere Portal, KI-Auswertung, Dokumentation, Aufbewahrung und Löschung.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayDSG",
+      "fassung_datum": "Zuletzt geändert durch § 2 des Gesetzes vom 25.07.2025",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "AI Act",
+      "vollstaendiger_titel": "Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 über künstliche Intelligenz, geändert durch Verordnung (EU) 2026/1744",
+      "ebene": "EU",
+      "begruendung": "Ein KI-System zur Vorauswahl oder zum Ranking von Bewerbungen fällt grundsätzlich in den Bereich KI für Einstellung und Auswahl und ist nach dem AI Act als Hochrisiko-Anwendungsfall einzuordnen. Die einschlägigen Pflichten und Anwendungszeitpunkte sind in der durch die Verordnung (EU) 2026/1744 geänderten Fassung zu prüfen.",
+      "betroffene_teilprozesse": [
+        "3"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "fassung_datum": "Verordnung (EU) 2024/1689 vom 13.06.2024; geändert durch Verordnung (EU) 2026/1744",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "WissZeitVG",
+      "vollstaendiger_titel": "Gesetz über befristete Arbeitsverträge in der Wissenschaft (Wissenschaftszeitvertragsgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Die Stelle ist eine befristete wissenschaftliche Qualifizierungsstelle zur Promotion an einer staatlichen Hochschule. Das Gesetz bildet daher den zentralen besonderen Befristungsrahmen für den Arbeitsvertrag und die angegebene Qualifizierungsbefristung.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/wisszeitvg/BJNR050610007.html",
+      "fassung_datum": "Zuletzt geändert durch Art. 1 G vom 25.05.2020",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "TzBfG",
+      "vollstaendiger_titel": "Gesetz über Teilzeitarbeit und befristete Arbeitsverträge (Teilzeit- und Befristungsgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Das Gesetz enthält allgemeine Regeln für befristete Arbeitsverträge und gilt ergänzend, soweit das WissZeitVG keine vorrangige Sonderregelung trifft. Die dreijährige Befristung und der Abschluss des Vertrags sind davon betroffen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/tzbfg/index.html",
+      "fassung_datum": "Geltende Gesamtausgabe laut Quelle",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "TV-L",
+      "vollstaendiger_titel": "Tarifvertrag für den öffentlichen Dienst der Länder",
+      "ebene": "Tarif",
+      "begruendung": "Die Stelle ist ausdrücklich nach TV-L ausgeschrieben. Der Tarifvertrag ist insbesondere für die Festlegung und Mitteilung der Eingruppierung und der tariflichen Beschäftigungsbedingungen maßgeblich, vorbehaltlich seiner Anwendbarkeit auf das konkrete Arbeitsverhältnis.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.tdl-online.de/tarifvertraege/tv-l/",
+      "fassung_datum": "Auf der TdL-Seite ausgewiesener Stand: 14.02.2026",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BGB",
+      "vollstaendiger_titel": "Bürgerliches Gesetzbuch",
+      "ebene": "Bund",
+      "begruendung": "Der Abschluss des privatrechtlichen Arbeitsvertrags unterliegt den allgemeinen zivilrechtlichen und arbeitsvertraglichen Regeln des BGB. Es ergänzt den tariflichen und besonderen befristungsrechtlichen Rahmen.",
+      "betroffene_teilprozesse": [
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bgb/",
+      "fassung_datum": "Geltende Gesamtausgabe laut Quelle",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "NachwG",
+      "vollstaendiger_titel": "Gesetz über den Nachweis der für ein Arbeitsverhältnis geltenden wesentlichen Bedingungen (Nachweisgesetz)",
+      "ebene": "Bund",
+      "begruendung": "Beim Vertragsschluss sind die wesentlichen Arbeitsbedingungen nachzuweisen. Dazu gehören auch Angaben zur Befristung, Tätigkeit und Vergütung; dies betrifft insbesondere das Vertragsangebot und den Arbeitsvertrag.",
+      "betroffene_teilprozesse": [
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/nachwg/BJNR094610995.html",
+      "fassung_datum": "Zuletzt geändert durch Art. 50 G vom 23.10.2024",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BDSG",
+      "vollstaendiger_titel": "Bundesdatenschutzgesetz",
+      "ebene": "Bund",
+      "begruendung": "Das BDSG kann neben DSGVO und BayDSG für einzelne bereichsspezifische oder ergänzende Datenschutzfragen relevant sein. Ob und welche Vorschriften auf die bayerische Hochschule als öffentliche Stelle konkret anwendbar sind, hängt von der jeweiligen Vorschrift und Verarbeitung ab.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bdsg_2018/BJNR209710017.html",
+      "fassung_datum": "Geltende Gesamtausgabe laut Quelle",
+      "sicherheit": "unsicher"
+    }
+  ]
+}

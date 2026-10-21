@@ -1,0 +1,832 @@
+{
+  "id": "resp_0c51625579af8e3a006ad8755d58f887d18b995850ddcdd210",
+  "access_programs": null,
+  "created_at": 1792570717.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c51625579af8e3a006ad8755ead9c87d1931d4b8e4a64a6ad",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQHKTtbgUpFYnedcmZn4tnjI2jAWkOYhoL-EZly37eklf9cwnfWv1CnDLdYg8rlhQ34o8HtkxPtm1mlKRCNfpN_5Hq9RtgJNpQbaQzM-JT79akVlZDwIRwfDJFA03Rg5K6KSx_NFDvUrT4YhL_gxoyvYJbz1gm2AncwzjxO66k-42tAmRDEJdt6LFwtHgi2eNkplZ-SiBUKFyy9KmWgYddsYJ6me0tDkcOa83f5jHGxZX8abhd7x4WSn4G4ECLWeHsLFDMiEWOARASr_4OibsKfEEbvx8yztwT2mba-X7El8J85i1Dt94gbocRAtBqUDW9aRdkVEOpm5D3HFLJY-T9Vv_OqRtZuhDy7Q7ARyHIlgpAtXp-QU0jd7P1PzO5RQNQ9r-Xm0fIWcnVTEOQsJW7X8Jk0YAHzbiPqg04Kqdi0ToiR6M-6TfFS-1_IbqZgHaPGPhNkv-_SaztncqGfcAEAveJcsdM5YxVU3FgA0zqWCh1jfyh_4dWBkEDOzqYT5fTvl19u-IW3kJgmjcMmQEwi3ucxiJ6ySMQyni_thUGv9kk1rgpPFCafEn2V6JK22AA1LW3bTl59FU6nAz-kiCwWheEP22Ho0bkmqsIVpvVuakaRXj_FEVxWmPbTfZnQi8mGYjuaVxIG_9eglaD9P_9o_IKxKVKEkj18S18LRAZm56V1vNdpBCVMVrSEXU20VAQstyES9KU3-QLxN3J1c536AZ9dF-0-s9ILoeWtDfmfdD8ziMwhcaW9sO9LFxkQ_ykiB10r5OOQMG14vZ3_9DwkVyTu08a1aPQDfpDzPuh0H5DTH2sAVWIgbnYCQRRyIypWUYuhbvQMS1ncT7OOGw1aEU40Sr02d1lNSp1rIOuFnQeDQt8udIbe5vG9C6tHeaNowoZjQpoc5M6G1Ig-tobSxUhbY8Ox3TonR35nnLil7Hl3hMlUKWI2cq1hjtsg_Ra8_Zpcu4v2lyzS_GwMksMmTjpGSK9V330gHt2Eg61c-hlduYOK--O7OZN5pfuAQVMmkouPE77kuKcMZkAuHCJbalj5ci-3FS6q_IywbPMxtsVtISF9E4Zc9yMWGl-DU8MWjXEhHiVbQvFzNglm5FSvx_Als2jnTOGauiH9Gt3tepExI_oFoPH9pdUcY2Z6OLW2-nz8RFlw4t_FM-GEVeKP54uMajoomNPwJdqnuVghzcWVqI3pB3_3n-5GtjTwcKIbEeRSbiM2C19I57aGgZhUaTc-koeczrX6dZYAREDrr26SdT2qEsYnO9INdJJlmaLt9aCDNWQE_iewCvzAN6Yzi4O3V3BTA2djFqHaAOGAEsVjmMEytYz6Q4xwoO8owgDVUlkSCfbP56lIKAmL4KdmRol_76lSMk-tSBN2oWpFtKjuQ9j_nJK2_EnKFAeWojD2JmMlgjXruLQcJHCW5wEWfvU0Xhe-Yen1IEQ0UuAJp0-7tVfRfqZcZ23GqNCmvCnp1Az1B-ZadHWeyTaU57e1O0pSo4kpEkHaQayBWHLwcZk6HAkAHl48HMquArXaU8zxODSYNVREt4ArchBGH2EDmSCFVsqWYEaCbRhtx00JVCUyIa9ZgDKT-wuf_rnwzq2PZFU-mNG3afOEHUb_Zq_EBcjS7OUftQTNRxRBFSRRCQlIQW1v9JHc9eHBjRWtbmEvZ7GeaGr6IQxSa9pr_UpKnA17gU-ZXgoesRpAR0ewWMnK7ExW9ZxM6zTmIcGAk82X7rJmS6wWK6SQN17VhLZH-zRvs5R6JxZMHfP12HfCo7pxgEfAGN3mVonRy5C6gKOCAz8NwK4WsKedN11lI8WFH8mgfpzRMMpybG8ETQ6cBbTsDYYIWVuZiAyyWjADMaNsqPWLED92C8ahRF05CVBwrB0eyNTQkAel0okr-nKuIYBhSoicAE8EmqE5swQ3GErLlCNnxNGclTey3USbAuGm9yO2i6SGrguOBDubz9HUe5iMuJGjDbU7rpvjKGXKiqsMJMQ58dGz8HAJPOGGkigcGAKc6ZQ9DGhIPMWvo9YtqXERQiFcDsIkYBNczWVOANJp-C2rvCLJD_SVfee_B2CuwRgaPIRcMcMwKi7bnRH2ONswRu8Sc4jhGolsD0VBcoclPb0vNP2zNkzpNQB9_Ck0nOVWnD4xffdVajQuUfNd_orLq999l_NW3gYW1n-B8t160xij9YIBhdM9p3o-DX4W5IwHEtVzU_0B0CAOPFWfnfHELMFCkG367jJweZyiTwk9HFaPKEwtXGl69z2BPcz_jmr2ZzclHVKd14ljW9WJ0W8GY_yV2CfgbP16hzTt2frodhQwOevqiwH-c4HN2vFwNIf48B2_DYjmFzXGF9Ln8pRfQnfL8R9MuMmDbnZ7rQDMMCeKoDzlSoNe6Dgy-5GlmJzeLj9TSwWEHahHx3WKgJSoYhkB9RkulQkr2X8EV_ofHMhM7bqQ5vVVUzdoDFkFZ4Kbz2osKvGK_PBsaOcvyz4ShbiuMlM1PLkqqqloA5SRDQkOxMIyOUEXFmQI9FTm5Kb9nkj5z95coZlv7Q6OTmYipXCk0qq_QMPF5_F42Poy6LaelsWt_AibQlInVv6deI0Yfpvi3nad_QV9TdgoV8318SQW8p0Uz_gp_bUQYfrtuTHQ3wNMJeZyKHM66NJZkmCDScDMQ-yBXSZcVWmHST2GFQujoRXUEgirAYE21FKnUzJlCJpyfKycWY0i2kI2pabogHem0w4UKT_2fJeafSx0j8GSHC2hPnwGvF2E0wQ4Kj18b1eT25X0WPpGZojXJmOMrynILEDtL90YHGCRd8N7emp9QlvmF-Ooo2LlCfKLucGoVo6r3AC6dfuwHzDYCaGVPkmK5UHUA8s1xY1KF0=",
+      "status": null
+    },
+    {
+      "id": "ws_0c51625579af8e3a006ad875600d9887d1b5c3b35d1aaa8765",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu GDPR Article 5 storage limitation Article 17",
+          "site:gesetze-im-internet.de AGG § 15 Absatz 4 Bewerber zwei Monate",
+          "site:gesetze-bayern.de Bewerbungsunterlagen Aufbewahrungsfrist Hochschule AGG Bewerberdaten",
+          "site:gesetze-bayern.de BayDSG Bewerberdaten Löschung Aufbewahrung"
+        ],
+        "query": "site:eur-lex.europa.eu GDPR Article 5 storage limitation Article 17",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__15.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/AGG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62021CC0077"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?from=EN&uri=CELEX%3A32021Q1026%2801%29"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayDSG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayDiG-48"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/asg/__15.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/hgb/__15.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__15.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/a_g/__15.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/arbgg/__61b.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/vgv_2016/__15.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/bimschg/__15.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayDSG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2026-N-828?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62021CC0077"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayVwV151469-NN45?all=False"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c51625579af8e3a006ad87562bb0c87d183eac4828e14de7c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQayn_KIQi9taq0o9pd8yFJdojpO8W63405BRE2dE0AZpYOjvVaJndhczP3Ro_ZxnzkYEc7oCpqFDlCBw9aXhPt7SR0pYe1IRybLWlnC19qUDmKFgs8QijOaZXe3wiGYpN78S1_H4NqauYAmAtpzTC_HeRFvCputQeMhwkm4NUbAEu3d9bq7JuNu3rFhlS1umijfMQcWs7A9SM035_adQla45JBwC_wqJ2ShXwYoZddeq_AneoybEo1mZN8SM5mNlz9CluSsCvpM3jL3sFWDJBvvqEIDSWQ6QgM73BsOZCRUgPNUdJXQckh_Mc1rJ94rSeQpVKKMPT4X6BbvSODJH7IiIPcE9EkLVMiId_u2RbtwMaOAskjih2ViriqgoSM1jje69B0LLb1fQMd3nrCvyo0Ouz8Vf_yQSbf1eVD7tMqqT2haHcwfTA6k3ZbdhS3iW3Fi8bgv2HHqAjhttyVA4mjiVHEtglOeSq_o6Fw1H1hSXsxxgB4DAGv0xjE_5CjRQuVEfR6XWtF2UA2wl3jlsq6omHrgkt_eQqY1E4_6b6MYFNp40aeg6B3srz5uTy_lKPNeYpUqrcm4tUZ-0-Jy-BjwsHdGqOwJPANoFW7a8Qxi5X4TnXbWUkLPOMgKjRIs33URBvmZLE9aPvmka2IKJ3KHSMSNPqsnQEvoOr_2Lq3m0PHOBvsRPAHtol5cNWVKiYOXvBRoBIPjLX6fPq3l8BHAqsUCCrScDN3DVhx-KXq4alQ29BG7FBFGokkk45Z1fG0YaMVl-nPGUV5ghmkq_ppZvv7TSBBnpK5RnhE1ussyhBKO_rW07rN2lyZHExwxplJqNHygcHxRkzjU6alHDdiAnxRaNHrvmlYcd8GB-B-T5bvkw7iFV-3ma8a04BtEF7kBiJPiBJbgljJaN6KrWOT4cd_zu3vcPworE-dm_Kip2LafLQKfpe5MwPuX4ynuCQj17oVisFp08Iqe6-8MyM2gnwBJYzfwY2vUI4t5ZLWTtWE8BnEi5VOX4jr2P0g8yjOHLRcbKz5dln7NGuyC82rD1-Zde9_7yJp5ShSUX5VRJ6XZku65_KchhUaOeGt4Z5jCUbze-bd07_cO4hZyimH1dMZ3SFWB2RvlywH2ZWJe5dQF-UXzualfnNiOtfjjIo8klHLFjQ5mY6IS0xahH0zzF8idebhIcD3VEpMURDuqeeP6GRG77ZZWjkRTTAfk-2EmK4SU1VdgldUx1q7hPBSOxDFP-DEUKrfipsvMMpvf9DicIRUI2gLCzp6GfKUwOAWStSEWNUJk3ODxycxH6X4hOYP4rUl0A0G3pI6ysdkDwxYkA7GxGlgz02LciLOye321KO-h-t8eWddZO_xGa9q8lbF_8Egi0ehZJAlQf6i9n25JFXcs_3B0-FrfHi_al6D334miehnNTeTTLUNW3hPh1veWd1zZB0ttyUoLTydpLp_tJgjcaRgtbyXk8gbMDUv5hA_w5gOIXtN1W5wJpzJc5Wxi4kYjAV5dM_2AHuTIZl2g5ybiAkRAW7YAPNGwAZZ5FPaUA_i8Vc4N0Yr3vbcf2UXUvWc4Asdo0_Qe21BDJI007VqXw8X8_NOlQikBVc-rceoDV3q3z2_bjLbp9Xmnqtme0GDeYJ1Osy3g5XrMNRmUts0nkiK9hnOKjelOxXA1jLKj9UmJGWKNfrGOLeRpHmoUvNIpGsuPFiFqCCLikB9D8b7iBpFlYw2EuuTAHVAX1wHIJ4KLb0X6JYWn5kZbZgVjjQGTcBny175qdqA9CYzAPOzQylm8aXHgZhjtjVFY5ZfSGW39kNuyWoA3OfyPpn5plRIvS7aiPjbesckpgAWXx3vyb7EMbmqG9-W5cW7HSUF8S2LwB2GIGbuC_l-RSgmKJ7Pji9lT5UxF2GA_8nTYyJPsbCBPSKjUCcvPDV4MMtNvyy0iFbP79VKCa6O3ngNXcHfePTjGn1tss91ApQXE-wXkBGZ0CcJX_bsp-4OjHWtixeIQ6fdI8RK3KSw8lkkyMV_9PzAUKo3kUwS-wPUxCuDkC6ZlcC8abGgZbBR1X1dwGloptmFpNSd1pc9OxbZwlNVVMFIJ01DvmTOnkieUWaaEqEUXF0bnWxQmQnIgf3v3j1N_4zKahJzd7mvoy1GvsKg2B9GdtyPz8ivYYKOnBo6GIQ_M5BRuGR2JurYZuR91hNHyDjxGnz-A4-0NpK_52jQUw7GIJjrzdr6hrGjTKhuUDxJA-y-5kED6IN82AJAnTvW8bzQ-IzO2c1PETUnx4In6m1UjH1UBX_l_YqdkGlBZvTZlToLimQNoDndTodZ8_1EhccPvuJ1IoUDNwUbztinxkekW4zwjZiIn1j0UakffybdRETlpZsm2MDRiAmwiUlNzT9F84kensdJwNzoPc5asFdHyLTREdML7-C-LwQz81eo0DOo5_Wl7rnCNeuP2KweNDwHymxXYInpuEY3y9HiQQ11AylE2wn3rFg1O8THvu-PXfsDmZdyja06WRFl3R_BZWcTm7TMuP8nDca9y7FSbmEUja3Z5_-xGwFKfUQes53K9Pg4w_e_At_DxMC6mg8JrRCgWz3KX8tLcFbEZ0Caq6_-DHqkrStfcEjLb2ATyydKXAxUQ9cJNSr_lscpiGZrwQD8N_svb3jod_MSBP8rLeKBOShNQrNLnG9ziIHEZuHA_5RedJwqD9x-O6lI3MOlSUlnyPHknFEnYIlkAanIovTTrbpC8JjfhrV5_W5OVtojIhlfxJZbS3nK-7_Xoc8IVb8YgM9YGho-7vYE7pAeiSVeNr-JhEkBkEkCs_XWq2q1plLWtHOrN464pxnYWLx3g48WpYAukX_bzP0hvfhU-Y9AS3CZV0nevsocOqffzP8f0JQzJgitNl9",
+      "status": null
+    },
+    {
+      "id": "ws_0c51625579af8e3a006ad87563494c87d189fbe806be3a3fad",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679 \"Artikel 5\" \"Speicherbegrenzung\"",
+          "site:gesetze-bayern.de/Content/Document/BayDSG \"Löschung\" \"Archiv\" Art.",
+          "site:gesetze-bayern.de/Content/Document/BayArchivG Aufbewahrungsfrist anbieten Archivgut Löschung Unterlagen öffentliche Stellen",
+          "site:gesetze-im-internet.de/arbgg/__61b.html § 61b Absatz 1 Klage Benachteiligung"
+        ],
+        "query": "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679 \"Artikel 5\" \"Speicherbegrenzung\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/arbgg/__61b.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayArchivG-6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayArchivG-9"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVV_350_F_052-16"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayArchivG-6?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayAGGVG-53"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVSG-21"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/arbgg/ArbGG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVV_2241_K_726/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayDSG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVV_601_F_1037-0"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayDSG-26?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayArchivBO-7"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV256922-0"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayArchivG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayArchivG-9?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayVwV154213?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVV_3003_3_J_15370-10"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c51625579af8e3a006ad87566b4b487d1bc857e587408fb3b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQZa-WqXwoqa0Co5L3wuIWm3YPWQjcMMS1crlKZr0bstf6-RcJS7NTdLvD2h7Xe-Y20rPPgCq9294T4kCRT8WUBxSzfNDy2_O_m7einCn1ghvIP_496Gh3woe4nhg9uG3GIryL41_0ddADar18P31NN3vDw7jV-rCbk8fcAEg8sak3zT8KQjiKFMc1BAXFHofzpSJfafiA5pxM5YYeLbSwjOA8fsafPgZIy09GhFOEOjo2GqveUzufcbM1RJTSBUEo8JcSOBBTsCm2sthwXkcfnbPukPy9gljVfdND7ozvsOAGoXj2ycqvuATChNaphuh7iEFannySo0VHhXQwKeIdgrAXkAqpW0BUXBHgrbxi71LlLqSKM6iFFCS_Yb7LyUrnb_4mQNviSm7a6mdF-1XojS9FreLlzzGGQoQF6t5h2P5eHTr4mLEWbMW31i-7h6MJESv6eMeYSVTMUN7X3_gybplna94spxTJ0jYG44Kry-i-D596QVdCnU3-Qjl04TETkpLsPOUpCBuesJIpfq2gw6kbZNN45B1269d9T2dD71LYVfFoulfrlX6-8nqviArtGehAAz-kxXC5p1OztCUUTKXQqAES9zLDw9ZgzzyziicwTkA99wwFHsoJg6fqNJY-hmF6Jv691hELDLs_VnVqv6Eu3Y-J72ErkAY-X_xJBkw4asO74_PanXWMxl4LldrXmkSqR2GPMi1MjyX-RO-vPkWvUGf7jJ7lKoSt6nDp4EFpaA9N25XEwhw3fPp3NbfR5arCQoYM7KXMUlcuOciAds-50uu-TyBiiTUBw9ct9ANxGqxpp23f9sOzbzRQWIvt56EmUHeI4oG8qK9_AAItkg9ZxG0sqoR6jHlmgCrchTtxroyaQJYs00r00mg9vaM1Dq4yHdSE6MrrSy__NOKDyUaDuNy-azNDd7eLVaRbIgg2JxXNYC8Tt_5dyBEIR7-XRtxFxiMlAXo93VjchSQXNRzfjMcdjE17K7Dz1Kx8pxrxjuYMYweV9Ya5hOiSfc5vaaB51VveI7QIBrI4t31-YxrMsul8kuqyHeUnvpmCTMQHJGcVou0uaWeefOFjXkei29ZEp59zw2rhCL6D89DibxAuWLi1RC8IC1lQFpURo2VvmhGYuuHfscHsBsGy52xGz-n7hGGb0S8Tb0e5smadQbINmX7Ojbok4mpMmZAVYfeK06gn_x8siotaVSZOpwTcKFqA4fB7OP4Q35ljRrt0UmdLSd-byDoqKI09oh05eOMRkaZ_RYR4Yl4qWw8XFND3Jsg20QwKSy2NTT2-c5LuWV30ZsA6vBYIx5q9sf3GE5zLY6JldrtIXLLKHzg9SFHPqi2pgVwhNEi3g-LtsJ6yNz4Vx8HCdhJExCrgAAMjsphVZ_SYtJERJGZlnm53ZiLv2F285fdYeLnUWbzfRUdY8BgyPfhNhsgB8Lr3ioDaMr74ZWELGhAFHdqdvHkIL8eLs0--JIX1JyMobzU3t8DKlqla7hI90e_MtfYnBRdRpzIkI6GN2xvm5QCSttC3hSjkyGZG3RNOAo6QlnYAACXPkIF9lB5pTmitsHlP4sFXW05iUGSa2n51nBlpxQWEcmfthu9n5r3bqQYlKBoAUumQzBUW66rhJCowl9wdITPrApBVM_H6TXI2tdqnwyvDnp5BxV7h6a2gXfFJhGuThceBT6nQY9bN_fqLudZZ3Qv0v3M=",
+      "status": null
+    },
+    {
+      "id": "ws_0c51625579af8e3a006ad8756725a487d1a8c0313331108416",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Verordnung (EU) 2016/679\" \"Speicherbegrenzung\" \"Artikel 5\"",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 17\" \"nicht mehr notwendig\" DSGVO",
+          "site:gesetze-bayern.de \"Bewerbungsunterlagen\" \"Aufbewahrungsfrist\" Hochschule Bewerber"
+        ],
+        "query": "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Verordnung (EU) 2016/679\" \"Speicherbegrenzung\" \"Artikel 5\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?from=DE%5D&uri=OJ%3AL%3A2016%3A119%3AFULL"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CONSIL%3AST_5455_2016_INIT"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=oj%3AJOC_2016_159_R"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=PI_COM%3AC%282024%29655"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?from=DE&uri=CONSIL%3AST_5419_2016_INIT"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN/TXT/?from=de&uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/de/TXT/?uri=CELEX%3A62021CJ0154"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli%3AECLI%3AEU%3AC%3A2022%3A124"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-CS/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-RO/ALL/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A62020CJ0175"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-FR/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-SL/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?tid=321896779&uri=celex%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/PL-DE-EN/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/NL-DE-EN/ALL/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?tid=311243043&uri=celex%3A32016R0679"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c51625579af8e3a006ad8756a1b1087d1a6e1b94a30216f40",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQjcX8FG7x79s75f_c9vTYgMPtCsd2W09rtgW2hpHivZUe-4NOXb0LozANItqkrd8MwXOOCYJfGczZhHjjAc6as_s3X4-At9RsAFoot89LaQrKao7mlEGjrT3RuCXBZQRWIW4YbJ51owfn66drPLDFJW3CRBM07jHnydQ94YnvlPOKseU9RuqCOngdwR_OMohfMfA27_94saWbRiSaKoxl7A-bzzI5H5PpQ-JGeqVYHkiCQhGixFnRm8FWNqtlMX0nr1dVMhRz3qBdXB7SGPPHTrPiaK-6vUZ2JX5NY-MnLYtMiVA-z2sVgdSPqSGa-N99xsT0ELaNMwm-pW4BiuG5R3YRcDMKSnMqp8UqQmMnOf9SkBSLaPgbHXSusPMkzrBgXSiVF6K5m41Rd8VRQMSh7Iw-k-Om-Qpj94oIoGnedaHkrA816a-a21RwPD80D1otlMDkYhNdpEWYCr2hPv8o6-h4gttn7qBHmWfCH6kIQegArNn6KGAxGLik1Dr7EpVpe5PsFI86EaGLTFbNBITu7oGfj0CbccwfHqlhPqdcPU6PYtd8le-PtLpfVmOYKieYcWn5qFegz91wASGbhUgFkcjgajZbYejPJST-knRbmgvIcPBQo22Ir3aFhQVcvl6Et2xoZEC6vxM2KxU7PFVxb3Ah7PwfNjLomRdXdIleIb75CrFNBAqHWXPnn8CLXdN0ObQ_gOFinddK1FMlcmyMLqx4dj59iOvp2c8D1X6SSO2Fr5_L3s2i8xivMf9T2bMP07Tc3dlL39tmBoxP0Zc0tPKoxpKA1quxw8wtJHSLlSmvJkcbTrwAQSFiLLQvzu0hxm5tEY4ljXVLcQmu01wj-BB0cHP1XWE0dnhDBfVFWdca8hm877RyH_ihMiXH15K75kTuJplZMqNKPuLuiZYACSvP3Hz-acGPQ7eL-oBDERwhyyQE5gaHkFKAn2k6CQrQo_XeCFm7tVAV6R_8f7is2TC6PHU5azRJFcWpjpFiCPwQbLIUTMLS9JXgzNHWdROnZG_jPZ3Fe_Oo712B-F8oGANH_YQTdSOV4OGa-wCtv6Y4lgLz_3drx028JPV5GXaLqn_B_OlekVyi-wNZV0bnbXd4hpiuB7a3zqtQez0i2n_VgK6o2H5ulzXMt9pfHqPmbcmgKPGpS4MMBbNxXGMZe7cb3ew2BJHO0CFUbxlYsmbRbYubIDSPtFrWFSuFj2gO3cQT0IdIDfqSEJtA6k72r1XNOJIC4WSJbMj5VhMbcEpnF-7h6uYpNf-AWRdWq-YIrAIGktidT3knfUBKOe6CLhOnUcXYNFH6EbKRb-_siqTENbJwAKhyjpMndYPfqYfdBDRk23UWYPZINQ3oxE_tPe32F9rcVXrVlCkP7e-x7x_I_gx_gDZOjPGJphANfV0Y6HYGsESNRxsNpHW3YmaDoTXD1si3OMhPUxk7CJ0DSc69UWh67ON-diedFUoKU9k9m_1bmhvAHhdCGwmyyP-xjG1BB-5v9MF-Zx9fyb8hsvp1b9888P9gd6EFxCwU61uKxNY3YPbWh7AbjFj7BSO3o2S7SY1tBolzq1XIg7VBBizfde-8AgLlt5PcZ0ZzeJfE6ftaQ50X99sKWIb1IRCRG_AJ5lIDbW9TagQqAs4Q2ez7LSCGmM8ow7AyrRso6P3yeNyF17ZDAHQcO_N1IinpWXfXCly1cUa72UZyuNLXPVEtXDypaVMvsjBoL0JDsNEwWzpmjE1LR0Z33noPy6qIMmMq7-3kFQ7HihpkxssVxRH2PQq_lv2pVIbPvOIn0WKTX4XL2dhQkiwd-nnUgt9vFL2lWQ66o28HDjYzTGTn4zG7X6-I1pErCuGW7fR3yxZYEdJb2k02Nkysqw6VMB2g7g1k53W4x6jJkgRiSIYkBKTpiFzOfMGBnKZOKvoikFs7elgBLKh10z5vyzUSd0YKG8w06A3tx4BZy4hTJBhUEjRExwOFxcvAuUM70VARTHLGnKx46sg6B8Ta_1BvKejcI4hXFzB-WEne5KLGD1Wl6UE7xY3y6Hi5OubKt0jJPi3MScJT2CQk73QsrVSAxaTWW5y0tEU4BmyUjJ-kqLiVv2BxTFAIieKysSF2ZZ3ogKBWwxKjCP8CRJhvgO-YRGY-3uctM-NXBpkQSl6DSuilVKpdgndcc9P89ihAtupAKFIXydRYEiQUmSB1C226_ezRB0n-fluMw0yo75iJsKQ6dPWAlXl-m_wtv0eRtgV0huhErbDMzxumtXupr9z3LWis8Vq_mM1Xr1p0aMrhDX0TH6ArX2OlJ7qCWLs6D1WSNPG94ZKZHnUHMKAik5c-to0x2qAfCZwxIlEn9v1eqnd0aUTkBvjGkfZINOJXNEQHumNMrZMpTjUEc5sohPhnSUTv2Mxqb7CmZqYprwQzWFYLPqyNDYSobWmtnwLVOtUYxokOW-s3xN6kEy-cwjHw1UZNl2p10T8lhLu2Y8YcE57sx2PVbIJqLi3BJ4eTfySedfBJt7s_5AFzNXg2tqvj_aQs_UEBmEEMnRTNpdXVr3w54k4E4I_kJ9lo1MN-7IGU16LQDCXJmR637oaoxFHoBBWDZaWej87u7JH0LuLx6fq0NfDsafXzMgbBr-_Cf4NkFVdr6Wyitn37gUguh8aZVEJEziXvgc12-HsHzFqFemwyvrj04UOblTl0IJ_sZMHyx7SoZ3OfGb7HoAuNGvQTzYC00r23HDtFuavKWkkt7JwxZuxIrEN1g9gG2MmpOUN7-I01tyQfnAp6pcJk9d9dL7N8PbvCYWkkVKJ-a0vb0cOlPnTg9d2RB-xBHfpzFayIEB5uOLjTXkvduZP2BDnXmBTw_p7a1gPM1ajVzGirRFHazwvb9TlNOcRk12i3COCYztIhmnrPqkPVs-A2F4QQO0YZFyz_WqbLwpxnW4I8Plk35ByOvs3Yeo92k5YuNygagdJ-OICE1sKFNcydQvqJy8xqgKVXAbhXbDLXqbJaIs02BF6Ml3jZ_dcuMsevGzENJTYbILAs8rSMlExMt4i6-SfpPmfxE_Tt2Rxr63apIh0a5DF55aZKTFR4JS1G7j-J7nGkWp3JFuQvvABj1QS_bl0Ksnnh7aLZjTedGt-UhcqYjseEnagqUVlakF1vjOmhxYl8HJ2afG4OljsqfxXHJ1WcMeu4G76To8OLxTdb-6ro1Iln-RkID4hCx29E8qQbzZt0yQ7y_-wuy7qq1Vxm71m1xI1oDQVT7LtKx0NbWDDbAoag0JklpNMXbD8YVoY2DdjJINGgp6WVZLUzhlJceNPUS3nLyfwc8vYi__Kh3KwIFqUCuHct2o8ARX26V_GtyHkAFJZHLjQR_PXaUH0UtgoVCKnLtGrbzR28_J3Nu80ykXk4zAmIbQhLUljBAfpS4HWkiMMZvwAff2Lv8__bosSBxecR3aN1VxPQRwlTYLeqF746hF3WSc7duQKs33CgjwC10RP_lIcFtBd9nte2N92kT8mT7FkFhzXixAKIUtG5hP2c_dZTUPo2CjjDMDS_YNj-AX9ggs1w29JI6gyFMEAIFT9Sf4JfWZGS-hD7RqpD4WqpV6ZBC0hLM-EC0HLTajIUSWQFTXpOLZ1PHwOnWg60BnzSgLYVoK0D8Eox-NhNZtcmF-jGFOf5P1k4yqoz1Mgso2BpNdTe_H6L3GLDZ0FAEQ1biuB8zTx5Qm9WF_PpJUL-BMmir8Q6S1YFvSXOdGEE4hTonIEN1S51FOjMtjiyM_c_lZ1HPS2b3U_NItziwcttz1PXim17I1DopL_kgU7o5lMc-zLfawf1ypJigCG662Hr1NO-d4lxybsML4Nm9FjCOV7eDlTg99_ObYYnjGd5IRb8ApEdvwahB4B3QJdWG2fYet7VSYmVG1zjpUGQdMSRbISeQef9ye75_0IjQHBhRP8sWYTGUBI-n7qGCM5c8OvJovFkGErL8gMp432nkMvxQbJEKEDE9irDh6YQxxjYb7lWRXGKY9yzdOg6WZIC_h6MzdIe_XlhB330rIADoLKG2XMLKhPKu0-EeX-9DT1-xXY2oJk3Z-ZAQaTwM-OIiolI5-_f0CRukEXPzUikWxCEkZpwu9z2zZW_yRHjX1ZL4FoPSLyJCuxnypTLAC7q9InG-JXH4Crywb5mWguBpMrjJWODqndEn91YFFwY5Vck0tUrXCk1307nwAj1NI0CorFQfI_hjj1gfkvHRAEH9y57rCCx8lUoqUnfv4ZNMYEgWMvhLMJRcHWQjVyY9nwtPlz1RabqHKRIPNUrllyT_uPsDIJLpt3TUSKuoas_CRMjlhrSAfrBBMUZaeQLW_luPK32mH1Z_JsP50l1DPBep-sKwa5zq8H2vZcOhSc6c1OHWgWAT2meqEZiCQ3b-bIfTARUZemcQJUUAsIirL_klfzbo0I_K-fXnktUcDP0epuA54dlRvPnxPjd1jJyg_rB_izxMF242wETFaAnoI3Ij1ZusXIvG6QFAu5_2clS7DGlC7WJc1_GFm58veH849FFH4UhQQtGFL2mmbbNOCzfVIbO2Or_MnTQ02qhobF4BkntG8P9HhRVafFq344NdWidSsDzdW5_zlPNMWF92m6UW4Fnw_3xjhqmlNmQLDazz5bGexDJQDPicq6muaGaB20u4t15NpLSDALGUQ0Ru6nUxJjbRgUtHRTNtiWo2OLlvJNpgcwh3QW7FhG6fThuxOeMiF-E2boCWxElGffbSq_AtHaAZ9xrakXEwcIQAmS4g07yhRz3pNX6u8O5bwkYSWx9yhc9o-fYe3mACGw8zlCJwSfqusw0JKCXeCaQLb2gwtaDja5T5mwNIRdEo691IykOHmpI0eVtieKbT4Rhecu-c-ZpTU5az_Ri_EAnEcCHVQp2dXzsKyENzgcx6uUmeCfmokPjky8FbsAUafXRTrqvFroB5vNqm-Tutr4BIpcS2uKqcydbGqHq2fyU6YGXGzCCaPMpe4e60RkKVo99tzg-BuKrU9r6t1qUVBfK-wsiS00-h9TygJ6-8o-ZoGRI9IRz7LKM5-3i7reCNfJ3SkG8mnIWTkO5KL4HtWDmb3DIRRvTmmBg2go6DFZ3iJv8SB-0ob2uQSBN8Y10HlIy5YiLrQ2O4k3SrZkWEkYCIz4iGYWNgVbhk3cBgg-3bvIEQ-OE4XnozSd9xpYflkd8YuMpJunrosmYYNRsK9LAKtlLh3ZjU29unFEBiVAQvRxTwNeusXG86f5mqxJc2fjuhMUFPYurYg-cwLxLbBdzovG1SdD4p42uUXzNwLYuCvgsSmWnu5Ew30rrfZBC5_qLiLs962_TIUcC-o9NuMx7aQfjXRV1YALWLKy0fbjwDndSfjyfeOSTHTCw42Yt-DPI2yZCC6h5kKJIOtoCmD1BUq30aBYlKrVGiCZMVoPIM_LD_LutsGzHQ2Z4jz6Z9L4wz8KgoIK2A6pyjVQGze84DmRcC9uxEkIdmoIRYymQ_E8hTJ65-QeUMrZL4xewUJqykTiXdVGWk1mVj7IyY3rqnBYV4yS2gTMypMsHRRNvukmV_SpTWBI-Ngt0bnJ6qNXD2VeHBFsrgc9ET3jQRBSAIOxbaulombEBdDCpTEgQ33yo6vsc5TDludNB0TwxJM12NAjigPKMmRKprYkRleSWQSoB_xJOdGE8U3VYBotoa0b-JPLzj-wc-MXvco4Q_VUgMU2mTdpbch6bowNt4GtEgGmwJaXA2CLoRPGobQg5sXjEmBaxxXxLbWWju4-RUCAoIF9CMJmTTCqJbkacK8gmBVYBHsaUSlHF7O-sQGMsgrcRtyPI245-lhUWZpItZxwX-Q979VWO_Ww1ayI_vC6_IdKZlBvxOkhXqa88eIaFCubS0IPYJwyhKq8sHISZpb67Ec2w8jifMB_EPfcTFgUTG8ApzpgC0DZz8Be9Ha1iPOD10w_BK698g30aEYGaGkBDhOLhyxqIXQ6Apz0X6zFBYY5yR2R9z9Io_RAJlQEzz3bwkSMbrv2ZHNDyccPl0h70sxh0GDsD5EJLV2k5oY0RCysnZpfh-ypJu90i40Wya3glZIoi2SY8HCoy8C1K9v_KQ62Cvp7ZIOJGNqv17FNO39SzjAwjkRZ3Qku7YlLQ3cknoxcZItnhiZ57-YjwcpVzLUfz8pnzimQJgNe02ynnHR5tUg6vwYeD-WOInztGCiPJrd_PkzvSCXUz-vIWjP23Y2cg-0xBjFPGGN_TAIz_0kEY6YneMAs3-E4ZHWjer6s5uqgQY5aj-tybAU0zBVg1qAoptQAFUVPIFawpVIVa7NcOwibeTucht61sfLcuFa58ZOYD769MjWKci00iXRHIFzY58LB-Nn26HXN8TQQq3tjVOnU45thl2cpuF9dfvObPmi0eDDoxk7a_NHaAt3AWjnZDV46vmKpOEtxG0G0sdQkhOM_5hAMfS1Oss0eCO_rNjgDsR66D-P6rg5XNuJxgmeGzVCRmavYS-l-JriHBqOdozZyFGITQm4231brJsBGArvdPlNNAr1tYj84RrcXA-FfktvlEtcTydPxlt2Iljof_ZIr-qXWGZlXi9g8ly-PzMZkhL3fqgE7AIqncQwb7JqTzAoxTu84k97YjSLFqosByFDEBbezW3mOlFpyQIqqGmUvhJuwAsKbmMvEn25OaRodYckxcCPDeJY3yXm3b9laionFiSuUeDiftWVUOkOgsF0yGsTDVBeup8rRiQQJ5cL2_5oT9z9uPVDS_FlwRYrGSaOGRFuoRqCVK9ujSTeMTnuSNjphmzI__KcTN_ujAnPtdz6t8zkHrUhgrgcxvwMCB_nGLFv-P_PZYBOX8b098ajM-PSvAOhcFltK0WI2eVyduKE5-yzf7a-fn1Eap1v7u55P8MMJhPdZg47Yxsf-f_Iej0hgfVJY03fjlsRjinGFPxQhnqN9Um8LKqO2FKQc8opZ2DEs5cJT5sXdLe5NjXXmU6OZ_ksx6ufCbW8V092t8qT0kNzXlXc5e4FG3aMlLzZpXQfpC6WDTAjqiAw0xrZfUqyzgq6fXOJC-bS-3WH4bIMkKfDFlQmBTfmw1EvQRM9S3OxSCaLWseGh34tqfZm_j_rxT2n6ePTYRbaobib115e2FlkDjy_Qk3f82rLR8A2cTUbCyFDFL-eR5--L9SBpjyoUaCvhK08uhFnhax1EXMWAPmhjZITh1OQpvcy1mEGA0cll90QryXDMp9EHBD46oaRosWQAyEeS8pj__PAG4PVOAuSPjxuqjHJw8tXzRfsEkwSfmZ9vfsoRq00cE9gZNIgALuJnd6dcFdy06aDvoxvyGDQ76euH0Y0jdsTeZulmLO9DDLT8BE3V01wFhEt0-ErArqckiK9IPpFPfjBbXUoZyDGuF4pPdl2JeLXC1k_H3YkXWqwskppJB_V01TjjbihhkmiVuADfzpJ_TeqQg8Q6gat9MiguXvICgQXseXXNS80qd2lb2UY7kcWMBkhvnsQNolxl1E8mM9lOccFhE8gsMZeTyl7uo_mBpiemTAy0zlWZbO5YohBNWAooqtH4upSQVJXVKZiTaN7l0PJC3syDT23T1xs5kZDMc_F0_8a3PfDSUQQdif8of4dB7ZOL0CXeC3pd3TZkFAm6glKfIQO5mKbw8j83ciT3duymR9rMrdXw-IBQJ4UkK3r0SvEDFXfxHPPa2aBKBsR3s1MMYUCMeHUUr0jOEZ5pUfbTIsQ256pfkzgFO6elooGxVm9f3zV6Hl9jimg2t1iQIHIXP0922aaCpX5lPJ6DNR0ZpgpBo9zpItkc8HeJkHqSMc_IV_HjSwJbuXG_61z_Q8j5mEHy5ED21A2UE907Tmhs_1V_lHM0UzSo-kS_hs7MXEiD7yx7ELjgsGm243EGrjzaWkck=",
+      "status": null
+    },
+    {
+      "id": "rs_0c51625579af8e3a006ad8756de3b087d19542fb82c96b80c9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQlvYDdQTHjhryYPCRfx0YLd1ADYIwQdeI0kBx18Mq6xnU3izq5ML75K1uHrTaTo5Ftm3PTClARDosO2v2xPCEuuI0-lLqM4LpKolHvpbiF6mfAiKfiHlFvxmoT6eY-m0QcikqdoLCYg5pUwbSNd2sEGqwtUstokawkDAGeBOqm9XFoDVzF4taGschzItJT_KTPYydz0L7muPTOLD5V5eZqIFyWyi8g1LZyKdAZjUDm64JvggQRaF0QR9uCq7qjcfv_7OF_U3JijkQGlQVfcGRwtmAQcMTYufqfQFvuDDoIc4YKv1XjGnQX0V0dmR_wGnTD5d1fh0uWFB8U0lJUyqAx-KlwKPuJzYjjV0uoZy6IzQJcTGwvSgBayU_cHrpDq5dqbESNlo9aeFvW8zpfdmQZAC2E6gMtVJQeAsiumAGvR1xiWBpxIKUuEJT7zv3ih1R8AK0cW9uUKniBfioXWb2aPfIJiGvdqXtrvrKQzn4H6CbEAj-oBhMoRbzwQtTZ-gIwg7i7BjeE2o6dY9wplhVMZcY31DbB83M8Hr7fSg_nnOvQfZsiYks24Ilv-8SJaQPffFnW6ZPqZnraPx9HRgot6w7WnLHgNqvrL6LRS1XG1YQXtwnH4jAKXna7UwqovUoCaRYN37w_omXnzMk3bC-tcHvgoKmwZdji-6r0HQaJMxHTFQ45R-b4XTw1-wcTQDbF7ZJRAGNjNai3e15YfbjuhgyLALqa96hcUZ2cxsLACdQnpGN3aVUhlIHjd3eHh8I69TlEltIaIQ6pZdN2MC5RSjh5s-zAfRT4DOOgjfGGS8jymuYqrZRyxV21buV7LfAfL_Uj7XXZQLkLIRXnAQbKPrWBzJfO7W7UVB0wh_U529ECZkMOBUmxtuOHSeIMefyU-oyF_BGcFs8yXR_4Pof4CU1hISze4rFtX7aevLJFcfnqATwIk9woO0WFfQQEQPhxQDOzQaxocWJ6xDPBnQNJUjPntBzldzL1El7bEENyHptTYSGP2017s7z4LJ4wqaCnewrg_0bls9psi_wJ-dSQqQOl9jnD1FpfuT5kOBCxl-j4mwHYZn6sUv1qRvOteHVMdvuCwIe2PnoZBTMhg_I_xwM0INsh6L482P0X0Yl6or8SW--ygsfaMvlJnNbXlZgrPMOwRnghM8CgEobamwtMzaNSCUSwCXAnhRY9woyKGllaMmKA9z2YBO7CO99vWnf5edxD6Xu1EYmvYtSIRRXTu1p5uRTDwxsmOzlmZd_7u9VxDDGjpSSbUDMf6gHFGhPSOH5GspMCsD8EVxd_bOpXBaQ9d4KHp8li5t0cRsJ46f-NjgmdvmyqXjRI9yJnXFygRcjyrt3dgxPMElFpKyG1WP6jt7p1dfkzdHh1evS_gPjiQeqKtmp0SOF1LDMuzAaMy1oDwnGZCNf5EwNWhkxY_ytKjXK2FRyz1h-jFz6u5H3JOabmr33nuzujD59EN1fiQyIITj6vLykSncsqcI-vh1cMoZWyk-9-7P7FYrYvfDad6S1Ev3VxZbdvG64CncqrLrzhJKfBnUezEZ2UNDDBBmUfkv3u0LdAfgpJzVvfCltp36ROxka7ihoFyHS8tclTT1uG1rjfTIs8DgltrAAT_nchRPJv26q0LD1LeXNm5sSfkzdWrChwSwmMPKDVhHfETr4XEApoddnVUD26XwsSZVL2G_lQlbez5qvsKlTJrYnbuAq2JkPG0w3uT9jRpU7t8Ikk33-fS3YvBHiYPZdJqAPa-Gos4sJHT2h9zaEKSeqB9pp2o7fHCirtUii73DjNovMvSwlOCPhe9kBfKN8CCl2WGqcdcobLuYoOzjDZbTrLrtKCEZDB1E0yGcbnDDkt7pg7z84ylHyunKgIHUDqsSZ9hIL1VZQiLPbKsT19OLAb_GyijpMpPtzq4b9y9Q09n9PjRuIlQ30XyoFLFvOc4mZPDVEVcjkboBKFsksmbbudjcOdlhX7CK3CrTPOaMh_2_pJSRlGMgboMlisLX1n1I1KeFfywjW6jJMwxiQMgptr4vvPmb65Un91xGQCGnrWW3p-FpJsOhsJskjZcJWxvbqJUITqjA0q7LzigCYZhP-81bmrHJN-mML5eGuZ2lCdA9bt9Ag65fRcPhPtLFM3iyoGTnQpZ3h7HCcrXqhWt3akgMeq2DrfBqqmV0G9QYkSS763L06oJ_9EynFiBSAGaC9InTbLqayj2NqR6a4svfJgYwMEzjIPuAW74CmOVxiWX2ehcDhbeov7XdDlZH5o2kuELLXdb0iE3utKyjXXUTbmHACLcPY8BaclqZg_LDogAopugo3r_mDCL9kg7FoR9NARN4ZVW7qfXVqDQ4nRGEf-tlL0NJHqINlNn_bx6yFMjtwVWqegLsC3_yu4kH8JPpgAnc8732ji72TJMYB4t5j5A1MIgxy0FAReLEhRJmjSlVo_ghntR-Bcng2JGyFHXZVYCjA7O4FEWaG9V--rz8oAVBW_PZfyTOqklIhZ7iqrhfuPmuftNGZL0JcfcPFsbYq6iNrQjGteBD-q467PQFbcIjIhWis3HiEK7yHugxtGeXqGhUvqpi6-9NIIUUThiQbJPtYJitQhaxt7EWYS0qAM1PmhMhX3rqR8caUUYUF4uJCVodoLtub45i7tWfmMFTfx3PtZxyTrV0GpQ0ct_Y77ln8lrHxYI62SqpFyZdO_Pr1fu4QezopUc4krGb40mPeY4-CoFokO70RLpgtJ9AWhIxUBtzwp8lia2_VJXEXsGC6UW2p1RkthvRfNNI8Bji3YyUDsOX0QokXoOX7mKTx_SjQpsOHSrP2Ei4VMHZT4QDEK0zJzT3FCX3tJ18D9-sqxj-_GUrN4oGVBuKye9JCtKmbnIsU7OP2ZjI0uorV8pSwoxyJniHlDyBElkQuY7u1LqMWWs50fzZLR3WjE41_cdyUEzFhx-fNFnF2QsbFJD4i5vt0ZdfO8AZNYqH3_2EM1y1iCnzHMPOhOsdwPfko4s06WjbYWz2wkIgisTB9YcWhE7-Hb7PLbPFx9YwGQslHg1XShdjnEvg1fZf-oQJkoelzCFmAJ1satbCYb77lrFPO8TmjCjQUCJ3tiCDmzdJKLbcMC48Kwea38GksRWi_whjHedvPAVBvhcFMn9qpo_rIUA3BaGooZs27z4XMurDVscYAPN3_bkkePFHudy2AbQ04Z6IW91ljRoRdzeR9jAUTT4DtzVPdteg4W1vRm4vfV26iC-BWElHvQxnNcztTU3lVN7RcoJ_mkgm_FZhKgM7SFM5n2AUgwWhgbDuZVXyyKHAPAgNNtYZhuVwSAPh0BmW5hySea87A2GTGSZUXBaLWY4eCemyCI0hczHojTEsOsv_j3F1MsAVlscKjw0HLfxq1cciXhiGr71eCZayMgSD70dYI3yknKowZ_QWGwFfuMyc-VnuI4hPyqNGXUGox9vUfqG0EDfBeuJlamnRuZghQZ-RwBSTJ7O3I2aTAxf0IYMXs75cE3gAVzD3sZsYqxDYVJWj8x32uXqgEeGq9ZwDuteUVKyAFKYHdapfEahrsLFg4pCKNd2U-E6H0XwerFdWFR83rdKHgQB6XZVkULNLIr8-7vMqS6zntF6R-qE2h-hqN9-YWO2rieaXMAQf8QzO5nXwdWIBNraJGAI6it7wMWVSxF3wFtW2vNyK0ohHyPdyNyy58I43vFZ8eMzyUIE86lXkPYIZQSkWIjGOe8biWLfVraEzPo-Cq4FqJja8zpRdclCbEiJanTzI_-xuOqRRlzHwF0JoFnI_XLSxQSjaHGkA-TqlpfDYL4k0UDfyYrt8OBAP4G8n--Q2ADRmv83XA3HE7RXE-fB4T4blACqScARDQJQ5_JrFjeRJ5PbMaSp3qx_S8ykqnxdDihCEoL0oo7y9mJ5IX4fCqi38hotqaUOphpuUT7uMG9YZ2NsFwT2WvIRCIvN_sSr43f2MUTbk7TIc3IB8fWFZdvRNHnebyQ4D1Djx4w7AWVvIRpZOOZ9ydxTiMhU26O-AdiEiwxyK2nltk__NDAW-xOORhGSPglTV3ZfMOTDrGrXC2a-1tuwqIoFJMP7ZpTUGcCBqe0coXB1cndsItG6vmrPH1AZtn-j-RdndZciY_JAApgDmsLo3VpS3NiT2k7_L5f-XqkNSgDAqR-Y-Cyzh0MlMWK7IAKmeNA3TFfL29V13HIYRKpqJ5b6D4yb4DkjevarifGHZ_iKDHPFtSftJ77BR_8eNV90XD3hiL039WwtEhALt_78dvvN25KMB2hLypDGv74L9TwGVcLn4RILa_YA-6MwzHbS8boHUcnIbY9b-n1Mqwi8Lh7fNPBgiQviYA_qFxe3ldYuLtRFk6QuhSR7d2uwrFnmeeFXr8lCuPEwrd-kraT9gZ2yD9x-8MuGK9Q0SijJc02L3Ot1c5yEdLWXdSCu85gj2hgQjh4rSXEWtpnZXOGBBw9Otwkcpbrqs5vFURIVHxDjVe2j31wGX_H_X3nGs4x2_FySUytH_NFglsvPlMz5A5UaUgqqjecOCZmvjAi9U975Tc_dl9MTLrCmrFcIKUMuguTAOZc8x4t4kQS_h2HGSDblk_FBnTY8j40an8lnzfesVZ21yraWJqLnmhB6HTVPXmr684RTUSOLbIHyQrV9hpJwriv3YxFBVEcjHISflOszJM1RyWrnaKPclrm9i2IA9IX3PzJ6WA3IYrP8ZwHKEmpkxaE3MAcEBFhqEbBFv0qEAtXX_IZ1dIbszdHKw7SrpKcgE2F8GlWcUSSMevIi1-miMcdcq2dFthRHO0D2P_4MoyBtZHBzCz-I9hi5smlcHOktCcV1YEalyWzW0df76q-Avn1OuSg5JnT_k=",
+      "status": null
+    },
+    {
+      "id": "ws_0c51625579af8e3a006ad87570a6ac87d1a18658a481e33e71",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689 \"mindestens sechs Monate\" \"Artikel 26\"",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689 Anhang III Beschäftigung Auswahl Bewerber hochriskant"
+        ],
+        "query": "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689 \"mindestens sechs Monate\" \"Artikel 26\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A02024R1689-20260727"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A02024R1689-20240712"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2024-07-12/deu"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1721050527675&uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-DE/TXT/?uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/de/TXT/?uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?qid=1775355426305&uri=OJ%3AL_202502206"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/de/ALL/?uri=CELEX%3A02024R1689-20240712"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?qid=1764223830210&uri=OJ%3AC_202504939"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ%3AL_202402395"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ%3AC_202405265"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A52025PC0633"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A02016A%2FTXT-20151225"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3AC%2F2024%2F04525"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-DE/TXT/?from=DE&uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3AC%2F2024%2F07118"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A52024IE1024"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3AC2018%2F460A%2F02"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c51625579af8e3a006ad87574aabc87d1b1a7cb0de9f15ea6",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQKRfxQN9RqV4pWy9EA3LE_ieVDlZDDhc-pHukxXEOv7SPpGq3FOG3KxBfZyEG71EufIb0QK4k8YebjzlAC57ymnIW_4HJqtHJLhQJFKSkJWBhumq2eQH403Dmt5Ythfhf0V5Gky9SN-xJCZ-ESIYD8QSeAbP2O-6bXiOitNl1d_tyfweYjubPF2UJAEfgkmFet6pDIOJRrYo8do52tfKdDKK7Li61dbKyrKVci05Nk2EJVs7WmDs1f2L6BDSNn9soPnzvaYxkZNfzvmJOpCGX8nbPsYCeJ_6wKOEIQDMXzGcYPGG_YBzIQzniabregvr8CDbRpieRpwN2OZ8xIN0M8ppJLf4OesFYX8tQHkGOHBkKk2BuOUDMkqAKKokmEVDzvElYx3Xqh8eIbKkeA4oVYwcJnd6iJ0M2MOvWFfy8C_7x0LxFbYlod7DG-dK7rjXEbdbdJlwIasRa3xKdKs1phWNJaGfh6B_xXur1H9ndwthKcLLPF4fHAioAjEDgmgnlAdA8xFLRhlHV8ViMnLjXGuFndTpjul0LVCVUKEycxGXrkKmEYKga-QYkFJ32lnNAXHlQd2VVv46n2zPxNCi6rn-dVxKmMeBB46rSrdQ_EUEUOK_W-mLDnD7Q3KelkUof9989wX7FaC3U28KP7rK66MORYgIERpsseZndjt8JpxkArvmPxZ8D1AQHxvkclsEkvpC2fgv-QOUKQBLbLT5mSNwq_7gevl0PILyMgYpaSegaBmqai-sfO-jIWuKjJ2Pk6BO4jnvNRUr6PbW6KuL5tcgnTI7F6ymxm3oTjm4pN8T7lISMeYlSOzQuMFCG87iGBO8s8WKt8J7jHQuSm6r4FrsSNz0d2e7JTvjrtUYPkz9xZ9Lwi-nmSJ3r3fWsBibJxrI6TITf5CJJMb4kj4O3jPT9ARnmlJoGDAdErzQv6By1vuHclqpnyn0uldWvXs_aPWdMU6I0p1_EcqLEHY0ofxBO5rDOWypx2jbJnpLLiM-wMBCoTl9xkI128qcj163rpke9QnwOl5S8UweXRgVyUs2esx21r-3qOBmTx1GhglZuGCqeXRDFNh5wOYrSDq6tuxpPk71LR6l_lWyScj1wH1g4XhNhMXnT4FJes7fpMpmz9TCvpY2XO-gz2vq3zNU2n0WPvFc3BAk8E6wyVv7vW6u-L_p2f7yp8m7a1x5UQU52-FsmDDyPsZyFW-xdsZGa-tD5KMDzVWIjIrg3Ebdkm4qbdWDiFU0Tpn2avBybLeYth_WRTNPWc1RcbYu46o8JAdBtUSi5f38iQhzhlOvscB_9TTd_rDoQJNckyv0fMuTOwKWI2Kupol3R4dk6hlBOzk_4Y1L2n3QWVm9Kqw0jNon-W50IOXGgQtUV3VNJbUvQFl16KnhxjPqLLmxmfDt6ruGBpsZv4eh6PPZa_nACu3D4OgT_8GF7los5eAuiWFptwmDZ_jRnb9kt1jgU61-gJDL-oi-bXRVa4P0wW9RkboEsf0n3ywgBln8OMNw0iQ3-QIge_GdCo_5GV3hH9ceq6HhkHW0FOZAfWsGveuo3OZF99BBQdaxuRzl-FnRpmuhe8XJXOIQsH82I3vHc9_2VXq7aP2U5UIUVK5ei_pNgDkvqYZKOKKS4bZOWwpCfON3o_A3PSTKZ61TTMEI-u7jpdrzhxJAdRWU7Q0IQrmpwajECGnbGto_R2KkSiQ8YHe1-U76nIjwGcraUXrWHlLe056MyrmHjmzsWGQdj3ONk71m_ZfLlFqRtd9awRVP7AP8PUxARgkWgBELnmOcqoK76UPlceNWS2jL1B_AaMzNPqwbdaW4QfQn2fMSohZDcTEQ5dz4CI3I45rv1JFs3HlHoMcCKNpD9Asve3SnIcXAgZfrvpFai2FPQPobwJ8D5yCX3vrSDKyxsuhtPNKKVtrFKPSz7PdtjISxurhX_nTopXOsCj1jK6AQvPiwCdperik1ygZzvg4ZgQM8NZDPLTjzWYhbOUVROeWmywsg8RHQwSBbofzJYBX1-aOvyCMdmADYWTCAt2S_SlKurDdQ1Noao1RQmNvBP0SEojCHwWcZOp53kG6ayPSk44H2LIQ5aQgzSzXoXCp3K-E2wrymjV8Te9A6HHH-V3UoglXhORDJD0-pAXRJBy0eTHR5s6MFi8-5kckYQLvHE2SOnmYAgM3A2MAlBwvO7JEPxfpzx-oniBNvtpkQYy1HVq5Qcn3X19Zdzhf9fVj2VaTWeTkAGzP2k3meONYHGwSq3kpW8tCOaKDaHoH6aXvdya35j58bEoxaAxgvTDGQfnsUP02bmml4Rs5Yyo8S_xtp6E-Kvq9bou7wfhZWZDoZi0PL1JD7nmHY26ae2_NfifwbJIchkTgJKEffM3GS4ukSZmgGfxvEcGqZUfpwp2evMUKmtTx8wIHprbhLJ2pU1Y82GzOCtHtVSvAksAfG1r1XpDpXC6D3ImPG0sKGeNZfvODlIGSRpQHbdGObGaOyTpvYYc4U-H8H8_xAF7MfWZGiCCfj5AcM9xFK8Qi7JOQkHYACzj2_JeHkxnQdtN7xxczwvOf5svzgQ3zcLFiVURiBSfztvaS4CaX7zkIcAHwQRk8so1NKYabGlDE-SbAl9s8hDq4dSXEyKCQfAFikoudrV4es1YIHZOON5_t516juswAELCz6mptLrYDgXGJad6j3X2K-W1xjHvOS6XLonNh16cCK7l9AV_bfkNK76CFsG4g2b0BekX9yuaGyGdqIkJq7IJL2f95Ceit1ktGhFTsR6B6wZFylJ3RtgIhVHGaYGK_H7qVrzAj6tREJ8qHob_r8cUOfKqvaigAMTYPI471Iq9qU3YTpdwBTdGjHdHEKKccNL5YkELUO-bZDz-FbJPwQ-VvhdpG7Ec31lpCoo9FlPdSCpTbt3vip5VYOWV9UVjAk68nSJAQDuxlHGjhfvAlpBrER46mCYtRtz8DZJKxhhg1i5jhEwOSg6Vv3qySDLhJ-pki7RT9AvMF0OjN3u6fMQ2Lck5ZWc6N5J2dsduxLcbUmdZbXgS3ynO-rJnymkFj7Q-CCw7afcAV2-kuf0W_ny_AW3S6wths6k9E8nsj0zcBNLfI2C1DlQPeKRIwWpTPm2ObrkzCf6LK19BOpSbWW-k9-uAeV_DDHge7Xixh-XeD00l-y0DwSLQC7O3kL25NIyxO20XdJRn1OcKU9b0bYgYGpME87hzUXQfzYMHcbU-elw4ae7qIYFBH6pPKoDA1Q7sfSRRgHPnSyD4-rZ2c3R8x-2qkKikCAIi-f3_uFyLB8pPYfi_zo-BVw9I_90VS5v5ZgjInfvJMwzwe3QczMeV7Z0pMVCCQqubr0ACOr_ghXNsw6sCsZWCe-5MpCs79UUgJ96-21wg1SeynCjs6DMFCRJthNrFGn9g5MttyE2AzLMskS9Zpf4mz2PYAz1BJNKJFUy3hOn6Shk_gdCVSJG3y-pmow_Iixoz7Ab87TT71m6HMfqgif7g4cM_yPlp_355lk_SWf6vtH35d4_rgjXJHyBlUjOIYk1jZBpSTyLGCFipeqQG3FNfEuCh4py7_cOjWF2ePmHho0IGihANjwzd-jlewSu0DewPZMHraj69l-OQlMqnzFQk6II72qAFjr8sxOCVWFw4rALZONYpf5u7E9GiarM_yt15XB0-nZVjbVM3-I8ebjBeQinIGHC5fwqyz9CxciDDyQ1XV1tzIPxcaU3Zhonn5OBsew3qtD1opgMXS6T-I3S1exTrV9zaaQY3Ye0QYX_U2rJjxhiTJRqyteZuIVuiThAQEEji_KBwnS9erHUCjpPlzs-ypmK2713pF_c5HvxSYi5-Yt0t9od8P8rdrVyNAJSD8C-kazUK4mXPuHXBsP81pAmFBMYP_WeWTY0rnJGnl9mYuhxr4HBvEEtZSw4ZDyMHaM3K7UwMnYF-TB2CRn0Yyt-SFKXO87VLFx_wIUwndGx5JJjBu8gvsjU-jzIfDtWnpyIP8WrUYsFPfF6BRnQwHbH4EcqnQ3PaL6tY6gxxXCgjG7TFK0KDR2fWXSxa0mL8GIsmly5OBrTsFPu7m_A_LHZRTpJmRsy9bg7pwv6cnzF5iiNeYxX4FciYILdUeH6kyYsdsAipNCpazD1xAVaIwLcMdB3RdJBmB-gfnh8SCrDLwa6x_acmNG5VMYEhRideGXpn96YjMUuXVy8nJC4NdWA458bUlz5X9NF8hnUCh1gVXdCFYxl-rrSMpSmVav0jp4koE8jqen90An7xqbRKugrGKkQfIQMnQ8yftJGmNuLC5lQOipb0X_nrTQehScVjwEpriki89OBm_FpdKLwXZZ-eYv1KYT9pCAo41rDJMvF7x31_PeR_8zWgbpcN_3GAGfXwExeoo9LiCdnhdZP5DmY1uyK6nagJ_wTbi3jKHhohTh3_doGg8Y05a2O9qbGUGa7hNZO0rII4z6P2cYg9Kzlg3T4UzQ6zOAnK0YCOhBD4rMPQvrfmC5is9HEnJJ9S2-7YK1KlTYYJMjDLPdb5ciDj4QvyDju0hB4mMC4iDfN1tN7LbdTeoebzGHQIUfI0uEEylQVE9jk5FChE60lMPJT6Ozm8TOQlGDhudrIbey6cT31PvchWDKDplPlwJ-SplpX-cRVGxxPbcSZ7lUw4yJgpAwo7WJvF3q0OtOLQS183GVaLZw07xF7Y9Ig5zzd2YBXmx_P6C9gzFJJPH-PFHH2BaKEzMfZ2FdeN_DnTiYO8_rT_l5p-THgWPmC",
+      "status": null
+    },
+    {
+      "id": "ws_0c51625579af8e3a006ad875758c3087d180f91fa3818a89e5",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-bayern.de/Content/Document/BayDSG-26 BayDSG Art. 26 Abs. 6 Löschung öffentliches Archiv",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689 Artikel 26 Absatz 6 Protokolle mindestens sechs Monate"
+        ],
+        "query": "site:gesetze-bayern.de/Content/Document/BayDSG-26 BayDSG Art. 26 Abs. 6 Löschung öffentliches Archiv",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayDSG-26?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayDSG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayHintG-26"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV257436-113"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A32024R1689"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayHintG-26?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVSG-21"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayArchivG-6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayArchivG-9"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BaySichPruefG-27"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV151469-NN45"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?eliuri=eli%3Areg%3A2024%3A1689%3Aoj&locale=de"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPAG-62"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayDiG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=COM%3A2025%3A10%3AFIN"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayVV_2241_K_726-17?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPAG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayVV_350_F_052?all=True"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0c51625579af8e3a006ad87579573887d1a2cd1a1461c48375",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQb55A-bbx7z4J4NU2BiKf0PoodB0jK2xWd7z3k8tLg49WLeb47mXhKJrg3JJW9kE2andu-IAsy2rKKSnG55uCekLXZWDdaqjqs38qLQGNt92ftvW0eSXfXP1I7ZYQEAKYhk5FL9bWxiqiCaDmzmtvPJ9J23JDmfza_Kfn6L7XOtNES2AknkNWgKJ7kwv-bgrxhyBpAOU_6zYRE9C_HS3jHqSEEidH6oCYesSvQ4gcRPJZd4-EVLfYiEm8C-Y9pgMDChmpX4uzHMCx9_rSPdwxX3GAdpiqnEjlJnUvI2ifL-CdoLUYC-i6Wz3Ix1TLeoJ84MOCzUWrXAI96f2iifpFYTWnaw9p8GdxXBAdx0hOIC4jvC93QkIGaNkYFd3w6j6862n7DjBN3fD_b5wJYT_SdkDlkH3DiK8lpF2eVLWXbpCQES_gSbIuo9xjdjBdYdUtbts2Pm4YDtVPUW6DEPPlC0c6C6ypDcxjiOjavChvRzzzjsGx9vr3QbVdDesZZXHw2RY6lxkpPnnCSs6jbY868ULHyMHSA0VE6Ha9K7otnbIiRcnIOs03riTT6x4ea1fO37UjrINf8dVXxZZJ4MwrnnMlu-9w_yAeF0ghHhDB4BbKdleoDTuaol6VQ_lLzCx0nSMY5LT8FLjyWe8qloVR8IxfAe1bEyZqQvCEKQFgPB0vzdNxQI94Sb2kgeOnLiymh2gQlm2VHch7BSCBOAQSxYfuQiE5FiyXmTpPBV4uZJ0lvvAKgsWqeRLr9C8h06luNMDRHOr8BsXvOk707nxzkH8pR6bBBMlHBbAopCOWVgF3fn3svnMescO9IWVewCi4lY7vNfwbaRry72aHFQwBeDZf7W6hKGKnF77IQ1-nWArA5a-F-sTSd3mJ_pDBwKZkOhzlAEGcGP6VJZLaEaNSF50cbOqkD5jRwRWfSbv9JEB9EbXIzZuEqdo4SHQ3QKLlMAr1P2zwbDeiHmkmLT3QgZhk2da9H8mifPUqS-grP2pPuo6asTfdvo5rdSoxNR3PvuFwEqdORYP5IfLCyEqa1owF3DZ5-IvB9uez0J4vsyLaRkG5TGBnzYv22ZxnjW4QgsGimN8K4_M54gF4olw0t53ZjwBs8kD6GndoNa-x2a8eiBnNwIa39KI6OF4jX8xt_A46JMU3mS4Lk8D750cUo8zg5YCBt7nwqZmWGX9DjefCOWjngVJWxsm4rX_9LoycxSqusQVbH2enIPGDm_J-zjnF2k2vg3JAOZEL1aNP1MEbKCd2QDvUiwDSthTkNVSaHTXx7JhN5XfvxEojFI0L55vxLX_A-sPMzks_AEAvX8lTZm2Tbu40yp6ky8-m4hKMKzcH3K0nCWd4bg2kjzSNT5E0sk5FmVSdTh-Sug_aGn0Hkoh3Gmc2tEI4N2nNtczscmAv5GbF_GHVTUnkhIhjkGTB5fk6HBgAcEfQMLIJEofxblwoxX2snytpyNTAgqWrbALJCSBgYiZ3ula6yG_-rduezA3jRoqnKkSqOruvBpVE8znqaSzDkuAOGXIC-3Mb6DRxnmyM6xVJ6JPlIzHHkjLaaGK7-iKJyWwnEjSYbGrkallY3xqEeC2FW0-rzsIn3veVTGSh38Zt3c2X8DDJIeRy5ryUrTyur7XkJFS0iqZJUxtk2Qvp38-Z7vi5cq6IZNWZFWcEYjI6W4tnllC7-lzP5wky572N4vAHwQVYJS_snl_LbxzcrzEtq3vHpZdr10S1vlWwTdkRdfoiCoUdj7gl9FKlBjg4EYKSvHZtN68ngQr9Ak1bxDcOzZQaOz-4N22f6O1eKos8ps0K5BP_nfeaqZs8CHHJ-Ut0oon93_owQzM6emLaxB8OoogfeEgdHFCgukXyACvOfhibkHDYHl2_RNTn_SVIb3ovkdtJwReO1pcZTlLvOFFNgfMcIsSoa6HQdFNBakC-sBCaRnwkvsILAdD_RLtmxlAPDCTEzAZR1e9xKmA47Ips_7LsAmhyIf-LPKNMWXh25i_txfyqVZe_YSrogVoXUvFasqlOLrgTS1DMzd-fobmyUvJDjQuTWtlCbFcEPuq-xLp71s1-9TR_ll8V-oRL_HGPtER6avxE2kTySVBw0sCBS4HSyzGOvk7r4OVSVgsizSbY58odZWDQUP-4ob1z2uUz7uvhc58qkwKMSsKqrwYyugsvG9buDOds6WOI9zbF0gWJyDRlHQv8q-0Nbj-TVyovf-jYqM2KA4E7y3cqNbKDlcKA6UPDgVnXFvbdx1AkPEuGTJfE51NutWwfccm2Tpvn78qsiSXGr5uLqbyVthIVjVcL6afp1icPN8tgw9TWQufkm8kmaJFMvJzUWM_3dRBDnepey_FvMYvHqoFDX4jXYKx6K5bqJb0rMHItzX4iBOH7J2oGvbEO5gtiy7D6j7GjDrulS96ml-vO6YYREROrtwpWiRLD0eVNA1sW5wKNb9TCSyY7L0ktLESXMqHL0bIMCG-NQefYKgpgS02GhwH3OElN3cTuJJYXhJaorLE7HC4sxHpH24iX7mD1eZrj52mQSAlPe4moimJG7s_VB5PYkerU8o3fQgnv_fLEDo69iNcOE4KBV3poT4JSYt8NxZmnhPSUofyqt15asAlbaWi97c0RobwCE5V83nzGZsZ7QpyzeihfMYPybo2_OXHJC9w-8mKmOJ2NprteJu1ncuGUR1vLCsTBxtt8TZ4hWg885nkZWdMRG2HoR3uGzbG1q-NT3WgZcqiBhsuZyKihlH-p4obLbaIb9DkhcQALcxXQ57r86OOcXzc_OKVMLZgYbJFsFA8yumj_yqcNJOj7GAM-mealpsj57LoGEvEu-jOyZz_r26UyUv6_ehBbzSarJRPWq25zheL_iHRlDhrvgfG_UbAdDVWGrS5Uk0U7RbB1AtIUvWDtANCn1na_TRixlO695SodTwtMTlbJriLxk2SU2WbIOkM1oCMDMLjyebA_R81Qf0L5fM1RS8vdBihK4RfF9z3mi2bmEkioljKM0zecLddnfJj67fDYc1abLDdlsDYi7cpDCfDmmI3KviRxHn12F7_Qy94x9l_n-BgjWXC1kVWMF_N4zTfjeHFnHuLnGmQ8CE6tmNZasB0G12po0UkCYh2sEhqLZj0zf9YQh9xUWvt08w7MIStyxOwVSq_dHFbZazmcjKvT8AWQrHSaRBLcx8JSUhfuAlQGa79noussOFs9NJXOXQQxSfoOxbXgrx5RsOAJjUhGYNQl2d1rAQ2D9tO-BiEL7cZ5mBV0DNoXzvFKNVBWrrzbx0aOH9PgpoKvmimqAApYJw8WEw7rHEKH41-4wgSDJKCVL9vXL7kWuDY-q8NMDFqV15BjCHCT5OtekjRWk_YCkpCpxUV-gnNBVnINPceI6l2LQPXEzbS9YIp6tlCvdD8n7luMdZ5grjx2d0-nAfcVy9RPq8Y4wA6sWtB92KvnmDamXB2o8cKCH5UBrq4S8yx3GPH2MLRq7s5gxNJfNAtTa6nmH1M0G2fpsvs10zNsxFlgc8XWHRxfWUAx38FWlnLMK02fN1_Kbx0tP-AOT7ddoMdrqQzw35wldyrl7WgLqoK-XdXV-6bXki45EAwG7Zy-kInftIgNybFkMmuLVeeMahs0y00vfqNcZoPaG139IP29CKtc084Nt7exmB_VtpiwBfP8ksq_jjyMOqdJ9DIQ1J_SoW8yq_AvCZe0_ExOdZYeWGx9K0-8tELB_arUR6kFobb6mVg0XTZsw1cVfl6UwW03w5Yt_gGkVYqY29FAZmGhSEhi2-dOz2dG2zMJEcSwqr3NfSeNRNBL3_1GmYuyg0zHOVREM8k7yNaXOShxXqTq29DSkfnkxMT926R7f4TfsMuGkKWjvaQnjO7WrIKwcwyC-Hf34TMmspJa-BxL9KqQv0PkXl77ohQwH_h44I4S4XTdPNjS5rp7U0qFTB9gR2mfBUMHamv17y4X7YOwtI20x5zAnUJwuRKWtl8TddcZx1oHO51xT4c4cWf9mDNHq56wfj5ouj0Mua_4iq0BxBjAiMO-8cnLWCKsUP-DX3DRvfJQeARRAFAwTT47BmMrRDsWN7kn2iYRLTX1YckiembGRV0eHShYfxWyl-bGg2xwusyT267VGzlAGdQkYo25XcJD3cfqm8zNjSvKQGiGWXpHwL9TTYMVP91ugD5ZOs5bh2SSN7DlAW7g9OzzaJX27eIxYQ2dFc1WsHt0Cn45JPi7F9o7rKF11qH1WhNBQ_vD4Xpftb-1LTAnq1m9wUpdxB0jI-lmeqBl5iY8gWSNWNfEirqCjbaDcKdtMltv0AQiCjOzRqURl0y9CcY6hqtUlIVH72cviv-IpTH3UpcOAX2RVytPE43ENaw90QI6U7fmE12tPgrNQwchat2BZwAD2f95ffJl2A8tizmccCCxLCcgTXXBqCx-Tfe3mAdZG7puKf24BeEDUIK_bk2fTczC9V26tv9q-cEjTq3Z5bcaLtTNMm6AZ3Ccv57vb2UNxmy-rw13556ORl-Qe4EcP3hxOCd_WuVhXRWweQUJRrbl4ay1FAn24h5BCkblk2b81QVtvA9JMpxlOkZ1bDIJRAbeA1wkR4ciJS5piHAP_DjdEI7gV_9EQmCbOI65P64Lg06g5ntoZIt_R8rUBatL0qW3W38mqXvQf7VElkUGH8NH-06JSi2JxkwNec_MhIbTxs1686wK5a1OIgadt4_6GzcWsZOcVDbYgrRuspqsEWOvt8y9BEorlMsWiWMO3QRL2Qn7O7ygCPzprGK7BJPbAPGDfLHfEEciJamd_JkboemxL2Vwiq-KiJCOsMIzmJ8ytEuTAEJTFTqhMLdUNdKweH90skOuE359Wm1-OqP4CjcppsV_BBFouzX5uDjw-VpdTL498c82os1B4KveeAegL7owBKqzLe0sXbmTmfwYaNCoMzPx7UggGDXbZTmFgm1M-kFbIAgVzVnZGMQmjqzXPYGJWQwiVkNtegudWqhgK1y_3xmzX94eIy8BUGqTeaGbTeUTVMXZwr7KygRiJsq_pVxgxZKQIP0bKlm3xYSFHIxNUbomFEL5F2mXvRlEfeL6iKk2Ai5A0Lj1BlwCfhoKEzqyAUs2xdSDxgt228d3lu8kBfxVp4g0uwrkcs7BiLrsB1pzfQUCJzT_pCLXBBS-qi0NEaxhuPy7qOVMsiD1ibov9ZHrfxb1ISH7JCVc0ignsCUTu3v67X28sF0nkr09w6brbkjrWAVO5Nv7SocaDLr4vL_8XKgxV2wPO-upPiPlbTm20QpJSGbtsE63Fu43hB6TanHxNm9dzbNu6LUQAjY2A5uqhSgCaUFdFzQGO3WfNs8DVxdso9zpNem9fim4ewbyEvRPRaCx-feXa_SoflOommsbCqIZON23uJ5Yhu8Oo98ILUTVhrqVyNFJs4WEXqE9ErJNu2gJaUIDHe4CanhPipG38EQOeqz4a6RbAVnQ8aHBfyCE5PkbJZdVJwqyeO_oXGDElL_n3zYXPUOdXhj6vKWfRnXNGNjBX9ct--7-XrS8X4aGn_XAAMbfsTeFV05tsepw4R-dPi_XcYs3f6amuDjtDEBX0gU4vnzrqs-ox0Z-O2LrgydbUUKWZp86OOnFd6_kEsmhPZlbfkxZtXKBvQlUYbbwVoe0hvBcHNTB5zSz9euGHq9m7o8PglhI-4FUzMDuAmdxZ3ZQ3xff2QhbGPp6He6swXT9DZuD0IER64nLSdqzomSaJhbaOnjcXsNkRVf7vv8AC1m9g59bf0Zr2cIDnxo0bUHSOForlthqu2dPZHsz-JF8XmMsooL1SsuAjUaQcErm3kc8s_R1du5ab8uNmz3mQwQgtkkHqLov2xQr7CtsAvOMwN3KVLgYibNDGMCLc5eXrlUjrCAx9orlA5mTC0q23oQagQ_Hl-fgcBtQMeQz1tHf0K8RCZESmbokeIErhVC1k2e2BuoGMbPUGz8ChTpwYyup_S8L5x0Zh1IUCZHjb4i2tqxYNpOt6dSLAEJPQ5x3g3WWqjNYG79ZNBSEn4RQGLSxO0jsfi1pYX1KppnlLiWUNlSddoYnimNX5UX9TIWVIC6MhuDQgxFbDcSufhdqflpuf5Q7bXcixjLG921bbZFKVwJVyjr-EIfdWFYaFdXtd5FRssxM41ev3DXLE45JWXufzpp-ZTv0fPur6A7-xWTYTunyLFvaMW-DMJVm-h-INHkX9lDPhFiXM1tzGfJNzCvX0bUgS9s-lQ82QrIUhE3ZycX8G-yKvix0YEB1VgWHJk_kusKKLQhOdKlbsH76fRSSy0E5nS_Md5GDs7l1PmK7ntZ4N6PjH0Ej-bV3hX_OnMSz-n6n2OGrtpj51cZ4vqJ_9CJeXQAtBLPsROo7BSHYbH4OGRTguPZlE5wLucpfODHtCcLxpC-o0Y9vWfcT5lG1sFJrRfVhs0qmNJwf8xHOB_6neFBWp4R6yV52uzJ3ZhnSCztvE9Tt87iyAjYnOG8rvoAEEL95XnIfMJuYPsjYMDUG6NOmQdvQpuYRzVtHMdJQRK0PeRQiOEOoG4nS_Qn01Qy0i494NalCX-4xA70jKcek3m2m6bFixtD6i8Hol35rYZRcMptbz0RZcy-HkvIgP4RofKqO5U_7XEbxS6iKXTqLDeBXJYsv-at4f7wg3ERXXraQJlJMglCUiQghtgHxKijx2s1-v91gmOl81PfqmB70UjHkbjngo1F2JCUY0nJTOcMcD7muxFPzQBVmeLCG7C4l1aR1F8_FPIENhjzsPF4EjlwX5l2h0sjVXENJao1ZxoJ_IoDFG2PoUhgyHMLoPsajlYpIy2K_RZqGKFVARGqEZaiS7DyxJwpavfAWsXLsQEpmw3oEdKe4ihsR4stsJdtakHJ8NIALfOoELxYIciTifnpyX9HQXcw1YcVpbKtmYZpB4VEt4mgzVoqO4FuUtdESUsJKPUFYQcWxtJY36BzKl8X6tr8npc1pjalsWYsKhoHIuZhS4c51IwowFepTDI9JIFDGPTc1irMfxK5f3lTqfS3uHwmZugI9aagq_y5vijAkUutRrLXt7o44SN7jiHhrZiHmkWc9FNG9wRqWVLLVG9oM9VVaYAxxnfPr5Y_LIAXEtLEuQboxqOtQMxVtLfPhB7KfTGEs5DYS0rWuG8FLQWDqO-h5G5vaYUSs5iP0m_HxjhOgRRdItgu7T6saxFmVYHoKza0765QbC5RORqIffOyk4ynAdUo9_JxzYFkS9m86hFXIYp_Kffqrdssd2kFHJIZvnDx4Xbl1UdYvvfgKJIZJN_B5asdBAe2ZZmgHNmH_Mnb14EQlGLt4TSe0KP1unjNF5IcxjHVNotYRIosIt44iivYza3B4306ri8H-WvM-87sXak7Hr4uf9ZjSUbKwrgVmOF7hHmbITgTor6vqbVDXp6tOAQ02dcsxv1uSX0OIF9Sc_Dw2zkXCialaw30KZR80glscma6YHyDZ_iyYrjb3USXRjwhTVRkpuDB0fmPUjMo=",
+      "status": null
+    },
+    {
+      "id": "rs_0c51625579af8e3a006ad8757c5d3c87d1ae969420aa07a94c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQaNyYrwolpZmIouPDfkhSuxk0OskBb30LvKeyTRipKkiaNW65lzjD6PoJJAQehvrLkOP8MKBh4cG9Rk2BjADcwd16lQS_ALakaWfiodmxeN8NqwOOe46akl-HL1fZNSPsoOvwps_hIepyqMxbGTVxY6RiR93BBvECHwYRtgpIdwU3pOf54795JilWzW4IiSP4EUVnPVnpJx_TcXuVCJoUBKc9fuFKes4xnqUX-TAOrYNN0C3HActLJZrGLrymkBvZe3ARgpfvDPtwjkR_ky_c-oQiYtLEYcQ0_Az-0BCOCrTcJqTULN9O2a4DZmJXCqMERAFT9-ow_vovM2ozmGKLEEufoIXvna34jJYb_CKlk1lKZ8Qo6ADyykPWwyb3g5A0WYiRd4RrSP0oY8M8Pg4h-rZ9HXTG77wyYKeJMFwKQ7p5HX5W_E-V-rKklL3up21ZIixMMPNc53Z4YHehUx9WNOjmnLsfudlPNCdYYlD1r1sCpD5BmA4vK41Xj4iogoFsE9cViul_eE5HAbpKkH6IoPe-qY-NsqBWbaVEeOSPOzl5iDnF4B7eIxkDeWsguU4hv6yMRMYzY8Tfykn658KJkFPUjoH04f7qYQDmZE-ZuTR64J2n4zIZZlHz0LCSuXin-7stJlM9pVxAHKutLFY7CkKnUILpj_wjqpRdAu8vcq0GKbMWXsqvUUwp_nd4_QEuZA7yeOp0N2dtZjUTjwDcuQo4hDR8e1YisQjzECESW_6l5cURJN46Zn6JU28h1fbr3tiTqMQWdnPuvMonTrx92DDfJ35yiQ1ZlKmfFtINt6XBpeX4wNhf4xB4os2sIL65WJuYRHyAN_Pngf36ZxxJ6UmWd9FaPLSKxlvfzztjH_5z_ML4-3uKY-E_BksHDKt-z3CXoOihGoPz5k5v_FmzUFweR8LfJ4E7rimsX7_lqQK3iC1dvtvbNWp4vNOh5iIt1nUsDOCC8yZoQ9M9nUfZXxD-m7AE1JXIbxA3YXeUn0JRZtW1glWodJuOndTYt2zG4D50KL9d7bvGi3D3MGr0DMGiHNL0Sq4MSapKwGRPGsiqFGFjUeSR8nQMVO-YSRU7_RFIen31QM0eVL-R6jW5Ypo4uovPOr-PTHYiZYEuo89OlGu63GzCDigk3Ko2UDxn4yVsNmbFc8pYtalNpyNSu9398b7DLOwxDQtvvY75Ub7L7eJ9lCzPM4RCyUI_x_IFQQ0uyQm0qwJ8WudYIf4W--1xv-c5tuPKgpUfW-ST5afpewRs50QHVOQbnPZJ9b70MwmrWuy5jnbC-8pX_G3X8ks2pVs3tjsbkeYCqdrjafnakz3cXboLvss0akUNNTKd471AcSjTNjxjzbdFhOGBP7m6dlgWGlAbQOm3hsfMC63VW6AQ2aG0zWtMYKp9O2RF-uKrCZ9JJhuf6OWLoJowqL9oKwgcZH472h0lvsVFB0I11P7GSRA56zT7700hZAokbwQSre_j2eU7d_NRYND-v0ayvQ_QdFsMxsOKeS-Tj7XAGrEm-c4BcJGS8mH8x40mFMZNiAPtv5W-hY0Q80JgMGqCZIlxYf7GoTsdYDYw4k3irCojkfz5orKjLzuFuIxZG8eaZQcoF7FTGnKtRGeuKkKSkMciuh-r4Lo58ogmRd_sw4eAkmvmg8hmc35qpMSJkPMGIYkC2vQjAfR5Vxso9w7WYOEKkbOy0qWXRnejepWtEa25ODxyHNFrjP0dcBFJ7R2MlHGsPpuOQIsWusr79FO7bIe9oCFJ3aENgFIlvRxNBECGBQbPeOcV_Sl6r6nio_uYdcshW8yA_VJ_vX7qcgEf_4uG70wR13Ae28R72kT_A6_rRsyA2a3Q7mvmCmVyLwhpuwtRYjMshRr0oToJpDdWpe-RBt3qsYbcMOWEGJ2yijBVsM2XUNiheV7qPBVWJZJyM6uxHei4dlUKpGg_GpwI6RaI0bI-fOC4witvqpAdyO4VbvlDx1rwE-tI5n8lOCQLAMyDQ3-vUklivm8brTE-MfX1SWSPYgqP2qYuBlxjn99kBqSfiw7wg1oPkwiU0XzWcDbGKH4yv-dznEaRcgiub0gwBD2zsvcUQ3rHie6A86LdExVkLd_lAVFiLFzD4bR70V9zsenaLMeRiQWGPIvPi9RP7LAE7qkZnQFQXqZYJ8glDFGpLk8VKuUGxpI86FZ_fma1365PAwxxu2HuTe7r2nAaDAEY0FoiK-i3oNyArMxUFrHkCQHoYDEUExuSOKoR-dSycihSjE2RkQPNI31jx1BIFCPXKwgoUzih-ssaiyLWDMA0dm6bC2cAHE0FZyC57Isj9UORa-QX2wQQIPXXOX_6fIRYcsb-jSF0BFUis63BbPoeBX_-qncNIDFyMwkl6QoPQQ82NJZXsN3Y69EPhoTR-UywhdS1F-E72cFFRfDTOuTwiLnCIxF5D8iFnbGuq0NrKHBzH6eFNrQ6MSUmJbxfQtbPJOMOkf7JfaC1IsYEVwf0O7kwrQqETeu6uvT2XzqGhlrmlqrH2Mf-shvUWgxemJUJs363uOiL6oQpHgJD_-yqcq4An7M-FMjFwWjJMnVF2PXaP6kbVKCcECq98xnr17olN2FSiMWbbJwka5sZhOqAopiAFS0mSYiBIX3GE_9w9oMYLrMuFvQfOEcrwWOMop_wex9roK3NyBGI8SWFOp-raVbyeJwThGa1kZqxe8_wzx8Qqg8rc3R2pn1zJ4i2hx_08C9Dwmprgs95YDVU_M3gjT-lDZ4y3UlxylIiDo8HDO-rNq_Y58dungQGBO0jqOTZKBOcUxpAWg1OLtbblrIPWbLUP_rDpWtEmYU82XHVxaFIycooERNAy5b5FG7ONinrQsDbUf-I-U8Fhmg8VoVHOMeWFLe_QEY8mf1CdVu9z7m-fKPB4lFOpiAHJ1tp4Sh20avp0iPDH14Yhg9ej-X79FtH4ZK8CbCDqlY64UG_7RsQnR39y8NjjabovVb0pxfCktcrMZNR-9HsUs80AUOtVJ7Rh1chbszPviBiejdikR7TNqrbPWyEU5ISuTHypECGySbHpxwIPhn5sVG__lVMKu4MKkjUO5agXRoioTvQvhvmsIQ-CgATHAt2RwoAjrXGinU5Rv8rD97m7lkUzY5iU-xlEtkjfk2CCbTMgPGiU5Af4pEup0ILKsot7SoJ_yNJ7isW9mOipIY-m4cYU8aM-eIm-pXrU0-Rrs2DO3lMpIWvMYgBa37vG7zXIom9KN7hvD7P2HgQvvuT1WBy5F1VN2RzOJUTCBS1DQlQtZpJGK1FPjipauR85enP6ut3MWhNmWzQgDDfQK9RMTMAvo3Ee0yvJlWAs4H-eDW3k-jSqOhPctSFx8dD_nkLKMPaeoeeOXQCfWAOGI76zr0QbPSc5NKAM-kdf6yUaFgmyBSDaqB4KTITS8RR3NhaEGeAWLewQGbjs_7KLF_BzL-xL8AZyjbHVLio8Vk1En8cO8LoTWHge85ED5MUQ_URXJhA4tNWKKJ7sQzcuWOrBO2w3UjFN4GvrUfEtqH_-YBfaaqgJty7WxVLoHbjnG99i5uI3RSD4nD34v5V2p6m8i3i_MPaGaBtG9PK_BzvRAh_4xpgfO_1SQXKzK-dXm9f_MTGYMqDLHDCj8U9lHV-tTzPezWLNX0zE6bBJrAdAMf3yMKFhgQYexnpah3_4a4aB5T3irDKhWIMsgS5xWEj-oEdVbvJqviVbKGEvC72-K112dMtWrWkR6PseI6jl5CuAUbiclUsGNn2fPB71sZkFWJb7y8mdkFDv2EQthUWIYLuwV5OyzR21hrCWO1FL66D2EAcmiNQpO6zUQs0RzLxlwiX7c1agg37IEddwVmiaLMK9NHy254cgE959mAqi6xJehrOs0rUE87jCJeyxvzECU2XfNT3eE67y4wnKJu15anbf0MpmbaxLZyLxqJD9L_leXi01lBPjYp-ArTasM4HoRznx0v-7gdVMH2rs-wK4e2D3JzeOL2Dqv7KKQ7c5Eq7TUpLaq_GihTnaOa1WUxg_CSi-kN4-8plfgbFo1CU8jby5wPRbL-qQf5lw-_LM5I8mXItT2H0Sbm7ZzQJpnCvBCjDoleeDP-I2wXflbxT7Bmx_db4K_Mdj0HhCquLOcCosNGtyPkn4jcaan9-uCuHIPji5JcWu-f2Uc6NlTUU6n9zfpxnjUdSRbZ2eFxLxwVOeuOi9uvx6RpOEu5kiarDdSb3LRgmpAz4WxrGWKYmy7RuOTfvJnARTotsR4AFezo6HVForu8sub-v6kxzHZ2fMRKyXHJ0seSMq8dzd9ROHgGgXd3mtZB6SD-59lKdYP1Xi9t1HmcGlZJCz4E27JGQi6f-1j3pberGXpJiVS637-x7C4htVOsJq5qYe9-LnWQ6Y6mD9wwfGEG5f6kqXdTUwI9x_E44qEFDmpoohiMjByGlLLB4WVhqAduOxj0pltqvnn2DB9RJDEtI6Pd6x-I4BUsLFrrbu17GabupFgB3HcCSki1nlGBNkZ_PdYD3QFfPa9moq0tW1KxfmMm6EmOwq7RRy3-I_361Vv4udC4nro8D0lhqsGihQUsKx3q0cXNoEQMscQ_TkHLmlZJ0L7iUfxJqgZ0zSzbGgBeywZG7yKtp5VjQK5IqGoO_9hQ_hg_kv4uyEUwyt5Acogl3ZP3-RchzLVPapM73KS5iqXVrn5cKZ8BeGYy5U8o8P81aHiYAS5fumf8nwcg4DZLvPFanB-FwvPR2_tOADimIOqtR3YBKSTFUcaivPE9e2JNbgRAtdKVnfKV1oD_sMcy2Mv23ZJjm3hFtpjuyQ7tDd8eeQNbQ7AfOMYsRz6DQderDFU2UeQyrrBZjk7VJhvxjiUNhZfXUIZbNwWnwEl4fizL-MwTJKI_-VJaq9C7_z2n56NcCRoQ9whe9TdU7j6EOudQEIzxc38D0BYjLqptVlLNpa_m1sEAKEC2zaG2QZU12Qh0MguxQpIR5p1_79lgq6-L5zKZUIlc6wEA4dWa5Slk_8IDEbUfw6vQI-8qavksRgEKwiP4EZwgX_D6eqfMnGhHjk2yJwXovOwLHZQE0bcKVxHJs2mxL62Hoo_JDEOzUZcuK_FoKvMSAG3IetXAEguutdADQD1EuXcpGOV_HyFhVuQ6FtJOh0RZO7Xo6ZRa9bDd7RpzSEztA9YoQmT2wCk4nQzjAV-TOZVm4ievSTaYPrISQ2UP64OK9yvEG7H90bKsXDvuM-FzbwLoxzwK2NuEuVyLSalYcIUDgXx7-iPW-7Z3oS9S2jNHuYkVncvY_o5jPYmrPjAwQxKLWbCoa-f995O40S7OIXiKCpx8FQd_bF9A9KJ9Rh5ug1jMAcrZD9Nh5hmn0eQQZLU916LNqaUlCrR_M95Mz0eDtOat6YPaNvrNRP1SOx3vmELuv_NDSDRj8c1JDwZ4iw-0Rb_7a_a71ZdYvlZj0mAaZfz9Bn94pist89b5DUs1FA1W8sbfbN3DVbjMAhz3zVpiCa7PRXlBQ0Usqn90gDSCHlul5qqg4rvua5kyOS4GyvawWhiKVLSt7-hPLUqWk-NEi54kzTD5o542CJO586fD9Qb5J070E39DpDorRva4aLRpls3MsvzbdbGObYqtSC6ecHZ68TOEc2cVe5Zuj4F_MUKVhniWCG9dbsNhPfEXv4DSFHcOvWZhuceRby9z8UETklxgnc9FeTr_TQi-7fdv45c4wQNUDvOhn_rFawskUE5XDTsCx-Zr4aJLrRqH4OiyXpitpBiT1Ek16LjSJgnX-BaG17icFWwIgKj1AL6lOI6VB8galC7YZwg1mouXvEAwH1s5Ii9By87jlSHaJvhCBGB2KnJ1PDQHz-ethRyUmimWL6BOVHKjxkR1Bp-UNBmlU7oNzunXG-c5zVgbQswkim62yodzSoSW2aIp-5535aC9YXn5vOeDYsR23pqZzt88LZUWet-yYBESBhaIlvapPIChfJm4xJyK42YuwkZ5JapTKi1_E6z13JYPUEAHcbi7hgtAVT7eoGf_konBVcXutJFrP8saNgrb56qa3TkkWicQSs8zbIxVKhGZXgqGISBdB8TE0ic1hJHrM9A7BTXCFLXN2tY0s3UXBTnQPYZ5sPgdfz_dX-GGqbu0nJpVYkkrJnRQWZiYKQurkQXN8H9Srbo8tpia5VvRTq7V6FYr-e6Hc_4CfRkiMpzJ8eqXzVHIUI9OMAno7-gkz9KF5xHPHtcZmcAuUS3oPH_RH81vkYX-TZw2JfEufY-ubTGKnfQ4OqDI63u_u6VGDtRWTA5flkuq-N_cW4E1mEFMcelV7ZLRjFGH6eD5ciDkO0wlptH4iA_LnfoBK0RJcfgAOrSUQWalSAl70A_eo_4JTCoxgmjxN-Hg5qZfa-Oyy7UR7n2eYoIvUd2uKYI2tE6DsHe-yjj_Ysb4V1V3QL93IIsFR9rHUoV8COTnHuJgSjyMc8ZNJ_EEAtZgRwdzVy-CaVQhlQ2BdcoWNNmKaNKoIP-11hFwU95RZeakmST-IF8klw9UDzgRt0IWaf8nAvpO74hMqlHgAO-pL3MRr18x3FmcEBX5_T_3WYxh-1ax3mBQ1KXv8N5tWWEPO37jo5byaTkI11RBNHhbWTFIjOgJi3mSHvT3Pe-vdnge1BnZ90unkZCZTjKcemNK2CIILV0fm9EyG81dayjgsPQrb1Sh1rmtbiKEXWK7QMkC2PRY5-xC5c40YL-qxfceb4nxrS7Fj215erKeU5rndpTb2UNRu-PhNirB_1mZrtR3lN_wJuZLYngotYj6GbXpHYK0I7miB6BAjSPKYyS72dC9yltUFaQRLzBUHNK1wyrLSdaTnzU3vgoEPu5Io4eoSOLcm-Kp33ctiHCZhIjOvpEuTF8UUXlJHWxTRjP3Hry_tY8tUCR8Ke1M9vePzJ9MVIhN4re7blhiN8lhMAfR4nzIMrFcG3-7fmSmSNGWIJHnhJUhQXtC1WAqOLF5okf2EO5JhwVOF-U1lH4_SIcS86VNTaZ5h3TDXRI8MCZUYKrogY392scDyjBBvR77u7sF6j2WqCGim8Am8K5FsbcRyzbgm8dHTtNNTY0mTTsAYmVw7w0Ldn_2EVPDWviW6fyx9rCLKaT97lKeYyAN3lcAthHH016Og4NmnKYlNM2R1eRAb6usdmiVPNxyLxd7AW6axJSBvDkVTPbmXyJb5ehmfL8ew6HZX9XpIlLgDAazGy4gdLEkuUtJTEOn88iw5Tn351pEllamBOn9ehC8X1TfzlzD-whzrhGSvtfIru4Z7XRaRD3CN_MPZfG-jW0YhfqtNcMGNGIf3fmFcW0vSXcJpS7caPNwN0SXYqwNTjMe5cW04SM5zscua9Q1Kvyc_eQdZXQy1SZrV-7bfk4yHC-hjzQd4qfwoaCp9ZXjh8So3xsnavffgHiAY7rjBLwm9O2b02p84oYO2R8PZKOmBsJJVQc6MGy0xQLljkSpgDnrmdLqD1haaCqpoRC9nV6xd0cAnPMLJZV73eXFMoY29EKz1XSCo9_8EPpHB85Lhgm86m3GSNcAhMw9GQB-kbvt0wH51-CZ1Bc5B1yUlWrLmVyA_3PkndJr-tUuK4KVlLMCAJSpiGP0DTHSpzCA3CU4rn1ZZQo_nbmVTDEF6OTdZsjOm-fZvEGtm3hMPu6JGahlWo_KaZXUi_jL30wjkcsc_ZsxShfUGqtw-d-kMIj6ZcO5_hUJEimV6jioOD90J3aFvmeVw_mX5QhahEvBLdbguyYqEDWStCo28dA8jwXcLU-L9_jtYMGZEnvIuMlMMoCahfQ==",
+      "status": null
+    },
+    {
+      "id": "rs_0c51625579af8e3a006ad8758147b487d1b21628c9a67175f4",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2HWQPHYkbOg_BTZzpJuGzn91cHv0EAWM9Zg9KzjmI0MaE3n83EMM-H_V-fQpljcZVIleYk850uRgnT2Zn50p4k12s2Ca263RTppq6VPyDjZUbEGbeZfcBs0NMqv7ygHYMZaMTGE1-z62AMzXlffcMBsnScCQT_h0m6ztR9NX67asq5d2K7UeymWBfqy6VO_jFt1hpIgkc_PbBFdX7T2c5VeNDbYm5lfe3kPRNjJw9jSJzbl_Ob7YwAtKWdyMNDCn_6lAlWFnEvaSescRmUhdrUNJDg2WHzaGLToU2t7-B5J716LYRrDv0XL-sgukig5_5DZRbZVViAjNWtPvYzl17vPpnPS0NiPxtXJBH_Mr4pKHh16UJvhTE9jK-M_7CW621yLoESVr9cmIRScVm0kuJaXktmIIgSBi7XDbHJncF4nisq8VnfN-VcGbExzZhbNFRYHYesugMIZdOxU1GRYbKktxj0dXUJpVEtKhirbNH8ion-MmY3wAkMxqYQdvsViw6JYPiEdOKHJvZrkmosp7NXnSRre5aOUKrf_NFdyoAWXmlxSDBkICsmqOMyYQIlgShlqUx2uPu3AdQSxZWl3213bsOI6T0mri-PusTplR0dLqfasTkUuWQh7KPD72D-F3uDOdiuwkrnVTBPqLShyUUs_dBkn0RM6oV0O2wISppccyUGs6WFp9J0rEbSDsA7MvlZ_02dI8OHwhxXiEcjQr6-w7t3pc2_m06yZ4fl0OGUQRvo1jpgmb2Dn7eG8a9ATZxqUEHfJ8wX_5bpDNifdFu72-R9U8wkM_Ff9tNv006RI6wX1X7kssCJmFB8w7KvPAkFYOgKC23lrXsbdAlLIC-Bz5kfkl0aMM0f6Z052dbGnq9ffZTiUhs4RtwiZgVz8BDPOr2Jlli187XWHol4AMJq_hYnSr-vLQSO9C8FLiEVFIQcZxJJIupoeGDIvLEI-fl_P2ivCUNR6UttlwSOp5KnebqxGWdhZUubXz-U8GDchu0YKFSZMF93Wb1Y5_CA8axU31Y7gKG1_XhxpsYLAaLStPxgwmjymEmn0CD4GuxJ1AGaUhAwDvaIblScv-MGhHBGcpcSSM_htxENtuV7MeneHuDRsT8NrkWcZxtTjvvfL8l13yUnv3pPSHJuDP9bhZAgscjCu7CPUGWNzP5gdVy8MzHi-mI7RwYbmQ1cBExq70FtJeC0SjGOXe-2dPUry50ZWonYK_LkvKwZJJLci6d22DJAR07NEErAfU2Dv6-Rhd4mM7lEmDv-RZirc4Ih_gR4qJll8Amr-Rv1kTlTT7--TzKwp9VXamUCFfKKxNzOHkCfeXnPimR9SAhI9NzYC89ZKLGHnIpQiIFDVssOPgZXymtkpTJxS1V5uEO3tAh5riZQ1IpHBRNslyu1I2eSOKxht7QIBz86vpkI-mKFWtBVmQpG_lbHU_93FSBMZYk3nkxnlvS9Qmo5lMtlzTu0ATDywQHakXkmQB9LqQ3fGN84ocMGHSOI-Bmm2u8JA1oMJt2xWhHKe-zocJVfLIq0phhe3g7Clvi39qH7th2PsCq-FnG8xbpaUWNe5RqXm-IANxq0_SknM0YlUnLCxZW-vzjB5Nju0O5nvCTFgBuXWBkCqPTpE-2blIoeCJdrI7EkzkUZnKKQ2bY21PvZQS5NjwJ_gHRbwYDTjRnrvm7z3ktPT50ozJpQuvEe5SMZWklyFSkV0vrAUZJWEIrUlInqC9K27b2SdM5q7yYr4IFrUcJVbzYQ9MxlC6zj48m35PcTzM8TrvXzXWpK8djj7TpJ10WrA0snI9aoVrWhYr4Dmp9yyWjL4k_flUCVZ3LC_Jcj9rRzVSXdATw3LPKtTKbdF9u2uVjZKu7jTtQtHOUeGmjEPrvesW3YIh0Q7wzpEYDRILWPBWsA___MBi31udP-ZXwOJtlFiEvPOggckDzpJsR6j1Ib4lrZ_cv7vXxNavTrBiz5T2QbvvnNqGr_z6B4EOJ9w9T4nscLCB4tBNgVMrLbEw-3X6vpxAC6iWcY9-MuQVQcjjsbuniscErC0YaGib-H5WtxRnyAZHsljWGCUB99jgS80YgocZzoHyDEzDyKiAWbVniy0XDPX2Nk2qp2cWEY5kKlj1g43UmYHTnc-7e770kaYSSh96tYKBJqPLbS-ZLh548um27IaiVGuGm477Bz-lVSXthzu76HfwOMVHJXCqBEy1l-tt76Pii8wtK3bDnbKjZ9p-RH2q1l9l-mIUOBY79vKc4kkG0K3D0cyZv9wDoIIyedu7PgpPmQSu9A1RxLw_bAoTRAxRXsJpri2JuXaQaN4esapLjouS9786ByjKM8YTO-fw8mzK3OFGB_yVSk582HhQDohxocgRaJ9WjX21UoKdgU2WO6oIGPCq-7Vo7RT4OXCvw0AduOfF_GrKSHXwwIh875NeC_MGsvdBvzaTjti0FlykO6y9_YOfd82w40X_pxJE3-CAvzENcfaL6eaVG3k6x3sXFWQa5_m3_jgOLgezB2vVo4tFKFAI88HYSBWI1-GblmuPCg4fijjsKI_ggKlWwdBJI6FcGjqmL4JYdEMQJVpMflRd9rKOI8HC_WpAa-MfwLUQr5Bt2dOA8Pendlyo_nmzmA6olQEB8SwXd3tyWUcdP6s0w1sXEsUtiUW-qOU8CdPFl2JiIixTujtFP9lOPy8Vl5VS21LTTk3wl-tIavkPcfFSAKxAIuIk2y7plXeLbUB_DMX-DSQ7CyhWa11Zx0MQct7cWbYm4dC11ofhlyAcu5_MP3Fhiut3eDo0vBU15_-9gvi8OGP6oS6P8gpTFUOaxfaYUVpPrtKbpoZhTi4aoIKni0eXzhLi_0-cuvNId4S6ZCnPX8q2KzSQGiY4v_e2c-tGjcBLSVsQR77Ve6XEvjjc4p1AajU1NSjM4RnT09AZudcLfs9KRmlmj5mY0RBAsJcYdx18y6R0Skl_x_FBkAiQnGiXDH94tlaurdiXyAIyrQ2w0j8Kt_oa-ZNCaFdAe5wGDebKsAEWsf0mjFtDoC_YGxX7lLEXfc0bmQbqxGlt83Kt42n7UFoZXPzeuyTqLG_VKwlvJj1n71gfMH03t9e6Z3E9wI2pw7us4jMETfnqihzQ7WpJnt_2INfZ4f1O_enadmmx2hfEoNe2YIrhoKxLfdCabXiu1Uw9Oa9sxaMmsETHaXQQy1w4F-PTuDIS7zgfkEP8kJiInXs1Hta-VmWlxtNvpPmbTgVofQarSLU9pMmB_gjGTnPEqOqU91ZJdk4S7xogQ2c5j6wDllaqIgPvfIHvuL7F-ABKjXZM-NlomYrfVvhnsR0rciavf4FNsiu4E_b7vrIuNXmfZyuLfk7o5gjhOyovMngvpjCxw6oF8xdmeLWz6i5-QFg4NYeuD4J-MXfhfQHoPzgbp8ZdFf89VVjnIlNKWywmqWK7zMBfSnidy03F0HrjireeQu3Vt9BiNq82uvWV0Yy_GZIkEmOSR3pFCCxgMOfcQolN9ZRssvuprzyqe9hNHDgOHIy3hMb15Jku8Kqp6z_2p3j_GEPih4AAuwcwyf_saawq-NtVlLBwe3Ns-RwE1JeZiosDy-a-aoH0wseDdqONFc_y91JP3GjjziSuAC2hnmReZT7MlWFoYmTOk6gvxRa2WDgddi0-sGaFPmmbd6YrA-b0nogxgEFtouBKFiKaxi9ea5GSMCTUoCdCVekX3HXdbnQxZAjW5Yh2ESZ-gecftPfw8a-_yzxfv3VbQjTe_bF9eQZI05wHe5IOD_xazaXjJRTgTnUI001oc7jsBDXMuUj0ly9-vThGWKYK0_TJm5SjJyzh5lbR1A3KvRc5MTCgSzNzxAv49ewHosSEo0Pm6M_CQHIzXAL3xAhPduGzB46bNb6CSw_uiZETzrqIMSj2YuV_hoVanoUsr-VBQ8W8SbOR3YhRmjKKHs11AhWTv0aV0iMOLFj7MOBKnebdpetD4SRjyn3OlP87wmTXsOzNTkmuu7oBsbMdGrlDLlsuPSFSv4iuPq27O7QkbXSs6fBgfeReuQQ1FRUPl5sOGhvm3xs80RcZ6S7myj4K-4Q1fnzUC2DXr8VDKNRtz1qMz3AqIGenIIDpFvitYvO7IHCpM1RsO6BUOU2DCj2JapoZXseShdkppEUuiOdQcuvUtyXn9PD3A3oOAc3K9OWNeYkTx5f84Cb2tYYimTpySEpjW574wCrZZgZFl34TxXeHBHQMg28fkbvv932GDllDvU1jt1WHognnF9ZSYbXA3I6BIm7k6Ql4TPoruAdqShU5rSqcXv7bpnkBv2CPl2k6hTaiymlLSyZ46pTjnwPTKBqa5yxK66x7nVXIpOMhjV1UyV-7r5yx-0acZX8g_7J1TXpIa7KDxAusoTL3aj1m8mHqW2eX1ClLMsUvEJxm0QuRRvsedKIfLTZjHyyHLp5ymvcBSoIVbNzs6M9Vho2Frs9ZRplo1nqnRFhB3pCd4sP30iu5hBAZIvpVzjecnv6SuYyV5kcN4Imwp2-9cCx20IoTIILm2FNNd9aX3bEx4ClF14CipPC_lqduXw8VQBYQ34h5rrPJK0D9jGkUsX4ijUzK2vGV9g6Q9onSwfOWYXGE58U0pBZwG67nKGzxU05MMpqqthFObhEEQfmQErdYIxqVUwvo0HeINqxOTsXAKEvg-Gm4SufkLkBtRjhpPg-xhFQ1HExCTpVn_MdmmDRopjihvNkDiTZDZ_1jVrPkjNvR0-vk8KkWcNBb2MhI7nqI20yCnYVymQR7FuJvV8SNOSa0oZ7f17Cgz_D-ehEqGUg1SjuetKbx8ne2NoW1kNlv63Yica62-KWs7HC4Ko7fDPTDYP0jKfDB3CbwrBDD4PZHDpis3NNO3ux7Jin7z5DZpljXC3WhhhJZ8vqjGUUm6zBRvPGUZgUHChArdEnEzVDH54cTQRjXOes7ukc3jzlG33dha4oE8EB7oJ0R30Uglsv-e5CVX9xRqVUsncWFuEkvSY1fb7Z4swmxzwmQmpKKX-pNYjisIKVcW4TmmaKYFMvj2zs4ehr5ONZJgWB1Zk0DSfi7uoozJjgMrEiZxkYF6p-25ZGj0HGBritSdtLLqIylK9BeOStQRAKeEX_U7o1t4EROukA8qWj2bk_zKISeoA2NFlS24Vx78HyYxKxJC7U3_uQrYrtrmjRnVsoqtAgD47qUCRGQyGKv6WeDJdevc2D6f4R7rgci-MGFWD6GnkcYVyg_usihMdGTagFN0xdqjNgrc97KJgbbUg3_Uxa__5RfabrTwRKdx-z2wU1GxntUTfykGveW_qQr-5XBFki8ie9mJAMRFZ8FW7rKb0F-x_4_RjjK3jfL6Wr3h4YU6wcvfWcud6ME5C-jEz4TUvfxu6mtfFwuacQ8IDWfVCCKB4Kr4a7u_0JhftLOI2OJYLXsRuc8FHzWbOy-FIy5LlSwuLdw2pOtbCvAVIokyLClsORVTcV5B5kwkh8aNXjQxt3tco_zOZKRUq2PCOsJc7bmC3hM-fCJeXGUHTGXuR6s281A8igqXajJIcfgxisCDqL7MzO_pm_A-8qJZyCuDl3zbSzAr1u_DILYd9ZNOrxgY68giV3AyiUrxFAEMm1C695jcpst3lETSvOkbAiQUfQ9ycSyxDWr_i6RIiw_9T-BLNeQwsXchrAtgOsbclTnbl9UAGL6cOXkA_uO7P4vXn-Q59CQKK6nv-4CH_LC_07T",
+      "status": null
+    },
+    {
+      "id": "msg_0c51625579af8e3a006ad87584eb7087d18bdc6ea2340a697a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"funde\":[{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. e\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die DSGVO gibt keine pauschale Aufbewahrungsfrist für Bewerbungsunterlagen vor. Die Dauer muss sich nach dem Zweck richten; nach dessen Wegfall dürfen identifizierbare Daten nur so lange gespeichert bleiben, wie sie noch erforderlich sind. Die konkrete Frist ist festzulegen und zu begründen.\",\"begruendung\":\"Beim Abwarten einer Aufbewahrungsfrist bleiben Bewerberdaten gespeichert. Dabei gilt der Grundsatz der Speicherbegrenzung.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\",\"fassung_datum\":\"2026-10-21\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 17 Abs. 1 Buchst. a\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Vorschrift begründet eine Löschpflicht, sobald die Daten für ihre Verarbeitungszwecke nicht mehr notwendig sind; sie setzt keine allgemeine Bewerber-Aufbewahrungsfrist fest.\",\"begruendung\":\"Die Frist darf nicht über den Zeitraum hinausreichen, in dem die Daten noch für einen rechtmäßigen Zweck benötigt werden.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\",\"fassung_datum\":\"2026-10-21\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 17 Abs. 3 Buchst. e\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Eine weitere Speicherung kann insoweit zulässig sein, wie sie zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist; die Daten sind auf diesen Zweck und den erforderlichen Umfang zu beschränken.\",\"begruendung\":\"Die Vorschrift sieht eine Ausnahme von der Löschungspflicht für erforderliche Daten zur Rechtsverteidigung vor.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\",\"fassung_datum\":\"2026-10-21\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AGG\",\"fundstelle\":\"§ 15 Abs. 4\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Ansprüche wegen Benachteiligung bei einer Bewerbung müssen grundsätzlich innerhalb von zwei Monaten ab Zugang der Ablehnung schriftlich geltend gemacht werden. Die Norm bestimmt eine Anspruchsfrist, aber keine eigenständige pauschale Speicherfrist für Bewerbungsunterlagen.\",\"begruendung\":\"Die Frist ist für die Bemessung und Begründung der Aufbewahrung von Unterlagen relevant, die zur Prüfung oder Abwehr möglicher Ansprüche benötigt werden.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/agg/__15.html\",\"fassung_datum\":\"2026-10-21\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"ArbGG\",\"fundstelle\":\"§ 61b Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Eine Klage auf Entschädigung nach § 15 AGG muss grundsätzlich innerhalb von drei Monaten erhoben werden, nachdem der Anspruch schriftlich geltend gemacht wurde. Die Frist beginnt gegebenenfalls erst nach Ablauf der zweimonatigen Geltendmachungsfrist des § 15 Abs. 4 AGG; dies ist bei der konkreten Fristbemessung zu berücksichtigen.\",\"begruendung\":\"Die gerichtliche Klagefrist ist neben der AGG-Geltendmachungsfrist für die erforderliche Aufbewahrung von Belegen zur Rechtsverteidigung relevant; auch diese Vorschrift legt keine pauschale Speicherfrist fest.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/arbgg/__61b.html\",\"fassung_datum\":\"2026-10-21\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayDSG\",\"fundstelle\":\"Art. 26 Abs. 6\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Soweit die Hochschule verpflichtet ist, Unterlagen einem öffentlichen Archiv anzubieten, dürfen sie erst gelöscht werden, nachdem sie angeboten und nicht als archivwürdig übernommen wurden oder über die Übernahme nicht fristgerecht entschieden wurde.\",\"begruendung\":\"Die Vorschrift begrenzt den Zeitpunkt, ab dem eine Löschung archivierungspflichtiger Unterlagen zulässig ist.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayDSG-26\",\"fassung_datum\":\"2026-10-21\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayArchivG\",\"fundstelle\":\"Art. 6 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Unterlagen, die die öffentliche Stelle zur Aufgabenerfüllung nicht mehr benötigt, sind dem zuständigen staatlichen Archiv zur Übernahme anzubieten. Auch Unterlagen mit personenbezogenen Daten sind grundsätzlich erfasst. Die Anbietungspflicht ist vor einer Löschung zu prüfen.\",\"begruendung\":\"Als bayerische öffentliche Stelle muss die Hochschule die archivrechtliche Anbietungspflicht bei der Aufbewahrung und späteren Aussonderung beachten.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayArchivG-6\",\"fassung_datum\":\"2026-01-01\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AI Act\",\"fundstelle\":\"Art. 26 Abs. 6\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Nur soweit das eingesetzte Bewerbungs-Ranking ein Hochrisiko-KI-System ist und die Protokolle der Kontrolle der Hochschule unterliegen: automatisch erzeugte Protokolle sind für einen dem Zweck angemessenen Zeitraum, grundsätzlich mindestens sechs Monate, aufzubewahren. Diese Mindestdauer gilt vorbehaltlich entgegenstehender unions- oder nationalrechtlicher Vorgaben, insbesondere zum Datenschutz; sie gilt nicht pauschal für sämtliche Bewerbungsunterlagen.\",\"begruendung\":\"Die Aufgabe betrifft das Abwarten einer Speicherfrist und der Prozess umfasst den Einsatz eines KI-Rankings. Die Vorschrift enthält eine besondere Aufbewahrungsregel für Protokolle von Hochrisiko-KI-Systemen; ihre Anwendbarkeit hängt von der Einstufung des konkreten Systems ab.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32024R1689\",\"fassung_datum\":\"2026-07-27\",\"sicherheit\":\"unsicher\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "funde": [
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. e",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die DSGVO gibt keine pauschale Aufbewahrungsfrist für Bewerbungsunterlagen vor. Die Dauer muss sich nach dem Zweck richten; nach dessen Wegfall dürfen identifizierbare Daten nur so lange gespeichert bleiben, wie sie noch erforderlich sind. Die konkrete Frist ist festzulegen und zu begründen.",
+                "begruendung": "Beim Abwarten einer Aufbewahrungsfrist bleiben Bewerberdaten gespeichert. Dabei gilt der Grundsatz der Speicherbegrenzung.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "2026-10-21",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 17 Abs. 1 Buchst. a",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Vorschrift begründet eine Löschpflicht, sobald die Daten für ihre Verarbeitungszwecke nicht mehr notwendig sind; sie setzt keine allgemeine Bewerber-Aufbewahrungsfrist fest.",
+                "begruendung": "Die Frist darf nicht über den Zeitraum hinausreichen, in dem die Daten noch für einen rechtmäßigen Zweck benötigt werden.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "2026-10-21",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 17 Abs. 3 Buchst. e",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Eine weitere Speicherung kann insoweit zulässig sein, wie sie zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist; die Daten sind auf diesen Zweck und den erforderlichen Umfang zu beschränken.",
+                "begruendung": "Die Vorschrift sieht eine Ausnahme von der Löschungspflicht für erforderliche Daten zur Rechtsverteidigung vor.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679",
+                "fassung_datum": "2026-10-21",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 15 Abs. 4",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Ansprüche wegen Benachteiligung bei einer Bewerbung müssen grundsätzlich innerhalb von zwei Monaten ab Zugang der Ablehnung schriftlich geltend gemacht werden. Die Norm bestimmt eine Anspruchsfrist, aber keine eigenständige pauschale Speicherfrist für Bewerbungsunterlagen.",
+                "begruendung": "Die Frist ist für die Bemessung und Begründung der Aufbewahrung von Unterlagen relevant, die zur Prüfung oder Abwehr möglicher Ansprüche benötigt werden.",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/__15.html",
+                "fassung_datum": "2026-10-21",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "ArbGG",
+                "fundstelle": "§ 61b Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Eine Klage auf Entschädigung nach § 15 AGG muss grundsätzlich innerhalb von drei Monaten erhoben werden, nachdem der Anspruch schriftlich geltend gemacht wurde. Die Frist beginnt gegebenenfalls erst nach Ablauf der zweimonatigen Geltendmachungsfrist des § 15 Abs. 4 AGG; dies ist bei der konkreten Fristbemessung zu berücksichtigen.",
+                "begruendung": "Die gerichtliche Klagefrist ist neben der AGG-Geltendmachungsfrist für die erforderliche Aufbewahrung von Belegen zur Rechtsverteidigung relevant; auch diese Vorschrift legt keine pauschale Speicherfrist fest.",
+                "quelle_url": "https://www.gesetze-im-internet.de/arbgg/__61b.html",
+                "fassung_datum": "2026-10-21",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayDSG",
+                "fundstelle": "Art. 26 Abs. 6",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Soweit die Hochschule verpflichtet ist, Unterlagen einem öffentlichen Archiv anzubieten, dürfen sie erst gelöscht werden, nachdem sie angeboten und nicht als archivwürdig übernommen wurden oder über die Übernahme nicht fristgerecht entschieden wurde.",
+                "begruendung": "Die Vorschrift begrenzt den Zeitpunkt, ab dem eine Löschung archivierungspflichtiger Unterlagen zulässig ist.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayDSG-26",
+                "fassung_datum": "2026-10-21",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayArchivG",
+                "fundstelle": "Art. 6 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Unterlagen, die die öffentliche Stelle zur Aufgabenerfüllung nicht mehr benötigt, sind dem zuständigen staatlichen Archiv zur Übernahme anzubieten. Auch Unterlagen mit personenbezogenen Daten sind grundsätzlich erfasst. Die Anbietungspflicht ist vor einer Löschung zu prüfen.",
+                "begruendung": "Als bayerische öffentliche Stelle muss die Hochschule die archivrechtliche Anbietungspflicht bei der Aufbewahrung und späteren Aussonderung beachten.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayArchivG-6",
+                "fassung_datum": "2026-01-01",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AI Act",
+                "fundstelle": "Art. 26 Abs. 6",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Nur soweit das eingesetzte Bewerbungs-Ranking ein Hochrisiko-KI-System ist und die Protokolle der Kontrolle der Hochschule unterliegen: automatisch erzeugte Protokolle sind für einen dem Zweck angemessenen Zeitraum, grundsätzlich mindestens sechs Monate, aufzubewahren. Diese Mindestdauer gilt vorbehaltlich entgegenstehender unions- oder nationalrechtlicher Vorgaben, insbesondere zum Datenschutz; sie gilt nicht pauschal für sämtliche Bewerbungsunterlagen.",
+                "begruendung": "Die Aufgabe betrifft das Abwarten einer Speicherfrist und der Prozess umfasst den Einsatz eines KI-Rankings. Die Vorschrift enthält eine besondere Aufbewahrungsregel für Protokolle von Hochrisiko-KI-Systemen; ihre Anwendbarkeit hängt von der Einstufung des konkreten Systems ab.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32024R1689",
+                "fassung_datum": "2026-07-27",
+                "sicherheit": "unsicher"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "eur-lex.europa.eu",
+          "gesetze-im-internet.de",
+          "gesetze-bayern.de",
+          "tdl-online.de"
+        ]
+      },
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792570768.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 40276,
+    "input_tokens_details": {
+      "cache_write_tokens": 1186,
+      "cached_tokens": 4775
+    },
+    "output_tokens": 4753,
+    "output_tokens_details": {
+      "reasoning_tokens": 3314
+    },
+    "total_tokens": 45029
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 5
+    }
+  }
+}
