@@ -6,7 +6,11 @@ einzuhalten sind.
 
 # Regeln
 - Nutze den vorgegebenen Rechtsrahmen als Ausgangspunkt; recherchiere
-  die konkreten Fundstellen nur in: {domains}
+  die konkreten Fundstellen ausschließlich mit den bereitgestellten
+  Werkzeugen (suche_regelwerk, inhaltsverzeichnis, lade_norm,
+  suche_volltext). Sie greifen auf diese Quellen zu: {domains}
+- Lade jede Fundstelle mit lade_norm, bevor du sie ausgibst, und
+  übernimm "quelle_url" und "fassung_datum" aus dem Werkzeugergebnis.
 - Erfinde nichts. Bei Unsicherheit: "sicherheit": "unsicher".
 - Vollständigkeit ist wichtiger als Präzision.
 - Genau EINE Norm pro Fund. Mehrere Normen ergeben mehrere Funde.
