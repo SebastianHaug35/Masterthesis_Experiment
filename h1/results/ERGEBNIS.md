@@ -277,6 +277,44 @@ Zusammengefasst je Regelwerk + Norm über alle Läufe einer Gruppe; Zitat und Qu
 > OpenAI-Guthaben aufgebraucht war (`429 insufficient_quota / credit_balance_exhausted`). Die Abschnitte 5–8 sind
 > daher **vorläufig und betreffen nur A**. Den Vergleich A gegen B (Fehleranteil Stufe 1) ergänze ich nach den B-Läufen.
 
+## Abbruch und weiteres Vorgehen (Stand 21.10.2026)
+
+**Abbruch:** Während der B-Läufe war das OpenAI-Guthaben aufgebraucht (`429 insufficient_quota /
+credit_balance_exhausted`). 5 × A (v2) sind vollständig und ausgewertet. Die angefangenen B-Läufe liegen in
+`h1/runs_ungueltig/` und gehen nicht in die Auswertung ein. Auftrag 002 steht auf `blockiert`.
+
+**Vorläufige Schlüsse (nur A, n = 5; Mittelwert ± Std):**
+
+1. **Stufe 1 funktioniert:** Recall 98 % ± 4 %. Alle Soll-Regelwerke wurden in jedem Lauf gefunden, nur NachwG
+   fehlte einmal. Präzision 83 % ± 11 %; die zusätzlichen Regelwerke sind meist plausibel, falsch ist keines.
+2. **Stufe 2 ist vollständig, aber breit:** Recall 98 % ± 2 %, Präzision ohne neutral 54 % ± 3 %. Das Modell
+   ordnet Normen eher zu vielen Tasks zu als zu wenigen.
+3. **H1b gelingt teilweise:** Lücken-Recall 80 % ± 5 %. Die bekannten Lücken (DSFA, Grundrechte-Folgenabschätzung,
+   Information über den KI-Einsatz, Schwerbehindertenvertretung, Personalrat beim KI-Tool) werden sicher erkannt.
+   Unsicher sind organisatorische Voraussetzungen (Art. 4 AI Act, 1/5) und Sonderregeln (Art. 78 BayPVG, 1/5).
+4. **Der Prompt ist der Hebel:** Von v1 auf v2 fallen die falschen Lückenmeldungen von 14 auf 4,2 ± 1,3, der
+   Lücken-Recall sinkt von 100 % auf 80 %. Präziser fordern und vollständig erkennen ziehen gegeneinander.
+
+**Noch offen:**
+
+- Wie viel des Fehlers aus Stufe 1 stammt (A gegen B). Erwartung: wenig Unterschied, weil Stufe 1 fast alle
+  Regelwerke findet. Belegt ist das erst mit B.
+- Systematische Prüfung auf erfundene Normen (offen: A_2 F080, Art. 113 Abs. 3 AI Act).
+- Vorbehalte für die Arbeit: Mit n = 5 ist die Streuung nur grob geschätzt. Die Soll-Liste wurde nach A_1
+  angepasst, teils dort, wo das Modell recht hatte; die v2-Werte sind dadurch tendenziell zu günstig. Eine
+  fachliche Prüfung der Soll-Liste durch Dritte wäre sinnvoll.
+
+**Weiteres Vorgehen (Optionen für den Planungs-Assistenten):**
+
+- **Option A – Auftrag 002 abschließen:** Guthaben aufladen, voraussichtlich ca. 6,50 USD für 5 × B (B_1 kostete
+  1,26 USD für 18 von 19 Tasks; ca. 85–90 % davon Websuche, Preis 10 USD/1000 nur angenommen). Empfehlung:
+  ca. 10 USD mit Puffer. Danach `--konfig B --laeufe 5`, Auswertung, Abschnitte 5–8 final und Vergleich A/B.
+- **Option B – zuerst Prompt v3, dann A und B gemeinsam:** Die Vorschläge 8.1/8.2 (Lückenregel für
+  organisatorische Voraussetzungen, `hinweis` schärfen) zuerst umsetzen und dann A und B in v3 laufen lassen.
+  Vorteil: A und B laufen mit demselben Prompt-Stand. Kosten ca. 12 USD für 5 × A + 5 × B.
+- **In beiden Fällen vorher (kleine Code-Änderung):** Bei `insufficient_quota` den Lauf sofort abbrechen, statt
+  mit fehlenden Tasks weiterzulaufen (siehe Abschnitt 6).
+
 ## 5. Auffälligkeiten (vorläufig, nur A)
 
 **Vergleich v1 → v2** (A_1 mit v1-Prompt gegen 5 × A mit v2-Prompt; beide gegen die neue Soll-Liste ausgewertet).
