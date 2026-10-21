@@ -1,4 +1,4 @@
-Status: offen
+Status: in Arbeit
 
 # Auftrag 003 – H1 Version 3: eigenes Suchwerkzeug statt OpenAI-Websuche, dann 5 × A + 5 × B
 
