@@ -12,6 +12,12 @@ BASIS = Path(__file__).resolve().parent.parent
 @dataclass
 class Config:
     version: str
+    auftrag: str
+    suche: str
+    max_werkzeugaufrufe_stufe1: int
+    max_werkzeugaufrufe_stufe2: int
+    budget_usd_auftrag: float | None
+    budget_usd_lauf: float | None
     model: str
     reasoning_effort: str
     domains: list[str]
@@ -40,6 +46,12 @@ def lade_config(pfad: Path | None = None) -> Config:
     pfade = roh.get("pfade", {})
     return Config(
         version=str(roh.get("version", "v1")),
+        auftrag=str(roh.get("auftrag", "")),
+        suche=str(roh.get("suche", "openai")),
+        max_werkzeugaufrufe_stufe1=int(roh.get("max_werkzeugaufrufe_stufe1", 30)),
+        max_werkzeugaufrufe_stufe2=int(roh.get("max_werkzeugaufrufe_stufe2", 15)),
+        budget_usd_auftrag=float(roh["budget_usd_auftrag"]) if roh.get("budget_usd_auftrag") is not None else None,
+        budget_usd_lauf=float(roh["budget_usd_lauf"]) if roh.get("budget_usd_lauf") is not None else None,
         model=roh["model"],
         reasoning_effort=roh["reasoning_effort"],
         domains=list(roh["domains"]),

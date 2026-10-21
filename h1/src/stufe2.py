@@ -1,6 +1,7 @@
 """Stufe 2: Vorschriften je Task zuordnen (ein Aufruf pro Task) und Lückenkandidaten bilden."""
 from concurrent.futures import ThreadPoolExecutor
 
+from .kosten import ABBRUCH_FEHLER
 from .llm_client import LLMClient
 from .models import Fund, Stufe2Antwort
 from .normierung import norm_regelwerk, regelwerke_einzeln
@@ -20,8 +21,11 @@ def ordne_zu(client: LLMClient, vorlage: str, firmenprofil: dict, prozess: dict,
         tp, task = tp_task
         prompt = fuelle_stufe2(vorlage, firmenprofil, prozess, tp, task, rechtsrahmen, client.cfg.domains)
         try:
-            antwort: Stufe2Antwort = client.frage(f"stufe2_{task['id']}", prompt, Stufe2Antwort)
+            antwort: Stufe2Antwort = client.frage(f"stufe2_{task['id']}", prompt, Stufe2Antwort,
+                                                  max_werkzeuge=client.cfg.max_werkzeugaufrufe_stufe2)
             return task["id"], antwort.funde, None
+        except ABBRUCH_FEHLER:
+            raise
         except Exception as e:  # ein gescheiterter Task bricht den Lauf nicht ab
             client._notiere(f"stufe2_{task['id']}: abgebrochen: {e}")
             return task["id"], [], task["id"]

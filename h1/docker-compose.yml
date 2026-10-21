@@ -16,3 +16,7 @@ services:
       - ./config.yaml:/app/config.yaml:ro
       - ./runs:/app/runs
       - ./results:/app/results
+      - ./cache:/app/cache
+      - ./runs_ungueltig:/app/runs_ungueltig
+      - ../kosten:/app/kosten
+      - ../budget.yaml:/app/budget.yaml:ro

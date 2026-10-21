@@ -60,3 +60,6 @@ class Meta(BaseModel):
     tokens_input: int = 0
     tokens_output: int = 0
     kosten_usd_geschaetzt: float = 0.0
+    suche: str = "openai"
+    werkzeugaufrufe: int = 0
+    werkzeugaufrufe_nicht_gefunden: int = 0

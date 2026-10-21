@@ -1,0 +1,10 @@
+{
+ "url": "https://publications.europa.eu/webapi/rdf/sparql?query=PREFIX+cdm%3A+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fontology%2Fcdm%23%3E%0ASELECT+%3Fcelex+WHERE+%7B+%3Fw+cdm%3Aresource_legal_id_celex+%3Fcelex+.%0A++FILTER%28STRSTARTS%28STR%28%3Fcelex%29%2C+%2202016R0679-%22%29%29+%7D+ORDER+BY+DESC%28%3Fcelex%29+LIMIT+1",
+ "final_url": "https://publications.europa.eu/webapi/rdf/sparql?query=PREFIX+cdm%3A+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fontology%2Fcdm%23%3E%0ASELECT+%3Fcelex+WHERE+%7B+%3Fw+cdm%3Aresource_legal_id_celex+%3Fcelex+.%0A++FILTER%28STRSTARTS%28STR%28%3Fcelex%29%2C+%2202016R0679-%22%29%29+%7D+ORDER+BY+DESC%28%3Fcelex%29+LIMIT+1",
+ "status": 200,
+ "headers": {
+  "Accept": "application/sparql-results+json"
+ },
+ "daten": {},
+ "abgerufen": "2026-10-21T11:15:11+02:00"
+}

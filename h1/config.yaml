@@ -1,5 +1,16 @@
 # Versuchsversion (Prompt/Soll-Liste); wird in meta.json gespeichert, Auswertung gruppiert danach
-version: v2
+version: v3
+# Auftragsnummer für kosten/verbrauch.csv
+auftrag: "003"
+
+# Recherche: eigen (Function Calling, src/werkzeuge.py) | openai (OpenAI-Websuche mit Domain-Filter)
+suche: eigen
+max_werkzeugaufrufe_stufe1: 30
+max_werkzeugaufrufe_stufe2: 15
+
+# Kostengrenzen dieses Auftrags (zusätzlich zum Projektbudget in ../budget.yaml)
+budget_usd_auftrag: 3.0
+budget_usd_lauf: 0.60
 
 # Modell laut OpenAI-Modellübersicht (developers.openai.com/api/docs/models/gpt-6-luna):
 # für GPT-6 Luna ist nur der Snapshot "gpt-6-luna" gelistet (kein datierter Snapshot) – siehe DECISIONS.md

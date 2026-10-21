@@ -5,11 +5,13 @@
 import argparse
 import json
 import re
+import shutil
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 
+from . import kosten
 from .config import Config, lade_config
 from .llm_client import LLMClient
 from .models import Meta
@@ -53,13 +55,13 @@ def ein_lauf(cfg: Config, konfig: str, lauf_nr: int) -> Path:
     vorlage1 = lade_vorlage(cfg.prompts_dir, "stufe1")
     vorlage2 = lade_vorlage(cfg.prompts_dir, "stufe2")
 
-    meta = Meta(run_id=run_id, version=cfg.version, konfig=konfig, lauf_nr=lauf_nr, modell=cfg.model,
+    meta = Meta(run_id=run_id, version=cfg.version, suche=cfg.suche, konfig=konfig, lauf_nr=lauf_nr, modell=cfg.model,
                 reasoning_effort=cfg.reasoning_effort, domains=cfg.domains, start=start.isoformat(),
                 prompt_hash_stufe1=hash_vorlage(vorlage1) if konfig == "A" else None,
                 prompt_hash_stufe2=hash_vorlage(vorlage2))
     _schreibe_json(run_dir / "meta.json", meta.model_dump())
 
-    client = LLMClient(cfg, raw_dir)
+    client = LLMClient(cfg, raw_dir, run_id)
     protokoll = {"fehler": [], "stufe2_fehlgeschlagen": [], "abgebrochen": False}
     try:
         if konfig == "A":
@@ -79,21 +81,59 @@ def ein_lauf(cfg: Config, konfig: str, lauf_nr: int) -> Path:
         _schreibe_json(run_dir / "lueckenkandidaten.json", lueckenkandidaten(rechtsrahmen, funde))
     except Exception as e:
         protokoll["abgebrochen"] = True
+        protokoll["abbruchgrund"] = f"{type(e).__name__}: {e}"
         client._notiere(f"Lauf abgebrochen: {type(e).__name__}: {e}")
     finally:
         meta.ende = _jetzt().isoformat()
         meta.tokens_input = client.tokens_input
         meta.tokens_output = client.tokens_output
         meta.kosten_usd_geschaetzt = client.kosten_usd()
+        meta.werkzeugaufrufe = client.werkzeugaufrufe
+        meta.werkzeugaufrufe_nicht_gefunden = client.werkzeugaufrufe_nicht_gefunden
         _schreibe_json(run_dir / "meta.json", meta.model_dump())
         protokoll.update(fehler=client.fehler, web_search_aufrufe=client.web_search_calls,
+                         werkzeugaufrufe=client.werkzeugaufrufe,
+                         werkzeugaufrufe_nicht_gefunden=client.werkzeugaufrufe_nicht_gefunden,
+                         werkzeuglimit_erreicht=client.limit_erreicht,
                          tokens_cached=client.tokens_cached, tokens_cache_write=client.tokens_cache_write)
+        tatsaechlich = kosten.tatsaechliche_kosten(start, cfg.auftrag, run_id)
+        if tatsaechlich is not None:
+            protokoll["kosten_usd_costs_api_tag"] = tatsaechlich
         _schreibe_json(run_dir / "protokoll.json", protokoll)
     print(f"Fertig: {run_dir} (Tokens in/out {meta.tokens_input}/{meta.tokens_output}, "
-          f"ca. {meta.kosten_usd_geschaetzt} USD)", flush=True)
+          f"ca. {meta.kosten_usd_geschaetzt} USD, Werkzeugaufrufe {meta.werkzeugaufrufe})", flush=True)
+    if client.abbruch is not None:
+        # Guthaben/Budget: Lauf ist unvollständig und wird nicht ausgewertet
+        ziel = cfg.runs_dir.parent / "runs_ungueltig" / run_id
+        ziel.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(run_dir), str(ziel))
+        raise SystemExit(f"ABBRUCH ({type(client.abbruch).__name__}): {client.abbruch} – Lauf nach {ziel} verschoben")
     if protokoll["abgebrochen"]:
         raise SystemExit(1)
     return run_dir
+
+
+def kosten_version(cfg: Config) -> list[float]:
+    """Geschätzte Kosten aller Läufe der aktuellen Version (gültige und ungültige)."""
+    werte = []
+    for d in [cfg.runs_dir, cfg.runs_dir.parent / "runs_ungueltig"]:
+        for m in d.glob("*/meta.json"):
+            meta = json.loads(m.read_text(encoding="utf-8"))
+            if meta.get("version") == cfg.version:
+                werte.append(float(meta.get("kosten_usd_geschaetzt") or 0))
+    return werte
+
+
+def pruefe_auftragsbudget(cfg: Config) -> None:
+    """Startet keinen Lauf, der budget_usd_auftrag überschreiten würde. Schätzung für den neuen Lauf:
+    teuerster bisheriger Lauf dieser Version, ohne bisherige Läufe budget_usd_lauf."""
+    if cfg.budget_usd_auftrag is None:
+        return
+    bisher = kosten_version(cfg)
+    schaetzung = max(bisher, default=cfg.budget_usd_lauf or 0.0)
+    if sum(bisher) + schaetzung > cfg.budget_usd_auftrag:
+        raise SystemExit(f"ABBRUCH (Auftragsbudget): bisher {sum(bisher):.4f} USD + geschätzt {schaetzung:.4f} USD "
+                         f"> {cfg.budget_usd_auftrag} USD – Lauf nicht gestartet")
 
 
 def main() -> None:
@@ -105,6 +145,7 @@ def main() -> None:
     _ = cfg.api_key  # früh abbrechen, wenn der Key fehlt
     cfg.runs_dir.mkdir(parents=True, exist_ok=True)
     for _i in range(args.laeufe):
+        pruefe_auftragsbudget(cfg)
         ein_lauf(cfg, args.konfig, naechste_lauf_nr(cfg.runs_dir, args.konfig))
 
 
