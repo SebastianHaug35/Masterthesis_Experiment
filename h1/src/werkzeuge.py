@@ -25,6 +25,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import zipfile
+from concurrent.futures import ThreadPoolExecutor
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -269,6 +270,7 @@ class Bund:
 class Bayern:
     def __init__(self, abruf: Abruf):
         self.abruf = abruf
+        self._such_lock = threading.Lock()   # Suche = Formular + Filterseite in einer Sitzung, nicht verschränken
 
     def existiert(self, abk: str) -> bool:
         if not re.fullmatch(r"[A-Za-zÄÖÜäöüß0-9_]+", abk or ""):
@@ -298,11 +300,12 @@ class Bayern:
         pfad = self.abruf._pfad(schluessel_url, schluessel_url)
         if pfad.with_suffix(".bin").exists():
             return pfad.with_suffix(".bin").read_text(encoding="utf-8")
-        start = self.abruf.hole(f"{BAY}/Search", cache=False).decode("utf-8", "replace")
-        token = re.search(r'name="__RequestVerificationToken" type="hidden" value="([^"]+)"', start)
-        self.abruf.hole(f"{BAY}/Search", daten={"__RequestVerificationToken": token.group(1) if token else "",
-                                               "SearchFields.Content": stichwort}, cache=False)
-        seite = self.abruf.hole(f"{BAY}{filter_}", cache=False).decode("utf-8", "replace")
+        with self._such_lock:
+            start = self.abruf.hole(f"{BAY}/Search", cache=False).decode("utf-8", "replace")
+            token = re.search(r'name="__RequestVerificationToken" type="hidden" value="([^"]+)"', start)
+            self.abruf.hole(f"{BAY}/Search", daten={"__RequestVerificationToken": token.group(1) if token else "",
+                                                   "SearchFields.Content": stichwort}, cache=False)
+            seite = self.abruf.hole(f"{BAY}{filter_}", cache=False).decode("utf-8", "replace")
         pfad.parent.mkdir(parents=True, exist_ok=True)
         pfad.with_suffix(".bin").write_text(seite, encoding="utf-8")
         pfad.with_suffix(".meta.json").write_text(json.dumps(
@@ -574,12 +577,17 @@ class Werkzeuge:
 
     # Funktionen für das Modell -------------------------------------------------
     def suche_regelwerk(self, stichwort: str) -> dict:
-        treffer, gesehen = [], set()
-        for quelle in (self.tarif.suche, self.bund.suche, self.eu.suche, self.bayern.suche):
+        def frage(quelle):
             try:
-                ergebnisse = quelle(stichwort)
+                return quelle(stichwort)
             except Exception as e:  # eine Quelle darf ausfallen, ohne die anderen zu blockieren
-                ergebnisse = [{"fehler": f"{type(e).__name__}: {e}"[:200]}]
+                return [{"fehler": f"{type(e).__name__}: {e}"[:200]}]
+
+        # Quellen parallel abfragen (verschiedene Domains), Reihenfolge der Treffer bleibt fest
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            alle = list(pool.map(frage, (self.tarif.suche, self.bund.suche, self.eu.suche, self.bayern.suche)))
+        treffer, gesehen = [], set()
+        for ergebnisse in alle:
             for t in ergebnisse[:4]:
                 schluessel = t.get("regelwerk") or json.dumps(t)
                 if schluessel not in gesehen:

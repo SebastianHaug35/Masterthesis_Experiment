@@ -1,0 +1,736 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Trefferliste - B&#xFC;rgerservice</title>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
+      <link rel="stylesheet" href="/bundles/styles.css" />
+  
+
+  <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="fyxvNFVrU" async></script>
+</head>
+<body>
+<form action="/Search" id="searchForm" method="post">
+<nav class="navbar navbar-default navbar-fixed-top" aria-label="Seitennavigation">
+    <div class="row" id="header">
+        <div class="col-xs-12 col-sm-4" style="padding-right: 0px; padding-left: 0px;">
+            <a class="navbarItem" href="/" title="Zur Startseite von BAYERN.RECHT">
+                <img src="/Images/logo_bayern-recht.png" class="img-responsive pull-left hidden-xs" alt="Logo Bayern.Recht" />
+            </a>
+        </div>
+        <div id="portalLogo" class="col-xs-12 col-sm-8" style="padding-right: 0px; padding-left: 0px;">
+            <img src="/Images/logo_bayern.png" class="img-responsive pull-right hidden-xs" alt="Logo Bayern" />
+            <img src="/Images/logo_xs_bayern.png" class="img-responsive pull-right visible-xs" alt="Logo Bayern" />
+        </div>
+    </div>
+
+    <ul class="nav navbar-nav col-xs-8 col-sm-4 col-lg-3">
+        <li>
+                <a class="navbarItem" href="/" title="Zur Startseite von BAYERN.RECHT"><span style="font-size: 20px" class="glyphicon glyphicon-home"></span><span class="sr-only">Zur Startseite von BAYERN.RECHT</span></a>
+        </li>
+        <li>
+                <span class="navbarItem active" title="Trefferliste der letzten Suche"><span style="font-size: 20px; color: lightgray" class="glyphicon glyphicon-list"></span><span class="sr-only">Trefferliste der letzten Suche</span></span>
+        </li>
+    </ul>
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    
+    <div class="col-sm-5 col-lg-6" id="searchPanelDiv">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div style="padding:0px">
+              <div class="navbar-form">
+  <div at-target="searchSuggestInputGroup" class="input-group">
+    <input at-target="searchPanelBox" autocomplete="off" class="form-control" id="searchPanelBox" name="SearchFields.Content" aria-label="Suche" placeholder="Suche" title="Geben Sie die zu suchenden Begriffe wie Schlagworte, Aktenzeichen, Zitate in beliebiger Reihenfolge ein..." type="text" 
+           value="Bayerisches Hochschulgesetz">
+    <div style="width: 85px" class="input-group-btn">
+      <button at-target="searchPanelBoxClearer" id="searchPanelBoxClearer" title="Suche zurücksetzen" class="btn btn-default" type="button"><i class="glyphicon glyphicon-trash"></i><span class="sr-only">Suche zurücksetzen</span></button>
+      <button at-target="searchPanelBoxSubmit" class="btn btn-default" title="Suche ausführen" type="submit" style="padding: 3px 14px"><i style="font-size: 21px" class="glyphicon glyphicon-search"></i><span class="sr-only">Suche ausführen</span></button>
+    </div>
+  </div>
+</div>
+
+
+            </div>
+        </div>
+    </div>
+</nav>
+      <main class="container">
+            <div class="row">
+                
+<div id="navigation" role="navigation" class="col-sm-4 col-lg-3">
+    <h1 class="sr-only">Navigation</h1>
+  <div id="facets" class="nav">
+    <div class="panel-group">
+
+        
+<div class="panel panel-default">
+    <div class="panel-heading node-selected ">
+        <div class="panel-title" title="Vorschriften (2320)">
+            <img src="/Images/hitlist_gesetz.png" alt="gesetz" />
+                <a href="/Search/Filter/DOKTYP/norm" class="panel-group-item navPanelHeading">Vorschriften <span class="facet-count">(2320)</span></a>
+        </div>
+    </div>
+    <div id="rechtsvorschriften" class="panel-collapse collapse in documentNavigationType">
+        <div class="panel-body">
+            <div class="tree">
+                <ul class="list-group">
+                    
+<li class="list-group-item node-tree   " data-level="1" data-nodeid="2" data-docid="NORMTYP-ges" data-fieldname="NORMTYP" data-fieldvalue="ges" data-parent="" data-root="" data-count="237" title="Gesetze (237)">
+
+<span class="icon"><i class="glyphicon spacer"></i></span><span class="icon"><i></i></span><a href="/Search/Filter/NORMTYP/ges">Gesetze <span class="facet-count">(237)</span></a></li>
+
+<li class="list-group-item node-tree   " data-level="1" data-nodeid="1" data-docid="NORMTYP-rv" data-fieldname="NORMTYP" data-fieldvalue="rv" data-parent="" data-root="" data-count="486" title="Rechtsverordnungen (486)">
+
+<span class="icon"><i class="glyphicon spacer"></i></span><span class="icon"><i></i></span><a href="/Search/Filter/NORMTYP/rv">Rechtsverordnungen <span class="facet-count">(486)</span></a></li>
+
+<li class="list-group-item node-tree   " data-level="1" data-nodeid="0" data-docid="NORMTYP-vv" data-fieldname="NORMTYP" data-fieldvalue="vv" data-parent="" data-root="" data-count="1470" title="Verwaltungsvorschriften (1470)">
+
+<span class="icon"><i class="glyphicon spacer"></i></span><span class="icon"><i></i></span><a href="/Search/Filter/NORMTYP/vv">Verwaltungsvorschriften <span class="facet-count">(1470)</span></a></li>
+
+<li class="list-group-item node-tree   " data-level="1" data-nodeid="3" data-docid="NORMTYP-vertr" data-fieldname="NORMTYP" data-fieldvalue="vertr" data-parent="" data-root="" data-count="127" title="Vertr&#xE4;ge, sonstige Rechtsquellen (127)">
+
+<span class="icon"><i class="glyphicon spacer"></i></span><span class="icon"><i></i></span><a href="/Search/Filter/NORMTYP/vertr">Vertr&#xE4;ge, sonstige Rechtsquellen <span class="facet-count">(127)</span></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+<div class="panel panel-default">
+    <div class="panel-heading  ">
+        <div class="panel-title" title="Gerichtsentscheidungen (10423)">
+            <img src="/Images/hitlist_rechtsprechung.png" alt="rechtsprechung" />
+                <a href="/Search/Filter/DOKTYP/rspr" class="panel-group-item navPanelHeading">Gerichtsentscheidungen <span class="facet-count">(10423)</span></a>
+        </div>
+    </div>
+    <div id="gerichtsentscheidungen" class="panel-collapse collapse in documentNavigationType">
+        <div class="panel-body">
+            <div class="tree">
+                <ul class="list-group">
+                    
+<li class="list-group-item node-tree collapsed  " data-level="1" data-nodeid="0" data-docid="LEVEL1RSPRTREENODE-Verfassungsgerichtsbarkeit" data-fieldname="LEVEL1RSPRTREENODE" data-fieldvalue="Verfassungsgerichtsbarkeit" data-parent="" data-root="" data-count="169" title="Verfassungsgerichtsbarkeit (169)">
+
+<span class="icon" role="button" style=""><i tabindex="-1" class="click-expand glyphicon glyphicon-plus"></i><span class="sr-only">Bereich erweitern</span></span><span class="icon"><i></i></span><a href="/Search/Filter/LEVEL1RSPRTREENODE/Verfassungsgerichtsbarkeit">Verfassungsgerichtsbarkeit <span class="facet-count">(169)</span></a></li>
+
+<li class="list-group-item node-tree collapsed  " data-level="1" data-nodeid="1" data-docid="LEVEL1RSPRTREENODE-Ordentliche Gerichtsbarkeit" data-fieldname="LEVEL1RSPRTREENODE" data-fieldvalue="Ordentliche Gerichtsbarkeit" data-parent="" data-root="" data-count="1046" title="Ordentliche Gerichtsbarkeit (1046)">
+
+<span class="icon" role="button" style=""><i tabindex="-1" class="click-expand glyphicon glyphicon-plus"></i><span class="sr-only">Bereich erweitern</span></span><span class="icon"><i></i></span><a href="/Search/Filter/LEVEL1RSPRTREENODE/Ordentliche%20Gerichtsbarkeit">Ordentliche Gerichtsbarkeit <span class="facet-count">(1046)</span></a></li>
+
+<li class="list-group-item node-tree collapsed  " data-level="1" data-nodeid="2" data-docid="LEVEL1RSPRTREENODE-Verwaltungsgerichtsbarkeit" data-fieldname="LEVEL1RSPRTREENODE" data-fieldvalue="Verwaltungsgerichtsbarkeit" data-parent="" data-root="" data-count="8506" title="Verwaltungsgerichtsbarkeit (8506)">
+
+<span class="icon" role="button" style=""><i tabindex="-1" class="click-expand glyphicon glyphicon-plus"></i><span class="sr-only">Bereich erweitern</span></span><span class="icon"><i></i></span><a href="/Search/Filter/LEVEL1RSPRTREENODE/Verwaltungsgerichtsbarkeit">Verwaltungsgerichtsbarkeit <span class="facet-count">(8506)</span></a></li>
+
+<li class="list-group-item node-tree collapsed  " data-level="1" data-nodeid="3" data-docid="LEVEL1RSPRTREENODE-Finanzgerichtsbarkeit" data-fieldname="LEVEL1RSPRTREENODE" data-fieldvalue="Finanzgerichtsbarkeit" data-parent="" data-root="" data-count="53" title="Finanzgerichtsbarkeit (53)">
+
+<span class="icon" role="button" style=""><i tabindex="-1" class="click-expand glyphicon glyphicon-plus"></i><span class="sr-only">Bereich erweitern</span></span><span class="icon"><i></i></span><a href="/Search/Filter/LEVEL1RSPRTREENODE/Finanzgerichtsbarkeit">Finanzgerichtsbarkeit <span class="facet-count">(53)</span></a></li>
+
+<li class="list-group-item node-tree collapsed  " data-level="1" data-nodeid="4" data-docid="LEVEL1RSPRTREENODE-Arbeitsgerichtsbarkeit" data-fieldname="LEVEL1RSPRTREENODE" data-fieldvalue="Arbeitsgerichtsbarkeit" data-parent="" data-root="" data-count="99" title="Arbeitsgerichtsbarkeit (99)">
+
+<span class="icon" role="button" style=""><i tabindex="-1" class="click-expand glyphicon glyphicon-plus"></i><span class="sr-only">Bereich erweitern</span></span><span class="icon"><i></i></span><a href="/Search/Filter/LEVEL1RSPRTREENODE/Arbeitsgerichtsbarkeit">Arbeitsgerichtsbarkeit <span class="facet-count">(99)</span></a></li>
+
+<li class="list-group-item node-tree collapsed  " data-level="1" data-nodeid="5" data-docid="LEVEL1RSPRTREENODE-Dienstgericht" data-fieldname="LEVEL1RSPRTREENODE" data-fieldvalue="Dienstgericht" data-parent="" data-root="" data-count="1" title="Dienstgericht (1)">
+
+<span class="icon" role="button" style=""><i tabindex="-1" class="click-expand glyphicon glyphicon-plus"></i><span class="sr-only">Bereich erweitern</span></span><span class="icon"><i></i></span><a href="/Search/Filter/LEVEL1RSPRTREENODE/Dienstgericht">Dienstgericht <span class="facet-count">(1)</span></a></li>
+
+<li class="list-group-item node-tree collapsed  " data-level="1" data-nodeid="6" data-docid="LEVEL1RSPRTREENODE-Sozialgerichtsbarkeit" data-fieldname="LEVEL1RSPRTREENODE" data-fieldvalue="Sozialgerichtsbarkeit" data-parent="" data-root="" data-count="532" title="Sozialgerichtsbarkeit (532)">
+
+<span class="icon" role="button" style=""><i tabindex="-1" class="click-expand glyphicon glyphicon-plus"></i><span class="sr-only">Bereich erweitern</span></span><span class="icon"><i></i></span><a href="/Search/Filter/LEVEL1RSPRTREENODE/Sozialgerichtsbarkeit">Sozialgerichtsbarkeit <span class="facet-count">(532)</span></a></li>
+
+<li class="list-group-item node-tree collapsed  " data-level="1" data-nodeid="7" data-docid="LEVEL1RSPRTREENODE-Sonstige Gerichte" data-fieldname="LEVEL1RSPRTREENODE" data-fieldvalue="Sonstige Gerichte" data-parent="" data-root="" data-count="17" title="Sonstige Gerichte (17)">
+
+<span class="icon" role="button" style=""><i tabindex="-1" class="click-expand glyphicon glyphicon-plus"></i><span class="sr-only">Bereich erweitern</span></span><span class="icon"><i></i></span><a href="/Search/Filter/LEVEL1RSPRTREENODE/Sonstige%20Gerichte">Sonstige Gerichte <span class="facet-count">(17)</span></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+<div class="panel panel-default">
+    <div class="panel-heading inactive">
+        <div class="panel-title" title="RSS-Feed Gerichtsentscheidungen">
+            <img src="/Images/rss-icon.png" alt="rss" style="float:left" />
+            <span style="display:inline-block; margin-top:1px; margin-left: 3px;">
+                RSS-Feed Gerichtsentscheidungen
+            </span>
+        </div>
+    </div>
+    <div id="rss" class="panel-collapse collapse in documentNavigationType">
+        <div class="panel-body" style=" padding-bottom: 8px">
+            <span style="padding-left:25px; font-size: 90%">
+                <a href="/Content/Document/Rss">Abonnieren Sie hier!</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+        
+<div class="panel panel-default">
+    <div class="panel-heading inactive">
+        <div class="panel-title" title="Fortführungsnachweise">
+            <img src="/Images/ffn.png" alt="ffn" style="float:left" />
+            <span style="display:inline-block; margin-top:2px; margin-left: 3px;">
+                Fortführungsnachweise
+            </span>
+        </div>
+    </div>
+    <div id="ffn" class="panel-collapse collapse in documentNavigationType">
+        <div class="panel-body" style="padding-bottom: 8px; padding-left:25px;">
+            <div>
+                <span style="font-size: 90%">
+                    <a href="/Content/Document/ffn">Rechtsvorschriften</a>
+                </span>
+            </div>
+            <div>
+                <span style="font-size: 90%">
+          <a href="/Content/Document/ffn-mbl">Verwaltungsvorschriften (BayMBl.)</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+</div>
+<div role="search" class="col-sm-8 col-lg-6" style="padding:0px">
+    <h1 class="sr-only">Suche</h1>
+<div id="filterPanel">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Eingeschränkt auf:
+        </div>
+        <ul>
+            
+<li>
+    <span></span>Vorschriften
+    <a href="/Search/Filter/DOKTYP/norm/null/null/remove" title="Filter entfernen"><span class="glyphicon glyphicon-remove" style="padding-left:10px;"></span><span class="sr-only">Filter entfernen</span></a>
+</li>
+
+        </ul>
+    </div>
+</div>
+<div id="advancedSearch">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span>Vorschriften weiter einschränken:</span>
+            <a href="/Content/Document/Hilfe#Hilfe-2" title="Hilfe"><span class="glyphicon glyphicon-question-sign pull-right" style="font-size:15px;"></span><span class="sr-only">Hilfe</span></a>
+            <span id="clearer" title="Eingaben löschen" class="glyphicon glyphicon-trash pull-right" style="padding-right:20px;"></span><span class="sr-only">Eingaben löschen</span>
+            
+        </div>
+    </div>
+        
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <input autocomplete="off" class="form-control input-sm" id="gesabkSearchField" name="SearchFields.Abkuerzung" placeholder="Abk&#xFC;rzung" title="Geben Sie hier die amtliche Abk&#xFC;rzung der Vorschrift ein" type="text" value="" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <input autocomplete="off" class="form-control input-sm" id="glnrSearchField" name="SearchFields.Gliederungsnummer" placeholder="Gliederungsnummer" title="Geben Sie hier die Gliederungsnummer nach dem in Sachgebiete aufgeteilten Gliederungsplan der Bayerischen Rechtssammlung ein" type="text" value="" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-12">
+            <input autocomplete="off" class="form-control input-sm" id="fundstSearchField" name="SearchFields.Fundstelle" placeholder="Fundstelle" title="Geben Sie hier die Fundstelle im Bayerischen Gesetz- und Verordnungsblatt (GVBl.) ein" type="text" value="" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-7">
+            <button class="btn btn-sm btn-default" type="submit" title="Suche ausführen">Suchen</button>
+        </div>
+    </div>
+    
+<div id="buchstabenleisteDiv" class="btn-group btn-group-xs">
+    
+
+<a href="/Search/Filter/GESSORTCHAR/A" role="button" title="" class="  btn btn-default">A</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/B" role="button" title="" class="  btn btn-default">B</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/C" role="button" title="" class="  btn btn-default">C</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/D" role="button" title="" class="  btn btn-default">D</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/E" role="button" title="" class="  btn btn-default">E</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/F" role="button" title="" class="  btn btn-default">F</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/G" role="button" title="" class="  btn btn-default">G</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/H" role="button" title="" class="  btn btn-default">H</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/I" role="button" title="" class="  btn btn-default">I</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/J" role="button" title="" class="  btn btn-default">J</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/K" role="button" title="" class="  btn btn-default">K</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/L" role="button" title="" class="  btn btn-default">L</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/M" role="button" title="" class="  btn btn-default">M</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/N" role="button" title="" class="  btn btn-default">N</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/O" role="button" title="" class="  btn btn-default">O</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/P" role="button" title="" class="  btn btn-default">P</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/Q" role="button" title="" class="  btn btn-default">Q</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/R" role="button" title="" class="  btn btn-default">R</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/S" role="button" title="" class="  btn btn-default">S</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/T" role="button" title="" class="  btn btn-default">T</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/U" role="button" title="" class="  btn btn-default">U</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/V" role="button" title="" class="  btn btn-default">V</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/W" role="button" title="" class="  btn btn-default">W</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/X" role="button" title="" class="  btn btn-default">X</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/Y" role="button" title="" class="disabled  btn btn-default">Y</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/Z" role="button" title="" class="  btn btn-default">Z</a>
+
+
+<a href="/Search/Filter/GESSORTCHAR/asterix" role="button" title="0-9; Sonderzeichen" class="  btn btn-default">*</a>
+
+        <a role ="button" class="btn btn-default disabled"><span style="color:#707070; cursor:default" title="Filter löschen (inaktiv)" class="glyphicon glyphicon-trash"></span><span class="sr-only">Filter löschen (inaktiv)</span></a>
+</div>
+
+
+</div>
+            <div id="hitlistHeader">
+                <hr />
+                <p id="readable">8073 Treffer in 2320 Vorschriften</p>
+                <hr />
+            </div>
+
+<div id="hitlist" at-target="hitlist">
+    <ul>
+        
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayVwV152073?hl=true"><b>Vollzug des Bayer. Reisekostengesetzes, des Bayer. Umzugskostengesetzes und der Bayer. Trennungsgeldverordnung</b> – Vollzug des Bayerischen Reisekostengesetzes, des Bayerischen Umzugskostengesetzes und der Bayerischen Trennungsgeldverordnung (RUTVollzBek)</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.02.2026</p>
+            <p class="hlSnippet">...
+  
+  
+  
+    
+      
+      
+        2032.4-JVollzug des <em>Bayerischen</em> Reisekostengesetzes, des <em>Bayerischen</em> Umzugskostengesetzes und der <em>Bayerischen</em> Trennungsgeldverordnung (RUTVollzBek)
+        Bekanntmachung des <em>Bayerischen</em> Staatsministeriums der Justizvom 22. ...</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayZustV-63?hl=true">§ 63 Bayerisches Betreuungsgeldgesetz , Bayerisches Landeserziehungsgeldgesetz (ZustV)</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.10.2026</p>
+            <p class="hlSnippet">...
+            
+              § 63
+               <em>Bayerisches</em> Betreuungsgeldgesetz , <em>Bayerisches</em> Landeserziehungsgeldgesetz
+              
+            
+            Für den Vollzug des <em>Bayerischen</em> Betreuungsgeldgesetzes und des <em>Bayerischen</em> Landeserziehungsgeldgesetzes ist das Zentrum Bayern Familie und Soziales zuständig....</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayNotHSt-NN1?hl=true">Der Bayerische Ministerpräsident (BayNotHSt)</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.04.1980</p>
+            <p class="hlSnippet">...März 1924, zuletzt geändert durch Vertrag zwischen dem Heiligen Stuhl und dem Freistaat Bayern vom 7. Juli 1978, sowie auf den vorausgegangenen Schriftwechsel beehre ich mich, im Namen der <em>Bayerischen</em> Staatsregierung und mit Zustimmung des <em>Bayerischen</em> Landtags an Eure Exzellenz die Bitte zu richten, der <em>Bayerischen</em> Staatsregierung zu folgenden Feststellungen das Einverständnis des Heiligen Stuhls bestätigen zu wollen:
+        
+          
+        
+        “Die Vertragsparteien stimmen darin überein, daß sich die in Art. 5 § 1 des <em>Bayerischen</em> Konkordats vom 29. ...</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayVV_2246_K_796?hl=true"><b>Bayerische Theaterakademie</b> – Bayerische Theaterakademie</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.10.1999</p>
+            <p class="hlSnippet">...
+  
+  
+  
+    
+      
+      
+        <em>Bayerische</em> Theaterakademie
+        Bekanntmachung des <em>Bayerischen</em> Staatsministeriums für Wissenschaft, Forschung und Kunstvom 23. August 1999, Az. XII/6-K 2780-19/23 208
+        (KWMBl.I S. 305)
+        (StAnz. ...</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayVV_2246_K_736?hl=true"><b>Theaterkassengeschäfte</b> – Führung der Kassengeschäfte für die Bayerischen Staatstheater und die Bayerische Theaterakademie</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.01.1999</p>
+            <p class="hlSnippet">...Führung der Kassengeschäfte für die <em>Bayerischen</em> Staatstheater und die <em>Bayerische</em> Theaterakademie
+        Bekanntmachung des <em>Bayerischen</em> Staatsministeriums für Wissenschaft, Forschung und Kunstvom 11. ...</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayVwV96749?hl=true"><b>Vollzug des Bayer. ReisekostenG, des Bayer. UmzugskostenG und der Bayer. TrennungsgeldVO im Geschäftsbereich des Bayer. Staatsministeriums des Innern</b> – Vollzug des Bayerischen Reisekostengesetzes (BayRKG), des Bayerischen Umzugskostengesetzes (BayUKG) und der Bayerischen Trennungsgeldverordnung (BayTGV) im Geschäftsbereich des Bayerischen Staatsministeriums des Innern (VVInnRUT)</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.07.2006</p>
+            <p class="hlSnippet">...
+  
+  
+  
+    
+      
+      
+        2032.5-IVollzug des <em>Bayerischen</em> Reisekostengesetzes (BayRKG), des <em>Bayerischen</em> Umzugskostengesetzes (BayUKG) und der <em>Bayerischen</em> Trennungsgeldverordnung (BayTGV) im Geschäftsbereich des <em>Bayerischen</em> Staatsministeriums des Innern (VVInnRUT)
+        Bekanntmachung des <em>Bayerischen</em> Staatsministeriums des Innernvom 26. ...</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayVwV97231?hl=true"><b>BayLandHafenVerw</b> – Bayerische Landeshafenverwaltung</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.01.1988</p>
+            <p class="hlSnippet">...
+  
+  
+  
+    
+      
+      
+        <em>Bayerische</em> Landeshafenverwaltung
+        Bekanntmachung des <em>Bayerischen</em> Staatsministeriums für Wirtschaft, Verkehr und Technologievom 12. November 1987, Az. II E 6 - 4461.1.0-16
+        (AllMBl. ...</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayIntG-15?hl=true">Art. 15 Bayerischer Integrationsbeauftragter, Bayerischer Integrationsrat (BayIntG)</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 17.12.2024</p>
+            <p class="hlSnippet">...
+        
+          Art. 15
+           <em>Bayerischer</em> Integrationsbeauftragter, <em>Bayerischer</em> Integrationsrat 
+          
+        
+        (1) Die Staatsregierung beruft im Rahmen des <em>Bayerischen</em> Beauftragtengesetzes eine Persönlichkeit zu ihrer Beratung und Unterstützung in Fragen der Integrations-, Asyl- und Migrationspolitik (<em>Bayerischer</em> Integrationsbeauftragter)....</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayVV_7523_W_14172?hl=true"><b>Bayerisches Energieforschungsprogramm</b> – Bayerisches Energieforschungsprogramm</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.01.2024</p>
+            <p class="hlSnippet">...
+  
+  
+  
+    
+      
+      
+        7523-W<em>Bayerisches</em> Energieforschungsprogramm
+        Bekanntmachung des <em>Bayerischen</em> Staatsministeriums für Wirtschaft, Landesentwicklung und Energievom 22. November 2023, Az. 84-8290/1067/12
+        (BayMBl. ...</p>
+    </div>
+</li>
+<li class="hitlistItem">
+    <div style="display:table-cell; padding-right: 5px; vertical-align: top">
+        <img title="Vorschrift" src="/Images/hitlist_gesetz.png" alt="Vorschrift" />
+    </div>
+    <div style="display:table-cell;">
+            <p class="hltitel">
+                <a href="/Content/Document/BayVerswG-G2?hl=true">Zweiter Teil Bayerische Ärzteversorgung, Bayerische Apothekerversorgung, Bayerische Architektenversorgung, Bayerische Ingenieurversorgung-Bau mit Psychotherapeutenversorgung, Bayerische Rechtsanwalts- und Steuerberaterversorgung (Art. 28–39) (VersoG)</a>
+            </p>
+            <p class="hlSubTitel">Rechtsstand: 01.01.2024</p>
+            <p class="hlSnippet">...
+         Zweiter Teil <em>Bayerische</em> Ärzteversorgung, <em>Bayerische</em> Apothekerversorgung, <em>Bayerische</em> Architektenversorgung, <em>Bayerische</em> Ingenieurversorgung-Bau mit Psychotherapeutenversorgung, <em>Bayerische</em> Rechtsanwalts- und Steuerberaterversorgung 
+        Abschnitt I Gemeinsame Vorschriften (Art. 28–32a)
+        Abschnitt II Einzelne Versorgungsanstalten (Art. 33–39)
+      ...</p>
+    </div>
+</li>
+    </ul>
+</div>
+
+
+<div id="pager">
+    <nav>
+        <ul class="pagination">
+                <li class="disabled" title="Vorherige Seite (inaktiv)"><span>←</span></li>
+                            
+            <li class="active"><a href="/Search/Page/1">1</a></li>
+<li class=""><a href="/Search/Page/2">2</a></li>
+<li class=""><a href="/Search/Page/3">3</a></li>
+<li class=""><a href="/Search/Page/4">4</a></li>
+<li class=""><a href="/Search/Page/5">5</a></li>
+<li class=""><a href="/Search/Page/6">6</a></li>
+<li class=""><a href="/Search/Page/7">7</a></li>
+<li class=""><a href="/Search/Page/8">8</a></li>
+<li class=""><a href="/Search/Page/9">9</a></li>
+<li class=""><a href="/Search/Page/10">10</a></li>
+
+
+                <li><a href="/Search/Page/2" title="Nächste Seite">→</a></li>
+            
+        </ul>
+    </nav>
+</div>
+</div>
+<div class="col-lg-3 hidden-md hidden-sm hidden-xs" style="padding-right: 0px;">
+    <div class="panel-group">
+          <div id="tagcloud" class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title" title="Schlagworte">
+                <img src="/Images/hitlist_schlagworte.png" alt="Schlagworte" />
+                <span>Schlagworte</span>
+            </div>
+        </div>
+        <div id="schlagworte" class="panel-collapse collapse in documentNavigationType">
+            <div class="panel-body">
+                <ul>
+                    <li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Arbeits- und Sozialordnung">Arbeits- und Sozialordnung</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Arten">Arten</a>
+</li>
+<li>
+    <a class="tcl-3" href="/Search/Filter/skeyword1/Bayerische">Bayerische</a>
+</li>
+<li>
+    <a class="tcl-2" href="/Search/Filter/skeyword1/Bayern">Bayern</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/BGBl">BGBl</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Dezember">Dezember</a>
+</li>
+<li>
+    <a class="tcl-2" href="/Search/Filter/skeyword1/Einvernehmen">Einvernehmen</a>
+</li>
+<li>
+    <a class="tcl-2" href="/Search/Filter/skeyword1/Finanzen">Finanzen</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Freistaat">Freistaat</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Gesundheitlich">Gesundheitlich</a>
+</li>
+<li>
+    <a class="tcl-6" href="/Search/Filter/skeyword1/GVBl">GVBl</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Halbsatz">Halbsatz</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Justiz">Justiz</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Landtag">Landtag</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Landwirtschaft">Landwirtschaft</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Richtlinie">Richtlinie</a>
+</li>
+<li>
+    <a class="tcl-4" href="/Search/Filter/skeyword1/Staatsministerium">Staatsministerium</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Staatsregierung">Staatsregierung</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Staatsvertrag">Staatsvertrag</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Unterrichten">Unterrichten</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Unterrichtswesen">Unterrichtswesen</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Verbraucherschutz">Verbraucherschutz</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Verordnete">Verordnete</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Vertretung">Vertretung</a>
+</li>
+<li>
+    <a class="tcl-1" href="/Search/Filter/skeyword1/Wissenschaft">Wissenschaft</a>
+</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+</div>
+
+
+            </div>
+      </main>
+
+
+<footer class="row">
+    <ul>
+        <li class="col-sm-3">
+            <a href="http://www.bayern.de" target="_blank">Bayern.de</a>
+        </li>
+        <li class="col-sm-3">
+            <a href="http://www.freistaat.bayern/" target="_blank">BayernPortal</a>
+        </li>
+        <li class="col-sm-3">
+            <a href="/Content/Document/Datenschutz">Datenschutz</a>
+        </li>
+        <li class="col-sm-3">
+            <a href="/Content/Document/Impressum">Impressum</a>
+        </li>
+        <li class="col-sm-3">
+            <a href="/Content/Document/Barrierefreiheit">Barrierefreiheit</a>
+        </li>
+        <li class="col-sm-3">
+            <a href="/Content/Document/Hilfe">Hilfe</a>
+        </li>
+        <li class="col-sm-3">
+            <a href="http://www.bayern.de/service/bayern-direkt-2/" target="_blank">Kontakt</a>
+        </li>
+        <li class="col-sm-3">
+            <button class="btn btn-link" id="adjustFontsize" type="button"
+                    aria-describedby="adjustFontsizePopover"
+                    data-bs-toggle="popover">
+                <span style="font-size: 55%" class="glyphicon glyphicon-font" title="Schriftgröße"></span>
+                <span style="font-size: 90%" class="glyphicon glyphicon-font" title="Schriftgröße"></span>
+                <span class="sr-only">Schriftgröße</span>
+            </button>
+          <div id="adjustFontsizePopover" class="popover-template">
+            <ul id="fontsize-list" class="popover-list">
+              <li><a id="btn-fontsize-small" href="/changefontsize?fontsize=small"><span>A</span></a></li>
+              <li><a id="btn-fontsize-normal" href="/changefontsize?fontsize=middle"><span>A</span></a></li>
+              <li><a id="btn-fontsize-large" href="/changefontsize?fontsize=large"><span>A</span></a></li>
+            </ul>
+          </div>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <a href="/changecontrast" title="Kontrastwechsel"><span style="font-size: 120%" class="glyphicon glyphicon-adjust"></span><span class="sr-only">Kontrastwechsel</span></a>
+        </li>
+    </ul>
+</footer><input name="__RequestVerificationToken" type="hidden" value="CfDJ8Gls_-3P5FxJoYhn3gdqzZvL7FpwgS8EWj957ph0tDbOeWI-3GWEY6S6ZAIIpaTna6xNrVmlwPza2ZZMiZcgmnKcDagyPd9pQSVAqXf1aManNdGxZIFqpdt2HB_0k9cm6AzOio7gdk3lDxPc2kv1uXA" /></form>
+    <script type="text/plain" data-usercentrics="Matomo">
+        var _paq = _paq || [];
+        const regex = /-(?!bayern\.de)/g;
+        _paq.push(['setCustomUrl', location.href.replace(regex,'/') + '/']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        _paq.push(['setTrackerUrl', 'https://beck.matomo.cloud/matomo.php']);
+        _paq.push(['setSiteId', 4]);
+
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://beck.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+</script>
+
+
+    <script src="/bundles/jquery.js"></script>
+    
+    
+        <script src="/bundles/Scripts.js"></script>
+</body>
+</html>

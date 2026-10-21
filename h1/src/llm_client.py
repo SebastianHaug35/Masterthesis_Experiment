@@ -6,6 +6,7 @@ OpenAI-Websuche mit Domain-Filter (suche: openai).
 import json
 import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 
@@ -92,25 +93,32 @@ class LLMClient:
                 if resp.output_parsed is None:
                     self._notiere(f"{name}: Versuch {versuch} ohne parsebare Ausgabe (status={resp.status})")
                 return resp.output_parsed
+            erlaubt = calls[:max(0, limit - aufrufe)]
+            aufrufe += len(erlaubt)
+
+            def fuehre_aus(c):
+                try:
+                    argumente = json.loads(c.arguments or "{}")
+                except json.JSONDecodeError:
+                    argumente = {}
+                return self.werkzeuge.ausfuehren(c.name, argumente)
+
+            # Aufrufe einer Runde parallel ausführen (das Rate-Limit je Domain gilt weiter)
+            with ThreadPoolExecutor(max_workers=4) as pool:
+                ergebnisse = list(pool.map(fuehre_aus, erlaubt))
             ausgaben = []
-            for c in calls:
-                if aufrufe < limit:
-                    aufrufe += 1
-                    try:
-                        argumente = json.loads(c.arguments or "{}")
-                    except json.JSONDecodeError:
-                        argumente = {}
-                    text, eintrag = self.werkzeuge.ausfuehren(c.name, argumente)
-                    with self._lock:
-                        self.werkzeugaufrufe += 1
-                        self.werkzeugaufrufe_nicht_gefunden += 0 if eintrag["gefunden"] else 1
-                    eintrag = {"zeit": datetime.now().astimezone().isoformat(timespec="seconds"),
-                               "versuch": versuch, "runde": runde, **eintrag}
-                    with protokoll.open("a", encoding="utf-8") as f:
-                        f.write(json.dumps(eintrag, ensure_ascii=False) + "\n")
-                else:
-                    text = json.dumps({"fehler": "Werkzeuglimit erreicht"}, ensure_ascii=False)
+            for c, (text, eintrag) in zip(erlaubt, ergebnisse):
+                with self._lock:
+                    self.werkzeugaufrufe += 1
+                    self.werkzeugaufrufe_nicht_gefunden += 0 if eintrag["gefunden"] else 1
+                eintrag = {"zeit": datetime.now().astimezone().isoformat(timespec="seconds"),
+                           "versuch": versuch, "runde": runde, **eintrag}
+                with protokoll.open("a", encoding="utf-8") as f:
+                    f.write(json.dumps(eintrag, ensure_ascii=False) + "\n")
                 ausgaben.append({"type": "function_call_output", "call_id": c.call_id, "output": text})
+            for c in calls[len(erlaubt):]:
+                ausgaben.append({"type": "function_call_output", "call_id": c.call_id,
+                                 "output": json.dumps({"fehler": "Werkzeuglimit erreicht"}, ensure_ascii=False)})
             eingabe = ausgaben
             if aufrufe >= limit and not limit_gesendet:
                 limit_gesendet = True

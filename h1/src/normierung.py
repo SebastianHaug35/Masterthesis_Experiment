@@ -19,6 +19,14 @@ REGELWERK_MUSTER = [
 ]
 
 
+def eu_bezeichnung(kurz: str) -> str | None:
+    """Kurzform -> 'Verordnung (EU) JJJJ/NNN', sofern das Muster der Kurzform eine EU-Nummer enthält."""
+    for k, muster in REGELWERK_MUSTER:
+        if k == kurz and (m := re.search(r"(\d{4})/(\d+)", muster)):
+            return f"Verordnung (EU) {m.group(1)}/{m.group(2)}"
+    return None
+
+
 def _suche(text: str) -> str | None:
     t = text.lower()
     for kurz, muster in REGELWERK_MUSTER:

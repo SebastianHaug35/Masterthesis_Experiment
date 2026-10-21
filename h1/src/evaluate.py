@@ -11,9 +11,11 @@ from pathlib import Path
 import pandas as pd
 
 from .config import Config, lade_config
+from . import kosten
 from .models import Fund
-from .normierung import absatz_nummer, fundstelle_text, norm_fundstelle, norm_regelwerk, zerlege_fund
+from .normierung import eu_bezeichnung, absatz_nummer, fundstelle_text, norm_fundstelle, norm_regelwerk, zerlege_fund
 from .stufe2 import lueckenkandidaten
+from .werkzeuge import Werkzeuge, norm_schluessel
 
 TEILPROZESSE = ["TP1", "TP2", "TP3", "TP4", "TP5", "TP6"]
 MANUELL_START = "<!-- MANUELL START: alles ab hier bleibt bei erneutem evaluate.py erhalten -->"
@@ -57,7 +59,66 @@ def lade_lauf(run_dir: Path) -> dict:
         "rechtsrahmen": rechtsrahmen or [],
         "funde": funde,
         "protokoll": json_oder("protokoll.json", {}),
+        "geladen": _geladene_normen(run_dir),
     }
+
+
+def _geladene_normen(run_dir: Path) -> dict[str, set] | None:
+    """Je Aufruf (z. B. 'stufe2_T1.1') die mit lade_norm erfolgreich geladenen (Kennung, Norm) des letzten Versuchs;
+    None, wenn der Lauf keine eigenen Werkzeuge nutzte."""
+    dateien = list((run_dir / "raw").glob("werkzeuge_*.jsonl"))
+    if not dateien:
+        return None
+    geladen = {}
+    for d in dateien:
+        eintraege = [json.loads(z) for z in d.read_text(encoding="utf-8").splitlines() if z.strip()]
+        letzter = max((e.get("versuch", 1) for e in eintraege), default=1)
+        geladen[d.stem.removeprefix("werkzeuge_")] = {
+            (e.get("kennung"), e.get("norm_schluessel")) for e in eintraege
+            if e.get("versuch", 1) == letzter and e["funktion"] == "lade_norm" and e["gefunden"]}
+    return geladen
+
+
+# --------------------------------------------------------------------------- Existenzprüfung
+
+def _kennung(werkzeuge: Werkzeuge, roh: str, kurz: str) -> str | None:
+    for kandidat in (eu_bezeichnung(kurz), kurz, roh):
+        if kandidat and (k := werkzeuge.kennung(kandidat)):
+            return k
+    return None
+
+
+def pruefe_fund(fund: dict, werkzeuge: Werkzeuge | None, geladen: set | None) -> tuple[str, bool | None]:
+    """-> (existiert: 'ja' | 'nein' | 'unbekannt', vorher_geladen: True/False/None).
+    'nein', wenn mindestens eine genannte Norm im (auflösbaren) Regelwerk nicht vorkommt; 'unbekannt', wenn das
+    Regelwerk nicht auflösbar ist, keine Norm erkannt wird oder das Regelwerk keine Normen dieser Art enthält
+    (z. B. Anlagen des TV-L)."""
+    if werkzeuge is None:
+        return "unbekannt", None
+    ergebnisse, geladen_alle = [], True
+    teile = zerlege_fund(fund["regelwerk"], fund["fundstelle"])
+    for rw, art, _ in teile:
+        key = norm_schluessel(art) if art else None
+        k = _kennung(werkzeuge, fund["regelwerk"] if len(teile) == 1 else rw, rw)
+        if not k or not key:
+            ergebnisse.append(None)
+            geladen_alle = False
+            continue
+        try:
+            dok = werkzeuge.dokument(k)
+        except Exception:
+            ergebnisse.append(None)
+            geladen_alle = False
+            continue
+        if key in dok.normen:
+            ergebnisse.append(True)
+        elif any(n.split()[0] == key.split()[0] for n in dok.normen):
+            ergebnisse.append(False)
+        else:
+            ergebnisse.append(None)
+        geladen_alle &= geladen is not None and (k, key) in geladen
+    existiert = "nein" if False in ergebnisse else ("ja" if ergebnisse and all(ergebnisse) else "unbekannt")
+    return existiert, (geladen_alle if geladen is not None else None)
 
 
 # --------------------------------------------------------------------------- Bewertung
@@ -150,7 +211,7 @@ def _anteil(maske) -> float | None:
     return maske.mean() if len(maske) else None
 
 
-def werte_lauf_aus(lauf: dict, soll: pd.DataFrame) -> dict:
+def werte_lauf_aus(lauf: dict, soll: pd.DataFrame, werkzeuge: Werkzeuge | None = None) -> dict:
     meta = lauf["meta"]
     run_id, konfig, version = meta.get("run_id", lauf["dir"].name), meta.get("konfig", "?"), lauf["version"]
 
@@ -159,6 +220,8 @@ def werte_lauf_aus(lauf: dict, soll: pd.DataFrame) -> dict:
     for f in lauf["funde"]:
         bewertung, treffer, zuo_treffer = bewerte_fund(f, soll)
         rw, art, _ = zerlege_fund(f["regelwerk"], f["fundstelle"])[0]
+        geladen = None if lauf["geladen"] is None else lauf["geladen"].get(f"stufe2_{f['task_id']}", set())
+        existiert, vorher_geladen = pruefe_fund(f, werkzeuge, geladen)
         if f["typ"] == "zuordnung":
             gefunden.update(treffer)
         else:
@@ -171,6 +234,7 @@ def werte_lauf_aus(lauf: dict, soll: pd.DataFrame) -> dict:
                        "fundstelle_norm": fundstelle_text(f["fundstelle"]),
                        "bewertung": bewertung, "soll_ids": ",".join(treffer),
                        "soll_zuordnungen_bei_luecke": ",".join(zuo_treffer),
+                       "existiert": existiert, "erfunden": existiert == "nein", "vorher_geladen": vorher_geladen,
                        "manuell_pruefen": bewertung in ("nicht_in_soll", "luecke_ohne_soll")})
     funde = pd.DataFrame(zeilen)
     zuo = funde[funde["typ"] == "zuordnung"] if len(funde) else funde
@@ -247,6 +311,13 @@ def werte_lauf_aus(lauf: dict, soll: pd.DataFrame) -> dict:
     k["anteil_unsicher"] = _anteil(funde["sicherheit"] == "unsicher") if len(funde) else None
     k["anteil_nicht_in_soll"] = _anteil(funde["bewertung"].isin(["nicht_in_soll", "luecke_ohne_soll"])) \
         if len(funde) else None
+    k["anteil_erfunden"] = _anteil(funde["existiert"] == "nein") if len(funde) else None
+    k["n_erfunden"] = int((funde["existiert"] == "nein").sum()) if len(funde) else 0
+    k["anteil_existenz_unbekannt"] = _anteil(funde["existiert"] == "unbekannt") if len(funde) else None
+    k["anteil_vorher_geladen"] = (_anteil(funde["vorher_geladen"] == True)  # noqa: E712
+                                  if len(funde) and lauf["geladen"] is not None else None)
+    k["werkzeugaufrufe"] = meta.get("werkzeugaufrufe") if meta.get("suche") == "eigen" else None
+    k["werkzeugaufrufe_nicht_gefunden"] = meta.get("werkzeugaufrufe_nicht_gefunden") if meta.get("suche") == "eigen" else None
     k["tokens_input"] = meta.get("tokens_input", 0)
     k["tokens_output"] = meta.get("tokens_output", 0)
     k["websuchen"] = lauf["protokoll"].get("web_search_aufrufe")
@@ -343,6 +414,12 @@ ZEILEN_UEBERSICHT = [
     ("H1b falsche Lückenmeldungen (dedupliziert)", "falsche_luecken", _zahl1),
     ("H1b Kontrolle: Fehlmeldungen S23", "kontrolle_fehlmeldungen", _zahl1),
     ("Anteil Zuordnungen mit Hinweis", "anteil_hinweis", _p),
+    ("Anteil erfundene Normen (existiert = nein)", "anteil_erfunden", _p),
+    ("Anzahl erfundene Normen", "n_erfunden", _zahl1),
+    ("Anteil Existenz nicht prüfbar", "anteil_existenz_unbekannt", _p),
+    ("Anteil Funde mit vorher geladener Norm", "anteil_vorher_geladen", _p),
+    ("Werkzeugaufrufe", "werkzeugaufrufe", _zahl1),
+    ("Werkzeugaufrufe ohne Ergebnis", "werkzeugaufrufe_nicht_gefunden", _zahl1),
     ("Anteil unsicher", "anteil_unsicher", _p), ("Anteil nicht_in_soll / luecke_ohne_soll", "anteil_nicht_in_soll", _p),
     ("Tokens Input", "tokens_input", _zahl), ("Tokens Output", "tokens_output", _zahl),
     ("Websuchen", "websuchen", _zahl1), ("Kosten USD (geschätzt)", "kosten_usd", lambda x: _zahl(x, 3)),
@@ -388,23 +465,30 @@ def _nach_gruppe(auswertungen: list[dict]) -> dict[tuple[str, str], list[dict]]:
 def ergebnis_auto_md(auswertungen: list[dict], soll: pd.DataFrame, kennzahlen: pd.DataFrame) -> str:
     gruppen = _nach_gruppe(auswertungen)
     kopf, linie = _gruppen_kopf([(v, k, len(g)) for (v, k), g in gruppen.items()])
-    md = ["# ERGEBNIS H1 (inkl. H1b)", "",
+    try:
+        warn = kosten.warnung()
+    except Exception:
+        warn = None
+    md = ["# ERGEBNIS H1 (inkl. H1b)", ""] + ([warn, ""] if warn else []) + [
           "Automatisch erzeugt von `python -m src.evaluate` (Abschnitte 1–4 und Material 5a). Alle Läufe sind gegen die "
           "**aktuelle** Soll-Liste ausgewertet und nach (`version`, `konfig`) gruppiert; Werte = Mittelwert ± "
           "Standardabweichung über die Läufe. Abschnitte 5–8 unten sind manuell gepflegt. Begriffe: `README.md`, "
           "`DECISIONS.md`. Details je Lauf: `results/kennzahlen.csv`, `funde_bewertet.csv`, `luecken_bewertet.csv`, "
           "`uebersehen.csv`.", "",
           "## 1. Lauf-Metadaten", "",
-          "| run_id | Version | Konfig | Modell-Snapshot | reasoning_effort | Dauer | Tokens in | Tokens out | Websuchen | Kosten USD (geschätzt) | Status |",
-          "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+          "| run_id | Version | Konfig | Suche | Modell-Snapshot | reasoning_effort | Dauer | Tokens in | Tokens out | Websuchen / Werkzeugaufrufe | Kosten USD (geschätzt) | Status |",
+          "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     for a in auswertungen:
         m, p = a["lauf"]["meta"], a["lauf"]["protokoll"]
         status = "abgebrochen" if p.get("abgebrochen") else (
             f"{len(p.get('stufe2_fehlgeschlagen', []))} Task(s) fehlgeschlagen" if p.get("stufe2_fehlgeschlagen") else "ok")
         retries = len(p.get("fehler", []))
-        md.append(f"| {m.get('run_id')} | {a['lauf']['version']} | {m.get('konfig')} | `{m.get('modell')}` | "
+        suche = m.get("suche", "openai")
+        aufrufe = (f"{m.get('werkzeugaufrufe', 0)} ({m.get('werkzeugaufrufe_nicht_gefunden', 0)} ohne Ergebnis)"
+                   if suche == "eigen" else p.get('web_search_aufrufe', '–'))
+        md.append(f"| {m.get('run_id')} | {a['lauf']['version']} | {m.get('konfig')} | {suche} | `{m.get('modell')}` | "
                   f"{m.get('reasoning_effort')} | {_dauer(m)} | {_zahl(m.get('tokens_input'))} | "
-                  f"{_zahl(m.get('tokens_output'))} | {p.get('web_search_aufrufe', '–')} | "
+                  f"{_zahl(m.get('tokens_output'))} | {aufrufe} | "
                   f"{m.get('kosten_usd_geschaetzt')} | {status}{f' ({retries} Fehler/Retries)' if retries else ''} |")
     md += ["", "### Übersicht je (version, konfig)", ""] + _kennzahl_tabelle(kennzahlen, ZEILEN_UEBERSICHT)
 
@@ -526,6 +610,22 @@ def ergebnis_auto_md(auswertungen: list[dict], soll: pd.DataFrame, kennzahlen: p
                f"{_p(r.unsicher)} | {_zitat(r.fundstelle, 60)} | {_zitat(r.quelle, 90)} | {_zitat(r.zitat, 200)} |"
                for r in tab.itertuples()]
         md.append("")
+    md += ["## 5b. Material: Funde mit nicht existierender Norm (`existiert = nein`)", "",
+           "Geprüft mit `lade_norm` (Cache) auf Ebene Artikel/Paragraf; Absätze werden nicht geprüft.", ""]
+    for (version, konfig), l in gruppen.items():
+        funde = pd.concat([a["funde"] for a in l if not a["funde"].empty] or [pd.DataFrame()], ignore_index=True)
+        if funde.empty:
+            continue
+        erf = funde[funde["existiert"] == "nein"]
+        md += [f"### {version} {konfig} ({len(erf)} von {len(funde)} Funden)", ""]
+        if erf.empty:
+            md += ["Keine.", ""]
+            continue
+        md += ["| run_id | fund_id | Task | Regelwerk | Fundstelle | Sicherheit | Quelle | Zitat Begründung |",
+               "| --- | --- | --- | --- | --- | --- | --- | --- |"]
+        md += [f"| {r.run_id} | {r.fund_id} | {r.task_id} | {r.regelwerk} | {_zitat(r.fundstelle, 60)} | {r.sicherheit} | "
+               f"{_zitat(r.quelle_url, 90)} | {_zitat(r.begruendung, 200)} |" for r in erf.itertuples()]
+        md.append("")
     return "\n".join(md)
 
 
@@ -573,7 +673,8 @@ def main() -> None:
         raise SystemExit("Keine Läufe gefunden.")
 
     soll = lade_soll(cfg)
-    auswertungen = [werte_lauf_aus(lade_lauf(d), soll) for d in run_dirs]
+    werkzeuge = Werkzeuge(cfg.input_dir.parent / "cache")
+    auswertungen = [werte_lauf_aus(lade_lauf(d), soll, werkzeuge) for d in run_dirs]
     out = cfg.results_dir
     out.mkdir(parents=True, exist_ok=True)
 

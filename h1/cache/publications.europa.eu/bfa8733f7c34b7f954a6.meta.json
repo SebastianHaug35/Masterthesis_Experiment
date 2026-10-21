@@ -1,0 +1,10 @@
+{
+ "url": "https://publications.europa.eu/webapi/rdf/sparql?query=PREFIX+cdm%3A+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fontology%2Fcdm%23%3E%0ASELECT+DISTINCT+%3Fcelex+%3Ftitle+WHERE+%7B%0A++%3Fw+cdm%3Aresource_legal_id_celex+%3Fcelex+.%0A++%3Fe+cdm%3Aexpression_belongs_to_work+%3Fw+%3B%0A+++++cdm%3Aexpression_uses_language+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Flanguage%2FDEU%3E+%3B%0A+++++cdm%3Aexpression_title+%3Ftitle+.%0A++FILTER%28REGEX%28STR%28%3Fcelex%29%2C+%22%5E3%5B0-9%5D%7B4%7D%5BRL%5D%5B0-9%5D%7B4%7D%24%22%29%29%0A++FILTER%28CONTAINS%28LCASE%28STR%28%3Ftitle%29%29%2C+%22b%C3%BCrgerliches%22%29%29+FILTER%28CONTAINS%28LCASE%28STR%28%3Ftitle%29%29%2C+%22gesetzbuch%22%29%29%0A%7D+LIMIT+20",
+ "final_url": "https://publications.europa.eu/webapi/rdf/sparql?query=PREFIX+cdm%3A+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fontology%2Fcdm%23%3E%0ASELECT+DISTINCT+%3Fcelex+%3Ftitle+WHERE+%7B%0A++%3Fw+cdm%3Aresource_legal_id_celex+%3Fcelex+.%0A++%3Fe+cdm%3Aexpression_belongs_to_work+%3Fw+%3B%0A+++++cdm%3Aexpression_uses_language+%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Flanguage%2FDEU%3E+%3B%0A+++++cdm%3Aexpression_title+%3Ftitle+.%0A++FILTER%28REGEX%28STR%28%3Fcelex%29%2C+%22%5E3%5B0-9%5D%7B4%7D%5BRL%5D%5B0-9%5D%7B4%7D%24%22%29%29%0A++FILTER%28CONTAINS%28LCASE%28STR%28%3Ftitle%29%29%2C+%22b%C3%BCrgerliches%22%29%29+FILTER%28CONTAINS%28LCASE%28STR%28%3Ftitle%29%29%2C+%22gesetzbuch%22%29%29%0A%7D+LIMIT+20",
+ "status": 200,
+ "headers": {
+  "Accept": "application/sparql-results+json"
+ },
+ "daten": {},
+ "abgerufen": "2026-10-21T11:31:41+02:00"
+}

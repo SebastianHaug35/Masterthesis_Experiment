@@ -1,0 +1,92 @@
+[
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "bdsg_2018",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Ergänzt die DSGVO für die Verarbeitung personenbezogener Daten im Beschäftigungskontext und ist für Bewerberdaten und das Auswahlverfahren zu berücksichtigen."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayHIG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Das Gesetz regelt die bayerischen Hochschulen und enthält Bestimmungen zu wissenschaftlichen Mitarbeiterinnen und Mitarbeitern mit Weiterqualifizierungsaufgaben. Es ist für die wissenschaftliche Qualifizierungsstelle und deren Besetzung einschlägig."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "wisszeitvg",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Die Stelle ist als befristete wissenschaftliche Qualifizierungsstelle mit Promotionsziel für drei Jahre beschrieben. Das Wissenschaftszeitvertragsgesetz ist daher für die Befristung und den Qualifizierungszweck zu berücksichtigen."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "BayPVG",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Die Hochschule ist eine bayerische öffentliche Einrichtung mit Personalrat. Personalvertretungsrechtliche Beteiligungsrechte können bei personellen Maßnahmen sowie bei Einführung oder Anwendung technischer Systeme zur Bewerberauswahl berührt sein."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "sgb9ua_ndg",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Bei Bewerbungen schwerbehinderter oder gleichgestellter Menschen können besondere Pflichten des öffentlichen Arbeitgebers im Bewerbungs- und Auswahlverfahren ausgelöst werden, insbesondere hinsichtlich Einladung und Beteiligung der zuständigen Stellen."
+  },
+  {
+    "quelle": "regelwerk_ohne_zuordnung",
+    "regelwerk": "bgb",
+    "fundstelle": "",
+    "task_id": null,
+    "fund_id": null,
+    "fehlender_schritt": null,
+    "begruendung": "Das BGB enthält die allgemeinen Regeln zum Zustandekommen und Inhalt privatrechtlicher Arbeitsverträge und ist daher für Vertragsangebot und Abschluss des Arbeitsvertrags relevant."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 3 Buchst. a",
+    "task_id": "T3.2",
+    "fund_id": "F044",
+    "fehlender_schritt": "Vor dem Einsatz des Rankings prüfen und gegebenenfalls eine Datenschutz-Folgenabschätzung durchführen; im Gesamtprozess ist hierfür kein eigener Task aufgeführt.",
+    "begruendung": "Eine Folgenabschätzung ist insbesondere erforderlich, wenn persönliche Aspekte systematisch und umfassend automatisiert bewertet werden und diese Bewertung Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung grundlegt. Ob das Ranking diese Schwelle erreicht, hängt von seiner konkreten Ausgestaltung und Wirkung ab."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 6",
+    "task_id": "T3.4",
+    "fund_id": "F059",
+    "fehlender_schritt": "Automatisch erzeugte Protokolle des Hochrisiko-KI-Systems, soweit sie der Kontrolle der Hochschule unterliegen, für mindestens sechs Monate oder eine abweichende gesetzliche Aufbewahrungsdauer sichern.",
+    "begruendung": "Der Gesamtprozess nennt die Aufbewahrung und Löschung von Bewerberdaten, aber keinen eigenen Schritt zur Aufbewahrung der automatisch erzeugten Systemprotokolle. Die Pflicht gilt, sofern das eingesetzte System als Hochrisiko-KI-System einzustufen ist."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 7",
+    "task_id": "T3.4",
+    "fund_id": "F060",
+    "fehlender_schritt": "Vor der Inbetriebnahme oder Verwendung des Hochrisiko-KI-Systems die Arbeitnehmervertretung und betroffene Arbeitnehmer über die Verwendung des Systems informieren.",
+    "begruendung": "Der Gesamtprozess enthält keinen ausdrücklich vorgesehenen Informationsschritt vor der Verwendung des KI-Systems am Arbeitsplatz. Die Informationspflicht ist zu beachten, sofern das System als Hochrisiko-KI-System eingesetzt wird."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.4",
+    "fund_id": "F061",
+    "fehlender_schritt": "Vor der Inbetriebnahme des Hochrisiko-KI-Systems eine Grundrechte-Folgenabschätzung durchführen und die Ergebnisse der Marktüberwachungsbehörde mitteilen.",
+    "begruendung": "Die Hochschule ist eine Einrichtung des öffentlichen Rechts. Im Gesamtprozess ist keine Grundrechte-Folgenabschätzung vor der Inbetriebnahme des für die Bewerberauswahl eingesetzten Systems vorgesehen. Die Pflicht setzt voraus, dass das System als Hochrisiko-KI-System nach Art. 6 Abs. 2 einzustufen ist."
+  }
+]

@@ -170,3 +170,66 @@ gleichzeitig getroffen würden.
     `luecken_bewertet.csv` (deduplizierte Lückenmeldungen je Lauf mit Kategorie).
 39. **Laufnummern:** Die Nummer zählt je Konfiguration über alle Versionen weiter. Die v2-Läufe A heißen daher
     `A_2` bis `A_6`, die v2-Läufe B `B_1` bis `B_5`.
+
+## v3 (Auftrag 003, 21.10.2026)
+
+40. **EUR-Lex über Cellar:** `eur-lex.europa.eu` beantwortet Anfragen ohne Browser mit einer AWS-WAF-Challenge
+    (HTTP 202, `x-amzn-waf-action: challenge`). Die Challenge umgehe ich bewusst nicht. EU-Rechtsakte kommen deshalb
+    über die offizielle maschinelle Schnittstelle desselben Herausgebers (Amt für Veröffentlichungen, Cellar):
+    `publications.europa.eu/resource/celex/<CELEX>` (XHTML, deutsch) und dessen SPARQL-Endpunkt für die Titelsuche und
+    die neueste konsolidierte Fassung (`0JJJJRNNNN-JJJJMMTT`). Dem Modell gebe ich als `quelle_url` die kanonische
+    EUR-Lex-URL desselben CELEX-Dokuments (mit Anker `#art_N`). `publications.europa.eu` ist deshalb technisch als
+    fünfte Domain freigegeben, aber nur als Backend von EUR-Lex.
+41. **EU-Abkürzungen** (DSGVO, AI Act, KI-VO) stehen nicht in den amtlichen Titeln. Ohne fest eingebaute Liste löst
+    das Werkzeug sie nicht auf und meldet „nicht gefunden“ mit dem Hinweis, EU-Rechtsakte als
+    „Verordnung (EU) JJJJ/NNNN“ anzugeben. Über Titelwörter (z. B. „Datenschutz-Grundverordnung“, „künstliche
+    Intelligenz“) findet `suche_regelwerk` sie. CELEX-Regel: `3` + Jahr + `R` (Verordnung) bzw. `L` (Richtlinie) +
+    vierstellige Nummer.
+42. **Bund:** Auflösung über `gii-toc.xml`. Die Abkürzung wird in Slug-Form gebracht (Kleinschreibung, Leerzeichen →
+    `_`, römische Zahlen → arabisch: „SGB IX“ → `sgb_9`); trifft das nicht genau, wird ein Slug mit Jahreszusatz
+    (`bdsg_2018`, `sgb_9_2018`) genommen, sonst die Titelsuche (alle Wörter im Titel). Normtexte aus `xml.zip`,
+    Fassung aus `standangabe`.
+43. **Bayern:** Die Abkürzung wird direkt als Dokument geprüft (`/Content/Document/<Abk>`, Seite muss „(<Abk>)“
+    enthalten). Normtexte kommen aus der Gesamtansicht `/Content/Document/<Abk>/true`. `suche_regelwerk` nutzt das
+    Suchformular der Seite (Token und Sitzungscookie), gefiltert auf „Gesetze“, danach auf „Vorschriften“; die
+    Abkürzung ist das Präfix der Dokument-ID. Suchergebnisse werden je Stichwort gecacht.
+44. **TV-L:** Das PDF wird über die Seite `tdl-online.de/tarifvertraege/tv-l` gefunden (Link `TV-L__i.d.F.…pdf`),
+    mit `pypdf` gelesen und an Zeilen, die nur „§ N“ enthalten, in Paragrafen zerlegt (Überschrift = folgende
+    Zeile). Anlagen (Entgeltordnung) werden nicht zerlegt; andere Tarifverträge liefern „nicht gefunden“.
+45. **Auflösungsreihenfolge** (`Werkzeuge.kennung`): EU-Nummer → TV-L → Bund-Slug → Bayern-Abkürzung →
+    Bund-Titelsuche → EU-Titelsuche. Grund: Abkürzungen sind eindeutiger als Titelwörter.
+46. **Cache:** `h1/cache/<domain>/<sha1>.bin` + `.meta.json` (URL, Status, Abrufdatum), ohne Ablaufzeit, damit alle
+    Läufe auf denselben Textstand zugreifen. Ausnahme: Suchformular-Abrufe von gesetze-bayern.de (Token) werden
+    nicht gecacht, nur das Suchergebnis. `cache/tdl-online.de/` ist in `.gitignore`.
+47. **Höflicher Abruf:** höchstens 1 Anfrage/s je Domain (Lock je Domain), User-Agent laut Auftrag. Die Quellen
+    einer `suche_regelwerk`-Anfrage und die Werkzeugaufrufe einer Runde laufen parallel; das betrifft nur
+    verschiedene Domains. Die Bayern-Suche läuft unter einem eigenen Lock (Formular und Ergebnisseite in einer Sitzung).
+48. **Kürzung:** Rückgaben über 6000 Zeichen werden gekürzt (`text` bzw. Listen werden gekürzt, `"gekuerzt": true`).
+49. **Schleife (llm_client):** `previous_response_id` und `function_call_output`. Die Aufrufe einer Antwort werden
+    bis zum Limit ausgeführt; darüber hinaus bekommen sie `{"fehler": "Werkzeuglimit erreicht"}`. Ist das Limit
+    erreicht, wird einmal mit `tool_choice: none` und der Aufforderung zur Endantwort nachgefragt; das steht in
+    `protokoll.json` (`werkzeuglimit_erreicht`). Ohne parsebare Endantwort wird der ganze Aufruf wiederholt
+    (bis `max_retries`); die Werkzeugprotokolle tragen dafür die Felder `versuch` und `runde`.
+50. **Kostenkontrolle:** Vor jedem API-Aufruf wird geschätzt: (bisheriger Kontext + neue Werkzeugausgaben/3)
+    Input-Tokens + 6000 Output-Tokens. Geprüft wird gegen `budget.yaml` (Summe aus `kosten/verbrauch.csv` seit
+    Stichtag) und gegen `budget_usd_lauf`. Bei parallelen Tasks können bis zu 4 Aufrufe gleichzeitig die Prüfung
+    bestehen; die mögliche Überschreitung liegt im Bereich von Cent. `insufficient_quota` bzw.
+    `credit_balance_exhausted` → sofortiger Abbruch ohne Retry. Abgebrochene Läufe (Guthaben/Budget) werden nach
+    `runs_ungueltig/` verschoben.
+51. **Auftragsbudget:** Ein neuer Lauf startet nur, wenn Summe der Kosten aller Läufe dieser Version (gültig und
+    ungültig) + Schätzung ≤ `budget_usd_auftrag`. Schätzung = teuerster bisheriger Lauf der Version, ohne
+    bisherige Läufe `budget_usd_lauf`.
+52. **Costs-API:** Ist `OPENAI_ADMIN_KEY` gesetzt, wird nach jedem Lauf `/v1/organization/costs` (Tagesbuckets ab
+    Laufbeginn) abgefragt und als Zeile `costs_api` protokolliert. Die Buckets umfassen den ganzen Tag. Diese Zeilen
+    zählen nicht zur Budgetsumme. Derzeit ist kein Admin-Key gesetzt, es gilt nur die Schätzung.
+53. **Existenzprüfung (`existiert`/`erfunden`):** Für jeden Fund (alle Versionen) wird jede Norm (nach
+    `zerlege_fund`) mit dem Werkzeug geprüft, auf Ebene Artikel/Paragraf/Anhang. `nein`, wenn mindestens eine Norm im
+    aufgelösten Regelwerk fehlt, obwohl das Regelwerk Normen dieser Art enthält. `unbekannt`, wenn das Regelwerk
+    nicht auflösbar ist oder keine Norm erkennbar ist (z. B. TV-L-Anlagen). Auflösung für Soll-Kurzformen über die
+    EU-Nummer aus der Normierung (DSGVO → Verordnung (EU) 2016/679), sonst Kurzform, sonst Rohname.
+54. **`anteil_vorher_geladen`:** Anteil der Funde, deren sämtliche Normen im selben Stufe-2-Aufruf (letzter
+    Versuch) vorher mit `lade_norm` erfolgreich geladen wurden, verglichen über (Kennung, Norm-Schlüssel). Nur bei
+    `suche: eigen`.
+55. **Abgebrochener erster Versuch:** Der erste v3-Lauf A (20261021-112159_A_7) lief noch ohne Sitzungs-Lock für die
+    Bayern-Suche (Risiko vermischter Suchergebnisse bei parallelen Tasks). Ich habe ihn nach dem ersten API-Aufruf
+    abgebrochen (0,0004 USD); er liegt in `runs_ungueltig/`.

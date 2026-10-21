@@ -1,0 +1,188 @@
+{
+  "rechtsrahmen": [
+    {
+      "regelwerk": "Verordnung (EU) 2016/679",
+      "vollstaendiger_titel": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung)",
+      "ebene": "EU",
+      "begruendung": "Bewerbungsunterlagen, Bewerberprofile, KI-Auswertung, Gesprächsdokumentation und Absagen umfassen personenbezogene Daten. Die DSGVO regelt deren Verarbeitung, Transparenz, Aufbewahrung und Löschung; die menschliche Prüfung des Rankings ist außerdem für die Einordnung automatisierter Entscheidungen relevant.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02016R0679-20160504#art_22",
+      "fassung_datum": "konsolidierte Fassung vom 04.05.2016",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "Verordnung (EU) 2024/1689",
+      "vollstaendiger_titel": "Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz und zur Änderung der Verordnungen (EG) Nr. 300/2008, (EU) Nr. 167/2013, (EU) Nr. 168/2013, (EU) 2018/858, (EU) 2018/1139 und (EU) 2019/2144 sowie der Richtlinien 2014/90/EU, (EU) 2016/797 und (EU) 2020/1828 (Verordnung über künstliche Intelligenz)",
+      "ebene": "EU",
+      "begruendung": "Das KI-Tool wertet Bewerbungen aus und erstellt ein Ranking zur Vorauswahl. KI-Systeme für Einstellung und Auswahl von Personen können unter die Hochrisiko-Regelungen für Beschäftigung fallen; die genaue Einordnung hängt unter anderem von Zweck und Funktionsweise des konkreten Systems ab.",
+      "betroffene_teilprozesse": [
+        "3"
+      ],
+      "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:02024R1689-20260727#art_6",
+      "fassung_datum": "konsolidierte Fassung vom 27.07.2026",
+      "sicherheit": "unsicher"
+    },
+    {
+      "regelwerk": "bdsg_2018",
+      "vollstaendiger_titel": "Bundesdatenschutzgesetz",
+      "ebene": "Bund",
+      "begruendung": "Ergänzt die DSGVO für die Verarbeitung personenbezogener Daten im Beschäftigungskontext und ist für Bewerberdaten und das Auswahlverfahren zu berücksichtigen.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bdsg_2018/",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayDSG",
+      "vollstaendiger_titel": "Bayerisches Datenschutzgesetz",
+      "ebene": "Land",
+      "begruendung": "Die Hochschule ist eine bayerische öffentliche Einrichtung. Das Landesdatenschutzrecht ergänzt den Datenschutzrahmen für die Verarbeitung von Bewerberdaten durch öffentliche Stellen des Landes.",
+      "betroffene_teilprozesse": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayDSG",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "agg",
+      "vollstaendiger_titel": "Allgemeines Gleichbehandlungsgesetz",
+      "ebene": "Bund",
+      "begruendung": "Das Gesetz gilt für Stellenausschreibung, Auswahl, Vorstellungsgespräche und Einstellungsentscheidung und untersagt Benachteiligungen wegen geschützter Merkmale. Es ist auch bei der Gestaltung und Nutzung eines KI-Rankings zu beachten.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/agg/",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "gg",
+      "vollstaendiger_titel": "Grundgesetz für die Bundesrepublik Deutschland",
+      "ebene": "Bund",
+      "begruendung": "Als staatliche Hochschule muss die Auswahl für eine öffentliche Stelle den verfassungsrechtlichen Anforderungen an gleichen Zugang zu öffentlichen Ämtern und an eine sachgerechte Auswahl nach Eignung, Befähigung und fachlicher Leistung Rechnung tragen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/gg/",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayHIG",
+      "vollstaendiger_titel": "Bayerisches Hochschulinnovationsgesetz",
+      "ebene": "Land",
+      "begruendung": "Das Gesetz regelt die bayerischen Hochschulen und enthält Bestimmungen zu wissenschaftlichen Mitarbeiterinnen und Mitarbeitern mit Weiterqualifizierungsaufgaben. Es ist für die wissenschaftliche Qualifizierungsstelle und deren Besetzung einschlägig.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayHIG",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "wisszeitvg",
+      "vollstaendiger_titel": "Gesetz über befristete Arbeitsverträge in der Wissenschaft",
+      "ebene": "Bund",
+      "begruendung": "Die Stelle ist als befristete wissenschaftliche Qualifizierungsstelle mit Promotionsziel für drei Jahre beschrieben. Das Wissenschaftszeitvertragsgesetz ist daher für die Befristung und den Qualifizierungszweck zu berücksichtigen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/wisszeitvg/",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "TV-L",
+      "vollstaendiger_titel": "Tarifvertrag für den öffentlichen Dienst der Länder (TV-L)",
+      "ebene": "Tarif",
+      "begruendung": "Die Stelle soll ausdrücklich nach TV-L besetzt werden. Der Tarifvertrag ist für die Festlegung der Eingruppierung und die tariflichen Arbeitsbedingungen im Beschäftigungsverhältnis relevant.",
+      "betroffene_teilprozesse": [
+        "1",
+        "5"
+      ],
+      "quelle_url": "https://www.tdl-online.de/tarifvertraege/tv-l",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayPVG",
+      "vollstaendiger_titel": "Bayerisches Personalvertretungsgesetz",
+      "ebene": "Land",
+      "begruendung": "Die Hochschule ist eine bayerische öffentliche Einrichtung mit Personalrat. Personalvertretungsrechtliche Beteiligungsrechte können bei personellen Maßnahmen sowie bei Einführung oder Anwendung technischer Systeme zur Bewerberauswahl berührt sein.",
+      "betroffene_teilprozesse": [
+        "1",
+        "3",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "BayGlG",
+      "vollstaendiger_titel": "Bayerisches Gleichstellungsgesetz",
+      "ebene": "Land",
+      "begruendung": "Als bayerische öffentliche Einrichtung muss die Hochschule die landesrechtlichen Anforderungen zur Gleichstellung bei Personalgewinnung und Auswahl beachten. Das ist insbesondere für Ausschreibung, Einladung und Auswahlkommission relevant; der Prozess sieht die Beteiligung der Gleichstellungsbeauftragten ausdrücklich vor.",
+      "betroffene_teilprozesse": [
+        "1",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "sgb9ua_ndg",
+      "vollstaendiger_titel": "Sozialgesetzbuch Neuntes Buch – Rehabilitation und Teilhabe von Menschen mit Behinderungen",
+      "ebene": "Bund",
+      "begruendung": "Bei Bewerbungen schwerbehinderter oder gleichgestellter Menschen können besondere Pflichten des öffentlichen Arbeitgebers im Bewerbungs- und Auswahlverfahren ausgelöst werden, insbesondere hinsichtlich Einladung und Beteiligung der zuständigen Stellen.",
+      "betroffene_teilprozesse": [
+        "1",
+        "4",
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/sgb9ua_ndg/",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    },
+    {
+      "regelwerk": "bgb",
+      "vollstaendiger_titel": "Bürgerliches Gesetzbuch",
+      "ebene": "Bund",
+      "begruendung": "Das BGB enthält die allgemeinen Regeln zum Zustandekommen und Inhalt privatrechtlicher Arbeitsverträge und ist daher für Vertragsangebot und Abschluss des Arbeitsvertrags relevant.",
+      "betroffene_teilprozesse": [
+        "5"
+      ],
+      "quelle_url": "https://www.gesetze-im-internet.de/bgb/",
+      "fassung_datum": "",
+      "sicherheit": "sicher"
+    }
+  ]
+}
