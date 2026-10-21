@@ -13,6 +13,9 @@ REGELWERK_MUSTER = [
     ("BayPVG", r"\bbaypvg\b|bayerisches personalvertretungsgesetz"),
     ("BayGlG", r"\bbayglg\b|bayerisches gleichstellungsgesetz"),
     ("BayDSG", r"\bbaydsg\b|bayerisches datenschutzgesetz"),
+    ("WissZeitVG", r"\bwisszeitvg\b|wissenschaftszeitvertragsgesetz|befristete arbeitsverträge in der wissenschaft"),
+    ("TzBfG", r"\btzbfg\b|teilzeit- und befristungsgesetz|befristungsgesetz"),
+    ("BayHIG", r"\bbayhig\b|hochschulinnovationsgesetz"),
 ]
 
 
@@ -32,7 +35,7 @@ def norm_regelwerk(regelwerk: str, titel: str = "") -> str:
 
 def regelwerke_einzeln(regelwerk: str) -> list[tuple[str, str]]:
     """'DSGVO / BayDSG' -> [('DSGVO', 'DSGVO'), ('BayDSG', 'BayDSG')] als (Rohname, Kurzform)."""
-    teile = [t.strip() for t in re.split(r"\s*/\s*|\s*;\s*|\s*,\s*|\s+und\s+", regelwerk or "") if t.strip()]
+    teile = [t.strip() for t in re.split(r"\s*/\s*|\s*;\s*|\s*,\s*|(?<!-)\s+und\s+", regelwerk or "") if t.strip()]
     return [(t, norm_regelwerk(t)) for t in teile] or [("", "")]
 
 

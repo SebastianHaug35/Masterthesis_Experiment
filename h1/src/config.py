@@ -11,6 +11,7 @@ BASIS = Path(__file__).resolve().parent.parent
 
 @dataclass
 class Config:
+    version: str
     model: str
     reasoning_effort: str
     domains: list[str]
@@ -38,6 +39,7 @@ def lade_config(pfad: Path | None = None) -> Config:
     roh = yaml.safe_load((pfad or BASIS / "config.yaml").read_text(encoding="utf-8"))
     pfade = roh.get("pfade", {})
     return Config(
+        version=str(roh.get("version", "v1")),
         model=roh["model"],
         reasoning_effort=roh["reasoning_effort"],
         domains=list(roh["domains"]),

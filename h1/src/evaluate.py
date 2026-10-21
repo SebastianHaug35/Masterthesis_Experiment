@@ -11,7 +11,9 @@ from pathlib import Path
 import pandas as pd
 
 from .config import Config, lade_config
+from .models import Fund
 from .normierung import absatz_nummer, fundstelle_text, norm_fundstelle, norm_regelwerk, zerlege_fund
+from .stufe2 import lueckenkandidaten
 
 TEILPROZESSE = ["TP1", "TP2", "TP3", "TP4", "TP5", "TP6"]
 MANUELL_START = "<!-- MANUELL START: alles ab hier bleibt bei erneutem evaluate.py erhalten -->"
@@ -31,6 +33,8 @@ def lade_soll(cfg: Config) -> pd.DataFrame:
     normiert = soll["fundstelle"].map(norm_fundstelle)
     soll["art"] = normiert.map(lambda x: x[0])
     soll["abs"] = normiert.map(lambda x: x[1])
+    soll["tasks"] = soll["task_id"].map(lambda t: [x.strip() for x in t.split("|") if x.strip()])
+    soll["teilprozess"] = soll["tasks"].map(lambda ts: tp_von(ts[0]) if ts else "GESAMT")
     return soll
 
 
@@ -42,12 +46,16 @@ def lade_lauf(run_dir: Path) -> dict:
     funde_pfad = run_dir / "funde.jsonl"
     funde = [json.loads(z) for z in funde_pfad.read_text(encoding="utf-8").splitlines() if z.strip()] \
         if funde_pfad.exists() else []
+    meta = json_oder("meta.json", {})
+    stufe1 = json_oder("stufe1.json", {}).get("rechtsrahmen")
+    rechtsrahmen = stufe1 if stufe1 is not None else json_oder("rechtsrahmen_vorgabe.json", {}).get("rechtsrahmen")
     return {
         "dir": run_dir,
-        "meta": json_oder("meta.json", {}),
-        "stufe1": json_oder("stufe1.json", {}).get("rechtsrahmen"),
+        "meta": meta,
+        "version": meta.get("version", "v1"),
+        "stufe1": stufe1,
+        "rechtsrahmen": rechtsrahmen or [],
         "funde": funde,
-        "kandidaten": json_oder("lueckenkandidaten.json", []),
         "protokoll": json_oder("protokoll.json", {}),
     }
 
@@ -62,157 +70,221 @@ def _art_passt(zeile, art) -> bool:
     return _leer(zeile["art"]) or zeile["art"] == art
 
 
-RANG = ["korrekt", "falscher_absatz", "falscher_task", "nicht_in_soll"]
+def _abs_passt(zeile, absaetze: frozenset) -> bool:
+    return _leer(zeile["abs"]) or absatz_nummer(zeile["abs"]) in absaetze
 
 
-def _bewerte_norm(rw: str, art, absaetze: frozenset, typ: str, task_id: str,
+def _abs_passt_luecke(zeile, absaetze: frozenset) -> bool:
+    """Lücken: Absatz nur prüfen, wenn Soll-Zeile und Meldung beide einen nennen."""
+    return not absaetze or _abs_passt(zeile, absaetze)
+
+
+RANG = ["korrekt", "neutral", "falscher_absatz", "falscher_task", "nicht_in_soll"]
+RANG_LUECKE = ["luecke_korrekt", "luecke_neutral", "luecke_an_vorhandener_zuordnung", "luecke_ohne_soll"]
+LUECKE_FALSCH = ["luecke_an_vorhandener_zuordnung", "luecke_ohne_soll"]
+KONTROLLE_SOLL_ID = "S23"
+
+
+def _zeilen(soll: pd.DataFrame, rw: str, art, typ: str) -> list:
+    return [z for _, z in soll[(soll["rw"] == rw) & (soll["typ"] == typ)].iterrows() if _art_passt(z, art)]
+
+
+def _bewerte_norm(rw: str, art, absaetze: frozenset, task_id: str,
                   soll: pd.DataFrame) -> tuple[str, list[str]]:
-    kandidaten = [z for _, z in soll[soll["rw"] == rw].iterrows() if _art_passt(z, art)]
-    if not kandidaten:
-        return "nicht_in_soll", []
-    if typ == "moegliche_luecke":
-        passend = [z for z in kandidaten if z["typ"] == "luecke"]
-    else:
-        passend = [z for z in kandidaten if z["typ"] == "zuordnung" and z["task_id"] in (task_id, "GESAMT")]
-    treffer = [z["soll_id"] for z in passend if _leer(z["abs"]) or absatz_nummer(z["abs"]) in absaetze]
+    """Eine Norm eines Funds mit typ = zuordnung."""
+    zuo = _zeilen(soll, rw, art, "zuordnung") + _zeilen(soll, rw, art, "luecke")
+    passend = [z for z in zuo if z["typ"] == "zuordnung" and (task_id in z["tasks"] or "GESAMT" in z["tasks"])]
+    treffer = [z["soll_id"] for z in passend if _abs_passt(z, absaetze)]
     if treffer:
         return "korrekt", treffer
+    if any(_abs_passt(z, absaetze) for z in _zeilen(soll, rw, art, "neutral")):
+        return "neutral", []
     if passend:
         return "falscher_absatz", []
-    return "falscher_task", []
+    if zuo:
+        return "falscher_task", []
+    return "nicht_in_soll", []
 
 
-def bewerte_fund(fund: dict, soll: pd.DataFrame) -> tuple[str, list[str]]:
-    """Liefert (bewertung, soll_ids der als gefunden zählenden Zeilen). Nennt ein Fund mehrere Normen,
-    wird jede einzeln bewertet; es zählt die beste Bewertung, getroffen sind alle korrekt bewerteten Zeilen."""
-    beste, treffer = "nicht_in_soll", []
+def _bewerte_norm_luecke(rw: str, art, absaetze: frozenset,
+                         soll: pd.DataFrame) -> tuple[str, list[str], list[str]]:
+    """Eine Norm eines Funds mit typ = moegliche_luecke -> (Kategorie, getroffene Soll-Lücken,
+    getroffene Soll-Zuordnungen)."""
+    luecken = [z["soll_id"] for z in _zeilen(soll, rw, art, "luecke") if _abs_passt_luecke(z, absaetze)]
+    zuo = [z["soll_id"] for z in _zeilen(soll, rw, art, "zuordnung") if _abs_passt_luecke(z, absaetze)]
+    if luecken:
+        return "luecke_korrekt", luecken, zuo
+    if any(_abs_passt(z, absaetze) for z in _zeilen(soll, rw, art, "neutral")):
+        return "luecke_neutral", [], zuo
+    if zuo:
+        return "luecke_an_vorhandener_zuordnung", [], zuo
+    return "luecke_ohne_soll", [], zuo
+
+
+def bewerte_fund(fund: dict, soll: pd.DataFrame) -> tuple[str, list[str], list[str]]:
+    """Liefert (bewertung, getroffene soll_ids, bei Lücken zusätzlich getroffene Soll-Zuordnungen).
+    Nennt ein Fund mehrere Normen, wird jede einzeln bewertet; es zählt die beste Bewertung,
+    getroffen sind alle korrekt bewerteten Zeilen."""
+    luecke = fund["typ"] == "moegliche_luecke"
+    rang = RANG_LUECKE if luecke else RANG
+    beste, treffer, zuo_treffer = rang[-1], [], []
     for rw, art, absaetze in zerlege_fund(fund["regelwerk"], fund["fundstelle"]):
-        bewertung, ids = _bewerte_norm(rw, art, absaetze, fund["typ"], fund["task_id"], soll)
+        if luecke:
+            bewertung, ids, zuo = _bewerte_norm_luecke(rw, art, absaetze, soll)
+            zuo_treffer += [i for i in zuo if i not in zuo_treffer]
+        else:
+            bewertung, ids = _bewerte_norm(rw, art, absaetze, fund["task_id"], soll)
         treffer += [i for i in ids if i not in treffer]
-        if RANG.index(bewertung) < RANG.index(beste):
+        if rang.index(bewertung) < rang.index(beste):
             beste = bewertung
-    return beste, treffer
+    return beste, treffer, zuo_treffer
 
 
 def bewerte_kandidat(k: dict, soll: pd.DataFrame) -> list[str]:
-    """Soll-Lücken, die ein Lückenkandidat trifft. Kandidaten ohne Fundstelle (Regelwerk ohne
-    Zuordnung) treffen jede Soll-Lücke desselben Regelwerks; sonst muss Artikel/Paragraf passen."""
-    treffer = []
-    for rw, art, _ in zerlege_fund(k["regelwerk"], k.get("fundstelle") or ""):
-        luecken = soll[(soll["typ"] == "luecke") & (soll["rw"] == rw)]
-        treffer += [z["soll_id"] for _, z in luecken.iterrows()
-                    if (art is None or _art_passt(z, art)) and z["soll_id"] not in treffer]
-    return treffer
+    """Soll-Lücken, die ein Regelwerk ohne Zuordnung trifft: jede Soll-Lücke desselben Regelwerks."""
+    rw = norm_regelwerk(k["regelwerk"], k.get("vollstaendiger_titel", ""))
+    return list(soll[(soll["typ"] == "luecke") & (soll["rw"] == rw)]["soll_id"])
 
 
-def ist_gleichstellung(k: dict) -> bool:
-    text = " ".join(str(k.get(f) or "") for f in ("regelwerk", "fehlender_schritt", "begruendung")).lower()
-    return norm_regelwerk(k["regelwerk"]) == "BayGlG" or "gleichstellungsbeauftragte" in text
+def _anteil(maske) -> float | None:
+    return maske.mean() if len(maske) else None
 
 
 def werte_lauf_aus(lauf: dict, soll: pd.DataFrame) -> dict:
     meta = lauf["meta"]
-    run_id, konfig = meta.get("run_id", lauf["dir"].name), meta.get("konfig", "?")
+    run_id, konfig, version = meta.get("run_id", lauf["dir"].name), meta.get("konfig", "?"), lauf["version"]
 
-    # Stufe 2: Funde bewerten
-    zeilen, gefunden, gefunden_inkl_luecke = [], set(), set()
+    # Funde bewerten
+    zeilen, gefunden, gefunden_inkl_luecke, luecken_gefunden = [], set(), set(), set()
     for f in lauf["funde"]:
-        bewertung, treffer = bewerte_fund(f, soll)
+        bewertung, treffer, zuo_treffer = bewerte_fund(f, soll)
+        rw, art, _ = zerlege_fund(f["regelwerk"], f["fundstelle"])[0]
         if f["typ"] == "zuordnung":
             gefunden.update(treffer)
-        else:  # Lückenmeldung, die eine vorhandene Soll-Zuordnung am selben Task nennt
+        else:
+            luecken_gefunden.update(treffer)
+            # Lückenmeldung, die eine vorhandene Soll-Zuordnung am selben Task nennt
             gefunden_inkl_luecke.update(bewerte_fund({**f, "typ": "zuordnung"}, soll)[1])
-        zeilen.append({**f, "konfig": konfig, "teilprozess": tp_von(f["task_id"]),
-                       "regelwerk_norm": norm_regelwerk(f["regelwerk"]),
+        zeilen.append({**f, "hinweis": f.get("hinweis"), "version": version, "konfig": konfig,
+                       "teilprozess": tp_von(f["task_id"]),
+                       "regelwerk_norm": norm_regelwerk(f["regelwerk"]), "art_norm": art or "",
                        "fundstelle_norm": fundstelle_text(f["fundstelle"]),
                        "bewertung": bewertung, "soll_ids": ",".join(treffer),
-                       "manuell_pruefen": bewertung == "nicht_in_soll"})
+                       "soll_zuordnungen_bei_luecke": ",".join(zuo_treffer),
+                       "manuell_pruefen": bewertung in ("nicht_in_soll", "luecke_ohne_soll")})
     funde = pd.DataFrame(zeilen)
+    zuo = funde[funde["typ"] == "zuordnung"] if len(funde) else funde
+    lue = funde[funde["typ"] == "moegliche_luecke"] if len(funde) else funde
 
-    # H1b: Lückenkandidaten (dedupliziert nach Regelwerk + Artikel/Paragraf)
-    kand_zeilen, luecken_gefunden = [], set()
-    for k in lauf["kandidaten"]:
-        treffer = bewerte_kandidat(k, soll)
-        luecken_gefunden.update(treffer)
-        rw, art, _ = zerlege_fund(k["regelwerk"], k.get("fundstelle") or "")[0]
-        kand_zeilen.append({**k, "regelwerk_norm": rw, "art_norm": art or "", "soll_ids": ",".join(treffer),
-                            "falsch": not treffer, "gleichstellung": ist_gleichstellung(k)})
-    kand = pd.DataFrame(kand_zeilen)
-    if kand.empty:
-        kand_unique = kand
-    else:
-        kand_unique = kand.groupby(["regelwerk_norm", "art_norm"], as_index=False).agg(
-            falsch=("falsch", "all"), gleichstellung=("gleichstellung", "any"),
+    # Lückenmeldungen dedupliziert nach (Regelwerk, Artikel/Paragraf); beste Kategorie je Gruppe
+    if len(lue):
+        lue_unique = lue.groupby(["regelwerk_norm", "art_norm"], as_index=False).agg(
+            kategorie=("bewertung", lambda s: min(s, key=RANG_LUECKE.index)),
             soll_ids=("soll_ids", lambda s: ",".join(sorted({x for v in s for x in v.split(",") if x}))),
-            anzahl_meldungen=("falsch", "size"),
-            tasks=("task_id", lambda s: ",".join(sorted({x for x in s if isinstance(x, str) and x}))))
+            soll_zuordnungen=("soll_zuordnungen_bei_luecke",
+                              lambda s: ",".join(sorted({x for v in s for x in v.split(",") if x}))),
+            anzahl_meldungen=("fund_id", "size"),
+            tasks=("task_id", lambda s: ",".join(sorted(set(s)))))
+    else:
+        lue_unique = pd.DataFrame(columns=["regelwerk_norm", "art_norm", "kategorie", "soll_ids",
+                                           "soll_zuordnungen", "anzahl_meldungen", "tasks"])
+
+    # Regelwerke aus Stufe 1 (bzw. Vorgabe B) ohne Zuordnung -> nur für den großzügigen Lücken-Recall
+    ohne_zuordnung = [k for k in lueckenkandidaten(lauf["rechtsrahmen"], [Fund(**{**f, "hinweis": f.get("hinweis")})
+                                                                         for f in lauf["funde"]])
+                      if k["quelle"] == "regelwerk_ohne_zuordnung"]
+    luecken_grosszuegig = set(luecken_gefunden)
+    for kand in ohne_zuordnung:
+        kand["soll_ids"] = ",".join(bewerte_kandidat(kand, soll))
+        luecken_grosszuegig.update(x for x in kand["soll_ids"].split(",") if x)
 
     # Kennzahlen
-    k = {"run_id": run_id, "konfig": konfig}
-    soll_rw = set(soll["rw"])
+    k = {"run_id": run_id, "version": version, "konfig": konfig}
+    bewertet = soll[soll["typ"].isin(["zuordnung", "luecke"])]
+    soll_rw = set(bewertet["rw"])
+    neutral_rw = set(soll[soll["typ"] == "neutral"]["rw"]) - soll_rw
     if lauf["stufe1"] is not None:
         s1 = {norm_regelwerk(e["regelwerk"], e.get("vollstaendiger_titel", "")) for e in lauf["stufe1"]}
+        bewertbar = s1 - neutral_rw
         k["s1_recall"] = len(s1 & soll_rw) / len(soll_rw)
-        k["s1_praezision"] = len(s1 & soll_rw) / len(s1) if s1 else 0.0
+        k["s1_praezision"] = len(s1 & soll_rw) / len(bewertbar) if bewertbar else 0.0
         k["s1_gefunden"] = sorted(s1 & soll_rw)
         k["s1_uebersehen"] = sorted(soll_rw - s1)
-        k["s1_zusaetzlich"] = sorted(s1 - soll_rw)
+        k["s1_zusaetzlich"] = sorted(bewertbar - soll_rw)
+        k["s1_neutral"] = sorted(s1 & neutral_rw)
     else:
-        k.update(s1_recall=None, s1_praezision=None, s1_gefunden=[], s1_uebersehen=[], s1_zusaetzlich=[])
+        k.update(s1_recall=None, s1_praezision=None, s1_gefunden=[], s1_uebersehen=[], s1_zusaetzlich=[],
+                 s1_neutral=[])
 
     soll_z = soll[soll["typ"] == "zuordnung"]
-    zuo = funde[funde["typ"] == "zuordnung"] if not funde.empty else funde
     k["s2_anzahl_funde"] = len(zuo)
     k["s2_recall"] = soll_z["soll_id"].isin(gefunden).mean()
     k["s2_recall_inkl_luecke"] = soll_z["soll_id"].isin(gefunden | gefunden_inkl_luecke).mean()
-    k["s2_praezision"] = (zuo["bewertung"] == "korrekt").mean() if len(zuo) else 0.0
+    ohne_neutral = zuo[zuo["bewertung"] != "neutral"] if len(zuo) else zuo
+    k["s2_praezision"] = _anteil(ohne_neutral["bewertung"] == "korrekt") if len(zuo) else None
+    k["s2_anteil_neutral"] = _anteil(zuo["bewertung"] == "neutral") if len(zuo) else None
     for tp in TEILPROZESSE + ["GESAMT"]:
-        sz = soll_z[soll_z["task_id"].map(tp_von) == tp]
+        sz = soll_z[soll_z["teilprozess"] == tp]
         k[f"s2_recall_{tp}"] = sz["soll_id"].isin(gefunden).mean() if len(sz) else None
         if tp != "GESAMT":
-            zf = zuo[zuo["teilprozess"] == tp] if len(zuo) else zuo
-            k[f"s2_praezision_{tp}"] = (zf["bewertung"] == "korrekt").mean() if len(zf) else None
-    for b in ["korrekt", "falscher_absatz", "falscher_task", "nicht_in_soll"]:
+            zf = ohne_neutral[ohne_neutral["teilprozess"] == tp] if len(ohne_neutral) else ohne_neutral
+            k[f"s2_praezision_{tp}"] = _anteil(zf["bewertung"] == "korrekt") if len(zf) else None
+    for b in RANG:
         k[f"s2_n_{b}"] = int((zuo["bewertung"] == b).sum()) if len(zuo) else 0
 
     soll_l = soll[soll["typ"] == "luecke"]
     k["luecken_recall"] = soll_l["soll_id"].isin(luecken_gefunden).mean()
-    k["luecken_kandidaten"] = len(kand_unique)
-    k["falsche_luecken"] = int(kand_unique["falsch"].sum()) if len(kand_unique) else 0
-    k["falsche_luecken_gleichstellung"] = int(kand_unique["gleichstellung"].sum()) if len(kand_unique) else 0
-    k["anteil_unsicher"] = (funde["sicherheit"] == "unsicher").mean() if len(funde) else None
-    k["anteil_nicht_in_soll"] = (funde["bewertung"] == "nicht_in_soll").mean() if len(funde) else None
+    k["luecken_recall_grosszuegig"] = soll_l["soll_id"].isin(luecken_grosszuegig).mean()
+    k["luecken_meldungen"] = len(lue)
+    k["luecken_meldungen_dedupliziert"] = len(lue_unique)
+    for kat in RANG_LUECKE:
+        k[f"luecken_n_{kat}"] = int((lue_unique["kategorie"] == kat).sum())
+    k["falsche_luecken"] = int(lue_unique["kategorie"].isin(LUECKE_FALSCH).sum())
+    k["kontrolle_fehlmeldungen"] = int(lue_unique["soll_zuordnungen"].map(
+        lambda v: KONTROLLE_SOLL_ID in v.split(",")).sum())
+    k["regelwerke_ohne_zuordnung"] = len(ohne_zuordnung)
+    k["anteil_hinweis"] = _anteil(zuo["hinweis"].map(lambda h: not _leer(h))) if len(zuo) else None
+    k["anteil_unsicher"] = _anteil(funde["sicherheit"] == "unsicher") if len(funde) else None
+    k["anteil_nicht_in_soll"] = _anteil(funde["bewertung"].isin(["nicht_in_soll", "luecke_ohne_soll"])) \
+        if len(funde) else None
     k["tokens_input"] = meta.get("tokens_input", 0)
     k["tokens_output"] = meta.get("tokens_output", 0)
+    k["websuchen"] = lauf["protokoll"].get("web_search_aufrufe")
     k["kosten_usd"] = meta.get("kosten_usd_geschaetzt", 0.0)
 
-    uebersehen = soll[~soll["soll_id"].isin(gefunden | luecken_gefunden)][
+    uebersehen = soll[soll["typ"].isin(["zuordnung", "luecke"]) & ~soll["soll_id"].isin(gefunden | luecken_gefunden)][
         ["soll_id", "regelwerk", "fundstelle", "task_id", "typ", "inhalt"]].copy()
     uebersehen.insert(0, "konfig", konfig)
+    uebersehen.insert(0, "version", version)
     uebersehen.insert(0, "run_id", run_id)
-    return {"lauf": lauf, "kennzahlen": k, "funde": funde, "kandidaten": kand,
-            "kandidaten_unique": kand_unique, "uebersehen": uebersehen}
+    lue_unique.insert(0, "konfig", konfig)
+    lue_unique.insert(0, "version", version)
+    lue_unique.insert(0, "run_id", run_id)
+    return {"lauf": lauf, "kennzahlen": k, "funde": funde, "luecken_unique": lue_unique,
+            "ohne_zuordnung": ohne_zuordnung, "uebersehen": uebersehen,
+            "gefunden": gefunden, "luecken_gefunden": luecken_gefunden}
 
 
 # --------------------------------------------------------------------------- Ausgabe
 
-LISTEN_SPALTEN = ["s1_gefunden", "s1_uebersehen", "s1_zusaetzlich"]
+LISTEN_SPALTEN = ["s1_gefunden", "s1_uebersehen", "s1_zusaetzlich", "s1_neutral"]
+GRUPPE = ["version", "konfig"]
 
 
 def kennzahlen_tabelle(auswertungen: list[dict]) -> pd.DataFrame:
     lauf = pd.DataFrame([{**a["kennzahlen"], "ebene": "lauf", "statistik": "wert"} for a in auswertungen])
     for c in LISTEN_SPALTEN:
         lauf[c] = lauf[c].map(lambda v: ", ".join(v))
-    zahlen = [c for c in lauf.columns if c not in LISTEN_SPALTEN + ["run_id", "konfig", "ebene", "statistik"]]
+    zahlen = [c for c in lauf.columns if c not in LISTEN_SPALTEN + ["run_id"] + GRUPPE + ["ebene", "statistik"]]
     lauf[zahlen] = lauf[zahlen].apply(pd.to_numeric, errors="coerce")
     agg = []
-    for konfig, g in lauf.groupby("konfig"):
+    for (version, konfig), g in lauf.groupby(GRUPPE):
         for stat in ["mittelwert", "std"]:
             werte = g[zahlen].mean() if stat == "mittelwert" else g[zahlen].std(ddof=1)
-            agg.append({"run_id": f"alle ({len(g)} Läufe)", "konfig": konfig, "ebene": "konfig",
-                        "statistik": stat, **werte.to_dict()})
+            agg.append({"run_id": f"alle ({len(g)} Läufe)", "version": version, "konfig": konfig,
+                        "ebene": "konfig", "statistik": stat, **werte.to_dict()})
     tab = pd.concat([lauf, pd.DataFrame(agg)], ignore_index=True)
-    vorne = ["ebene", "statistik", "run_id", "konfig"]
+    vorne = ["ebene", "statistik", "run_id"] + GRUPPE
     return tab[vorne + [c for c in tab.columns if c not in vorne]]
 
 
@@ -224,42 +296,76 @@ def _zahl(x, nachkomma=0) -> str:
     return "–" if x is None or pd.isna(x) else f"{x:,.{nachkomma}f}".replace(",", " ")
 
 
-def zusammenfassung_md(kennzahlen: pd.DataFrame) -> str:
-    agg = kennzahlen[kennzahlen["ebene"] == "konfig"]
-    zeilen = [("Stufe 1 Recall (Regelwerk)", "s1_recall", _p), ("Stufe 1 Präzision (Regelwerk)", "s1_praezision", _p),
-              ("Stufe 2 Recall (Fundstelle)", "s2_recall", _p), ("Stufe 2 Präzision (Fundstelle)", "s2_praezision", _p),
-              ("Stufe 2 Anzahl Funde", "s2_anzahl_funde", _zahl), ("H1b Lücken-Recall", "luecken_recall", _p),
-              ("H1b falsche Lückenmeldungen", "falsche_luecken", _zahl),
-              ("davon Gleichstellungsbeauftragte", "falsche_luecken_gleichstellung", _zahl),
-              ("Anteil unsicher", "anteil_unsicher", _p), ("Anteil nicht_in_soll", "anteil_nicht_in_soll", _p),
-              ("Tokens Input", "tokens_input", _zahl), ("Tokens Output", "tokens_output", _zahl),
-              ("Kosten USD", "kosten_usd", lambda x: _zahl(x, 3))]
-    konfigs = ["A", "B"]
-    md = ["# Zusammenfassung H1: Konfiguration A vs. B", "",
-          "Mittelwert ± Standardabweichung über alle Läufe je Konfiguration (n = Anzahl Läufe).", "",
-          "| Kennzahl | " + " | ".join(
-              f"{k} (n={int((kennzahlen['ebene'].eq('lauf') & kennzahlen['konfig'].eq(k)).sum())})" for k in konfigs) + " |",
-          "| --- | " + " | ".join("---" for _ in konfigs) + " |"]
+def _zahl1(x) -> str:
+    return _zahl(x, 1)
+
+
+def _gruppen(kennzahlen: pd.DataFrame) -> list[tuple[str, str, int]]:
+    lauf = kennzahlen[kennzahlen["ebene"] == "lauf"]
+    return [(v, k, len(g)) for (v, k), g in lauf.groupby(GRUPPE)]
+
+
+def _gruppen_kopf(gruppen) -> list[str]:
+    return [" | ".join(f"{v} {k} (n={n})" for v, k, n in gruppen), " | ".join("---" for _ in gruppen)]
+
+
+def _mw_sd(kennzahlen: pd.DataFrame, version: str, konfig: str, spalte: str, fmt) -> str:
+    agg = kennzahlen[(kennzahlen["ebene"] == "konfig") & (kennzahlen["version"] == version)
+                     & (kennzahlen["konfig"] == konfig)]
+    m, s = agg[agg["statistik"] == "mittelwert"], agg[agg["statistik"] == "std"]
+    if m.empty or spalte not in m:
+        return "–"
+    mw, sd = m[spalte].iloc[0], s[spalte].iloc[0]
+    if pd.isna(mw):
+        return "–"
+    return fmt(mw) + ("" if pd.isna(sd) else f" ± {fmt(sd)}")
+
+
+def _kennzahl_tabelle(kennzahlen: pd.DataFrame, zeilen: list[tuple]) -> list[str]:
+    gruppen = _gruppen(kennzahlen)
+    kopf, linie = _gruppen_kopf(gruppen)
+    md = [f"| Kennzahl | {kopf} |", f"| --- | {linie} |"]
     for titel, spalte, fmt in zeilen:
-        zellen = []
-        for k in konfigs:
-            m = agg[(agg["konfig"] == k) & (agg["statistik"] == "mittelwert")]
-            s = agg[(agg["konfig"] == k) & (agg["statistik"] == "std")]
-            if m.empty:
-                zellen.append("–")
-                continue
-            mw, sd = m[spalte].iloc[0], s[spalte].iloc[0]
-            zellen.append(fmt(mw) + ("" if pd.isna(sd) else f" ± {fmt(sd)}"))
-        md.append(f"| {titel} | " + " | ".join(zellen) + " |")
-    return "\n".join(md) + "\n"
+        md.append(f"| {titel} | " + " | ".join(_mw_sd(kennzahlen, v, k, spalte, fmt) for v, k, _ in gruppen) + " |")
+    return md
+
+
+ZEILEN_UEBERSICHT = [
+    ("Stufe 1 Recall (Regelwerk)", "s1_recall", _p), ("Stufe 1 Präzision (Regelwerk)", "s1_praezision", _p),
+    ("Stufe 2 Recall (Fundstelle)", "s2_recall", _p), ("Stufe 2 Präzision (ohne neutral)", "s2_praezision", _p),
+    ("Stufe 2 Anteil neutral", "s2_anteil_neutral", _p),
+    ("Stufe 2 Recall inkl. Lückenmeldungen am Soll-Task", "s2_recall_inkl_luecke", _p),
+    ("Stufe 2 Anzahl Funde (zuordnung)", "s2_anzahl_funde", _zahl1),
+    ("H1b Lücken-Recall (streng)", "luecken_recall", _p),
+    ("H1b Lücken-Recall (großzügig)", "luecken_recall_grosszuegig", _p),
+    ("H1b Lückenmeldungen (Funde)", "luecken_meldungen", _zahl1),
+    ("H1b Lückenmeldungen (dedupliziert)", "luecken_meldungen_dedupliziert", _zahl1),
+    ("H1b falsche Lückenmeldungen (dedupliziert)", "falsche_luecken", _zahl1),
+    ("H1b Kontrolle: Fehlmeldungen S23", "kontrolle_fehlmeldungen", _zahl1),
+    ("Anteil Zuordnungen mit Hinweis", "anteil_hinweis", _p),
+    ("Anteil unsicher", "anteil_unsicher", _p), ("Anteil nicht_in_soll / luecke_ohne_soll", "anteil_nicht_in_soll", _p),
+    ("Tokens Input", "tokens_input", _zahl), ("Tokens Output", "tokens_output", _zahl),
+    ("Websuchen", "websuchen", _zahl1), ("Kosten USD (geschätzt)", "kosten_usd", lambda x: _zahl(x, 3)),
+]
+
+
+def zusammenfassung_md(kennzahlen: pd.DataFrame) -> str:
+    md = ["# Zusammenfassung H1 je Version und Konfiguration", "",
+          "Mittelwert ± Standardabweichung über alle Läufe je (version, konfig); alle Läufe gegen die aktuelle "
+          "Soll-Liste ausgewertet.", ""]
+    return "\n".join(md + _kennzahl_tabelle(kennzahlen, ZEILEN_UEBERSICHT)) + "\n"
+
+
+def _dauer_s(meta: dict) -> float | None:
+    try:
+        return (pd.Timestamp(meta["ende"]) - pd.Timestamp(meta["start"])).total_seconds()
+    except Exception:
+        return None
 
 
 def _dauer(meta: dict) -> str:
-    try:
-        d = pd.Timestamp(meta["ende"]) - pd.Timestamp(meta["start"])
-        return f"{int(d.total_seconds() // 60)} min {int(d.total_seconds() % 60)} s"
-    except Exception:
-        return "–"
+    d = _dauer_s(meta)
+    return "–" if d is None else f"{int(d // 60)} min {int(d % 60)} s"
 
 
 def _txt(x) -> str:
@@ -268,89 +374,157 @@ def _txt(x) -> str:
 
 def _zitat(text: str, n: int = 300) -> str:
     t = "" if _leer(text) else " ".join(str(text).split())
+    t = t.replace("|", "/")
     return t if len(t) <= n else t[:n] + " …"
 
 
-def ergebnis_auto_md(auswertungen: list[dict], soll: pd.DataFrame) -> str:
+def _nach_gruppe(auswertungen: list[dict]) -> dict[tuple[str, str], list[dict]]:
+    gruppen: dict[tuple[str, str], list[dict]] = {}
+    for a in auswertungen:
+        gruppen.setdefault((a["kennzahlen"]["version"], a["kennzahlen"]["konfig"]), []).append(a)
+    return dict(sorted(gruppen.items()))
+
+
+def ergebnis_auto_md(auswertungen: list[dict], soll: pd.DataFrame, kennzahlen: pd.DataFrame) -> str:
+    gruppen = _nach_gruppe(auswertungen)
+    kopf, linie = _gruppen_kopf([(v, k, len(g)) for (v, k), g in gruppen.items()])
     md = ["# ERGEBNIS H1 (inkl. H1b)", "",
-          "Automatisch erzeugt von `python -m src.evaluate` (Abschnitte 1–4 und Material für 5).",
-          "Abschnitte 5–8 unten sind manuell gepflegt. Begriffe: siehe `README.md` und `DECISIONS.md`.", "",
+          "Automatisch erzeugt von `python -m src.evaluate` (Abschnitte 1–4 und Material 5a). Alle Läufe sind gegen die "
+          "**aktuelle** Soll-Liste ausgewertet und nach (`version`, `konfig`) gruppiert; Werte = Mittelwert ± "
+          "Standardabweichung über die Läufe. Abschnitte 5–8 unten sind manuell gepflegt. Begriffe: `README.md`, "
+          "`DECISIONS.md`. Details je Lauf: `results/kennzahlen.csv`, `funde_bewertet.csv`, `luecken_bewertet.csv`, "
+          "`uebersehen.csv`.", "",
           "## 1. Lauf-Metadaten", "",
-          "| run_id | Konfig | Modell-Snapshot | reasoning_effort | Dauer | Tokens in | Tokens out | Websuchen | Kosten USD (geschätzt) | Status |",
-          "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+          "| run_id | Version | Konfig | Modell-Snapshot | reasoning_effort | Dauer | Tokens in | Tokens out | Websuchen | Kosten USD (geschätzt) | Status |",
+          "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     for a in auswertungen:
         m, p = a["lauf"]["meta"], a["lauf"]["protokoll"]
         status = "abgebrochen" if p.get("abgebrochen") else (
             f"{len(p.get('stufe2_fehlgeschlagen', []))} Task(s) fehlgeschlagen" if p.get("stufe2_fehlgeschlagen") else "ok")
-        md.append(f"| {m.get('run_id')} | {m.get('konfig')} | `{m.get('modell')}` | {m.get('reasoning_effort')} | "
-                  f"{_dauer(m)} | {_zahl(m.get('tokens_input'))} | {_zahl(m.get('tokens_output'))} | "
-                  f"{p.get('web_search_aufrufe', '–')} | {m.get('kosten_usd_geschaetzt')} | {status} |")
+        retries = len(p.get("fehler", []))
+        md.append(f"| {m.get('run_id')} | {a['lauf']['version']} | {m.get('konfig')} | `{m.get('modell')}` | "
+                  f"{m.get('reasoning_effort')} | {_dauer(m)} | {_zahl(m.get('tokens_input'))} | "
+                  f"{_zahl(m.get('tokens_output'))} | {p.get('web_search_aufrufe', '–')} | "
+                  f"{m.get('kosten_usd_geschaetzt')} | {status}{f' ({retries} Fehler/Retries)' if retries else ''} |")
+    md += ["", "### Übersicht je (version, konfig)", ""] + _kennzahl_tabelle(kennzahlen, ZEILEN_UEBERSICHT)
 
-    md += ["", "## 2. Stufe 1 – Rechtsrahmen", ""]
-    for a in auswertungen:
-        k, s1 = a["kennzahlen"], a["lauf"]["stufe1"]
-        md.append(f"### {k['run_id']}")
-        if s1 is None:
-            md += ["Keine Stufe 1 (Konfiguration B oder Lauf abgebrochen).", ""]
-            continue
-        md += ["", "| Regelwerk (Agent) | normiert | Ebene | Sicherheit | Quelle |", "| --- | --- | --- | --- | --- |"]
-        md += [f"| {e['regelwerk']} | {norm_regelwerk(e['regelwerk'], e.get('vollstaendiger_titel', ''))} | "
-               f"{e.get('ebene')} | {e.get('sicherheit')} | {e.get('quelle_url')} |" for e in s1]
-        md += ["", f"- **Gefunden ({len(k['s1_gefunden'])}):** {', '.join(k['s1_gefunden']) or '–'}",
-               f"- **Übersehen ({len(k['s1_uebersehen'])}):** {', '.join(k['s1_uebersehen']) or '–'}",
-               f"- **Zusätzlich ({len(k['s1_zusaetzlich'])}):** {', '.join(k['s1_zusaetzlich']) or '–'}",
-               f"- Recall {_p(k['s1_recall'])}, Präzision {_p(k['s1_praezision'])}", ""]
+    # 2. Stufe 1
+    md += ["", "## 2. Stufe 1 – Rechtsrahmen", "",
+           "Soll-Regelwerke = Regelwerke aus Zeilen mit `typ` zuordnung oder luecke. Regelwerke, die nur in "
+           "Neutral-Zeilen stehen, zählen als „neutral“ (nicht als zusätzlich, nicht in der Präzision). "
+           "Konfiguration B hat keine Stufe 1.", ""]
+    md += _kennzahl_tabelle(kennzahlen, [("Recall", "s1_recall", _p), ("Präzision", "s1_praezision", _p)])
+    soll_rw = list(dict.fromkeys(soll[soll["typ"].isin(["zuordnung", "luecke"])]["rw"]))
+    neutral_rw = [r for r in dict.fromkeys(soll[soll["typ"] == "neutral"]["rw"]) if r not in soll_rw]
+    gruppen_s1 = {g: l for g, l in gruppen.items() if any(a["lauf"]["stufe1"] is not None for a in l)}
+    if gruppen_s1:
+        alle_rw = soll_rw + neutral_rw + sorted({r for l in gruppen_s1.values() for a in l
+                                                 for r in a["kennzahlen"]["s1_zusaetzlich"]})
+        md += ["", "In wie vielen Läufen hat Stufe 1 das Regelwerk genannt:", "",
+               "| Regelwerk | Status | " + " | ".join(f"{v} {k}" for v, k in gruppen_s1) + " |",
+               "| --- | --- | " + " | ".join("---" for _ in gruppen_s1) + " |"]
+        for rw in alle_rw:
+            status = "Soll" if rw in soll_rw else ("neutral" if rw in neutral_rw else "zusätzlich")
+            zellen = []
+            for l in gruppen_s1.values():
+                n = sum(rw in (a["kennzahlen"]["s1_gefunden"] + a["kennzahlen"]["s1_zusaetzlich"]
+                               + a["kennzahlen"]["s1_neutral"]) for a in l)
+                zellen.append(f"{n}/{len(l)}")
+            md.append(f"| {rw} | {status} | " + " | ".join(zellen) + " |")
 
-    md += ["## 3. Stufe 2 – Zuordnung je Task", "",
-           "Bewertet werden Funde mit `typ = zuordnung`; Recall/Präzision auf Ebene Fundstelle "
-           "(Lücken-Funde siehe Abschnitt 4).", ""]
+    # 3. Stufe 2
+    md += ["", "## 3. Stufe 2 – Zuordnung je Task", "",
+           "Bewertet werden Funde mit `typ = zuordnung`. Präzision = korrekt / (korrekt + falscher_absatz + "
+           "falscher_task + nicht_in_soll); `neutral` geht nicht ein und wird separat ausgewiesen. "
+           "Teilprozess einer Soll-Zeile mit mehreren Tasks = Teilprozess des ersten Tasks.", ""]
+    md += _kennzahl_tabelle(kennzahlen, [("Funde (zuordnung)", "s2_anzahl_funde", _zahl1)]
+                            + [(f"davon {b}", f"s2_n_{b}", _zahl1) for b in RANG]
+                            + [("Recall gesamt", "s2_recall", _p), ("Präzision gesamt", "s2_praezision", _p),
+                               ("Anteil neutral", "s2_anteil_neutral", _p),
+                               ("Recall inkl. Lückenmeldungen am Soll-Task", "s2_recall_inkl_luecke", _p)]
+                            + [(f"Recall {tp}", f"s2_recall_{tp}", _p) for tp in TEILPROZESSE + ["GESAMT"]]
+                            + [(f"Präzision {tp}", f"s2_praezision_{tp}", _p) for tp in TEILPROZESSE])
+    md += ["", "Je Lauf:", "",
+           "| run_id | Version | Konfig | Funde | korrekt | neutral | falscher_absatz | falscher_task | nicht_in_soll | Recall | Präzision |",
+           "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     for a in auswertungen:
         k = a["kennzahlen"]
-        md += [f"### {k['run_id']}", "",
-               f"- Funde: {k['s2_anzahl_funde']} (korrekt {k['s2_n_korrekt']}, falscher_absatz {k['s2_n_falscher_absatz']}, "
-               f"falscher_task {k['s2_n_falscher_task']}, nicht_in_soll {k['s2_n_nicht_in_soll']})",
-               f"- Gesamt: Recall {_p(k['s2_recall'])}, Präzision {_p(k['s2_praezision'])}",
-               f"- Recall inkl. Lückenmeldungen, die eine vorhandene Soll-Zuordnung am selben Task nennen: "
-               f"{_p(k['s2_recall_inkl_luecke'])}", "",
-               "| Teilprozess | Recall | Präzision |", "| --- | --- | --- |"]
-        md += [f"| {tp} | {_p(k[f's2_recall_{tp}'])} | {_p(k.get(f's2_praezision_{tp}'))} |"
-               for tp in TEILPROZESSE + ["GESAMT"]]
-        ueb = a["uebersehen"][a["uebersehen"]["typ"] == "zuordnung"]
-        md += ["", "Übersehene Soll-Zeilen (Zuordnung): " +
-               ("; ".join(f"{r.soll_id} {r.regelwerk} {r.fundstelle} → {r.task_id}".replace("  ", " ")
-                          for r in ueb.itertuples()) or "–"), ""]
+        md.append(f"| {k['run_id']} | {k['version']} | {k['konfig']} | {k['s2_anzahl_funde']} | "
+                  + " | ".join(str(k[f's2_n_{b}']) for b in RANG)
+                  + f" | {_p(k['s2_recall'])} | {_p(k['s2_praezision'])} |")
+    soll_z = soll[soll["typ"] == "zuordnung"]
+    md += ["", "In wie vielen Läufen wurde die Soll-Zuordnung korrekt getroffen:", "",
+           f"| Soll | Regelwerk | Fundstelle | Task(s) | {kopf} |", f"| --- | --- | --- | --- | {linie} |"]
+    for r in soll_z.itertuples():
+        zellen = [f"{sum(r.soll_id in a['gefunden'] for a in l)}/{len(l)}" for l in gruppen.values()]
+        md.append(f"| {r.soll_id} | {r.regelwerk} | {r.fundstelle or '–'} | {r.task_id} | " + " | ".join(zellen) + " |")
 
-    md += ["## 4. H1b – Lückenkandidaten", ""]
-    for a in auswertungen:
-        k, kand = a["kennzahlen"], a["kandidaten"]
-        md += [f"### {k['run_id']}", "",
-               f"- Lücken-Recall: {_p(k['luecken_recall'])} · Kandidaten (dedupliziert nach Regelwerk + Norm): "
-               f"{k['luecken_kandidaten']} · falsche Lückenmeldungen: {k['falsche_luecken']} "
-               f"(davon Gleichstellungsbeauftragte: {k['falsche_luecken_gleichstellung']})", ""]
-        if len(kand):
-            md += ["| Quelle | Task | Regelwerk | Fundstelle | Fehlender Schritt (Agent) | trifft Soll-Lücke |",
-                   "| --- | --- | --- | --- | --- | --- |"]
-            md += [f"| {r['quelle']} | {_txt(r['task_id'])} | {r['regelwerk']} | {_txt(r['fundstelle'])} | "
-                   f"{_txt(_zitat(r['fehlender_schritt'], 200))} | {r['soll_ids'] or '**nein**'} |"
-                   for _, r in kand.iterrows()]
-        soll_l = soll[soll["typ"] == "luecke"]
-        getroffen = {x for v in kand.get("soll_ids", []) for x in str(v).split(",") if x}
-        md += ["", "| Soll-Lücke | Regelwerk | Fundstelle | Inhalt | erkannt |", "| --- | --- | --- | --- | --- |"]
-        md += [f"| {r.soll_id} | {r.regelwerk} | {r.fundstelle or '–'} | {r.inhalt} | "
-               f"{'ja' if r.soll_id in getroffen else 'nein'} |" for r in soll_l.itertuples()]
-        md.append("")
-
-    md += ["## 5a. Material: Funde `nicht_in_soll` (manuell prüfen)", "",
-           "Automatisch gelistet; Begründung = Zitat aus der Rohantwort des Modells.", ""]
-    for a in auswertungen:
-        f = a["funde"]
-        if f.empty:
+    # 4. H1b
+    md += ["", "## 4. H1b – Lückenkandidaten", "",
+           "Kategorien je Lückenmeldung (`typ = moegliche_luecke`), dedupliziert nach Regelwerk + Artikel/Paragraf: "
+           "`luecke_korrekt` (trifft Soll-Lücke), `luecke_neutral` (trifft Neutral-Zeile), "
+           "`luecke_an_vorhandener_zuordnung` (trifft nur eine Soll-Zuordnung), `luecke_ohne_soll` (trifft nichts). "
+           "Falsch = die beiden letzten. Lücken-Recall streng = nur Lückenmeldungen; großzügig = zusätzlich "
+           "Regelwerke aus Stufe 1 (B: Vorgabe) ohne Zuordnung. Kontrolle = Lückenmeldungen, die S23 "
+           "(Gleichstellungsbeauftragte, vorhandener Schritt) treffen.", ""]
+    md += _kennzahl_tabelle(kennzahlen, [
+        ("Lücken-Recall streng", "luecken_recall", _p), ("Lücken-Recall großzügig", "luecken_recall_grosszuegig", _p),
+        ("Lückenmeldungen (Funde)", "luecken_meldungen", _zahl1),
+        ("Lückenmeldungen (dedupliziert)", "luecken_meldungen_dedupliziert", _zahl1)]
+        + [(f"davon {kat}", f"luecken_n_{kat}", _zahl1) for kat in RANG_LUECKE]
+        + [("falsche Lückenmeldungen", "falsche_luecken", _zahl1),
+           ("Kontrolle: Fehlmeldungen S23", "kontrolle_fehlmeldungen", _zahl1),
+           ("Regelwerke ohne Zuordnung", "regelwerke_ohne_zuordnung", _zahl1)])
+    soll_l = soll[soll["typ"] == "luecke"]
+    md += ["", "In wie vielen Läufen wurde die Soll-Lücke erkannt (streng):", "",
+           f"| Soll-Lücke | Regelwerk | Fundstelle | Inhalt | {kopf} |", f"| --- | --- | --- | --- | {linie} |"]
+    for r in soll_l.itertuples():
+        zellen = [f"{sum(r.soll_id in a['luecken_gefunden'] for a in l)}/{len(l)}" for l in gruppen.values()]
+        md.append(f"| {r.soll_id} | {r.regelwerk} | {r.fundstelle or '–'} | {_zitat(r.inhalt, 80)} | "
+                  + " | ".join(zellen) + " |")
+    for (version, konfig), l in gruppen.items():
+        lu = pd.concat([a["luecken_unique"] for a in l], ignore_index=True)
+        if lu.empty:
             continue
-        nis = f[f["bewertung"] == "nicht_in_soll"]
-        md += [f"### {a['kennzahlen']['run_id']} ({len(nis)} Funde)", "",
-               "| fund_id | Task | Regelwerk | Fundstelle | Sicherheit | Zitat Begründung |", "| --- | --- | --- | --- | --- | --- |"]
-        md += [f"| {r.fund_id} | {r.task_id} | {r.regelwerk} | {r.fundstelle} | {r.sicherheit} | "
-               f"{_zitat(r.begruendung, 220).replace('|', '/')} |" for r in nis.itertuples()]
+        funde = pd.concat([a["funde"] for a in l if not a["funde"].empty], ignore_index=True)
+        tab = lu.groupby(["regelwerk_norm", "art_norm"], as_index=False).agg(
+            kategorie=("kategorie", lambda s: min(s, key=RANG_LUECKE.index)),
+            laeufe=("run_id", "nunique"), meldungen=("anzahl_meldungen", "sum"),
+            soll=("soll_ids", lambda s: ",".join(sorted({x for v in s for x in v.split(",") if x}))),
+            zuo=("soll_zuordnungen", lambda s: ",".join(sorted({x for v in s for x in v.split(",") if x}))))
+        tab["rang"] = tab["kategorie"].map(RANG_LUECKE.index)
+        tab = tab.sort_values(["rang", "laeufe"], ascending=[True, False])
+        md += ["", f"### Lückenmeldungen {version} {konfig} ({len(l)} Läufe, dedupliziert je Lauf)", "",
+               "| Regelwerk | Norm | Kategorie | Läufe | Meldungen | Soll-Lücke | Soll-Zuordnung | Beispiel fehlender Schritt |",
+               "| --- | --- | --- | --- | --- | --- | --- | --- |"]
+        for r in tab.itertuples():
+            bsp = funde[(funde["typ"] == "moegliche_luecke") & (funde["regelwerk_norm"] == r.regelwerk_norm)
+                        & (funde["art_norm"] == r.art_norm)]["fehlender_schritt"]
+            md.append(f"| {r.regelwerk_norm} | {r.art_norm or '–'} | {r.kategorie} | {r.laeufe} | {r.meldungen} | "
+                      f"{r.soll or '–'} | {r.zuo or '–'} | {_zitat(bsp.iloc[0] if len(bsp) else '', 160)} |")
+
+    # 5a. Material
+    md += ["", "## 5a. Material: Funde `nicht_in_soll` / `luecke_ohne_soll` (manuell prüfen)", "",
+           "Zusammengefasst je Regelwerk + Norm über alle Läufe einer Gruppe; Zitat und Quelle aus dem ersten Fund.", ""]
+    for (version, konfig), l in gruppen.items():
+        funde = pd.concat([a["funde"] for a in l if not a["funde"].empty] or [pd.DataFrame()], ignore_index=True)
+        if funde.empty:
+            continue
+        nis = funde[funde["manuell_pruefen"]]
+        if nis.empty:
+            continue
+        tab = nis.groupby(["regelwerk_norm", "art_norm"], as_index=False).agg(
+            funde=("fund_id", "size"), laeufe=("run_id", "nunique"),
+            tasks=("task_id", lambda s: ",".join(sorted(set(s)))),
+            unsicher=("sicherheit", lambda s: (s == "unsicher").mean()),
+            fundstelle=("fundstelle", "first"), quelle=("quelle_url", "first"), zitat=("begruendung", "first"))
+        tab = tab.sort_values(["laeufe", "funde"], ascending=False)
+        md += [f"### {version} {konfig} ({len(nis)} Funde, {len(tab)} Normen)", "",
+               "| Regelwerk | Norm | Läufe | Funde | Tasks | unsicher | Fundstelle (Beispiel) | Quelle | Zitat Begründung |",
+               "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+        md += [f"| {r.regelwerk_norm} | {r.art_norm or '–'} | {r.laeufe} | {r.funde} | {_zitat(r.tasks, 60)} | "
+               f"{_p(r.unsicher)} | {_zitat(r.fundstelle, 60)} | {_zitat(r.quelle, 90)} | {_zitat(r.zitat, 200)} |"
+               for r in tab.itertuples()]
         md.append("")
     return "\n".join(md)
 
@@ -405,11 +579,12 @@ def main() -> None:
 
     funde = pd.concat([a["funde"] for a in auswertungen if not a["funde"].empty] or [pd.DataFrame()])
     funde.to_csv(out / "funde_bewertet.csv", sep=";", index=False)
+    pd.concat([a["luecken_unique"] for a in auswertungen]).to_csv(out / "luecken_bewertet.csv", sep=";", index=False)
     pd.concat([a["uebersehen"] for a in auswertungen]).to_csv(out / "uebersehen.csv", sep=";", index=False)
     kennzahlen = kennzahlen_tabelle(auswertungen)
     kennzahlen.to_csv(out / "kennzahlen.csv", sep=";", index=False, float_format="%.4f")
     (out / "zusammenfassung.md").write_text(zusammenfassung_md(kennzahlen), encoding="utf-8")
-    schreibe_ergebnis(out / "ERGEBNIS.md", ergebnis_auto_md(auswertungen, soll))
+    schreibe_ergebnis(out / "ERGEBNIS.md", ergebnis_auto_md(auswertungen, soll, kennzahlen))
     print(f"{len(auswertungen)} Lauf/Läufe ausgewertet → {out}")
 
 

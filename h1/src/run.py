@@ -33,9 +33,11 @@ def naechste_lauf_nr(runs_dir: Path, konfig: str) -> int:
 
 
 def rechtsrahmen_aus_soll(input_dir: Path) -> list[dict]:
-    """Konfiguration B: nur die Namen der Regelwerke aus der Soll-Liste (ohne Fundstellen, ohne Lücken-Markierung)."""
+    """Konfiguration B: nur die Namen der Regelwerke aus der Soll-Liste (ohne Fundstellen, ohne Lücken-Markierung).
+    Regelwerke, die nur in Neutral-Zeilen stehen, gehören nicht dazu."""
     soll = pd.read_csv(input_dir / "soll_liste.csv", sep=";", dtype=str, keep_default_na=False)
-    return [{"regelwerk": r} for r in dict.fromkeys(soll["regelwerk"])]
+    bewertet = soll[soll["typ"].isin(["zuordnung", "luecke"])]
+    return [{"regelwerk": r} for r in dict.fromkeys(bewertet["regelwerk"])]
 
 
 def ein_lauf(cfg: Config, konfig: str, lauf_nr: int) -> Path:
@@ -51,7 +53,7 @@ def ein_lauf(cfg: Config, konfig: str, lauf_nr: int) -> Path:
     vorlage1 = lade_vorlage(cfg.prompts_dir, "stufe1")
     vorlage2 = lade_vorlage(cfg.prompts_dir, "stufe2")
 
-    meta = Meta(run_id=run_id, konfig=konfig, lauf_nr=lauf_nr, modell=cfg.model,
+    meta = Meta(run_id=run_id, version=cfg.version, konfig=konfig, lauf_nr=lauf_nr, modell=cfg.model,
                 reasoning_effort=cfg.reasoning_effort, domains=cfg.domains, start=start.isoformat(),
                 prompt_hash_stufe1=hash_vorlage(vorlage1) if konfig == "A" else None,
                 prompt_hash_stufe2=hash_vorlage(vorlage2))

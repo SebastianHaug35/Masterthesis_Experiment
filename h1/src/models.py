@@ -27,6 +27,7 @@ class FundLLM(BaseModel):
     fundstelle: str = Field(description="z. B. Art. 26 Abs. 11 oder § 165")
     typ: Literal["zuordnung", "moegliche_luecke"]
     fehlender_schritt: str | None = Field(description="nur bei moegliche_luecke, sonst null")
+    hinweis: str | None = Field(description="fehlendes Detail an diesem Task, sonst null")
     begruendung: str
     quelle_url: str
     fassung_datum: str
@@ -46,6 +47,7 @@ class Fund(FundLLM):
 
 class Meta(BaseModel):
     run_id: str
+    version: str
     konfig: Literal["A", "B"]
     lauf_nr: int
     modell: str

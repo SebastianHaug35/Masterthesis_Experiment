@@ -1,3 +1,6 @@
+# Versuchsversion (Prompt/Soll-Liste); wird in meta.json gespeichert, Auswertung gruppiert danach
+version: v2
+
 # Modell laut OpenAI-Modellübersicht (developers.openai.com/api/docs/models/gpt-6-luna):
 # für GPT-6 Luna ist nur der Snapshot "gpt-6-luna" gelistet (kein datierter Snapshot) – siehe DECISIONS.md
 model: gpt-6-luna

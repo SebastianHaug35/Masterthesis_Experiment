@@ -1,0 +1,32 @@
+run_id;version;konfig;regelwerk_norm;art_norm;kategorie;soll_ids;soll_zuordnungen;anzahl_meldungen;tasks
+20261020-145929_A_1;v1;A;AI Act;Art. 14;luecke_neutral;;S13;1;T3.3
+20261020-145929_A_1;v1;A;AI Act;Art. 26;luecke_korrekt;S14;S13;3;T3.2,T3.4,T5.1
+20261020-145929_A_1;v1;A;AI Act;Art. 27;luecke_korrekt;S15;;5;T3.1,T3.2,T3.3,T3.4,T5.1
+20261020-145929_A_1;v1;A;AI Act;Art. 4;luecke_korrekt;S16;;3;T3.1,T3.3,T3.4
+20261020-145929_A_1;v1;A;AI Act;Art. 49;luecke_neutral;;;1;T3.1
+20261020-145929_A_1;v1;A;AI Act;Art. 86;luecke_neutral;;;1;T3.2
+20261020-145929_A_1;v1;A;BayArchivG;Art. 14;luecke_ohne_soll;;;1;T6.2
+20261020-145929_A_1;v1;A;BayDSG;Art. 26;luecke_an_vorhandener_zuordnung;;S09;2;T6.2,T6.3
+20261020-145929_A_1;v1;A;BayDSG;Art. 31;luecke_an_vorhandener_zuordnung;;S09;1;T2.1
+20261020-145929_A_1;v1;A;BayDSG;Art. 35;luecke_neutral;;S09;1;T3.4
+20261020-145929_A_1;v1;A;BayGlG;Art. 17;luecke_an_vorhandener_zuordnung;;S07,S23;5;T3.4,T4.1,T4.2,T4.3,T5.1
+20261020-145929_A_1;v1;A;BayGlG;Art. 7;luecke_an_vorhandener_zuordnung;;S07;1;T1.2
+20261020-145929_A_1;v1;A;BayPVG;Art. 69;luecke_ohne_soll;;;3;T4.2,T4.3,T5.1
+20261020-145929_A_1;v1;A;BayPVG;Art. 75;luecke_ohne_soll;;;3;T1.2,T5.1,T5.2
+20261020-145929_A_1;v1;A;BayPVG;Art. 75a;luecke_korrekt;S20;;5;T3.1,T3.2,T3.3,T3.4,T5.1
+20261020-145929_A_1;v1;A;BayPVG;Art. 76;luecke_ohne_soll;;;1;T1.1
+20261020-145929_A_1;v1;A;BayPVG;Art. 78;luecke_korrekt;S26;;1;T5.3
+20261020-145929_A_1;v1;A;DSGVO;Art. 13;luecke_an_vorhandener_zuordnung;;S10;5;T2.1,T2.2,T2.3,T3.1,T4.3
+20261020-145929_A_1;v1;A;DSGVO;Art. 22;luecke_an_vorhandener_zuordnung;;S17;2;T3.4,T5.1
+20261020-145929_A_1;v1;A;DSGVO;Art. 28;luecke_neutral;;;3;T2.1,T2.3,T3.1
+20261020-145929_A_1;v1;A;DSGVO;Art. 30;luecke_neutral;;;3;T2.1,T2.3,T3.1
+20261020-145929_A_1;v1;A;DSGVO;Art. 32;luecke_an_vorhandener_zuordnung;;S11;1;T6.2
+20261020-145929_A_1;v1;A;DSGVO;Art. 35;luecke_korrekt;S18;;7;T2.1,T2.3,T3.1,T3.2,T3.3,T3.4,T5.1
+20261020-145929_A_1;v1;A;DSGVO;Art. 5;luecke_neutral;;S25,S30;3;T6.2,T6.3
+20261020-145929_A_1;v1;A;DSGVO;Art. 6;luecke_an_vorhandener_zuordnung;;S08;2;T2.3,T6.2
+20261020-145929_A_1;v1;A;DSGVO;Art. 9;luecke_neutral;;S11;1;T4.2
+20261020-145929_A_1;v1;A;NachwG;§ 2;luecke_an_vorhandener_zuordnung;;S28;1;T5.2
+20261020-145929_A_1;v1;A;SGB IX;§ 164;luecke_korrekt;S05,S22;;4;T3.2,T3.4,T4.3,T5.1
+20261020-145929_A_1;v1;A;SGB IX;§ 165;luecke_korrekt;S06,S22;S21;7;T1.3,T3.1,T3.3,T3.4,T4.1,T4.2,T5.3
+20261020-145929_A_1;v1;A;SGB IX;§ 178;luecke_korrekt;S22;;2;T4.1,T4.2
+20261020-145929_A_1;v1;A;TV-L;§ 12;luecke_an_vorhandener_zuordnung;;S04,S27;1;T1.2
