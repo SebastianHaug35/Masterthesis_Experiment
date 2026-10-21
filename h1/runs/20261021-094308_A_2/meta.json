@@ -1,0 +1,21 @@
+{
+  "run_id": "20261021-094308_A_2",
+  "version": "v2",
+  "konfig": "A",
+  "lauf_nr": 2,
+  "modell": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "domains": [
+    "eur-lex.europa.eu",
+    "gesetze-im-internet.de",
+    "gesetze-bayern.de",
+    "tdl-online.de"
+  ],
+  "start": "2026-10-21T09:43:08.903630+02:00",
+  "ende": "2026-10-21T09:49:00.124744+02:00",
+  "prompt_hash_stufe1": "fe4e2e355f0fc34f37228aaa16fef0c754da88431aa745a9dce4e30b90837650",
+  "prompt_hash_stufe2": "4ef26b65a51130e2455529422e96ba3c03d66d20da901fc840c9c0e902fc65aa",
+  "tokens_input": 886828,
+  "tokens_output": 123339,
+  "kosten_usd_geschaetzt": 1.0947
+}

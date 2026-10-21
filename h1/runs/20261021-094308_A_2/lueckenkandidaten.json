@@ -1,0 +1,254 @@
+[
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 3a",
+    "task_id": "T1.2",
+    "fund_id": "F010",
+    "fehlender_schritt": "Die personalvertretungsrechtliche Mitbestimmung bei der Eingruppierung ist vor der endgültigen Eingruppierungsmaßnahme sicherzustellen; ein entsprechender Beteiligungsschritt ist im Gesamtprozess nicht ausdrücklich aufgeführt.",
+    "begruendung": "Der Personalrat hat bei der Eingruppierung mitzubestimmen. Der Prozess enthält zwar die Festlegung der Eingruppierung, benennt aber keine Beteiligung des Personalrats."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1 Satz 1",
+    "task_id": "T1.2",
+    "fund_id": "F011",
+    "fehlender_schritt": "Vor beziehungsweise im Zuge der Besetzung ist zu prüfen, ob der freie Arbeitsplatz mit schwerbehinderten Menschen besetzt werden kann; die erforderliche frühzeitige Einbindung der Agentur für Arbeit und der Vertretungen ist im Gesamtprozess nicht ausdrücklich abgebildet.",
+    "begruendung": "Arbeitgeber müssen prüfen, ob freie Arbeitsplätze mit schwerbehinderten Menschen besetzt werden können. Ein entsprechender Prüfschritt ist in den aufgeführten Tasks nicht ausdrücklich enthalten."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165 Satz 1",
+    "task_id": "T1.2",
+    "fund_id": "F012",
+    "fehlender_schritt": "Nach erfolgloser Prüfung einer internen Besetzung ist der neue oder neu zu besetzende Arbeitsplatz frühzeitig der Agentur für Arbeit zu melden; dieser gesonderte Meldeschritt ist im Gesamtprozess nicht aufgeführt.",
+    "begruendung": "Öffentliche Arbeitgeber müssen neue und neu zu besetzende Arbeitsplätze nach erfolgloser Prüfung einer internen Besetzung frühzeitig der Agentur für Arbeit melden. Die Prozessliste nennt Ausschreibung und Veröffentlichung, aber nicht diese vorgelagerte Prüfung und Meldung."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 165",
+    "task_id": "T1.3",
+    "fund_id": "F019",
+    "fehlender_schritt": "Vor der Veröffentlichung ist nach erfolgloser Prüfung einer internen Besetzung der freie oder neu zu besetzende Arbeitsplatz frühzeitig der Agentur für Arbeit zu melden.",
+    "begruendung": "§ 165 SGB IX verpflichtet öffentliche Arbeitgeber zu dieser Meldung. Der Gesamtprozess enthält zwar interne und externe Veröffentlichung, aber keinen Task zur Prüfung einer internen Besetzung und anschließenden frühzeitigen Meldung an die Agentur für Arbeit; dieser eigenständige Schritt ist daher nicht abgedeckt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1 Satz 4",
+    "task_id": "T2.1",
+    "fund_id": "F034",
+    "fehlender_schritt": "Bei Eingang einer Bewerbung eines schwerbehinderten oder gleichgestellten Menschen die Schwerbehindertenvertretung und die in § 176 SGB IX genannten Vertretungen unverzüglich unterrichten, soweit die Vorschrift auf den konkreten Fall anwendbar ist.",
+    "begruendung": "§ 164 Abs. 1 Satz 4 verlangt die Unterrichtung unmittelbar nach Eingang entsprechender Bewerbungen. Im Gesamtprozess ist dieser eigenständige Schritt nicht aufgeführt; der Prozess nennt einen Personalrat, aber keine Schwerbehindertenvertretung."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 3 Buchst. a",
+    "task_id": "T3.1",
+    "fund_id": "F074",
+    "fehlender_schritt": "Vor Beginn der KI-Auswertung eine Datenschutz-Folgenabschätzung durchführen, sofern die systematische und umfassende Bewertung personenbezogener Aspekte auf automatisierter Verarbeitung beruht und die darauf gestützten Entscheidungen voraussichtlich rechtliche oder ähnlich erhebliche Auswirkungen haben.",
+    "begruendung": "Ein KI-gestütztes Ranking von Bewerbenden kann eine systematische Bewertung mit erheblichen Auswirkungen auf den Zugang zu Beschäftigung darstellen. Im Gesamtprozess ist keine Datenschutz-Folgenabschätzung als eigener Schritt aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.1",
+    "fund_id": "F075",
+    "fehlender_schritt": "Vor Einführung, Anwendung oder erheblicher Änderung des KI-gestützten automatisierten Verfahrens zur Personalverwaltung die Mitbestimmung des Personalrats durchführen.",
+    "begruendung": "Die KI-Auswertung im Bewerbungsverfahren ist ein automatisiertes Verfahren zur Personalverwaltung. Der Gesamtprozess enthält keinen eigenen Schritt zur Beteiligung des Personalrats an Einführung oder Anwendung des Verfahrens."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 70 Abs. 1 Satz 1",
+    "task_id": "T3.1",
+    "fund_id": "F076",
+    "fehlender_schritt": "Die erforderliche Zustimmung des Personalrats zur mitbestimmungspflichtigen Maßnahme vor ihrer Durchführung einholen.",
+    "begruendung": "Soweit die Einführung oder Anwendung des automatisierten Verfahrens der Mitbestimmung nach Art. 75a BayPVG unterliegt, darf die Maßnahme grundsätzlich erst mit Zustimmung des Personalrats getroffen werden. Ein entsprechender Freigabeschritt ist im Gesamtprozess nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.2",
+    "fund_id": "F091",
+    "fehlender_schritt": "Vor Einführung oder Anwendung des automatisierten Verfahrens zur Personalverwaltung ist zu prüfen und gegebenenfalls die Mitbestimmung des Personalrats durchzuführen.",
+    "begruendung": "Die Norm sieht Mitbestimmung bei Einführung, Anwendung und erheblicher Änderung automatisierter Verfahren zur Personalverwaltung vor. Ein entsprechendes Beteiligungsverfahren des Personalrats ist in den Aufgaben des Gesamtprozesses nicht ausdrücklich genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.2",
+    "fund_id": "F102",
+    "fehlender_schritt": "Vor der erstmaligen Nutzung des Hochrisiko-KI-Systems ist als öffentliche Stelle eine Bewertung der Auswirkungen auf die Grundrechte durchzuführen, sofern die Voraussetzungen der Vorschrift erfüllt sind.",
+    "begruendung": "Art. 27 verlangt für öffentliche Stellen vor dem Einsatz bestimmter Hochrisiko-KI-Systeme eine Grundrechte-Folgenabschätzung. Ein solcher vorgelagerter Schritt ist in den Aufgaben des Gesamtprozesses nicht aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 49 Abs. 3",
+    "task_id": "T3.2",
+    "fund_id": "F103",
+    "fehlender_schritt": "Vor der Nutzung ist zu prüfen und gegebenenfalls die Registrierung der Hochschule und des verwendeten Systems in der EU-Datenbank vorzunehmen.",
+    "begruendung": "Art. 49 Abs. 3 verlangt die Registrierung vor Inbetriebnahme oder Nutzung. Ein entsprechender vorgelagerter Registrierungsschritt ist im Gesamtprozess nicht genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.3",
+    "fund_id": "F113",
+    "fehlender_schritt": "Personalrat rechtzeitig an der Mitbestimmung über Einführung und Anwendung des automatisierten Verfahrens zur Personalverwaltung beteiligen, soweit keine gesetzliche oder tarifliche Regelung besteht.",
+    "begruendung": "Die Vorschrift sieht unter ihren Voraussetzungen Mitbestimmung bei Einführung, Anwendung und erheblicher Änderung automatisierter Verfahren zur Personalverwaltung vor. Im Gesamtablauf ist kein eigener Schritt zur Beteiligung des Personalrats an der Anwendung des KI-Verfahrens genannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 70 Abs. 1 Satz 1",
+    "task_id": "T3.3",
+    "fund_id": "F114",
+    "fehlender_schritt": "Soweit die Anwendung des automatisierten Personalverwaltungsverfahrens mitbestimmungspflichtig ist, die Zustimmung des Personalrats vor Durchführung der Maßnahme einholen.",
+    "begruendung": "Mitbestimmungspflichtige Maßnahmen dürfen nach dieser Vorschrift grundsätzlich nur mit Zustimmung des Personalrats getroffen werden. Ein entsprechender Zustimmungs- oder Beteiligungsschritt ist im beschriebenen Gesamtprozess nicht ausgewiesen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 3 Satz 2",
+    "task_id": "T3.3",
+    "fund_id": "F115",
+    "fehlender_schritt": "Ein etwaiges Begehren einer betroffenen Person auf Beteiligung der Gleichstellungsbeauftragten auch für die Personalangelegenheit der KI-Vorauswahl entgegennehmen und berücksichtigen.",
+    "begruendung": "In Personalangelegenheiten findet eine Beteiligung der Gleichstellungsbeauftragten auf Antrag der Betroffenen statt. Der Prozess beschreibt die Beteiligung bei Vorstellungsgesprächen, aber keinen entsprechenden Umgang mit einem Antrag während der KI-Vorauswahl."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 35 Abs. 1",
+    "task_id": "T3.4",
+    "fund_id": "F121",
+    "fehlender_schritt": "Vor der Verarbeitung mit dem KI-Ranking prüfen und gegebenenfalls eine Datenschutz-Folgenabschätzung durchführen; kein entsprechender Schritt ist im Prozess aufgeführt.",
+    "begruendung": "KI-gestützte Bewertung und Rangbildung von Bewerbenden kann ein hohes Risiko begründen. Art. 35 verlangt die Folgenabschätzung vor Beginn der risikobegründenden Verarbeitung, sofern die Risikoschwelle erreicht ist. ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?WAN=522123&uri=CELEX%3A32016R0679&utm_source=openai))"
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 3 Satz 2",
+    "task_id": "T3.4",
+    "fund_id": "F123",
+    "fehlender_schritt": "Ein Verfahren vorsehen, um Anträge betroffener Bewerbender auf Beteiligung der Gleichstellungsbeauftragten in Personalangelegenheiten auch außerhalb des Vorstellungsgesprächs entgegenzunehmen und zu bearbeiten.",
+    "begruendung": "Das BayGlG sieht eine Beteiligung in Personalangelegenheiten auf Antrag der Betroffenen vor. Die Prozessbeschreibung erfasst ausdrücklich nur den Antrag auf Beteiligung am Vorstellungsgespräch. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayGlG-17?utm_source=openai))"
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75a Abs. 1 Nr. 2",
+    "task_id": "T3.4",
+    "fund_id": "F124",
+    "fehlender_schritt": "Vor Einführung, Anwendung oder erheblicher Änderung des automatisierten Verfahrens zur Personalverwaltung die erforderliche Mitbestimmung des Personalrats sicherstellen; ein solcher Schritt ist im Prozess nicht aufgeführt.",
+    "begruendung": "Das BayPVG sieht, soweit keine gesetzliche oder tarifliche Regelung besteht, die Mitbestimmung des Personalrats bei Einführung, Anwendung und erheblicher Änderung automatisierter Verfahren zur Personalverwaltung vor. Ob der konkrete KI-Einsatz darunter fällt, hängt von seiner Funktion und Einbindung ab. ([gesetze-bayern.de](https://www.gesetze-bayern.de/Content/Document/BayPVG-75a?view=Print))"
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 49 Abs. 3",
+    "task_id": "T3.4",
+    "fund_id": "F126",
+    "fehlender_schritt": "Falls das System als Hochrisiko-KI-System nach Anhang III einzuordnen ist: vor seiner Inbetriebnahme oder Verwendung die Betreiberregistrierung in der EU-Datenbank sicherstellen; ein Registrierungsschritt ist im Prozess nicht aufgeführt.",
+    "begruendung": "Art. 49 Abs. 3 sieht für Betreiber, die Behörden sind, eine Registrierung vor Inbetriebnahme oder Verwendung eines erfassten Hochrisiko-KI-Systems vor. ([eur-lex.europa.eu](https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu/pdf?utm_source=openai))"
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 26 Abs. 11",
+    "task_id": "T3.4",
+    "fund_id": "F129",
+    "fehlender_schritt": "Falls und sobald die Vorschrift für das eingesetzte System gilt: Bewerbende darüber informieren, dass sie der Verwendung des Hochrisiko-KI-Systems unterliegen; ein solcher Hinweis ist im Prozess nicht genannt.",
+    "begruendung": "Art. 26 Abs. 11 verlangt in den erfassten Fällen eine Information der betroffenen natürlichen Personen über die Verwendung des Hochrisiko-KI-Systems. ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1789244174333&uri=CELEX%3A02024R1689-20260727&utm_source=openai))"
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "AI Act",
+    "fundstelle": "Art. 27 Abs. 1",
+    "task_id": "T3.4",
+    "fund_id": "F130",
+    "fehlender_schritt": "Vor der erstmaligen Inbetriebnahme eines erfassten Hochrisiko-KI-Systems die Grundrechte-Folgenabschätzung durchführen; ein entsprechender Schritt ist im Prozess nicht aufgeführt.",
+    "begruendung": "Art. 27 Abs. 1 verlangt von erfassten öffentlichen Betreibern vor Inbetriebnahme eines Hochrisiko-KI-Systems eine Folgenabschätzung im Hinblick auf Grundrechte. ([eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A32024R1689&utm_source=openai))"
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 2",
+    "task_id": "T4.1",
+    "fund_id": "F132",
+    "fehlender_schritt": "Die Gleichstellungsbeauftragte rechtzeitig und umfassend über die Personalangelegenheit unterrichten und erforderliche Unterlagen frühzeitig vorlegen.",
+    "begruendung": "Die Norm verlangt rechtzeitige und umfassende Unterrichtung; bei Personalangelegenheiten spätestens gleichzeitig mit Einleitung eines personalvertretungsrechtlichen Beteiligungsverfahrens. Ein entsprechender Unterrichtungsschritt ist im Gesamtprozess nicht ausdrücklich aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 178 Abs. 2",
+    "task_id": "T4.1",
+    "fund_id": "F134",
+    "fehlender_schritt": "Bei Bewerbungen schwerbehinderter Menschen die Schwerbehindertenvertretung über den einschlägigen Vorgang unterrichten und ihre gesetzliche Möglichkeit zur Teilnahme am Vorstellungsgespräch sicherstellen.",
+    "begruendung": "Bei Bewerbungen schwerbehinderter Menschen hat die Schwerbehindertenvertretung ein Recht auf Einsicht in entscheidungsrelevante Bewerbungsunterlagen und Teilnahme an Vorstellungsgesprächen. Ein entsprechender Schritt ist im Gesamtprozess nicht ausdrücklich benannt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "SGB IX",
+    "fundstelle": "§ 164 Abs. 1",
+    "task_id": "T4.1",
+    "fund_id": "F135",
+    "fehlender_schritt": "Bei Eingang einer Bewerbung eines schwerbehinderten Menschen die Schwerbehindertenvertretung und die in § 176 genannten Vertretungen unmittelbar unterrichten; die gesetzlich vorgesehene Prüfung zur Besetzung freier Arbeitsplätze mit schwerbehinderten Menschen und die frühzeitige Kontaktaufnahme mit der Agentur für Arbeit sicherstellen.",
+    "begruendung": "Die Vorschrift ordnet diese Schritte für die Prüfung und bei Eingang entsprechender Bewerbungen an. Der Gesamtprozess enthält keinen ausdrücklichen Schritt dazu."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 1",
+    "task_id": "T4.1",
+    "fund_id": "F140",
+    "fehlender_schritt": "Die Mitbestimmung des Personalrats bei der Einstellung durchführen, bevor die Einstellung vollzogen wird.",
+    "begruendung": "Das BayPVG sieht die Mitbestimmung des Personalrats bei Einstellungen vor. Ein Beteiligungsschritt des Personalrats ist im Gesamtprozess nicht ausdrücklich aufgeführt."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "DSGVO",
+    "fundstelle": "Art. 30 Abs. 1",
+    "task_id": "T4.3",
+    "fund_id": "F160",
+    "fehlender_schritt": "Ein Verzeichnis der Verarbeitungstätigkeiten führen oder aktualisieren, das die Verarbeitung von Bewerberdaten im Auswahlverfahren einschließlich der Gesprächsdokumentation erfasst.",
+    "begruendung": "Der Verantwortliche muss ein Verzeichnis seiner Verarbeitungstätigkeiten führen. Der Gesamtprozess enthält keinen ausdrücklich benannten Schritt zur Erstellung oder Aktualisierung dieses Verzeichnisses; die Ausnahme für Einrichtungen mit weniger als 250 Beschäftigten greift bei der angegebenen Organisation nicht."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 75 Abs. 1 Satz 1 Nr. 1",
+    "task_id": "T5.1",
+    "fund_id": "F163",
+    "fehlender_schritt": "Personalrat im Mitbestimmungsverfahren zur Einstellung beteiligen und seine Mitbestimmung zur beabsichtigten Einstellung einholen.",
+    "begruendung": "Die Einstellung von Arbeitnehmerinnen und Arbeitnehmern unterliegt der Mitbestimmung des Personalrats. Im Gesamtprozess ist eine Beteiligung des Personalrats nicht ausdrücklich als eigener Schritt ausgewiesen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayPVG",
+    "fundstelle": "Art. 69 Abs. 2 Satz 1",
+    "task_id": "T5.1",
+    "fund_id": "F164",
+    "fehlender_schritt": "Personalrat rechtzeitig und umfassend unterrichten und ihm die für seine Aufgaben erforderlichen Unterlagen zur Verfügung stellen.",
+    "begruendung": "Die Informations- und Unterlagenrechte des Personalrats sind bei der Durchführung seiner Aufgaben zu beachten. Im Gesamtprozess ist eine Unterrichtung des Personalrats nicht ausdrücklich vorgesehen."
+  },
+  {
+    "quelle": "moegliche_luecke",
+    "regelwerk": "BayGlG",
+    "fundstelle": "Art. 17 Abs. 3 Satz 2",
+    "task_id": "T5.2",
+    "fund_id": "F188",
+    "fehlender_schritt": "Ein dokumentierter Schritt zur Beteiligung der Gleichstellungsbeauftragten an Personalangelegenheiten auf Antrag der betroffenen Person, soweit ein solcher Antrag gestellt wird. T4.2 deckt nach der Prozessbeschreibung nur die beantragte Teilnahme am Vorstellungsgespräch ab.",
+    "begruendung": "Die Prozessbeschreibung nennt die Beteiligung auf Antrag für das Vorstellungsgespräch, aber keinen eigenständigen Prüfschritt für eine beantragte Beteiligung in der Personalangelegenheit."
+  }
+]

@@ -7,155 +7,157 @@ Automatisch erzeugt von `python -m src.evaluate` (Abschnitte 1–4 und Material 
 | run_id | Version | Konfig | Modell-Snapshot | reasoning_effort | Dauer | Tokens in | Tokens out | Websuchen | Kosten USD (geschätzt) | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20261020-145929_A_1 | v1 | A | `gpt-6-luna` | medium | 9 min 19 s | 922 889 | 111 545 | 95 | 1.0923 | ok |
+| 20261021-094308_A_2 | v2 | A | `gpt-6-luna` | medium | 5 min 51 s | 886 828 | 123 339 | 95 | 1.0947 | ok |
 
 ### Übersicht je (version, konfig)
 
-| Kennzahl | v1 A (n=1) |
-| --- | --- |
-| Stufe 1 Recall (Regelwerk) | 100% |
-| Stufe 1 Präzision (Regelwerk) | 92% |
-| Stufe 2 Recall (Fundstelle) | 70% |
-| Stufe 2 Präzision (ohne neutral) | 58% |
-| Stufe 2 Anteil neutral | 28% |
-| Stufe 2 Recall inkl. Lückenmeldungen am Soll-Task | 91% |
-| Stufe 2 Anzahl Funde (zuordnung) | 120.0 |
-| H1b Lücken-Recall (streng) | 100% |
-| H1b Lücken-Recall (großzügig) | 100% |
-| H1b Lückenmeldungen (Funde) | 80.0 |
-| H1b Lückenmeldungen (dedupliziert) | 31.0 |
-| H1b falsche Lückenmeldungen (dedupliziert) | 14.0 |
-| H1b Kontrolle: Fehlmeldungen S23 | 1.0 |
-| Anteil Zuordnungen mit Hinweis | 0% |
-| Anteil unsicher | 26% |
-| Anteil nicht_in_soll / luecke_ohne_soll | 6% |
-| Tokens Input | 922 889 |
-| Tokens Output | 111 545 |
-| Websuchen | 95.0 |
-| Kosten USD (geschätzt) | 1.092 |
+| Kennzahl | v1 A (n=1) | v2 A (n=1) |
+| --- | --- | --- |
+| Stufe 1 Recall (Regelwerk) | 100% | 100% |
+| Stufe 1 Präzision (Regelwerk) | 92% | 92% |
+| Stufe 2 Recall (Fundstelle) | 70% | 96% |
+| Stufe 2 Präzision (ohne neutral) | 58% | 57% |
+| Stufe 2 Anteil neutral | 28% | 32% |
+| Stufe 2 Recall inkl. Lückenmeldungen am Soll-Task | 91% | 96% |
+| Stufe 2 Anzahl Funde (zuordnung) | 120.0 | 200.0 |
+| H1b Lücken-Recall (streng) | 100% | 78% |
+| H1b Lücken-Recall (großzügig) | 100% | 78% |
+| H1b Lückenmeldungen (Funde) | 80.0 | 28.0 |
+| H1b Lückenmeldungen (dedupliziert) | 31.0 | 13.0 |
+| H1b falsche Lückenmeldungen (dedupliziert) | 14.0 | 4.0 |
+| H1b Kontrolle: Fehlmeldungen S23 | 1.0 | 1.0 |
+| Anteil Zuordnungen mit Hinweis | 0% | 94% |
+| Anteil unsicher | 26% | 18% |
+| Anteil nicht_in_soll / luecke_ohne_soll | 6% | 8% |
+| Tokens Input | 922 889 | 886 828 |
+| Tokens Output | 111 545 | 123 339 |
+| Websuchen | 95.0 | 95.0 |
+| Kosten USD (geschätzt) | 1.092 | 1.095 |
 
 ## 2. Stufe 1 – Rechtsrahmen
 
 Soll-Regelwerke = Regelwerke aus Zeilen mit `typ` zuordnung oder luecke. Regelwerke, die nur in Neutral-Zeilen stehen, zählen als „neutral“ (nicht als zusätzlich, nicht in der Präzision). Konfiguration B hat keine Stufe 1.
 
-| Kennzahl | v1 A (n=1) |
-| --- | --- |
-| Recall | 100% |
-| Präzision | 92% |
+| Kennzahl | v1 A (n=1) | v2 A (n=1) |
+| --- | --- | --- |
+| Recall | 100% | 100% |
+| Präzision | 92% | 92% |
 
 In wie vielen Läufen hat Stufe 1 das Regelwerk genannt:
 
-| Regelwerk | Status | v1 A |
-| --- | --- | --- |
-| GG | Soll | 1/1 |
-| AGG | Soll | 1/1 |
-| TV-L | Soll | 1/1 |
-| SGB IX | Soll | 1/1 |
-| BayGlG | Soll | 1/1 |
-| DSGVO | Soll | 1/1 |
-| BayDSG | Soll | 1/1 |
-| AI Act | Soll | 1/1 |
-| BayPVG | Soll | 1/1 |
-| NachwG | Soll | 1/1 |
-| WissZeitVG | Soll | 1/1 |
-| TzBfG | Soll | 1/1 |
-| BayHIG | neutral | 1/1 |
-| BGB | zusätzlich | 1/1 |
+| Regelwerk | Status | v1 A | v2 A |
+| --- | --- | --- | --- |
+| GG | Soll | 1/1 | 1/1 |
+| AGG | Soll | 1/1 | 1/1 |
+| TV-L | Soll | 1/1 | 1/1 |
+| SGB IX | Soll | 1/1 | 1/1 |
+| BayGlG | Soll | 1/1 | 1/1 |
+| DSGVO | Soll | 1/1 | 1/1 |
+| BayDSG | Soll | 1/1 | 1/1 |
+| AI Act | Soll | 1/1 | 1/1 |
+| BayPVG | Soll | 1/1 | 1/1 |
+| NachwG | Soll | 1/1 | 1/1 |
+| WissZeitVG | Soll | 1/1 | 1/1 |
+| TzBfG | Soll | 1/1 | 1/1 |
+| BayHIG | neutral | 1/1 | 1/1 |
+| BGB | zusätzlich | 1/1 | 1/1 |
 
 ## 3. Stufe 2 – Zuordnung je Task
 
 Bewertet werden Funde mit `typ = zuordnung`. Präzision = korrekt / (korrekt + falscher_absatz + falscher_task + nicht_in_soll); `neutral` geht nicht ein und wird separat ausgewiesen. Teilprozess einer Soll-Zeile mit mehreren Tasks = Teilprozess des ersten Tasks.
 
-| Kennzahl | v1 A (n=1) |
-| --- | --- |
-| Funde (zuordnung) | 120.0 |
-| davon korrekt | 50.0 |
-| davon neutral | 34.0 |
-| davon falscher_absatz | 0.0 |
-| davon falscher_task | 32.0 |
-| davon nicht_in_soll | 4.0 |
-| Recall gesamt | 70% |
-| Präzision gesamt | 58% |
-| Anteil neutral | 28% |
-| Recall inkl. Lückenmeldungen am Soll-Task | 91% |
-| Recall TP1 | 50% |
-| Recall TP2 | 67% |
-| Recall TP3 | 75% |
-| Recall TP4 | 50% |
-| Recall TP5 | 100% |
-| Recall TP6 | 50% |
-| Recall GESAMT | 100% |
-| Präzision TP1 | 100% |
-| Präzision TP2 | 89% |
-| Präzision TP3 | 46% |
-| Präzision TP4 | 67% |
-| Präzision TP5 | 58% |
-| Präzision TP6 | 40% |
+| Kennzahl | v1 A (n=1) | v2 A (n=1) |
+| --- | --- | --- |
+| Funde (zuordnung) | 120.0 | 200.0 |
+| davon korrekt | 50.0 | 78.0 |
+| davon neutral | 34.0 | 64.0 |
+| davon falscher_absatz | 0.0 | 0.0 |
+| davon falscher_task | 32.0 | 46.0 |
+| davon nicht_in_soll | 4.0 | 12.0 |
+| Recall gesamt | 70% | 96% |
+| Präzision gesamt | 58% | 57% |
+| Anteil neutral | 28% | 32% |
+| Recall inkl. Lückenmeldungen am Soll-Task | 91% | 96% |
+| Recall TP1 | 50% | 100% |
+| Recall TP2 | 67% | 100% |
+| Recall TP3 | 75% | 100% |
+| Recall TP4 | 50% | 75% |
+| Recall TP5 | 100% | 100% |
+| Recall TP6 | 50% | 100% |
+| Recall GESAMT | 100% | 100% |
+| Präzision TP1 | 100% | 91% |
+| Präzision TP2 | 89% | 79% |
+| Präzision TP3 | 46% | 47% |
+| Präzision TP4 | 67% | 47% |
+| Präzision TP5 | 58% | 64% |
+| Präzision TP6 | 40% | 31% |
 
 Je Lauf:
 
 | run_id | Version | Konfig | Funde | korrekt | neutral | falscher_absatz | falscher_task | nicht_in_soll | Recall | Präzision |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20261020-145929_A_1 | v1 | A | 120 | 50 | 34 | 0 | 32 | 4 | 70% | 58% |
+| 20261021-094308_A_2 | v2 | A | 200 | 78 | 64 | 0 | 46 | 12 | 96% | 57% |
 
 In wie vielen Läufen wurde die Soll-Zuordnung korrekt getroffen:
 
-| Soll | Regelwerk | Fundstelle | Task(s) | v1 A (n=1) |
-| --- | --- | --- | --- | --- |
-| S01 | GG | Art. 33 Abs. 2 | GESAMT | 1/1 |
-| S02 | AGG | § 7 | GESAMT | 1/1 |
-| S03 | AGG | § 11 | T1.3 | 0/1 |
-| S04 | TV-L | – | T1.2 | 0/1 |
-| S07 | BayGlG | – | T1.2|T1.3 | 1/1 |
-| S08 | DSGVO | Art. 6 | T2.1|T2.3 | 1/1 |
-| S09 | BayDSG | – | T2.1|T2.3 | 1/1 |
-| S10 | DSGVO | Art. 13 | T2.1|T2.2 | 0/1 |
-| S11 | DSGVO | Art. 32 | GESAMT | 1/1 |
-| S12 | AI Act | Anhang III Nr. 4 | T3.1|T3.2 | 1/1 |
-| S13 | AI Act | Art. 26 | T3.1|T3.2|T3.3|T3.4 | 1/1 |
-| S17 | DSGVO | Art. 22 | T3.4|T5.1 | 0/1 |
-| S19 | AGG | – | T3.1|T3.2 | 1/1 |
-| S21 | SGB IX | § 165 | T4.1 | 0/1 |
-| S23 | BayGlG | Art. 17 | T4.1|T4.2 | 0/1 |
-| S24 | AGG | – | T4.2 | 1/1 |
-| S25 | DSGVO | Art. 5 Abs. 2 | T4.3|T6.2 | 1/1 |
-| S27 | TV-L | – | T5.2|T5.3 | 1/1 |
-| S28 | NachwG | – | T5.2|T5.3 | 1/1 |
-| S29 | AGG | § 15 Abs. 4 | T6.2 | 0/1 |
-| S30 | DSGVO | Art. 17 | T6.3 | 1/1 |
-| S46 | WissZeitVG | § 2 | T1.2|T5.2|T5.3 | 1/1 |
-| S47 | TzBfG | § 14 Abs. 4 | T5.2|T5.3 | 1/1 |
+| Soll | Regelwerk | Fundstelle | Task(s) | v1 A (n=1) | v2 A (n=1) |
+| --- | --- | --- | --- | --- | --- |
+| S01 | GG | Art. 33 Abs. 2 | GESAMT | 1/1 | 1/1 |
+| S02 | AGG | § 7 | GESAMT | 1/1 | 1/1 |
+| S03 | AGG | § 11 | T1.3 | 0/1 | 1/1 |
+| S04 | TV-L | – | T1.2 | 0/1 | 1/1 |
+| S07 | BayGlG | – | T1.2|T1.3 | 1/1 | 1/1 |
+| S08 | DSGVO | Art. 6 | T2.1|T2.3 | 1/1 | 1/1 |
+| S09 | BayDSG | – | T2.1|T2.3 | 1/1 | 1/1 |
+| S10 | DSGVO | Art. 13 | T2.1|T2.2 | 0/1 | 1/1 |
+| S11 | DSGVO | Art. 32 | GESAMT | 1/1 | 1/1 |
+| S12 | AI Act | Anhang III Nr. 4 | T3.1|T3.2 | 1/1 | 1/1 |
+| S13 | AI Act | Art. 26 | T3.1|T3.2|T3.3|T3.4 | 1/1 | 1/1 |
+| S17 | DSGVO | Art. 22 | T3.4|T5.1 | 0/1 | 1/1 |
+| S19 | AGG | – | T3.1|T3.2 | 1/1 | 1/1 |
+| S21 | SGB IX | § 165 | T4.1 | 0/1 | 1/1 |
+| S23 | BayGlG | Art. 17 | T4.1|T4.2 | 0/1 | 1/1 |
+| S24 | AGG | – | T4.2 | 1/1 | 1/1 |
+| S25 | DSGVO | Art. 5 Abs. 2 | T4.3|T6.2 | 1/1 | 0/1 |
+| S27 | TV-L | – | T5.2|T5.3 | 1/1 | 1/1 |
+| S28 | NachwG | – | T5.2|T5.3 | 1/1 | 1/1 |
+| S29 | AGG | § 15 Abs. 4 | T6.2 | 0/1 | 1/1 |
+| S30 | DSGVO | Art. 17 | T6.3 | 1/1 | 1/1 |
+| S46 | WissZeitVG | § 2 | T1.2|T5.2|T5.3 | 1/1 | 1/1 |
+| S47 | TzBfG | § 14 Abs. 4 | T5.2|T5.3 | 1/1 | 1/1 |
 
 ## 4. H1b – Lückenkandidaten
 
 Kategorien je Lückenmeldung (`typ = moegliche_luecke`), dedupliziert nach Regelwerk + Artikel/Paragraf: `luecke_korrekt` (trifft Soll-Lücke), `luecke_neutral` (trifft Neutral-Zeile), `luecke_an_vorhandener_zuordnung` (trifft nur eine Soll-Zuordnung), `luecke_ohne_soll` (trifft nichts). Falsch = die beiden letzten. Lücken-Recall streng = nur Lückenmeldungen; großzügig = zusätzlich Regelwerke aus Stufe 1 (B: Vorgabe) ohne Zuordnung. Kontrolle = Lückenmeldungen, die S23 (Gleichstellungsbeauftragte, vorhandener Schritt) treffen.
 
-| Kennzahl | v1 A (n=1) |
-| --- | --- |
-| Lücken-Recall streng | 100% |
-| Lücken-Recall großzügig | 100% |
-| Lückenmeldungen (Funde) | 80.0 |
-| Lückenmeldungen (dedupliziert) | 31.0 |
-| davon luecke_korrekt | 9.0 |
-| davon luecke_neutral | 8.0 |
-| davon luecke_an_vorhandener_zuordnung | 10.0 |
-| davon luecke_ohne_soll | 4.0 |
-| falsche Lückenmeldungen | 14.0 |
-| Kontrolle: Fehlmeldungen S23 | 1.0 |
-| Regelwerke ohne Zuordnung | 1.0 |
+| Kennzahl | v1 A (n=1) | v2 A (n=1) |
+| --- | --- | --- |
+| Lücken-Recall streng | 100% | 78% |
+| Lücken-Recall großzügig | 100% | 78% |
+| Lückenmeldungen (Funde) | 80.0 | 28.0 |
+| Lückenmeldungen (dedupliziert) | 31.0 | 13.0 |
+| davon luecke_korrekt | 9.0 | 7.0 |
+| davon luecke_neutral | 8.0 | 2.0 |
+| davon luecke_an_vorhandener_zuordnung | 10.0 | 1.0 |
+| davon luecke_ohne_soll | 4.0 | 3.0 |
+| falsche Lückenmeldungen | 14.0 | 4.0 |
+| Kontrolle: Fehlmeldungen S23 | 1.0 | 1.0 |
+| Regelwerke ohne Zuordnung | 1.0 | 0.0 |
 
 In wie vielen Läufen wurde die Soll-Lücke erkannt (streng):
 
-| Soll-Lücke | Regelwerk | Fundstelle | Inhalt | v1 A (n=1) |
-| --- | --- | --- | --- | --- |
-| S05 | SGB IX | § 164 | Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der … | 1/1 |
-| S06 | SGB IX | § 165 | Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz … | 1/1 |
-| S14 | AI Act | Art. 26 Abs. 11 | Information der Betroffenen über den KI-Einsatz | 1/1 |
-| S15 | AI Act | Art. 27 | Grundrechte-Folgenabschätzung (öffentliche Stelle) | 1/1 |
-| S16 | AI Act | Art. 4 | KI-Kompetenz der Mitarbeitenden | 1/1 |
-| S18 | DSGVO | Art. 35 | Datenschutz-Folgenabschätzung | 1/1 |
-| S20 | BayPVG | Art. 75a | Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, a … | 1/1 |
-| S22 | SGB IX | § 178 | Beteiligung der Schwerbehindertenvertretung | 1/1 |
-| S26 | BayPVG | Art. 78 Abs. 3 | Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 A … | 1/1 |
+| Soll-Lücke | Regelwerk | Fundstelle | Inhalt | v1 A (n=1) | v2 A (n=1) |
+| --- | --- | --- | --- | --- | --- |
+| S05 | SGB IX | § 164 | Prüfung Besetzung freier Stellen mit schwerbehinderten Menschen, Beteiligung der … | 1/1 | 1/1 |
+| S06 | SGB IX | § 165 | Meldung freier Stellen an die Agentur für Arbeit (öffentlicher Arbeitgeber, Satz … | 1/1 | 1/1 |
+| S14 | AI Act | Art. 26 Abs. 11 | Information der Betroffenen über den KI-Einsatz | 1/1 | 1/1 |
+| S15 | AI Act | Art. 27 | Grundrechte-Folgenabschätzung (öffentliche Stelle) | 1/1 | 1/1 |
+| S16 | AI Act | Art. 4 | KI-Kompetenz der Mitarbeitenden | 1/1 | 0/1 |
+| S18 | DSGVO | Art. 35 | Datenschutz-Folgenabschätzung | 1/1 | 1/1 |
+| S20 | BayPVG | Art. 75a | Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Abs. 1 Nr. 2, a … | 1/1 | 1/1 |
+| S22 | SGB IX | § 178 | Beteiligung der Schwerbehindertenvertretung | 1/1 | 1/1 |
+| S26 | BayPVG | Art. 78 Abs. 3 | Mitteilung an den Personalrat über die Einstellung (Mitbestimmung nach Art. 78 A … | 1/1 | 0/1 |
 
 ### Lückenmeldungen v1 A (1 Läufe, dedupliziert je Lauf)
 
@@ -193,6 +195,24 @@ In wie vielen Läufen wurde die Soll-Lücke erkannt (streng):
 | BayPVG | Art. 75 | luecke_ohne_soll | 1 | 3 | – | – | Die vorgesehene Eingruppierung dem Personalrat zur Mitbestimmung vorlegen und das Zustimmungsverfahren vor der abschließenden Maßnahme durchführen. Eine Beteili … |
 | BayPVG | Art. 76 | luecke_ohne_soll | 1 | 1 | – | – | Falls die Bedarfsmeldung als Personalanforderung zum Haushaltsvoranschlag weitergeleitet wird, ist der Personalrat vorher anzuhören. Ein solcher Anhörungsschrit … |
 
+### Lückenmeldungen v2 A (1 Läufe, dedupliziert je Lauf)
+
+| Regelwerk | Norm | Kategorie | Läufe | Meldungen | Soll-Lücke | Soll-Zuordnung | Beispiel fehlender Schritt |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| AI Act | Art. 26 | luecke_korrekt | 1 | 1 | S14 | S13 | Falls und sobald die Vorschrift für das eingesetzte System gilt: Bewerbende darüber informieren, dass sie der Verwendung des Hochrisiko-KI-Systems unterliegen;  … |
+| AI Act | Art. 27 | luecke_korrekt | 1 | 2 | S15 | – | Vor der erstmaligen Nutzung des Hochrisiko-KI-Systems ist als öffentliche Stelle eine Bewertung der Auswirkungen auf die Grundrechte durchzuführen, sofern die V … |
+| BayPVG | Art. 75a | luecke_korrekt | 1 | 4 | S20 | – | Vor Einführung, Anwendung oder erheblicher Änderung des KI-gestützten automatisierten Verfahrens zur Personalverwaltung die Mitbestimmung des Personalrats durch … |
+| DSGVO | Art. 35 | luecke_korrekt | 1 | 2 | S18 | – | Vor Beginn der KI-Auswertung eine Datenschutz-Folgenabschätzung durchführen, sofern die systematische und umfassende Bewertung personenbezogener Aspekte auf aut … |
+| SGB IX | § 164 | luecke_korrekt | 1 | 3 | S05 | – | Vor beziehungsweise im Zuge der Besetzung ist zu prüfen, ob der freie Arbeitsplatz mit schwerbehinderten Menschen besetzt werden kann; die erforderliche frühzei … |
+| SGB IX | § 165 | luecke_korrekt | 1 | 2 | S06 | S21 | Nach erfolgloser Prüfung einer internen Besetzung ist der neue oder neu zu besetzende Arbeitsplatz frühzeitig der Agentur für Arbeit zu melden; dieser gesondert … |
+| SGB IX | § 178 | luecke_korrekt | 1 | 1 | S22 | – | Bei Bewerbungen schwerbehinderter Menschen die Schwerbehindertenvertretung über den einschlägigen Vorgang unterrichten und ihre gesetzliche Möglichkeit zur Teil … |
+| AI Act | Art. 49 | luecke_neutral | 1 | 2 | – | – | Vor der Nutzung ist zu prüfen und gegebenenfalls die Registrierung der Hochschule und des verwendeten Systems in der EU-Datenbank vorzunehmen. |
+| DSGVO | Art. 30 | luecke_neutral | 1 | 1 | – | – | Ein Verzeichnis der Verarbeitungstätigkeiten führen oder aktualisieren, das die Verarbeitung von Bewerberdaten im Auswahlverfahren einschließlich der Gesprächsd … |
+| BayGlG | Art. 17 | luecke_an_vorhandener_zuordnung | 1 | 4 | – | S07,S23 | Ein etwaiges Begehren einer betroffenen Person auf Beteiligung der Gleichstellungsbeauftragten auch für die Personalangelegenheit der KI-Vorauswahl entgegennehm … |
+| BayPVG | Art. 69 | luecke_ohne_soll | 1 | 1 | – | – | Personalrat rechtzeitig und umfassend unterrichten und ihm die für seine Aufgaben erforderlichen Unterlagen zur Verfügung stellen. |
+| BayPVG | Art. 70 | luecke_ohne_soll | 1 | 2 | – | – | Die erforderliche Zustimmung des Personalrats zur mitbestimmungspflichtigen Maßnahme vor ihrer Durchführung einholen. |
+| BayPVG | Art. 75 | luecke_ohne_soll | 1 | 3 | – | – | Die personalvertretungsrechtliche Mitbestimmung bei der Eingruppierung ist vor der endgültigen Eingruppierungsmaßnahme sicherzustellen; ein entsprechender Betei … |
+
 ## 5a. Material: Funde `nicht_in_soll` / `luecke_ohne_soll` (manuell prüfen)
 
 Zusammengefasst je Regelwerk + Norm über alle Läufe einer Gruppe; Zitat und Quelle aus dem ersten Fund.
@@ -208,6 +228,19 @@ Zusammengefasst je Regelwerk + Norm über alle Läufe einer Gruppe; Zitat und Qu
 | BGB | § 611a | 1 | 1 | T5.2 | 0% | § 611a Abs. 1 und 2 | https://www.gesetze-im-internet.de/bgb/__611a.html | Das Angebot muss die vorgesehene Beschäftigung als Arbeitsverhältnis mit weisungsgebundener Arbeit und vereinbarter Vergütung abbilden. Die Bezeichnung im Angebot ist nicht entscheidend, wenn die tats … |
 | BayArchivG | Art. 14 | 1 | 1 | T6.2 | 0% | Art. 14 Abs. 1 und 2 | https://www.gesetze-bayern.de/Content/Document/BayArchivG-14 | Für staatliche Hochschulen und staatlich beaufsichtigte juristische Personen des öffentlichen Rechts sieht Art. 14 je nach Archivierungsmodell eigene Archivierung oder die Anbietung nicht mehr benötig … |
 | BayPVG | Art. 76 | 1 | 1 | T1.1 | 100% | Art. 76 Abs. 3 Satz 1 | https://www.gesetze-bayern.de/Content/Document/BayPVG-76 | Die Vorschrift greift bei der Weiterleitung von Personalanforderungen zum Haushaltsvoranschlag. Ob T1.1 eine solche Weiterleitung umfasst, ist aus der Beschreibung nicht ersichtlich. |
+
+### v2 A (18 Funde, 8 Normen)
+
+| Regelwerk | Norm | Läufe | Funde | Tasks | unsicher | Fundstelle (Beispiel) | Quelle | Zitat Begründung |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BayPVG | Art. 75 | 1 | 4 | T1.2,T4.1,T5.1,T5.2 | 25% | Art. 75 Abs. 1 Satz 1 Nr. 3a | https://www.gesetze-bayern.de/Content/Document/BayPVG-75 | Der Personalrat hat bei der Eingruppierung mitzubestimmen. Der Prozess enthält zwar die Festlegung der Eingruppierung, benennt aber keine Beteiligung des Personalrats. |
+| BDSG | § 26 | 1 | 3 | T2.1,T4.2 | 33% | § 26 Abs. 1 | https://www.gesetze-im-internet.de/bdsg_2018/__26.html | Bewerbungsdaten werden für die Entscheidung über die Begründung eines Beschäftigungsverhältnisses verarbeitet; Bewerbende sind nach § 26 Abs. 8 Beschäftigte im Sinne dieser Vorschrift. |
+| BayPVG | Art. 69 | 1 | 3 | T4.3,T5.1 | 0% | Art. 69 Abs. 2 Satz 1 | https://www.gesetze-bayern.de/Content/Document/BayPVG-69 | Der Personalrat ist zur Aufgabenerfüllung rechtzeitig und umfassend zu unterrichten. Die Gesprächsdokumentation kann hierfür relevant sein, soweit sie für seine Aufgaben und die personalvertretungsrec … |
+| ArbGG | § 61b | 1 | 2 | T6.2,T6.3 | 0% | § 61b Abs. 1 | https://www.gesetze-im-internet.de/arbgg/__61b.html | Die Klagefrist kann für die Dauer relevant sein, während der Unterlagen zur Verteidigung gegen einen geltend gemachten Anspruch benötigt werden. |
+| BGB | § 611a | 1 | 2 | T5.3 | 0% | § 611a Abs. 1 | https://www.gesetze-im-internet.de/bgb/__611a.html | Der Vertrag begründet ein Arbeitsverhältnis mit weisungsgebundener, fremdbestimmter Arbeit in persönlicher Abhängigkeit; die Regelung beschreibt den arbeitsvertraglichen Rahmen. |
+| BayPVG | Art. 70 | 1 | 2 | T3.1,T3.3 | 50% | Art. 70 Abs. 1 Satz 1 | https://www.gesetze-bayern.de/Content/Document/BayPVG/true | Soweit die Einführung oder Anwendung des automatisierten Verfahrens der Mitbestimmung nach Art. 75a BayPVG unterliegt, darf die Maßnahme grundsätzlich erst mit Zustimmung des Personalrats getroffen we … |
+| AI Act | Art. 113 | 1 | 1 | T3.1 | 0% | Art. 113 Abs. 3 Buchst. c Ziff. i | https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu | Die Vorschrift legt den für die Anwendung der Hochrisiko-Pflichten maßgeblichen Termin fest und ist für die zeitliche Einordnung des aktuellen KI-Einsatzes entscheidend. |
+| AI Act | Art. 6 | 1 | 1 | T3.2 | 100% | Art. 6 Abs. 2 | https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02024R1689-20260727 | KI-Systeme für Einstellung oder Auswahl natürlicher Personen sind in Anhang III erfasst. Ein Ranking von Bewerbenden spricht für eine solche Verwendung; die konkrete Einstufung hängt von Funktion und  … |
 
 <!-- MANUELL START: alles ab hier bleibt bei erneutem evaluate.py erhalten -->
 

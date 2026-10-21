@@ -1,0 +1,712 @@
+{
+  "id": "resp_00d528f376e968e1006ad86dca63bc87d1bc10ec32724902fa",
+  "access_programs": null,
+  "created_at": 1792568778.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-luna",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00d528f376e968e1006ad86dcb5a7487d1bbb906aea0b3f7fe",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G33gMbB2tmzc_r5KjIFJIrLpOhe_Ndh2SqMRhp7A_nGmEVAmd8h9sVOuUASjkqv-UyDoBCqeL24u5K4lOtEchm8PTfmgyr3Icaf1q0nrQ58oD24rMG7Cs-3qp3PNC_8FaQFQxDcjMtrHql_C2f6lEMh7sK_aMF7MInfAYNaFzJy41wpXGDGELXSUhpN0Kunv4KBViMBH0rt7Q6odQkir0Fdia54iYQtn8bHxFOTaOkgalu8sYqDPNqtYqHVBy7HS71ivNWk9tx170n7xO7ubcOmjKbkng-4lEQ7exKG4f2OwafVXk3GI_lRDkzjTwKpKMNh322oKroQYvX2R9XXTGcl5tRd7n230J0QMWtt8Igki9Ne1GIStf5ijQtYKCXQZ0qdN6J2XmjAzxaqpPdFQTj5TJa67Xgl3aekp9E1TDefljd53huUQvI2xQ4ZHDPlO_AZVmpFrU4tWy--szbwdM1pTIR3mvpxkmp9X4Zm9in2vAbn7zoEGaU5HlbdJt2dhlsxy6GSZBmbhP98YEehyi5yS0KBoXcYQEwoxmJio3AuAoneinr87qDrf6ih3SIpD8zcmifU5hbmsHvEHcfDwbLzPRDnmaW4iLmJ9QDCo35nJsASduKbLSmUC06OVeQYeU-uYaduIK80gc1JhLc3yJYWdVq9M08iEpFH3-I1GNs2dqLbeFoSanlMoqgB7Rx4vyHEgSqoRUvHlVWGkeXRC7nZuTXicWEX_0wYnho56Mdjw29thd5J6g3VBCienty28lD5BB27WEIHD3Q7nNL5ZSJg4zkjLEC_enUPO3TwxhXaCB-ppRt28SjoZitoZF6WOIiN6diu_BGKw2Nr0fubm1XEPTONyb0TNicmdhs4TJEdCHAcXO4oPwAFHbflQX0nyYHltaWM5ZvYcRqaJI5Dnq_nLcjY27tuggpvVslpF_1EygLHrgI7J9tOdWyR1DBO-FEeFeD7214ta4EoAfOz4xK4fU8CzSH1wkmYZlE4e07d7d3o7wWKAMuUzXPjqj9qk6WHmlOtFLrs7j4Y7ASVLpU4knV5byiRMs99c3TKWlPjkb6YkD61C2crdo1dic-EwgTKnU6UNgd6VYcZxAcdXvecWy8svtXlPICiqCmzP5sIbSGojgzzf6WxQj08_ztFCX33p5ctLAU3qzXW4rEK66eInQesDNJgyBHqeN7LQhaVjU9pg4fpmaDGkZh_C-PECRFaEGINO1RJZH-xNYiM2Esvol3kSf49lLLYCEwrdoSkDrs2gjd8lNHJh5HNgJhcz3V-y40ZPnRQSyO9_4_CEjYv6tY3EygumtS8PAihAgQyxB9OfQ_TYxCcLD7wkIh7xSdWKLGIwEVDTfkH3N6kfkQ2ELhvAMXKnFV0I7HfuDNwIEbqbUbkes7PlupbbF93yZyf-VDebcfIN3-jWmAxfCFf3xMnqc3AyCM4CgFHfpC0Fw1Jwpj-b7zxwlrZmHzHKFzzH89Me-UZeReV0vZASzvMfnjXlnuuDIy9-WnY-92xaJmSOXV5cJWz_mBB1cUEeYfn3HhPraP5Rxfzws7GvDdd9hM-Yd9mfpo9E6sFmDkN21VcCBYJYwRUQSHbIP14WS9qwbgkH5--WQu8gyvySwr1D1zXw4EDv4hTqGHOSlrO5l4yqa3pe3C9k9I16otg7g-7WfiPlqfwZUbPAjOEAQDQQjEFL1Du8EpumJQHWqM_UwYSYEgKulkBNzl0zN31jZRAYLnh22NVDVqXSeIk-59etl44zY2b6g3h4HKy4I8dXV87q-rVEyuEBY-J_ZlMVMZjvt76TSzQCzSVeCXkITXap-9XyKciy4cFtPvNrTQpU-QfW0L8T80epMFEzr6kSfJjZab_Wk7TV4N_VI2cI9yV4rGmM6zMk7tmXhfWun884lKDk1oSjzzWkPkwRB04C9RJIC1kTnvD2A1yrdRWabY3lyKUaotn3ZwO4t0DA2SRV90YV_mEqnB9WfOwaJy9USFqK4zLLCWm6IGJZmDfqf0E8v9zdiTifbwnVW50c7TyD1ZQMpV4c6jhxdqjPm7deA35zWA3L3D5F4D2RwiRfeWd3Q-vBlriWfXnN6SyFeEl0e_t59udptfgS56BCCDSlGfoZea3R2TpFBvbREuClYV_3-eq3jcnx7cN5ilhbuqmhvBGtNhjK92O1GiT47iHcNhQjn_-B3If4qdHO5N5a5Q7_PiMEPwlLihHQhMUZx-PqEeI9lrylRO4fg8qrTF6HDhDmy8QbQh-Z2FR0SpIo3OFCTWPdzf6QRdT_QmYFBeSTaCI-sZ1-W2DBTlIVs5Nj3uADRNeiRccCZeHXsmt10RsHIjbZzrLP0gOayPdhdx5wqtD8EcaLBlKDkGyyNMjpnZAbuTJUT1OfNDrxP6c0UQ6-KmE3hb4WGe1o8GbQhsWszvWuqGWXUb6OaQgArBk_qQ5mrI9v-Yh0bNKUfkRwzb-oP1mpyic-o6NZDTn_ydZN_VYLuC7_lCvkGWSfkYpfJ0o08EgRftNUL_NtwXT_mbneQJcRToepQHudXm4yu027EoSrlGXR2qhIf_4NoznilJbIapC3d19HERARRJcEI5E-Gss7YDc6B1agDlCu2E_5jibMSOKnjNIoIFaOMHrEi3GOvj4d0pvcfXRA7CcLIBFmER_zT_ykNS7n0zWFxxg-VbP9QMGUnhsvxxWIvnZU4TQvqGof29gROiFpwGHsXQiS-z2f2rnMhNZ3X-xZLW3qDa5e9Y1mrf7YldUv5_OJl3UyybP8WZ3p2w8hSPbkkX5QJ1JFsfx8BQl0uq21meDb2U-deBd7YkE5a_G-aSfi1Dfxtp9aoCW1vax1wwnHaEihpWR0NFE0AafUDkHcbY-FCaaeF8PvtgOJk257J5ZXYjF9L1u2mkVjio_UE45prB4-fhO0PzR3xrRBNbxYZ4BSHTcBZ_DmgB_fjdprxHVG_kJOxM5lAIhqQsFJo7gFUzdpsq7HbCS6n6peC4IlLsINgevvMxzYEwVK7aADUp90trFH1_dface4mkS2CaxknUt3x0Ms_pxu89yc9m5U9HWqoeTfMANfdmJAXhUvkNlt9cfthBSXooHgmzSf3F_iRm58Z6WN7jsvUdANkM_a1iexHE=",
+      "status": null
+    },
+    {
+      "id": "ws_00d528f376e968e1006ad86dccb88887d180e40db557f01a8f",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-im-internet.de GG Art 33 Absatz 2",
+          "site:gesetze-im-internet.de agg § 22 Beweislast",
+          "site:eur-lex.europa.eu GDPR Article 5 Article 6 Article 24 Article 30 recruitment records",
+          "site:gesetze-bayern.de BayGlG Vorstellungsgespräch Dokumentation Auswahlverfahren Personalrat BayPVG"
+        ],
+        "query": "site:gesetze-im-internet.de GG Art 33 Absatz 2",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/__22.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV249478-14"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-69"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/AGG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-19?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-3"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-46"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayVwV249478-14?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV230264-NN24"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/agg/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-im-internet.de/gg/art_33.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVwV230264-NN15"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG-69?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayPVG?all=True"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2024-N-18633?all=False"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_00d528f376e968e1006ad86dcff69087d1a46e16fac15e1327",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G33CiPCcac4tPfmjf4SxRGjSxIrZZ1DFVgCZCifYA0aDgqNqqDXnU3KquiXuH0Bg3P4fpf1WKPT17UiRnrMqee1wrEhEXO8Gtx_aZdRmosYFa4cnSLWANY1Nz25R4fwqcwPsWsiGBfvDNou0Z-Ue3-xCZ1ecOAN-IUnP7sJjZAQxz9E1TvcUZJNWo7xsih-dHFro062f_acn9qyCkSYEVFLlvf6xOA5LunsRQXMfGz5lvgLx_mrxEniJpCE3Gwwvtg__-JLdFDhsAYpzBbnkvogsTGU4cd8l7Qy3nAaJMmoX9wwCNPIxz_eXUpPZF67pbkG5nXZJ2Yur-VfvjLTwnXPqLCZzsjDVH742dKxA7C3Hulu3fb3pbvOoX6C2M0jHes_4sDP3WQabNtlTi-xJxYkhYBFejI12fw9G6z6ruKmRdOPXoTWRl8CDdJEsprGsz9lFgpY1vk-8HW5thiKKXW295umHNmltnvlZ48JQ7q2WxK2geNq4PZEOQu96p-HGnmp_mVxXU5s3ak0yUqcditWKBVVIILpzjA7v5n3WJLYOc7YOmIi8-jg4BMBI3lfHlK1TS29CwhgpAVhni_tPKZfZyYILuSt9TqLxPBJNNLChspqPhuzVuytAqo_8yhxG-LkV7A8wxJkjDTON2VIfB5C_1mP41D5m-3pMyh8sA4_qfTayNwTThuhZL7V9qLtKzHPlXK61-l8KxTirKA5tV7LYf6nJEySGLuqEsMRk4K6ixVlSDzOUdgExPtMBBqOxeQuikLFDS-2ecKD9XPSkCEUSqqCM_k9biFeBciyTUrufFsMzCUShhRziIAhZYirDO8xRLuDMK97EKR4jnx2JFh9bp10gVUUA5E5SPJBJ_NOFdlEgMONdv8O3ThzKWOJTw92XPsz9FgsTvXNejHVlcIEE3OBC_O2T8XpMzZd1fSdW6Ve79nlelixDX_8LFPxZlS3FrfVeUQcWEYFVD5LPkox7fS33pH3P6l44QS-kOBwwbWLEOFZbTDqK-5Tmeo9o_IZzZcjaaWTrwULSwZ-slMFQ5hUHQ3l34BpnCC23b_Ur5aM6Z9g_5xDOJwcK8wIs_5u2D-yAAo0j-b-i4Ivn1tPvowCanO8fiqQrOTEnAt41fbHWiFZMdo118hFRbSCstZlM5MG50CVGWncEBjjp3fXsTiuhuu9ZOq5RngJvEgNXGnyVAq78ZOnTPdCXnw_9KMYZ54lRReyzhnq_5YEbBxHgcVzqGfJ8h31vbK4XeHZf5myRCOzQgXZXYh7BfFjtqCGcTSO1k6u_EZDXRnTkeMv61RUaZ0VT1FLe_e_0rwyxynNRh3DOZUutKafWzrYRIpvalFxI7g25TVGczzljPIi1vtYzK5GxlD8FVbWhq7Z9799Oe9JkKmxU7hN3C-PrEAHHdkQYfP9R6ahhOUBYcxBk6d8EUfrC9BVVdZJg4NLFlS66TxD0u---sHmW76fspKzaHFA-X-wjS_44W1BjLgVIPSbJnIOrdq2ijBL3jiI5puPdmbpf1owBsaM0WKK1qy1VBV1rAoz-tfNazFhyQMpoU_4xKcnIyYTR86wH01p9M5Re0etbB6B3UqLlk2sgPl31X2U1_0s9Z-xRKfaOQXg2Qh54h__DpKiuec7AVtBwKbabNZnv8aKtgZHKdOeN8u7Vn665AKTeViEWAtuyoAJWzQT8UUkVzO1gCUAgbHO_ezv7NzkMam3p4QNZWTm_6uk4QVQi4UzUVFW4WwuS_kHHNf-cQ7_phw1BY1L6ilUhlWx7n3I2vQroMoSr5w6407dOT0OeIvguXeOV_scEfWDecfkUGiisOL1WK7XFAKubCuhehEcclL6PU3MNcGaYB4xfqCjvBNumjlB0qxJ98mXOVjmIKLuI9PnbpwxXhmV7WCj_AKewsv6874latKfTUr0eabd8HZvAZBvFfpdfbjYFYz0AeYJiWSIhZ5QEwUmesAxHnaNq4TFYA5e7C09pBDJFRmdVbxcIJjcU19Vl6rBai_8XlUjnNgm4hT1scVf0aWFW3JnMucNxqFky4UzmBMEgw9A41vZPfo7Vgc-glZDYN9rxN5agLxbvp_EOazhVRH3SGsb5LsKg0nh2gC5dq2mAAmKOtP2gyWiSpsn_3RgNFV1mSf92LP60KiCN09fmFul4a3IqZbMVy3RKnKOy1eQHKULx_YPCrhrWmk_dCGrVLDjZdytM4khbwT_tJHtvMZ1D_kow7WhTo5cmhXxh-a1pcGOKKh6w-iEahDhbYiwEtdBTYRvychPyCwXzWFfyEyey5IK4Y96CRNFyqXmvo0OgummsOJD5OXN2H-AQHAh1QJKqLeWMeDiwBHbiE4ViWQRiPI6I-aeBII7ggj3TzgPYs6bbvwGujAS2DIH4h9c7yUixZSEHQYhCHv9OXJSJD101-tyZLpzuWTqNLAjZnEdDnvc_WN-6mtjGKFfJs7uY0zpy38UX-6BsJ0sEfmK8bZp38kvNnPApfvl0qnhc0SVsKxtiwsC-qDNmAG9peyJB0_7KL5zGCm4MmpNA-V75QO8E968tkjxBZUfrMN2NsT9CDJrbcftMsZ-U8TaJXqGJFoQe7nLka__iAAYcSXyFfsCr7QCGlV8nFRvLCThp3bPZyv7928NRwydtGMcFlLQfhaoHWCHm5KHYeggO35vwA8AAKKsfqQ78TJIXeW7MWZxjDTs3Kr3b90YhzoZ96nRD2iVQuHOtfLtKDwUVaeStVEG2zuqkGt_akJ6IMn3hGikb3m-lyvplba6SAmbCpkEGdMFq_9dlzcH7xFAVxsq-g0rERJD8gkpnGNfIvFawEXe6maundcf38iZHi9Cxesf1FbJWCooCryE-LwXvepsD6se85mMJdr4IBRIlFLFf4YAO86hEE1r2CPLRfFBDfq8ScepRtE7knX0wpz8BZvw_CkoqnxnCgYm9WXyA_hssU7Ie3Dvlez0sAlA6IMLQioPft-x6GFeKKqj_Ex1T2mt_o1DgmDwp8Rx7EMkCyA541f0HHjw1EBLwopYVhUrYC_QtwseR7hmUudmYY7ZUZS7PzLD0xoaqVJR7mWUrZ9L5I6vRxqeSqFq5fvmkC5Fc5c_ZxEAoXrmSTnd1KuBWfbu81EUctFaP56A2HWQWMMLuijoPjrNHw4rPbqbb8co_vTGWCFz4YONWs9x3aBhrHUJhvwOfqRd71itrcR3RLfsQZwHb5ABoHMnCWkbqFxvme6NtXAK2KLVQ25stu4_sawmIgjpmb3X93dKGwgGv7KQqIF-4r_8hF0eHH4i-2SINg6ORRAJVAipub1Xx68U0dq-pczzVp6DpTHJLwBdD0ZTpz4rxo9wPI5sG0nThAD3mRu-LPVqZhUKUiXSlsk3hS0ANEvuXkH7OEexqGyi0yNpA9C7ZpddGN-yl9TJP9OsxxJURR_HiOQQLEkys4sTjDka3U4a3wxNiBKiQt5c4FQISvxYqZeDmoSR00cxah-vI2OrObzMdibFe2JGoBIJprrG16ATND12omvWAcT19ld_u5ebocjQaqDr3DT5W0XZa9WMdapEP6ZEDAJCqLvhQeCbLAYhHFcURugUm14OTtnufeB3Ubk8Q9Bx_viNFBeY-pO3jotkklUUKevYK0s4MHFCSe_XKjrJrWbIFlk60kj_4tjl71iBsZIJmI7c5ZukLDg8ztb8pUfdauiTC9uhI2XCP9mDXZBp1tNRDAYmGUM4MN5AV6EtDMY620T_bAdBfUpiffIn3knZ5nUgfnKYg2P-yUBASFxo4LbxfhnBI6w0p9WFQN49LXbzsHdCToeVurLxO2uTfe63ut0ld-8qWlwkEkLKjdS2JCXS66h95x_9p884e48MZoQHQHTr6eESUTObPaDXBf-KxGK4g1BtN3KPHYRWLCb1PubcRP7oyKSZFiXGEeT8SKrXmRc-X5FKlJ9bcGe2C95H-3KFXRbAaG7WEKFuQhmyTeIuthnLoEe08jP8ZBGFbeBGjFsOR9sJUXHtZw4rCst_m3b_g43K8vFFtFTo-3S4-HYqYQB3HscOyW75Tu4Rb3S7ltY5E_76ssxSWAqesJNyT6ZDUEVcxx0qBvGXJltjitW5T-prx869XrBQhsdQGU5UjNdbOMGLvXs55vtPz9jQnlYJ6OOpXnwhCd3tnAG3y_lg5v-AiVSO6CBb-61R08jTWbysE_tm5AQoNSKP2614aIN3hEOdgzvzS6geGxdsnl8sP1fS_ecPN_qb8u16bRVqToiXxbiaaSvkF2iu0J1U7DibnM9OVoNr0pIrkL_4h2KA7WqU3rHO3j1h6wdhe_gSFk8al8NEzEwaPNtzVc4aKG-kQD0LL6vphGZ6bu3PbobqEmEsdlz1HhsXyU4r2QvUl2oZfkkQyhAj7aQ0uUp5Lp1W33sOWkniYjq_sziccWnbP60uxX0t4FCIfmqlGyb2nxZ_xu93tmAG54uf3Egr73WCQ8yNg5_Hv6e1mP9_XtJM6y4pETdE0GU_9W2bfaSjZoLqMzSkzBVMW9CARHBqFMc_q6ij45UOmPVepaqBFwCnZ8LoJ8Y95mB6whY0qzYvJleFyf2YMrvf10G0wynW5PfwULF0p09taTKYSePoPIIrjWVazaDnS0UvYOoH3gWIXCr6e4LwSzLYeb2lafTr2NGS7Wp3wmolVnob7H_jWn5JmOQU14cOWOWyKlXAQrRVajGHVDv-EtNHWFi3zRZSBqxZaDXmi72DpExHrRlXjGOLZEcGy0DtUM6rC-0zzpR0dHq2wpX3m8MtJXAo9aIf3a-x8Q_2rHBQuwXsigUR0qoOb-0BhKxvszyHZUOUyqPUe6zeVbhn35zFOCFTjUb2hSzSDUmC5dzldBCzb-_kTsK1nlvPEQ9KF6dAs4b7RrsczhHl00gaN5ZLT6bW0D1823bGnMr2IuSQXiJRhKvg6qOQ2IETWuWd9pO5CVYDNdQzR-UH9OElGy2N-hlqNP--THoScyPEGDQzr2kqrF-XNWlrtpwiXeFERDU2Ezrjq4ogqERRGOnpYQT-vUMg5U6jYILdI4T5oNpAxXqnNZUFzhsdlVeNMDWqMmhTo_gRFN_0yOi5N5xVhHqKGUN-ZzlBfzSxT_SxmvwBhgkEAkYD8oObv7aEDh0LZeFJ6UqnsdvCqWVGEWml-fdTclENGArfMEnCtVp7B8zVboZavMx3xzL0L3iB_z-ed7rucI3JyrqlOijx497Y2Qo0xh1fBQMLymyxUINVCWQB0kCrLdKDXj60golRO_XlkIqBq_W9RNV-TZMyVDfkkStXmWLl1eFtE_XHXV9lnI4eoivsJvHf1KcyanAm2zQZitzuBGujdvRq48sWwGQp_B6E_LCWVg6LCjtnCF2tv6GwDg2Cj2ZLOJTOc4gJ6thq0yGub4xrKGV954DiRoEqUGcVbAcIeNaP-TVz9vu5aynsN2kAYiw7htIlsU_o-3LrqcgO5QnGbRo1zwAKvwEdOUeEsGFsNALqf9LmaDGhUwrjKdVKl4R459vcgVzVsr4jxwShM7BLuyKVDjYwGwU7vAsEobFm2fTD-LwIcXfvqBGPKWRjqHGPGGqLpddqTrGIEcRyJj06tXRw-s7s6cqt3LHG2uvuNuVuMyLOtLMy1SiNqeZz7buZN1dBI5owQeSCKerViNDTjd33eTderyeGllRLim_j7dK_joXCsl12msim-CD3FfE2dcXleeHXPc4m4Pg-V57Xu6O204w2FS8jJz8xxgAnN3L-TOie1OhC3JMwO1nV_BU1KXYQ6fDY6U_qpW2P2GXv_WqRqPekI8YIMvQ-ZTX7B5Hr-hFwDSTDQ31XumPKi71Yiv5eizlNA6q63mZOYLJkvTVb4w_9R-db46194efv570vrqUDXlw7eH4PnUchAaIWzycljgPChtvhAk5_kH0iM2_Wxsx7kjWWO10OL9p2FGL7SB_L-Pl2YVeM_9TRj3i-4kUsHJAM7S9MAqbi_VtgRzc1CZoLUm0B9LR3zbx6XVgZ2ce9gthcoV3wHtMhYWXpXq7LtU5Z23s33UUX72HEZ0bRWSAHYH1TuEDQuXz_e_iIQIy1bsmAM0HDFnHXy5AlAjxQ0hLHg2KtoycOIDWuGwAjdf_CUwFhghFAQppc67V29-yxPl6WmTlYOSlGsWKjDer7hk0aGrjSDoxf",
+      "status": null
+    },
+    {
+      "id": "ws_00d528f376e968e1006ad86dd3630c87d196ab3c22bfe8bef2",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 5\" \"Datenminimierung\" 2016R0679",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 24\" \"Verantwortlicher\" 2016R0679",
+          "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 32\" \"Sicherheit der Verarbeitung\" 2016R0679",
+          "site:gesetze-bayern.de/Content/Document/BayGlG-18 Art. 18 Vorstellungsgespräch"
+        ],
+        "query": "site:eur-lex.europa.eu/legal-content/DE/TXT/ \"Artikel 5\" \"Datenminimierung\" 2016R0679",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A02016R0679-20160504+"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayBGG-18"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayMG-18"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-18?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGO-18"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayMfG2008-18"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?from=IT&uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayLlbG-18"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayPfleWoqG-18"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayLBG-18?view=Print"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG-18?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?tid=121257617&uri=celex%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayLplG-18?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-DE/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayBesG-G1"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_00d528f376e968e1006ad86dd65c4087d181c7a25c7de067df",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G33kUP0Hsb3lKbywqFlNpJmYB8or_Mm-YgO9sgkQFpnYfCPFiNV51FaKHK9yBjikzVE1rDTM-MpKONFOKtWpcB1sMJr5CPEuYB5t2XyH3xXf5AMuDfkoKVYxG3MMOP0AYSjH-crP-izUgZOw6SXRJkG5hpFzMUBABinyvoCjWsPWZAaNcP5BU4qGJsJFR1kRdaqSxET_AEIeHZVXSZIu8iBmO4TnHf9hWMVeHtWYAO9ClH70gnFby2H9rfiFvNCOub2WQkz9e6pcg4TjlO7eGcM7wc-fCcs6g6RaKFjAfkO79FmsJJOK70Bo6bK_Qh13pndORfhthlpjeSxlqB_Jzal8CdkCgD1jKuaShROHTMQgiBEjKzjOQYSyqkUSz26E5-ckINRHDZkgU3DJGGvmbAptVpzd8OMyOCDs7Qqpx0v-BHABhxyCHxok7-sCVHNNDGX9D5PgmFSjQ432aFhXMcbJbJE_WQkB_KMdDBoSlUvgTkHN4pMfY90XxoeU8SseNLt-X_zQLt9Mbm6_5WYCMSJuBDy-LdzZ0OB_TnTT3ME4OKcSBlqkjlEO34AOcVaY4IdLNV8Ni5x2kj41joyt9-zkwuBONz1snup_uhhwUfDmNjxHOU7VkerVoRG72C6AN2UQcW_76ZTUoPgz2Tt94Tf6eklLJ08flnFsb7_8GWOkhBk5vyV9H0ftZmoQPjrDglp67twigLyopGkGh8kWY_Z8H1C-e8YT5t5u2N6aX5NKARos5PpqiKq9zkn1Qb8Y0eEJz-WukpOTYIS0t6CkvAiAU_oVud3dvcUfMIhusYw5mrgzR-fROrlgaycA5l5jx9UPVc1Lp3WSE5o7AJKPoiM0J4tiMVSwUc4QIPhoTtyQS26GrBR93zM8m9vmHiaikwjdqYpz93BAtH7Hk5Y5_JqLwQ9OyJztWPyQnkdUxScjcigZdTDiPhF22alp_91XH4s9IvUZOSlS9qODJIdJ75d-swB8MFhLiuUJtACSBoD0H3yTzyfNW2zqB-kYbrrzBWDkjdjSc85YDGHFGxsn6Fbme65WqtQTcEyDRbIJgj4Fzpn3-GnlweFsnQm91aUOCz-AMLZm7IWrcELNKBA8WDP26_3bevb8VCoBhwuMVqDd46iPEt1g__FQBd8ueIMjBnlwRRYc-wkHLzqMt9haKFNGjC8-XF_Thx5exoT88FIKTiG4sOfPBzK0RWDLK2Mk6uTxtSuQgekMpfxbANg_rtnOhCQVn-MLtF8Qon8Mcxsbia2LlkViTIeOOYN4Xj-6jQGhGWW9fQKQBaCK3OnFlKe1IJoTMwLKHqbJtkUpQyMPufi0F7ehzGowMEeZeXJ0OhNEro_0F-lf-NI1yL7hL3PyWUD1sFghwqUEw5IvO0ilpspor-3a0xnIJE117UhbEY3q2fAMBIoS27XHjJPjYxykIn4z6GplUvllIJJTXbL_SQMty7De5r__Xewe-VnKohyYc9bWf0V-ii19-XfbVffpqY0B79AcIDz3B_GQcMpa9YB3s_DYmbQAwFafSVXzRFshbZqwhpHxjBuBFnuNbyt0C8yvFQuv9GekJKF9DB8OjUEuqpBR-4Q_7rL1Jv1PYtpqXkDbkOxm7jYCADUpEfZIlro7Gph5Vm1jqlF4uyeAwA9Ew9T7yJUkWVUY1nXa7H5oOFLlhQDVm9Khyn2EK9Yupmx5F9aFMRIbt54Z-6wWPc=",
+      "status": null
+    },
+    {
+      "id": "ws_00d528f376e968e1006ad86dd6ab3887d18f8f418198393f28",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:gesetze-bayern.de/Content/Document/BayGlG-17 \"Vorstellungsgesprächen\"",
+          "site:gesetze-bayern.de/Content/Document/BayPVG-69 \"Auswahlgespräche\"",
+          "site:eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32016R0679 Artikel 5 Absatz 1 Buchstabe e Artikel 6 Absatz 1"
+        ],
+        "query": "site:gesetze-bayern.de/Content/Document/BayGlG-17 \"Vorstellungsgesprächen\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayGlG-17?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGDVG-29"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayLArztG-3"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/En/ALL/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-19"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayLArztG/true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/BayVV_2030_8_F_10382-52"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2024-N-20666"
+          },
+          {
+            "type": "url",
+            "url": "https://eur-lex.europa.eu/legal-content/DE-EN-FR/TXT/?uri=CELEX%3A32016R0679"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-11592?hl=true"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/BayVV_2030_8_F_10382-52?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2024-N-6580?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-47916"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2024-N-3861"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2021-N-25017?all=False"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2024-N-20666?all=False"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_00d528f376e968e1006ad86dd9c19087d19dfe65e6c84f8733",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G33I3nB8ZqO6eN1uBoO6g_Nzop0yz590OF1q35721m-M65vHfl7uHmQM-RDu3Fp6nvedZ1SQ4JJbj7nM0kvmxAKK1_PEeHg0Mjvb63tBKNsS_CCgflhFE9CPz2R82nO1SmN4edSWfavr8SpZ4Rw-nBwgRojb1YsKNWfn08afaEjhcbbmNZ-S9ncbQyRrJ_u8zZLNYN-T0jvEwBgG4vC_IY2X696UfCMPZAh4sQgzgG_LRLbaS707JO4kXUw-gelF_mrO0ifEUkJBAHAHiyHBidfOL18nINDQLTLpdZ8em3kP-KE5Mckg3fgMzUMLiAxmy0BK87ea4EuuPUQ9cxCmtCVR1189IrZ7CJtgEbx2Mt7zwCO9m6g-BRAOtkn_A9LWXkxtZsIc5PctJZjWsIWtjaHEvwF2kMhv1XJotNTha0gpRfKznwcZ5Qw_qmZtt23rdEpoW4D4m0P4NB7Zt4DsZdPvq1v_DW7TZrO7FC3oag8DuWp1BUkYnYysMZWSvH-nFMyqPQ4nqJZIejQGIeKxOlAWNFp2-SUlYEdYSKO3c0v_Zf4fOwtiS9q-DC3SQtfAQldtLxDdRLmcmev8bmTa79sknrJLSJV4b5XY15D0fJuZqG6h_0wx-vQqiw4IDIWqMLGgVEECqndisZ6QZK6E9gKVZ6qhAZrndJu8q7Rfw61GicOTCaufarjI66_6uvozgm0oWNBdxeYzWYAhet4x0R50UuUP0pAJFgabt9gbd-n-URpSA0VlL-ZDeqdrz8BXTy9Fd9e0KA5uP_e4oPy4j_0TY5_CbwoYcg1BapH8HrsxTB9sHfhkMT5OMHtYCRkNXNnVU4dJHTTEUTgNJMqhSQZCRae0sUsujMENh19KCNyBb1tZEoOHClVqSRmIKhG7ZjL5_Viigoq3pTi9bu6kXnqauOEreqpBxrt1hniUOt3tPe4PEJmnFZ4HVScz5BmitFG5RIp0NUdcovLfk93VVGl_Qs_Q-bTa0VjNXlg3uxtEEVbGh3_MACoTXg9mMwGYkgiTLSVNMXiYWripKMzTp5JcN64qslUe_BRexKbupb51eJgO-G9aU0QgcBPci9J9IkWrAqIL4BI39pJG3eKE0AMVrmMRJ9IBFCMn6j86T4WhOCwPYBOzD9eaPJxrnhjGObSIm2zwcMRfZE7EwLOc6dybiH8OyB0bRJd1jklQMPcEYYDavo_6-s8MdvQlcYV58_KBNZRqfyFP4VS26TnbAApivhzwA02ni33FqUF6AEZ5OJWw7vpCs3SfQp-HVKs5HkymwveFe_NKGZGB4YJuB4jjlohm6-NHeRbWrkig91Xw5Kri1xEEVfXBlwNsTdRGwX1QkhL3rRwrVT8q0fcEFuF1Htzed8oDobZJfarKdfzNwqepGI6jS_vy6HN2FXKcVAafe8SWOZxQlG08mLpotw6xoxFgUzN6onThhfO-6gJBPwK_MASqelb-o3Icm7fvEGQoZvmNw51br0b_Fr_3p6J1cLs0HQBSMifCYVbFN9bJZ2N2dkOJ-jyqj5smPo-mDVioquhaMj6Z-8BCX03PWdaoWYDL68AZ833t__tJb4B4OW4aYmN_jkdx3_IIiWXYP6GidGQ30MrEeKxkdbqCZQGgUnBzIKpLz_WA45W45vtq9F8G6p_9rgFavfwKCWvdgywWZCT6Q4sSe2ylAgjRBFdrCcAiUo41BnX31QX4AbI6z72cYWmiTavtNgMnAIjzqA7o12MP7w82V79yWkNbfmyB6p93UbgeBdngVIngn67gEPa0u4_KYLnhNtbPbarcaDlY2bjMnaCQs3GnojWAwJGkrzVHIWB6iFktTgLiAbSwfuPNSvvoEKMBg10rnaJRyiYXTW05JL32zKDvvZGSmTrRU-z-mCaFEdXuCwT6y8_EI5XalcXNwlYxr6mmdNjz9fakptEEf-9iigt8wJXqHwzA82vtp1cY5HC0GCx13-SOJEelBbGKKnFvGAPFwsDrvQlq2oK-EjYjKXwRWiYqzvIGaQzxeIKzFIsNS3gbRe2b8edFl-6K4ATonaCMxLDdwQVStKvi_FGm4sm33DfMJuhdtmFhOBhrSLwNcvs4FbatP-x3Bvm2Xf1TTh44quZ9NNljnxKH7CuWpXLUVSoNyTpK1lZj1P6zbgwxl0SJlGzrZv1hLQi60JdTc1ttApPN1QPO28eWN13HT-CYHXEYPzuCzROXjkhA4f6KHumARNlNjdzjTXOGV2wmaPjC22TiiZZph1OZ9f8PW-fA_h6xnBYVT03LnW-dfSfiJtlEZlqn-hky2aWEO6JMU84X_TBs8omR0CHirFXJgGIx01rO8Y9wwto_4ANDMm1p5HKVCdlrtYftU5F4N17YANRyz_-5aOtVlC_6rwquYzmtChs7LL4cTUr64iVaRsa9SUqZYLShgIvrbh4nQTs2Lx7W8mgZrT1vb737xlOeCtXAWGH20NH4FPIA-Sw4ktQjLVRvEgW4XBFfvPcK3AVAJ_4QukR10cPS3xUx2Ruz6eIh8ASqDYvI3z0O6Yu_CmGVFUmlopgWl2iem8FmFUyeDcn4CgYQKfx4kLjyVonIEIn8uq5ZBbOxlSwWw4eByYuuhD4mC9GDE213j2BkYxOV1XXLDIUVcvmWtolINABBRQ4faGweRrvhtbPcE4myWS7f8Kcvk1z41Mw_9r3AQECsTEFS-ytAw2UpZQwJg7yJTHIKfD-74J6Sn0TJvPHd8kJuGRDHXlNhq5LLyU3jQc7rD3o4XwAdevIDyZKOZwkdDbkIPQHO07tztqzxmq92oop_8JLr2eKkFI9_jGUu88rVY_tysC8LBVhJv833eMhECjI098IXnigzABv-qDvWpZUmou1HTeIsZsPiuu2MIjJEVsp9h-KKrXic1h7TZObzTrUI1chJwZxZbmdN8pa6YER2qlKDZW4qd03o8pRXZsxBHTuG_DQ6-svEN3OiRK40xIBcIT0dcNsVp1_It0_H7UzkL-5WTl-XvOgrojNGWztubwZSrYFt6jpi7TFYdQSMpt4nO6QNcSxabF6Ed3qYVKMTZYZdhpA0tL3ycK1NFailjQuOKM9cq17TYenHfyIFw7oDGYYKr7YK-tFBy4MA4zvy2QQOLYX4wLF4TIlD3XY98uQry7Ukun3FabLWNrifx9_cpX6dSoVMWb6B34cCGM-VtTFD6b_hUJizpGDT_UbBeNoyMSK44y5cka194ZRdzOGBQ1iyis6g3eXwtM6as5gINrI0fsa1VovjCTg4llh4NGmmXdWrvKu_zO2VakxgEr_PMB-ztRmIPrLXvNg3VI_d_hDwRd1FHo4CHZDzNRjEGwMQqx5ACNGkdUB3DmZB5spKyOhV7I_pgZSldrCuZS1nCmXn7r0Ub_XyNgOfmYMs5oHmMLCxBNOnfyueRuVDpPyS4OpytSaEuMEOjrdtbr-z4PkEGoE4FxxZIDKtoCOnfbVU7Gok1Z5TykaInyCcbOal9ruTsMMHq1RbeYbDXfTxfXWHqICl4VtlyDf1RmqaI-j-xhjFd2GNeJpPsobJJVbesAgFXS0nOLAaXBUP9swl5tJOc3Wd9YuaW0JlmBUfl_2UqKiuABabxVduOBkUc7XVdIODfKa4-9EhDqYSrW2vs3DVM8zHWE5tEOBKbKxYhhsOUgDR-L1wdEQTjG19_GeoCO_UhMPFbphGv33BGtox-Dm_MXI3CUvBfBp95VIDddPGn2pMu1Zj-joU_04DVRj7mqhnyl88CfQfnswNFwxlR4qiOECWUdlTWXeLLSh4Rv8asTZg6dI0xcjyPrjKn6dvh8-TjMzw3-c_l8yc9HHdnJ-ThlGga_cMwyjKsiireneRtlH_LXNzc-X_z0Fqy7HqLKJRGx--1CUmLIsSxerGX4TtKeljAt62bFwnX1l_D75___57-0Si5yK2BNt4TdPpFFvC-dOH6wIbgGzSNjOWX3ghmMA2BuLtS3PgEnoylla6huGPZTwQtpZkZ27CEFnTixSdllx47GU62cfurF8pmD7P0RpKRMcclG0AqfH04ymxtfijWonEKGciEBSBeCURtzYPblt2LXCV2D4GxRkK5SHfIvrVBjNKF2773iBJMqs9f3X5uoxssdR98saIFju3dh7EfH7pdoUJFXeLl1zkFmzzGVe0VR3_T2f4NGAgBGwFuvvE0SjnrXvSeeuAz5b_ltts8Iu1buYO9BquEaGH_82p6VVDlDqC-3q1BuM-BOSaNXKRQMsWc5NQlT4NCu4AMeCdM7D4hSteV0Eg-T-MYpD7eo_-0Yn6peXHQ-A0xQusnLb5qA2yDAWzRJT42iEn1Dpt33ab2F0XMHiS60-HTTa3fqImgps9WXx-yfekX5qZVYf5XePQ01je0UuN4ILjaa6hURhpbNlTCLFb84IX4ReYynnH48cK3Holu30PUDmt7BYqL5eGBQZv7jLEoqX6OIsOb_Mxzt2k97Q2g-BIbI1MGHP1z2YOlfSiWBjDF04oWOWG68-e4bFDhnYr-W3uUA4-eVzu0uM2HIMzUGzFIJmDgc4tfc-V006RAn64sKlfPuYMO6MxM3reQLOHtrkRKY0P5SsLIDDEOLd_m_e7F-KbBAElkzT1uEDw4MEVi82xniPy-YkPmAggKeeBd8rOythDSGHpmyUumE5wunKzPHOSkC87no1UYw0DAWuNhUTm3hlUQ2Kukl9j8ArGbMbbsSVMQAy6dI0F20kqQNw3xlBqykk5Mj-OLWcg3kA_huaj15NbaJI8ltiFlk7gJfRexYCWWZU_vHbkyP10uKk5D-GgMQVo-Nz7PN1JasZZ_nqtqTZiwIn4TfcGb2Na5ueQXDpX8fJwMUyQuE-A6UiNtY_p7aRq3bGwKp-3lrcx7ASH8n7v6yoHb5vAHeCpHo45M5drRwjP6luGX0s9J8y6VfaKLRfKhcq_ppl0RxQk1rPPIDZAXj_xGUntSMW2m16wDL5iqva3w==",
+      "status": null
+    },
+    {
+      "id": "ws_00d528f376e968e1006ad86ddaef6887d1a492dd7aa0d0afa8",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-69"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_00d528f376e968e1006ad86ddc191c87d1b744f920a02c497e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G33k5j55tDBaFwKgvpqAzovXImimTAyEvtWf0Q6tqYxw4e2-PtHxJttY71aeN4Hz1T6JIxG7rBPQNZ_A1tvDR4B-F778PyUtEFsppELxkQVGdSh7yiZ5LrsX_BNcliopEuou6wDa-QJC2ATX8C2I7DFWQy5kdX4QiLyi8EWiF4n0IuU2zoqyTrPxkjCsf6BMz-UABvnvUoozz-ah_7lXIjwcRtb_DZYdlnxuuMCe_eRifxNHaFRDPFNIzfYB2_Orfitbf2VeC4HrW8wbp3aCGH8feua2oXxWMO1QkWsFRWc6j02DBLdtnhUkxFbojEeOqda4-amZ1uHFmFvNfGYKuNI1Y68onjxvveM1oMvGl4syAcnuFN-p3SHrIVgzGR31PpgT9fuwCkolEh8ir38W7p4_Hen-BxOXMeoAGGzNQok963tMzI4JcxhlRdQpIvrNOQplz1EcQ2_ahG32WTh5bsLGIFzdmup8A0BLPIGpAI60AjQD8qS3KGmOfeHWGQf1-jJn9E7V1rEvlm4kiuNhFTGjX8gCzCEQHobYlMeZbnqmzw47ufbqiXQXZBFCxtSALvgUnY3B-TE__X7UKGiRxoGOdjeZARWamXYuYhydaY9U2QCXh8wVLSxZ3Oyai7JDCjMMMSP1eX6TbgOB1BafhL5kNfwzGM8zv9P5mWpSv5zvUkx0M8UesDdBY5iNbJvTzYV8bzou-az6NgZut0M2IJX7kiXJgifXhKG_7Yk6wLxRnDvVvExmMx4XFnW59XMelajWoMYbvoMXOc4l8SA1_1aKG-vEseSfCSwlvkvRR3PFEUNVe4tZ8VxYwsXzLY1wfSxGq4XD68VeYW6CXX6S45Z1qzPXi290wYXRWgXl_ootB09xDnSFnyCzNFsljU7aODkjxXnr59zrzTbtch-BLncb7czeIdkHQ9MR3zREqjpwoAUMCpUOXOuJwTT1EcTGLc7SDzEY7-KLOHLnVdaLf96xX_19yxdu8Zanj3-kewsW5MvjG_Y0mtZEUzDyWF0bdPg2Cn9pjd05GDBIkYba0gfssbLq5wOIGXsZUGhHBSsErect9cDmnkEN2yjrh8UJxD5DyZlZPXWYysqju4p6XAr-GeJ0i-W9HXHTO9Zovlj6bH1iZjKZj-MiS1zDyjp5qKUFffKt64EMYjt31rNnJ2B-me-nEjRHrki4-v1_XUktTX5XYBJNNhl-KxGgEPqlvhMGtPbY_EZIwuCT8bE9avqDP5xQ9WmdabKAJCfRNNVs4nuPg4BSkXmwHX5mIRXMJtzeyrFRKMUSv9qxG6iuppf2-ryaIealVoc9mraR5aLxmaJjdcdrBaFNoFxeCz6lHDPLnqLm7P4tWH9Xo_p77WKpYIqP31Vu3C5dzi3mLV-ZdiXboFnjRHvuzEFaIDam7eizbttOlFDIluzK9R0SeJEGQIwGS9hlKtiCPSlM6Ucdukp_iqr1RkiPwOqrZWvjKgXznRVKcF4hlb5aWYPgwntX6Zgywi-4PrOz0jsm5lkgpN3REX8iXVHEdKbeS9n0weYO1r64RFJFarzRiaYkf6hc6FBLMMLi66Duam6BMfIZLA0NwuYkZput2rtik_SSGDpFNIyZn8a506Vr26d5v6-EvLezojzXQf7gmmRiA-VQVUmScEYSjG85PAsCE_z-7Kiv_WKkgCFHw1A8g76CT0vbLVRGzuRLAbwq21dWHTYsFp9MGhYHmOMB56jvsb7wGV0HQ7Wzdz6aW3OD8c8deUEZ_83qnty4SmGAOW1L8gJ3WrH7YtOxvGb7ehMRmUqphHRtc3gVdZjPJx8QJnMMnh88pwj5AgvF9Xa0OL3U6cKv7Yy2Y7M-dxCPeh-P0qikbkip2eFYsr-RXOFwl5KQYaIZaB_alDGdKYUXX2UdIiO2HJL4DAt3clQYHlIVljgHtIEPh1t_4UM-pGEcIUxQpZTwOIW8KA_yFK3xsr-c9Hwpyq2VTFiH-FOJxrtdAN1q49i9SKBQW2Y0pHmhjuS9RT6th06lYVW11p8nt3KKO1fo6obkmHbJQvOUP0ALm3tiQmxzuv8Tb-rCjVt3SrXIKR0dSTQhXTcUmlcLnhg6FXsnsoAdJW3_Blxvw2JTVkelKKK8uRs2VyXY-0Jwa0ldJoyiISw5oZIc1kR_yaq_T1ezx0pM36r_Al6vAURFTHTCmIvzXdgUMs596e0jzswuA0GaNoossAz8eYBT6DgkPtcrOl3BUo55Ycq4tESurSwb22Byvx3t-zfWULwN_APK-xdlmosShWgUylrBa2agWw7eU_8dfCtsSUw2alB-VHtUKDEXPDhBYTaNanDmZ1DKtjbhVjGqn_eZpnSMBeZzxdQQ3n1mpRaiGMTtmyMu2KNNrPzkhUvljVM0XcWLeRASEkbx-Hp1N9cjCM7hPtWA03OPe_gQd_gj2UJEEakOu_Ci89my9xkDFrarAOopzTMP1qamT7ZwGrKx-sgU3KVX5A4zFTf0AKVlagsSF_N_1DjVbSfo13JkQWBEpw7-Gu5x8v_VHwutpi9c_lE_uBMiJc0c661szFd7b8o0vi1PdN1xsllPaV_7Evxm0DxymIh9Z85qv6QvkFimgqtnpT4VW43QwjmRfH3cSaozaYAALDviKJvrlX8TJV4qt9EOONEMLCgb6NuUumHyhDgAQYYZ5qYwkOy255x91Hd2naJFgEA8UM4Y10rpSp62KKdRhLnaCV-cSBdX_ARfvXlpZstYxDUwOYX8813oCrdU_61G4UBvL_YSVz_YIW-za2MrLKokJfMw8P5m7s1Zfjlg-ephioFgXietfEW2PldNvp0O0f12Pa4N2WKqSNMbhNQEn4IWwdxdAAuwVjR8BfGTFuxZAbUouVq3Rm9OwG64T1GkcNrNI41KEO3pIDoqkb2a5DS2JIrJzH0MVXa01HYuFbi2eJEUgLGap5EV9QFPeBnQIfQDng4r6pFBFkgaVWYaQF38u9sHriQVHoQFHGiNLHWpeEBHWpY2-JG2rN1qHaQf-h_EXKFQ_aXSf30KtPRtyBNqCnmNWvI_hkuURKg7t3IGRe6X47-HUOxcxrxQ1aJBblETHLhxHj7nwHs7uTfGeplFtJjcvc2B1svlezimJr6hNIzft_IouTk10n8Qb5Sn_vKCdLQUlluCPjCB9ZQVlDaS2sQGTWwBKi5PiVnjzA_H-FGBAVh5qCrzSEYZWF6oH_xDbJDdx63uCkK5TDp65mpNNOm_l6IY9RzTIPzR-iN4owaQ65fD7hvp3BXHRIkULsu91t914mALJY5MD6q6atmb4_rSaOJu7IEIZrZ8-8XX05R4KcGLHvQPh8a1AbNVk7YvtSoPed-VIMdLFemNCRDs9fsifj8WYvqNWIL_DuxbQqPwDM9OCkx7HpT5525mjL-jkepTQ3TactdBJZGwt1VUfwY3ENgy3_VZDxp-bOi98herWd3fKxbar994x7DY5O_1z0c6p3dra3JwNGCGsYTQq3M9J2bfZkSrpZ_3xXkRpWDO_ANYWFAd3MVacOtk2KM_N30xF990gW6viuNahvC_poWpZvyPAkJVGs7u7JNL2JxK1HdTrgvCTtb2_R49Z4pR2sf7IaLDEJbZTe-bb5mvPrJUupf4IP5z2m1Y2afv7_flYyw4tbT1AjDHFJuth93UHf-8yOXlYHEepZOxMZxbsZva56BFw3JlqlFPeg1N-gvmCiOffMcmDzfIA6qpVMhKm4Lus2_5lI9gfCGOjyxy3mZLc7sTcVU3oxP4RGI3IooFGsTFLwD7Fv0zm2RLxH17IiBMBt4oZrJsov25WRMK-rQ6NWBXiw1YDUgqALJy63eDSFJf1bno6ulsndZ_REwkkIABVxWtFZ50HVDkoXSBLfAfQ0ZMapdqTi3IbdjN1-ik7LjM42oTxQd1F9UIif9zsGrXAlEwnR3po_SrjRf2grIslZUk9SobXKCucsAEpPa1uhvHS6vPtTVKnGa37ErZain4KTAq2YARoxYxrxsA2QC3W9OFtHrDpLjQKEbE71gRlUI5lOdPAoAMdjDzKaMQmNaI0d06_HLEdZPLsx5VMDC1PlWkhnuQiWBSvZ6g9WfSIwy22pgrbpAXG46zhHz1Ma9iIKG8z3Pkq9ZX0VxWzC9CkppFGYXKg5yar-MutM5Omcwrf1gpRgYSwqjT5oIGJdZhF7jKxhNUJ0gdjbPp9NqXs2S6po-q9Yxv4umra3NenEt2mLX9A4xwWJOV5pxIEmOpEAhF5Kyk391wY3QlnTsRaNjJ3PoiSMSLTVP7smVPQDOrpBTA0VthW3z-SEfValptKaIHALnh-9rdg7dqZmF_vTD57IchDCgLukXNqnELp6qEiwKq57PrttDXhu1UWnC6JsNvAtCLrAtvkk9vJEPaFqYMyhHLv2O-wISyiCjmMATV-3vIvp-ngvvki4SnaujZxSPXOKOLmCJ3MKho1WFPvV4a-WsxSaC7aYbbVeARudl84KYDDMwshEvSxRIlCDaoR70y7opnrUMBwjG88F8wM7XZ1iJEiZmnCEjgq7YK7rKyOg3sQBOy8hKkqQM52CNglS8vCuhBe6dOJC5Px6RoJj8dwWueEAOGozgnJ0BPoKYoradX8Bfmf1pwwfEkBNPBEpXO4Gz_1qLDe1qi1-vuX7_TDHMFwOiXE_-tUBmeOsnW7O0tjIRMVUJyPPt07UlCGgNqcXJl-VEXO7KRuFyFdC8HNMtywF1_xGN7ldBlYop6vlR8O51L0L29me7M8sFSBo83VGegcC8uYNVsyyKVobDOjL4Eo8EcdFXO5l2EV_nqJbXNowYwH2guaa1eRaNksn2vS3WTMoJI2H-ItNU_alzvl93hi6i5UHeIQcFeiU5qsvdp5CGdrzH_suddvqM2PYB4eiq52YsXS3nOm9Z5ob82yTM3oAcg2TTF_M1xmBoHfcmoEx3_7TgPOh1ZrGWOOeQVAvEaFk8h2ClD8GqjYPSWWjnjxzBfepnmXe8nnAuRG0GxiyLRJZfTrQuNzLpJHagd65GpQVKDiDEmj2iu3zKHsMaOeqGEONHGGjF37HCkdMMwpCE90FXUoMNGm1YDhm3HHtwN5Oivs6az7fwp7eTBgf3WIMnYyZUgdjyK1CmSYQyhXQAXvJTjs_aYvWz8E_lVsO_akVz7qUvApPschT40OLxyEvtw0yp6F7lTCJrx6QDJ7bii10ZNE6mHGk2shNI1mGd4LVjQzi3rr836DTmW4pTLPUr5NCqO_fPKZQzqxfnV9PsXOvcvZtgPQRLBII_2YW8qrWM0zkks4QQXL2raKSjj9Rrsm2bJiOjU79Zjd_Q0JPJ5_2Yzlr1NljIL0PFzom1_XNpOEmexNF58GzWG0c3QnYIf2tldPerMIiEF8LcVFQyV0fPoT7I4RmYIpju4v0RrLqC3vMGQkC3PSh0qXsJVYHfZ0RjZ4k5iH-lYV0cNGaRdw2_Ad8M1YmbwyhkdkyAMNXNxTIaHsVYtRVTLAYtpyVANuZQU73gkzjqej7B9Tt1PQES33u-AenGVRcbhhVwiFpEslRH4Ec7WPVvk3WlOjAvzWYn_X5SQpC63w8Tn-dxk1TOzgs3zsVCcOSssM5DiybCJIckzy9DnG10pGU1DnXJw3C0x8Q4-uk3Jo3Oq3AgNTFtdVSyxe25Bjnt0KHQ4FyXimsRe_Hz5TnGxU4sv4_gNa-LfzHLfamzds94-p1kgDl-adA38u_FZ9rq_4HWVDiQihMVAzRsnpAD47jWkS_0NQrkx1YN40NFxnneDpuzE52qcJ7w7UAVWYYWv-YOBU5lQDOlONQmqtNDMj5aZ_xFJ7NjI4LWsLBFphMlFMaak3Hz292OzEgPxkRrC39zCsHnGL6QTVjEOhsoKXkWhvsCJLrRfECBOTMy23JT9n00XI7l3c88l14y8cc7iBJDIk9MfwmnnWeyL9FKfb9mRpJ8Ag7vvDTOHMVfXsmDq3q-KLSNT0F_o4oVO7tAcp5Y-16InXkAbNhTIPCMuOELBR_5mQ01NzdjO8gJOkVN8XU47h63eakJqsWkyWjLVVfXYQYPQiBA7E0r5CV5OFOigVAZzvoWcQgc97Da2r8TPKjEwI3lQQySnwHV--Y4UPWL0VmBEy-GR3-tBzQNHvnXpIOfrHV59IpxZwwMuzXedXVuynoCXaVwzDYEJ10mrwKOo7E4LnplFu0Gq5pmrDDPttMOmrDfK3xs6QfR2iBqDJKTPXQDwbQy4SXrqvwCM8To1oGlAiB0AekEOkSMsZf0GDldOH0oxeoA7MPvMAt5py6oT1AAOseg35UNwnj85PpQLgOvG2oxuvDBbjX7E3urObhpdMOKSybIXMBMN8xn2-CotSQDuNeZvzhbANk2Qoo1qaCEpXt24K6CpM29XsIjNSr_SS88VMPgHOA9eumWO-BtnPL8hc4VVjugvvd8QBqhep50Id3XibqFgrllxd6Zplq7xbZAr-7ti8_zTfukA063X3RBylc95d_KBykwlaj2lYftj2w7WgEd96Lr-bUpsN55UljvLF_1NBSB3vnvPSQDcSt8zG2v6aZmdTg8KgJ2BgCQltiiO0MIGK6LmQxAV_t2JXWsPRqMwXb-mmB9_VI5hmKfYIbt7MncHPvpZ4WK8yg3S-42QwWpf0fgkHyrB__FqJ-_L4baTBKvLR-nXWURtPQnLtsd4efzQ8WudAzdPFLu-SUo-Q_m55VipnfhdLARKW4pbnGFSefrtc9tb0aNhWPu3dNpP_-ezmwNrLC3nSQrns_IiljYB-PHk1hKotMiLW7AIeZqdx1_dOHkBdFpQ4tgZPC1CQNjTogzrhN8n6vTLfYjIF8eEhOmJaFcK7f9_guSE99UgbY950ntzocJ1a5mF-6azN_0Ke9jXLwjw3_eOvf5qDAFGzx0Is72sbtnChc-m2AGxZ9JdWKO2nZFFyZaK9n6rVvQRgeIwi0orBJt9CyP2rVUsXavDe6NsCxabgkgS_WIXFV7_Zg02oj-TglYJJ1H3wcRq8tGrSi3pxlCWmuGRL_0QZ1_BKtU01xMp9LG_n_fjCf0xWmbO5d9FP7ym9u3rpL3v32xF12MmfoEgiNUaa34zlfSp4-VIQSSnl915GhrFRIx6_lvIm6NxDOTyB17pRD6DfeWMA3n5KnZAVMjgFer7Rg0sD2oeLGrtjx3GnnoIkXujntvcu43CDzzyWJuHOJcRf4Bk5-2P1GM78Spl5OKc3I3L1H6wTMNbF8kXXvJ6_u9Bu1dw3AI-xC_I0qY53nhntUxdoaFi8YL1HZdw90Z9KS4gsURzh2XEFQdfbgUPhav9ibS6WkQba9NyRwRTAhmvEgHyxt9nv9t8aYpWGb7b6_Z8JdXc4qFxW9J9KgoekEsAOw1B9twmCIFwmN-5_qm0HbcBK5tqDXWcPg5oUCE7znZkGlZlFZO3BMVLHudb_-sdOfAU4l0Q3c7O73Ecfoy0a_DZ0qybV51z9rIjUBZagq8wmkzrV63YpwFyQnkftZVpt3t1kNL_QjqT3Z8RMVAy8cfoH2XjTtRgh4MM3_LD_FQZEINv8gcRuiqvnbInTWniIvEApx7lfuIz_f3SLdGiPaZsoiRu-l8kHH6tx1SgZvVXHSodwopW4KgoNOfWhtIGjENEsFxpXxWpxTtfgi_W6QoN9ppK4Fjsn_KCGy_liIN2l-_2KX4YvMZcxvBZW0jS9bOxCHA7K_cCALOnYYkEScmPGwqcyJZ0B3oa7rcJAjy5YSKKRpUyBw9e-nTQoibciuRf7D8xBmSAuIbcFcvoF6Bb1I8u9YHTnuH6-CSPpPmX-ijylKFuusUiRWHakb9F6cUvpkQtarzRP4sLnTDqQHoqxMMYk9Pco5C1HUjZSZx6o_59jjVg-pF6St3rIpn1b2s2sOSofn_wv0k9xf6zvqQyqrkY4A_xgFJ9_wwaF7NXl7DoRT4UV2kn1BzDfTXXoIz7mq66t7cYJs6B9vrQNtk--XuFuBJguUH36YnFkVeUEspZqLz3zR4uZFx6K2l03uA0w9z2yQiYnNOs1LzwikxTb5nMrW7ieSqHeG3efR1nbtUSi-JZWNesqwWftSBMtH9XhVmv0dM-63mzFDr1i8KRhtJ1HtGRUXMirsFZMPTYUYBUZEqns7z9O-3GNQ=",
+      "status": null
+    },
+    {
+      "id": "rs_00d528f376e968e1006ad86de0a2bc87d18895c6863bf69eaa",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2G33pqKcteXv1uAmEo6_4IymXcU0UGRtnvLmIlo-9o54DeSA6Mr0r8UjQKqFzrS-Hn6A8L7kKLa2gIslFV_3kIo8r4Wlcs57h37XE5iG6j-60HG9uzT-uE2Zlr2py9LsjwvS-J3wueEprG2nV30PCNcFAMdyTBfs2Wf9A_jZSXNAbQKWEZL0oxcH1L13h6UK3IWSz1z4nKDqZNUpdc1rSU-1lJSb1iXXmfQ4FyZGHI5pwtEBJVok8YqaqUayeyvr93CZbaE2vXjBLMnvPVK-_huZLpzf49Yuuo1QdUy5OmIAegMtj12_9VfTehDVsAmw8zpVyz0fwtu6daJKmymnWNBPQ22XO8yyMdFnRmHOiLJnUPOwX0VD8JHO7qfZZ6J8n3IuV8fDWSKYmsDR70buINXBW7spUWQorAuFNJKCIVoEMDhNLQHH1FTXKxT3dORGLt8j0RPjWE-UU7hqotclRrO6y-U4_p5G8ka02n7URbATiV2o4l6OQ-vjGIYHi1D5i986UmQEUd5ZumKc5m5cqdKCXCRV7VqOUgw-_dlt3pn1W2utJ9NcfwRrtLnCfiSHwt1duEeO_r6TLk9vioJRhVewPL1K6f3j1SkiRNZkuidgq2GvmZTI0ze0t5iXKfjmBjAFEILbPZU5wto-Rd4AB0pOZg2eY_SBM8HKAJnftWxrBH4Mw41S3-x-xQwd4OFhlATpE-8W8jAGLo_GVrZsB1uisVX9lGs_Z2EGyEqDn0RGFL6slw1wp-XwR0XkB5_b67zp4IHXPogNtVXfotHzpaRou61bE1hsKjogLM9QAgJBkvzIzwAfsW6jjIgfsdlU0BRhhHyQLGxJbLnWeNiooTUJ7ICIXuUBuq3oYa4PQ7c74nxfIECPIlJSFhYcIZScBLtCNrEGwrM75azIL5cYu_MWv3VC6wyCQ1M33rt8k3UwmDbXiJ2jjldbQHv8xM_oQ1BCSng_Acn6IK-66HvjiLCYb_nipXAQylggb_OWVN3SQnVc6aPecxP0aV3SOR0HfP9FFDVAfxYDraf4zdRal19M9VodoUQIzozRSeoMmV64Snr06_S6uv1G1xXho5v958vcoi9THUwydlTQNH2ad3W38TZ04tn9ItZx9NVXHvvtlaq5K8tKJlKIxl0-Jol3NAs0Ikh6fYRhxVzB_Agren1iE5R3p5dxAaRSR0M2qHzSAxSrWJ6BA3ODK2wwAhVPiBuvF61kdqfys5qu50ciSBMj10hypzLLc7fdt2JAi7rhkX1LE59hs6UvcCHjrr2WCPWeCnzRoNsukdcOXbQ0qXdD5B2NzlLnXc_rYNitbPuZoBPWejb0o3CDFhCXE2QdPQJzo52e738j4vnUPEzwnSs1ZJrFuCrESPifPbK-tTYC6baY3VXAvkcz1UCGVVZ7ctN8y0PIPPcn2tj3nHMI0N5lf1esPlUvv2SfN6EWD6mWj7xN0f5tXpIm4RMpUgRyIG_W8w1j5eLWjk8Y8UXfnmUaTV4UFI1ZOsD1eAIpZyl1ElW4GMIw1p-jznENODvY6yhYQ6t_a-g81Aast9ARxmzw_Rv1iDm64MRq4MUjGkQDXTTgBwjGmLQZzfs4xH407tSWkkD2DFr-5Y4Zbdd9WVlFMwv4fFtJieUfVxt6NQZQdRfLgC2U0gaCoWhfn_4PtHeY3raj-jKGJ12BD-gWRAuF2log2SU1PovkLkBao5X6QQAf_K10cyJEiTUhbrOm4Cz_e5pU3KyTqO12Hev53sKTrqEszlekHmWHez_1o2YMbe_6amgVHv26WW7N3lTMOu2x-lHm52UvTgD7k04ydw4yzUTsJXMNmlhgI8xHBvgc9lcr16OEF367b8OIi8YO_4J8q6nsUMqerf8LzmCnszwxhBOKtT5YYzjdqvrtdSA4ey1Vm2KESFenLV3amUib4M6W6KY0s4JePjx5GZl1K1qbmyF3AGFVrMOfRrPtMKhhEiMy4srMu2RJyTETNZHN3N9928PmTiOarJXCQ0Kccjn7vIxTG5ffqMWabitBLwke0Z0mxLcnUD-1OSMy_qtIPJEzShZVop3FQDPDcJALl1RAsvyAjFIHZV_QxhcSlqVQMEu-x_yvnP-dgauyT0VPK2YcSSOFpwWNgVv-IgqGDN7GphoQtTZZzNzLGxBlKNb1lGoXzu2zcb0D1aEOCJOiVsVHYND7kSMk5DPaqzqw0eyIcxL8iPle0CFMHjRLq6XPBPxkjl4jd5LK0K7kt4flepiy_k2Vn1LH2-aY7X_2oyH-0jCClgGRv93DwI7SivGxQB-bhMmqox0PHNsnmEdgfZRKv1tC43_h_0pq5XnOhkZQkJ7WKD5tpGb0zuwBG4cSL3oljW86PoV7yK5VPN_sbGqlrWvznP6QLCniSnzZJVJLdYR8-Qt9ZeiYBtXghr5cIhDDDqiCJIcbwhFzSwYx709R2I6X2l2wGB9jJuQPwvxhftAgBGbQ_pf--moPy7ytd4LSdFL1Z8agwkp_gT6oTKBcbC-UOSkFejfaPISSIPLrLoW9N6rLIpcyBcB3dHEjaNCrm-emVFSUHPBuLFf4G-VbNJ3V2bAso9U8bhBWR1uRvoyF68OUYZw-EYjlSTtKUKiAJ_ccdeUda2IebSZO9MJPkZmdaoAKe4fcw4Pkm3semmc73dVjtXhfIBDJq4uC_q1IWLvPh-vv0hut3V61ucU2aFdVBYFx9RBdGNE8LOofuGH0H9_7xbRhFmxNiUPbZWOLhbbR1T2E1MIKQThdRMK48db3ecLDN5Q6j-uwQcdUO4ptH7KLPerwK3NChW4k2dT-ojHHyec7r0RHEquTo_Y9kkF9T-zHiqX8IyCPpoDSdVSGX4v8J7OhKB_gVvOS11kzGy2cGvpqzaG3K8COLBetnLQXDCnhQvV13N5tIgxIBmZG1ztHdayyM4xs4JcIpKyftIXhphEHhrfhVzS1y74hzjMSVPyVgEiOG511Dldua-iv1waUphFxiFJ-vsE08pBDdEB5Z2-rzbBaap3XOurkrXTOThOZD8GFV0UgabNTL01714_uwMGSt6jXm3vSoSr4r_Hk6E7pszzwTtQxqtKl5T0GMVpE9r_SBb357loPnD6v5w-YznTY_rccn-SXHf1S4HztEjdtOh6peOWJjpZItWzF0PH2UHju9wc4OrRfqekbMtoiJomWUY7z56wYBxK1zhRd26OCt_Tr2xrqdZJDGofGrL3Y8QTbaKQWZUSky7hbNot72fvQLjnzjZhxAQ7RLRkvhJS7WqHL6ECDTHPLDh26pR96KnNcdcg1mPTmXufJaXb9STR5mEpPWzd459Tv8yES3DwKkcc0KJ_JQBGM3Yvm51Fdbp17iQ99xgm9RogdLmPYO3D-2O8tiWsoASB6x5owPde91Abl1rur5qyabZCijTlDjJ_z5XosdUvhu84lQnXqJQqZwB13zT-GZtHfaIx9RUSJNHrg5zfAVcuV2T2qvVR3cfUmMkxsmzRaQSbDpnDwOQJ11jO4fFgwGhYJkgGebPFK628hlkAkvyeIPuDlK1NAPZOhw6Rulm6d__0VnHcliipvkwtBOMci5xhw8NfppdesIaacA4hJgy5banEz5h6nP3NMZttg488Ni8TyvbAKN0uUc50nqo5zQSX4M3S_HSJ1WXxLOW8aWvRkn6GjhOUV1w8AudmkJRXR3vc_4hNdY-cyKdJ8nQ1q53STaOd1JwOUY-wsk6MlhJZUOe3mewquPnjg9Fz2ZKHJCkzXmlZvnr9du9WTlIeE4b6VRj5rRXPbbISbBZhRpzVMcuWZOf_MW62Q38LbTuf31wbCLZA21oGo_v9KwIIIqJRsrqZ0gdWqnf9S8RbFdwC2DY9ogUl8STZ5Iz3-eGFq4IKufOmqBewHtYsRQZNT7BlnmmMzWEJumczRUkK-_qV2TA4e-PL7746SLV3eafFbu-oO8-_0tZKT_RwATdiKjnKOiDf89CCHXkly9rZFtrODYj9LDckpsU3cAhl3TmvcuLqICl7bI454fKCSAnrfimXGU3tKxDtGkcyi7ghIoE-QKTFk3xNQ3Z-yMrVXh-WHTXx2z9SAZ4ci77b4zlkhvosKE9o6Ut_U2gt7rrR7MRzRDgcQwKhNMIhiANngz5tkbvyMfb6TPKqjVRIvM7gwe_8GCxiFzvJPv1xe8CJ7rJzx_u5mjuVSSDT4Ee4SzZ6vWV_RpZ5sd_OL3QnKfrrbkqQUCFLBbNzrHTEwfMYilj1MBz4GZB-fWEl9tCJXkdHNvhp79FGk62nZ_URRVAc9ocA1fesK1d4_2xfliiAt-CPKZfND39XVCOL8jUxZ72w99xFcZn5wDqDZ9Ac22h099t27NKm9q1lnNEzTINvHYj9YXD7LINVmf25NWkwxgnvTv_Ob59SLrNgVlC-_ZIt2rwx-QWu2ADDe1G-5LLq2sfArTLNIhwMys0YHVytqyLw91BSP0kdULJ9Spd9denVR7dc8jslL1mYs_3hZl9HPu1HFSC_tNDsf03Iiz871xX5ACtvbJ-jMIpC2fT4IEE5d6Ze4x2PybaAUQZVWLRdLhCzeLYPq1K9Hbj87y5CK6AZZYxobbHjngsJqVidcMYugLwy5TIPnvOwiE7Ezhh2-CVMjPRTdJ2d6BdTdsQWl2TlsMuBS-l54aMttiX9b1CsBP9ILN9OnzSjRq7j1y0Ie6B9Ek88S3OcnCJfH6cp8xunPULTgVL6e6HEaHZLfVaIyD5wBO6-LEYlNZEsxyzsOTx3iBDxz0qDuyynczGMFAnfAk5toB5AK18dA-niZ5rBtywirDgl_s2TrNXYYrLN_-WCeu67uA7OKJfaHuRysQJ0q3-ouGDcJaL7pOcxqRxUkIgfwwrW8SxGbyZPasCVcJKA2EyeHHkRbOq1BdoEqSFlD5IkjH2Suz7UZL0Q9EzEwOCH1I0GH82Qm-oqT6grvb6sBpxfeonSGdjyjWknyUjeIJ359a8-sde_09024H-VBmoq0xgs1-3p_7zLiCTn2oQXAxVB2DoEggBlyhxeUWrP7jqNV5xV7Q16hEcHFUEi6x0-JwXaVh8w_zHb_zOqfvns50X2YXySrzsjUWXoYu_5csDNjV6R4NhNTRi9HEF914z9o4TNF9WxKJxjQfSVpM3kfWBW4QwoG93S1mnv0SOYx5XD-jiGeolhx4wi6aUbH4rrcL7I5RDduXT5iFzB_zuZfuBNFqmk8waV0CKRSbg6_dgiMwbzhShyCet_P_s2D5W-okFgyXOv6zl5EeXRkValGcVha14IcNsnRcnapI-v0xeYOYmuANe94nD7qL1OlSuvjCQDRDKF-o7tK08wrw4YWqxHvxFQrNGBhTqE0Tp51D0jUOQ3E-WGwTHFMyklldKznMVqE7N7vi8a_2OZhfoUj2TqKUmNNT--AIDCW9j3YlVZ5T7ieW2RkEGQWnOFkqXP1Q1Vqp7Nlb0pg649tqCreiJyazQmY909eyLkVerNvFH1-XXQKi0kC8WAzxMUyaPXCHNvTPR8VyH7vuS1WaSkL8aEdPn7MEsmTorKM2qFU_wkAAX1licm_MI0UZl0_vRTfkYlnMDc5ni-Z7j3xeVSSn3hjCiazx35BB7dNLtNR9vA2U8ZN-n2lQP6ODKika5PwuFHaW3oMclPOOyh0m4SAHsaw0P_4QUbjzc31mSRJmzszUOjdVClZdt2o7iMabT72pPjNtmbAjZN17XjxIIXqlWyz4v7OHgATiW8ZMuYarlhintE4ZOAcjR2nhWl1-qviNRTMytcQvze7ubW2lvKK8-mR93GmMxZbHuMnWcncwb68y8MAJu6wV5eIHR73zXdL_V7w0m7k7bodBHrXxKAL02F8UCDG0sCdW1rXus1E3w8AQhtxPrVysj3fymt2aSM-EkFXtSjPmfC3dzpHLwz3GvaVj8y79-Ie4xqSnSCZUdeVCc4SweivhqJgHAy4vfR3-0z4RM_Li4lfcoL_rRXFilT6UPY6aSAgIPplQQPxM4fJKHvdmf3x1RR6ylSgBFmbIU4QMdJ26VgRbHVtq5LO5eZQEn-xu8Fw7vB0vg_XLazQ8X8L_i7shsCmccQu6Bm0kwGwUJr4eYTdjKAN6sRhlbgDclXeQMxVst8P7PeZKz880RQpXwQ2oFR_sdTMub-9yJK6i0cw27VIGEZTbOGoHV_y9liWjYA4b3mRyAdHZ7b8q7E4ddKa-3G-29_hd5Gedlr8fua5pQ4O2qEwbOwTl3QhQl4HNxPriZvK_yV7a13EuYGvbDkBdhvgxFJusFnVpA-BE61dsO5tWgNcvEzMQYVT-zYWltV_LzWgo0v325NMDDnbo002e8EYGnzc3wQnSzkEQ5fn4ulF8fD0sMIiam69WnjGkiAyMa0hYHij5HNTEiVF9Oz0NYD53P4sTFkU5JdXakTArSod276iiAzdDr1g5WCp-OAOiee5zNA_e5y1_6qEPzNZZ_fsk2da7YGLma_5kLerS-E9wrT2qDf7HDmO1w5XJOwjW3S1GhRlBg1SOOxvbvVGKB_jHyMe-MUp1XXW2RzRDkBVvxPxuNLz_x4cS0DnQTwEADwwSYgj1YGjD6vvu9mW-9T0-6efCef4PFSCsrznOwlLusqaPcsT-XFltzFbql5BawwSJH1ERyGPP06oG5Pi2cxG7MWQRMAqtyCXqJLhx0ZPbQwZfKU1hOiM_zs3Fqz4zHHvsA9l_I55mNvi58ejUjKQ3HdYJ7Mpk_HTSWUTLRIvq1qyaD3L6Rxsyy4NmXW3nGlsDJPt3OcpKTOzvbFKRud3lsaraBY8d9CXffEgk9x1eXKjmgJvYdzs02HTYODdo_o582x0XQsXDsQoX05lizV-eEWp8AyNTbPXQA2KD8ZWMWOG-Ila_P75DyoS5twFI1AKaFOigZKYoI5P1rj0qB9Gdh699LW2i4XmVPkKjaQDFSFscCHI0V1Gf0K77kgpaYwDOhGtCvLGxgUzX-LQ4E2ceB0onpOGpVXvrQbVKJkhUHGwlM8t8byrPCucxddwvDz2w7CY1DkGAGv7b_7AWCvLYN0GLjwFEmVKcjM6ISB-VRk4VHSUDZQkJ1Gu5AYjN9vEQoUpF4rln7cwb6pBp_LT-WhpdFpnK-Ew0wms-KKnx7UZco2g2X9u3jyT42_b6L8YDvgy1Y9EOzwj4fbgKCK9gCSd9IidEd_zB4qboXMSW4hAlm-21UhNTjnEd5a5szkUpslXayAarjDTNK-gxtwD03PEZoSKX_o4BnkOmEb1cOoSa0PELZU1LQDhBmFrkhcXweqXuoXXRGD7pAnDvr4RNH-0cj3loi3BlK3L8NkcgvE2O5Pl71LkRsdSa4TmdNUWNNX4ydkJ8NAsMJOxpBkdTJb6qf_tRg1tY6Mj13CEJgDTuWdQm4vRkP6mMxeHPZF3XGvr1uGWkN5RMkEBa_nueXe4Pxjh1WLcJyz4MWOv4c_jZPDBBO-6i_xi4E2WE5jycAGbriREWxDUAlxmHvasRaLQOxhWv6kUa_9_GxNe-IaDwOFqiIkEc91eln-aBcHuyadfFA70fPfZXbR8KW3lrSdxgvyjCIoUzZmv5_toyc0INC0L",
+      "status": null
+    },
+    {
+      "id": "msg_00d528f376e968e1006ad86de5425487d1864ae224f66d95e9",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"funde\":[{\"regelwerk\":\"GG\",\"fundstelle\":\"Art. 33 Abs. 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Gesprächsdokumentation sollte die leistungsbezogenen, einheitlich angewandten Auswahlkriterien und die darauf gestützten Bewertungen nachvollziehbar festhalten; die Norm schreibt kein bestimmtes Protokollformat vor.\",\"begruendung\":\"Bei der Besetzung einer Stelle an einer staatlichen Hochschule ist der Zugang nach Eignung, Befähigung und fachlicher Leistung maßgeblich. Eine nachvollziehbare Dokumentation des Gesprächs unterstützt den Nachweis, dass diese Kriterien angewandt wurden.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/gg/art_33.html\",\"fassung_datum\":\"Geltende Fassung; zuletzt geändert durch Art. 1 G vom 22.03.2025\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"AGG\",\"fundstelle\":\"§ 22\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Vorschrift begründet keine ausdrückliche Pflicht zu einem bestimmten Gesprächsprotokoll. Die Aufzeichnungen sollten aber objektive, auf die Stelle bezogene Kriterien und Bewertungen erkennen lassen, um im Streitfall eine Vermutung der Benachteiligung widerlegen zu können.\",\"begruendung\":\"Liegen Indizien für eine Benachteiligung wegen eines in § 1 AGG genannten Grundes vor, trägt die Hochschule die Beweislast dafür, dass kein Verstoß gegen das Benachteiligungsverbot vorlag. Die Dokumentation der Gespräche kann hierfür relevant sein.\",\"quelle_url\":\"https://www.gesetze-im-internet.de/agg/__22.html\",\"fassung_datum\":\"Geltende Fassung; zuletzt geändert durch Art. 15 G vom 22.12.2023\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. a\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Gesprächsnotizen müssen rechtmäßig, fair und für die betroffene Person nachvollziehbar verarbeitet werden; keine unnötigen oder sachfremden Angaben aufnehmen.\",\"begruendung\":\"Gesprächsnotizen enthalten personenbezogene Daten der Bewerbenden. Für deren Erstellung und weitere Verwendung gilt der Grundsatz rechtmäßiger, fairer und transparenter Verarbeitung.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. b\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Gesprächsdokumentation nur für festgelegte, eindeutige und legitime Zwecke des Auswahlverfahrens nutzen; eine spätere Zweckänderung gesondert prüfen.\",\"begruendung\":\"Das Festhalten und Nutzen von Gesprächsinhalten ist eine Verarbeitung personenbezogener Daten und muss dem Zweck der Personalauswahl entsprechen.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. c\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Nur für die Auswahl erforderliche Gesprächsinhalte dokumentieren; insbesondere keine überflüssigen Angaben zu privaten oder besonders sensiblen Umständen aufnehmen.\",\"begruendung\":\"Der Grundsatz der Datenminimierung gilt für die personenbezogenen Daten, die in den Gesprächsnotizen festgehalten werden.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. d\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Bewertungen und Gesprächsangaben sorgfältig und sachlich festhalten; Fehler sind erforderlichenfalls zu berichtigen.\",\"begruendung\":\"Gesprächsnotizen müssen im Hinblick auf den Auswahlzweck sachlich richtig sein; die DSGVO verlangt angemessene Schritte zur Berichtigung unrichtiger personenbezogener Daten.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 5 Abs. 1 Buchst. e\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Gesprächsnotizen dürfen nur so lange personenbezogen gespeichert werden, wie es für den Zweck erforderlich ist; die Aufbewahrung und anschließende Löschung sind mit T6.2 und T6.3 abzustimmen.\",\"begruendung\":\"Die Speicherung der Gesprächsdokumentation unterliegt dem Grundsatz der Speicherbegrenzung.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 6 Abs. 1 Buchst. e\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Hochschule muss für die Verarbeitung eine tragfähige Rechtsgrundlage im Rahmen ihrer öffentlichen Aufgabe haben; die Norm allein bestimmt nicht abschließend die konkrete nationale Rechtsgrundlage für jeden Dateninhalt.\",\"begruendung\":\"Das Erstellen und Verwenden von Gesprächsnotizen ist eine Verarbeitung personenbezogener Daten. Für eine staatliche Hochschule kommt als Rechtsgrundlage insbesondere die Erforderlichkeit zur Wahrnehmung einer Aufgabe im öffentlichen Interesse in Betracht.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"unsicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 24 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Hochschule muss geeignete organisatorische Maßnahmen festlegen, damit Erstellung, Zugriff, Nutzung und Aufbewahrung der Gesprächsnotizen DSGVO-konform erfolgen und dies nachweisbar ist.\",\"begruendung\":\"Als Verantwortliche muss die Hochschule die Einhaltung der DSGVO durch geeignete Maßnahmen sicherstellen und nachweisen können.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 32 Abs. 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Zugriff auf Gesprächsnotizen auf befugte Personen beschränken und ein dem Risiko angemessenes Schutzniveau gewährleisten.\",\"begruendung\":\"Die Hochschule und gegebenenfalls ein Auftragsverarbeiter müssen geeignete technische und organisatorische Sicherheitsmaßnahmen für die gespeicherten Gesprächsdaten treffen.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayPVG\",\"fundstelle\":\"Art. 69 Abs. 2 Satz 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Soweit der Personalrat zur Durchführung seiner Aufgaben über die Gespräche zu unterrichten ist, sind erforderliche Informationen rechtzeitig und umfassend bereitzustellen; die Norm verlangt nicht pauschal die Weitergabe jedes Gesprächsprotokolls.\",\"begruendung\":\"Der Personalrat ist zur Aufgabenerfüllung rechtzeitig und umfassend zu unterrichten. Die Gesprächsdokumentation kann hierfür relevant sein, soweit sie für seine Aufgaben und die personalvertretungsrechtliche Beteiligung erforderlich ist.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayPVG-69\",\"fassung_datum\":\"Text gilt ab 01.08.2023; Fassung der Bekanntmachung vom 11.11.1986\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayPVG\",\"fundstelle\":\"Art. 69 Abs. 2 Satz 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die erforderlichen Unterlagen sind dem Personalrat zur Verfügung zu stellen; Umfang und Erforderlichkeit richten sich nach dessen konkreten Aufgaben und Beteiligungsrechten.\",\"begruendung\":\"Die Vorschrift verpflichtet die Dienststelle, dem Personalrat die zur Durchführung seiner Aufgaben erforderlichen Unterlagen bereitzustellen. Dazu können Gesprächsunterlagen gehören, soweit sie dafür erforderlich sind.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayPVG-69\",\"fassung_datum\":\"Text gilt ab 01.08.2023; Fassung der Bekanntmachung vom 11.11.1986\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayGlG\",\"fundstelle\":\"Art. 17 Abs. 2 Satz 1\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Die Gleichstellungsbeauftragte ist in Personalangelegenheiten spätestens gleichzeitig mit Einleitung des personalvertretungsrechtlichen Beteiligungsverfahrens rechtzeitig und umfassend zu unterrichten, soweit dies zur Aufgabenerfüllung erforderlich ist.\",\"begruendung\":\"Die Vorschrift sieht Informationsrechte der Gleichstellungsbeauftragten in Personalangelegenheiten vor. Die Gesprächsdokumentation kann als erforderliche Information für ihre Aufgaben relevant sein.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayGlG-17\",\"fassung_datum\":\"Text gilt ab 01.04.2026; Gesetz vom 24.05.1996\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"BayGlG\",\"fundstelle\":\"Art. 17 Abs. 2 Satz 2\",\"typ\":\"zuordnung\",\"fehlender_schritt\":null,\"hinweis\":\"Erforderliche Gesprächsunterlagen sind frühzeitig vorzulegen und erbetene Auskünfte zu erteilen; das begründet keine pauschale Pflicht, jedes interne Protokoll ohne Bezug zur Aufgabenerfüllung vorzulegen.\",\"begruendung\":\"Die Vorschrift verpflichtet zur Vorlage der für die Aufgaben der Gleichstellungsbeauftragten erforderlichen Unterlagen und zur Erteilung erbetener Auskünfte.\",\"quelle_url\":\"https://www.gesetze-bayern.de/Content/Document/BayGlG-17\",\"fassung_datum\":\"Text gilt ab 01.04.2026; Gesetz vom 24.05.1996\",\"sicherheit\":\"sicher\"},{\"regelwerk\":\"DSGVO\",\"fundstelle\":\"Art. 30 Abs. 1\",\"typ\":\"moegliche_luecke\",\"fehlender_schritt\":\"Ein Verzeichnis der Verarbeitungstätigkeiten führen oder aktualisieren, das die Verarbeitung von Bewerberdaten im Auswahlverfahren einschließlich der Gesprächsdokumentation erfasst.\",\"hinweis\":null,\"begruendung\":\"Der Verantwortliche muss ein Verzeichnis seiner Verarbeitungstätigkeiten führen. Der Gesamtprozess enthält keinen ausdrücklich benannten Schritt zur Erstellung oder Aktualisierung dieses Verzeichnisses; die Ausnahme für Einrichtungen mit weniger als 250 Beschäftigten greift bei der angegebenen Organisation nicht.\",\"quelle_url\":\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679\",\"fassung_datum\":\"Verordnung vom 27.04.2016; anwendbar seit 25.05.2018\",\"sicherheit\":\"sicher\"}]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "funde": [
+              {
+                "regelwerk": "GG",
+                "fundstelle": "Art. 33 Abs. 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Gesprächsdokumentation sollte die leistungsbezogenen, einheitlich angewandten Auswahlkriterien und die darauf gestützten Bewertungen nachvollziehbar festhalten; die Norm schreibt kein bestimmtes Protokollformat vor.",
+                "begruendung": "Bei der Besetzung einer Stelle an einer staatlichen Hochschule ist der Zugang nach Eignung, Befähigung und fachlicher Leistung maßgeblich. Eine nachvollziehbare Dokumentation des Gesprächs unterstützt den Nachweis, dass diese Kriterien angewandt wurden.",
+                "quelle_url": "https://www.gesetze-im-internet.de/gg/art_33.html",
+                "fassung_datum": "Geltende Fassung; zuletzt geändert durch Art. 1 G vom 22.03.2025",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "AGG",
+                "fundstelle": "§ 22",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Vorschrift begründet keine ausdrückliche Pflicht zu einem bestimmten Gesprächsprotokoll. Die Aufzeichnungen sollten aber objektive, auf die Stelle bezogene Kriterien und Bewertungen erkennen lassen, um im Streitfall eine Vermutung der Benachteiligung widerlegen zu können.",
+                "begruendung": "Liegen Indizien für eine Benachteiligung wegen eines in § 1 AGG genannten Grundes vor, trägt die Hochschule die Beweislast dafür, dass kein Verstoß gegen das Benachteiligungsverbot vorlag. Die Dokumentation der Gespräche kann hierfür relevant sein.",
+                "quelle_url": "https://www.gesetze-im-internet.de/agg/__22.html",
+                "fassung_datum": "Geltende Fassung; zuletzt geändert durch Art. 15 G vom 22.12.2023",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. a",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Gesprächsnotizen müssen rechtmäßig, fair und für die betroffene Person nachvollziehbar verarbeitet werden; keine unnötigen oder sachfremden Angaben aufnehmen.",
+                "begruendung": "Gesprächsnotizen enthalten personenbezogene Daten der Bewerbenden. Für deren Erstellung und weitere Verwendung gilt der Grundsatz rechtmäßiger, fairer und transparenter Verarbeitung.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. b",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Gesprächsdokumentation nur für festgelegte, eindeutige und legitime Zwecke des Auswahlverfahrens nutzen; eine spätere Zweckänderung gesondert prüfen.",
+                "begruendung": "Das Festhalten und Nutzen von Gesprächsinhalten ist eine Verarbeitung personenbezogener Daten und muss dem Zweck der Personalauswahl entsprechen.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. c",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Nur für die Auswahl erforderliche Gesprächsinhalte dokumentieren; insbesondere keine überflüssigen Angaben zu privaten oder besonders sensiblen Umständen aufnehmen.",
+                "begruendung": "Der Grundsatz der Datenminimierung gilt für die personenbezogenen Daten, die in den Gesprächsnotizen festgehalten werden.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. d",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Bewertungen und Gesprächsangaben sorgfältig und sachlich festhalten; Fehler sind erforderlichenfalls zu berichtigen.",
+                "begruendung": "Gesprächsnotizen müssen im Hinblick auf den Auswahlzweck sachlich richtig sein; die DSGVO verlangt angemessene Schritte zur Berichtigung unrichtiger personenbezogener Daten.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 5 Abs. 1 Buchst. e",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Gesprächsnotizen dürfen nur so lange personenbezogen gespeichert werden, wie es für den Zweck erforderlich ist; die Aufbewahrung und anschließende Löschung sind mit T6.2 und T6.3 abzustimmen.",
+                "begruendung": "Die Speicherung der Gesprächsdokumentation unterliegt dem Grundsatz der Speicherbegrenzung.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 6 Abs. 1 Buchst. e",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Hochschule muss für die Verarbeitung eine tragfähige Rechtsgrundlage im Rahmen ihrer öffentlichen Aufgabe haben; die Norm allein bestimmt nicht abschließend die konkrete nationale Rechtsgrundlage für jeden Dateninhalt.",
+                "begruendung": "Das Erstellen und Verwenden von Gesprächsnotizen ist eine Verarbeitung personenbezogener Daten. Für eine staatliche Hochschule kommt als Rechtsgrundlage insbesondere die Erforderlichkeit zur Wahrnehmung einer Aufgabe im öffentlichen Interesse in Betracht.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "unsicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 24 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Hochschule muss geeignete organisatorische Maßnahmen festlegen, damit Erstellung, Zugriff, Nutzung und Aufbewahrung der Gesprächsnotizen DSGVO-konform erfolgen und dies nachweisbar ist.",
+                "begruendung": "Als Verantwortliche muss die Hochschule die Einhaltung der DSGVO durch geeignete Maßnahmen sicherstellen und nachweisen können.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 32 Abs. 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Zugriff auf Gesprächsnotizen auf befugte Personen beschränken und ein dem Risiko angemessenes Schutzniveau gewährleisten.",
+                "begruendung": "Die Hochschule und gegebenenfalls ein Auftragsverarbeiter müssen geeignete technische und organisatorische Sicherheitsmaßnahmen für die gespeicherten Gesprächsdaten treffen.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayPVG",
+                "fundstelle": "Art. 69 Abs. 2 Satz 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Soweit der Personalrat zur Durchführung seiner Aufgaben über die Gespräche zu unterrichten ist, sind erforderliche Informationen rechtzeitig und umfassend bereitzustellen; die Norm verlangt nicht pauschal die Weitergabe jedes Gesprächsprotokolls.",
+                "begruendung": "Der Personalrat ist zur Aufgabenerfüllung rechtzeitig und umfassend zu unterrichten. Die Gesprächsdokumentation kann hierfür relevant sein, soweit sie für seine Aufgaben und die personalvertretungsrechtliche Beteiligung erforderlich ist.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-69",
+                "fassung_datum": "Text gilt ab 01.08.2023; Fassung der Bekanntmachung vom 11.11.1986",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayPVG",
+                "fundstelle": "Art. 69 Abs. 2 Satz 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die erforderlichen Unterlagen sind dem Personalrat zur Verfügung zu stellen; Umfang und Erforderlichkeit richten sich nach dessen konkreten Aufgaben und Beteiligungsrechten.",
+                "begruendung": "Die Vorschrift verpflichtet die Dienststelle, dem Personalrat die zur Durchführung seiner Aufgaben erforderlichen Unterlagen bereitzustellen. Dazu können Gesprächsunterlagen gehören, soweit sie dafür erforderlich sind.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayPVG-69",
+                "fassung_datum": "Text gilt ab 01.08.2023; Fassung der Bekanntmachung vom 11.11.1986",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 17 Abs. 2 Satz 1",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Die Gleichstellungsbeauftragte ist in Personalangelegenheiten spätestens gleichzeitig mit Einleitung des personalvertretungsrechtlichen Beteiligungsverfahrens rechtzeitig und umfassend zu unterrichten, soweit dies zur Aufgabenerfüllung erforderlich ist.",
+                "begruendung": "Die Vorschrift sieht Informationsrechte der Gleichstellungsbeauftragten in Personalangelegenheiten vor. Die Gesprächsdokumentation kann als erforderliche Information für ihre Aufgaben relevant sein.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17",
+                "fassung_datum": "Text gilt ab 01.04.2026; Gesetz vom 24.05.1996",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "BayGlG",
+                "fundstelle": "Art. 17 Abs. 2 Satz 2",
+                "typ": "zuordnung",
+                "fehlender_schritt": null,
+                "hinweis": "Erforderliche Gesprächsunterlagen sind frühzeitig vorzulegen und erbetene Auskünfte zu erteilen; das begründet keine pauschale Pflicht, jedes interne Protokoll ohne Bezug zur Aufgabenerfüllung vorzulegen.",
+                "begruendung": "Die Vorschrift verpflichtet zur Vorlage der für die Aufgaben der Gleichstellungsbeauftragten erforderlichen Unterlagen und zur Erteilung erbetener Auskünfte.",
+                "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayGlG-17",
+                "fassung_datum": "Text gilt ab 01.04.2026; Gesetz vom 24.05.1996",
+                "sicherheit": "sicher"
+              },
+              {
+                "regelwerk": "DSGVO",
+                "fundstelle": "Art. 30 Abs. 1",
+                "typ": "moegliche_luecke",
+                "fehlender_schritt": "Ein Verzeichnis der Verarbeitungstätigkeiten führen oder aktualisieren, das die Verarbeitung von Bewerberdaten im Auswahlverfahren einschließlich der Gesprächsdokumentation erfasst.",
+                "hinweis": null,
+                "begruendung": "Der Verantwortliche muss ein Verzeichnis seiner Verarbeitungstätigkeiten führen. Der Gesamtprozess enthält keinen ausdrücklich benannten Schritt zur Erstellung oder Aktualisierung dieses Verzeichnisses; die Ausnahme für Einrichtungen mit weniger als 250 Beschäftigten greift bei der angegebenen Organisation nicht.",
+                "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+                "fassung_datum": "Verordnung vom 27.04.2016; anwendbar seit 25.05.2018",
+                "sicherheit": "sicher"
+              }
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": {
+        "allowed_domains": [
+          "eur-lex.europa.eu",
+          "gesetze-im-internet.de",
+          "gesetze-bayern.de",
+          "tdl-online.de"
+        ]
+      },
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1792568822.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "Stufe2Antwort",
+      "schema_": {
+        "$defs": {
+          "FundLLM": {
+            "description": "Ein Fund, wie ihn das Modell in Stufe 2 liefert.",
+            "properties": {
+              "regelwerk": {
+                "description": "Kurzform des Regelwerks, z. B. AI Act",
+                "title": "Regelwerk",
+                "type": "string"
+              },
+              "fundstelle": {
+                "description": "z. B. Art. 26 Abs. 11 oder § 165",
+                "title": "Fundstelle",
+                "type": "string"
+              },
+              "typ": {
+                "enum": [
+                  "zuordnung",
+                  "moegliche_luecke"
+                ],
+                "title": "Typ",
+                "type": "string"
+              },
+              "fehlender_schritt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "nur bei moegliche_luecke, sonst null",
+                "title": "Fehlender Schritt"
+              },
+              "hinweis": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "fehlendes Detail an diesem Task, sonst null",
+                "title": "Hinweis"
+              },
+              "begruendung": {
+                "title": "Begruendung",
+                "type": "string"
+              },
+              "quelle_url": {
+                "title": "Quelle Url",
+                "type": "string"
+              },
+              "fassung_datum": {
+                "title": "Fassung Datum",
+                "type": "string"
+              },
+              "sicherheit": {
+                "enum": [
+                  "sicher",
+                  "unsicher"
+                ],
+                "title": "Sicherheit",
+                "type": "string"
+              }
+            },
+            "required": [
+              "regelwerk",
+              "fundstelle",
+              "typ",
+              "fehlender_schritt",
+              "hinweis",
+              "begruendung",
+              "quelle_url",
+              "fassung_datum",
+              "sicherheit"
+            ],
+            "title": "FundLLM",
+            "type": "object",
+            "additionalProperties": false
+          }
+        },
+        "properties": {
+          "funde": {
+            "items": {
+              "$ref": "#/$defs/FundLLM"
+            },
+            "title": "Funde",
+            "type": "array"
+          }
+        },
+        "required": [
+          "funde"
+        ],
+        "title": "Stufe2Antwort",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 37406,
+    "input_tokens_details": {
+      "cache_write_tokens": 3765,
+      "cached_tokens": 4775
+    },
+    "output_tokens": 4975,
+    "output_tokens_details": {
+      "reasoning_tokens": 2309
+    },
+    "total_tokens": 42381
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 3
+    }
+  }
+}
