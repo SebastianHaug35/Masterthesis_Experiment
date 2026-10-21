@@ -2,7 +2,7 @@
 
 Diese Anweisung ist vollständig. Setze sie ohne Rückfragen um. Wo etwas nicht festgelegt ist, triff eine einfache Entscheidung und dokumentiere sie in `h1/DECISIONS.md`.
 
-Quelle: README der Masterarbeit (Claude Doc), Stand 20.10.2026. Bei Änderungen wird diese Datei im Repo aktualisiert.
+Stand v1 (20.10.2026). Diese Datei ist die Basisspezifikation. Spätere Änderungen stehen als nummerierte Aufträge in `auftraege/`; bei Widersprüchen gilt der neueste Auftrag. Die aktuelle Soll-Liste, der Prozess und die Prompts stehen in `h1/input/` und `h1/prompts/`, der Anhang unten ist der Stand v1.
 
 ## Ziel
 
