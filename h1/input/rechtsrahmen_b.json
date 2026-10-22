@@ -1,0 +1,17 @@
+{
+  "_hinweis": "Nur für Konfiguration B: Soll-Regelwerke mit Kennung für die Werkzeuge. Niemals in Konfiguration A verwenden.",
+  "rechtsrahmen": [
+    {"regelwerk": "DSGVO", "kennung": "Verordnung (EU) 2016/679"},
+    {"regelwerk": "AI Act", "kennung": "Verordnung (EU) 2024/1689"},
+    {"regelwerk": "GG", "kennung": "gg"},
+    {"regelwerk": "AGG", "kennung": "agg"},
+    {"regelwerk": "SGB IX", "kennung": "sgb_9_2018"},
+    {"regelwerk": "NachwG", "kennung": "nachwg"},
+    {"regelwerk": "WissZeitVG", "kennung": "wisszeitvg"},
+    {"regelwerk": "TzBfG", "kennung": "tzbfg"},
+    {"regelwerk": "BayDSG", "kennung": "BayDSG"},
+    {"regelwerk": "BayPVG", "kennung": "BayPVG"},
+    {"regelwerk": "BayGlG", "kennung": "BayGlG"},
+    {"regelwerk": "TV-L", "kennung": "TV-L"}
+  ]
+}

@@ -10,7 +10,7 @@ das geschieht in einem späteren Schritt.
   (suche_regelwerk, inhaltsverzeichnis, lade_norm, suche_volltext).
   Sie greifen auf diese Quellen zu: {domains}
 - Nenne nur Regelwerke, die du mit einem Werkzeug tatsächlich gefunden hast;
-  übernimm "quelle_url" und "fassung_datum" aus dem Werkzeugergebnis.
+  übernimm "kennung", "quelle_url" und "fassung_datum" aus dem Werkzeugergebnis.
   Erfinde nichts. Wenn du unsicher bist, markiere den Eintrag als "unsicher".
 - Berücksichtige die Besonderheiten der Organisation
   (Rechtsform, Bundesland, öffentlicher Arbeitgeber, Personalvertretung).
