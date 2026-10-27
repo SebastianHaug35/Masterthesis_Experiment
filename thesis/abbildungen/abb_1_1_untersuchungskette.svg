@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1220" viewBox="0 0 680 610" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="680" height="610" fill="#FFFFFF"/>
+<g font-size="14" text-anchor="middle" dominant-baseline="central">
+<rect x="190" y="30" width="300" height="48" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="0.8"/><text x="340" y="54" fill="#2C2C2A" font-weight="bold">Prozess + Firmenprofil</text>
+<rect x="40" y="102" width="130" height="208" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8" stroke-dasharray="5 4"/><text x="105" y="196" fill="#085041" font-weight="bold">Erkennen</text><text x="105" y="218" fill="#0F6E56" font-size="12">FF1, FF2</text>
+<rect x="190" y="102" width="300" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8"/><text x="340" y="121" fill="#085041" font-weight="bold">1 · Rechtsrahmen finden</text><text x="340" y="141" fill="#0F6E56" font-size="12">H1a</text>
+<rect x="190" y="178" width="300" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8"/><text x="340" y="197" fill="#085041" font-weight="bold">2 · Vorschriften zuordnen</text><text x="340" y="217" fill="#0F6E56" font-size="12">H1</text>
+<rect x="190" y="254" width="300" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8"/><text x="340" y="273" fill="#085041" font-weight="bold">3 · Lücken erkennen</text><text x="340" y="293" fill="#0F6E56" font-size="12">H1b</text>
+<rect x="40" y="330" width="130" height="132" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.8" stroke-dasharray="5 4"/><text x="105" y="386" fill="#3C3489" font-weight="bold">Durchsetzen</text><text x="105" y="408" fill="#534AB7" font-size="12">FF4</text>
+<rect x="190" y="330" width="300" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.8"/><text x="340" y="349" fill="#3C3489" font-weight="bold">4 · Prüfregeln ableiten</text><text x="340" y="369" fill="#534AB7" font-size="12">H2</text>
+<rect x="190" y="406" width="300" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.8"/><text x="340" y="425" fill="#3C3489" font-weight="bold">5 · Laufzeit-Kontrolle</text><text x="340" y="445" fill="#534AB7" font-size="12">H3</text>
+<rect x="190" y="482" width="300" height="48" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="0.8"/><text x="340" y="506" fill="#2C2C2A" font-weight="bold">Agent handelt regelkonform</text>
+<rect x="510" y="102" width="130" height="360" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.8" stroke-dasharray="5 4"/><text x="575" y="270" fill="#712B13" font-weight="bold">Gesamtkette</text><text x="575" y="292" fill="#993C1D" font-size="12">H4</text>
+<rect x="40" y="550" width="600" height="40" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="0.8"/><text x="340" y="570" fill="#2C2C2A" font-weight="bold">Verlässlichkeit und Kosten über alle Schritte (FF3)</text>
+</g>
+<g stroke="#5F5E5A" stroke-width="1.5" fill="none" marker-end="url(#a)"><line x1="340" y1="78" x2="340" y2="100"/><line x1="340" y1="158" x2="340" y2="176"/><line x1="340" y1="234" x2="340" y2="252"/><line x1="340" y1="310" x2="340" y2="328"/><line x1="340" y1="386" x2="340" y2="404"/><line x1="340" y1="462" x2="340" y2="480"/></g>
+</svg>

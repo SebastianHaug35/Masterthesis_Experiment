@@ -10,10 +10,12 @@ Die Arbeit folgt einer Linie: Problem → Hypothesen → Versuchsaufbau → Erge
 
 | Nr. | Forschungsfrage | Hypothese | Stand |
 | --- | --- | --- | --- |
-| FF1 | Findet ein Agent mit eigener Recherche die geltenden Regelwerke und ordnet er die konkreten Vorschriften den richtigen Tasks zu? | H1 | Daten liegen vor (v1–v3), v4 läuft |
+| FF1 | Findet ein Agent mit eigener Recherche die geltenden Regelwerke und ordnet er die konkreten Vorschriften den richtigen Tasks zu? | H1a, H1 | Daten liegen vor (v1–v3), v4 läuft |
 | FF2 | Erkennt der Agent rechtlich gebotene Schritte, die im Prozess fehlen? | H1b | Daten liegen vor |
 | FF3 | Wie wirken sich Prompt und Recherchewerkzeug auf Qualität, erfundene Normen und Kosten aus? | – (explorativ) | Daten liegen vor (v1 → v2 → v3 → v4) |
-| FF4 | Lassen sich Vorschriften in prüfbare Regeln übersetzen und zur Laufzeit durchsetzen? | H2, H3 | Teil der Arbeit (Prototyp); Versuch noch zu planen |
+| FF4 | Lassen sich Vorschriften in prüfbare Regeln übersetzen und zur Laufzeit durchsetzen? | H2, H3, H4 | Teil der Arbeit (Prototyp); Versuch für H2–H4 noch zu planen, H4 als kleiner Ende-zu-Ende-Test |
+
+Alle Hypothesen im Wortlaut und die Untersuchungskette (Abbildung 1.1) stehen im Entwurf, Kapitel 1.3 (abgesegnet am 27.10.2026).
 
 Die Arbeit hat zwei Hälften: FF1 bis FF3 behandeln das Erkennen, FF4 die Durchsetzung zur Laufzeit.
 
