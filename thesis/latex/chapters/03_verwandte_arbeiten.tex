@@ -1,7 +1,19 @@
 \section{Verwandte Arbeiten}
 \subsection{Zuordnung von Vorschriften zu Geschäftsprozessen}
-% abgesegnet am 27.10.2026; "am nächsten" nach der Literaturrecherche zu 3.2 prüfen
-Am nächsten an dieser Arbeit liegt die Studie von Sai et al.~\cite{sai2024}, die untersucht, wie sich aus einer Sammlung von Rechtstexten automatisch die Absätze bestimmen lassen, die für einen gegebenen Geschäftsprozess relevant sind.
+% Sätze 1-4 abgesegnet am 27.10.2026; Satz 5 nach Prüfung der Studie präzisiert (Bestätigung offen)
+% "am nächsten an dieser Arbeit" wandert ans Ende von 3.1
+Sai et al.~\cite{sai2024} vergleichen vier Verfahren, mit denen sich für einen Geschäftsprozess die relevanten Absätze aus einer Sammlung von Rechtstexten bestimmen lassen.
+Beim ersten Verfahren ordnen Fachleute die Absätze von Hand zu: in der Studie drei Mitarbeitende eines australischen Versicherers und zwei Prozessexperten aus dem Bankwesen.
+Beim zweiten Verfahren bewerten viele Laien über die Online-Plattform Amazon Mechanical Turk gegen eine geringe Bezahlung, ob ein Absatz zu einem Prozessschritt passt.
+Das dritte Verfahren übersetzt Prozessschritte und Rechtsabsätze in Zahlenvektoren, sogenannte Embeddings, und sortiert die Absätze danach, wie ähnlich ihr Inhalt dem Prozessschritt ist (Abbildung~\ref{fig:embedding_karte}).
+Beim vierten Verfahren legt man dem Sprachmodell GPT-4 jeden Absatz einzeln zusammen mit der Prozessbeschreibung vor, und das Modell entscheidet, ob der Absatz relevant ist. \offen{Satz bestätigen}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/abb_3_1_embedding_karte.pdf}
+  \caption[Prinzip des Embedding-Verfahrens]{Prinzip des Embedding-Verfahrens am Beispiel dieser Arbeit. Je näher ein Rechtsabsatz am Prozessschritt liegt, desto ähnlicher ist sein Inhalt; ausgewählt werden die ähnlichsten Absätze. Schematische, eigene Darstellung; Positionen und Abstände sind nicht berechnet.}
+  \label{fig:embedding_karte}
+\end{figure}
 
 \offen{weitere Sätze zu 3.1}
 

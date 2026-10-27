@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="500" viewBox="0 0 820 500" font-family="Helvetica, Arial, sans-serif">
+  <rect width="820" height="500" fill="#ffffff"/>
+  <!-- Karte -->
+  <rect x="20" y="20" width="520" height="460" rx="10" fill="#f7f8fa" stroke="#d5d9e0"/>
+  <text x="36" y="46" font-size="14" font-weight="bold" fill="#333">Bedeutungsraum (vereinfacht auf 2 Dimensionen)</text>
+  <!-- Relevanzkreis -->
+  <circle cx="260" cy="270" r="128" fill="#e7f1fb" stroke="#2f6db5" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="260" y="418" font-size="12" fill="#2f6db5" text-anchor="middle">als relevant ausgewählt</text>
+  <!-- Prozessschritt -->
+  <rect x="130" y="252" width="260" height="36" rx="18" fill="#1f4e8c"/>
+  <text x="260" y="275" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Bewerbungen mit KI vorsortieren</text>
+  <!-- Absätze -->
+  <g font-size="12" fill="#222">
+    <circle cx="320" cy="205" r="7" fill="#e08a1e"/><text x="331" y="201">Art. 22 DSGVO</text><text x="331" y="216" fill="#666" font-size="11">automatisierte Entscheidung</text>
+    <circle cx="195" cy="335" r="7" fill="#e08a1e"/><text x="150" y="360">Art. 26 KI-Verordnung</text><text x="150" y="375" fill="#666" font-size="11">Pflichten beim KI-Einsatz</text>
+    <circle cx="335" cy="325" r="7" fill="#e08a1e"/><text x="346" y="321">§ 7 AGG</text><text x="346" y="336" fill="#666" font-size="11">Benachteiligungsverbot</text>
+    <circle cx="95" cy="110" r="7" fill="#9aa3ad"/><text x="109" y="106">§ 165 SGB IX</text><text x="109" y="121" fill="#666" font-size="11">schwerbehinderte Bewerber</text>
+    <circle cx="500" cy="420" r="7" fill="#9aa3ad"/><text x="360" y="448">Vorschrift zum Brandschutz</text>
+  </g>
+  <text x="36" y="470" font-size="11" fill="#666">Nähe = inhaltliche Ähnlichkeit</text>
+  <!-- Rangfolge -->
+  <text x="565" y="46" font-size="14" font-weight="bold" fill="#333">Rangfolge nach Ähnlichkeit</text>
+  <g font-size="12" fill="#222">
+    <rect x="565" y="62" width="235" height="34" rx="6" fill="#fdf1e2" stroke="#e08a1e"/><text x="577" y="84">1  Art. 22 DSGVO</text>
+    <rect x="565" y="102" width="235" height="34" rx="6" fill="#fdf1e2" stroke="#e08a1e"/><text x="577" y="124">2  Art. 26 KI-Verordnung</text>
+    <rect x="565" y="142" width="235" height="34" rx="6" fill="#fdf1e2" stroke="#e08a1e"/><text x="577" y="164">3  § 7 AGG</text>
+    <line x1="565" y1="190" x2="800" y2="190" stroke="#2f6db5" stroke-dasharray="6 5"/>
+    <text x="682" y="206" font-size="11" fill="#2f6db5" text-anchor="middle">Grenze der Auswahl</text>
+    <rect x="565" y="218" width="235" height="34" rx="6" fill="#f1f2f4" stroke="#c3c8cf"/><text x="577" y="240" fill="#555">4  § 165 SGB IX</text>
+    <rect x="565" y="258" width="235" height="34" rx="6" fill="#f1f2f4" stroke="#c3c8cf"/><text x="577" y="280" fill="#555">5  Brandschutz</text>
+  </g>
+  <text x="565" y="330" font-size="11" fill="#666">Schematische, eigene Darstellung.</text>
+  <text x="565" y="346" font-size="11" fill="#666">Positionen und Abstände sind nicht berechnet.</text>
+</svg>
