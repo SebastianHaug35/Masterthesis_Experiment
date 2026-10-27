@@ -1,0 +1,17 @@
+dist/
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.xdv
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.out
+# Schriften und Logo nicht ins öffentliche Repo (Lizenz/Markenrecht); aus Drive masterthesis2/assets kopieren
+assets/fonts/*
+assets/branding/*
+!assets/fonts/.gitkeep
+!assets/branding/.gitkeep

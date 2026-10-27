@@ -1,0 +1,29 @@
+% Platzhalter: In der früheren Fassung identisch mit titlepage.tex. Durch das offizielle HM-Deckblatt ersetzen, falls vorgeschrieben.
+\thispagestyle{empty}
+{\IfFontExistsTF{Times New Roman}{\fontspec{Times New Roman}}{}
+\begin{center}
+    \IfFileExists{assets/branding/hm_logo.pdf}{\includegraphics[height=1.8cm]{assets/branding/hm_logo.pdf}}{\fbox{HM-Logo fehlt (siehe README)}}\vspace*{0.4cm}\\
+    {\normalsize \textbf{MUNICH UNIVERSITY OF APPLIED SCIENCES}}\vspace*{0.15cm}\\
+    {\small FACULTY OF COMPUTER SCIENCE AND MATHEMATICS}
+\end{center}
+\vspace*{1.8cm}
+\begin{center}
+    {\normalsize MASTER'S THESIS}\\
+    \vspace*{0.15cm}\rule{1.8cm}{1pt}\vspace*{0.4cm}\\
+    {\Large \textbf{Regulatorische Anforderungen in KI-gestützten Geschäftsprozessen}\\[0.2cm]
+    \textbf{erkennen und zur Laufzeit durchsetzen}}\\[0.6cm]
+    {\normalsize Ein LLM-Agent zur Zuordnung von Vorschriften, zur Erkennung von Compliance-Lücken und zur Runtime Verification am Beispiel eines Bewerbungsverfahrens an einer bayerischen Hochschule}
+\end{center}
+\vspace*{1.3cm}
+\begin{center}
+    {\Large \textbf{Sebastian Haug}}\\
+    {\footnotesize Master's programme}
+\end{center}
+\vspace*{0.8cm}
+\begin{center}
+    {\large \textbf{Prof. Dr. Christoph Böhm}}\\
+    {\footnotesize Supervisor from Munich University of Applied Sciences}
+\end{center}
+\vfill
+\begin{center}{\footnotesize Munich, \offen{Abgabemonat}}\end{center}
+}

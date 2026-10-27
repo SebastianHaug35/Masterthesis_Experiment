@@ -1,0 +1,33 @@
+% Formatvorgaben übernommen aus der früheren Fassung (Drive: Masterarbeit/masterthesis2)
+\usepackage[a4paper,top=25mm,bottom=25mm,left=30mm,right=25mm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{fontspec}
+% Deutsch als Hauptsprache; ohne Paket babel-german über die ini-Dateien von babel
+\IfFileExists{ngerman.ldf}{\usepackage[english,ngerman]{babel}}{\usepackage[english]{babel}\babelprovide[main,import]{ngerman}}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{xcolor,graphicx,float,url}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx,booktabs,array,longtable}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{footnote}
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
+\usepackage{listings,tcolorbox}
+\tcbuselibrary{listingsutf8}
+\usepackage[locale=DE]{siunitx}
+\usepackage[hidelinks]{hyperref}
+\usepackage[labelfont=bf]{caption}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[headsepline=true]{scrlayer-scrpage}
+\clearpairofpagestyles\ihead{\headmark}\ohead{\pagemark}\cfoot{}\pagestyle{scrheadings}
+\setlength{\parskip}{3pt}\parindent 0mm
+\setcounter{tocdepth}{3}
+\counterwithin{figure}{section}\counterwithin{table}{section}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\simclearpage}{\clearpage\thispagestyle{empty}\vspace*{\fill}\begin{center}\textbf{Diese Seite wurde absichtlich freigelassen.}\end{center}\vspace*{\fill}\clearpage}
+% Markierung offener Stellen im Entwurf (vor Abgabe entfernen)
+\newcommand{\offen}[1]{\textcolor{red}{\textbf{[OFFEN: #1]}}}
