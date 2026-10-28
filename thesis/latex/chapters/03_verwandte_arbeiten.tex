@@ -1,12 +1,17 @@
 \section{Verwandte Arbeiten}
 \subsection{Zuordnung von Vorschriften zu Geschäftsprozessen}
-% Sätze 1-4 abgesegnet am 27.10.2026, Satz 5 am 28.10.2026
+% Sätze 1-4 abgesegnet am 27.10.2026, Sätze 5, 6, 7a, 7b am 28.10.2026
 % "am nächsten an dieser Arbeit" wandert ans Ende von 3.1
 Sai et al.~\cite{sai2024} vergleichen vier Verfahren, mit denen sich für einen Geschäftsprozess die relevanten Absätze aus einer Sammlung von Rechtstexten bestimmen lassen.
 Beim ersten Verfahren ordnen Fachleute die Absätze von Hand zu: in der Studie drei Mitarbeitende eines australischen Versicherers und zwei Prozessexperten aus dem Bankwesen.
 Beim zweiten Verfahren bewerten viele Laien über die Online-Plattform Amazon Mechanical Turk gegen eine geringe Bezahlung, ob ein Absatz zu einem Prozessschritt passt.
 Das dritte Verfahren übersetzt Prozessschritte und Rechtsabsätze in Zahlenvektoren, sogenannte Embeddings, und sortiert die Absätze danach, wie ähnlich ihr Inhalt dem Prozessschritt ist (Abbildung~\ref{fig:embedding_karte}).
 Beim vierten Verfahren legt man dem Sprachmodell GPT-4 jeden Absatz einzeln zusammen mit der Prozessbeschreibung vor, und das Modell entscheidet, ob der Absatz relevant ist.
+Untersucht werden zwei Fallstudien: die Schadensbearbeitung einer Reiseversicherung und die Kundenprüfung einer Bank (\enquote{Know Your Customer}).
+Die Auswahl der Fachleute dient als Maßstab, mit dem die anderen drei Verfahren verglichen werden.
+Gemessen wird, welchen Anteil der relevanten Absätze ein Verfahren findet (\fb{trefferquote}, englisch \emph{Recall}) und welcher Anteil der gemeldeten Absätze tatsächlich relevant ist (\fb{genauigkeit}, englisch \emph{Precision}).
+\offen{Satz 7c: drei Ebenen Prozess, Teilprozess, Task -- Vorschlag in ganzen Sätzen liegt vor}
+\offen{Satz 7d: Beispiel für die drei Ebenen; später Übergang auf die gesamte Arbeit (nicht nur das Bewerbungsverfahren)}
 
 \begin{figure}[H]
   \centering

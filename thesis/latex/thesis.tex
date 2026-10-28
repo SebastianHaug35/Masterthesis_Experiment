@@ -1,7 +1,9 @@
 \documentclass[12pt,a4paper]{scrartcl}
 \input{preamble}
 
+\newif\ifentwurf\entwurftrue % vor Abgabe: \entwurffalse
 \begin{document}
+\ifentwurf\input{frontmatter/statusseite}\fi
 \input{frontmatter/titlepage}
 \simclearpage
 \input{frontmatter/titlepage_official}

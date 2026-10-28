@@ -1,0 +1,38 @@
+% Statusseite für den Entwurf (vor Abgabe in thesis.tex \entwurffalse setzen)
+\thispagestyle{empty}
+\IfFileExists{fortschritt.tex}{\input{fortschritt.tex}}{%
+  \def\fsDatum{--}\def\fsWoerter{0}\def\fsZeilen{0}\def\fsZeilenZiel{2520}\def\fsSeiten{0}%
+  \def\fsSeitenZiel{70}\def\fsAnteil{0}\def\fsProzent{0}\def\fsKapitel{}}
+\newcommand{\fsbalken}[2]{% #1 Anteil 0..1, #2 Breite
+  \begin{tikzpicture}[baseline=-0.6ex]
+    \fill[black!10, rounded corners=2pt] (0,-0.14) rectangle (#2,0.14);
+    \ifdim #1pt>0.004pt\fill[blue!60!black, rounded corners=2pt] (0,-0.14) rectangle ({#1*#2},0.14);\fi
+  \end{tikzpicture}}
+\newcommand{\fortschrittzeile}[4]{#1 & \fsbalken{#4}{5.5cm} & #2 von #3\\}
+\begin{center}
+  {\Large\bfseries Entwurfsstand}\\[0.3em]
+  {\small Stand der letzten Übersetzung: \fsDatum\quad·\quad Zielumfang: \fsSeitenZiel{} Seiten Haupttext}
+\end{center}
+\vspace{1em}
+\begin{center}
+  \begin{tikzpicture}
+    \fill[black!10, rounded corners=4pt] (0,0) rectangle (14,0.7);
+    \ifdim \fsAnteil pt>0.002pt\fill[blue!60!black, rounded corners=4pt] (0,0) rectangle ({\fsAnteil*14},0.7);\fi
+    \node[anchor=west, font=\bfseries] at (0.2,1.1) {Gesamt: \fsProzent\,\%};
+    \node[anchor=east] at (14,1.1) {ca.\ \fsSeiten{} von \fsSeitenZiel{} Seiten \;·\; \fsZeilen{} von \fsZeilenZiel{} Zeilen};
+  \end{tikzpicture}
+\end{center}
+\vspace{1.5em}
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabular}{l c r}
+    \toprule
+    \textbf{Kapitel} & \textbf{Fortschritt} & \textbf{Seiten (ca.)}\\
+    \midrule
+    \fsKapitel
+    \bottomrule
+  \end{tabular}
+\end{center}
+\vfill
+{\footnotesize Gezählt wird nur ausformulierter Text (\fsWoerter{} Wörter); Platzhalter (\textcolor{red}{\textbf{[OFFEN]}}) und Kommentare zählen nicht. Schätzung: 11 Wörter je Zeile, 36 Zeilen je Seite, eine Abbildung entspricht etwa einer halben Seite. Seitenbudget je Kapitel aus der Gliederung, hochgerechnet auf 70 Seiten. Die Zahlen erzeugt \texttt{fortschritt.py} bei jedem Bauen.\par}
+\clearpage
