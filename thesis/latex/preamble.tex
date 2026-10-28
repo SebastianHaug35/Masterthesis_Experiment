@@ -21,6 +21,23 @@
 \usepackage[locale=DE]{siunitx}
 \usepackage[hidelinks]{hyperref}
 \usepackage[labelfont=bf]{caption}
+% Glossar ohne Zusatzwerkzeuge (glossar.tex): \fb{schluessel} verlinkt ins Glossar,
+% beim ersten Auftreten zusätzlich Fußnote mit Kurzfassung
+\newcommand{\glossarliste}{}
+\newcommand{\begriff}[4]{%
+  \expandafter\def\csname gl@name@#1\endcsname{#2}%
+  \expandafter\def\csname gl@kurz@#1\endcsname{#3}%
+  \expandafter\def\csname gl@lang@#1\endcsname{#4}%
+  \expandafter\def\expandafter\glossarliste\expandafter{\glossarliste\glossareintrag{#1}}}
+\newcommand{\glossareintrag}[1]{\item[\hypertarget{gl:#1}{\csname gl@name@#1\endcsname}] \csname gl@lang@#1\endcsname}
+\newcommand{\fb}[1]{\hyperlink{gl:#1}{\csname gl@name@#1\endcsname}%
+  \expandafter\ifx\csname gl@used@#1\endcsname\relax
+    \footnote{\csname gl@kurz@#1\endcsname{} Siehe Glossar.}%
+    \global\expandafter\let\csname gl@used@#1\endcsname\empty
+  \fi}
+\newcommand{\printglossar}{\section*{Glossar}\addcontentsline{toc}{section}{Glossar}
+  \begin{description}[style=nextline,leftmargin=1.5em]\glossarliste\end{description}}
+\input{glossar}
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage[headsepline=true]{scrlayer-scrpage}
 \clearpairofpagestyles\ihead{\headmark}\ohead{\pagemark}\cfoot{}\pagestyle{scrheadings}
