@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="pf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="760" height="420" fill="#fff"/>
+  <text x="150" y="34" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">Ebenen des Prozesses</text>
+  <text x="590" y="34" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">Rollen</text>
+  <!-- Ebenen -->
+  <rect x="30" y="60" width="240" height="70" rx="10" fill="#1f4e8c"/>
+  <text x="150" y="92" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">Prozess</text>
+  <text x="150" y="114" font-size="12" fill="#dfe8f5" text-anchor="middle">der gesamte Ablauf</text>
+  <rect x="55" y="180" width="190" height="70" rx="10" fill="#4a7bbf"/>
+  <text x="150" y="212" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">Teilprozess</text>
+  <text x="150" y="234" font-size="12" fill="#eef3fa" text-anchor="middle">ein Abschnitt des Ablaufs</text>
+  <rect x="80" y="300" width="140" height="70" rx="10" fill="#8fb1de"/>
+  <text x="150" y="332" font-size="16" fill="#10294d" text-anchor="middle" font-weight="bold">Task</text>
+  <text x="150" y="354" font-size="12" fill="#10294d" text-anchor="middle">ein Arbeitsschritt</text>
+  <!-- Zerlegung -->
+  <g stroke="#777" stroke-width="1.5" fill="none"><line x1="150" y1="130" x2="150" y2="178" marker-end="url(#pf)"/><line x1="150" y1="250" x2="150" y2="298" marker-end="url(#pf)"/></g>
+  <text x="160" y="160" font-size="11" fill="#666">besteht aus</text>
+  <text x="160" y="280" font-size="11" fill="#666">besteht aus</text>
+  <!-- Rollen -->
+  <g font-size="14" fill="#222">
+    <rect x="470" y="70" width="240" height="50" rx="8" fill="#f3f4f6" stroke="#9aa3ad"/>
+    <text x="590" y="92" text-anchor="middle" font-weight="bold">Prozessverantwortliche/r</text>
+    <text x="590" y="110" text-anchor="middle" font-size="11" fill="#555">(Process Owner)</text>
+    <rect x="470" y="190" width="240" height="50" rx="8" fill="#f3f4f6" stroke="#9aa3ad"/>
+    <text x="590" y="212" text-anchor="middle" font-weight="bold">Verantwortliche/r</text>
+    <text x="590" y="230" text-anchor="middle" font-size="11" fill="#555">des Abschnitts</text>
+    <rect x="470" y="310" width="240" height="50" rx="8" fill="#f3f4f6" stroke="#9aa3ad"/>
+    <text x="590" y="340" text-anchor="middle" font-weight="bold">Ausführende</text>
+  </g>
+  <!-- Pfeile Rolle -> Ebene -->
+  <g stroke="#333" stroke-width="2" fill="none">
+    <line x1="468" y1="95" x2="274" y2="95" marker-end="url(#pf)"/>
+    <line x1="468" y1="215" x2="249" y2="215" marker-end="url(#pf)"/>
+    <line x1="468" y1="335" x2="224" y2="335" stroke-dasharray="7 5" marker-end="url(#pf)"/>
+  </g>
+  <g font-size="12" fill="#333" text-anchor="middle">
+    <text x="370" y="87">ist verantwortlich (A)</text>
+    <text x="358" y="207">ist verantwortlich (A)</text>
+    <text x="346" y="327">führt aus (R)</text>
+  </g>
+  <!-- Legende -->
+  <g font-size="11" fill="#444">
+    <line x1="30" y1="400" x2="70" y2="400" stroke="#333" stroke-width="2"/><text x="78" y="404">Accountable: trägt die Verantwortung</text>
+    <line x1="320" y1="400" x2="360" y2="400" stroke="#333" stroke-width="2" stroke-dasharray="7 5"/><text x="368" y="404">Responsible: führt die Arbeit aus</text>
+  </g>
+</svg>

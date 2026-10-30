@@ -12,11 +12,69 @@ Ein Geschäftsprozess besteht aus mehreren Arbeitsschritten und Entscheidungen, 
 An diesen Schritten wirken in der Regel mehrere Beteiligte mit.
 Gemeinsam führen die Schritte zu einem Ergebnis, das für einen Kunden einen Wert hat.
 \offen{Satz zum Kunden (innerhalb oder außerhalb der Organisation) nur, wenn \enquote{Kunde} später in der Arbeit verwendet wird}
-\offen{Beispiel aus den Anwendungsfällen -- offen, solange nicht feststeht, ob es einen oder mehrere Anwendungsfälle gibt}
-\offen{HIER WEITER in 2.1: Schritt 2 hierarchische Zerlegung (Prozess, Teilprozess, Task), Schritt 3 BPMN, Schritt 4 APQC, Schritt 5 Bedeutung für Compliance, Schritt 6 Bezug zu dieser Arbeit. Beispiele neutral halten, bis die Anwendungsfälle in Kapitel 4 feststehen.}
+
+% Sätze 4-15 abgesegnet am 30.10.2026 (Sprachchat)
+Geschäftsprozesse werden üblicherweise schrittweise in kleinere Einheiten zerlegt.
+Ein Teilprozess fasst mehrere zusammengehörige Arbeitsschritte zu einem Abschnitt des Prozesses zusammen.
+Ein Task ist ein einzelner Arbeitsschritt, der nicht weiter zerlegt wird~\cite{bpmn2014}.
+Die oberste Ebene bildet der Prozess als Ganzes.
+Vorschriften gelten unterschiedlich weit.
+Manche betreffen den gesamten Prozess, andere nur einen Teilprozess oder einen einzelnen Task.
+Je tiefer die Ebene, desto genauer lässt sich angeben, wo eine Vorschrift zu beachten ist.
+
+Wer an einem Arbeitsschritt beteiligt ist, lässt sich mit dem RACI-Modell beschreiben~\cite{pmbok2013}.
+Es unterscheidet vier Rollen, nämlich ausführend (\emph{Responsible}), verantwortlich (\emph{Accountable}), zu befragen (\emph{Consulted}) und zu informieren (\emph{Informed}).
+Viele Vorschriften knüpfen an diese Rollen an, etwa wenn eine Stelle vor einer Entscheidung beteiligt oder danach informiert werden muss.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/abb_2_1_prozessebenen_rollen.pdf}
+  \caption[Prozessebenen und Rollen]{Prozessebenen und Rollen. \offen{Bildunterschrift gemeinsam formulieren; Hinweis \enquote{vereinfachte, eigene Darstellung}}}
+  \label{fig:prozessebenen}
+\end{figure}
+
+Wie viele Ebenen ein Prozessmodell hat, ist eine Konvention.
+Das Referenzmodell APQC unterscheidet zum Beispiel fünf Ebenen~\cite{apqc_pcf}.
+Diese Arbeit verwendet drei Ebenen, weil auch die Vergleichsstudie von Sai et al.~\cite{sai2024} drei Ebenen nutzt.
+\offen{Verweis im Text auf Abbildung~\ref{fig:prozessebenen} gemeinsam formulieren}
 
 \subsection{Regulatorische Compliance}
-\offen{2.2}
+% Sätze 1-22 abgesegnet am 30.10.2026 (Sprachchat)
+Compliance bedeutet, dass eine Organisation die für sie geltenden Regeln einhält.
+Diese Regeln stammen aus mehreren Ebenen, die aufeinander aufbauen.
+In Deutschland sind das vor allem das Recht der Europäischen Union, das Bundesrecht, das Landesrecht sowie Regelungen unterhalb des Gesetzes, etwa Tarifverträge oder Satzungen.
+
+Beim EU-Recht ist zwischen Verordnungen und Richtlinien zu unterscheiden.
+Eine Verordnung gilt unmittelbar in allen Mitgliedstaaten.
+Eine Richtlinie muss dagegen erst durch ein nationales Gesetz umgesetzt werden~\cite{aeuv}.
+
+Zwischen den Ebenen gilt eine Rangfolge.
+Widerspricht eine Regel einer höheren Ebene, geht die höhere Ebene vor.
+So hat Bundesrecht Vorrang vor Landesrecht~\cite{gg}, und EU-Recht hat Vorrang vor nationalem Recht~\cite{costa1964}.
+
+Der Vorrang des EU-Rechts steht nicht ausdrücklich in den Verträgen, sondern geht auf die Rechtsprechung des Europäischen Gerichtshofs zurück.
+Grundlegend ist die Rechtssache Costa gegen ENEL aus dem Jahr 1964~\cite{costa1964}.
+Der Italiener Flaminio Costa weigerte sich, eine Stromrechnung zu bezahlen, weil er die Verstaatlichung der italienischen Stromwirtschaft für unvereinbar mit dem damaligen EWG-Vertrag hielt.
+Italien argumentierte, das jüngere nationale Gesetz gehe dem älteren Vertrag vor.
+Der Gerichtshof entschied dagegen, dass das Gemeinschaftsrecht auch einem später erlassenen nationalen Gesetz vorgeht.
+
+Welche Regeln für eine Organisation gelten, hängt von ihren Merkmalen ab.
+Dazu gehören etwa Rechtsform, Branche, Größe und Sitz in einem Bundesland.
+Für eine öffentliche Stelle in Bayern gilt zum Beispiel das Bayerische Datenschutzgesetz, für ein privates Unternehmen dagegen das Bundesdatenschutzgesetz.
+
+Einen Sonderfall bilden technische Normen wie DIN- oder VDE-Normen.
+Sie werden von privaten Normungsorganisationen erstellt und sind zunächst kein Gesetz~\cite{bgh1998din}.
+Verbindlich werden sie, wenn ein Gesetz auf sie verweist oder die Einhaltung der anerkannten Regeln der Technik verlangt.
+Anders als Gesetze sind Normen urheberrechtlich geschützt und nicht frei zugänglich~\cite{urhg}.
+Wer eine Norm einsehen will, muss sie in der Regel kaufen oder über eine Bibliothek mit entsprechendem Zugang nutzen.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/abb_2_2_rechtsquellen.pdf}
+  \caption[Ebenen der Rechtsquellen]{Ebenen der Rechtsquellen. \offen{Bildunterschrift gemeinsam formulieren; Hinweis \enquote{vereinfachte, eigene Darstellung, Beispiele nur zur Veranschaulichung}}}
+  \label{fig:rechtsquellen}
+\end{figure}
+\offen{Verweis im Text auf Abbildung~\ref{fig:rechtsquellen} gemeinsam formulieren}
 
 \subsection{Rechtsrahmen des Anwendungsfalls}
 \offen{2.3}
