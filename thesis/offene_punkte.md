@@ -35,3 +35,4 @@ Erledigte Punkte werden gestrichen, nicht gelöscht.
 16. **Costa/ENEL:** Satz „Italien argumentierte, das jüngere nationale Gesetz gehe dem älteren Vertrag vor“ prüfen. Das Argument „jüngeres Gesetz geht vor“ stammt vom italienischen Verfassungsgericht; die italienische Regierung hielt die Vorlage vor dem EuGH für unzulässig.
 17. **RACI-Quelle:** derzeit PMBOK Guide, 5. Auflage 2013, S. 262. Neuere Auflage erwägen.
 18. **Process Owner:** Fundstelle bei Dumas et al. 2018 für Abbildung 2.1 prüfen.
+19. **Tabelle 2.1, Spalte Brandmeldetechnik:** bleibt vorläufig so stehen (31.10.). Sebastian prüft und berichtigt sie, wenn er sich in Fall 2 einarbeitet.
