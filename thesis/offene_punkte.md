@@ -36,3 +36,5 @@ Erledigte Punkte werden gestrichen, nicht gelöscht.
 17. **RACI-Quelle:** derzeit PMBOK Guide, 5. Auflage 2013, S. 262. Neuere Auflage erwägen.
 18. **Process Owner:** Fundstelle bei Dumas et al. 2018 für Abbildung 2.1 prüfen.
 19. **Tabelle 2.1, Spalte Brandmeldetechnik:** bleibt vorläufig so stehen (31.10.). Sebastian prüft und berichtigt sie, wenn er sich in Fall 2 einarbeitet.
+20. **AI Act und die Fälle:** Nur Fall 1 enthält einen KI-Schritt. Offen (31.10.): Soll Fall 2 einen KI-Schritt bekommen (z. B. KI zur Bewertung von Meldungen und Täuschungsalarmen, Einstufung ggf. über Art. 6 Abs. 1)? Fall 3 liegt außerhalb des Geltungsbereichs (Art. 2). Der Titel spricht von „KI-gestützten“ Prozessen.
+21. **Eigener Agent einstufen:** Idee, den eigenen Agenten selbst nach AI Act einzuordnen (vermutlich minimales Risiko) und in Abbildung 2.3 zu zeigen.

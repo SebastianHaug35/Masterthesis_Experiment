@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="470" viewBox="0 0 860 470" font-family="Helvetica, Arial, sans-serif">
+  <defs><marker id="pf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9b2c5a"/></marker></defs>
+  <rect width="860" height="470" fill="#fff"/>
+  <!-- Pyramide -->
+  <polygon points="250,30 300,30 345,120 205,120" fill="#7a1f1f"/>
+  <polygon points="205,124 345,124 395,224 155,224" fill="#c0392b" stroke="#9b2c5a" stroke-width="4"/>
+  <polygon points="155,228 395,228 445,328 105,328" fill="#e6a23c"/>
+  <polygon points="105,332 445,332 495,432 55,432" fill="#8fbf7f"/>
+  <g text-anchor="middle" fill="#fff" font-weight="bold">
+    <text x="275" y="80" font-size="13">Unannehmbar</text>
+    <text x="275" y="96" font-size="11" font-weight="normal">verboten</text>
+    <text x="275" y="172" font-size="14">Hohes Risiko</text>
+    <text x="275" y="190" font-size="11" font-weight="normal">strenge Pflichten</text>
+    <text x="275" y="276" font-size="14" fill="#3b2a00">Begrenztes Risiko</text>
+    <text x="275" y="294" font-size="11" font-weight="normal" fill="#3b2a00">Transparenzpflichten</text>
+    <text x="275" y="380" font-size="14" fill="#173b12">Minimales Risiko</text>
+    <text x="275" y="398" font-size="11" font-weight="normal" fill="#173b12">keine besonderen Pflichten</text>
+  </g>
+  <!-- Beispiele / Artikel -->
+  <g font-size="12" fill="#333">
+    <text x="520" y="70">Art. 5: z. B. Social Scoring,</text>
+    <text x="520" y="86">Emotionserkennung am Arbeitsplatz</text>
+    <text x="520" y="268">Art. 50: z. B. Chatbots, KI-erzeugte Inhalte</text>
+    <text x="520" y="372">z. B. Spamfilter, KI in Videospielen</text>
+  </g>
+  <!-- Fall 1 -->
+  <rect x="520" y="140" width="320" height="86" rx="8" fill="#fbeef3" stroke="#9b2c5a" stroke-width="2"/>
+  <text x="532" y="162" font-size="13" font-weight="bold" fill="#5c1735">Fall 1: KI-Vorauswahl von Bewerbungen</text>
+  <text x="532" y="181" font-size="12" fill="#5c1735">Art. 6 Abs. 2 mit Anhang III Nr. 4:</text>
+  <text x="532" y="198" font-size="12" fill="#5c1735">Beschäftigung, Auswahl von Bewerbenden</text>
+  <text x="532" y="215" font-size="12" fill="#5c1735">Pflichten der Betreiberin: Art. 26, 27, 4</text>
+  <line x1="518" y1="183" x2="400" y2="176" stroke="#9b2c5a" stroke-width="2" marker-end="url(#pf)"/>
+  <text x="275" y="460" font-size="11" fill="#666" text-anchor="middle">Strenge der Pflichten nimmt nach oben zu</text>
+</svg>
