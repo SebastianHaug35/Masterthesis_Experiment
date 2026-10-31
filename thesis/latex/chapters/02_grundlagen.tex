@@ -62,6 +62,13 @@ Der Italiener Flaminio Costa weigerte sich, eine Stromrechnung zu bezahlen, weil
 Das italienische Verfassungsgericht hatte zuvor entschieden, dass ein jüngeres nationales Gesetz einem älteren Vertrag vorgeht.
 Der Gerichtshof entschied dagegen, dass das Gemeinschaftsrecht auch einem später erlassenen nationalen Gesetz vorgeht.
 
+% CLOUD Act, Sätze a-e abgesegnet am 31.10.2026
+Daneben gibt es Gesetze anderer Staaten, die über deren Grenzen hinaus wirken.
+Ein Beispiel ist der US-amerikanische CLOUD Act aus dem Jahr 2018.
+Er verpflichtet Anbieter mit Sitz in den USA, Daten auf behördliche Anordnung herauszugeben, auch wenn diese in Europa gespeichert sind~\cite{cloudact}.
+Für Organisationen in der EU ist das wichtig, sobald sie solche Anbieter nutzen, etwa für Cloud-Dienste oder KI-Modelle.
+Nach Art.~48 DSGVO darf eine solche Herausgabe grundsätzlich nur auf Grundlage eines internationalen Abkommens erfolgen~\cite{dsgvo}.
+
 Welche Regeln für eine Organisation gelten, hängt von ihren Merkmalen ab.
 Dazu gehören etwa Rechtsform, Branche, Größe und Sitz in einem Bundesland.
 Für eine öffentliche Stelle in Bayern gilt zum Beispiel das Bayerische Datenschutzgesetz, für ein privates Unternehmen dagegen das Bundesdatenschutzgesetz.
@@ -99,12 +106,42 @@ Im Gegenzug erarbeiten sie auf Auftrag der Kommission harmonisierte Normen, die 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/abb_2_2_rechtsquellen.pdf}
-  \caption[Ebenen der Rechtsquellen]{Die Abbildung zeigt die Ebenen der Rechtsquellen und ihre Rangfolge. Durchgezogene Linien stehen für den Vorrang der höheren Ebene, gestrichelte Linien für lose Abhängigkeiten wie die Umsetzung einer Richtlinie oder den Verweis auf eine Norm. Die Darstellung ist eine eigene Vereinfachung in Anlehnung an Artikel~288 AEUV~\cite{aeuv} und Artikel~31 Grundgesetz~\cite{gg}, die Beispiele dienen nur der Veranschaulichung.}
+  \caption[Ebenen der Rechtsquellen]{Die Abbildung zeigt die Ebenen der Rechtsquellen und ihre Rangfolge. Durchgezogene Linien stehen für den Vorrang der höheren Ebene, gestrichelte Linien für lose Abhängigkeiten wie die Umsetzung einer Richtlinie oder den Verweis auf eine Norm. Die Darstellung ist eine eigene Vereinfachung in Anlehnung an Artikel~288 AEUV~\cite{aeuv} und Artikel~31 Grundgesetz~\cite{gg}, die Beispiele dienen nur der Veranschaulichung. \offen{Satz zum CLOUD Act als Beispiel für ausländisches Recht mit Wirkung über Grenzen ergänzen}}
   \label{fig:rechtsquellen}
 \end{figure}
 
-\subsection{Rechtsrahmen des Anwendungsfalls}
-\offen{2.3}
+\subsection{Rechtsrahmen der Anwendungsfälle}
+% Einleitung 2.3, Sätze 1-7 abgesegnet am 31.10.2026
+Die drei Anwendungsfälle berühren Regelwerke aus allen Ebenen, die Abschnitt~2.2 beschreibt.
+Tabelle~\ref{tab:regelwerke} ordnet diese Regelwerke nach ihrer Art und nach den Anwendungsfällen.
+Die prägnantesten Regelwerke jedes Anwendungsfalls werden im Folgenden gesondert erklärt.
+Ausgewählt sind diejenigen, die den jeweiligen Prozess am stärksten prägen.
+Fall~3 beruht auf australischem Recht, das zwischen Bundesrecht, dem Recht der Bundesstaaten und Branchenkodizes unterscheidet.
+Fall~3 wird einbezogen, um den Ansatz auch in einer anderen Rechtsordnung zu prüfen.
+Zugleich lassen sich die Ergebnisse direkt mit denen von Sai et al.~\cite{sai2024} vergleichen, ohne deren Methode zu übernehmen.
+
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{2.4cm} Y Y Y}
+    \toprule
+    Art & \textbf{Fall 1: Bewerbungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: Sai et al.\ (Australien)} \\
+    \midrule
+    EU-Verordnung & \textbf{DSGVO}, \textbf{AI Act} & Bauproduktenverordnung & -- \\
+    Umgesetzte EU-Richtlinie & \textbf{AGG} & -- & -- \\
+    Bundesrecht & GG Art.~33, SGB~IX, NachwG, WissZeitVG, TzBfG & Arbeitsstättenverordnung & Privacy Act, Fair Work Act, Disability Discrimination Act, Gesetz gegen Geldwäsche \\
+    Landesrecht & BayDSG, \textbf{BayPVG}, BayGlG & \textbf{Bayerische Bauordnung}, \textbf{Prüfverordnung}, Sonderbauverordnungen & -- \\
+    Tarifvertrag & \textbf{TV-L} & -- & -- \\
+    Technische Norm & -- & \textbf{DIN 14675}, DIN VDE 0833, \textbf{DIN EN 54} (harmonisiert) & -- \\
+    Branchenregeln & -- & \textbf{VdS-Richtlinien} & \textbf{General Insurance Code of Practice} \\
+    \bottomrule
+  \end{tabularx}
+  \caption[Regelwerke der Anwendungsfälle nach Art]{Regelwerke der Anwendungsfälle nach Art. Fett gesetzte Regelwerke werden in diesem Abschnitt gesondert erklärt.}
+  \label{tab:regelwerke}
+\end{table}
+\offen{Spalte Fall 2 fachlich prüfen; Bildunterschrift der Tabelle abstimmen}
+\offen{2.3 weiter: Erklärung der fett gesetzten Regelwerke, Schritt für Schritt}
 
 \subsection{Sprachmodelle und Agenten}
 \offen{2.4}
