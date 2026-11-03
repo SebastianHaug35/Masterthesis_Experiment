@@ -38,3 +38,5 @@ Erledigte Punkte werden gestrichen, nicht gelöscht.
 19. **Tabelle 2.1, Spalte Brandmeldetechnik:** bleibt vorläufig so stehen (31.10.). Sebastian prüft und berichtigt sie, wenn er sich in Fall 2 einarbeitet.
 20. **AI Act und die Fälle:** Nur Fall 1 enthält einen KI-Schritt. Offen (31.10.): Soll Fall 2 einen KI-Schritt bekommen (z. B. KI zur Bewertung von Meldungen und Täuschungsalarmen, Einstufung ggf. über Art. 6 Abs. 1)? Fall 3 liegt außerhalb des Geltungsbereichs (Art. 2). Der Titel spricht von „KI-gestützten“ Prozessen.
 21. **Eigener Agent einstufen:** Idee, den eigenen Agenten selbst nach AI Act einzuordnen (vermutlich minimales Risiko) und in Abbildung 2.3 zu zeigen.
+22. **Anhang A** wird mit `thesis/latex/tools/anhang_a.py` aus `h1/input/soll_liste.csv` erzeugt. Für TV-L fehlen in der Soll-Liste die Fundstellen; im Anhang ergänzt (§ 12, § 2 Abs. 1, zusätzliche Zeile § 30) und mit * gekennzeichnet. Entscheiden, ob die Soll-Liste nachgezogen wird.
+23. **Gliederungsregel 2.3 (03.11.):** zentrale Regelwerke (DSGVO, AI Act, AGG, BayPVG) mit Artikeln im Text; übrige (TV-L, Bauordnung, Normen, Branchenregeln) nur Metadaten, Einzelheiten in Anhang A.
