@@ -9,7 +9,7 @@
 % abgesegnet am 27.10.2026
 \textbf{Zentrale Forschungsfrage:} Kann ein LLM-Agent für einen Geschäftsprozess die geltenden Vorschriften selbst recherchieren, den Arbeitsschritten zuordnen und fehlende Schritte erkennen -- und lassen sich diese Vorschriften in Prüfregeln übersetzen, die das Verhalten eines KI-Agenten zur Laufzeit kontrollieren?
 
-Die zentrale Forschungsfrage wird entlang einer Kette von fünf Schritten untersucht (Abbildung~\ref{fig:untersuchungskette}). Jeder Schritt verarbeitet das Ergebnis des vorherigen und wird durch eine eigene Hypothese geprüft. Ob die Kette als Ganzes trägt, prüft Hypothese H4.
+Die zentrale Forschungsfrage wird entlang einer Kette von fünf Schritten untersucht (Abbildung~\ref{fig:untersuchungskette}). Jeder Schritt verarbeitet das Ergebnis des vorherigen und wird durch eine eigene Hypothese geprüft. Ob die Kette als Ganzes trägt, prüft Hypothese H4. Hypothese H5 kehrt die Blickrichtung um und lässt den Agenten den Prozess selbst entwerfen.
 
 \begin{figure}[H]
   \centering
@@ -25,9 +25,11 @@ Die zentrale Forschungsfrage wird entlang einer Kette von fünf Schritten unters
     \item[H1] Der Agent ordnet die geltenden Vorschriften den Arbeitsschritten mindestens so vollständig zu wie GPT-4 bei Sai et al.~\cite{sai2024} auf Task-Ebene (\fb{trefferquote} $\geq 0{,}62$).
     \offen{H1 klären: Schwelle (0,62 stammt von der Teilprozess-Ebene; Task-Ebene 0,69/0,77) und Scope (gilt für alle Fälle, Auswertung je Fall und gesamt, Task-Ebene maßgeblich)}
   \end{description}
-  \item[FF2] Erkennt der Agent rechtlich gebotene Schritte, die im Prozess fehlen?
+  \item[FF2] Erkennt der Agent rechtlich gebotene Schritte, die im Prozess fehlen, und kann er sie beim Entwurf eines Prozesses richtig einordnen?
   \begin{description}[leftmargin=1.2cm]
     \item[H1b] Der Agent erkennt die Mehrheit der fehlenden Schritte, ohne vorhandene Schritte als fehlend zu melden.
+    \item[H5] Erzeugt der Agent den Prozess selbst, stehen mindestens 80\,\% der rechtlich gebotenen Schritte an einer zulässigen Stelle.
+    \offen{H5 klären: Schwelle 80\,\% vorläufig. Messung über Reihenfolge-Paare \enquote{A vor B} je Fall (Fall~1: 12 Paare vorgeschlagen), nur Fall~1 und Fall~2, Eingabe ohne Prozess. Paare durch Fachperson prüfen. Glossareintrag \enquote{zulässige Stelle} anlegen}
   \end{description}
   \item[FF3] Wie beeinflussen die Gestaltung des Prompts und das Recherchewerkzeug die Vollständigkeit, die Genauigkeit, den Anteil erfundener Normen und die Kosten?
   \item[FF4] Lassen sich die zugeordneten Vorschriften in maschinell prüfbare Regeln übersetzen, mit denen sich das Verhalten eines KI-Agenten zur Laufzeit kontrollieren lässt?
