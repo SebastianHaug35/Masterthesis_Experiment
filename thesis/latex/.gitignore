@@ -10,9 +10,10 @@ dist/
 *.lof
 *.lot
 *.out
-# Schriften und Logo nicht ins öffentliche Repo (Lizenz/Markenrecht); aus Drive masterthesis2/assets kopieren
+# Schriften nicht ins öffentliche Repo (Lizenz); das HM-Logo liegt seit 06.11.2026 im Repo
 assets/fonts/*
 assets/branding/*
 !assets/fonts/.gitkeep
 !assets/branding/.gitkeep
+!assets/branding/hm_logo.pdf
 fortschritt.tex
