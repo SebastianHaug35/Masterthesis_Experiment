@@ -8,7 +8,7 @@ latexmk thesis.tex      # Ergebnis: dist/thesis.pdf
 ```
 
 ## Vorher einmalig
-- `assets/branding/hm_logo.pdf` aus Drive `masterthesis2/assets/branding/` kopieren (liegt bewusst nicht im öffentlichen Repo)
+- HM-Logo liegt unter `assets/branding/hm_logo.pdf` im Repo, nichts zu tun
 - Schrift Times New Roman für die Titelseite installiert haben (sonst Standardschrift)
 
 ## Arbeitsweise
