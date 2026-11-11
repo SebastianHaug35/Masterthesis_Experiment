@@ -6,7 +6,7 @@ Hier liegt alles, was beim Schreiben aufgefallen ist und später noch gebraucht 
 Erledigte Punkte werden gestrichen, nicht gelöscht.
 
 ## Entscheidungen, die noch fallen müssen
-1. **H1-Schwelle:** Die 0,62 aus H1 stammt von der Teilprozess-Ebene (Bank). Auf Task-Ebene erreichte GPT-4 0,69 (Versicherung) und 0,77 (Bank). Vorschlag: 0,69.
+1. **H2-Schwelle:** Die 0,62 aus H2 stammt von der Teilprozess-Ebene (Bank). Auf Task-Ebene erreichte GPT-4 0,69 (Versicherung) und 0,77 (Bank). Vorschlag: 0,69.
 2. **Untertitel:** Er nennt nur die Hochschule. Bei mehreren Anwendungsfällen muss er angepasst werden.
 3. **Fall 2 (Brandmeldetechnik):** umsetzen oder nur im Ausblick? Ansprechperson: Lehrbeauftragter für Brandschutz (FK05).
 4. **Ansprechpersonen** für KI/AI Act und Arbeitsrecht an der HM sind noch offen.
@@ -40,5 +40,6 @@ Erledigte Punkte werden gestrichen, nicht gelöscht.
 21. **Eigener Agent einstufen:** Idee, den eigenen Agenten selbst nach AI Act einzuordnen (vermutlich minimales Risiko) und in Abbildung 2.3 zu zeigen.
 22. **Anhang A** wird mit `thesis/latex/tools/anhang_a.py` aus `h1/input/soll_liste.csv` erzeugt. Für TV-L fehlen in der Soll-Liste die Fundstellen; im Anhang ergänzt (§ 12, § 2 Abs. 1, zusätzliche Zeile § 30) und mit * gekennzeichnet. Entscheiden, ob die Soll-Liste nachgezogen wird.
 23. **Gliederungsregel 2.3 (03.11.):** zentrale Regelwerke (DSGVO, AI Act, AGG, BayPVG) mit Artikeln im Text; übrige (TV-L, Bauordnung, Normen, Branchenregeln) nur Metadaten, Einzelheiten in Anhang A.
-24. **Scope H1a/H1/H1b (04.11., abgesegnet):** gilt für alle Fälle, Auswertung je Fall und gesamt, Task-Ebene maßgeblich. Fachleute an zwei Stellen: (1) Referenzzuordnung vor den finalen H1-Läufen (Fall 1, 2), (2) Soll-Entscheidungen der Referenzfälle für H2–H4. Platzhalter in 1.3 und 4.6 gesetzt.
-25. **H1b nur Fall 1 und 2 (04.11., abgesegnet):** Fall 3 hat keine Lücken, dient nur für H1a und H1. **Offen:** Begründung der H1a-Schwelle 0,9; H1b „ohne Fehlmeldungen“ wörtlich null oder Grenze (z. B. ≤ 10 %).
+24. **Scope H1/H2/H3 (04.11., abgesegnet):** gilt für alle Fälle, Auswertung je Fall und gesamt, Task-Ebene maßgeblich. Fachleute an zwei Stellen: (1) Referenzzuordnung vor den finalen Läufen für H1–H3 (Fall 1, 2), (2) Soll-Entscheidungen der Referenzfälle für H5–H7. Platzhalter in 1.3 und 4.6 gesetzt.
+25. **H3 nur Fall 1 und 2 (04.11., abgesegnet):** Fall 3 hat keine Lücken, dient nur für H1 und H2. **Offen:** Begründung der H1-Schwelle 0,9; H3 „ohne Fehlmeldungen“ wörtlich null oder Grenze (z. B. ≤ 10 %).
+26. **Hypothesen neu nummeriert (11.11., abgesegnet):** fortlaufend entlang der Kette. Alt → neu: H1a → H1, H1 → H2, H1b → H3, H5 → H4, H2 → H5, H3 → H6, H4 → H7. Umgesetzt in 1.3, 3, 4.6, Abbildung 1.1, entwurf.md, gliederung.md. Im Experiment-Ordner `h1/` (Code, ERGEBNIS, Aufträge) gelten die alten Namen weiter, Zuordnung in `h1/DECISIONS.md`. Abbildung 1.1 zeigt H4 (Prozessentwurf) noch nicht.

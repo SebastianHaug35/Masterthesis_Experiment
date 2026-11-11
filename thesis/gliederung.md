@@ -10,10 +10,10 @@ Die Arbeit folgt einer Linie: Problem → Hypothesen → Versuchsaufbau → Erge
 
 | Nr. | Forschungsfrage | Hypothese | Stand |
 | --- | --- | --- | --- |
-| FF1 | Findet ein Agent mit eigener Recherche die geltenden Regelwerke und ordnet er die konkreten Vorschriften den richtigen Tasks zu? | H1a, H1 | Daten liegen vor (v1–v3), v4 läuft |
-| FF2 | Erkennt der Agent rechtlich gebotene Schritte, die im Prozess fehlen? | H1b | Daten liegen vor |
+| FF1 | Findet ein Agent mit eigener Recherche die geltenden Regelwerke und ordnet er die konkreten Vorschriften den richtigen Tasks zu? | H1, H2 | Daten liegen vor (v1–v3), v4 läuft |
+| FF2 | Erkennt der Agent rechtlich gebotene Schritte, die im Prozess fehlen, und kann er sie beim Entwurf eines Prozesses richtig einordnen? | H3, H4 | H3: Daten liegen vor; H4: nicht begonnen |
 | FF3 | Wie wirken sich Prompt und Recherchewerkzeug auf Qualität, erfundene Normen und Kosten aus? | – (explorativ) | Daten liegen vor (v1 → v2 → v3 → v4) |
-| FF4 | Lassen sich Vorschriften in prüfbare Regeln übersetzen und zur Laufzeit durchsetzen? | H2, H3, H4 | Teil der Arbeit (Prototyp); Versuch für H2–H4 noch zu planen, H4 als kleiner Ende-zu-Ende-Test |
+| FF4 | Lassen sich Vorschriften in prüfbare Regeln übersetzen und zur Laufzeit durchsetzen? | H5, H6, H7 | Teil der Arbeit (Prototyp); Versuch für H5–H7 noch zu planen, H7 als kleiner Ende-zu-Ende-Test |
 
 Alle Hypothesen im Wortlaut und die Untersuchungskette (Abbildung 1.1) stehen im Entwurf, Kapitel 1.3 (abgesegnet am 27.10.2026).
 
@@ -54,7 +54,7 @@ Die Unterkapitel mit ihren Kernaussagen stehen jetzt im [Masterarbeit – Entwur
 
 - [x] **Rahmen der Arbeit:** Das Experiment ist die Arbeit. Implementa und die Entscheidungsmatrix sind vorerst draußen (entschieden am 22.10.2026).
 - [x] **Umfang:** 60 Seiten ohne Anhang.
-- [x] **H2/H3 (entschieden am 27.10.2026):** Runtime Verification ist Teil der Arbeit, umgesetzt als Prototyp mit kleinerem Test. Seitenplan und Versuch für H2/H3 folgen.
+- [x] **H5/H6 (entschieden am 27.10.2026):** Runtime Verification ist Teil der Arbeit, umgesetzt als Prototyp mit kleinerem Test. Seitenplan und Versuch für H5/H6 folgen.
 - [ ] **Validierung der Soll-Liste:** Wer prüft sie fachlich, etwa Prof. Gerling oder Prof. Trapp für den Datenschutz? Vor allem Art. 75 und 78 BayPVG sind offen.
 - [ ] **Formalia:** Sprache, Zitierstil, Vorlage (LaTeX oder Word) laut Prüfungsordnung FK07.
 - [ ] **Zweiter Anwendungsfall** (Brandmeldetechnik): streichen oder in den Ausblick?
@@ -63,7 +63,7 @@ Die Unterkapitel mit ihren Kernaussagen stehen jetzt im [Masterarbeit – Entwur
 
 Geschrieben wird in der Reihenfolge, in der die Inhalte feststehen. Die Einleitung kommt zuletzt, weil sie verspricht, was die Arbeit am Ende hält.
 
-- [ ] Restliche offene Entscheidungen mit dem Betreuer klären (H2/H3, Validierung, Formalia)
+- [ ] Restliche offene Entscheidungen mit dem Betreuer klären (H5/H6, Validierung, Formalia)
 - [ ] Kapitel 4 Methodik: liegt vollständig im Repo und lässt sich sofort schreiben
 - [ ] Kapitel 5 Implementierung
 - [ ] Kapitel 2 Grundlagen und Kapitel 3 Verwandte Arbeiten (Literatur sammeln, Sai et al. liegt vor)

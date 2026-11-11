@@ -54,7 +54,7 @@ Dieser Entwurf wächst von oben nach unten. Ebene 1 sind die Kernaussagen als St
 
 **1.3 Forschungsfragen und Hypothesen (abgesegnet am 27.10.2026)**
 
-Die zentrale Forschungsfrage wird entlang einer Kette von fünf Schritten untersucht (Abbildung 1.1). Jeder Schritt verarbeitet das Ergebnis des vorherigen und wird durch eine eigene Hypothese geprüft. Ob die Kette als Ganzes trägt, prüft Hypothese H4.
+Die zentrale Forschungsfrage wird entlang einer Kette von fünf Schritten untersucht (Abbildung 1.1). Jeder Schritt verarbeitet das Ergebnis des vorherigen und wird durch eine eigene Hypothese geprüft. Ob die Kette als Ganzes trägt, prüft Hypothese H7.
 
 ![Abbildung 1.1: Untersuchungskette der Arbeit](abbildungen/abb_1_1_untersuchungskette.png)
 
@@ -62,23 +62,23 @@ Die zentrale Forschungsfrage wird entlang einer Kette von fünf Schritten unters
 
 - **FF1:** Wie vollständig und wie genau bestimmt ein LLM-Agent mit eigener Recherche die für einen Geschäftsprozess geltenden Regelwerke und ordnet deren Vorschriften den einzelnen Arbeitsschritten zu?
 
-  - **H1a:** Der Agent bestimmt die geltenden Regelwerke nahezu vollständig (Recall ≥ 0,9).
+  - **H1:** Der Agent bestimmt die geltenden Regelwerke nahezu vollständig (Recall ≥ 0,9).
 
-  - **H1:** Der Agent ordnet die geltenden Vorschriften den Arbeitsschritten mindestens so vollständig zu wie GPT-4 bei Sai et al. auf Task-Ebene (Recall ≥ 0,62).
+  - **H2:** Der Agent ordnet die geltenden Vorschriften den Arbeitsschritten mindestens so vollständig zu wie GPT-4 bei Sai et al. auf Task-Ebene (Recall ≥ 0,62).
 
 - **FF2:** Erkennt der Agent rechtlich gebotene Schritte, die im Prozess fehlen?
 
-  - **H1b:** Der Agent erkennt die Mehrheit der fehlenden Schritte, ohne vorhandene Schritte als fehlend zu melden.
+  - **H3:** Der Agent erkennt die Mehrheit der fehlenden Schritte, ohne vorhandene Schritte als fehlend zu melden.
 
 - **FF3:** Wie beeinflussen die Gestaltung des Prompts und das Recherchewerkzeug die Vollständigkeit, die Genauigkeit, den Anteil erfundener Normen und die Kosten?
 
 - **FF4:** Lassen sich die zugeordneten Vorschriften in maschinell prüfbare Regeln übersetzen, mit denen sich das Verhalten eines KI-Agenten zur Laufzeit kontrollieren lässt?
 
-  - **H2:** Aus den zugeordneten Vorschriften lassen sich Prüfregeln erzeugen, die bei Referenzfällen dieselbe Entscheidung treffen wie eine fachliche Prüfung.
+  - **H5:** Aus den zugeordneten Vorschriften lassen sich Prüfregeln erzeugen, die bei Referenzfällen dieselbe Entscheidung treffen wie eine fachliche Prüfung.
 
-  - **H3:** Ein Laufzeitmonitor mit diesen Prüfregeln verhindert unzulässige Aktionen eines KI-Agenten, ohne zulässige Aktionen zu blockieren.
+  - **H6:** Ein Laufzeitmonitor mit diesen Prüfregeln verhindert unzulässige Aktionen eines KI-Agenten, ohne zulässige Aktionen zu blockieren.
 
-  - **H4:** Auch wenn die Ergebnisse des Agenten aus H1 und H1b unkorrigiert weitergegeben werden, verhindert die Laufzeit-Kontrolle die Mehrheit der unzulässigen Aktionen.
+  - **H7:** Auch wenn die Ergebnisse des Agenten aus H2 und H3 unkorrigiert weitergegeben werden, verhindert die Laufzeit-Kontrolle die Mehrheit der unzulässigen Aktionen.
 
 **1.4 Beitrag**
 
@@ -154,7 +154,7 @@ Die zentrale Forschungsfrage wird entlang einer Kette von fünf Schritten unters
 
 **3.3 Runtime Verification von Agenten (C-Trace)**
 
-- **\[OFFEN\]** Inhalt nachtragen. Umfang hängt von der Entscheidung zu H2/H3 ab.
+- **\[OFFEN\]** Inhalt nachtragen. Umfang hängt von der Entscheidung zu H5/H6 ab.
 
 **3.4 Forschungslücke**
 
@@ -301,9 +301,9 @@ Stand der Zahlen: 22.10.2026, Konfiguration A, Mittelwert über die Läufe (h1/r
 
 **7.1 Antworten auf die Hypothesen**
 
-- H1 (Zuordnung): vorläufig bestätigt, wenn das Recherchewerkzeug gut genug ist. **\[v4\]**
+- H2 (Zuordnung): vorläufig bestätigt, wenn das Recherchewerkzeug gut genug ist. **\[v4\]**
 
-- H1b (Lücken): teilweise bestätigt. Klar benannte Pflichten werden erkannt, organisatorische Voraussetzungen seltener.
+- H3 (Lücken): teilweise bestätigt. Klar benannte Pflichten werden erkannt, organisatorische Voraussetzungen seltener.
 
 **7.2 Der Agent korrigiert den Goldstandard**
 
@@ -341,7 +341,7 @@ Stand der Zahlen: 22.10.2026, Konfiguration A, Mittelwert über die Läufe (h1/r
 
 **8.2 Ausblick**
 
-- H2/H3: gefundene Vorschriften in prüfbare Regeln übersetzen und zur Laufzeit durchsetzen (Brücke zu C-Trace)
+- H5/H6: gefundene Vorschriften in prüfbare Regeln übersetzen und zur Laufzeit durchsetzen (Brücke zu C-Trace)
 
 - weitere Anwendungsfälle, etwa Brandmeldetechnik mit DIN-/VDE-Normen, die urheberrechtlich geschützt und nicht frei verfügbar sind
 
