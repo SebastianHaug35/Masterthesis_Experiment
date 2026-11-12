@@ -238,3 +238,7 @@ gleichzeitig getroffen würden.
     Betroffen waren 21 v3-Funde; alle Läufe sind neu ausgewertet.
 57. **Keine Wiederholung nach Werkzeugverbesserung:** Die Schwächen der Regelwerkssuche (ERGEBNIS 5.2) habe ich nicht
     während der Läufe behoben, damit alle 10 v3-Läufe mit demselben Werkzeugstand laufen. Vorschläge stehen in ERGEBNIS, Abschnitt 8.
+
+## Hinweis Nummerierung der Hypothesen (11.11.2026)
+
+Die Arbeit nummeriert die Hypothesen seit 11.11.2026 fortlaufend. Der Ordner `h1/`, der Code, `ERGEBNIS.md` und die Aufträge behalten die alten Namen, damit Pfade und frühere Commits gültig bleiben. Zuordnung alt → neu: H1a → H1 (Regelwerke), H1 → H2 (Zuordnung), H1b → H3 (Lücken), H5 → H4 (Prozessentwurf), H2 → H5, H3 → H6, H4 → H7.

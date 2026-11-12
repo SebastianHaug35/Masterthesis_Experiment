@@ -1,0 +1,54 @@
+name: thesis.pdf bauen
+
+# Baut die Masterarbeit (thesis/latex) bei jeder Änderung und legt thesis.pdf
+# als Artefakt im Actions-Tab ab (Lauf öffnen -> Artifacts -> thesis-pdf).
+on:
+  push:
+    branches: [main]
+    paths:
+      - "thesis/latex/**"
+      - "h1/input/**"
+      - ".github/workflows/thesis-pdf.yml"
+  pull_request:
+    paths:
+      - "thesis/latex/**"
+      - "h1/input/**"
+      - ".github/workflows/thesis-pdf.yml"
+  workflow_dispatch:
+
+jobs:
+  pdf:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: TeX und Schriften installieren
+        run: |
+          # Times New Roman für die Titelseiten: Microsoft Core Fonts, Lizenz vorab bestätigen
+          echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | sudo debconf-set-selections
+          # Spiegel des Runners fallen gelegentlich kurz aus: Retries und bis zu drei Versuche
+          APT="sudo apt-get -o Acquire::Retries=5 -o Acquire::http::Timeout=30"
+          for versuch in 1 2 3; do
+            $APT update -qq && $APT install -y --no-install-recommends \
+              latexmk texlive-xetex texlive-latex-recommended texlive-latex-extra \
+              texlive-lang-german texlive-science texlive-pictures \
+              texlive-fonts-recommended lmodern fontconfig ttf-mscorefonts-installer && break
+            [ "$versuch" = 3 ] && exit 1
+            echo "Versuch $versuch fehlgeschlagen, neuer Versuch in 30 s"; sleep 30
+          done
+          sudo fc-cache -f
+          fc-list | grep -i "Times New Roman" || { echo "Times New Roman fehlt"; exit 1; }
+
+      - name: thesis.pdf bauen
+        working-directory: thesis/latex
+        run: latexmk -interaction=nonstopmode -halt-on-error thesis.tex
+
+      - name: thesis.pdf hochladen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thesis-pdf
+          path: |
+            thesis/latex/dist/thesis.pdf
+            thesis/latex/dist/thesis.log
+          if-no-files-found: warn

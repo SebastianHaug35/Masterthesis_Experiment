@@ -1,0 +1,82 @@
+% automatisch erzeugt von tools/anhang_b.py -- nicht von Hand ändern
+
+\subsubsection{Eingabe}
+\offen{Satz: Verweis auf Tabelle~\ref{tab:h1_profil} (Organisationsprofil)}
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{5.0cm}>{\raggedright\arraybackslash}p{9.5cm}@{}}
+\caption[Organisationsprofil für Fall~1]{Organisationsprofil für Fall~1. Quelle: eigene Darstellung, Daten aus \repodatei{h1/input/firmenprofil.json}.}\label{tab:h1_profil}\\
+\toprule \textbf{Merkmal} & \textbf{Angabe} \\ \midrule \endfirsthead
+\toprule \textbf{Merkmal} & \textbf{Angabe} \\ \midrule \endhead
+\bottomrule \endfoot
+Name & Hochschule München \\
+Land & Deutschland \\
+Bundesland & Bayern \\
+Rechtsform & Körperschaft des öffentlichen Rechts / staatliche Einrichtung (bayerische Hochschule) \\
+Sektor & öffentlich \\
+Branche & Bildung und Forschung \\
+Beschäftigte & über 1.000 \\
+Personalvertretung & Personalrat \\
+Gleichstellungsbeauftragte & ja \\
+KI-Einsatz & KI-Tool zur Vorauswahl von Bewerbungen (Ranking) \\
+Dienstleister außerhalb der EU & nein \\
+Stelle & Wissenschaftliche Mitarbeiterin/wissenschaftlicher Mitarbeiter nach TV-L \\
+Befristung & befristet auf 3 Jahre, Qualifizierungsstelle (Promotion) \\
+\end{longtable}
+\end{small}
+
+\offen{Satz: Verweis auf Tabelle~\ref{tab:h1_prozess} (Prozess mit 6 Teilprozessen und 19 Tasks)}
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{4.2cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{9.0cm}@{}}
+\caption[Prozess für Fall~1: Bewerbungsprozess wissenschaftliche Mitarbeiterstelle]{Prozess für Fall~1: Bewerbungsprozess wissenschaftliche Mitarbeiterstelle. Quelle: eigene Darstellung, Daten aus \repodatei{h1/input/prozess.json}.}\label{tab:h1_prozess}\\
+\toprule \textbf{Teilprozess} & \textbf{Task} & \textbf{Bezeichnung} \\ \midrule \endfirsthead
+\toprule \textbf{Teilprozess} & \textbf{Task} & \textbf{Bezeichnung} \\ \midrule \endhead
+\bottomrule \endfoot
+TP1 Stelle ausschreiben & T1.1 & Bedarf melden \\
+ & T1.2 & Stellenprofil und Eingruppierung nach TV-L festlegen \\
+ & T1.3 & Ausschreibung intern und extern veröffentlichen \\
+TP2 Bewerbungen annehmen & T2.1 & Unterlagen über Bewerbungsportal empfangen \\
+ & T2.2 & Eingang bestätigen \\
+ & T2.3 & Bewerberdaten im System anlegen \\
+TP3 KI-Vorauswahl & T3.1 & Unterlagen mit KI-Tool auswerten \\
+ & T3.2 & Ranking erzeugen \\
+ & T3.3 & Ergebnis durch Fachabteilung prüfen \\
+ & T3.4 & Shortlist festlegen \\
+TP4 Vorstellungsgespräche & T4.1 & Kandidaten einladen (inkl. Hinweis auf das Antragsrecht zur Beteiligung der Gleichstellungsbeauftragten) \\
+ & T4.2 & Gespräche mit der Auswahlkommission führen (Gleichstellungsbeauftragte auf Antrag der Bewerbenden beteiligt) \\
+ & T4.3 & Gespräche dokumentieren \\
+TP5 Auswahl und Einstellung & T5.1 & Auswahlentscheidung treffen \\
+ & T5.2 & Vertragsangebot erstellen \\
+ & T5.3 & Arbeitsvertrag abschließen \\
+TP6 Absagen und Löschen & T6.1 & Absagen versenden \\
+ & T6.2 & Aufbewahrungsfrist abwarten \\
+ & T6.3 & Bewerberdaten löschen \\
+\end{longtable}
+\end{small}
+
+\offen{Satz: Auftrag an den Agenten (Prompt Stufe~1), Verweis auf \repodatei{h1/prompts/stufe1.md}. Entscheiden: Prompt vollständig abdrucken oder nur verlinken}
+
+\subsubsection{Referenz}
+\offen{Satz: Herleitung der Referenz aus der Referenzzuordnung (Anhang~\ref{anh:vorschriften}): es zählen Regelwerke mit mindestens einer Zeile der Art Zuordnung oder fehlender Schritt}
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedleft\arraybackslash}p{3.2cm}>{\raggedleft\arraybackslash}p{3.8cm}@{}}
+\caption[Referenz für H1 in Fall~1: 12 Regelwerke]{Referenz für H1 in Fall~1: 12 Regelwerke. Quelle: eigene Darstellung, Daten aus \repodatei{h1/input/soll_liste.csv}.}\label{tab:h1_referenz}\\
+\toprule \textbf{Ebene} & \textbf{Regelwerk} & \textbf{Zeilen Zuordnung} & \textbf{Zeilen fehlender Schritt} \\ \midrule \endfirsthead
+\toprule \textbf{Ebene} & \textbf{Regelwerk} & \textbf{Zeilen Zuordnung} & \textbf{Zeilen fehlender Schritt} \\ \midrule \endhead
+\bottomrule \endfoot
+EU & AI Act & 2 & 3 \\
+EU & DSGVO & 6 & 1 \\
+Bund & AGG & 5 & 0 \\
+Bund & GG & 1 & 0 \\
+Bund & NachwG & 1 & 0 \\
+Bund & SGB IX & 1 & 3 \\
+Bund & TzBfG & 1 & 0 \\
+Bund & WissZeitVG & 1 & 0 \\
+Land Bayern & BayDSG & 1 & 0 \\
+Land Bayern & BayGlG & 2 & 0 \\
+Land Bayern & BayPVG & 0 & 2 \\
+Tarifvertrag & TV-L & 2 & 0 \\
+\end{longtable}
+\end{small}
+
+\offen{Satz: neutrale Regelwerke (BayHIG) zählen weder als Treffer noch als Fehler; weitere vom Agenten genannte Regelwerke zählen als zusätzlich und senken die Genauigkeit}
+\offen{Satz: Erfolgskriterium Trefferquote $\geq 0{,}9$, also mindestens 11 von 12 Regelwerken}
