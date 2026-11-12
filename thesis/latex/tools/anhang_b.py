@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Erzeugt appendix/anhang_b_h1.tex: Eingaben und Referenz für H1 (Fall 1).
 
-Quellen sind die Eingabedateien des Experiments. Jede Tabelle nennt ihre Datei im Repo,
-verlinkt auf den Commit in \\repostand (preamble.tex). Nach einer Änderung an den
-Eingaben: Skript neu laufen lassen und \\repostand auf den neuen Commit setzen.
+Quellen sind die Eingabedateien des Experiments. Jede Tabelle nennt ihre Datei im
+öffentlichen Repo (\\repodatei, Branch main). Nach einer Änderung an den Eingaben
+das Skript neu laufen lassen.
 """
 import csv, json, pathlib
 
