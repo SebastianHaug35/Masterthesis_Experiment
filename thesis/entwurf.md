@@ -8,7 +8,7 @@ Dieser Entwurf wächst von oben nach unten. Ebene 1 sind die Kernaussagen als St
 
 **Titel:** Regulatorische Anforderungen in KI-gestützten Geschäftsprozessen erkennen und zur Laufzeit durchsetzen
 
-**Untertitel:** Ein LLM-Agent zur Zuordnung von Vorschriften, zur Erkennung von Compliance-Lücken und zur Runtime Verification am Beispiel eines Bewerbungsverfahrens an einer bayerischen Hochschule
+**Untertitel:** Ein LLM-Agent zur Zuordnung von Vorschriften, zur Erkennung von Compliance-Lücken und zur Runtime Verification, untersucht an drei Anwendungsfällen
 
 **Zentrale Forschungsfrage:** Kann ein LLM-Agent für einen Geschäftsprozess die geltenden Vorschriften selbst recherchieren, den Arbeitsschritten zuordnen und fehlende Schritte erkennen – und lassen sich diese Vorschriften in Prüfregeln übersetzen, die das Verhalten eines KI-Agenten zur Laufzeit kontrollieren?
 

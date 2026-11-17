@@ -7,7 +7,7 @@ Erledigte Punkte werden gestrichen, nicht gelöscht.
 
 ## Entscheidungen, die noch fallen müssen
 1. **H2-Schwelle:** Die 0,62 aus H2 stammt von der Teilprozess-Ebene (Bank). Auf Task-Ebene erreichte GPT-4 0,69 (Versicherung) und 0,77 (Bank). Vorschlag: 0,69.
-2. **Untertitel:** Er nennt nur die Hochschule. Bei mehreren Anwendungsfällen muss er angepasst werden.
+2. **Untertitel (erledigt 17.11.):** „Ein LLM-Agent zur Zuordnung von Vorschriften, zur Erkennung von Compliance-Lücken und zur Runtime Verification, untersucht an drei Anwendungsfällen“. Zahl der Fälle anpassen, falls Fall 2 oder 3 entfällt.
 3. **Fall 2 (Brandmeldetechnik):** umsetzen oder nur im Ausblick? Ansprechperson: Lehrbeauftragter für Brandschutz (FK05).
 4. **Ansprechpersonen** für KI/AI Act und Arbeitsrecht an der HM sind noch offen.
 
