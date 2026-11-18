@@ -506,5 +506,14 @@ immer gefüllt (95 %). BayPVG Art. 75 (Eingruppierung/Einstellung) war die häuf
    BayArchivG Art. 6 / Art. 26 BayDSG (Anbietungspflicht vor Löschung) als neutral prüfen.
 6. **Vorschlag für den nächsten Auftrag:** v4 = v3 + Vorschläge 1–4, je 5 × A und 5 × B (geschätzt ≤ 1,50 USD
    gesamt). Ziel: Recall und Lückenerkennung von v2 bei Kosten von v3.
+7. **Firmenprofil (Planungs-Assistent, vor den finalen v4-Läufen, mit Sebastian am 18.11.2026 abgestimmt):**
+   - Ergänzen: `"schwerbehindertenvertretung": true`. Die Referenz erwartet § 178 SGB IX (S22); Personalrat und
+     Gleichstellungsbeauftragte stehen bereits im Profil, die dritte Interessenvertretung fehlt.
+   - KI-Tool präzisieren: zugekauft von einem Anbieter mit Sitz in der EU, die Hochschule ist Betreiberin
+     (Art. 26 AI Act), nicht Anbieterin. Die Referenz setzt die Betreiberrolle voraus.
+   - Bewusst **nicht** ergänzen: Datenschutzbeauftragter. Pflicht für jede öffentliche Stelle (Art. 37 DSGVO),
+     die Angabe wäre ein Hinweis auf eine Pflicht, die der Agent selbst erkennen soll.
+8. **Offen zur Diskussion:** Profil nur auf den Prozess ausrichten oder um prozessunwichtige Angaben erweitern
+   (Ablenker), um die Genauigkeit unter realistischeren Bedingungen zu testen.
 
 <!-- MANUELL ENDE -->
