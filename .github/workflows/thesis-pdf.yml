@@ -56,10 +56,11 @@ jobs:
             thesis/latex/dist/thesis.log
           if-no-files-found: warn
 
-      # Neueste PDF zusätzlich auf den Branch thesis-pdf legen (ein Commit, wird jedes Mal ersetzt),
-      # damit sie ohne Anmeldung im Actions-Tab abrufbar ist: Branch thesis-pdf -> thesis.pdf
+      # Neueste PDF von main zusätzlich auf den Branch thesis-pdf legen (ein Commit, wird jedes Mal
+      # ersetzt). Fester Link: https://github.com/SebastianHaug35/Masterthesis_Experiment/blob/thesis-pdf/thesis.pdf
+      # Nur Stand main, damit PR-Entwürfe die veröffentlichte Fassung nicht überschreiben.
       - name: thesis.pdf auf Branch thesis-pdf ablegen
-        if: success() && (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository)
+        if: success() && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
           mkdir -p /tmp/pdf && cp thesis/latex/dist/thesis.pdf /tmp/pdf/
           cd /tmp/pdf
