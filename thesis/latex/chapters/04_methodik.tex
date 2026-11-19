@@ -2,7 +2,7 @@
 % Struktur abgestimmt am 28.10.2026 (12 Seiten)
 
 \subsection{Forschungsdesign}
-\offen{4.1 -- experimentell und iterativ (v1--v4), mehrere Fälle mit derselben Methode}
+\offen{4.1 -- experimentell und iterativ (v1--v4), mehrere Fälle mit derselben Methode; Überblick, welche Hypothese mit welchem Versuch geprüft wird}
 
 \subsection{Auswahl der Anwendungsfälle}
 % Satz 1 und Tabelle 4.1 abgesegnet am 28.10.2026
@@ -17,7 +17,7 @@ Der Ansatz wird an mehreren Anwendungsfällen untersucht, die sich in Branche, R
      & \textbf{Fall 1: Bewerbungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: Vergleichsdaten Sai et al.} \\
     \midrule
     Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & Versicherung und Bank (Australien) \\
-    Prozess & Besetzung einer befristeten Stelle mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Schadensbearbeitung; Kundenprüfung \\
+    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Schadensbearbeitung; Kundenprüfung \\
     Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Versicherungs- und Finanzaufsichtsrecht \\
     Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & durch die Studie vorgegeben \\
     Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & Vergleichswert \\
@@ -41,40 +41,165 @@ Fall 3 übernimmt dagegen die Daten aus der Studie von Sai et al.~\cite{sai2024}
 \offen{Zeile \enquote{Stand} in Tabelle~\ref{tab:anwendungsfaelle} vor Abgabe aktualisieren oder entfernen}
 
 \subsection{Fall 1: Bewerbungsverfahren an einer Hochschule}\label{sec:fall1}
-% Sätze 1-3 abgesegnet am 28.10.2026
-Der erste Anwendungsfall ist die Besetzung einer Stelle für eine wissenschaftliche Mitarbeiterin oder einen wissenschaftlichen Mitarbeiter an der Hochschule München.
-Die Stelle ist auf drei Jahre befristet und dient der Promotion.
+\offen{Entscheidung 19.11.2026: Fall~1 ist ein Berufungsverfahren (Professur an der HM). Texte 4.3.1 bis 4.3.3 am 19.11. angepasst; Zahlen beruhen auf dem Entwurf h1/results/entwurf\_fall1\_berufung und ändern sich nach der fachlichen Prüfung. Eingabedateien und Anhang~B zeigen noch die WiMi-Stelle, bis ein Auftrag sie ersetzt. Läufe v1 bis v3 gelten als Vorversuche}
+% Sätze 1-3 abgesegnet am 28.10.2026, am 19.11. auf das Berufungsverfahren umgestellt
+Der erste Anwendungsfall ist die Berufung einer Professorin oder eines Professors an die Hochschule München.
 Für den Fall wird angenommen, dass die Hochschule ein KI-Werkzeug einsetzt, das eingehende Bewerbungen auswertet und in eine Rangfolge bringt.
 \offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
-\offen{Anforderungsumfang: welche Gesetze und Normen der Fall berührt und wie viele Anforderungen daraus folgen (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
-\offen{Aufbau des Prozesses (Tabelle: 6 Teilprozesse, 19 Tasks); bewusst entfernte Schritte}
+\offen{Hinweis: Eingaben und Referenz von Fall~1 sind in dieser Form zur fachlichen Prüfung vorgesehen (Abschnitt~\ref{sec:fachliche_pruefung})}
+\subsubsection{Eingabe}\label{sec:fall1_eingabe}
+% Sätze 4-8 und 10 abgesegnet am 18.11.2026 (Satz 9 gestrichen), Satz 4 am 19.11. auf zwei Eingaben geändert
+Der Agent erhält zwei Eingaben, ein Profil der Organisation und den Prozess.
+Das Profil beschreibt die Organisation, in der der Prozess abläuft.
+Dazu gehören Sitz und Bundesland, Rechtsform, Größe und die Gremien der Mitbestimmung.
+Die Hochschule München ist eine Körperschaft des öffentlichen Rechts in Bayern mit mehr als 1.000 Beschäftigten.
+Sie hat einen Personalrat, eine Gleichstellungsbeauftragte und eine Schwerbehindertenvertretung.
+Tabelle~\ref{tab:h1_profil} zeigt alle Angaben des Profils, die der Agent erhält (Datei \repodatei{h1/input/firmenprofil.json}).
+\offen{Profil um Schwerbehindertenvertretung und Rolle beim KI-Tool (Betreiberin) ergänzen, Vorschlag in ERGEBNIS.md Abschnitt~8; Tabelle danach neu erzeugen. Entscheiden, ob die Tabelle hier oder im Anhang steht}
+% Sätze 11-17 abgesegnet am 19.11.2026 (Task-Beschreibungen wie bei Sai et al.)
+Die zweite Eingabe ist der Prozess.
+Er reicht von der Freigabe der Professur bis zur Löschung der Daten abgelehnter Bewerbender.
+Der Prozess ist nach den Ebenen aus Abschnitt~\ref{sec:geschaeftsprozesse} in sieben Teilprozesse und 23 Tasks gegliedert.
+Die Teilprozesse sind Professur freigeben und ausschreiben, Bewerbungen annehmen, KI-Vorauswahl, Probevorträge, Berufungsvorschlag, Ruf und Ernennung sowie Absagen und Löschen.
+Der Prozess, jeder Teilprozess und jeder Task haben eine Bezeichnung und eine kurze Beschreibung.
+Teilprozesse und Tasks tragen zusätzlich eine Kennung, zum Beispiel \enquote{TP3} und \enquote{T3.2}.
+Die Kennung eines Tasks setzt sich aus der Nummer des Teilprozesses und der laufenden Nummer des Tasks zusammen.
+Jede Beschreibung nennt, wer handelt, was geschieht und welches System beteiligt ist.
+Diese Form lehnt sich an Sai et al.~\cite{sai2024} an, die den Prozess, jeden Teilprozess und jeden Task ebenfalls kurz beschreiben.
+Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablauf, damit der Agent die rechtlichen Anforderungen aus den Regelwerken ableiten muss.
+Ein Beispiel ist \enquote{T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.}
+Tabelle~\ref{tab:h1_prozess} zeigt den vollständigen Prozess (Datei \repodatei{h1/input/prozess.json}).
+\offen{Beschreibungen per Auftrag in prozess.json übernehmen (Entwurf in ERGEBNIS.md Abschnitt~8, Punkt~9); danach Tabelle~\ref{tab:h1_prozess} um die Spalte Beschreibung erweitern}
+% Sätze A1-A6 (Annahmen) abgesegnet am 19.11.2026; Annahmen bleiben Felder im Profil
+Das Profil enthält zusätzlich Annahmen zum Fall (Festlegungen, die in der Praxis von der einzelnen Organisation abhängen).
+Die Annahmen legen die Umstände fest, von denen die geltenden Vorschriften abhängen.
+Das KI-Tool zur Vorauswahl stammt von einem Anbieter mit Sitz in der EU, und alle Daten bleiben in der EU.
+Die Hochschule setzt das Tool ein und ist damit Betreiberin (Organisation, die ein KI-System in eigener Verantwortung nutzt) im Sinne des AI Act.
+Die Stelle ist eine Professur der Besoldungsgruppe W2 im Beamtenverhältnis.
+Diese Festlegungen machen die Referenzzuordnung eindeutig, denn eine Übermittlung in Staaten außerhalb der EU würde zum Beispiel weitere Pflichten auslösen.
+\offen{Betreiberrolle steht erst nach der Profil-Ergänzung (ERGEBNIS.md Abschnitt~8, Punkt~7) in der Eingabe}
+
+\subsubsection{Erwartung}\label{sec:fall1_erwartung}
+% Sätze 1-20 abgesegnet am 19.11.2026, Zahlen und Kontrollschritt am 19.11. auf das Berufungsverfahren umgestellt (Verneinungen in Satz 12 und 18 bewusst behalten; "fehlt" statt "bewusst entfernt", weil nur ein Teil der Lücken geplant war)
+Um das Ergebnis des Agenten bewerten zu können, braucht jeder Fall eine Referenzzuordnung (Liste der Vorschriften, die eine fachkundige Person dem Prozess zuordnen würde).
+Die Referenzzuordnung legt fest, welche Vorschrift bei welchem Task gilt.
+Sie ist genauso aufgebaut wie die Ausgabe des Agenten, damit sich beide Zeile für Zeile vergleichen lassen.
+Jede Zeile nennt das Regelwerk, die Fundstelle (Artikel oder Paragraf, wenn möglich mit Absatz), die betroffenen Tasks, die Art der Zeile und den Inhalt in Stichworten.
+Die Referenzzuordnung für Fall~1 umfasst 52 Zeilen aus 13 Regelwerken.
+Sie unterscheidet vier Arten von Zeilen.
+Die 27 Zeilen der Art Zuordnung verbinden eine Vorschrift mit einem oder mehreren Tasks oder mit dem ganzen Prozess.
+Die 10 Zeilen der Art fehlender Schritt beschreiben Pflichten, die einen eigenen Task erfordern, der im Prozess fehlt.
+Beispiele sind die Datenschutz-Folgenabschätzung nach Art.~35 DSGVO und die Beteiligung der Schwerbehindertenvertretung nach §~178 SGB~IX.
+Diese Zeilen prüfen, ob der Agent fehlende Pflichten erkennt (H3).
+Die 14 Zeilen der Art neutral nennen allgemeine Vorschriften, die im ganzen Prozess gelten, etwa die Grundsätze der Verarbeitung nach Art.~5 Abs.~1 DSGVO.
+Ihre Nennung bleibt in der Auswertung ohne Gewicht, weil sie fachlich vertretbar ist und zugleich keinen konkreten Task betrifft.
+Der Prozess enthält außerdem einen Kontrollschritt (Task, der eine Pflicht bereits erfüllt und deshalb als vorhanden gelten muss).
+Das ist die Mitgliedschaft der Gleichstellungsbeauftragten im Berufungsausschuss in T1.3 nach Art.~66 Abs.~4 BayHIG.
+Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
+Der Kontrollschritt zeigt so, ob der Agent vorhandene Schritte von fehlenden unterscheidet.
+% Falle, Sätze abgesegnet am 19.11.2026
+Eine Zeile der Art Falle nennt eine Pflicht, die in diesem Fall entfällt.
+Der Personalrat bestimmt bei der Einstellung von Professorinnen und Professoren nicht mit.
+Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
+Die Falle zeigt, ob der Agent Ausnahmen erkennt, statt Muster aus anderen Einstellungsverfahren zu übertragen.
+\offen{Beleg für die Falle am amtlichen Text prüfen (Art.~4 und Art.~78 BayPVG)}
+Die Referenz enthält ausschließlich Vorschriften zu Schritten, die im Prozess vorkommen oder vorkommen müssten.
+Die Einwilligung für einen Talentpool (Sammlung von Bewerbungen für spätere Stellen) nach Art.~6 Abs.~1 lit.~a DSGVO gehört deshalb nicht dazu, weil der Prozess die Daten nach Ablauf der Frist löscht.
+Anhang~\ref{anh:vorschriften} zeigt alle Zeilen (Datei \repodatei{h1/input/soll_liste.csv}).
+Die Referenzzuordnung ist ein Entwurf des Autors und wird vor den finalen Läufen von Fachleuten geprüft (Abschnitt~\ref{sec:fachliche_pruefung}).
+
+\subsubsection{Abdeckung}\label{sec:fall1_abdeckung}
+% Sätze 1-5, 7, 8 abgesegnet am 19.11.2026; Satz 6 (interne Regelungen der HM) in den Ausblick verschoben
+Die drei Fälle sollen zusammen alle Ebenen der Rechtsquellen aus Abbildung~\ref{fig:rechtsquellen} abdecken.
+So lässt sich prüfen, ob der Agent Vorschriften auf jeder Ebene findet.
+Tabelle~\ref{tab:fall1_abdeckung} zeigt, welche Ebenen Fall~1 abdeckt und mit welchen Regelwerken.
+Fall~1 deckt fünf der sieben Ebenen ganz oder teilweise ab.
+Unterhalb des Gesetzes ist die Berufungsordnung der Hochschule vorgesehen, sofern sie veröffentlicht ist.
+Technische Normen deckt Fall~2 ab (Abschnitt~\ref{sec:fall2}).
+Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU bleiben.
+
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.2cm} Y >{\raggedright\arraybackslash}p{3.0cm}}
+    \toprule
+    \textbf{Ebene (Abbildung~\ref{fig:rechtsquellen})} & \textbf{Regelwerke in Fall~1} & \textbf{Abgedeckt} \\
+    \midrule
+    Recht der EU & DSGVO, AI Act (Verordnungen); Richtlinien über ihre Umsetzung im AGG & ja \\
+    Grundgesetz & Art.~33 Abs.~2 GG & ja \\
+    Bundesrecht & AGG, SGB~IX, BeamtStG & ja \\
+    Landesrecht & BayHIG, BayBG, BayBesG, BayDSG, BayPVG & ja \\
+    Regelungen unterhalb des Gesetzes & Berufungsordnung der HM, sofern veröffentlicht & offen \\
+    Technische Normen & -- & nein, Fall~2 \\
+    Ausländisches Recht & -- & nein, durch Annahme ausgeschlossen \\
+    \bottomrule
+  \end{tabularx}
+  \caption[Abdeckung der Rechtsebenen durch Fall~1]{Abdeckung der Ebenen der Rechtsquellen durch Fall~1. Quelle: eigene Darstellung, Daten aus \repodatei{h1/input/soll_liste.csv}.}
+  \label{tab:fall1_abdeckung}
+\end{table}
 
 \subsection{Fall 2: Brandmeldetechnik}\label{sec:fall2}
 \offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
-\offen{Anforderungsumfang: welche Gesetze und Normen der Fall berührt und wie viele Anforderungen daraus folgen (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
 \offen{Entscheidung offen: Bekommt Fall~2 einen KI-Schritt (z.\,B. KI zur Bewertung von Meldungen und Täuschungsalarmen)? Sonst ist der AI Act in Fall~2 nicht anwendbar; Titel spricht von KI-gestützten Prozessen}
-\offen{Aufbau des Prozesses; Normtexte sind geschützt, der Agent kann sie nicht laden, Prüfung von Hand über die HM-Bibliothek}
+\offen{Normtexte sind geschützt, der Agent kann sie nicht laden, Prüfung von Hand über die HM-Bibliothek}
+\subsubsection{Eingabe}\label{sec:fall2_eingabe}
+\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
+
+\subsubsection{Erwartung}\label{sec:fall2_erwartung}
+\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften}), bewusst entfernte Schritte, Kontrollschritt}
+
+\subsubsection{Abdeckung}\label{sec:fall2_abdeckung}
+\offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
 
 \subsection{Fall 3: Vergleichsdaten von Sai et al.}\label{sec:fall3}
 \offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
-\offen{Anforderungsumfang: welche Gesetze und Normen der Fall berührt und wie viele Anforderungen daraus folgen (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
-\offen{Daten: Versicherung (7 Teilprozesse, 31 Tasks, 342 veröffentlichte Absätze) und Bank (7 Teilprozesse, 19 Tasks, 311 Absätze), MIT-Lizenz, im Repo unter h1/input/sai}
+\offen{Daten: Versicherung (7 Teilprozesse, 31 Tasks, 342 veröffentlichte Absätze) und Bank (7 Teilprozesse, 19 Tasks, 311 Absätze), MIT-Lizenz, im Repo unter h1/input/sai. Ohne bewusst entfernte Schritte, daher nur für H1 und H2}
+\subsubsection{Eingabe}\label{sec:fall3_eingabe}
+\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
 
-\subsection{Referenzzuordnung und Validierung}
-\offen{4.6 -- Soll-Liste je Fall; Stufe 1 fachliche Stichprobe, Stufe 2 selbst validiert}
-\offen{Satz: Herleitung der Referenz für H1 aus der Referenzzuordnung, Verweis auf Tabelle~\ref{tab:h1_referenz}}
+\subsubsection{Erwartung}\label{sec:fall3_erwartung}
+\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften})}
+
+\subsubsection{Abdeckung}\label{sec:fall3_abdeckung}
+\offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
+
+\subsection{Fachliche Prüfung}\label{sec:fachliche_pruefung}
+% Gliederung 4.6-4.11 abgestimmt am 18.11.2026
+\offen{Wer prüft je Fall (Rolle, Fachgebiet), Ablauf, Prüfbogen (Anhang~D), Ergebnis}
 \offen{Fachliche Prüfung der Referenzzuordnung (Fall~1, Fall~2) durch [Fachperson, Rechtsgebiet] ausstehend. Fall~3 wurde bei Sai et al.\ geprüft. Grundlage für H1, H2 und H3}
 \offen{Fachliche Prüfung der Soll-Entscheidungen der Referenzfälle für die Prüfregeln ausstehend. Grundlage für H5, H6 und H7}
 
-\subsection{Aufbau des Agenten}
-\offen{4.7 -- zwei Stufen, Werkzeuge, Lückenkandidaten}
+\subsection{Agent}\label{sec:agent}
+\offen{Modell, Parameter, Ausgabeformat}
+\offen{Stufe~1 (Regelwerke) und Stufe~2 (Zuordnung je Task, Lückenmeldungen)}
+\offen{Werkzeuge und amtliche Quellen; Prompts in Anhang~C}
 
-\subsection{Versuchsplan}
-\offen{4.8 -- Konfigurationen A/B, Läufe je Version und Fall}
+\subsection{Durchführung}\label{sec:durchfuehrung}
+\offen{Konfiguration A (Agent bestimmt Regelwerke selbst) und B (Regelwerke vorgegeben)}
+\offen{Versionen v1--v4 mit ihren Änderungen; 5 Läufe je Version und Konfiguration}
+\offen{Docker, Protokoll, Repository, Budgetgrenze und Kosten}
 \offen{Satz: Verweis auf Anhang~\ref{anh:testaufbau} (Eingaben und Referenz je Hypothese)}
 
-\subsection{Auswertung}
-\offen{4.9 -- Bewertung je Fund, Trefferquote und Genauigkeit auf drei Ebenen, Existenzprüfung}
+\subsection{Auswertung H1 bis H3}\label{sec:auswertung_h1_h3}
+\subsubsection{Bewertung je Fund}
+\offen{Kategorien: korrekt, neutral, falscher Absatz, falscher Task, nicht in der Referenz; Prüfung auf erfundene Normen}
+\subsubsection{H1: Regelwerke}
+\offen{Trefferquote und Genauigkeit der Regelwerke, Schwelle 0,9}
+\offen{Satz: Herleitung der Referenz für H1 aus der Referenzzuordnung, Verweis auf Tabelle~\ref{tab:h1_referenz}}
+\subsubsection{H2: Zuordnung}
+\offen{Trefferquote auf Task-Ebene, Teilprozess- und Prozessebene ergänzend; Schwelle offen (0,62 oder 0,69)}
+\subsubsection{H3: Fehlende Schritte}
+\offen{Erkannte Lücken, Fehlmeldungen, Kontrollschritt; Grenze für Fehlmeldungen offen}
 
-\subsection{Reproduzierbarkeit und Kosten}
-\offen{4.10 -- Protokoll, Repo, Budgetgrenze}
+\subsection{Aufbau und Auswertung H4}\label{sec:h4}
+\offen{Eingabe ohne Prozess, Referenz aus Reihenfolge-Paaren \enquote{A vor B} je Fall, bedingter und strenger Wert, Schwelle 80\,\%}
+
+\subsection{Aufbau und Auswertung H5 bis H7}\label{sec:h5_h7}
+\offen{Referenzfälle mit Soll-Entscheidung (gemeinsam für H5 bis H7)}
+\subsubsection{H5: Prüfregeln}
+\offen{Regeln aus den Zuordnungen erzeugen, Übereinstimmung mit der Soll-Entscheidung}
+\subsubsection{H6: Laufzeitmonitor}
+\offen{KI-Agent führt den Prozess aus, Monitor prüft jede Aktion; blockierte unzulässige und fälschlich blockierte zulässige Aktionen}
+\subsubsection{H7: Gesamtkette}
+\offen{Ablauf wie H6 mit den ungeprüften Ergebnissen aus H2 und H3, Vergleich mit H6}

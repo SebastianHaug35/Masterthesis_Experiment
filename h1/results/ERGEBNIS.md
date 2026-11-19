@@ -506,5 +506,88 @@ immer gefüllt (95 %). BayPVG Art. 75 (Eingruppierung/Einstellung) war die häuf
    BayArchivG Art. 6 / Art. 26 BayDSG (Anbietungspflicht vor Löschung) als neutral prüfen.
 6. **Vorschlag für den nächsten Auftrag:** v4 = v3 + Vorschläge 1–4, je 5 × A und 5 × B (geschätzt ≤ 1,50 USD
    gesamt). Ziel: Recall und Lückenerkennung von v2 bei Kosten von v3.
+7. **Firmenprofil (Planungs-Assistent, vor den finalen v4-Läufen, mit Sebastian am 18.11.2026 abgestimmt):**
+   - Ergänzen: `"schwerbehindertenvertretung": true`. Die Referenz erwartet § 178 SGB IX (S22); Personalrat und
+     Gleichstellungsbeauftragte stehen bereits im Profil, die dritte Interessenvertretung fehlt.
+   - KI-Tool präzisieren: zugekauft von einem Anbieter mit Sitz in der EU, die Hochschule ist Betreiberin
+     (Art. 26 AI Act), nicht Anbieterin. Die Referenz setzt die Betreiberrolle voraus.
+   - Bewusst **nicht** ergänzen: Datenschutzbeauftragter. Pflicht für jede öffentliche Stelle (Art. 37 DSGVO),
+     die Angabe wäre ein Hinweis auf eine Pflicht, die der Agent selbst erkennen soll.
+8. **Offen zur Diskussion:** Profil nur auf den Prozess ausrichten oder um prozessunwichtige Angaben erweitern
+   (Ablenker), um die Genauigkeit unter realistischeren Bedingungen zu testen.
+
+9. **Prozess: Beschreibung je Task (Planungs-Assistent, vor den finalen v4-Läufen, mit Sebastian am 19.11.2026 abgestimmt):**
+   Jeder Task in `h1/input/prozess.json` erhält ein Feld `beschreibung` mit einem Satz (wie bei Sai et al.).
+   Regel: Der Satz nennt, wer den Task ausführt, was geschieht und welches System beteiligt ist. Er enthält keine
+   rechtlichen Hinweise und ergänzt keine Schritte, die in der Referenz als fehlende Schritte (Lücken) gelten.
+   Folge: v4 ist in diesem Punkt nicht direkt mit v1–v3 vergleichbar (in DECISIONS.md festhalten).
+   Wie bei Sai et al. erhalten auch der Prozess (Feld `beschreibung` auf oberster Ebene) und jeder Teilprozess eine Beschreibung.
+   Entwurf (von Sebastian am 19.11.2026 freigegeben):
+   - Prozess: Die Hochschule München besetzt eine Stelle für wissenschaftliche Mitarbeit. Eine Professur meldet den Bedarf, die Personalabteilung schreibt die Stelle aus und nimmt die Bewerbungen über ein Portal an. Ein zugekauftes KI-Tool wertet die Unterlagen aus und erstellt eine Rangliste, die die Professur prüft. Eine Auswahlkommission führt die Gespräche und entscheidet über die Besetzung. Die ausgewählte Person erhält einen Arbeitsvertrag, die übrigen Bewerbenden erhalten eine Absage, und ihre Daten werden nach einer festgelegten Frist gelöscht.
+   - TP1 Die Professur meldet den Bedarf und legt mit der Personalabteilung das Stellenprofil fest, die Personalabteilung veröffentlicht die Ausschreibung.
+   - TP2 Bewerbende reichen ihre Unterlagen über das Bewerbungsportal ein, erhalten eine Eingangsbestätigung, und die Personalabteilung legt die Bewerbung im Bewerbermanagementsystem an.
+   - TP3 Das KI-Tool wertet die Unterlagen aus und erstellt eine Rangliste, die die Professur prüft, bevor sie die Bewerbenden für die Gespräche auswählt.
+   - TP4 Die Personalabteilung lädt die Ausgewählten ein, und die Auswahlkommission führt und dokumentiert die Gespräche.
+   - TP5 Die Kommission entscheidet über die Besetzung, die Personalabteilung erstellt das Vertragsangebot und schließt den Arbeitsvertrag ab.
+   - TP6 Die übrigen Bewerbenden erhalten eine Absage, und ihre Daten werden nach Ablauf einer festgelegten Frist gelöscht.
+   - T1.1 Die Professur meldet der Personalabteilung den Bedarf für eine Stelle als wissenschaftliche Mitarbeiterin oder wissenschaftlicher Mitarbeiter.
+   - T1.2 Personalabteilung und Professur legen Aufgaben, Anforderungen und Entgeltgruppe nach TV-L fest.
+   - T1.3 Die Personalabteilung veröffentlicht die Ausschreibung im Intranet und auf dem Stellenportal der Hochschule.
+   - T2.1 Bewerbende laden Anschreiben, Lebenslauf und Zeugnisse im Bewerbungsportal der Hochschule hoch.
+   - T2.2 Das Portal sendet jeder bewerbenden Person eine Eingangsbestätigung per E-Mail.
+   - T2.3 Die Personalabteilung legt für jede Bewerbung einen Datensatz im Bewerbermanagementsystem an.
+   - T3.1 Das KI-Tool liest die Unterlagen und gleicht sie mit den Anforderungen der Ausschreibung ab.
+   - T3.2 Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.
+   - T3.3 Die Professur prüft Rangliste und Unterlagen und passt die Reihenfolge bei Bedarf an.
+   - T3.4 Die Professur wählt die Bewerbenden für die Vorstellungsgespräche aus.
+   - T4.1 Die Personalabteilung lädt die ausgewählten Bewerbenden per E-Mail ein und weist auf das Antragsrecht zur Beteiligung der Gleichstellungsbeauftragten hin.
+   - T4.2 Die Auswahlkommission führt die Gespräche anhand eines Leitfadens, auf Antrag der Bewerbenden mit der Gleichstellungsbeauftragten.
+   - T4.3 Die Kommission hält Verlauf und Bewertung jedes Gesprächs schriftlich fest.
+   - T5.1 Die Kommission entscheidet anhand der Bewertungen über die Besetzung.
+   - T5.2 Die Personalabteilung erstellt ein Vertragsangebot mit Laufzeit, Arbeitszeit und Entgeltgruppe.
+   - T5.3 Die Hochschule und die ausgewählte Person unterzeichnen den Arbeitsvertrag.
+   - T6.1 Die Personalabteilung sendet den übrigen Bewerbenden eine Absage per E-Mail.
+   - T6.2 Die Personalabteilung bewahrt die Unterlagen der abgelehnten Bewerbenden bis zum Ende einer festgelegten Frist auf.
+   - T6.3 Die Personalabteilung löscht die Daten im Bewerbungsportal und im Bewerbermanagementsystem.
+
+10. **Fall 1 neu: Berufungsverfahren (Entscheidung Sebastian 19.11.2026, Entwurf, noch nicht abgesegnet):**
+   Ersetzt `prozess.json`, `soll_liste.csv` und Teile von `firmenprofil.json` (Stelle: W2-Professur, Beamtenverhältnis; `befristung` entfällt).
+   Grundlage: Art. 66 BayHIG (gelesen über LexMea, Stand Import 24.11.2025; amtlich noch gegenlesen), Art. 78 BayPVG.
+   Prozess: Die Hochschule München besetzt eine Professur in einer Fakultät. Die Hochschulleitung gibt die Professur frei, ein Berufungsausschuss wählt mithilfe eines KI-Tools, von Probevorträgen und Gutachten aus und stellt einen Berufungsvorschlag auf. Die Präsidentin oder der Präsident entscheidet, erteilt den Ruf und lässt die ausgewählte Person nach der Berufungsverhandlung ernennen. Die übrigen Bewerbenden erhalten eine Absage, und ihre Daten werden nach einer festgelegten Frist gelöscht.
+   - TP1 Professur freigeben und ausschreiben
+     - T1.1 Bedarf anmelden: Die Fakultät beantragt bei der Hochschulleitung die Wiederbesetzung einer frei werdenden Professur und schlägt die fachliche Ausrichtung vor.
+     - T1.2 Professur freigeben: Die Hochschulleitung entscheidet nach Anhörung des Fakultätsrats über Besetzung und Ausrichtung der Professur.
+     - T1.3 Berufungsausschuss bilden: Der Fakultätsrat setzt einen Ausschuss aus Professorinnen und Professoren, je einer Vertretung der Mitarbeitenden und der Studierenden, der Gleichstellungsbeauftragten und einem auswärtigen Mitglied ein.
+     - T1.4 Ausschreibung veröffentlichen: Die Personalabteilung veröffentlicht die Ausschreibung auf dem Stellenportal der Hochschule und in internationalen Fachportalen.
+   - TP2 Bewerbungen annehmen
+     - T2.1 Unterlagen empfangen: Bewerbende laden Anschreiben, Lebenslauf, Publikationsliste und Lehrkonzept im Bewerbungsportal hoch.
+     - T2.2 Eingang bestätigen: Das Portal sendet jeder bewerbenden Person eine Eingangsbestätigung per E-Mail.
+     - T2.3 Bewerbungen anlegen: Die Personalabteilung legt für jede Bewerbung einen Datensatz im Bewerbermanagementsystem an.
+   - TP3 KI-Vorauswahl
+     - T3.1 Unterlagen auswerten: Das KI-Tool liest die Unterlagen und gleicht sie mit den Anforderungen der Ausschreibung ab.
+     - T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.
+     - T3.3 Ranking prüfen: Der Berufungsausschuss prüft Rangliste und Unterlagen und passt die Reihenfolge bei Bedarf an.
+     - T3.4 Shortlist festlegen: Der Ausschuss wählt die Bewerbenden für die Probevorträge aus.
+   - TP4 Probevorträge
+     - T4.1 Kandidierende einladen: Die Personalabteilung lädt die ausgewählten Bewerbenden per E-Mail zu Probevortrag und Gespräch ein.
+     - T4.2 Probevortrag und Gespräch durchführen: Die Kandidierenden halten eine Lehrprobe vor Ausschuss und Studierenden und führen anschließend ein Gespräch mit dem Ausschuss.
+     - T4.3 Ergebnisse dokumentieren: Der Ausschuss hält Verlauf und Bewertung jedes Vortrags und Gesprächs schriftlich fest.
+   - TP5 Berufungsvorschlag
+     - T5.1 Gutachten einholen: Der Ausschuss beauftragt auswärtige Professorinnen oder Professoren mit vergleichenden Gutachten zu den Kandidierenden der engeren Wahl.
+     - T5.2 Berufungsliste beschließen: Der Ausschuss beschließt eine begründete Liste mit drei Namen in einer Reihenfolge.
+     - T5.3 Über die Berufung entscheiden: Die Präsidentin oder der Präsident entscheidet anhand der Liste, wer den Ruf erhält.
+   - TP6 Ruf und Ernennung
+     - T6.1 Ruf erteilen: Die Hochschule teilt der ausgewählten Person schriftlich mit, dass sie berufen werden soll.
+     - T6.2 Berufungsverhandlung führen: Hochschulleitung und berufene Person vereinbaren Ausstattung, Dienstbeginn und Leistungsbezüge.
+     - T6.3 Ernennen: Die Hochschule ernennt die Person durch Aushändigung einer Urkunde in ein Beamtenverhältnis.
+   - TP7 Absagen und Löschen
+     - T7.1 Absagen versenden: Die Personalabteilung sendet den übrigen Bewerbenden eine Absage per E-Mail.
+     - T7.2 Aufbewahrungsfrist abwarten: Die Personalabteilung bewahrt die Unterlagen der Abgelehnten bis zum Ende einer festgelegten Frist auf.
+     - T7.3 Daten löschen: Die Personalabteilung löscht die Daten im Bewerbungsportal und im Bewerbermanagementsystem.
+   Geplante fehlende Schritte: Staatsministerium vor der Ausschreibung informieren (Art. 66 Abs. 1 S. 6 BayHIG), Stellungnahme des Senats (Art. 66 Abs. 5 S. 8 BayHIG),
+   Schwerbehindertenvertretung beteiligen (§ 178 SGB IX), freie Stelle der Agentur für Arbeit melden (§ 165 SGB IX), KI: Information der Betroffenen (Art. 26 Abs. 11 AI Act),
+   Grundrechte-Folgenabschätzung (Art. 27 AI Act), KI-Kompetenz (Art. 4 AI Act), Datenschutz-Folgenabschätzung (Art. 35 DSGVO), Personalrat bei Einführung des KI-Tools (Art. 75a BayPVG, prüfen).
+   Kontrollschritt: Gleichstellungsbeauftragte im Berufungsausschuss (T1.3, Art. 66 Abs. 4 Nr. 3 BayHIG).
+   Idee zweite Kontrolle („Falle“): Mitbestimmung des Personalrats bei der Einstellung entfällt für Professuren (Art. 4 / Art. 78 BayPVG, prüfen). Meldet der Agent sie als fehlend, ist das eine Fehlmeldung.
 
 <!-- MANUELL ENDE -->
