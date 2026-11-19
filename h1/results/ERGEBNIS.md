@@ -521,7 +521,15 @@ immer gefüllt (95 %). BayPVG Art. 75 (Eingruppierung/Einstellung) war die häuf
    Regel: Der Satz nennt, wer den Task ausführt, was geschieht und welches System beteiligt ist. Er enthält keine
    rechtlichen Hinweise und ergänzt keine Schritte, die in der Referenz als fehlende Schritte (Lücken) gelten.
    Folge: v4 ist in diesem Punkt nicht direkt mit v1–v3 vergleichbar (in DECISIONS.md festhalten).
+   Wie bei Sai et al. erhalten auch der Prozess (Feld `beschreibung` auf oberster Ebene) und jeder Teilprozess eine Beschreibung.
    Entwurf (noch nicht abgesegnet):
+   - Prozess: Die Hochschule München besetzt eine Stelle für wissenschaftliche Mitarbeit. Eine Professur meldet den Bedarf, die Personalabteilung schreibt die Stelle aus und nimmt die Bewerbungen über ein Portal an. Ein zugekauftes KI-Tool wertet die Unterlagen aus und erstellt eine Rangliste, die die Professur prüft. Eine Auswahlkommission führt die Gespräche und entscheidet über die Besetzung. Die ausgewählte Person erhält einen Arbeitsvertrag, die übrigen Bewerbenden erhalten eine Absage, und ihre Daten werden nach einer festgelegten Frist gelöscht.
+   - TP1 Die Professur meldet den Bedarf und legt mit der Personalabteilung das Stellenprofil fest, die Personalabteilung veröffentlicht die Ausschreibung.
+   - TP2 Bewerbende reichen ihre Unterlagen über das Bewerbungsportal ein, erhalten eine Eingangsbestätigung, und die Personalabteilung legt die Bewerbung im Bewerbermanagementsystem an.
+   - TP3 Das KI-Tool wertet die Unterlagen aus und erstellt eine Rangliste, die die Professur prüft, bevor sie die Bewerbenden für die Gespräche auswählt.
+   - TP4 Die Personalabteilung lädt die Ausgewählten ein, und die Auswahlkommission führt und dokumentiert die Gespräche.
+   - TP5 Die Kommission entscheidet über die Besetzung, die Personalabteilung erstellt das Vertragsangebot und schließt den Arbeitsvertrag ab.
+   - TP6 Die übrigen Bewerbenden erhalten eine Absage, und ihre Daten werden nach Ablauf einer festgelegten Frist gelöscht.
    - T1.1 Die Professur meldet der Personalabteilung den Bedarf für eine Stelle als wissenschaftliche Mitarbeiterin oder wissenschaftlicher Mitarbeiter.
    - T1.2 Personalabteilung und Professur legen Aufgaben, Anforderungen und Entgeltgruppe nach TV-L fest.
    - T1.3 Die Personalabteilung veröffentlicht die Ausschreibung im Intranet und auf dem Stellenportal der Hochschule.
