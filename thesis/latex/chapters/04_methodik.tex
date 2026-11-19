@@ -48,8 +48,8 @@ Für den Fall wird angenommen, dass die Hochschule ein KI-Werkzeug einsetzt, das
 \offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
 \offen{Hinweis: Eingaben und Referenz von Fall~1 sind in dieser Form zur fachlichen Prüfung vorgesehen (Abschnitt~\ref{sec:fachliche_pruefung})}
 \subsubsection{Eingabe}\label{sec:fall1_eingabe}
-% Sätze 4-8 und 10 abgesegnet am 18.11.2026 (Satz 9 gestrichen)
-Der Agent erhält drei Eingaben, ein Profil der Organisation, den Prozess und die Annahmen zum Fall.
+% Sätze 4-8 und 10 abgesegnet am 18.11.2026 (Satz 9 gestrichen), Satz 4 am 19.11. auf zwei Eingaben geändert
+Der Agent erhält zwei Eingaben, ein Profil der Organisation und den Prozess.
 Das Profil beschreibt die Organisation, in der der Prozess abläuft.
 Dazu gehören Sitz und Bundesland, Rechtsform, Größe und die Gremien der Mitbestimmung.
 Die Hochschule München ist eine Körperschaft des öffentlichen Rechts in Bayern mit mehr als 1.000 Beschäftigten.
@@ -70,7 +70,14 @@ Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablau
 Ein Beispiel ist \enquote{T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.}
 Tabelle~\ref{tab:h1_prozess} zeigt den vollständigen Prozess (Datei \repodatei{h1/input/prozess.json}).
 \offen{Beschreibungen per Auftrag in prozess.json übernehmen (Entwurf in ERGEBNIS.md Abschnitt~8, Punkt~9); danach Tabelle~\ref{tab:h1_prozess} um die Spalte Beschreibung erweitern}
-\offen{Annahmen (KI-Tool der Hochschule, kein Dienstleister außerhalb der EU, kein Talentpool)}
+% Sätze A1-A6 (Annahmen) abgesegnet am 19.11.2026; Annahmen bleiben Felder im Profil
+Das Profil enthält zusätzlich Annahmen zum Fall (Festlegungen, die in der Praxis von der einzelnen Organisation abhängen).
+Die Annahmen legen die Umstände fest, von denen die geltenden Vorschriften abhängen.
+Das KI-Tool zur Vorauswahl stammt von einem Anbieter mit Sitz in der EU, und alle Daten bleiben in der EU.
+Die Hochschule setzt das Tool ein und ist damit Betreiberin (Organisation, die ein KI-System in eigener Verantwortung nutzt) im Sinne des AI Act.
+Die Stelle ist auf drei Jahre befristet und dient der Promotion.
+Diese Festlegungen machen die Referenzzuordnung eindeutig, denn eine Übermittlung in Staaten außerhalb der EU würde zum Beispiel weitere Pflichten auslösen.
+\offen{Betreiberrolle steht erst nach der Profil-Ergänzung (ERGEBNIS.md Abschnitt~8, Punkt~7) in der Eingabe}
 
 \subsubsection{Erwartung}\label{sec:fall1_erwartung}
 \offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften}), bewusst entfernte Schritte, Kontrollschritt}
