@@ -56,7 +56,20 @@ Die Hochschule München ist eine Körperschaft des öffentlichen Rechts in Bayer
 Sie hat einen Personalrat, eine Gleichstellungsbeauftragte und eine Schwerbehindertenvertretung.
 Tabelle~\ref{tab:h1_profil} zeigt alle Angaben des Profils, die der Agent erhält (Datei \repodatei{h1/input/firmenprofil.json}).
 \offen{Profil um Schwerbehindertenvertretung und Rolle beim KI-Tool (Betreiberin) ergänzen, Vorschlag in ERGEBNIS.md Abschnitt~8; Tabelle danach neu erzeugen. Entscheiden, ob die Tabelle hier oder im Anhang steht}
-\offen{Prozess mit Teilprozessen und Tasks}
+% Sätze 11-17 abgesegnet am 19.11.2026 (Task-Beschreibungen wie bei Sai et al.)
+Die zweite Eingabe ist der Prozess.
+Er reicht von der Ausschreibung der Stelle bis zur Löschung der Daten abgelehnter Bewerbender.
+Der Prozess ist nach den Ebenen aus Abschnitt~\ref{sec:geschaeftsprozesse} in sechs Teilprozesse und 19 Tasks gegliedert.
+Die Teilprozesse sind Stelle ausschreiben, Bewerbungen annehmen, KI-Vorauswahl, Vorstellungsgespräche, Auswahl und Einstellung sowie Absagen und Löschen.
+Der Prozess, jeder Teilprozess und jeder Task haben eine Bezeichnung und eine kurze Beschreibung.
+Teilprozesse und Tasks tragen zusätzlich eine Kennung, zum Beispiel \enquote{TP3} und \enquote{T3.2}.
+Die Kennung eines Tasks setzt sich aus der Nummer des Teilprozesses und der laufenden Nummer des Tasks zusammen.
+Jede Beschreibung nennt, wer handelt, was geschieht und welches System beteiligt ist.
+Diese Form lehnt sich an Sai et al.~\cite{sai2024} an, die den Prozess, jeden Teilprozess und jeden Task ebenfalls kurz beschreiben.
+Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablauf, damit der Agent die rechtlichen Anforderungen aus den Regelwerken ableiten muss.
+Ein Beispiel ist \enquote{T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.}
+Tabelle~\ref{tab:h1_prozess} zeigt den vollständigen Prozess (Datei \repodatei{h1/input/prozess.json}).
+\offen{Beschreibungen per Auftrag in prozess.json übernehmen (Entwurf in ERGEBNIS.md Abschnitt~8, Punkt~9); danach Tabelle~\ref{tab:h1_prozess} um die Spalte Beschreibung erweitern}
 \offen{Annahmen (KI-Tool der Hochschule, kein Dienstleister außerhalb der EU, kein Talentpool)}
 
 \subsubsection{Erwartung}\label{sec:fall1_erwartung}

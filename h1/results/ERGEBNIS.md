@@ -522,7 +522,7 @@ immer gefüllt (95 %). BayPVG Art. 75 (Eingruppierung/Einstellung) war die häuf
    rechtlichen Hinweise und ergänzt keine Schritte, die in der Referenz als fehlende Schritte (Lücken) gelten.
    Folge: v4 ist in diesem Punkt nicht direkt mit v1–v3 vergleichbar (in DECISIONS.md festhalten).
    Wie bei Sai et al. erhalten auch der Prozess (Feld `beschreibung` auf oberster Ebene) und jeder Teilprozess eine Beschreibung.
-   Entwurf (noch nicht abgesegnet):
+   Entwurf (von Sebastian am 19.11.2026 freigegeben):
    - Prozess: Die Hochschule München besetzt eine Stelle für wissenschaftliche Mitarbeit. Eine Professur meldet den Bedarf, die Personalabteilung schreibt die Stelle aus und nimmt die Bewerbungen über ein Portal an. Ein zugekauftes KI-Tool wertet die Unterlagen aus und erstellt eine Rangliste, die die Professur prüft. Eine Auswahlkommission führt die Gespräche und entscheidet über die Besetzung. Die ausgewählte Person erhält einen Arbeitsvertrag, die übrigen Bewerbenden erhalten eine Absage, und ihre Daten werden nach einer festgelegten Frist gelöscht.
    - TP1 Die Professur meldet den Bedarf und legt mit der Personalabteilung das Stellenprofil fest, die Personalabteilung veröffentlicht die Ausschreibung.
    - TP2 Bewerbende reichen ihre Unterlagen über das Bewerbungsportal ein, erhalten eine Eingangsbestätigung, und die Personalabteilung legt die Bewerbung im Bewerbermanagementsystem an.
