@@ -80,7 +80,27 @@ Diese Festlegungen machen die Referenzzuordnung eindeutig, denn eine Übermittlu
 \offen{Betreiberrolle steht erst nach der Profil-Ergänzung (ERGEBNIS.md Abschnitt~8, Punkt~7) in der Eingabe}
 
 \subsubsection{Erwartung}\label{sec:fall1_erwartung}
-\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften}), bewusst entfernte Schritte, Kontrollschritt}
+% Sätze 1-20 abgesegnet am 19.11.2026 (Verneinungen in Satz 12 und 18 bewusst behalten; "fehlt" statt "bewusst entfernt", weil nur ein Teil der Lücken geplant war)
+Um das Ergebnis des Agenten bewerten zu können, braucht jeder Fall eine Referenzzuordnung (Liste der Vorschriften, die eine fachkundige Person dem Prozess zuordnen würde).
+Die Referenzzuordnung legt fest, welche Vorschrift bei welchem Task gilt.
+Sie ist genauso aufgebaut wie die Ausgabe des Agenten, damit sich beide Zeile für Zeile vergleichen lassen.
+Jede Zeile nennt das Regelwerk, die Fundstelle (Artikel oder Paragraf, wenn möglich mit Absatz), die betroffenen Tasks, die Art der Zeile und den Inhalt in Stichworten.
+Die Referenzzuordnung für Fall~1 umfasst 48 Zeilen aus 13 Regelwerken.
+Sie unterscheidet drei Arten von Zeilen.
+Die 23 Zeilen der Art Zuordnung verbinden eine Vorschrift mit einem oder mehreren Tasks oder mit dem ganzen Prozess.
+Die 9 Zeilen der Art fehlender Schritt beschreiben Pflichten, die einen eigenen Task erfordern, der im Prozess fehlt.
+Beispiele sind die Datenschutz-Folgenabschätzung nach Art.~35 DSGVO und die Beteiligung der Schwerbehindertenvertretung nach §~178 SGB~IX.
+Diese Zeilen prüfen, ob der Agent fehlende Pflichten erkennt (H3).
+Die 16 Zeilen der Art neutral nennen allgemeine Vorschriften, die im ganzen Prozess gelten, etwa die Grundsätze der Verarbeitung nach Art.~5 Abs.~1 DSGVO.
+Ihre Nennung bleibt in der Auswertung ohne Gewicht, weil sie fachlich vertretbar ist und zugleich keinen konkreten Task betrifft.
+Der Prozess enthält außerdem einen Kontrollschritt (Task, der eine Pflicht bereits erfüllt und deshalb als vorhanden gelten muss).
+Das ist die Beteiligung der Gleichstellungsbeauftragten in T4.1 und T4.2 nach Art.~17 BayGlG.
+Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
+Der Kontrollschritt zeigt so, ob der Agent vorhandene Schritte von fehlenden unterscheidet.
+Die Referenz enthält ausschließlich Vorschriften zu Schritten, die im Prozess vorkommen oder vorkommen müssten.
+Die Einwilligung für einen Talentpool (Sammlung von Bewerbungen für spätere Stellen) nach Art.~6 Abs.~1 lit.~a DSGVO gehört deshalb nicht dazu, weil der Prozess die Daten nach Ablauf der Frist löscht.
+Anhang~\ref{anh:vorschriften} zeigt alle Zeilen (Datei \repodatei{h1/input/soll_liste.csv}).
+Die Referenzzuordnung ist ein Entwurf des Autors und wird vor den finalen Läufen von Fachleuten geprüft (Abschnitt~\ref{sec:fachliche_pruefung}).
 
 \subsubsection{Abdeckung}\label{sec:fall1_abdeckung}
 \offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
