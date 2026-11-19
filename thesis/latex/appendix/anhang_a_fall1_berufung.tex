@@ -1,0 +1,100 @@
+% Fall 1 (Berufungsverfahren): Prozess und Referenzzuordnung, Entwurf 19.11.2026, von Hand aus h1/results/entwurf_fall1_berufung übernommen
+\paragraph{Prozess} Die Hochschule München besetzt eine Professur in einer Fakultät. Die Hochschulleitung gibt die Professur frei, ein Berufungsausschuss wählt mithilfe eines KI-Tools, von Probevorträgen und Gutachten aus und stellt einen Berufungsvorschlag auf. Die Präsidentin oder der Präsident entscheidet, erteilt den Ruf und lässt die ausgewählte Person nach der Berufungsverhandlung ernennen. Die übrigen Bewerbenden erhalten eine Absage, und ihre Daten werden nach einer festgelegten Frist gelöscht.
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.0cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{10.0cm}@{}}
+\caption[Prozess für Fall~1: Berufungsverfahren]{Prozess für Fall~1: Berufungsverfahren mit Teilprozessen, Tasks und Beschreibungen. Quelle: eigene Darstellung (Entwurf).}\label{tab:fall1_prozess}\\
+\toprule \textbf{Kennung} & \textbf{Bezeichnung} & \textbf{Beschreibung} \\ \midrule \endfirsthead
+\toprule \textbf{Kennung} & \textbf{Bezeichnung} & \textbf{Beschreibung} \\ \midrule \endhead
+\bottomrule \endfoot
+\multicolumn{3}{@{}l}{\textbf{TP1 Professur freigeben und ausschreiben}} \\
+T1.1 & Bedarf anmelden & Die Fakultät beantragt bei der Hochschulleitung die Wiederbesetzung einer frei werdenden Professur und schlägt die fachliche Ausrichtung vor. \\
+T1.2 & Professur freigeben & Die Hochschulleitung entscheidet nach Anhörung des Fakultätsrats über Besetzung und Ausrichtung der Professur. \\
+T1.3 & Berufungsausschuss bilden & Der Fakultätsrat setzt einen Ausschuss aus Professorinnen und Professoren, je einer Vertretung der Mitarbeitenden und der Studierenden, der Gleichstellungsbeauftragten und einem auswärtigen Mitglied ein. \\
+T1.4 & Ausschreibung veröffentlichen & Die Personalabteilung veröffentlicht die Ausschreibung auf dem Stellenportal der Hochschule und in internationalen Fachportalen. \\
+\multicolumn{3}{@{}l}{\textbf{TP2 Bewerbungen annehmen}} \\
+T2.1 & Unterlagen empfangen & Bewerbende laden Anschreiben, Lebenslauf, Publikationsliste und Lehrkonzept im Bewerbungsportal hoch. \\
+T2.2 & Eingang bestätigen & Das Portal sendet jeder bewerbenden Person eine Eingangsbestätigung per E-Mail. \\
+T2.3 & Bewerbungen anlegen & Die Personalabteilung legt für jede Bewerbung einen Datensatz im Bewerbermanagementsystem an. \\
+\multicolumn{3}{@{}l}{\textbf{TP3 KI-Vorauswahl}} \\
+T3.1 & Unterlagen auswerten & Das KI-Tool liest die Unterlagen und gleicht sie mit den Anforderungen der Ausschreibung ab. \\
+T3.2 & Ranking erzeugen & Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste. \\
+T3.3 & Ranking prüfen & Der Berufungsausschuss prüft Rangliste und Unterlagen und passt die Reihenfolge bei Bedarf an. \\
+T3.4 & Shortlist festlegen & Der Ausschuss wählt die Bewerbenden für die Probevorträge aus. \\
+\multicolumn{3}{@{}l}{\textbf{TP4 Probevorträge}} \\
+T4.1 & Kandidierende einladen & Die Personalabteilung lädt die ausgewählten Bewerbenden per E-Mail zu Probevortrag und Gespräch ein. \\
+T4.2 & Probevortrag und Gespräch durchführen & Die Kandidierenden halten eine Lehrprobe vor Ausschuss und Studierenden und führen anschließend ein Gespräch mit dem Ausschuss. \\
+T4.3 & Ergebnisse dokumentieren & Der Ausschuss hält Verlauf und Bewertung jedes Vortrags und Gesprächs schriftlich fest. \\
+\multicolumn{3}{@{}l}{\textbf{TP5 Berufungsvorschlag}} \\
+T5.1 & Gutachten einholen & Der Ausschuss beauftragt auswärtige Professorinnen oder Professoren mit vergleichenden Gutachten zu den Kandidierenden der engeren Wahl. \\
+T5.2 & Berufungsliste beschließen & Der Ausschuss beschließt eine begründete Liste mit drei Namen in einer Reihenfolge. \\
+T5.3 & Über die Berufung entscheiden & Die Präsidentin oder der Präsident entscheidet anhand der Liste, wer den Ruf erhält. \\
+\multicolumn{3}{@{}l}{\textbf{TP6 Ruf und Ernennung}} \\
+T6.1 & Ruf erteilen & Die Hochschule teilt der ausgewählten Person schriftlich mit, dass sie berufen werden soll. \\
+T6.2 & Berufungsverhandlung führen & Hochschulleitung und berufene Person vereinbaren Ausstattung, Dienstbeginn und Leistungsbezüge. \\
+T6.3 & Ernennen & Die Hochschule ernennt die Person durch Aushändigung einer Urkunde in ein Beamtenverhältnis. \\
+\multicolumn{3}{@{}l}{\textbf{TP7 Absagen und Löschen}} \\
+T7.1 & Absagen versenden & Die Personalabteilung sendet den übrigen Bewerbenden eine Absage per E-Mail. \\
+T7.2 & Aufbewahrungsfrist abwarten & Die Personalabteilung bewahrt die Unterlagen der Abgelehnten bis zum Ende einer festgelegten Frist auf. \\
+T7.3 & Daten löschen & Die Personalabteilung löscht die Daten im Bewerbungsportal und im Bewerbermanagementsystem. \\
+\end{longtable}
+\end{small}
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.6cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{5.6cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.0cm}@{}}
+\caption[Referenzzuordnung für Fall~1: Berufungsverfahren]{Referenzzuordnung für Fall~1: Berufungsverfahren. Angaben mit dem Vermerk \enquote{prüfen} sind noch am amtlichen Text zu kontrollieren. Quelle: eigene Darstellung (Entwurf).}\label{tab:fall1_referenz}\\
+\toprule \textbf{Regelwerk} & \textbf{Fundstelle} & \textbf{Inhalt} & \textbf{Tasks} & \textbf{Art} \\ \midrule \endfirsthead
+\toprule \textbf{Regelwerk} & \textbf{Fundstelle} & \textbf{Inhalt} & \textbf{Tasks} & \textbf{Art} \\ \midrule \endhead
+\bottomrule \endfoot
+GG & Art. 33 Abs. 2 & Bestenauslese im öffentlichen Dienst & gesamter Prozess & Zuordnung \\
+AGG & §~7 & Benachteiligungsverbot, für Beamte über §~24 AGG & gesamter Prozess & Zuordnung \\
+DSGVO & Art. 32 & Sicherheit der Verarbeitung (Portal, System, Aufbewahrung) & gesamter Prozess & Zuordnung \\
+BayHIG & Art. 66 Abs. 1 & Freigabe und Ausrichtung durch die Hochschulleitung, Anhörung Fakultätsrat & T1.1, T1.2 & Zuordnung \\
+BayHIG & Art. 66 Abs. 4 & Bildung und Zusammensetzung des Berufungsausschusses & T1.3 & Zuordnung \\
+BayHIG & Art. 66 Abs. 4 Satz 1 Nr. 3 & Gleichstellungsbeauftragte im Ausschuss (Kontrollschritt) & T1.3 & Zuordnung \\
+BayHIG & Art. 66 Abs. 3 & öffentliche, in der Regel internationale Ausschreibung & T1.4 & Zuordnung \\
+AGG & §~11 & diskriminierungsfreie Ausschreibung & T1.4 & Zuordnung \\
+BayHIG & (Einstellungsvoraussetzungen Professur HAW, Norm prüfen) & Berufungsvoraussetzungen (u. a. Berufspraxis) & T1.4, T3.1, T5.2 & Zuordnung \\
+DSGVO & Art. 6 & Rechtsgrundlage der Verarbeitung von Bewerberdaten & T2.1, T2.3 & Zuordnung \\
+BayDSG & (Norm prüfen) & Verarbeitung nach bayerischem Landesrecht & T2.1, T2.3 & Zuordnung \\
+DSGVO & Art. 13 & Informationspflicht bei Erhebung & T2.1, T2.2 & Zuordnung \\
+AI Act & Anhang III Nr. 4 & Einstufung als Hochrisiko-KI-System & T3.1, T3.2 & Zuordnung \\
+AI Act & Art. 26 & Betreiberpflichten: Verwendung gemäß Anleitung, menschliche Aufsicht, Protokollierung & T3.1, T3.2, T3.3, T3.4 & Zuordnung \\
+AGG & §~7 & algorithmische Benachteiligung & T3.1, T3.2 & Zuordnung \\
+DSGVO & Art. 22 & keine ausschließlich automatisierte Einzelentscheidung & T3.4, T5.3 & Zuordnung \\
+SGB IX & §~165 & Einladung schwerbehinderter Bewerbender (öffentlicher Arbeitgeber) & T4.1 & Zuordnung \\
+AGG & §~7 & zulässige Fragen im Gespräch & T4.2 & Zuordnung \\
+DSGVO & Art. 5 Abs. 2 & Rechenschaftspflicht Dokumentation & T4.3, T7.2 & Zuordnung \\
+BayHIG & Art. 66 Abs. 5 & auswärtige und vergleichende Gutachten, Vorschlag mit drei Namen, Begründung der Reihung & T5.1, T5.2 & Zuordnung \\
+BayHIG & Art. 66 Abs. 6 & Entscheidung der Präsidentin oder des Präsidenten ohne Bindung an die Reihung & T5.3 & Zuordnung \\
+BayHIG & Art. 66 Abs. 11 & Ausstattung grundsätzlich befristet & T6.2 & Zuordnung \\
+BayBesG & (Leistungsbezüge W-Besoldung, Norm prüfen) & Berufungs-Leistungsbezüge & T6.2 & Zuordnung \\
+BeamtStG & §~8 & Ernennung durch Aushändigung einer Urkunde & T6.3 & Zuordnung \\
+BayBG & (Norm prüfen) & Beamtenverhältnis von Professorinnen und Professoren & T6.3 & Zuordnung \\
+AGG & §~15 Abs. 4 & 2-Monats-Frist, daraus Aufbewahrung & T7.2 & Zuordnung \\
+DSGVO & Art. 17 & Löschung & T7.3 & Zuordnung \\
+BayHIG & Art. 66 Abs. 1 Satz 6 & Staatsministerium vor der Ausschreibung informieren & -- & fehlender Schritt \\
+BayHIG & Art. 66 Abs. 5 Satz 8 & Stellungnahme des Senats zum Berufungsvorschlag & -- & fehlender Schritt \\
+SGB IX & §~164 & Prüfung Besetzung mit schwerbehinderten Menschen & -- & fehlender Schritt \\
+SGB IX & §~165 & Meldung der freien Stelle an die Agentur für Arbeit & -- & fehlender Schritt \\
+SGB IX & §~178 & Beteiligung der Schwerbehindertenvertretung & -- & fehlender Schritt \\
+AI Act & Art. 26 Abs. 11 & Information der Betroffenen über den KI-Einsatz & -- & fehlender Schritt \\
+AI Act & Art. 27 & Grundrechte-Folgenabschätzung (öffentliche Stelle) & -- & fehlender Schritt \\
+AI Act & Art. 4 & KI-Kompetenz der Mitarbeitenden & -- & fehlender Schritt \\
+DSGVO & Art. 35 & Datenschutz-Folgenabschätzung & -- & fehlender Schritt \\
+BayPVG & Art. 75a & Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Norm prüfen) & -- & fehlender Schritt \\
+DSGVO & Art. 5 Abs. 1 & Grundsätze der Verarbeitung & gesamter Prozess & neutral \\
+DSGVO & Art. 9 & besondere Kategorien personenbezogener Daten & gesamter Prozess & neutral \\
+DSGVO & Art. 12 & Form der Information & gesamter Prozess & neutral \\
+DSGVO & Art. 24 & Verantwortung des Verantwortlichen & gesamter Prozess & neutral \\
+DSGVO & Art. 25 & Datenschutz durch Technikgestaltung & gesamter Prozess & neutral \\
+DSGVO & Art. 28 & Auftragsverarbeitung (KI-Anbieter) & gesamter Prozess & neutral \\
+DSGVO & Art. 30 & Verzeichnis von Verarbeitungstätigkeiten & gesamter Prozess & neutral \\
+AI Act & Art. 14 & menschliche Aufsicht (Anbieterpflicht, über Art. 26 relevant) & gesamter Prozess & neutral \\
+AI Act & Art. 49 & Registrierung (öffentliche Betreiber) & gesamter Prozess & neutral \\
+AI Act & Art. 86 & Recht auf Erläuterung & gesamter Prozess & neutral \\
+BayHIG & Art. 66 Abs. 2 & Berichterstatterin oder Berichterstatter ("in der Regel") & gesamter Prozess & neutral \\
+BayHIG & Art. 22 & Gleichstellungsbeauftragte, Aufgaben & gesamter Prozess & neutral \\
+BayGlG & -- & allgemeines Gleichstellungsrecht, an Hochschulen durch BayHIG überlagert (prüfen) & gesamter Prozess & neutral \\
+HM-Satzung & Berufungsordnung der HM (falls vorhanden, prüfen) & Ebene unterhalb des Gesetzes & gesamter Prozess & neutral \\
+BayPVG & Art. 4 / Art. 78 & Keine Mitbestimmung des Personalrats bei Einstellung von Professuren. Meldung als Lücke = Fehlmeldung (prüfen) & -- & Falle \\
+\end{longtable}
+\end{small}

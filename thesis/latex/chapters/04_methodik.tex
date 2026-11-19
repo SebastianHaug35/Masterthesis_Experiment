@@ -12,17 +12,17 @@ Der Ansatz wird an mehreren Anwendungsfällen untersucht, die sich in Branche, R
   \centering
   \small
   \renewcommand{\arraystretch}{1.3}
-  \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{2.6cm} Y Y Y}
+  \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{2.2cm} Y Y Y Y}
     \toprule
-     & \textbf{Fall 1: Bewerbungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: Vergleichsdaten Sai et al.} \\
+     & \textbf{Fall 1: Berufungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: TETRA-Endgeräte} & \textbf{Fall 4: Vergleichsdaten Sai et al.} \\
     \midrule
-    Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & Versicherung und Bank (Australien) \\
-    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Schadensbearbeitung; Kundenprüfung \\
-    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Versicherungs- und Finanzaufsichtsrecht \\
-    Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & durch die Studie vorgegeben \\
-    Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & Vergleichswert \\
-    Fachliche Prüfung & Fachleute der HM (Datenschutz; KI und Arbeitsrecht offen) & Lehrbeauftragter für Brandschutz der HM, eigene Fachkenntnis & Fachleute der Studie \\
-    Stand & umgesetzt & geplant & Verfügbarkeit prüfen \\
+    Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & bayerische Behörde mit Sicherheitsaufgaben & Versicherung und Bank (Australien) \\
+    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Beschaffung bis Aussonderung von TETRA-Funkgeräten & Schadensbearbeitung; Kundenprüfung \\
+    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Funkanlagen- und Vergaberecht, Datenschutz, ETSI-Normen & Versicherungs- und Finanzaufsichtsrecht \\
+    Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & frei verfügbar, auch die ETSI-Normen & durch die Studie vorgegeben \\
+    Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & explorativer Fall: frei verfügbare Normen & Vergleichswert \\
+    Fachliche Prüfung & Prof.\ Böhm, weitere Fachperson der HM (offen) & Lehrbeauftragter für Brandschutz der HM, eigene Fachkenntnis & Fachleute aus der Behördenpraxis (offen) & Fachleute der Studie \\
+    Stand & umgesetzt & geplant & geplant & Verfügbarkeit prüfen \\
     \bottomrule
   \end{tabularx}
   \caption{Anwendungsfälle der Arbeit}
@@ -35,12 +35,12 @@ Zweitens soll mindestens ein Fall Vorschriften enthalten, die nicht frei zugäng
 Drittens müssen Fachleute erreichbar sein, die die \fb{referenzzuordnung} prüfen.
 Viertens muss sich der Prozess in die drei Ebenen Prozess, Teilprozess und Task gliedern lassen.
 % Sätze 7-9 abgesegnet am 30.10.2026
-Die Fälle 1 und 2 wurden für diese Arbeit selbst entworfen.
+Die Fälle 1 bis 3 wurden für diese Arbeit selbst entworfen.
 Sie orientieren sich an typischen Abläufen in solchen Organisationen, geben aber keinen tatsächlichen Prozess einer bestimmten Organisation wieder.
-Fall 3 übernimmt dagegen die Daten aus der Studie von Sai et al.~\cite{sai2024}.
+Fall 4 übernimmt dagegen die Daten aus der Studie von Sai et al.~\cite{sai2024}.
 \offen{Zeile \enquote{Stand} in Tabelle~\ref{tab:anwendungsfaelle} vor Abgabe aktualisieren oder entfernen}
 
-\subsection{Fall 1: Bewerbungsverfahren an einer Hochschule}\label{sec:fall1}
+\subsection{Fall 1: Berufungsverfahren an einer Hochschule}\label{sec:fall1}
 \offen{Entscheidung 19.11.2026: Fall~1 ist ein Berufungsverfahren (Professur an der HM). Texte 4.3.1 bis 4.3.3 am 19.11. angepasst; Zahlen beruhen auf dem Entwurf h1/results/entwurf\_fall1\_berufung und ändern sich nach der fachlichen Prüfung. Eingabedateien und Anhang~B zeigen noch die WiMi-Stelle, bis ein Auftrag sie ersetzt. Läufe v1 bis v3 gelten als Vorversuche}
 % Sätze 1-3 abgesegnet am 28.10.2026, am 19.11. auf das Berufungsverfahren umgestellt
 Der erste Anwendungsfall ist die Berufung einer Professorin oder eines Professors an die Hochschule München.
@@ -68,8 +68,8 @@ Jede Beschreibung nennt, wer handelt, was geschieht und welches System beteiligt
 Diese Form lehnt sich an Sai et al.~\cite{sai2024} an, die den Prozess, jeden Teilprozess und jeden Task ebenfalls kurz beschreiben.
 Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablauf, damit der Agent die rechtlichen Anforderungen aus den Regelwerken ableiten muss.
 Ein Beispiel ist \enquote{T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.}
-Tabelle~\ref{tab:h1_prozess} zeigt den vollständigen Prozess (Datei \repodatei{h1/input/prozess.json}).
-\offen{Beschreibungen per Auftrag in prozess.json übernehmen (Entwurf in ERGEBNIS.md Abschnitt~8, Punkt~9); danach Tabelle~\ref{tab:h1_prozess} um die Spalte Beschreibung erweitern}
+Tabelle~\ref{tab:fall1_prozess} zeigt den vollständigen Prozess.
+\offen{Eingabedateien (prozess.json, firmenprofil.json, soll\_liste.csv) per Auftrag durch den Stand aus Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz} ersetzen; danach wieder auf die Dateien verweisen}
 % Sätze A1-A6 (Annahmen) abgesegnet am 19.11.2026; Annahmen bleiben Felder im Profil
 Das Profil enthält zusätzlich Annahmen zum Fall (Festlegungen, die in der Praxis von der einzelnen Organisation abhängen).
 Die Annahmen legen die Umstände fest, von denen die geltenden Vorschriften abhängen.
@@ -105,12 +105,12 @@ Die Falle zeigt, ob der Agent Ausnahmen erkennt, statt Muster aus anderen Einste
 \offen{Beleg für die Falle am amtlichen Text prüfen (Art.~4 und Art.~78 BayPVG)}
 Die Referenz enthält ausschließlich Vorschriften zu Schritten, die im Prozess vorkommen oder vorkommen müssten.
 Die Einwilligung für einen Talentpool (Sammlung von Bewerbungen für spätere Stellen) nach Art.~6 Abs.~1 lit.~a DSGVO gehört deshalb nicht dazu, weil der Prozess die Daten nach Ablauf der Frist löscht.
-Anhang~\ref{anh:vorschriften} zeigt alle Zeilen (Datei \repodatei{h1/input/soll_liste.csv}).
+Tabelle~\ref{tab:fall1_referenz} im Anhang zeigt alle Zeilen.
 Die Referenzzuordnung ist ein Entwurf des Autors und wird vor den finalen Läufen von Fachleuten geprüft (Abschnitt~\ref{sec:fachliche_pruefung}).
 
 \subsubsection{Abdeckung}\label{sec:fall1_abdeckung}
 % Sätze 1-5, 7, 8 abgesegnet am 19.11.2026; Satz 6 (interne Regelungen der HM) in den Ausblick verschoben
-Die drei Fälle sollen zusammen alle Ebenen der Rechtsquellen aus Abbildung~\ref{fig:rechtsquellen} abdecken.
+Die vier Fälle sollen zusammen alle Ebenen der Rechtsquellen aus Abbildung~\ref{fig:rechtsquellen} abdecken.
 So lässt sich prüfen, ob der Agent Vorschriften auf jeder Ebene findet.
 Tabelle~\ref{tab:fall1_abdeckung} zeigt, welche Ebenen Fall~1 abdeckt und mit welchen Regelwerken.
 Fall~1 deckt fünf der sieben Ebenen ganz oder teilweise ab.
@@ -135,7 +135,7 @@ Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU blei
     Ausländisches Recht & -- & nein, durch Annahme ausgeschlossen \\
     \bottomrule
   \end{tabularx}
-  \caption[Abdeckung der Rechtsebenen durch Fall~1]{Abdeckung der Ebenen der Rechtsquellen durch Fall~1. Quelle: eigene Darstellung, Daten aus \repodatei{h1/input/soll_liste.csv}.}
+  \caption[Abdeckung der Rechtsebenen durch Fall~1]{Abdeckung der Ebenen der Rechtsquellen durch Fall~1. Quelle: eigene Darstellung, Daten aus Tabelle~\ref{tab:fall1_referenz}.}
   \label{tab:fall1_abdeckung}
 \end{table}
 
@@ -152,22 +152,34 @@ Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU blei
 \subsubsection{Abdeckung}\label{sec:fall2_abdeckung}
 \offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
 
-\subsection{Fall 3: Vergleichsdaten von Sai et al.}\label{sec:fall3}
-\offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
-\offen{Daten: Versicherung (7 Teilprozesse, 31 Tasks, 342 veröffentlichte Absätze) und Bank (7 Teilprozesse, 19 Tasks, 311 Absätze), MIT-Lizenz, im Repo unter h1/input/sai. Ohne bewusst entfernte Schritte, daher nur für H1 und H2}
+\subsection{Fall 3: TETRA-Endgeräte in einer Behörde}\label{sec:fall3}
+\offen{Entscheidung 19.11.2026: zusätzlicher Fall neben Fall~2. Warum der Fall sinnvoll ist: ETSI-Normen sind frei verfügbar (Gegenstück zu Fall~2), Richtlinien-Ebene über Funkanlagen-Richtlinie (RED) und WEEE, Normen-Ebene über harmonisierte Normen; Fachleute über den Arbeitsplatz des Autors (nur öffentlich zugängliche Informationen, BOS-Funk teils Verschlusssache)}
+\offen{Prozess-Skizze: TP1 Bedarf (Gerätezahl, Anforderungen, BOS-Zulassung) -- TP2 Vergabe (GWB, VgV bzw. VSVgV) -- TP3 Annahme (CE-Kennzeichnung und Konformitätserklärung nach Funkanlagengesetz, ETSI EN 300 392) -- TP4 Inbetriebnahme (Sicherheitskarte, Programmierung, Anmeldung im Netz; BSI- und BDBOS-Vorgaben) -- TP5 Nutzung (Schulung, Ausgabe, Sperrung verlorener Geräte; optional KI-Transkription von Funksprüchen) -- TP6 Aussonderung (Sicherheitskarte zurückgeben, Speicher löschen, Entsorgung nach ElektroG). Lückenkandidaten: Personalrat wegen Standortdaten (BayPVG), Datenschutz-Folgenabschätzung, Löschen vor Entsorgung. Alle Angaben prüfen}
 \subsubsection{Eingabe}\label{sec:fall3_eingabe}
 \offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
 
 \subsubsection{Erwartung}\label{sec:fall3_erwartung}
-\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften})}
+\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften}), bewusst entfernte Schritte, Kontrollschritt}
 
 \subsubsection{Abdeckung}\label{sec:fall3_abdeckung}
+\offen{Tabelle der Rechtsebenen aus Abbildung~\ref{fig:rechtsquellen}}
+
+\subsection{Fall 4: Vergleichsdaten von Sai et al.}\label{sec:fall4}
+\offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
+\offen{Daten: Versicherung (7 Teilprozesse, 31 Tasks, 342 veröffentlichte Absätze) und Bank (7 Teilprozesse, 19 Tasks, 311 Absätze), MIT-Lizenz, im Repo unter h1/input/sai. Ohne bewusst entfernte Schritte, daher nur für H1 und H2}
+\subsubsection{Eingabe}\label{sec:fall4_eingabe}
+\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
+
+\subsubsection{Erwartung}\label{sec:fall4_erwartung}
+\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften})}
+
+\subsubsection{Abdeckung}\label{sec:fall4_abdeckung}
 \offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
 
 \subsection{Fachliche Prüfung}\label{sec:fachliche_pruefung}
 % Gliederung 4.6-4.11 abgestimmt am 18.11.2026
 \offen{Wer prüft je Fall (Rolle, Fachgebiet), Ablauf, Prüfbogen (Anhang~D), Ergebnis}
-\offen{Fachliche Prüfung der Referenzzuordnung (Fall~1, Fall~2) durch [Fachperson, Rechtsgebiet] ausstehend. Fall~3 wurde bei Sai et al.\ geprüft. Grundlage für H1, H2 und H3}
+\offen{Fachliche Prüfung der Referenzzuordnung (Fall~1, Fall~2) durch [Fachperson, Rechtsgebiet] ausstehend. Fall~4 wurde bei Sai et al.\ geprüft. Grundlage für H1, H2 und H3}
 \offen{Fachliche Prüfung der Soll-Entscheidungen der Referenzfälle für die Prüfregeln ausstehend. Grundlage für H5, H6 und H7}
 
 \subsection{Agent}\label{sec:agent}
