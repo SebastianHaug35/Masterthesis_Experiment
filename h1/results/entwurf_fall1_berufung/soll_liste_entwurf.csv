@@ -1,0 +1,53 @@
+soll_id;regelwerk;fundstelle;task_id;typ;inhalt
+B01;GG;Art. 33 Abs. 2;GESAMT;zuordnung;Bestenauslese im öffentlichen Dienst
+B02;AGG;§ 7;GESAMT;zuordnung;Benachteiligungsverbot, für Beamte über § 24 AGG
+B03;DSGVO;Art. 32;GESAMT;zuordnung;Sicherheit der Verarbeitung (Portal, System, Aufbewahrung)
+B04;BayHIG;Art. 66 Abs. 1;T1.1|T1.2;zuordnung;Freigabe und Ausrichtung durch die Hochschulleitung, Anhörung Fakultätsrat
+B05;BayHIG;Art. 66 Abs. 4;T1.3;zuordnung;Bildung und Zusammensetzung des Berufungsausschusses
+B06;BayHIG;Art. 66 Abs. 4 Satz 1 Nr. 3;T1.3;zuordnung;Gleichstellungsbeauftragte im Ausschuss (Kontrollschritt)
+B07;BayHIG;Art. 66 Abs. 3;T1.4;zuordnung;öffentliche, in der Regel internationale Ausschreibung
+B08;AGG;§ 11;T1.4;zuordnung;diskriminierungsfreie Ausschreibung
+B09;BayHIG;(Einstellungsvoraussetzungen Professur HAW, Norm prüfen);T1.4|T3.1|T5.2;zuordnung;Berufungsvoraussetzungen (u. a. Berufspraxis)
+B10;DSGVO;Art. 6;T2.1|T2.3;zuordnung;Rechtsgrundlage der Verarbeitung von Bewerberdaten
+B11;BayDSG;(Norm prüfen);T2.1|T2.3;zuordnung;Verarbeitung nach bayerischem Landesrecht
+B12;DSGVO;Art. 13;T2.1|T2.2;zuordnung;Informationspflicht bei Erhebung
+B13;AI Act;Anhang III Nr. 4;T3.1|T3.2;zuordnung;Einstufung als Hochrisiko-KI-System
+B14;AI Act;Art. 26;T3.1|T3.2|T3.3|T3.4;zuordnung;Betreiberpflichten: Verwendung gemäß Anleitung, menschliche Aufsicht, Protokollierung
+B15;AGG;§ 7;T3.1|T3.2;zuordnung;algorithmische Benachteiligung
+B16;DSGVO;Art. 22;T3.4|T5.3;zuordnung;keine ausschließlich automatisierte Einzelentscheidung
+B17;SGB IX;§ 165;T4.1;zuordnung;Einladung schwerbehinderter Bewerbender (öffentlicher Arbeitgeber)
+B18;AGG;§ 7;T4.2;zuordnung;zulässige Fragen im Gespräch
+B19;DSGVO;Art. 5 Abs. 2;T4.3|T7.2;zuordnung;Rechenschaftspflicht Dokumentation
+B20;BayHIG;Art. 66 Abs. 5;T5.1|T5.2;zuordnung;auswärtige und vergleichende Gutachten, Vorschlag mit drei Namen, Begründung der Reihung
+B21;BayHIG;Art. 66 Abs. 6;T5.3;zuordnung;Entscheidung der Präsidentin oder des Präsidenten ohne Bindung an die Reihung
+B22;BayHIG;Art. 66 Abs. 11;T6.2;zuordnung;Ausstattung grundsätzlich befristet
+B23;BayBesG;(Leistungsbezüge W-Besoldung, Norm prüfen);T6.2;zuordnung;Berufungs-Leistungsbezüge
+B24;BeamtStG;§ 8;T6.3;zuordnung;Ernennung durch Aushändigung einer Urkunde
+B25;BayBG;(Norm prüfen);T6.3;zuordnung;Beamtenverhältnis von Professorinnen und Professoren
+B26;AGG;§ 15 Abs. 4;T7.2;zuordnung;2-Monats-Frist, daraus Aufbewahrung
+B27;DSGVO;Art. 17;T7.3;zuordnung;Löschung
+L01;BayHIG;Art. 66 Abs. 1 Satz 6;LUECKE;luecke;Staatsministerium vor der Ausschreibung informieren
+L02;BayHIG;Art. 66 Abs. 5 Satz 8;LUECKE;luecke;Stellungnahme des Senats zum Berufungsvorschlag
+L03;SGB IX;§ 164;LUECKE;luecke;Prüfung Besetzung mit schwerbehinderten Menschen
+L04;SGB IX;§ 165;LUECKE;luecke;Meldung der freien Stelle an die Agentur für Arbeit
+L05;SGB IX;§ 178;LUECKE;luecke;Beteiligung der Schwerbehindertenvertretung
+L06;AI Act;Art. 26 Abs. 11;LUECKE;luecke;Information der Betroffenen über den KI-Einsatz
+L07;AI Act;Art. 27;LUECKE;luecke;Grundrechte-Folgenabschätzung (öffentliche Stelle)
+L08;AI Act;Art. 4;LUECKE;luecke;KI-Kompetenz der Mitarbeitenden
+L09;DSGVO;Art. 35;LUECKE;luecke;Datenschutz-Folgenabschätzung
+L10;BayPVG;Art. 75a;LUECKE;luecke;Mitbestimmung Personalrat bei Einführung/Anwendung des KI-Tools (Norm prüfen)
+N01;DSGVO;Art. 5 Abs. 1;GESAMT;neutral;Grundsätze der Verarbeitung
+N02;DSGVO;Art. 9;GESAMT;neutral;besondere Kategorien personenbezogener Daten
+N03;DSGVO;Art. 12;GESAMT;neutral;Form der Information
+N04;DSGVO;Art. 24;GESAMT;neutral;Verantwortung des Verantwortlichen
+N05;DSGVO;Art. 25;GESAMT;neutral;Datenschutz durch Technikgestaltung
+N06;DSGVO;Art. 28;GESAMT;neutral;Auftragsverarbeitung (KI-Anbieter)
+N07;DSGVO;Art. 30;GESAMT;neutral;Verzeichnis von Verarbeitungstätigkeiten
+N08;AI Act;Art. 14;GESAMT;neutral;menschliche Aufsicht (Anbieterpflicht, über Art. 26 relevant)
+N09;AI Act;Art. 49;GESAMT;neutral;Registrierung (öffentliche Betreiber)
+N10;AI Act;Art. 86;GESAMT;neutral;Recht auf Erläuterung
+N11;BayHIG;Art. 66 Abs. 2;GESAMT;neutral;Berichterstatterin oder Berichterstatter ("in der Regel")
+N12;BayHIG;Art. 22;GESAMT;neutral;Gleichstellungsbeauftragte, Aufgaben
+N13;BayGlG;;GESAMT;neutral;allgemeines Gleichstellungsrecht, an Hochschulen durch BayHIG überlagert (prüfen)
+N14;HM-Satzung;Berufungsordnung der HM (falls vorhanden, prüfen);GESAMT;neutral;Ebene unterhalb des Gesetzes
+F01;BayPVG;Art. 4 / Art. 78;FALLE;falle;Keine Mitbestimmung des Personalrats bei Einstellung von Professuren. Meldung als Lücke = Fehlmeldung (prüfen)
