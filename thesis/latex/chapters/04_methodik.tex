@@ -17,7 +17,7 @@ Der Ansatz wird an mehreren Anwendungsfällen untersucht, die sich in Branche, R
      & \textbf{Fall 1: Bewerbungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: Vergleichsdaten Sai et al.} \\
     \midrule
     Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & Versicherung und Bank (Australien) \\
-    Prozess & Besetzung einer befristeten Stelle mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Schadensbearbeitung; Kundenprüfung \\
+    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Schadensbearbeitung; Kundenprüfung \\
     Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Versicherungs- und Finanzaufsichtsrecht \\
     Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & durch die Studie vorgegeben \\
     Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & Vergleichswert \\
@@ -41,10 +41,9 @@ Fall 3 übernimmt dagegen die Daten aus der Studie von Sai et al.~\cite{sai2024}
 \offen{Zeile \enquote{Stand} in Tabelle~\ref{tab:anwendungsfaelle} vor Abgabe aktualisieren oder entfernen}
 
 \subsection{Fall 1: Bewerbungsverfahren an einer Hochschule}\label{sec:fall1}
-\offen{Entscheidung 19.11.2026: Fall~1 wird auf ein Berufungsverfahren (Professur an der HM) umgestellt. Die Texte in 4.3.1 bis 4.3.3 beschreiben noch die WiMi-Stelle und werden nach Freigabe des neuen Prozesses angepasst. Läufe v1 bis v3 gelten danach als Vorversuche}
-% Sätze 1-3 abgesegnet am 28.10.2026
-Der erste Anwendungsfall ist die Besetzung einer Stelle für eine wissenschaftliche Mitarbeiterin oder einen wissenschaftlichen Mitarbeiter an der Hochschule München.
-Die Stelle ist auf drei Jahre befristet und dient der Promotion.
+\offen{Entscheidung 19.11.2026: Fall~1 ist ein Berufungsverfahren (Professur an der HM). Texte 4.3.1 bis 4.3.3 am 19.11. angepasst; Zahlen beruhen auf dem Entwurf h1/results/entwurf\_fall1\_berufung und ändern sich nach der fachlichen Prüfung. Eingabedateien und Anhang~B zeigen noch die WiMi-Stelle, bis ein Auftrag sie ersetzt. Läufe v1 bis v3 gelten als Vorversuche}
+% Sätze 1-3 abgesegnet am 28.10.2026, am 19.11. auf das Berufungsverfahren umgestellt
+Der erste Anwendungsfall ist die Berufung einer Professorin oder eines Professors an die Hochschule München.
 Für den Fall wird angenommen, dass die Hochschule ein KI-Werkzeug einsetzt, das eingehende Bewerbungen auswertet und in eine Rangfolge bringt.
 \offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
 \offen{Hinweis: Eingaben und Referenz von Fall~1 sind in dieser Form zur fachlichen Prüfung vorgesehen (Abschnitt~\ref{sec:fachliche_pruefung})}
@@ -59,9 +58,9 @@ Tabelle~\ref{tab:h1_profil} zeigt alle Angaben des Profils, die der Agent erhäl
 \offen{Profil um Schwerbehindertenvertretung und Rolle beim KI-Tool (Betreiberin) ergänzen, Vorschlag in ERGEBNIS.md Abschnitt~8; Tabelle danach neu erzeugen. Entscheiden, ob die Tabelle hier oder im Anhang steht}
 % Sätze 11-17 abgesegnet am 19.11.2026 (Task-Beschreibungen wie bei Sai et al.)
 Die zweite Eingabe ist der Prozess.
-Er reicht von der Ausschreibung der Stelle bis zur Löschung der Daten abgelehnter Bewerbender.
-Der Prozess ist nach den Ebenen aus Abschnitt~\ref{sec:geschaeftsprozesse} in sechs Teilprozesse und 19 Tasks gegliedert.
-Die Teilprozesse sind Stelle ausschreiben, Bewerbungen annehmen, KI-Vorauswahl, Vorstellungsgespräche, Auswahl und Einstellung sowie Absagen und Löschen.
+Er reicht von der Freigabe der Professur bis zur Löschung der Daten abgelehnter Bewerbender.
+Der Prozess ist nach den Ebenen aus Abschnitt~\ref{sec:geschaeftsprozesse} in sieben Teilprozesse und 23 Tasks gegliedert.
+Die Teilprozesse sind Professur freigeben und ausschreiben, Bewerbungen annehmen, KI-Vorauswahl, Probevorträge, Berufungsvorschlag, Ruf und Ernennung sowie Absagen und Löschen.
 Der Prozess, jeder Teilprozess und jeder Task haben eine Bezeichnung und eine kurze Beschreibung.
 Teilprozesse und Tasks tragen zusätzlich eine Kennung, zum Beispiel \enquote{TP3} und \enquote{T3.2}.
 Die Kennung eines Tasks setzt sich aus der Nummer des Teilprozesses und der laufenden Nummer des Tasks zusammen.
@@ -76,28 +75,34 @@ Das Profil enthält zusätzlich Annahmen zum Fall (Festlegungen, die in der Prax
 Die Annahmen legen die Umstände fest, von denen die geltenden Vorschriften abhängen.
 Das KI-Tool zur Vorauswahl stammt von einem Anbieter mit Sitz in der EU, und alle Daten bleiben in der EU.
 Die Hochschule setzt das Tool ein und ist damit Betreiberin (Organisation, die ein KI-System in eigener Verantwortung nutzt) im Sinne des AI Act.
-Die Stelle ist auf drei Jahre befristet und dient der Promotion.
+Die Stelle ist eine Professur der Besoldungsgruppe W2 im Beamtenverhältnis.
 Diese Festlegungen machen die Referenzzuordnung eindeutig, denn eine Übermittlung in Staaten außerhalb der EU würde zum Beispiel weitere Pflichten auslösen.
 \offen{Betreiberrolle steht erst nach der Profil-Ergänzung (ERGEBNIS.md Abschnitt~8, Punkt~7) in der Eingabe}
 
 \subsubsection{Erwartung}\label{sec:fall1_erwartung}
-% Sätze 1-20 abgesegnet am 19.11.2026 (Verneinungen in Satz 12 und 18 bewusst behalten; "fehlt" statt "bewusst entfernt", weil nur ein Teil der Lücken geplant war)
+% Sätze 1-20 abgesegnet am 19.11.2026, Zahlen und Kontrollschritt am 19.11. auf das Berufungsverfahren umgestellt (Verneinungen in Satz 12 und 18 bewusst behalten; "fehlt" statt "bewusst entfernt", weil nur ein Teil der Lücken geplant war)
 Um das Ergebnis des Agenten bewerten zu können, braucht jeder Fall eine Referenzzuordnung (Liste der Vorschriften, die eine fachkundige Person dem Prozess zuordnen würde).
 Die Referenzzuordnung legt fest, welche Vorschrift bei welchem Task gilt.
 Sie ist genauso aufgebaut wie die Ausgabe des Agenten, damit sich beide Zeile für Zeile vergleichen lassen.
 Jede Zeile nennt das Regelwerk, die Fundstelle (Artikel oder Paragraf, wenn möglich mit Absatz), die betroffenen Tasks, die Art der Zeile und den Inhalt in Stichworten.
-Die Referenzzuordnung für Fall~1 umfasst 48 Zeilen aus 13 Regelwerken.
-Sie unterscheidet drei Arten von Zeilen.
-Die 23 Zeilen der Art Zuordnung verbinden eine Vorschrift mit einem oder mehreren Tasks oder mit dem ganzen Prozess.
-Die 9 Zeilen der Art fehlender Schritt beschreiben Pflichten, die einen eigenen Task erfordern, der im Prozess fehlt.
+Die Referenzzuordnung für Fall~1 umfasst 52 Zeilen aus 13 Regelwerken.
+Sie unterscheidet vier Arten von Zeilen.
+Die 27 Zeilen der Art Zuordnung verbinden eine Vorschrift mit einem oder mehreren Tasks oder mit dem ganzen Prozess.
+Die 10 Zeilen der Art fehlender Schritt beschreiben Pflichten, die einen eigenen Task erfordern, der im Prozess fehlt.
 Beispiele sind die Datenschutz-Folgenabschätzung nach Art.~35 DSGVO und die Beteiligung der Schwerbehindertenvertretung nach §~178 SGB~IX.
 Diese Zeilen prüfen, ob der Agent fehlende Pflichten erkennt (H3).
-Die 16 Zeilen der Art neutral nennen allgemeine Vorschriften, die im ganzen Prozess gelten, etwa die Grundsätze der Verarbeitung nach Art.~5 Abs.~1 DSGVO.
+Die 14 Zeilen der Art neutral nennen allgemeine Vorschriften, die im ganzen Prozess gelten, etwa die Grundsätze der Verarbeitung nach Art.~5 Abs.~1 DSGVO.
 Ihre Nennung bleibt in der Auswertung ohne Gewicht, weil sie fachlich vertretbar ist und zugleich keinen konkreten Task betrifft.
 Der Prozess enthält außerdem einen Kontrollschritt (Task, der eine Pflicht bereits erfüllt und deshalb als vorhanden gelten muss).
-Das ist die Beteiligung der Gleichstellungsbeauftragten in T4.1 und T4.2 nach Art.~17 BayGlG.
+Das ist die Mitgliedschaft der Gleichstellungsbeauftragten im Berufungsausschuss in T1.3 nach Art.~66 Abs.~4 BayHIG.
 Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
 Der Kontrollschritt zeigt so, ob der Agent vorhandene Schritte von fehlenden unterscheidet.
+% Falle, Sätze abgesegnet am 19.11.2026
+Eine Zeile der Art Falle nennt eine Pflicht, die in diesem Fall entfällt.
+Der Personalrat bestimmt bei der Einstellung von Professorinnen und Professoren nicht mit.
+Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
+Die Falle zeigt, ob der Agent Ausnahmen erkennt, statt Muster aus anderen Einstellungsverfahren zu übertragen.
+\offen{Beleg für die Falle am amtlichen Text prüfen (Art.~4 und Art.~78 BayPVG)}
 Die Referenz enthält ausschließlich Vorschriften zu Schritten, die im Prozess vorkommen oder vorkommen müssten.
 Die Einwilligung für einen Talentpool (Sammlung von Bewerbungen für spätere Stellen) nach Art.~6 Abs.~1 lit.~a DSGVO gehört deshalb nicht dazu, weil der Prozess die Daten nach Ablauf der Frist löscht.
 Anhang~\ref{anh:vorschriften} zeigt alle Zeilen (Datei \repodatei{h1/input/soll_liste.csv}).
@@ -109,7 +114,7 @@ Die drei Fälle sollen zusammen alle Ebenen der Rechtsquellen aus Abbildung~\ref
 So lässt sich prüfen, ob der Agent Vorschriften auf jeder Ebene findet.
 Tabelle~\ref{tab:fall1_abdeckung} zeigt, welche Ebenen Fall~1 abdeckt und mit welchen Regelwerken.
 Fall~1 deckt fünf der sieben Ebenen ganz oder teilweise ab.
-Unterhalb des Gesetzes ist ausschließlich der TV-L vertreten.
+Unterhalb des Gesetzes ist die Berufungsordnung der Hochschule vorgesehen, sofern sie veröffentlicht ist.
 Technische Normen deckt Fall~2 ab (Abschnitt~\ref{sec:fall2}).
 Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU bleiben.
 
@@ -121,11 +126,11 @@ Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU blei
     \toprule
     \textbf{Ebene (Abbildung~\ref{fig:rechtsquellen})} & \textbf{Regelwerke in Fall~1} & \textbf{Abgedeckt} \\
     \midrule
-    Recht der EU & DSGVO, AI Act (Verordnungen); Richtlinien über ihre Umsetzung im AGG und NachwG & ja \\
+    Recht der EU & DSGVO, AI Act (Verordnungen); Richtlinien über ihre Umsetzung im AGG & ja \\
     Grundgesetz & Art.~33 Abs.~2 GG & ja \\
-    Bundesrecht & AGG, SGB~IX, NachwG, TzBfG, WissZeitVG & ja \\
-    Landesrecht & BayDSG, BayGlG, BayPVG & ja \\
-    Regelungen unterhalb des Gesetzes & TV-L & teilweise \\
+    Bundesrecht & AGG, SGB~IX, BeamtStG & ja \\
+    Landesrecht & BayHIG, BayBG, BayBesG, BayDSG, BayPVG & ja \\
+    Regelungen unterhalb des Gesetzes & Berufungsordnung der HM, sofern veröffentlicht & offen \\
     Technische Normen & -- & nein, Fall~2 \\
     Ausländisches Recht & -- & nein, durch Annahme ausgeschlossen \\
     \bottomrule
