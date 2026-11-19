@@ -516,4 +516,30 @@ immer gefüllt (95 %). BayPVG Art. 75 (Eingruppierung/Einstellung) war die häuf
 8. **Offen zur Diskussion:** Profil nur auf den Prozess ausrichten oder um prozessunwichtige Angaben erweitern
    (Ablenker), um die Genauigkeit unter realistischeren Bedingungen zu testen.
 
+9. **Prozess: Beschreibung je Task (Planungs-Assistent, vor den finalen v4-Läufen, mit Sebastian am 19.11.2026 abgestimmt):**
+   Jeder Task in `h1/input/prozess.json` erhält ein Feld `beschreibung` mit einem Satz (wie bei Sai et al.).
+   Regel: Der Satz nennt, wer den Task ausführt, was geschieht und welches System beteiligt ist. Er enthält keine
+   rechtlichen Hinweise und ergänzt keine Schritte, die in der Referenz als fehlende Schritte (Lücken) gelten.
+   Folge: v4 ist in diesem Punkt nicht direkt mit v1–v3 vergleichbar (in DECISIONS.md festhalten).
+   Entwurf (noch nicht abgesegnet):
+   - T1.1 Die Professur meldet der Personalabteilung den Bedarf für eine Stelle als wissenschaftliche Mitarbeiterin oder wissenschaftlicher Mitarbeiter.
+   - T1.2 Personalabteilung und Professur legen Aufgaben, Anforderungen und Entgeltgruppe nach TV-L fest.
+   - T1.3 Die Personalabteilung veröffentlicht die Ausschreibung im Intranet und auf dem Stellenportal der Hochschule.
+   - T2.1 Bewerbende laden Anschreiben, Lebenslauf und Zeugnisse im Bewerbungsportal der Hochschule hoch.
+   - T2.2 Das Portal sendet jeder bewerbenden Person eine Eingangsbestätigung per E-Mail.
+   - T2.3 Die Personalabteilung legt für jede Bewerbung einen Datensatz im Bewerbermanagementsystem an.
+   - T3.1 Das KI-Tool liest die Unterlagen und gleicht sie mit den Anforderungen der Ausschreibung ab.
+   - T3.2 Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.
+   - T3.3 Die Professur prüft Rangliste und Unterlagen und passt die Reihenfolge bei Bedarf an.
+   - T3.4 Die Professur wählt die Bewerbenden für die Vorstellungsgespräche aus.
+   - T4.1 Die Personalabteilung lädt die ausgewählten Bewerbenden per E-Mail ein und weist auf das Antragsrecht zur Beteiligung der Gleichstellungsbeauftragten hin.
+   - T4.2 Die Auswahlkommission führt die Gespräche anhand eines Leitfadens, auf Antrag der Bewerbenden mit der Gleichstellungsbeauftragten.
+   - T4.3 Die Kommission hält Verlauf und Bewertung jedes Gesprächs schriftlich fest.
+   - T5.1 Die Kommission entscheidet anhand der Bewertungen über die Besetzung.
+   - T5.2 Die Personalabteilung erstellt ein Vertragsangebot mit Laufzeit, Arbeitszeit und Entgeltgruppe.
+   - T5.3 Die Hochschule und die ausgewählte Person unterzeichnen den Arbeitsvertrag.
+   - T6.1 Die Personalabteilung sendet den übrigen Bewerbenden eine Absage per E-Mail.
+   - T6.2 Die Personalabteilung bewahrt die Unterlagen der abgelehnten Bewerbenden bis zum Ende einer festgelegten Frist auf.
+   - T6.3 Die Personalabteilung löscht die Daten im Bewerbungsportal und im Bewerbermanagementsystem.
+
 <!-- MANUELL ENDE -->
