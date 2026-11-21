@@ -51,3 +51,5 @@ Erledigte Punkte werden gestrichen, nicht gelöscht.
 32. **Normen Fall 1 nachgeschlagen (19.11.):** Art. 57 Abs. 3 und Art. 58 Abs. 1 BayHIG, Art. 70 BayBesG, Art. 4 Abs. 4 Buchst. a und Art. 75a BayPVG (über LexMea/gesetze.legal, amtlich gegenlesen). BayBG entfällt. Maßgeblich ist Anhang A in der TeX; die Entwurfs-CSV unter h1/results ist damit veraltet. Offen: Art. 75a Abs. 1 Nr. 2 bei Berufungen anwendbar? BayDSG-Norm, BayGlG an Hochschulen, Berufungsordnung der HM (laut HM-FAQ keine genannt).
 
 33. **Modellwahl (21.11.2026):** Hauptmodell Claude Opus 5.5, Vergleich mit DeepSeek; GPT-6 Luna entfällt (v1–v3 bleiben Vorversuche). Folgen: Code für beide Anbieter später, Budget in `budget.yaml` (5 USD) reicht nicht (grob 70–200 USD für ~40 Läufe mit Opus 5.5), Freigabe Datenübermittlung an DeepSeek nach KI-Regeln der HM prüfen.
+
+34. **Vorversuche (21.11.2026):** Die Läufe v1–v3 mit GPT-6 Luna bleiben im Repo, werden in der Thesis aber nicht erwähnt. Die Thesis beschreibt nur die finalen Läufe.
