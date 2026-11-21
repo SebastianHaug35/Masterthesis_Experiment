@@ -1,12 +1,14 @@
 \clearpage
 \appendix
 \section{Vorschriften der Anwendungsfälle im Einzelnen}\label{anh:vorschriften}
-\subsection{Fall 1: Bewerbungsverfahren}
-\offen{Einleitender Satz zu Anhang A gemeinsam formulieren}
-\input{appendix/anhang_a_fall1}
+\subsection{Fall 1: Berufungsverfahren}\label{anh:fall1}
+\offen{Einleitender Satz zu Anhang A gemeinsam formulieren. Die bisherige Referenz der WiMi-Stelle (appendix/anhang\_a\_fall1.tex) ist nicht mehr eingebunden}
+\input{appendix/anhang_a_fall1_berufung}
 \subsection{Fall 2: Brandmeldetechnik}
 \offen{Vorschriften Fall 2, sobald die Referenzzuordnung erstellt ist}
-\subsection{Fall 3: Vergleichsdaten von Sai et al.}
+\subsection{Fall 3: TETRA-Endgeräte}
+\offen{Vorschriften Fall~3, sobald die Referenzzuordnung erstellt ist}
+\subsection{Fall 4: Vergleichsdaten von Sai et al.}
 \offen{Verweis auf die Daten der Studie (h1/input/sai) und Kurzübersicht der Dokumente}
 
 \section{Testaufbau der Hypothesen}\label{anh:testaufbau}
@@ -18,7 +20,7 @@ Die Angaben gelten für den Stand der Versuche, auf dem die Ergebnisse in Kapite
 \subsection{H1: Regelwerke bestimmen (Fall 1)}\label{anh:testaufbau_h1}
 Für H1 erhält der Agent zwei Eingaben, das Profil der Organisation und den Prozess.
 \input{appendix/anhang_b_h1}
-\offen{Fall~2 und Fall~3 für H1 ergänzen, sobald die Eingaben vorliegen}
+\offen{Fall~2 bis Fall~4 für H1 ergänzen, sobald die Eingaben vorliegen}
 
 \subsection{H2: Vorschriften zuordnen}
 \offen{Eingabe wie H1 plus Rechtsrahmen (Konfiguration A: aus Stufe~1, Konfiguration B: vorgegeben, \repodatei{h1/input/rechtsrahmen_b.json}). Referenz: Zeilen der Art Zuordnung in Anhang~\ref{anh:vorschriften}}
@@ -27,7 +29,32 @@ Für H1 erhält der Agent zwei Eingaben, das Profil der Organisation und den Pro
 \offen{Eingabe wie H2. Referenz: Zeilen der Art fehlender Schritt in Anhang~\ref{anh:vorschriften}, Kontrolle Gleichstellungsbeauftragte}
 
 \subsection{H4: Prozess selbst entwerfen}
-\offen{Eingabe ohne Prozess. Referenz: Reihenfolge-Paare \enquote{A vor B} je Fall, noch nicht erstellt}
+\offen{Einleitende Sätze zu H4 (Eingabe ohne Prozess, Bewertung über Reihenfolge-Paare) gemeinsam formulieren}
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{4.8cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{4.5cm}@{}}
+\caption[Reihenfolge-Paare für Fall~1]{Reihenfolge-Paare \enquote{A vor B} für Fall~1 (Berufungsverfahren). Schritte ohne Task-Kennung fehlen im vorgegebenen Prozess. Quelle: eigene Darstellung (Entwurf).}\label{tab:h4_paare_fall1}\\
+\toprule \textbf{Nr.} & \textbf{Schritt A} & \textbf{Schritt B} & \textbf{Vorschrift} \\ \midrule \endfirsthead
+\toprule \textbf{Nr.} & \textbf{Schritt A} & \textbf{Schritt B} & \textbf{Vorschrift} \\ \midrule \endhead
+\bottomrule \endfoot
+1 & Professur freigeben (T1.2) & Ausschreibung veröffentlichen (T1.4) & Art.~66 Abs.~1 BayHIG \\
+2 & Staatsministerium informieren & Ausschreibung veröffentlichen (T1.4) & Art.~66 Abs.~1 Satz~6 BayHIG \\
+3 & Besetzung mit schwerbehinderten Menschen prüfen & Ausschreibung veröffentlichen (T1.4) & §~164 SGB~IX \\
+4 & Stelle der Agentur für Arbeit melden & Shortlist festlegen (T3.4) & §~165 SGB~IX \\
+5 & Berufungsausschuss mit Gleichstellungsbeauftragter bilden (T1.3) & Ranking prüfen (T3.3) & Art.~66 Abs.~4 BayHIG \\
+6 & Bewerbende über den KI-Einsatz informieren & Unterlagen auswerten (T3.1) & Art.~26 Abs.~11 AI Act, Art.~13 DSGVO \\
+7 & Datenschutz-Folgenabschätzung durchführen & Unterlagen auswerten (T3.1) & Art.~35 DSGVO \\
+8 & Grundrechte-Folgenabschätzung durchführen & Unterlagen auswerten (T3.1) & Art.~27 AI Act \\
+9 & Mitarbeitende im Umgang mit KI schulen & Unterlagen auswerten (T3.1) & Art.~4 AI Act \\
+10 & Ranking prüfen (T3.3) & Shortlist festlegen (T3.4) & Art.~26 AI Act, Art.~22 DSGVO \\
+11 & Schwerbehindertenvertretung beteiligen & Shortlist festlegen (T3.4) & §~178 Abs.~2 SGB~IX \\
+12 & Gutachten einholen (T5.1) & Berufungsliste beschließen (T5.2) & Art.~66 Abs.~5 BayHIG \\
+13 & Stellungnahme des Senats einholen & Über die Berufung entscheiden (T5.3) & Art.~66 Abs.~5 Satz~8 BayHIG \\
+14 & Ruf erteilen (T6.1) & Ernennen (T6.3) & Art.~66 Abs.~6 BayHIG, §~8 BeamtStG \\
+15 & Absagen versenden (T7.1), danach Frist abwarten & Daten löschen (T7.3) & §~15 Abs.~4 AGG, Art.~17 DSGVO \\
+\end{longtable}
+\end{small}
+\offen{Mögliches Paar 16: Personalrat beteiligen vor Einführung des KI-Werkzeugs (Art.~75a Abs.~1 Nr.~2 BayPVG). Anwendbarkeit auf Berufungen durch Prof.~Böhm prüfen lassen, liegt nah an der Falle}
+\offen{Reihenfolge-Paare für Fall~2 und Fall~3}
 
 \subsection{H5 bis H7: Prüfregeln und Laufzeit-Kontrolle}
 \offen{Referenzfälle mit Soll-Entscheidung, noch nicht erstellt}
