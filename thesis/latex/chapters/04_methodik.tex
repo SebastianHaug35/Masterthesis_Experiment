@@ -251,9 +251,30 @@ Anhang~\ref{anh:testaufbau} zeigt die Eingaben und die Referenz je Hypothese.
 
 \subsection{Auswertung H1 bis H3}\label{sec:auswertung_h1_h3}
 \subsubsection{Bewertung je Fund}
-\offen{Kategorien: korrekt, neutral, falscher Absatz, falscher Task, nicht in der Referenz; Prüfung auf erfundene Normen}
+% Sätze abgesegnet am 21.11.2026
+Jeder Fund des Agenten wird automatisch mit der Referenzzuordnung des Falls verglichen.
+Ein Fund gilt als Treffer, wenn Regelwerk, Vorschrift und Task mit einer Zeile der Art \enquote{Zuordnung} oder \enquote{fehlender Schritt} übereinstimmen.
+Als Vorschrift zählt dabei der Artikel oder Paragraf, der Absatz wird zusätzlich erfasst.
+Stimmt der Paragraf, aber der Absatz weicht ab, gilt der Fund als Treffer mit falschem Absatz und wird gesondert ausgewiesen.
+Stimmen Regelwerk und Vorschrift, aber der Task weicht ab, gilt der Fund als falscher Task.
+Trifft ein Fund eine Zeile der Art \enquote{neutral}, zählt er weder als Treffer noch als Fehler.
+Neutrale Zeilen erfassen Vorschriften, die fachlich vertretbar sind, für den Prozess aber nur am Rand eine Rolle spielen.
+Trifft ein Fund die Falle, zählt er als Fehler und wird gesondert ausgewiesen.
+Alle übrigen Funde gelten als zusätzlich, also außerhalb der Referenz.
+Der Verfasser prüft jeden zusätzlichen Fund von Hand, ob die Vorschrift existiert und ob sie fachlich vertretbar ist.
+Eine Vorschrift, die im genannten Regelwerk fehlt, gilt als erfundene Norm.
+Aus diesen Kategorien ergeben sich Trefferquote und Genauigkeit für jeden Lauf.
 \subsubsection{H1: Regelwerke}
-\offen{Trefferquote und Genauigkeit der Regelwerke, Schwelle 0,9}
+% Sätze abgesegnet am 21.11.2026 (Satz zur Bestätigung offen)
+Für H1 zählt die Ebene der Regelwerke.
+Ein Regelwerk gilt als geltend, wenn ihm in der Referenz mindestens eine Zeile der Art \enquote{Zuordnung} oder \enquote{fehlender Schritt} zugeordnet ist.
+Die Trefferquote für H1 ist der Anteil der geltenden Regelwerke, die der Agent in Stufe~1 nennt.
+Die Genauigkeit ist der Anteil der genannten Regelwerke, die in der Referenz als geltend geführt sind.
+\offen{Wann H1 als bestätigt gilt: mittlere Trefferquote in Konfiguration~A $\geq 0{,}9$, im Mittel über alle Fälle je Modell oder in jedem einzelnen Fall}
+Ein fehlendes Regelwerk führt dazu, dass in Stufe~2 alle seine Vorschriften fehlen.
+Deshalb verlangt H1 eine nahezu vollständige Trefferquote.
+Die Genauigkeit wird ergänzend berichtet.
+Die Auswertung erfolgt getrennt je Modell und je Fall.
 \offen{Satz: Herleitung der Referenz für H1 aus der Referenzzuordnung, Verweis auf Tabelle~\ref{tab:h1_referenz}}
 \subsubsection{H2: Zuordnung}
 \offen{Trefferquote auf Task-Ebene, Teilprozess- und Prozessebene ergänzend; Schwelle offen (0,62 oder 0,69)}
