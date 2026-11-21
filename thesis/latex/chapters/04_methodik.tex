@@ -277,9 +277,32 @@ Die Genauigkeit wird ergänzend berichtet.
 Die Auswertung erfolgt getrennt je Modell und je Fall.
 \offen{Satz: Herleitung der Referenz für H1 aus der Referenzzuordnung, Verweis auf Tabelle~\ref{tab:h1_referenz}}
 \subsubsection{H2: Zuordnung}
-\offen{Trefferquote auf Task-Ebene, Teilprozess- und Prozessebene ergänzend; Schwelle offen (0,62 oder 0,69)}
+% Sätze abgesegnet am 21.11.2026
+Mit H2 wird geprüft, ob der Agent jedem Task die richtigen Vorschriften zuordnet.
+Als richtig gelten die Zeilen der Art \enquote{Zuordnung} in der Referenz.
+Die Trefferquote für H2 ist der Anteil dieser Zeilen, die der Agent in Stufe~2 beim richtigen Task nennt.
+Die Genauigkeit ist der Anteil der Funde, die eine solche Zeile treffen.
+Zusätzlich werden beide Werte auf Ebene der Teilprozesse und des ganzen Prozesses berechnet.
+Auf Ebene der Teilprozesse zählt ein Fund als Treffer, wenn er beim richtigen Teilprozess steht, auch wenn der Task abweicht.
+Diese Ebene zeigt, ob der Agent die Vorschrift wenigstens dem richtigen Abschnitt des Prozesses zuordnet.
+Eine Vorschrift beim benachbarten Task desselben Teilprozesses hilft bei der Prüfung des Prozesses oft trotzdem weiter.
+Ein Beispiel ist die Pflicht, schwerbehinderte Bewerbende zu einem Vorstellungsgespräch einzuladen (§~165 SGB~IX), wenn sie beim Führen der Vorgespräche (T4.2) statt bei der Einladung (T4.1) steht.
+Auf Ebene des Prozesses genügt es, dass der Agent die Vorschrift bei irgendeinem Task nennt.
+Diese Ebene zeigt, ob der Agent die Vorschrift überhaupt findet, unabhängig davon, wo er sie einordnet.
+Die drei Ebenen entsprechen der Auswertung von Sai et al.~\cite{sai2024} und machen die Ergebnisse vergleichbar.
+Für den Vergleich mit Sai et al. zählt Konfiguration~B, in der der Agent die geltenden Regelwerke vorgegeben bekommt, weil auch Sai et al. die Regelwerke vorgegeben haben.
+Die Werte aus Konfiguration~A, in der der Agent die Regelwerke selbst bestimmt, werden ergänzend berichtet.
+\offen{Wann H2 als bestätigt gilt (Schwelle für die Trefferquote auf Ebene der Tasks, 0,62 oder 0,69)}
 \subsubsection{H3: Fehlende Schritte}
-\offen{Erkannte Lücken, Fehlmeldungen, Kontrollschritt; Grenze für Fehlmeldungen offen}
+% Sätze abgesegnet am 21.11.2026
+Mit H3 wird geprüft, ob der Agent erkennt, welche rechtlich gebotenen Schritte im Prozess fehlen.
+Findet der Agent eine Vorschrift, zu der im Prozess ein passender Schritt fehlt, gibt er eine Meldung aus, also einen Hinweis auf den fehlenden Schritt zusammen mit der Vorschrift.
+Als richtig gelten die Zeilen der Art \enquote{fehlender Schritt} in der Referenz.
+Eine Meldung gilt als erkannt, wenn Regelwerk und Vorschrift mit einer solchen Zeile übereinstimmen.
+Die Stelle im Prozess, an der der Agent den Schritt einordnet, wird zusätzlich erfasst.
+Meldet der Agent einen Schritt als fehlend, der im Prozess vorhanden ist, gilt das als Fehlmeldung.
+Ein Beispiel ist der Kontrollschritt, also die Beteiligung der Gleichstellungsbeauftragten in T1.3.
+H3 gilt als bestätigt, wenn der Agent im Mittel mehr als die Hälfte der fehlenden Schritte erkennt und die Zahl der Fehlmeldungen höchstens \offen{Grenze} beträgt.
 
 \subsection{Aufbau und Auswertung H4}\label{sec:h4}
 \offen{Eingabe ohne Prozess, Referenz aus Reihenfolge-Paaren \enquote{A vor B} je Fall, bedingter und strenger Wert, Schwelle 80\,\%}
