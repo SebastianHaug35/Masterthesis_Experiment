@@ -223,10 +223,32 @@ Die Grenze hält Laufzeit und Kosten planbar.
 Die vollständigen Anweisungen an das Sprachmodell (Prompts) stehen im Anhang.
 
 \subsection{Durchführung}\label{sec:durchfuehrung}
-\offen{Konfiguration A (Agent bestimmt Regelwerke selbst) und B (Regelwerke vorgegeben)}
-\offen{Zahl der Läufe je Fall, Konfiguration und Modell; eingefrorener Stand vor den finalen Läufen}
-\offen{Docker, Protokoll, Repository, Budgetgrenze und Kosten}
-\offen{Satz: Verweis auf Anhang~\ref{anh:testaufbau} (Eingaben und Referenz je Hypothese)}
+% Sätze abgesegnet am 21.11.2026
+Jeder Fall wird in zwei Konfigurationen durchgeführt.
+In Konfiguration~A bestimmt der Agent den Rechtsrahmen in Stufe~1 selbst.
+In Konfiguration~B erhält er den Rechtsrahmen aus der Referenz und beginnt direkt mit Stufe~2.
+Der Vergleich beider Konfigurationen zeigt, welcher Anteil der Fehler in Stufe~2 auf einen unvollständigen Rechtsrahmen zurückgeht.
+
+Jede Kombination aus Fall, Konfiguration und Modell läuft \offen{5}~Mal.
+Die Wiederholung ist nötig, weil ein Sprachmodell bei gleicher Eingabe unterschiedliche Antworten erzeugen kann.
+Ausgewertet werden der Mittelwert und die Spannweite (kleinster und größter Wert) jeder Kennzahl über die Läufe einer Kombination.
+Bei vier Fällen, zwei Konfigurationen und zwei Modellen ergeben sich 16~Kombinationen und damit \offen{80}~Läufe.
+\offen{Prüfen, für welche Hypothesen Fall~4 (Sai et al.) genutzt wird; Zahl der Läufe danach anpassen}
+
+Die Einstellungen der Modelle werden vor den finalen Läufen festgelegt.
+\offen{Probelauf je Modell mit Fall~1: Kosten je Lauf, Grenze der Werkzeugaufrufe je Task, Denkaufwand bei Opus~5.5, Wahl des DeepSeek-Modells, Streuung der Ergebnisse, Laufzeit und Abbrüche}
+Danach werden Prompts, Werkzeuge, Eingaben und Einstellungen eingefroren, also festgeschrieben und danach unverändert gelassen.
+Der eingefrorene Stand erhält eine eigene Version im Repository, und alle finalen Läufe nutzen ausschließlich diesen Stand.
+Die Festlegung vor den finalen Läufen verhindert, dass der Agent nachträglich an die Referenz angepasst wird.
+Kennzahlen und Schwellen der Hypothesen werden ebenfalls vor den finalen Läufen festgelegt.
+
+Jeder Lauf findet in einem Docker-Container statt (einer abgeschlossenen Laufzeitumgebung mit festgelegten Programmversionen).
+So laufen alle Versuche unter gleichen technischen Bedingungen und lassen sich auf einem anderen Rechner wiederholen.
+Jeder Lauf schreibt ein Protokoll mit allen Werkzeugaufrufen, Zwischenergebnissen, Tokenzahlen und Kosten.
+Code, Eingaben, Protokolle und Ergebnisse liegen im Repository der Arbeit.
+Vor jedem Aufruf des Sprachmodells prüft der Code, ob die geschätzten Kosten im festgelegten Budget bleiben.
+Das Budget für die finalen Läufe beträgt \offen{Betrag}~USD.
+Anhang~\ref{anh:testaufbau} zeigt die Eingaben und die Referenz je Hypothese.
 
 \subsection{Auswertung H1 bis H3}\label{sec:auswertung_h1_h3}
 \subsubsection{Bewertung je Fund}
