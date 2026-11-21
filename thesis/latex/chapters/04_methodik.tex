@@ -235,9 +235,8 @@ Ausgewertet werden der Mittelwert und die Spannweite (kleinster und größter We
 Bei vier Fällen, zwei Konfigurationen und zwei Modellen ergeben sich 16~Kombinationen und damit \offen{80}~Läufe.
 \offen{Prüfen, für welche Hypothesen Fall~4 (Sai et al.) genutzt wird; Zahl der Läufe danach anpassen}
 
-Die Einstellungen der Modelle werden vor den finalen Läufen festgelegt.
-\offen{Probelauf je Modell mit Fall~1: Kosten je Lauf, Grenze der Werkzeugaufrufe je Task, Denkaufwand bei Opus~5.5, Wahl des DeepSeek-Modells, Streuung der Ergebnisse, Laufzeit und Abbrüche}
-Danach werden Prompts, Werkzeuge, Eingaben und Einstellungen eingefroren, also festgeschrieben und danach unverändert gelassen.
+\offen{Probelauf je Modell mit Fall~1 zum Festlegen der Einstellungen: Kosten je Lauf, Grenze der Werkzeugaufrufe je Task, Denkaufwand bei Opus~5.5, Wahl des DeepSeek-Modells, Streuung der Ergebnisse, Laufzeit und Abbrüche}
+Vor den finalen Läufen werden Prompts, Werkzeuge, Eingaben und Einstellungen eingefroren, also festgeschrieben und danach unverändert gelassen.
 Der eingefrorene Stand erhält eine eigene Version im Repository, und alle finalen Läufe nutzen ausschließlich diesen Stand.
 Die Festlegung vor den finalen Läufen verhindert, dass der Agent nachträglich an die Referenz angepasst wird.
 Kennzahlen und Schwellen der Hypothesen werden ebenfalls vor den finalen Läufen festgelegt.
