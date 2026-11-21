@@ -53,3 +53,5 @@ Erledigte Punkte werden gestrichen, nicht gelöscht.
 33. **Modellwahl (21.11.2026):** Hauptmodell Claude Opus 5.5, Vergleich mit DeepSeek; GPT-6 Luna entfällt (v1–v3 bleiben Vorversuche). Folgen: Code für beide Anbieter später, Budget in `budget.yaml` (5 USD) reicht nicht (grob 70–200 USD für ~40 Läufe mit Opus 5.5), Freigabe Datenübermittlung an DeepSeek nach KI-Regeln der HM prüfen.
 
 34. **Vorversuche (21.11.2026):** Die Läufe v1–v3 mit GPT-6 Luna bleiben im Repo, werden in der Thesis aber nicht erwähnt. Die Thesis beschreibt nur die finalen Läufe.
+
+35. **Prüfbogen gestrichen (21.11.2026):** Fachleute kommentieren direkt in der PDF, drei Fragen in 4.6 und in der Mail. Reihenfolge-Paare H4 Fall 1 (15 Paare) in Anhang B, Paar 16 (Art. 75a BayPVG) offen für Prof. Böhm.
