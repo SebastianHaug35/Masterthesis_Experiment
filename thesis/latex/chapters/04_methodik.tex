@@ -195,9 +195,32 @@ Jede Änderung aus der Prüfung fließt mit Begründung in die Referenz ein.
 \offen{Fachliche Prüfung der Soll-Entscheidungen der Referenzfälle für die Prüfregeln ausstehend. Grundlage für H5, H6 und H7}
 
 \subsection{Agent}\label{sec:agent}
-\offen{Modell, Parameter, Ausgabeformat}
-\offen{Stufe~1 (Regelwerke) und Stufe~2 (Zuordnung je Task, Lückenmeldungen)}
-\offen{Werkzeuge und amtliche Quellen; Prompts in Anhang~C}
+Der Agent ist ein Programm, das ein großes Sprachmodell (Large Language Model, LLM) schrittweise mit Werkzeugen arbeiten lässt.
+Ein Werkzeug ist eine Funktion, die das Sprachmodell aufrufen kann, etwa um einen Gesetzestext zu laden.
+Das Sprachmodell wählt in jedem Schritt ein Werkzeug und die Angaben für den Aufruf und erhält das Ergebnis zurück.
+Als Hauptmodell dient Claude Opus 5.5 von Anthropic, eines der derzeit leistungsfähigsten Sprachmodelle.
+Zum Vergleich läuft derselbe Versuch mit einem Modell von DeepSeek, um zu prüfen, ob die Ergebnisse vom gewählten Modell abhängen.
+\offen{Genaue Bezeichnung des DeepSeek-Modells und Einstellungen beider Modelle}
+
+Der Agent arbeitet in zwei Stufen.
+In Stufe~1 bestimmt er aus Profil und Prozess die Regelwerke, die für den Prozess gelten (H1).
+In Stufe~2 bestimmt er für jeden Task einzeln die konkreten Vorschriften und meldet fehlende Schritte (H2 und H3).
+Die Trennung folgt dem Vorgehen einer fachkundigen Person, die zuerst den Rechtsrahmen absteckt und dann die einzelnen Vorschriften sucht.
+Stufe~2 lässt sich zusätzlich mit einem vorgegebenen Rechtsrahmen starten (Konfiguration~B), um Fehler aus Stufe~1 von Fehlern aus Stufe~2 zu trennen.
+
+Der Agent recherchiert ausschließlich über vier Werkzeuge, die auf amtliche Quellen zugreifen.
+Diese Quellen sind gesetze-im-internet.de für Bundesrecht, gesetze-bayern.de für bayerisches Landesrecht und EUR-Lex für EU-Recht.
+\offen{Quelle für die ETSI-Normen in Fall~3 (etsi.org) ergänzen}
+Mit \texttt{suche\_regelwerk} findet er ein Regelwerk, mit \texttt{inhaltsverzeichnis} sieht er dessen Gliederung, mit \texttt{lade\_norm} lädt er den Text einer Vorschrift und mit \texttt{suche\_volltext} durchsucht er ein Regelwerk nach Begriffen.
+Die Beschränkung auf amtliche Quellen stellt sicher, dass jede Fundstelle auf einen geltenden Gesetzestext zurückgeht.
+Der Agent lädt jede Vorschrift mit \texttt{lade\_norm}, bevor er sie ausgibt, und nennt die Adresse der Quelle und das Datum der Fassung.
+
+Die Ausgabe folgt einem vorgegebenen Schema im Format JSON (maschinenlesbares Textformat).
+Jeder Fund enthält Regelwerk, Fundstelle, Art (Zuordnung oder möglicher fehlender Schritt), Begründung, Quelle und eine Einschätzung der Sicherheit.
+Das Schema entspricht dem Aufbau der Referenzzuordnung, damit sich beide automatisch vergleichen lassen.
+Die Zahl der Werkzeugaufrufe ist begrenzt, in Stufe~1 auf 30 und in Stufe~2 je Task auf \offen{15, für die finalen Läufe 30 bis 40 vorgeschlagen}.
+Die Grenze hält Laufzeit und Kosten planbar.
+Die vollständigen Anweisungen an das Sprachmodell (Prompts) stehen im Anhang.
 
 \subsection{Durchführung}\label{sec:durchfuehrung}
 \offen{Konfiguration A (Agent bestimmt Regelwerke selbst) und B (Regelwerke vorgegeben)}
