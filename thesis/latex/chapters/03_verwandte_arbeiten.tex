@@ -17,7 +17,50 @@ Für jeden Absatz wird auf jeder Ebene geprüft, ob er dort relevant ist.
 Die Auswahl der Fachleute dient als Maßstab, mit dem die anderen drei Verfahren verglichen werden.
 Gemessen wird, welchen Anteil der relevanten Absätze ein Verfahren findet (\fb{trefferquote}, englisch \emph{Recall}) und welcher Anteil der gemeldeten Absätze tatsächlich relevant ist (\fb{genauigkeit}, englisch \emph{Precision}).
 Trefferquote und Genauigkeit werden für jede der drei Ebenen getrennt berechnet.
-\offen{HIER WEITER: Block 2 -- Ergebnisse von Sai et al.\ je Ebene (Tabelle 3.1), danach Bezug zu dieser Arbeit (\enquote{am nächsten}, Vergleichswert für H2). Vorher H2-Schwelle klären: 0,62 stammt von der Teilprozess-Ebene, Task-Ebene 0,69/0,77. Herkunft der drei Ebenen wird in Abschnitt 2.1 erklärt.}
+% Sätze abgesegnet am 22.11.2026 (Block 2)
+Tabelle~\ref{tab:sai_ergebnisse} zeigt Trefferquote und Genauigkeit der drei Verfahren auf den drei Ebenen.
+GPT-4 erreicht in beiden Fallstudien die höchste Trefferquote der drei Verfahren.
+Auf Ebene des Prozesses findet GPT-4 nahezu alle relevanten Absätze (Trefferquote 1,00 bei der Versicherung und 0,97 bei der Bank).
+Auf Ebene der Tasks sinkt die Trefferquote auf 0,69 bei der Versicherung und 0,77 bei der Bank.
+Je feiner die Ebene, desto schwerer fällt also die Zuordnung.
+Bei der Bank liegt die Trefferquote auf Ebene der Teilprozesse mit 0,62 sogar unter dem Wert der Tasks.
+Die Genauigkeit von GPT-4 ist auf Ebene des Prozesses gering (0,34 bei der Versicherung), weil das Modell viele Absätze vorsichtshalber als relevant meldet.
+Das Embedding-Verfahren findet auf allen Ebenen weniger als die Hälfte der relevanten Absätze.
+Die Laien liegen dazwischen, schwanken aber stark zwischen den Ebenen und den Fallstudien.
+Die Autoren folgern, dass die Auswahl durch Fachleute weiterhin nötig bleibt, und empfehlen GPT-4 als Hilfe, deren Ergebnis Fachleute prüfen.
+Für diese Arbeit ist die Studie von Sai et al. die nächstliegende, weil sie ebenfalls Vorschriften den einzelnen Tasks eines Prozesses zuordnet und das Ergebnis auf denselben drei Ebenen misst.
+Die Trefferquote von GPT-4 auf Ebene der Tasks dient deshalb als Vergleichswert für H2.
+In zwei Punkten geht diese Arbeit über Sai et al. hinaus.
+Erstens erhielt GPT-4 bei Sai et al. die Sammlung der Rechtstexte vorab und musste nur über jeden vorgelegten Absatz entscheiden.
+Der Agent dieser Arbeit sucht die geltenden Regelwerke und Vorschriften dagegen selbst in amtlichen Quellen (H1 und Konfiguration~A, in der er den Rechtsrahmen selbst bestimmt).
+Zweitens prüfen Sai et al. ausschließlich, welche Absätze zu vorhandenen Schritten passen.
+Diese Arbeit fragt zusätzlich, welche rechtlich gebotenen Schritte im Prozess fehlen (H3).
+
+\begin{table}[H]
+  \centering
+  \small
+  \caption[Ergebnisse von Sai et al.\ je Ebene]{Trefferquote (T) und Genauigkeit (G) der drei Verfahren je Ebene, gemessen an der Auswahl der Fachleute. Quelle: Sai et al.~\cite{sai2024}, Tabellen~3, 4 und~6 (Embedding: Bi-Encoder mit Cross-Encoder; Laien: Einstellung mit Qualitätsfilter).}
+  \label{tab:sai_ergebnisse}
+  \begin{tabular}{@{}llcccc@{}}
+    \toprule
+    & & \multicolumn{2}{c}{Versicherung} & \multicolumn{2}{c}{Bank} \\
+    \cmidrule(lr){3-4}\cmidrule(lr){5-6}
+    Verfahren & Ebene & T & G & T & G \\
+    \midrule
+    GPT-4 & Prozess & 1,00 & 0,34 & 0,97 & 0,51 \\
+     & Teilprozess & 0,81 & 0,71 & 0,62 & 0,58 \\
+     & Task & 0,69 & 0,64 & 0,77 & 0,93 \\
+    \midrule
+    Embedding & Prozess & 0,41 & 0,18 & 0,29 & 0,13 \\
+     & Teilprozess & 0,39 & 0,18 & 0,31 & 0,11 \\
+     & Task & 0,35 & 0,13 & 0,24 & 0,13 \\
+    \midrule
+    Laien & Prozess & 0,80 & 0,72 & 0,60 & 0,95 \\
+     & Teilprozess & 0,70 & 0,56 & 0,29 & 0,65 \\
+     & Task & 0,32 & 0,45 & 0,41 & 0,75 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \begin{figure}[H]
   \centering
