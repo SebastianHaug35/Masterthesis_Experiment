@@ -32,7 +32,30 @@ Trefferquote und Genauigkeit werden für jede der drei Ebenen getrennt berechnet
 \offen{3.2 -- Literaturrecherche}
 
 \subsection{Runtime Verification von Agenten}
-\offen{3.3 -- C-Trace}
+% Sätze abgesegnet am 22.11.2026
+Die Arbeit von Sai et al.~\cite{sai2024} endet mit der Zuordnung, also mit der Liste der Vorschriften, die für jeden Schritt des Prozesses gelten.
+Diese Arbeit geht einen Schritt weiter und fragt, ob sich die zugeordneten Vorschriften auch während der Ausführung des Prozesses durchsetzen lassen (FF4).
+Diese Frage wird wichtig, sobald ein KI-Agent Schritte des Prozesses selbst ausführt, etwa Bewerbungen auswertet oder Mails verschickt.
+Dann muss jede Aktion des Agenten vor der Ausführung geprüft werden, damit er die Vorschriften einhält.
+Solche Prüfungen heißen Runtime Verification (Laufzeitverifikation), weil sie das tatsächliche Verhalten eines Systems zur Laufzeit, also während der Ausführung, mit festgelegten Regeln vergleichen.
+Kahani et al.~\cite{kahani2026} zeigen mit dem Verfahren C-Trace, dass sich dieser Ansatz auf KI-Agenten übertragen lässt, die mit Werkzeugen arbeiten.
+C-Trace setzt dazu einen Monitor zwischen den Agenten und seine Werkzeuge.
+Der Monitor zeichnet jeden Werkzeugaufruf auf, prüft vor der Ausführung, ob der Aufruf zusammen mit den bisherigen Aufrufen eine Regel verletzt, und blockiert ihn in diesem Fall.
+Die Regeln bilden vier Grundsätze der DSGVO ab, etwa die Einwilligung vor der Verarbeitung und das Recht auf Löschung.
+Hier liegt der Unterschied zu dieser Arbeit, denn Kahani et al. haben die vier Regeln von Hand geschrieben.
+Sie setzen voraus, dass bekannt ist, welche Vorschriften für einen Prozess gelten und wie daraus Regeln entstehen.
+Genau diese Schritte untersucht diese Arbeit, indem ein Agent die Vorschriften selbst findet und daraus die Regeln für den Monitor ableitet (H5 bis H7).
+Damit verbindet die Arbeit die Zuordnung von Sai et al. mit der Durchsetzung von Kahani et al.
+Für den Aufbau der eigenen Versuche dient C-Trace zusätzlich als methodisches Vorbild.
+Kahani et al. prüfen den Monitor an vier Anwendungsfällen mit einem Sprachmodell (GPT-4o mini) als Agent.
+Darunter sind ein medizinischer Assistent und die Kontoeröffnung bei einer Bank.
+Der Agent ist bewusst so eingestellt, dass er jede Anfrage ausführt, damit allein der Monitor über die Zulässigkeit entscheidet.
+Je Fall versuchen 400 Dialoge, den Agenten mit Mitteln wie Zeitdruck oder der Berufung auf eine Autorität zu einem Verstoß zu verleiten.
+Dazu kommen harmlose Dialoge und harmlose Grenzfälle, die einem Verstoß ähneln, aber zulässig sind.
+Gemessen wird, wie viele Angriffe trotz Monitor gelingen und wie viele harmlose Dialoge der Monitor fälschlich blockiert.
+Mit Monitor liegt der Anteil gelungener Angriffe in allen vier Fällen bei 0\,\%, ebenso der Anteil der Fehlalarme.
+Die Autoren weisen darauf hin, dass dieses Ergebnis nur gilt, wenn jeder Verstoß als Ereignis erfasst wird und eine Regel ihn abdeckt.
+Genau diese Voraussetzung prüft diese Arbeit mit H7, denn dort stammen die Regeln aus den ungeprüften Ergebnissen des Agenten.
 
 \subsection{Forschungslücke}
 \offen{3.4}
