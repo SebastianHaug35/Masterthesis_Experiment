@@ -12,7 +12,7 @@ Sektor & privat \\
 Branche & Veranstaltungen \\
 Beschäftigte & 80 \\
 Arbeitnehmervertretung & Betriebsrat \\
-Gebäude & neue Veranstaltungshalle für bis zu 3.000 Personen \\
+Gebäude & neue Veranstaltungshalle für bis zu 3.000 Personen, Versammlungsraum 2.400~m² mit gemeinsamen Rettungswegen \\
 KI-Einsatz & gekauftes KI-System, das Brandmeldungen bewertet \\
 Dienstleister außerhalb der EU & nein \\
 \end{longtable}\end{small}
@@ -56,4 +56,34 @@ T6.1 & Anlage inspizieren & Der Fachbetrieb prüft Zentrale und Melder auf sicht
 T6.2 & Anlage warten & Der Fachbetrieb reinigt und tauscht Melder und Akkus nach Herstellerangabe. \\
 T6.3 & Wiederkehrend prüfen lassen & Ein Prüfsachverständiger prüft die Anlage erneut und stellt einen Prüfbericht aus. \\
 \end{longtable}\end{small}
-\offen{Referenzzuordnung für Fall~2: fehlende Schritte (Leistungserklärung der Melder, Feuerwehrpläne, Brandschutzordnung, Unterweisung, KI-Kompetenz), Kontrollschritt T4.1, Falle Hochrisiko-Einstufung nach AI Act}
+\paragraph{Referenzzuordnung}
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{5.5cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.0cm}@{}}
+\caption[Referenzzuordnung für Fall~2: Brandmeldeanlage]{Referenzzuordnung für Fall~2: Brandmeldeanlage. Bayerische Vorschriften am amtlichen Text geprüft (gesetze-bayern.de, 22.11.2026). Quelle: eigene Darstellung (Entwurf).}\label{tab:fall2_referenz}\\
+\toprule \textbf{Regelwerk} & \textbf{Fundstelle} & \textbf{Inhalt} & \textbf{Tasks} & \textbf{Art} \\ \midrule \endfirsthead
+\toprule \textbf{Regelwerk} & \textbf{Fundstelle} & \textbf{Inhalt} & \textbf{Tasks} & \textbf{Art} \\ \midrule \endhead
+\bottomrule \endfoot
+BayBO & Art.~2 Abs.~4 Nr.~7 Buchst.~a & Versammlungsstätte mit mehr als 200 Besuchern und gemeinsamen Rettungswegen ist Sonderbau & T1.1 & Zuordnung \\
+BayBO & Art.~62b Abs.~2 & Brandschutznachweis für Sonderbauten bescheinigt oder bauaufsichtlich geprüft & T1.1 & Zuordnung \\
+VStättV & §~20 Abs.~1 & Brandmeldeanlage mit automatischen und nichtautomatischen Meldern ab 1.000~m² Versammlungsräumen & T1.2, T3.1 & Zuordnung \\
+VStättV & §~20 Abs.~3 & Brandmelder- und Alarmzentrale in einem für die Feuerwehr leicht zugänglichen Raum & T1.2, T3.1 & Zuordnung \\
+SPrüfV & §~2 Abs.~1 Nr.~6, Abs.~2 & Prüfung durch Prüfsachverständige vor der ersten Inbetriebnahme (Kontrollschritt) & T4.1 & Zuordnung \\
+SPrüfV & §~2 Abs.~2 und 3 & wiederkehrende Prüfung innerhalb von drei Jahren, auch durch sachkundige Personen & T6.3 & Zuordnung \\
+SPrüfV & §~2 Abs.~5 & Bauherrin oder Betreiberin veranlasst die Prüfungen & T4.1, T6.3 & Zuordnung \\
+SPrüfV & §~2 Abs.~7 & Bescheinigungen mindestens fünf Jahre aufbewahren & T4.3, T5.5 & Zuordnung \\
+DIN 14675 & -- & Planung, Errichtung und Betrieb, zertifizierter Fachbetrieb (Norm, für den Agenten nicht ladbar) & T1.2, T2.2, T3.1, T3.2 & Zuordnung \\
+DIN EN 54 & -- & Anforderungen an Melder und Zentrale (Norm, nicht ladbar) & T3.1 & Zuordnung \\
+DIN VDE 0833-1/-2 & -- & Erkundung, Betriebsbuch, Inspektion und Wartung (Norm, nicht ladbar) & T5.3, T5.5, T6.1, T6.2 & Zuordnung \\
+TAB Feuerwehr München & -- & Anschlussbedingungen für die Aufschaltung (nicht ladbar) & T1.3, T4.2 & Zuordnung \\
+VStättV & §~42 Abs.~1 & Brandschutzordnung im Einvernehmen mit der Brandschutzdienststelle aufstellen und aushängen & -- & fehlender Schritt \\
+VStättV & §~42 Abs.~2 & Unterweisung des Betriebspersonals bei Beginn des Arbeitsverhältnisses und jährlich, mit Niederschrift & -- & fehlender Schritt \\
+ArbSchG & §~12 Abs.~1 & Unterweisung vor Aufnahme der Tätigkeit & -- & fehlender Schritt \\
+VStättV & §~42 Abs.~3 & Feuerwehrpläne anfertigen und der Feuerwehr zur Verfügung stellen & -- & fehlender Schritt \\
+AI Act & Art.~4 & KI-Kompetenz des Personals, das das KI-System bedient & -- & fehlender Schritt \\
+BauPVO & Art.~4, Art.~8 & Leistungserklärung und CE-Kennzeichnung (Pflichten des Herstellers) & T3.1 & neutral \\
+AI Act & Art.~6 mit Anhang~III & Einstufung des KI-Systems (kein Hochrisiko-System, prüfen) & T1.4 & neutral \\
+DSGVO & -- & nach Annahme A3 keine personenbezogenen Daten & gesamter Prozess & neutral \\
+AI Act & Art.~26, Art.~27 & Pflichten bei Hochrisiko-Systemen gelten hier nicht. Meldung als Lücke ist eine Fehlmeldung & -- & Falle \\
+\end{longtable}
+\end{small}
+\offen{Wortlaut von Anhang~III Nr.~2 AI Act zur Falle noch prüfen; Zeilen aus Normen und TAB in der Auswertung getrennt ausweisen}
