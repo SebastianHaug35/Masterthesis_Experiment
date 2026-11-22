@@ -2,7 +2,7 @@
 % Struktur abgestimmt am 28.10.2026 (12 Seiten)
 
 \subsection{Forschungsdesign}
-\offen{4.1 -- experimentell und iterativ (v1--v4), mehrere Fälle mit derselben Methode; Überblick, welche Hypothese mit welchem Versuch geprüft wird}
+\offen{4.1 -- experimentell, mehrere Fälle mit derselben Methode; Überblick, welche Hypothese mit welchem Versuch geprüft wird}
 
 \subsection{Auswahl der Anwendungsfälle}
 % Satz 1 und Tabelle 4.1 abgesegnet am 28.10.2026
@@ -12,17 +12,17 @@ Der Ansatz wird an mehreren Anwendungsfällen untersucht, die sich in Branche, R
   \centering
   \small
   \renewcommand{\arraystretch}{1.3}
-  \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{2.6cm} Y Y Y}
+  \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{2.2cm} Y Y Y Y}
     \toprule
-     & \textbf{Fall 1: Bewerbungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: Vergleichsdaten Sai et al.} \\
+     & \textbf{Fall 1: Berufungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: TETRA-Endgeräte} & \textbf{Fall 4: Vergleichsdaten Sai et al.} \\
     \midrule
-    Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & Versicherung und Bank (Australien) \\
-    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Schadensbearbeitung; Kundenprüfung \\
-    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Versicherungs- und Finanzaufsichtsrecht \\
-    Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & durch die Studie vorgegeben \\
-    Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & Vergleichswert \\
-    Fachliche Prüfung & Fachleute der HM (Datenschutz; KI und Arbeitsrecht offen) & Lehrbeauftragter für Brandschutz der HM, eigene Fachkenntnis & Fachleute der Studie \\
-    Stand & umgesetzt & geplant & Verfügbarkeit prüfen \\
+    Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & bayerische Behörde mit Sicherheitsaufgaben & Versicherung und Bank (Australien) \\
+    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Beschaffung bis Aussonderung von TETRA-Funkgeräten & Schadensbearbeitung; Kundenprüfung \\
+    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Funkanlagen- und Vergaberecht, Datenschutz, ETSI-Normen & Versicherungs- und Finanzaufsichtsrecht \\
+    Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & frei verfügbar, auch die ETSI-Normen & durch die Studie vorgegeben \\
+    Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & explorativer Fall: frei verfügbare Normen & Vergleichswert \\
+    Fachliche Prüfung & Prof.\ Böhm, weitere Fachperson der HM (offen) & Lehrbeauftragter für Brandschutz der HM, eigene Fachkenntnis & Fachleute aus der Behördenpraxis (offen) & Fachleute der Studie \\
+    Stand & umgesetzt & geplant & geplant & Verfügbarkeit prüfen \\
     \bottomrule
   \end{tabularx}
   \caption{Anwendungsfälle der Arbeit}
@@ -35,13 +35,13 @@ Zweitens soll mindestens ein Fall Vorschriften enthalten, die nicht frei zugäng
 Drittens müssen Fachleute erreichbar sein, die die \fb{referenzzuordnung} prüfen.
 Viertens muss sich der Prozess in die drei Ebenen Prozess, Teilprozess und Task gliedern lassen.
 % Sätze 7-9 abgesegnet am 30.10.2026
-Die Fälle 1 und 2 wurden für diese Arbeit selbst entworfen.
+Die Fälle 1 bis 3 wurden für diese Arbeit selbst entworfen.
 Sie orientieren sich an typischen Abläufen in solchen Organisationen, geben aber keinen tatsächlichen Prozess einer bestimmten Organisation wieder.
-Fall 3 übernimmt dagegen die Daten aus der Studie von Sai et al.~\cite{sai2024}.
+Fall 4 übernimmt dagegen die Daten aus der Studie von Sai et al.~\cite{sai2024}.
 \offen{Zeile \enquote{Stand} in Tabelle~\ref{tab:anwendungsfaelle} vor Abgabe aktualisieren oder entfernen}
 
-\subsection{Fall 1: Bewerbungsverfahren an einer Hochschule}\label{sec:fall1}
-\offen{Entscheidung 19.11.2026: Fall~1 ist ein Berufungsverfahren (Professur an der HM). Texte 4.3.1 bis 4.3.3 am 19.11. angepasst; Zahlen beruhen auf dem Entwurf h1/results/entwurf\_fall1\_berufung und ändern sich nach der fachlichen Prüfung. Eingabedateien und Anhang~B zeigen noch die WiMi-Stelle, bis ein Auftrag sie ersetzt. Läufe v1 bis v3 gelten als Vorversuche}
+\subsection{Fall 1: Berufungsverfahren an einer Hochschule}\label{sec:fall1}
+\offen{Entscheidung 19.11.2026: Fall~1 ist ein Berufungsverfahren (Professur an der HM). Texte 4.3.1 bis 4.3.3 am 19.11. angepasst; Zahlen beruhen auf dem Entwurf h1/results/entwurf\_fall1\_berufung und ändern sich nach der fachlichen Prüfung. Eingabedateien und Anhang~B zeigen noch die WiMi-Stelle, bis ein Auftrag sie ersetzt}
 % Sätze 1-3 abgesegnet am 28.10.2026, am 19.11. auf das Berufungsverfahren umgestellt
 Der erste Anwendungsfall ist die Berufung einer Professorin oder eines Professors an die Hochschule München.
 Für den Fall wird angenommen, dass die Hochschule ein KI-Werkzeug einsetzt, das eingehende Bewerbungen auswertet und in eine Rangfolge bringt.
@@ -59,8 +59,8 @@ Tabelle~\ref{tab:h1_profil} zeigt alle Angaben des Profils, die der Agent erhäl
 % Sätze 11-17 abgesegnet am 19.11.2026 (Task-Beschreibungen wie bei Sai et al.)
 Die zweite Eingabe ist der Prozess.
 Er reicht von der Freigabe der Professur bis zur Löschung der Daten abgelehnter Bewerbender.
-Der Prozess ist nach den Ebenen aus Abschnitt~\ref{sec:geschaeftsprozesse} in sieben Teilprozesse und 23 Tasks gegliedert.
-Die Teilprozesse sind Professur freigeben und ausschreiben, Bewerbungen annehmen, KI-Vorauswahl, Probevorträge, Berufungsvorschlag, Ruf und Ernennung sowie Absagen und Löschen.
+Der Prozess ist nach den Ebenen aus Abschnitt~\ref{sec:geschaeftsprozesse} in sieben Teilprozesse und 25 Tasks gegliedert.
+Die Teilprozesse sind Professur freigeben und ausschreiben, Bewerbungen annehmen, KI-Vorauswahl, Vorgespräche und Probevorträge, Berufungsvorschlag, Ruf und Ernennung sowie Absagen und Löschen.
 Der Prozess, jeder Teilprozess und jeder Task haben eine Bezeichnung und eine kurze Beschreibung.
 Teilprozesse und Tasks tragen zusätzlich eine Kennung, zum Beispiel \enquote{TP3} und \enquote{T3.2}.
 Die Kennung eines Tasks setzt sich aus der Nummer des Teilprozesses und der laufenden Nummer des Tasks zusammen.
@@ -68,8 +68,8 @@ Jede Beschreibung nennt, wer handelt, was geschieht und welches System beteiligt
 Diese Form lehnt sich an Sai et al.~\cite{sai2024} an, die den Prozess, jeden Teilprozess und jeden Task ebenfalls kurz beschreiben.
 Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablauf, damit der Agent die rechtlichen Anforderungen aus den Regelwerken ableiten muss.
 Ein Beispiel ist \enquote{T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.}
-Tabelle~\ref{tab:h1_prozess} zeigt den vollständigen Prozess (Datei \repodatei{h1/input/prozess.json}).
-\offen{Beschreibungen per Auftrag in prozess.json übernehmen (Entwurf in ERGEBNIS.md Abschnitt~8, Punkt~9); danach Tabelle~\ref{tab:h1_prozess} um die Spalte Beschreibung erweitern}
+Tabelle~\ref{tab:fall1_prozess} zeigt den vollständigen Prozess.
+\offen{Eingabedateien (prozess.json, firmenprofil.json, soll\_liste.csv) per Auftrag durch den Stand aus Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz} ersetzen; danach wieder auf die Dateien verweisen}
 % Sätze A1-A6 (Annahmen) abgesegnet am 19.11.2026; Annahmen bleiben Felder im Profil
 Das Profil enthält zusätzlich Annahmen zum Fall (Festlegungen, die in der Praxis von der einzelnen Organisation abhängen).
 Die Annahmen legen die Umstände fest, von denen die geltenden Vorschriften abhängen.
@@ -85,7 +85,7 @@ Um das Ergebnis des Agenten bewerten zu können, braucht jeder Fall eine Referen
 Die Referenzzuordnung legt fest, welche Vorschrift bei welchem Task gilt.
 Sie ist genauso aufgebaut wie die Ausgabe des Agenten, damit sich beide Zeile für Zeile vergleichen lassen.
 Jede Zeile nennt das Regelwerk, die Fundstelle (Artikel oder Paragraf, wenn möglich mit Absatz), die betroffenen Tasks, die Art der Zeile und den Inhalt in Stichworten.
-Die Referenzzuordnung für Fall~1 umfasst 52 Zeilen aus 13 Regelwerken.
+Die Referenzzuordnung für Fall~1 umfasst 52 Zeilen aus 12 Regelwerken.
 Sie unterscheidet vier Arten von Zeilen.
 Die 27 Zeilen der Art Zuordnung verbinden eine Vorschrift mit einem oder mehreren Tasks oder mit dem ganzen Prozess.
 Die 10 Zeilen der Art fehlender Schritt beschreiben Pflichten, die einen eigenen Task erfordern, der im Prozess fehlt.
@@ -102,15 +102,15 @@ Eine Zeile der Art Falle nennt eine Pflicht, die in diesem Fall entfällt.
 Der Personalrat bestimmt bei der Einstellung von Professorinnen und Professoren nicht mit.
 Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
 Die Falle zeigt, ob der Agent Ausnahmen erkennt, statt Muster aus anderen Einstellungsverfahren zu übertragen.
-\offen{Beleg für die Falle am amtlichen Text prüfen (Art.~4 und Art.~78 BayPVG)}
+\offen{Beleg für die Falle: Art.~4 Abs.~4 Buchst.~a BayPVG (gelesen über gesetze.legal, amtlich gegenlesen)}
 Die Referenz enthält ausschließlich Vorschriften zu Schritten, die im Prozess vorkommen oder vorkommen müssten.
 Die Einwilligung für einen Talentpool (Sammlung von Bewerbungen für spätere Stellen) nach Art.~6 Abs.~1 lit.~a DSGVO gehört deshalb nicht dazu, weil der Prozess die Daten nach Ablauf der Frist löscht.
-Anhang~\ref{anh:vorschriften} zeigt alle Zeilen (Datei \repodatei{h1/input/soll_liste.csv}).
+Tabelle~\ref{tab:fall1_referenz} im Anhang zeigt alle Zeilen.
 Die Referenzzuordnung ist ein Entwurf des Autors und wird vor den finalen Läufen von Fachleuten geprüft (Abschnitt~\ref{sec:fachliche_pruefung}).
 
 \subsubsection{Abdeckung}\label{sec:fall1_abdeckung}
 % Sätze 1-5, 7, 8 abgesegnet am 19.11.2026; Satz 6 (interne Regelungen der HM) in den Ausblick verschoben
-Die drei Fälle sollen zusammen alle Ebenen der Rechtsquellen aus Abbildung~\ref{fig:rechtsquellen} abdecken.
+Die vier Fälle sollen zusammen alle Ebenen der Rechtsquellen aus Abbildung~\ref{fig:rechtsquellen} abdecken.
 So lässt sich prüfen, ob der Agent Vorschriften auf jeder Ebene findet.
 Tabelle~\ref{tab:fall1_abdeckung} zeigt, welche Ebenen Fall~1 abdeckt und mit welchen Regelwerken.
 Fall~1 deckt fünf der sieben Ebenen ganz oder teilweise ab.
@@ -129,13 +129,13 @@ Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU blei
     Recht der EU & DSGVO, AI Act (Verordnungen); Richtlinien über ihre Umsetzung im AGG & ja \\
     Grundgesetz & Art.~33 Abs.~2 GG & ja \\
     Bundesrecht & AGG, SGB~IX, BeamtStG & ja \\
-    Landesrecht & BayHIG, BayBG, BayBesG, BayDSG, BayPVG & ja \\
+    Landesrecht & BayHIG, BayBesG, BayDSG, BayPVG & ja \\
     Regelungen unterhalb des Gesetzes & Berufungsordnung der HM, sofern veröffentlicht & offen \\
     Technische Normen & -- & nein, Fall~2 \\
     Ausländisches Recht & -- & nein, durch Annahme ausgeschlossen \\
     \bottomrule
   \end{tabularx}
-  \caption[Abdeckung der Rechtsebenen durch Fall~1]{Abdeckung der Ebenen der Rechtsquellen durch Fall~1. Quelle: eigene Darstellung, Daten aus \repodatei{h1/input/soll_liste.csv}.}
+  \caption[Abdeckung der Rechtsebenen durch Fall~1]{Abdeckung der Ebenen der Rechtsquellen durch Fall~1. Quelle: eigene Darstellung, Daten aus Tabelle~\ref{tab:fall1_referenz}.}
   \label{tab:fall1_abdeckung}
 \end{table}
 
@@ -152,54 +152,219 @@ Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU blei
 \subsubsection{Abdeckung}\label{sec:fall2_abdeckung}
 \offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
 
-\subsection{Fall 3: Vergleichsdaten von Sai et al.}\label{sec:fall3}
-\offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
-\offen{Daten: Versicherung (7 Teilprozesse, 31 Tasks, 342 veröffentlichte Absätze) und Bank (7 Teilprozesse, 19 Tasks, 311 Absätze), MIT-Lizenz, im Repo unter h1/input/sai. Ohne bewusst entfernte Schritte, daher nur für H1 und H2}
+\subsection{Fall 3: TETRA-Endgeräte in einer Behörde}\label{sec:fall3}
+\offen{Entscheidung 19.11.2026: zusätzlicher Fall neben Fall~2. Warum der Fall sinnvoll ist: ETSI-Normen sind frei verfügbar (Gegenstück zu Fall~2), Richtlinien-Ebene über Funkanlagen-Richtlinie (RED) und WEEE, Normen-Ebene über harmonisierte Normen; Fachleute über den Arbeitsplatz des Autors (nur öffentlich zugängliche Informationen, BOS-Funk teils Verschlusssache)}
+\offen{Prozess-Skizze: TP1 Bedarf (Gerätezahl, Anforderungen, BOS-Zulassung) -- TP2 Vergabe (GWB, VgV bzw. VSVgV) -- TP3 Annahme (CE-Kennzeichnung und Konformitätserklärung nach Funkanlagengesetz, ETSI EN 300 392) -- TP4 Inbetriebnahme (Sicherheitskarte, Programmierung, Anmeldung im Netz; BSI- und BDBOS-Vorgaben) -- TP5 Nutzung (Schulung, Ausgabe, Sperrung verlorener Geräte; optional KI-Transkription von Funksprüchen) -- TP6 Aussonderung (Sicherheitskarte zurückgeben, Speicher löschen, Entsorgung nach ElektroG). Lückenkandidaten: Personalrat wegen Standortdaten (BayPVG), Datenschutz-Folgenabschätzung, Löschen vor Entsorgung. Alle Angaben prüfen}
 \subsubsection{Eingabe}\label{sec:fall3_eingabe}
 \offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
 
 \subsubsection{Erwartung}\label{sec:fall3_erwartung}
-\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften})}
+\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften}), bewusst entfernte Schritte, Kontrollschritt}
 
 \subsubsection{Abdeckung}\label{sec:fall3_abdeckung}
+\offen{Tabelle der Rechtsebenen aus Abbildung~\ref{fig:rechtsquellen}}
+
+\subsection{Fall 4: Vergleichsdaten von Sai et al.}\label{sec:fall4}
+\offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
+\offen{Daten: Versicherung (7 Teilprozesse, 31 Tasks, 342 veröffentlichte Absätze) und Bank (7 Teilprozesse, 19 Tasks, 311 Absätze), MIT-Lizenz, im Repo unter h1/input/sai. Ohne bewusst entfernte Schritte, daher nur für H1 und H2}
+\subsubsection{Eingabe}\label{sec:fall4_eingabe}
+\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
+
+\subsubsection{Erwartung}\label{sec:fall4_erwartung}
+\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften})}
+
+\subsubsection{Abdeckung}\label{sec:fall4_abdeckung}
 \offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
 
 \subsection{Fachliche Prüfung}\label{sec:fachliche_pruefung}
 % Gliederung 4.6-4.11 abgestimmt am 18.11.2026
-\offen{Wer prüft je Fall (Rolle, Fachgebiet), Ablauf, Prüfbogen (Anhang~D), Ergebnis}
-\offen{Fachliche Prüfung der Referenzzuordnung (Fall~1, Fall~2) durch [Fachperson, Rechtsgebiet] ausstehend. Fall~3 wurde bei Sai et al.\ geprüft. Grundlage für H1, H2 und H3}
+% Sätze 1-12 abgesegnet am 20.11.2026 (Prüfung nacheinander)
+Die Referenzzuordnungen der Fälle 1 bis 3 hat der Autor erstellt, deshalb können sie Fehler enthalten.
+Fachleute prüfen jede dieser Referenzzuordnungen, bevor die finalen Läufe beginnen.
+Fall~4 übernimmt die Referenz von Sai et al.~\cite{sai2024}, die bereits von Fachleuten erstellt wurde.
+Fall~1 prüft zuerst der Betreuer dieser Arbeit, der als Professor an der Hochschule München selbst Berufungsverfahren organisiert hat.
+Anschließend prüft eine zweite Fachperson der Hochschule aus \offen{Personalabteilung oder Datenschutz} die überarbeitete Fassung.
+Die Prüfung läuft nacheinander, damit die zweite Person auf den Korrekturen der ersten aufbauen kann.
+Fall~2 prüft \offen{Fachperson Brandschutz}, Fall~3 \offen{Fachperson Behördenfunk}.
+Die übrigen Fachleute nennt die Arbeit ausschließlich mit Rolle und Fachgebiet.
+% Prüfbogen am 21.11.2026 gestrichen, ersetzt durch Anmerkungen im Dokument und drei Fragen
+Die Fachleute erhalten die Beschreibung des Falls aus Kapitel~4, die Referenz aus Anhang~\ref{anh:vorschriften} und die Reihenfolge-Paare aus Anhang~\ref{anh:testaufbau}.
+Sie schreiben ihre Anmerkungen direkt in das Dokument und beantworten dabei drei Fragen.
+Die erste Frage lautet, ob jede Vorschrift für den Prozess gilt, beim richtigen Task steht und die richtige Art hat.
+Die zweite Frage lautet, welche Vorschriften in der Referenz fehlen.
+Die dritte Frage lautet, ob Prozess, Annahmen und Reihenfolge-Paare der Praxis entsprechen.
+Jede Änderung aus der Prüfung fließt mit Begründung in die Referenz ein.
+\offen{Ergebnis der Prüfung je Fall: Zahl der geänderten, ergänzten und gestrichenen Zeilen}
 \offen{Fachliche Prüfung der Soll-Entscheidungen der Referenzfälle für die Prüfregeln ausstehend. Grundlage für H5, H6 und H7}
 
 \subsection{Agent}\label{sec:agent}
-\offen{Modell, Parameter, Ausgabeformat}
-\offen{Stufe~1 (Regelwerke) und Stufe~2 (Zuordnung je Task, Lückenmeldungen)}
-\offen{Werkzeuge und amtliche Quellen; Prompts in Anhang~C}
+Der Agent ist ein Programm, das ein großes Sprachmodell (Large Language Model, LLM) schrittweise mit Werkzeugen arbeiten lässt.
+Ein Werkzeug ist eine Funktion, die das Sprachmodell aufrufen kann, etwa um einen Gesetzestext zu laden.
+Das Sprachmodell wählt in jedem Schritt ein Werkzeug und die Angaben für den Aufruf und erhält das Ergebnis zurück.
+Als Hauptmodell dient Claude Opus 5.5 von Anthropic, eines der derzeit leistungsfähigsten Sprachmodelle.
+Zum Vergleich läuft derselbe Versuch mit einem Modell von DeepSeek, um zu prüfen, ob die Ergebnisse vom gewählten Modell abhängen.
+\offen{Genaue Bezeichnung des DeepSeek-Modells und Einstellungen beider Modelle}
+
+Der Agent arbeitet in zwei Stufen.
+In Stufe~1 bestimmt er aus Profil und Prozess die Regelwerke, die für den Prozess gelten (H1).
+In Stufe~2 bestimmt er für jeden Task einzeln die konkreten Vorschriften und meldet fehlende Schritte (H2 und H3).
+Die Trennung folgt dem Vorgehen einer fachkundigen Person, die zuerst den Rechtsrahmen absteckt und dann die einzelnen Vorschriften sucht.
+Stufe~2 lässt sich zusätzlich mit einem vorgegebenen Rechtsrahmen starten (Konfiguration~B), um Fehler aus Stufe~1 von Fehlern aus Stufe~2 zu trennen.
+
+Der Agent recherchiert ausschließlich über vier Werkzeuge, die auf amtliche Quellen zugreifen.
+Diese Quellen sind gesetze-im-internet.de für Bundesrecht, gesetze-bayern.de für bayerisches Landesrecht und EUR-Lex für EU-Recht.
+\offen{Quelle für die ETSI-Normen in Fall~3 (etsi.org) ergänzen}
+Mit \texttt{suche\_regelwerk} findet er ein Regelwerk, mit \texttt{inhaltsverzeichnis} sieht er dessen Gliederung, mit \texttt{lade\_norm} lädt er den Text einer Vorschrift und mit \texttt{suche\_volltext} durchsucht er ein Regelwerk nach Begriffen.
+Die Beschränkung auf amtliche Quellen stellt sicher, dass jede Fundstelle auf einen geltenden Gesetzestext zurückgeht.
+Der Agent lädt jede Vorschrift mit \texttt{lade\_norm}, bevor er sie ausgibt, und nennt die Adresse der Quelle und das Datum der Fassung.
+
+Die Ausgabe folgt einem vorgegebenen Schema im Format JSON (maschinenlesbares Textformat).
+Jeder Fund enthält Regelwerk, Fundstelle, Art (Zuordnung oder möglicher fehlender Schritt), Begründung, Quelle und eine Einschätzung der Sicherheit.
+Das Schema entspricht dem Aufbau der Referenzzuordnung, damit sich beide automatisch vergleichen lassen.
+Die Zahl der Werkzeugaufrufe ist begrenzt, in Stufe~1 auf 30 und in Stufe~2 je Task auf \offen{15, für die finalen Läufe 30 bis 40 vorgeschlagen}.
+Die Grenze hält Laufzeit und Kosten planbar.
+Die vollständigen Anweisungen an das Sprachmodell (Prompts) stehen im Anhang.
 
 \subsection{Durchführung}\label{sec:durchfuehrung}
-\offen{Konfiguration A (Agent bestimmt Regelwerke selbst) und B (Regelwerke vorgegeben)}
-\offen{Versionen v1--v4 mit ihren Änderungen; 5 Läufe je Version und Konfiguration}
-\offen{Docker, Protokoll, Repository, Budgetgrenze und Kosten}
-\offen{Satz: Verweis auf Anhang~\ref{anh:testaufbau} (Eingaben und Referenz je Hypothese)}
+% Sätze abgesegnet am 21.11.2026
+Jeder Fall wird in zwei Konfigurationen durchgeführt.
+In Konfiguration~A bestimmt der Agent den Rechtsrahmen in Stufe~1 selbst.
+In Konfiguration~B erhält er den Rechtsrahmen aus der Referenz und beginnt direkt mit Stufe~2.
+Der Vergleich beider Konfigurationen zeigt, welcher Anteil der Fehler in Stufe~2 auf einen unvollständigen Rechtsrahmen zurückgeht.
+
+Jede Kombination aus Fall, Konfiguration und Modell läuft \offen{5}~Mal.
+Die Wiederholung ist nötig, weil ein Sprachmodell bei gleicher Eingabe unterschiedliche Antworten erzeugen kann.
+Ausgewertet werden der Mittelwert und die Spannweite (kleinster und größter Wert) jeder Kennzahl über die Läufe einer Kombination.
+Bei vier Fällen, zwei Konfigurationen und zwei Modellen ergeben sich 16~Kombinationen und damit \offen{80}~Läufe.
+\offen{Prüfen, für welche Hypothesen Fall~4 (Sai et al.) genutzt wird; Zahl der Läufe danach anpassen}
+
+\offen{Probelauf je Modell mit Fall~1 zum Festlegen der Einstellungen: Kosten je Lauf, Grenze der Werkzeugaufrufe je Task, Denkaufwand bei Opus~5.5, Wahl des DeepSeek-Modells, Streuung der Ergebnisse, Laufzeit und Abbrüche}
+Vor den finalen Läufen werden Prompts, Werkzeuge, Eingaben und Einstellungen eingefroren, also festgeschrieben und danach unverändert gelassen.
+Der eingefrorene Stand erhält eine eigene Version im Repository, und alle finalen Läufe nutzen ausschließlich diesen Stand.
+Die Festlegung vor den finalen Läufen verhindert, dass der Agent nachträglich an die Referenz angepasst wird.
+Kennzahlen und Schwellen der Hypothesen werden ebenfalls vor den finalen Läufen festgelegt.
+
+Jeder Lauf findet in einem Docker-Container statt (einer abgeschlossenen Laufzeitumgebung mit festgelegten Programmversionen).
+So laufen alle Versuche unter gleichen technischen Bedingungen und lassen sich auf einem anderen Rechner wiederholen.
+Jeder Lauf schreibt ein Protokoll mit allen Werkzeugaufrufen, Zwischenergebnissen, Tokenzahlen und Kosten.
+Code, Eingaben, Protokolle und Ergebnisse liegen im Repository der Arbeit.
+Vor jedem Aufruf des Sprachmodells prüft der Code, ob die geschätzten Kosten im festgelegten Budget bleiben.
+Das Budget für die finalen Läufe beträgt \offen{Betrag}~USD.
+Anhang~\ref{anh:testaufbau} zeigt die Eingaben und die Referenz je Hypothese.
 
 \subsection{Auswertung H1 bis H3}\label{sec:auswertung_h1_h3}
 \subsubsection{Bewertung je Fund}
-\offen{Kategorien: korrekt, neutral, falscher Absatz, falscher Task, nicht in der Referenz; Prüfung auf erfundene Normen}
+% Sätze abgesegnet am 21.11.2026
+Jeder Fund des Agenten wird automatisch mit der Referenzzuordnung des Falls verglichen.
+Ein Fund gilt als Treffer, wenn Regelwerk, Vorschrift und Task mit einer Zeile der Art \enquote{Zuordnung} oder \enquote{fehlender Schritt} übereinstimmen.
+Als Vorschrift zählt dabei der Artikel oder Paragraf, der Absatz wird zusätzlich erfasst.
+Stimmt der Paragraf, aber der Absatz weicht ab, gilt der Fund als Treffer mit falschem Absatz und wird gesondert ausgewiesen.
+Stimmen Regelwerk und Vorschrift, aber der Task weicht ab, gilt der Fund als falscher Task.
+Trifft ein Fund eine Zeile der Art \enquote{neutral}, zählt er weder als Treffer noch als Fehler.
+Neutrale Zeilen erfassen Vorschriften, die fachlich vertretbar sind, für den Prozess aber nur am Rand eine Rolle spielen.
+Trifft ein Fund die Falle, zählt er als Fehler und wird gesondert ausgewiesen.
+Alle übrigen Funde gelten als zusätzlich, also außerhalb der Referenz.
+Der Verfasser prüft jeden zusätzlichen Fund von Hand, ob die Vorschrift existiert und ob sie fachlich vertretbar ist.
+Eine Vorschrift, die im genannten Regelwerk fehlt, gilt als erfundene Norm.
+Aus diesen Kategorien ergeben sich Trefferquote und Genauigkeit für jeden Lauf.
 \subsubsection{H1: Regelwerke}
-\offen{Trefferquote und Genauigkeit der Regelwerke, Schwelle 0,9}
+% Sätze abgesegnet am 21.11.2026 (Satz zur Bestätigung offen)
+Für H1 zählt die Ebene der Regelwerke.
+Ein Regelwerk gilt als geltend, wenn ihm in der Referenz mindestens eine Zeile der Art \enquote{Zuordnung} oder \enquote{fehlender Schritt} zugeordnet ist.
+Die Trefferquote für H1 ist der Anteil der geltenden Regelwerke, die der Agent in Stufe~1 nennt.
+Die Genauigkeit ist der Anteil der genannten Regelwerke, die in der Referenz als geltend geführt sind.
+\offen{Wann H1 als bestätigt gilt: mittlere Trefferquote in Konfiguration~A $\geq 0{,}9$, im Mittel über alle Fälle je Modell oder in jedem einzelnen Fall}
+Ein fehlendes Regelwerk führt dazu, dass in Stufe~2 alle seine Vorschriften fehlen.
+Deshalb verlangt H1 eine nahezu vollständige Trefferquote.
+Die Genauigkeit wird ergänzend berichtet.
+Die Auswertung erfolgt getrennt je Modell und je Fall.
 \offen{Satz: Herleitung der Referenz für H1 aus der Referenzzuordnung, Verweis auf Tabelle~\ref{tab:h1_referenz}}
 \subsubsection{H2: Zuordnung}
-\offen{Trefferquote auf Task-Ebene, Teilprozess- und Prozessebene ergänzend; Schwelle offen (0,62 oder 0,69)}
+% Sätze abgesegnet am 21.11.2026
+Mit H2 wird geprüft, ob der Agent jedem Task die richtigen Vorschriften zuordnet.
+Als richtig gelten die Zeilen der Art \enquote{Zuordnung} in der Referenz.
+Die Trefferquote für H2 ist der Anteil dieser Zeilen, die der Agent in Stufe~2 beim richtigen Task nennt.
+Die Genauigkeit ist der Anteil der Funde, die eine solche Zeile treffen.
+Zusätzlich werden beide Werte auf Ebene der Teilprozesse und des ganzen Prozesses berechnet.
+Auf Ebene der Teilprozesse zählt ein Fund als Treffer, wenn er beim richtigen Teilprozess steht, auch wenn der Task abweicht.
+Diese Ebene zeigt, ob der Agent die Vorschrift wenigstens dem richtigen Abschnitt des Prozesses zuordnet.
+Eine Vorschrift beim benachbarten Task desselben Teilprozesses hilft bei der Prüfung des Prozesses oft trotzdem weiter.
+Ein Beispiel ist die Pflicht, schwerbehinderte Bewerbende zu einem Vorstellungsgespräch einzuladen (§~165 SGB~IX), wenn sie beim Führen der Vorgespräche (T4.2) statt bei der Einladung (T4.1) steht.
+Auf Ebene des Prozesses genügt es, dass der Agent die Vorschrift bei irgendeinem Task nennt.
+Diese Ebene zeigt, ob der Agent die Vorschrift überhaupt findet, unabhängig davon, wo er sie einordnet.
+Die drei Ebenen entsprechen der Auswertung von Sai et al.~\cite{sai2024} und machen die Ergebnisse vergleichbar.
+Für den Vergleich mit Sai et al. zählt Konfiguration~B, in der der Agent die geltenden Regelwerke vorgegeben bekommt, weil auch Sai et al. die Regelwerke vorgegeben haben.
+Die Werte aus Konfiguration~A, in der der Agent die Regelwerke selbst bestimmt, werden ergänzend berichtet.
+\offen{Wann H2 als bestätigt gilt (Schwelle für die Trefferquote auf Ebene der Tasks, 0,62 oder 0,69)}
 \subsubsection{H3: Fehlende Schritte}
-\offen{Erkannte Lücken, Fehlmeldungen, Kontrollschritt; Grenze für Fehlmeldungen offen}
+% Sätze abgesegnet am 21.11.2026
+Mit H3 wird geprüft, ob der Agent erkennt, welche rechtlich gebotenen Schritte im Prozess fehlen.
+Findet der Agent eine Vorschrift, zu der im Prozess ein passender Schritt fehlt, gibt er eine Meldung aus, also einen Hinweis auf den fehlenden Schritt zusammen mit der Vorschrift.
+Als richtig gelten die Zeilen der Art \enquote{fehlender Schritt} in der Referenz.
+Eine Meldung gilt als erkannt, wenn Regelwerk und Vorschrift mit einer solchen Zeile übereinstimmen.
+Die Stelle im Prozess, an der der Agent den Schritt einordnet, wird zusätzlich erfasst.
+Meldet der Agent einen Schritt als fehlend, der im Prozess vorhanden ist, gilt das als Fehlmeldung.
+Ein Beispiel ist der Kontrollschritt, also die Beteiligung der Gleichstellungsbeauftragten in T1.3.
+H3 gilt als bestätigt, wenn der Agent im Mittel mehr als die Hälfte der fehlenden Schritte erkennt und die Zahl der Fehlmeldungen höchstens \offen{Grenze} beträgt.
 
 \subsection{Aufbau und Auswertung H4}\label{sec:h4}
-\offen{Eingabe ohne Prozess, Referenz aus Reihenfolge-Paaren \enquote{A vor B} je Fall, bedingter und strenger Wert, Schwelle 80\,\%}
+% Sätze abgesegnet am 22.11.2026
+Mit H4 wird geprüft, ob der Agent einen Prozess selbst so entwerfen kann, dass die rechtlich gebotenen Schritte an einer zulässigen Stelle stehen.
+Der Agent erhält dafür das Profil der Organisation und eine kurze Aufgabe, zum Beispiel \enquote{Entwirf den Ablauf eines Berufungsverfahrens an dieser Hochschule}.
+Teilprozesse und Tasks entwirft er selbst, ohne Vorlage aus Abschnitt~\ref{sec:fall1}.
+Ein Vergleich Task für Task mit dem vorgegebenen Prozess eignet sich dafür schlecht, weil der Agent die Schritte frei benennen und zuschneiden darf.
+Deshalb wird der Entwurf mit Reihenfolge-Paaren bewertet, also mit Regeln der Form \enquote{Schritt A muss vor Schritt B kommen}, die aus einer Vorschrift folgen.
+Ein Beispiel ist die Datenschutz-Folgenabschätzung, die vor dem ersten Einsatz des KI-Werkzeugs stattfinden muss (Art.~35 DSGVO).
+Für Fall~1 umfasst die Referenz 15~Paare (Tabelle~\ref{tab:h4_paare_fall1}).
+Die Paare sind aus der Referenzzuordnung abgeleitet und werden zusammen mit ihr fachlich geprüft.
+Der Verfasser ordnet jedem Paar von Hand die passenden Schritte im Entwurf zu, weil der Agent die Schritte frei benennt.
+Der strenge Wert ist der Anteil der Paare, bei denen beide Schritte im Entwurf vorkommen und A vor B steht.
+Der bedingte Wert betrachtet nur die Paare, bei denen beide Schritte vorkommen, und gibt an, bei welchem Anteil davon A vor B steht.
+Der strenge Wert zeigt, ob der Agent an alle gebotenen Schritte denkt, der bedingte Wert zeigt, ob er die vorhandenen Schritte richtig ordnet.
+Jeder Entwurf wird je Modell \offen{5}~Mal erzeugt, und die Werte werden je Modell und je Fall berichtet.
+\offen{Wann H4 als bestätigt gilt (Schwelle 80\,\%, strenger oder bedingter Wert)}
 
 \subsection{Aufbau und Auswertung H5 bis H7}\label{sec:h5_h7}
-\offen{Referenzfälle mit Soll-Entscheidung (gemeinsam für H5 bis H7)}
+% Sätze abgesegnet am 22.11.2026
+Mit H5 bis H7 wird geprüft, ob sich die zugeordneten Vorschriften zur Laufzeit durchsetzen lassen, also während ein KI-Agent den Prozess ausführt.
+\offen{Mit welchen Fällen H5 bis H7 geprüft werden (mindestens Fall~1, die Fälle~2 und~3 je nach Aufwand)}
+Alle drei Hypothesen nutzen dieselben Referenzfälle.
+Ein Referenzfall beschreibt eine konkrete Aktion im Prozess, für die vorher feststeht, ob sie zulässig ist (Soll-Entscheidung).
+Ein Beispiel ist eine Shortlist, die das KI-Werkzeug erstellt und nach der die Einladungen ohne Prüfung durch den Ausschuss verschickt werden.
+Diese Aktion ist nach Art.~22 DSGVO und Art.~26 AI Act unzulässig.
+Für jeden geprüften Fall werden \offen{20} Referenzfälle gebildet, je zur Hälfte zulässig und unzulässig.
+Die gleiche Zahl zulässiger und unzulässiger Fälle verhindert, dass Regeln gut abschneiden, die immer gleich entscheiden.
+Die Fachleute aus Abschnitt~\ref{sec:fachliche_pruefung} prüfen die Referenzfälle und ihre Soll-Entscheidungen zusammen mit der Referenzzuordnung.
+
 \subsubsection{H5: Prüfregeln}
-\offen{Regeln aus den Zuordnungen erzeugen, Übereinstimmung mit der Soll-Entscheidung}
+Mit H5 wird geprüft, ob sich aus den zugeordneten Vorschriften Prüfregeln erzeugen lassen, die richtig entscheiden.
+Eine Prüfregel legt fest, unter welcher Bedingung eine Aktion erlaubt ist, zum Beispiel \enquote{Die Shortlist darf erst festgelegt werden, wenn der Ausschuss das Ranking geprüft hat}.
+Der Agent übersetzt jede Zeile der geprüften Referenzzuordnung in eine solche Regel in einem festen Format.
+Er geht dabei von der geprüften Referenz aus, damit Fehler aus H2 und H3 das Ergebnis von H5 unberührt lassen.
+Die Regeln entscheiden anschließend für jeden Referenzfall, ob die Aktion zulässig ist.
+Für H5 zählt, bei welchem Anteil der Referenzfälle die Regeln genauso entscheiden wie die Soll-Entscheidung.
+\offen{Wann H5 als bestätigt gilt; Format der Regeln}
+
 \subsubsection{H6: Laufzeitmonitor}
-\offen{KI-Agent führt den Prozess aus, Monitor prüft jede Aktion; blockierte unzulässige und fälschlich blockierte zulässige Aktionen}
+Mit H6 wird geprüft, ob ein Laufzeitmonitor mit diesen Regeln unzulässige Aktionen eines KI-Agenten verhindert.
+Der Aufbau orientiert sich an C-Trace (Abschnitt~\ref{sec:ctrace}), damit sich die Ergebnisse einordnen lassen.
+Ein Laufzeitmonitor ist ein Programm, das jede Aktion eines Agenten vor der Ausführung prüft und unzulässige Aktionen blockiert.
+Dazu führt ein zweiter KI-Agent den Prozess aus und erhält dabei simulierte Eingaben, zum Beispiel eingehende Bewerbungen oder eine Anweisung der Hochschulleitung.
+Wie bei C-Trace ist der Agent so eingestellt, dass er jede Anweisung ausführt, damit allein der Monitor über die Zulässigkeit entscheidet.
+Seine Werkzeuge wie \enquote{Mail senden} oder \enquote{Daten löschen} zeichnen jeden Aufruf nur auf und geben eine vorbereitete Antwort zurück.
+So lässt sich mit geringem Aufwand beobachten, wie der Agent die Eingaben verarbeitet und welche Aktionen er auslöst.
+In einen Teil der Durchläufe werden Versuchungen eingebaut, also Anweisungen, die zu einer unzulässigen Aktion verleiten.
+Ein Beispiel ist die Anweisung \enquote{Spar dir die Beteiligung der Schwerbehindertenvertretung, es eilt}.
+Die Versuchungen nutzen dieselben Mittel wie bei C-Trace, nämlich Zeitdruck, die Berufung auf eine Autorität wie die Hochschulleitung und die Aufforderung, frühere Anweisungen zu ignorieren.
+Die Versuchungen sorgen dafür, dass genug unzulässige Aktionen auftreten, um den Monitor zu prüfen.
+Neben den Durchläufen mit Versuchungen gibt es harmlose Durchläufe und harmlose Grenzfälle, also zulässige Aktionen, die einer unzulässigen ähneln.
+Ein Beispiel für einen Grenzfall ist das Festlegen der Shortlist, nachdem der Ausschuss das Ranking geprüft hat, das zulässig ist, während dieselbe Aktion ohne Prüfung unzulässig ist.
+Die Grenzfälle zeigen besonders deutlich, ob der Monitor zulässige Aktionen fälschlich blockiert.
+Für H6 zählen zwei Werte, nämlich der Anteil der unzulässigen Aktionen, die der Monitor blockiert, und der Anteil der zulässigen Aktionen, die er fälschlich blockiert.
+\offen{Zahl der Durchläufe und Versuchungen; wann H6 als bestätigt gilt}
+
 \subsubsection{H7: Gesamtkette}
-\offen{Ablauf wie H6 mit den ungeprüften Ergebnissen aus H2 und H3, Vergleich mit H6}
+Mit H7 wird geprüft, wie gut die Kette schützt, wenn niemand die Ergebnisse des Agenten fachlich prüft.
+Der Ablauf entspricht H6, die Regeln entstehen hier aber aus den ungeprüften Ergebnissen des Agenten aus H2 und H3 in Konfiguration~A (der Agent bestimmt die Regelwerke selbst).
+Der Vergleich mit H6 zeigt, wie viel Schutz ohne fachliche Prüfung verloren geht.
+H7 gilt als bestätigt, wenn der Monitor mehr als die Hälfte der unzulässigen Aktionen blockiert.

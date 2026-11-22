@@ -17,7 +17,50 @@ Für jeden Absatz wird auf jeder Ebene geprüft, ob er dort relevant ist.
 Die Auswahl der Fachleute dient als Maßstab, mit dem die anderen drei Verfahren verglichen werden.
 Gemessen wird, welchen Anteil der relevanten Absätze ein Verfahren findet (\fb{trefferquote}, englisch \emph{Recall}) und welcher Anteil der gemeldeten Absätze tatsächlich relevant ist (\fb{genauigkeit}, englisch \emph{Precision}).
 Trefferquote und Genauigkeit werden für jede der drei Ebenen getrennt berechnet.
-\offen{HIER WEITER: Block 2 -- Ergebnisse von Sai et al.\ je Ebene (Tabelle 3.1), danach Bezug zu dieser Arbeit (\enquote{am nächsten}, Vergleichswert für H2). Vorher H2-Schwelle klären: 0,62 stammt von der Teilprozess-Ebene, Task-Ebene 0,69/0,77. Herkunft der drei Ebenen wird in Abschnitt 2.1 erklärt.}
+% Sätze abgesegnet am 22.11.2026 (Block 2)
+Tabelle~\ref{tab:sai_ergebnisse} zeigt Trefferquote und Genauigkeit der drei Verfahren auf den drei Ebenen.
+GPT-4 erreicht in beiden Fallstudien die höchste Trefferquote der drei Verfahren.
+Auf Ebene des Prozesses findet GPT-4 nahezu alle relevanten Absätze (Trefferquote 1,00 bei der Versicherung und 0,97 bei der Bank).
+Auf Ebene der Tasks sinkt die Trefferquote auf 0,69 bei der Versicherung und 0,77 bei der Bank.
+Je feiner die Ebene, desto schwerer fällt also die Zuordnung.
+Bei der Bank liegt die Trefferquote auf Ebene der Teilprozesse mit 0,62 sogar unter dem Wert der Tasks.
+Die Genauigkeit von GPT-4 ist auf Ebene des Prozesses gering (0,34 bei der Versicherung), weil das Modell viele Absätze vorsichtshalber als relevant meldet.
+Das Embedding-Verfahren findet auf allen Ebenen weniger als die Hälfte der relevanten Absätze.
+Die Laien liegen dazwischen, schwanken aber stark zwischen den Ebenen und den Fallstudien.
+Die Autoren folgern, dass die Auswahl durch Fachleute weiterhin nötig bleibt, und empfehlen GPT-4 als Hilfe, deren Ergebnis Fachleute prüfen.
+Für diese Arbeit ist die Studie von Sai et al. die nächstliegende, weil sie ebenfalls Vorschriften den einzelnen Tasks eines Prozesses zuordnet und das Ergebnis auf denselben drei Ebenen misst.
+Die Trefferquote von GPT-4 auf Ebene der Tasks dient deshalb als Vergleichswert für H2.
+In zwei Punkten geht diese Arbeit über Sai et al. hinaus.
+Erstens erhielt GPT-4 bei Sai et al. die Sammlung der Rechtstexte vorab und musste nur über jeden vorgelegten Absatz entscheiden.
+Der Agent dieser Arbeit sucht die geltenden Regelwerke und Vorschriften dagegen selbst in amtlichen Quellen (H1 und Konfiguration~A, in der er den Rechtsrahmen selbst bestimmt).
+Zweitens prüfen Sai et al. ausschließlich, welche Absätze zu vorhandenen Schritten passen.
+Diese Arbeit fragt zusätzlich, welche rechtlich gebotenen Schritte im Prozess fehlen (H3).
+
+\begin{table}[H]
+  \centering
+  \small
+  \caption[Ergebnisse von Sai et al.\ je Ebene]{Trefferquote (T) und Genauigkeit (G) der drei Verfahren je Ebene, gemessen an der Auswahl der Fachleute. Quelle: Sai et al.~\cite{sai2024}, Tabellen~3, 4 und~6 (Embedding: Bi-Encoder mit Cross-Encoder; Laien: Einstellung mit Qualitätsfilter).}
+  \label{tab:sai_ergebnisse}
+  \begin{tabular}{@{}llcccc@{}}
+    \toprule
+    & & \multicolumn{2}{c}{Versicherung} & \multicolumn{2}{c}{Bank} \\
+    \cmidrule(lr){3-4}\cmidrule(lr){5-6}
+    Verfahren & Ebene & T & G & T & G \\
+    \midrule
+    GPT-4 & Prozess & 1,00 & 0,34 & 0,97 & 0,51 \\
+     & Teilprozess & 0,81 & 0,71 & 0,62 & 0,58 \\
+     & Task & 0,69 & 0,64 & 0,77 & 0,93 \\
+    \midrule
+    Embedding & Prozess & 0,41 & 0,18 & 0,29 & 0,13 \\
+     & Teilprozess & 0,39 & 0,18 & 0,31 & 0,11 \\
+     & Task & 0,35 & 0,13 & 0,24 & 0,13 \\
+    \midrule
+    Laien & Prozess & 0,80 & 0,72 & 0,60 & 0,95 \\
+     & Teilprozess & 0,70 & 0,56 & 0,29 & 0,65 \\
+     & Task & 0,32 & 0,45 & 0,41 & 0,75 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \begin{figure}[H]
   \centering
@@ -29,10 +72,52 @@ Trefferquote und Genauigkeit werden für jede der drei Ebenen getrennt berechnet
 \offen{weitere Sätze zu 3.1}
 
 \subsection{Rechtsinformationssuche mit Sprachmodellen}
-\offen{3.2 -- Literaturrecherche}
+% Sätze abgesegnet am 22.11.2026
+Der Agent dieser Arbeit recherchiert die geltenden Vorschriften selbst, deshalb hängt sein Ergebnis davon ab, wie zuverlässig Sprachmodelle Rechtstexte finden und wiedergeben.
+Magesh et al.~\cite{magesh2025} prüfen dazu kommerzielle Recherche-Werkzeuge für Juristen, die selbst in ihren Rechtsdatenbanken suchen.
+Obwohl die Werkzeuge auf echte Quellen zugreifen, erfinden sie in 17 bis 33\,\% der Antworten Inhalte oder Fundstellen.
+Diese Arbeit beschränkt den Agenten deshalb auf amtliche Quellen und prüft jeden Fund darauf, ob die genannte Vorschrift existiert (Abschnitt~\ref{sec:auswertung_h1_h3}).
+Yuan und Wang~\cite{yuan2025} lassen mit L-MARS mehrere Agenten selbst nach Rechtsquellen suchen und jede Fundstelle gegen ihre Quelle prüfen.
+Technisch kommt L-MARS dem Agenten dieser Arbeit am nächsten, beantwortet aber einzelne Rechtsfragen ohne Bezug zu einem Prozess.
+Hassani et al.~\cite{hassani2024} und Berger et al.~\cite{berger2025} nutzen Sprachmodelle, um die Einhaltung von Vorschriften zu prüfen, etwa bei Verträgen zur Auftragsverarbeitung nach der DSGVO oder bei Geschäftsberichten nach den Regeln der Rechnungslegung.
+In beiden Arbeiten erhält das Modell die maßgeblichen Rechtstexte vorab.
+Die bisherigen Arbeiten geben also entweder die Rechtstexte vor oder beantworten einzelne Rechtsfragen.
+Diese Arbeit verbindet beides, indem ein Agent selbst recherchiert, welche Vorschriften für die einzelnen Schritte eines Prozesses gelten.
+\offen{Vor Abgabe prüfen, ob es zu den Preprints (L-MARS, Hassani et al., C-Trace, Sai et al.) begutachtete Fassungen gibt; Fundstelle von Berger et al. (IEEE BigData) bestätigen}
 
-\subsection{Runtime Verification von Agenten}
-\offen{3.3 -- C-Trace}
+\subsection{Runtime Verification von Agenten}\label{sec:ctrace}
+% Sätze abgesegnet am 22.11.2026
+Die Arbeit von Sai et al.~\cite{sai2024} endet mit der Zuordnung, also mit der Liste der Vorschriften, die für jeden Schritt des Prozesses gelten.
+Diese Arbeit geht einen Schritt weiter und fragt, ob sich die zugeordneten Vorschriften auch während der Ausführung des Prozesses durchsetzen lassen (FF4).
+Diese Frage wird wichtig, sobald ein KI-Agent Schritte des Prozesses selbst ausführt, etwa Bewerbungen auswertet oder Mails verschickt.
+Dann muss jede Aktion des Agenten vor der Ausführung geprüft werden, damit er die Vorschriften einhält.
+Solche Prüfungen heißen Runtime Verification (Laufzeitverifikation), weil sie das tatsächliche Verhalten eines Systems zur Laufzeit, also während der Ausführung, mit festgelegten Regeln vergleichen.
+Kahani et al.~\cite{kahani2026} zeigen mit dem Verfahren C-Trace, dass sich dieser Ansatz auf KI-Agenten übertragen lässt, die mit Werkzeugen arbeiten.
+C-Trace setzt dazu einen Monitor zwischen den Agenten und seine Werkzeuge.
+Der Monitor zeichnet jeden Werkzeugaufruf auf, prüft vor der Ausführung, ob der Aufruf zusammen mit den bisherigen Aufrufen eine Regel verletzt, und blockiert ihn in diesem Fall.
+Die Regeln bilden vier Grundsätze der DSGVO ab, etwa die Einwilligung vor der Verarbeitung und das Recht auf Löschung.
+Hier liegt der Unterschied zu dieser Arbeit, denn Kahani et al. haben die vier Regeln von Hand geschrieben.
+Sie setzen voraus, dass bekannt ist, welche Vorschriften für einen Prozess gelten und wie daraus Regeln entstehen.
+Genau diese Schritte untersucht diese Arbeit, indem ein Agent die Vorschriften selbst findet und daraus die Regeln für den Monitor ableitet (H5 bis H7).
+Damit verbindet die Arbeit die Zuordnung von Sai et al. mit der Durchsetzung von Kahani et al.
+Für den Aufbau der eigenen Versuche dient C-Trace zusätzlich als methodisches Vorbild.
+Kahani et al. prüfen den Monitor an vier Anwendungsfällen mit einem Sprachmodell (GPT-4o mini) als Agent.
+Darunter sind ein medizinischer Assistent und die Kontoeröffnung bei einer Bank.
+Der Agent ist bewusst so eingestellt, dass er jede Anfrage ausführt, damit allein der Monitor über die Zulässigkeit entscheidet.
+Je Fall versuchen 400 Dialoge, den Agenten mit Mitteln wie Zeitdruck oder der Berufung auf eine Autorität zu einem Verstoß zu verleiten.
+Dazu kommen harmlose Dialoge und harmlose Grenzfälle, die einem Verstoß ähneln, aber zulässig sind.
+Gemessen wird, wie viele Angriffe trotz Monitor gelingen und wie viele harmlose Dialoge der Monitor fälschlich blockiert.
+Mit Monitor liegt der Anteil gelungener Angriffe in allen vier Fällen bei 0\,\%, ebenso der Anteil der Fehlalarme.
+Die Autoren weisen darauf hin, dass dieses Ergebnis nur gilt, wenn jeder Verstoß als Ereignis erfasst wird und eine Regel ihn abdeckt.
+Genau diese Voraussetzung prüft diese Arbeit mit H7, denn dort stammen die Regeln aus den ungeprüften Ergebnissen des Agenten.
 
 \subsection{Forschungslücke}
-\offen{3.4}
+% Sätze abgesegnet am 22.11.2026
+Die drei Abschnitte zeigen, dass die Bausteine dieser Arbeit bereits untersucht wurden, aber jeweils getrennt.
+Sai et al.~\cite{sai2024} ordnen Vorschriften den Schritten eines Prozesses zu, geben dem Sprachmodell die Rechtstexte aber vor.
+Arbeiten wie L-MARS~\cite{yuan2025} lassen Agenten selbst nach Rechtsquellen suchen, beziehen sich aber auf einzelne Rechtsfragen.
+C-Trace~\cite{kahani2026} setzt Regeln zur Laufzeit durch, schreibt diese Regeln aber von Hand.
+Offen ist damit, ob ein Agent die gesamte Kette leisten kann, also die geltenden Vorschriften für einen Prozess selbst findet, den Schritten zuordnet, fehlende Schritte erkennt und daraus Regeln für einen Monitor ableitet.
+Offen ist außerdem, wie viel Schutz verloren geht, wenn die Ergebnisse des Agenten ohne fachliche Prüfung in den Monitor gelangen.
+Diese Arbeit untersucht beide Fragen an vier Anwendungsfällen.
+Dabei erweitert sie die bisherigen Studien, die sich auf australisches Recht (Sai et al.) oder auf die DSGVO (C-Trace) beschränken, auf mehrere Ebenen des Rechts, von der EU bis zu technischen Normen.
