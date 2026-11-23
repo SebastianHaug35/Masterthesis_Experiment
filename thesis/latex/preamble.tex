@@ -36,6 +36,12 @@
     \footnote{\csname gl@kurz@#1\endcsname{} Siehe Glossar.}%
     \global\expandafter\let\csname gl@used@#1\endcsname\empty
   \fi}
+% \fbt{schluessel}{Text}: wie \fb, aber mit gebeugtem Text (z. B. Dativ)
+\newcommand{\fbt}[2]{\hyperlink{gl:#1}{#2}%
+  \expandafter\ifx\csname gl@used@#1\endcsname\relax
+    \footnote{\csname gl@kurz@#1\endcsname{} Siehe Glossar.}%
+    \global\expandafter\let\csname gl@used@#1\endcsname\empty
+  \fi}
 \newcommand{\printglossar}{\section*{Glossar}\addcontentsline{toc}{section}{Glossar}
   \begin{description}[style=nextline,leftmargin=1.5em]\glossarliste\end{description}}
 \input{glossar}
