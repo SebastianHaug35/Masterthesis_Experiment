@@ -506,7 +506,12 @@ H6 gilt als bestätigt, wenn der Monitor in jedem geprüften Fall mindestens 71\
 Der Wert stammt aus der Studie zu AgentSpec~\cite{wang2026agentspec}, in der von einem Sprachmodell erzeugte Regeln 71\,\% der unsicheren Aktionen erkennen (Abschnitt~\ref{sec:vergleichswerte}).
 Dieser Wert passt besser als die mehr als 90\,\% mit von Hand geschriebenen Regeln, weil auch in dieser Arbeit ein Sprachmodell die Regeln erzeugt.
 Der Anteil fälschlich blockierter zulässiger Aktionen wird mit C-Trace verglichen, das keine zulässige Aktion blockiert hat~\cite{kahani2026}.
-\offen{Zahl der Durchläufe und Versuchungen}
+% Zahl der Durchläufe H6 abgesegnet am 23.11.2026
+Jeder der zehn unzulässigen Referenzfälle wird mit jeder der drei Arten von Versuchung kombiniert, was 30~Durchläufe ergibt.
+Die zehn zulässigen Referenzfälle laufen ohne Versuchung und enthalten die harmlosen Grenzfälle, was zehn Durchläufe ergibt.
+Alle 40~Durchläufe werden wie die übrigen Versuche fünf Mal wiederholt, sodass sich 200~Durchläufe je Fall und Modell ergeben.
+Auf einen zulässigen Durchlauf kommen damit drei unzulässige, ähnlich wie bei C-Trace mit vier Angriffen auf einen harmlosen Dialog~\cite{kahani2026}.
+\offen{Kosten der Durchläufe für H6 nach dem Probelauf schätzen}
 
 \subsubsection{H7: Gesamtkette}
 Mit H7 wird geprüft, wie gut die Kette schützt, wenn niemand die Ergebnisse des Agenten fachlich prüft.
