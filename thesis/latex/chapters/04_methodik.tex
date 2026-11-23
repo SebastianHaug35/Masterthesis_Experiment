@@ -22,7 +22,7 @@ Der Ansatz wird an mehreren Anwendungsfällen untersucht, die sich in Branche, R
     Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE, Anschlussbedingungen der Feuerwehr) & frei verfügbar & durch die Studie vorgegeben \\
     Rolle in der Arbeit & Hauptfall & explorativer Fall: privates Unternehmen, Normen & explorativer Fall: Behörde als Organisation & Vergleichswert \\
     Fachliche Prüfung & Prof.\ Böhm, weitere Fachperson der HM (offen) & Fachperson für Brandschutz (offen) & Fachperson aus dem Behördenfunk (offen) & Fachleute der Studie \\
-    Stand & Eingaben fertig, fachliche Prüfung offen & Eingaben im Entwurf & Eingaben im Entwurf & Verfügbarkeit prüfen \\
+    Stand & Eingaben fertig, fachliche Prüfung offen & Eingaben im Entwurf & Eingaben im Entwurf & Daten im Repository, nur für H2 \\
     \bottomrule
   \end{tabularx}
   \caption{Anwendungsfälle der Arbeit}
@@ -262,16 +262,30 @@ Tabelle~\ref{tab:fall3_abdeckung} zeigt die Abdeckung im Einzelnen.
 \end{table}
 
 \subsection{Fall 4: Vergleichsdaten von Sai et al.}\label{sec:fall4}
-\offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
-\offen{Daten: Versicherung (7 Teilprozesse, 31 Tasks, 342 veröffentlichte Absätze) und Bank (7 Teilprozesse, 19 Tasks, 311 Absätze), MIT-Lizenz, im Repo unter h1/input/sai. Ohne bewusst entfernte Schritte, daher nur für H1 und H2}
+% Sätze 1-17 abgesegnet am 23.11.2026; Entscheidung 23.11.2026: Fall 4 nur für H2 mit der Textsammlung der Studie
+Der vierte Anwendungsfall übernimmt die beiden Fälle der Studie von Sai et al.\ (Abschnitt~\ref{sec:sai}), nämlich die Schadensbearbeitung einer Reiseversicherung und die Kundenprüfung einer Bank (Know Your Customer).
+Mit dem Fall lassen sich die Ergebnisse des Agenten direkt mit den Werten von GPT-4 aus der Studie vergleichen.
+Die Vorschriften stammen aus australischem und britischem Recht, aus einem Branchenkodex der Versicherungswirtschaft und aus internen Dokumenten des Versicherers.
+Die Werkzeuge des Agenten reichen nur bis zu deutschen und europäischen Quellen.
+Deshalb erhält der Agent in Fall~4 die Absätze der Studie über ein eigenes Werkzeug, mit dem er sie durchsucht und lädt.
+Der Fall dient ausschließlich der Prüfung von H2, weil die Textsammlung der Studie die Regelwerke bereits festlegt (wie in Konfiguration~B, in der der Rechtsrahmen vorgegeben ist) und die Prozesse vollständig sind, also keine bewusst entfernten Schritte enthalten.
+
 \subsubsection{Eingabe}\label{sec:fall4_eingabe}
-\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
+Der Agent erhält je Fall die Prozessbeschreibung der Studie mit Teilprozessen und Tasks.
+Die Reiseversicherung umfasst sieben Teilprozesse und 31 Tasks, die Bank sieben Teilprozesse und 19 Tasks.
+Die Textsammlung umfasst 489 Absätze für die Versicherung und 311 Absätze für die Bank.
+\offen{Prüfen, ob aus den Angaben der Studie ein kurzes Profil der Organisation gebildet wird}
+Die Daten stehen unter der MIT-Lizenz (freie Nutzung mit Nennung der Quelle) und liegen im Repository unter \repodatei{h1/input/sai}.
 
 \subsubsection{Erwartung}\label{sec:fall4_erwartung}
-\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften})}
+Als Referenz dient die Zuordnung der Fachleute aus der Studie (Goldstandard), die für jede der drei Ebenen Paare aus Prozessschritt und relevantem Absatz enthält.
+Auf Ebene der Tasks umfasst sie 133 Paare für die Versicherung und 110 Paare für die Bank.
+Recall und Precision werden wie bei Sai et al.\ auf allen drei Ebenen berechnet, damit sich die Werte mit Tabelle~\ref{tab:sai_ergebnisse} vergleichen lassen.
+Die Fachleute der Studie haben die Referenz erstellt, deshalb wird sie für diese Arbeit unverändert übernommen.
 
 \subsubsection{Abdeckung}\label{sec:fall4_abdeckung}
-\offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
+Fall~4 deckt Rechtsordnungen außerhalb der EU ab, nämlich australisches und britisches Recht, einen Branchenkodex und interne Regeln eines Unternehmens.
+Damit prüft der Fall, ob der Ansatz auch in einer anderen Rechtsordnung trägt.
 
 \subsection{Fachliche Prüfung}\label{sec:fachliche_pruefung}
 % Gliederung 4.6-4.11 abgestimmt am 18.11.2026
@@ -331,8 +345,8 @@ Der Vergleich beider Konfigurationen zeigt, welcher Anteil der Fehler in Stufe~2
 Jede Kombination aus Fall, Konfiguration und Modell läuft \offen{5}~Mal.
 Die Wiederholung ist nötig, weil ein Sprachmodell bei gleicher Eingabe unterschiedliche Antworten erzeugen kann.
 Ausgewertet werden der Mittelwert und die Spannweite (kleinster und größter Wert) jeder Kennzahl über die Läufe einer Kombination.
-Bei vier Fällen, zwei Konfigurationen und zwei Modellen ergeben sich 16~Kombinationen und damit \offen{80}~Läufe.
-\offen{Prüfen, für welche Hypothesen Fall~4 (Sai et al.) genutzt wird; Zahl der Läufe danach anpassen}
+Fall~1 bis Fall~3 laufen in beiden Konfigurationen, Fall~4 nur mit der vorgegebenen Textsammlung, dafür mit zwei Prozessen (Versicherung und Bank).
+Bei zwei Modellen ergeben sich damit zwölf Kombinationen für Fall~1 bis Fall~3 und vier Kombinationen für Fall~4, zusammen 16~Kombinationen und \offen{80}~Läufe.
 
 \offen{Probelauf je Modell mit Fall~1 zum Festlegen der Einstellungen: Kosten je Lauf, Grenze der Werkzeugaufrufe je Task, Denkaufwand bei Opus~5.5, Wahl des DeepSeek-Modells, Streuung der Ergebnisse, Laufzeit und Abbrüche}
 Vor den finalen Läufen werden Prompts, Werkzeuge, Eingaben und Einstellungen eingefroren, also festgeschrieben und danach unverändert gelassen.
