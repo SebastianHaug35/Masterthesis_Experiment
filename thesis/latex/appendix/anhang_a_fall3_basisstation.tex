@@ -1,0 +1,74 @@
+% Fall 3 (Basisstation BOS-Digitalfunk): Profil, Annahmen, Prozess und Referenz, Entwurf 23.11.2026
+\paragraph{Profil}
+\begin{small}\begin{longtable}{@{}>{\raggedright\arraybackslash}p{5.0cm}>{\raggedright\arraybackslash}p{9.5cm}@{}}
+\caption[Organisationsprofil für Fall~3]{Organisationsprofil für Fall~3: Basisstation im BOS-Digitalfunk. Quelle: eigene Darstellung (Entwurf).}\label{tab:fall3_profil}\\
+\toprule \textbf{Merkmal} & \textbf{Angabe} \\ \midrule \endfirsthead
+\toprule \textbf{Merkmal} & \textbf{Angabe} \\ \midrule \endhead
+\bottomrule \endfoot
+Name & Autorisierte Stelle Digitalfunk Bayern (angelehnt an die Autorisierte Stelle Bayern Digitalfunk, vereinfacht) \\
+Sitz & Bayern, Deutschland \\
+Rechtsform & Behörde des Freistaats Bayern \\
+Sektor & öffentlich \\
+Aufgabe & Betrieb des Digitalfunknetzes der Behörden und Organisationen mit Sicherheitsaufgaben (BOS) in Bayern \\
+Bauausführung & Staatliches Bauamt \\
+Vorhaben & neue Basisstation mit Antennenmast im Außenbereich der Gemeinde Musterdorf (fiktiv) \\
+Sendeleistung & über 10~Watt äquivalente isotrope Strahlungsleistung (EIRP) \\
+KI-Einsatz & nein \\
+Dienstleister außerhalb der EU & nein \\
+\end{longtable}\end{small}
+\paragraph{Annahmen}
+\begin{description}[leftmargin=1.0cm,style=sameline]
+  \item[A1] Eine Messung hat eine Versorgungslücke ergeben. Der Suchkreis (Gebiet, in dem der Standort liegen muss) liegt vollständig im Außenbereich der Gemeinde.
+  \item[A2] Eine Mitnutzung bestehender Masten ist ausgeschlossen. Nötig ist ein neuer Mast mit 25~m freier Höhe und ein Technikschrank unter 30~m³.
+  \item[A3] Das Grundstück gehört einem privaten Landwirt und liegt außerhalb eines Bebauungsplans.
+  \item[A4] Das Staatliche Bauamt leitet Entwurf und Bauüberwachung (Baudienststelle des Landes).
+  \item[A5] Die Frequenzen sind der Bundesanstalt für den Digitalfunk der BOS (BDBOS) zugeteilt. \offen{Klären, ob eine einzelne Basisstation eine eigene Frequenzzuteilung nach §~91 TKG braucht oder die Ausnahme für Behörden nach §~91 Abs.~1 Satz~4 TKG greift}
+  \item[A6] \offen{Klären, ob die Basisstation als Vorhaben des Bevölkerungsschutzes nach Art.~73 Abs.~4 BayBO gilt; davon hängt ab, ob statt der Zustimmung eine Kenntnisgabe an die Regierung genügt}
+\end{description}
+\paragraph{Prozess}
+\begin{small}\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.0cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{10.0cm}@{}}
+\caption[Prozess für Fall~3: Basisstation]{Prozess für Fall~3: Basisstation im BOS-Digitalfunk mit Teilprozessen, Tasks und Beschreibungen. Quelle: eigene Darstellung (Entwurf).}\label{tab:fall3_prozess}\\
+\toprule \textbf{Kennung} & \textbf{Bezeichnung} & \textbf{Beschreibung} \\ \midrule \endfirsthead
+\toprule \textbf{Kennung} & \textbf{Bezeichnung} & \textbf{Beschreibung} \\ \midrule \endhead
+\bottomrule \endfoot
+\multicolumn{3}{@{}l}{\textbf{TP1 Standort gewinnen}} \\
+T1.1 & Standorte suchen & Die Funkplanung sucht im Suchkreis Grundstücke, auf denen ein Mast die Versorgungslücke schließt. \\
+T1.2 & Standort funktechnisch prüfen & Die Funkplanung misst mit einem mobilen Sender, ob der Standort die Lücke schließt. \\
+T1.3 & Standort festlegen & Die Leitung wählt den Standort aus. \\
+T1.4 & Nutzungsvertrag schließen & Die Rechtsabteilung schließt mit dem Eigentümer einen Gestattungsvertrag über 20~Jahre. \\
+\multicolumn{3}{@{}l}{\textbf{TP2 Genehmigen}} \\
+T2.1 & Verfahren klären & Das Staatliche Bauamt klärt, welches bauaufsichtliche Verfahren gilt. \\
+T2.2 & Antrag stellen & Das Staatliche Bauamt reicht die Bauvorlagen bei der zuständigen Behörde ein. \\
+T2.3 & Bescheid abwarten & Das Staatliche Bauamt wartet auf den Bescheid und prüft die Nebenbestimmungen. \\
+\multicolumn{3}{@{}l}{\textbf{TP3 Bauen}} \\
+T3.1 & Bauleistungen vergeben & Das Staatliche Bauamt schreibt Fundament, Mast und Technikschrank aus und vergibt den Auftrag. \\
+T3.2 & Mast und Technik errichten & Die beauftragte Firma baut Fundament, Mast, Antennen und Technikschrank. \\
+T3.3 & Bau abnehmen & Das Staatliche Bauamt nimmt die Bauleistung ab. \\
+\multicolumn{3}{@{}l}{\textbf{TP4 In Betrieb nehmen}} \\
+T4.1 & Ins Netz einbinden & Die Netztechnik verbindet die Basisstation mit dem Netz und konfiguriert sie. \\
+T4.2 & Abdeckung messen & Die Funkplanung misst die Versorgung im Suchkreis. \\
+T4.3 & Betrieb aufnehmen & Die Leitung gibt die Basisstation für den Betrieb frei. \\
+\end{longtable}\end{small}
+\paragraph{Referenzzuordnung}
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{5.5cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.0cm}@{}}
+\caption[Referenzzuordnung für Fall~3: Basisstation]{Referenzzuordnung für Fall~3: Basisstation im BOS-Digitalfunk. Vorschriften am Text geprüft (gesetze-im-internet.de, gesetze-bayern.de, 23.11.2026), BEMFV, TKG und Art.~68 BayBO über eine nicht amtliche Textsammlung. Quelle: eigene Darstellung (Entwurf).}\label{tab:fall3_referenz}\\
+\toprule \textbf{Regelwerk} & \textbf{Fundstelle} & \textbf{Inhalt} & \textbf{Tasks} & \textbf{Art} \\ \midrule \endfirsthead
+\toprule \textbf{Regelwerk} & \textbf{Fundstelle} & \textbf{Inhalt} & \textbf{Tasks} & \textbf{Art} \\ \midrule \endhead
+\bottomrule \endfoot
+BayBO & Art.~57 Abs.~1 Nr.~5 Buchst.~a & Masten bis 15~m, im Außenbereich bis 20~m, sind verfahrensfrei; der Mast mit 25~m ist es nicht & T2.1 & Zuordnung \\
+BayBO & Art.~73 Abs.~1 & Leitet eine Baudienststelle des Landes den Bau, ersetzt die Zustimmung der Regierung die Baugenehmigung & T2.1, T2.2 & Zuordnung \\
+BayBO & Art.~73 Abs.~2 Satz~1 und 5 & Antrag an die Regierung; Gemeinde vor der Zustimmung anhören & T2.2, T2.3 & Zuordnung \\
+BayBO & Art.~68 Abs.~6 mit Art.~73 Abs.~2 Satz~6 & Baubeginn erst nach Zugang des Bescheids (Übertragung auf die Zustimmung abgeleitet) & T2.3, T3.2 & Zuordnung \\
+BauGB & §~35 & Vorhaben im Außenbereich & T1.3, T2.1 & Zuordnung \\
+BayHO & Art.~55 & Öffentliche Ausschreibung vor Vergabe & T3.1 & Zuordnung \\
+26.~BImSchV & §~7a & Gemeinde bei der Auswahl des Standorts rechtzeitig anhören und Ergebnis berücksichtigen & -- & fehlender Schritt \\
+BEMFV & §~4 Abs.~1 und 5 & Betrieb ab 10~W EIRP nur mit gültiger Standortbescheinigung; Antrag des Betreibers bei der Bundesnetzagentur & -- & fehlender Schritt \\
+TKG & §~91 Abs.~1 & Frequenznutzung braucht vorherige Zuteilung, Ausnahme für Behörden bei bereits zugeteilten Frequenzen (Annahme A5) & T4.3 & neutral \\
+BayBO & Art.~73 Abs.~4 & Kenntnisgabe statt Zustimmung bei Bevölkerungsschutz (Annahme A6) & T2.1 & neutral \\
+BGB & §§~535 ff. & Gestattungsvertrag als Miet- oder Pachtvertrag & T1.4 & neutral \\
+BEMFV & §~4 Abs.~3 & Ausnahme für sofortige Inbetriebnahme zur Gefahrenabwehr greift bei einer geplanten Basisstation nicht. Wer sie anwendet und die Standortbescheinigung entfallen lässt, liegt falsch & -- & Falle \\
+BayBO & Art.~57 Abs.~3 Satz~1 Nr.~2 & Befristete Masten bis 24~Monate gelten nur für den Mobilfunk. Wer den Mast als verfahrensfrei einstuft, liegt falsch & T2.1 & Falle \\
+\end{longtable}
+\end{small}
+\offen{BauGB §~35: klären, ob der BOS-Funk unter Abs.~1 Nr.~3 (öffentliche Versorgung mit Telekommunikationsdienstleistungen) fällt oder als sonstiges Vorhaben nach Abs.~2 gilt. BayHO Art.~55, §~35 BauGB und die Übertragung von Art.~68 Abs.~6 BayBO noch am Text prüfen; Antworten zu A5 und A6 bestimmen die Art der neutralen Zeilen}

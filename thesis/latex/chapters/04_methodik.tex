@@ -14,13 +14,13 @@ Der Ansatz wird an mehreren Anwendungsfällen untersucht, die sich in Branche, R
   \renewcommand{\arraystretch}{1.3}
   \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{2.2cm} Y Y Y Y}
     \toprule
-     & \textbf{Fall 1: Berufungsverfahren} & \textbf{Fall 2: Brandmeldeanlage} & \textbf{Fall 3: TETRA-Endgeräte} & \textbf{Fall 4: Vergleichsdaten Sai et al.} \\
+     & \textbf{Fall 1: Berufungsverfahren} & \textbf{Fall 2: Brandmeldeanlage} & \textbf{Fall 3: Basisstation} & \textbf{Fall 4: Vergleichsdaten Sai et al.} \\
     \midrule
-    Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & bayerische Behörde mit Sicherheitsaufgaben & Versicherung und Bank (Australien) \\
-    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Beschaffung bis Aussonderung von TETRA-Funkgeräten & Schadensbearbeitung; Kundenprüfung \\
-    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Funkanlagen- und Vergaberecht, Datenschutz, ETSI-Normen & Versicherungs- und Finanzaufsichtsrecht \\
-    Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & frei verfügbar, auch die ETSI-Normen & durch die Studie vorgegeben \\
-    Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & explorativer Fall: frei verfügbare Normen & Vergleichswert \\
+    Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & bayerische Behörde, die das Digitalfunknetz der BOS betreibt & Versicherung und Bank (Australien) \\
+    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Standortsuche bis Inbetriebnahme einer Basisstation & Schadensbearbeitung; Kundenprüfung \\
+    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Bau- und Planungsrecht, Immissionsschutz, Telekommunikationsrecht, Verwaltungsvorschriften & Versicherungs- und Finanzaufsichtsrecht \\
+    Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & frei verfügbar & durch die Studie vorgegeben \\
+    Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & explorativer Fall: Behörde als Organisation & Vergleichswert \\
     Fachliche Prüfung & Prof.\ Böhm, weitere Fachperson der HM (offen) & Lehrbeauftragter für Brandschutz der HM, eigene Fachkenntnis & Fachleute aus der Behördenpraxis (offen) & Fachleute der Studie \\
     Stand & umgesetzt & geplant & geplant & Verfügbarkeit prüfen \\
     \bottomrule
@@ -178,9 +178,8 @@ Tabelle~\ref{tab:fall2_referenz} zeigt die vollständige Referenz.
 Fall~2 deckt fünf Ebenen ab, nämlich EU-Verordnungen, Bundesgesetze, Landesgesetze, Landesverordnungen und technische Normen.
 \offen{Tabelle der Rechtsebenen wie in Abschnitt~\ref{sec:fall1} (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3); Spalte Brandmeldetechnik in Tabelle~2.1 an den neuen Fall anpassen}
 
-\subsection{Fall 3: TETRA-Endgeräte in einer Behörde}\label{sec:fall3}
-\offen{Entscheidung 19.11.2026: zusätzlicher Fall neben Fall~2. Warum der Fall sinnvoll ist: ETSI-Normen sind frei verfügbar (Gegenstück zu Fall~2), Richtlinien-Ebene über Funkanlagen-Richtlinie (RED) und WEEE, Normen-Ebene über harmonisierte Normen; Fachleute über den Arbeitsplatz des Autors (nur öffentlich zugängliche Informationen, BOS-Funk teils Verschlusssache)}
-\offen{Prozess-Skizze: TP1 Bedarf (Gerätezahl, Anforderungen, BOS-Zulassung) -- TP2 Vergabe (GWB, VgV bzw. VSVgV) -- TP3 Annahme (CE-Kennzeichnung und Konformitätserklärung nach Funkanlagengesetz, ETSI EN 300 392) -- TP4 Inbetriebnahme (Sicherheitskarte, Programmierung, Anmeldung im Netz; BSI- und BDBOS-Vorgaben) -- TP5 Nutzung (Schulung, Ausgabe, Sperrung verlorener Geräte; optional KI-Transkription von Funksprüchen) -- TP6 Aussonderung (Sicherheitskarte zurückgeben, Speicher löschen, Entsorgung nach ElektroG). Lückenkandidaten: Personalrat wegen Standortdaten (BayPVG), Datenschutz-Folgenabschätzung, Löschen vor Entsorgung. Alle Angaben prüfen}
+\subsection{Fall 3: Basisstation im BOS-Digitalfunk}\label{sec:fall3}
+\offen{Entscheidung 23.11.2026: Fall~3 behandelt statt der Beschaffung von TETRA-Endgeräten die Errichtung einer Basisstation aus Sicht der Stelle, die das Digitalfunknetz der BOS in Bayern betreibt (angelehnt an die Autorisierte Stelle Bayern Digitalfunk). Grund: Für die Beschaffung gibt es kaum gesetzliche Vorgaben zur Reihenfolge; Standortsuche, Genehmigung, Bau und Inbetriebnahme stützen sich auf öffentlich zugängliche Gesetze (BayBO, BauGB, 26.~BImSchV, BEMFV, TKG). Bedarfsplanung und Messung regeln interne Vorgaben und entfallen. Sätze zum Fall gemeinsam formulieren; Profil, Prozess und Referenz in Anhang~\ref{anh:fall3}}
 \subsubsection{Eingabe}\label{sec:fall3_eingabe}
 \offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
 
@@ -239,7 +238,6 @@ Stufe~2 lässt sich zusätzlich mit einem vorgegebenen Rechtsrahmen starten (Kon
 
 Der Agent recherchiert ausschließlich über vier Werkzeuge, die auf amtliche Quellen zugreifen.
 Diese Quellen sind gesetze-im-internet.de für Bundesrecht, gesetze-bayern.de für bayerisches Landesrecht und EUR-Lex für EU-Recht.
-\offen{Quelle für die ETSI-Normen in Fall~3 (etsi.org) ergänzen}
 Mit \texttt{suche\_regelwerk} findet er ein Regelwerk, mit \texttt{inhaltsverzeichnis} sieht er dessen Gliederung, mit \texttt{lade\_norm} lädt er den Text einer Vorschrift und mit \texttt{suche\_volltext} durchsucht er ein Regelwerk nach Begriffen.
 Die Beschränkung auf amtliche Quellen stellt sicher, dass jede Fundstelle auf einen geltenden Gesetzestext zurückgeht.
 Der Agent lädt jede Vorschrift mit \texttt{lade\_norm}, bevor er sie ausgibt, und nennt die Adresse der Quelle und das Datum der Fassung.
