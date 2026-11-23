@@ -2,7 +2,33 @@
 % Struktur abgestimmt am 28.10.2026 (12 Seiten)
 
 \subsection{Forschungsdesign}
-\offen{4.1 -- experimentell, mehrere Fälle mit derselben Methode; Überblick, welche Hypothese mit welchem Versuch geprüft wird}
+% Sätze 1-5 und Tabelle abgesegnet am 23.11.2026
+Diese Arbeit beantwortet die Forschungsfragen aus Abschnitt~\ref{sec:forschungsfragen} mit einem Experiment, also mit Versuchen, in denen der Agent unter festgelegten Bedingungen arbeitet und seine Ergebnisse mit einer vorher erstellten Referenz verglichen werden.
+Dieselbe Methode wird auf vier Anwendungsfälle angewendet, damit sich zeigt, ob die Ergebnisse von einem einzelnen Fall abhängen.
+Die Versuche folgen der Kette aus Abschnitt~\ref{sec:forschungsfragen}, nämlich Regelwerke bestimmen, Vorschriften zuordnen, fehlende Schritte erkennen, einen Prozess entwerfen sowie Regeln ableiten und zur Laufzeit durchsetzen.
+Jede Hypothese wird mit einer Kennzahl geprüft, deren Schwelle vor den finalen Läufen aus einer Vergleichsstudie festgelegt wurde (Abschnitt~\ref{sec:vergleichswerte}).
+Tabelle~\ref{tab:hypothesen_ueberblick} zeigt, welche Hypothese mit welchem Versuch, welchen Fällen und welcher Kennzahl geprüft wird.
+
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{0.9cm} Y >{\raggedright\arraybackslash}p{1.8cm} Y >{\raggedright\arraybackslash}p{3.0cm}}
+    \toprule
+    \textbf{H} & \textbf{Versuch} & \textbf{Fälle} & \textbf{Kennzahl} & \textbf{Schwelle} \\
+    \midrule
+    H1 & Stufe 1, Konfiguration A & 1--3 & Trefferquote der Regelwerke & $\geq 0{,}84$ \cite{etezadi2025} \\
+    H2 & Stufe 2, Konfiguration B & 1--4 & Trefferquote auf Ebene der Tasks & $\geq 0{,}69$ bzw.\ $0{,}77$ \cite{sai2024} \\
+    H3 & Stufe 2 & 1--3 & F1-Wert der fehlenden Schritte & $\geq 0{,}38$ \cite{grohs2025} \\
+    H4 & Prozessentwurf ohne Vorlage & 1--3 & strenger Wert der Reihenfolge-Paare & $\geq 0{,}93$ \cite{kourani2024} \\
+    H5 & Prüfregeln aus der geprüften Referenz & mind.\ Fall~1 & Recall der unzulässigen Referenzfälle & $\geq 0{,}75$ \cite{kim2026} \\
+    H6 & Laufzeitmonitor mit zweitem Agenten & wie H5 & Anteil blockierter unzulässiger Aktionen & $\geq 0{,}71$ \cite{wang2026agentspec} \\
+    H7 & wie H6, Regeln aus ungeprüften Ergebnissen & wie H5 & Abstand zu H6 & -- \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Überblick über Hypothesen, Versuche und Kennzahlen}
+  \label{tab:hypothesen_ueberblick}
+\end{table}
 
 \subsection{Auswahl der Anwendungsfälle}
 % Satz 1 und Tabelle 4.1 abgesegnet am 28.10.2026
