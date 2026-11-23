@@ -179,15 +179,45 @@ Fall~2 deckt fünf Ebenen ab, nämlich EU-Verordnungen, Bundesgesetze, Landesges
 \offen{Tabelle der Rechtsebenen wie in Abschnitt~\ref{sec:fall1} (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3); Spalte Brandmeldetechnik in Tabelle~2.1 an den neuen Fall anpassen}
 
 \subsection{Fall 3: Basisstation im BOS-Digitalfunk}\label{sec:fall3}
-\offen{Entscheidung 23.11.2026: Fall~3 behandelt statt der Beschaffung von TETRA-Endgeräten die Errichtung einer Basisstation aus Sicht der Stelle, die das Digitalfunknetz der BOS in Bayern betreibt (angelehnt an die Autorisierte Stelle Bayern Digitalfunk). Grund: Für die Beschaffung gibt es kaum gesetzliche Vorgaben zur Reihenfolge; Standortsuche, Genehmigung, Bau und Inbetriebnahme stützen sich auf öffentlich zugängliche Gesetze (BayBO, BauGB, 26.~BImSchV, BEMFV, TKG). Bedarfsplanung und Messung regeln interne Vorgaben und entfallen. Sätze zum Fall gemeinsam formulieren; Profil, Prozess und Referenz in Anhang~\ref{anh:fall3}}
+% Sätze am 23.11.2026 vorgeschlagen, Freigabe mit "gut. weiter"
+\offen{Entscheidung 23.11.2026: Fall~3 behandelt statt der Beschaffung von TETRA-Endgeräten die Errichtung einer Basisstation. Fall~3 im Entwurf, fachliche Prüfung ausstehend}
+Der dritte Anwendungsfall ist die Errichtung einer Basisstation (ortsfeste Sendeanlage mit Antennenmast) für den Digitalfunk der Behörden und Organisationen mit Sicherheitsaufgaben (BOS), etwa Polizei, Feuerwehr und Rettungsdienst.
+Ein Beispiel für den Bedarf ist eine Versorgungslücke, also ein Gebiet, in dem Einsatzkräfte keinen Funkempfang haben.
+Der Fall ergänzt Fall~1 und Fall~2 in drei Punkten.
+Die Organisation ist selbst eine Behörde, die als Bauherrin auftritt.
+Er stützt sich auf Bau-, Planungs-, Immissionsschutz- und Telekommunikationsrecht sowie auf Verwaltungsvorschriften (Regeln, mit denen ein Ministerium den eigenen Behörden vorgibt, wie sie Gesetze anwenden).
+Für eine Behörde gelten im Baurecht eigene Verfahren, etwa die Zustimmung der Regierung statt einer Baugenehmigung, wenn eine staatliche Baudienststelle den Bau leitet.
+Der Fall ist auf Standortsuche, Genehmigung, Bau und Inbetriebnahme beschränkt, weil diese Schritte auf öffentlich zugänglichen Vorschriften beruhen.
+Die vorgelagerte Funkplanung richtet sich nach internen Vorgaben der Netzbetreiber und ist über die Werkzeuge des Agenten nicht abrufbar.
+
 \subsubsection{Eingabe}\label{sec:fall3_eingabe}
-\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
+Der Agent erhält wie in Fall~1 ein Profil der Organisation und den Prozess.
+Die Organisation ist an die Autorisierte Stelle Bayern Digitalfunk angelehnt, die das Digitalfunknetz der BOS in Bayern betreibt.
+Tabelle~\ref{tab:fall3_profil} zeigt alle Angaben des Profils.
+Der Prozess reicht von der Suche nach einem Standort bis zur Aufnahme des Betriebs.
+Er ist in vier Teilprozesse und 13 Tasks gegliedert, nämlich Standort gewinnen, Genehmigen, Bauen und In Betrieb nehmen.
+Wie in Fall~1 beschreibt ein Satz jeden Task, ohne Hinweis auf Vorschriften.
+Der Antrag in T2.2 nennt bewusst weder Verfahren noch Behörde, weil der Agent beides aus den Vorschriften ableiten soll.
+Tabelle~\ref{tab:fall3_prozess} zeigt den vollständigen Prozess.
+Sieben Annahmen grenzen den Fall ein.
+Nach Annahme A2 hat der Mast eine freie Höhe von 25~m und liegt damit über der Grenze, bis zu der ein Mast im Außenbereich verfahrensfrei (ohne bauaufsichtliches Verfahren) ist.
+Zwei Annahmen (A5 und A6) betreffen Rechtsfragen, die sich aus dem Gesetzestext allein nicht beantworten lassen und die eine Fachperson aus dem Behördenfunk klärt.
 
 \subsubsection{Erwartung}\label{sec:fall3_erwartung}
-\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften}), bewusst entfernte Schritte, Kontrollschritt}
+Die Referenzzuordnung umfasst 17 Zeilen aus neun Regelwerken.
+Neun Zeilen ordnen eine Vorschrift einem Task zu.
+Drei Zeilen beschreiben fehlende Schritte, nämlich die Anhörung der Gemeinde bei der Standortwahl, die Standortbescheinigung der Bundesnetzagentur und die förmliche Übergabe an die nutzende Stelle.
+Der Antrag bei der zuständigen Behörde ist im Prozess vorhanden (T2.2) und dient als Kontrollschritt.
+Meldet der Agent ihn als fehlend, gilt das als Fehlmeldung.
+Der Fall enthält zwei Fallen.
+Die erste betrifft eine Ausnahme der BEMFV, nach der Anlagen zur Gefahrenabwehr ohne Standortbescheinigung starten dürfen, wenn sie sofort gebraucht werden.
+Eine geplante Basisstation erfüllt diese Bedingung nicht, deshalb gilt es als Fehler, wenn der Agent die Standortbescheinigung mit dieser Ausnahme entfallen lässt.
+Die zweite betrifft befristete Masten, die nach Art.~57 Abs.~3 BayBO nur für den Mobilfunk verfahrensfrei sind.
+Tabelle~\ref{tab:fall3_referenz} zeigt die vollständige Referenz.
 
 \subsubsection{Abdeckung}\label{sec:fall3_abdeckung}
-\offen{Tabelle der Rechtsebenen aus Abbildung~\ref{fig:rechtsquellen}}
+Fall~3 deckt vier Ebenen ab, nämlich Bundesgesetze, Bundesverordnungen, Landesgesetze und Verwaltungsvorschriften.
+\offen{Tabelle der Rechtsebenen wie in Abschnitt~\ref{sec:fall1}; Ebene Verwaltungsvorschrift in Abbildung~\ref{fig:rechtsquellen} und Abschnitt~2.3 ergänzen}
 
 \subsection{Fall 4: Vergleichsdaten von Sai et al.}\label{sec:fall4}
 \offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
