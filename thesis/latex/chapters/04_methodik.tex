@@ -342,11 +342,13 @@ In Konfiguration~A bestimmt der Agent den Rechtsrahmen in Stufe~1 selbst.
 In Konfiguration~B erhält er den Rechtsrahmen aus der Referenz und beginnt direkt mit Stufe~2.
 Der Vergleich beider Konfigurationen zeigt, welcher Anteil der Fehler in Stufe~2 auf einen unvollständigen Rechtsrahmen zurückgeht.
 
-Jede Kombination aus Fall, Konfiguration und Modell läuft \offen{5}~Mal.
+Jede Kombination aus Fall, Konfiguration und Modell läuft fünf Mal.
 Die Wiederholung ist nötig, weil ein Sprachmodell bei gleicher Eingabe unterschiedliche Antworten erzeugen kann.
+Die Zahl folgt Ouyang et al.~\cite{ouyang2025}, die jede Anfrage an ChatGPT fünf Mal stellen, um diese Schwankung zu messen.
 Ausgewertet werden der Mittelwert und die Spannweite (kleinster und größter Wert) jeder Kennzahl über die Läufe einer Kombination.
+Die Spannweite wird berichtet, weil Atil et al.~\cite{atil2025} empfehlen, bei Sprachmodellen den höchsten und den niedrigsten Wert über mehrere Läufe anzugeben.
 Fall~1 bis Fall~3 laufen in beiden Konfigurationen, Fall~4 nur mit der vorgegebenen Textsammlung, dafür mit zwei Prozessen (Versicherung und Bank).
-Bei zwei Modellen ergeben sich damit zwölf Kombinationen für Fall~1 bis Fall~3 und vier Kombinationen für Fall~4, zusammen 16~Kombinationen und \offen{80}~Läufe.
+Bei zwei Modellen ergeben sich damit zwölf Kombinationen für Fall~1 bis Fall~3 und vier Kombinationen für Fall~4, zusammen 16~Kombinationen und 80~Läufe.
 
 \offen{Probelauf je Modell mit Fall~1 zum Festlegen der Einstellungen: Kosten je Lauf, Grenze der Werkzeugaufrufe je Task, Denkaufwand bei Opus~5.5, Wahl des DeepSeek-Modells, Streuung der Ergebnisse, Laufzeit und Abbrüche}
 Vor den finalen Läufen werden Prompts, Werkzeuge, Eingaben und Einstellungen eingefroren, also festgeschrieben und danach unverändert gelassen.
@@ -444,7 +446,7 @@ Der Verfasser ordnet jedem Paar von Hand die passenden Schritte im Entwurf zu, w
 Der strenge Wert ist der Anteil der Paare, bei denen beide Schritte im Entwurf vorkommen und A vor B steht.
 Der bedingte Wert betrachtet nur die Paare, bei denen beide Schritte vorkommen, und gibt an, bei welchem Anteil davon A vor B steht.
 Der strenge Wert zeigt, ob der Agent an alle gebotenen Schritte denkt, der bedingte Wert zeigt, ob er die vorhandenen Schritte richtig ordnet.
-Jeder Entwurf wird je Modell \offen{5}~Mal erzeugt, und die Werte werden je Modell und je Fall berichtet.
+Jeder Entwurf wird wie in Abschnitt~\ref{sec:durchfuehrung} je Modell fünf Mal erzeugt, und die Werte werden je Modell und je Fall berichtet.
 % Schwelle H4 abgesegnet am 23.11.2026
 H4 gilt als bestätigt, wenn der mittlere strenge Wert in jedem der Fälle~1 bis~3 mindestens 0,93 beträgt, getrennt je Modell.
 Maßgeblich ist der strenge Wert, weil ein Schritt, der im Entwurf fehlt, an keiner zulässigen Stelle steht.
@@ -465,7 +467,9 @@ Alle drei Hypothesen nutzen dieselben Referenzfälle.
 Ein Referenzfall beschreibt eine konkrete Aktion im Prozess, für die vorher feststeht, ob sie zulässig ist (Soll-Entscheidung).
 Ein Beispiel ist eine Shortlist, die das KI-Werkzeug erstellt und nach der die Einladungen ohne Prüfung durch den Ausschuss verschickt werden.
 Diese Aktion ist nach Art.~22 DSGVO und Art.~26 AI Act unzulässig.
-Für jeden geprüften Fall werden \offen{20} Referenzfälle gebildet, je zur Hälfte zulässig und unzulässig.
+Für jeden geprüften Fall werden 20 Referenzfälle gebildet, je zur Hälfte zulässig und unzulässig.
+C-Trace nutzt je Fall 50 harmlose Dialoge und 50 harmlose Grenzfälle~\cite{kahani2026}, also deutlich mehr.
+Diese Arbeit bleibt bei 20 Referenzfällen je Fall, weil jede Soll-Entscheidung von einer Fachperson geprüft wird und der Prüfaufwand mit jedem Fall wächst.
 Die gleiche Zahl zulässiger und unzulässiger Fälle verhindert, dass Regeln gut abschneiden, die immer gleich entscheiden.
 Die Fachleute aus Abschnitt~\ref{sec:fachliche_pruefung} prüfen die Referenzfälle und ihre Soll-Entscheidungen zusammen mit der Referenzzuordnung.
 
