@@ -435,14 +435,24 @@ Teilprozesse und Tasks entwirft er selbst, ohne Vorlage aus Abschnitt~\ref{sec:f
 Ein Vergleich Task für Task mit dem vorgegebenen Prozess eignet sich dafür schlecht, weil der Agent die Schritte frei benennen und zuschneiden darf.
 Deshalb wird der Entwurf mit Reihenfolge-Paaren bewertet, also mit Regeln der Form \enquote{Schritt A muss vor Schritt B kommen}, die aus einer Vorschrift folgen.
 Ein Beispiel ist die Datenschutz-Folgenabschätzung, die vor dem ersten Einsatz des KI-Werkzeugs stattfinden muss (Art.~35 DSGVO).
-Für Fall~1 umfasst die Referenz 15~Paare (Tabelle~\ref{tab:h4_paare_fall1}).
+Für Fall~1 umfasst die Referenz 15~Paare (Tabelle~\ref{tab:h4_paare_fall1}), für Fall~2 zehn Paare (Tabelle~\ref{tab:h4_paare_fall2}) und für Fall~3 sechs Paare (Tabelle~\ref{tab:h4_paare_fall3}).
 Die Paare sind aus der Referenzzuordnung abgeleitet und werden zusammen mit ihr fachlich geprüft.
 Der Verfasser ordnet jedem Paar von Hand die passenden Schritte im Entwurf zu, weil der Agent die Schritte frei benennt.
 Der strenge Wert ist der Anteil der Paare, bei denen beide Schritte im Entwurf vorkommen und A vor B steht.
 Der bedingte Wert betrachtet nur die Paare, bei denen beide Schritte vorkommen, und gibt an, bei welchem Anteil davon A vor B steht.
 Der strenge Wert zeigt, ob der Agent an alle gebotenen Schritte denkt, der bedingte Wert zeigt, ob er die vorhandenen Schritte richtig ordnet.
 Jeder Entwurf wird je Modell \offen{5}~Mal erzeugt, und die Werte werden je Modell und je Fall berichtet.
-\offen{Wann H4 als bestätigt gilt (Schwelle 80\,\%, strenger oder bedingter Wert)}
+% Schwelle H4 abgesegnet am 23.11.2026
+H4 gilt als bestätigt, wenn der mittlere strenge Wert in jedem der Fälle~1 bis~3 mindestens 0,8 beträgt, getrennt je Modell.
+Maßgeblich ist der strenge Wert, weil ein Schritt, der im Entwurf fehlt, an keiner zulässigen Stelle steht.
+Der bedingte Wert wird ergänzend berichtet.
+In Fall~1 muss der Agent also mindestens 12 von 15~Paaren erfüllen.
+In Fall~2 zählen nur die sieben Paare aus Vorschriften, die der Agent laden kann, sodass er mindestens sechs davon erfüllen muss.
+Die drei Paare aus Normen und Anschlussbedingungen der Feuerwehr werden getrennt ausgewiesen.
+In Fall~3 muss er mindestens fünf von sechs Paaren erfüllen.
+Die Schwelle von 80\,\% folgt aus dem Nutzen für die Praxis, denn steht mehr als jeder fünfte gebotene Schritt an falscher Stelle oder fehlt, muss eine Fachperson den Entwurf grundlegend überarbeiten.
+Fall~4 entfällt für H4, weil die Studie von Sai et al.\ keine Reihenfolge-Paare enthält.
+\offen{Fall~3: Paare 3, 5 und 6 entfallen, falls die RLBau nach der fachlichen Prüfung für den Funkmast nicht gelten; Schwelle dann auf die übrigen Paare anwenden}
 
 \subsection{Aufbau und Auswertung H5 bis H7}\label{sec:h5_h7}
 % Sätze abgesegnet am 22.11.2026
