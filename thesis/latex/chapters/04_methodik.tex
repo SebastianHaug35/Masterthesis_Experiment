@@ -384,11 +384,13 @@ Ein Regelwerk gilt als geltend, wenn ihm in der Referenz mindestens eine Zeile d
 Die Trefferquote für H1 ist der Anteil der geltenden Regelwerke, die der Agent in Stufe~1 nennt.
 Die Genauigkeit ist der Anteil der genannten Regelwerke, die in der Referenz als geltend geführt sind.
 % Schwellen H1-H3 abgesegnet am 23.11.2026
-H1 gilt als bestätigt, wenn die mittlere Trefferquote in Konfiguration~A (der Agent bestimmt die Regelwerke selbst) in jedem der Fälle~1 bis~3 einzeln mindestens 0,9 beträgt, getrennt je Modell.
+H1 gilt als bestätigt, wenn die mittlere Trefferquote in Konfiguration~A (der Agent bestimmt die Regelwerke selbst) in jedem der Fälle~1 bis~3 einzeln mindestens 0,84 beträgt, getrennt je Modell.
+Der Wert stammt aus der Studie von Etezadi et al.~\cite{etezadi2025}, in der GPT-4o die passenden DSGVO-Bestimmungen zu Anforderungen sucht (Abschnitt~\ref{sec:vergleichswerte}).
+Die Aufgabe dort ist feiner, weil sie einzelne Bestimmungen statt ganzer Regelwerke verlangt, deshalb ist der Wert für H1 eher streng gewählt.
 Die Schwelle gilt für jeden Fall einzeln, weil ein Mittelwert über die Fälle einen schwachen Fall verdecken kann, etwa eine Trefferquote von 0,7 in einem Fall neben zwei Fällen mit 1,0.
 Fall~4 entfällt für H1, weil die Textsammlung der Studie die Regelwerke vorgibt.
 Ein fehlendes Regelwerk führt dazu, dass in Stufe~2 alle seine Vorschriften fehlen.
-Deshalb verlangt H1 eine nahezu vollständige Trefferquote.
+Deshalb ist die Trefferquote für H1 wichtiger als die Genauigkeit.
 Die Genauigkeit wird ergänzend berichtet.
 Die Auswertung erfolgt getrennt je Modell und je Fall.
 \offen{Satz: Herleitung der Referenz für H1 aus der Referenzzuordnung, Verweis auf Tabelle~\ref{tab:h1_referenz}}
@@ -420,12 +422,13 @@ Eine Meldung gilt als erkannt, wenn Regelwerk und Vorschrift mit einer solchen Z
 Die Stelle im Prozess, an der der Agent den Schritt einordnet, wird zusätzlich erfasst.
 Meldet der Agent einen Schritt als fehlend, der im Prozess vorhanden ist, gilt das als Fehlmeldung.
 Ein Beispiel ist der Kontrollschritt, also die Beteiligung der Gleichstellungsbeauftragten in T1.3.
-H3 gilt als bestätigt, wenn der Agent im Mittel mindestens 60\,\% der fehlenden Schritte erkennt und im Mittel höchstens eine Fehlmeldung je Lauf ausgibt, getrennt je Fall und Modell.
-In Fall~2 mit fünf fehlenden Schritten muss er also mindestens drei erkennen, in Fall~3 mit drei fehlenden Schritten mindestens zwei.
-Die Schwelle liegt knapp unter der von H2, weil der Agent für einen fehlenden Schritt etwas bemerken muss, das im Prozess gar nicht steht.
-Für diese Schwelle fehlt ein Vergleichswert aus der Literatur, weil sich die Arbeiten aus Kapitel~\ref{ch:verwandte_arbeiten} auf die Zuordnung zu vorhandenen Schritten beschränken.
-Eine Fehlmeldung je Lauf wird zugelassen, weil sich ein einzelner falscher Hinweis in der Praxis mit wenig Aufwand prüfen und verwerfen lässt.
+Aus erkannten Meldungen und Fehlmeldungen ergibt sich der F1-Wert, also das harmonische Mittel aus dem Anteil erkannter fehlender Schritte und dem Anteil richtiger Meldungen an allen Meldungen.
+Der F1-Wert fasst beide Fehlerarten in einer Zahl zusammen, sodass ein Agent, der wahllos viele Schritte als fehlend meldet, einen niedrigen Wert erhält.
 Als Fehlmeldung zählen auch Meldungen zum Kontrollschritt und zu den Fallen.
+H3 gilt als bestätigt, wenn der mittlere F1-Wert in jedem der Fälle~1 bis~3 mindestens 0,38 beträgt, getrennt je Modell.
+Der Wert stammt aus der Studie von Grohs et al.~\cite{grohs2025}, in der ein Sprachmodell übersprungene Schritte in Abläufen von Prozessen erkennt (Abschnitt~\ref{sec:vergleichswerte}).
+Diese Aufgabe kommt H3 am nächsten, weil auch dort ein Schritt erkannt werden muss, der im Ablauf fehlt.
+Trefferquote und Zahl der Fehlmeldungen werden zusätzlich einzeln berichtet.
 
 \subsection{Aufbau und Auswertung H4}\label{sec:h4}
 % Sätze abgesegnet am 22.11.2026
@@ -443,14 +446,14 @@ Der bedingte Wert betrachtet nur die Paare, bei denen beide Schritte vorkommen, 
 Der strenge Wert zeigt, ob der Agent an alle gebotenen Schritte denkt, der bedingte Wert zeigt, ob er die vorhandenen Schritte richtig ordnet.
 Jeder Entwurf wird je Modell \offen{5}~Mal erzeugt, und die Werte werden je Modell und je Fall berichtet.
 % Schwelle H4 abgesegnet am 23.11.2026
-H4 gilt als bestätigt, wenn der mittlere strenge Wert in jedem der Fälle~1 bis~3 mindestens 0,8 beträgt, getrennt je Modell.
+H4 gilt als bestätigt, wenn der mittlere strenge Wert in jedem der Fälle~1 bis~3 mindestens 0,93 beträgt, getrennt je Modell.
 Maßgeblich ist der strenge Wert, weil ein Schritt, der im Entwurf fehlt, an keiner zulässigen Stelle steht.
 Der bedingte Wert wird ergänzend berichtet.
-In Fall~1 muss der Agent also mindestens 12 von 15~Paaren erfüllen.
-In Fall~2 zählen nur die sieben Paare aus Vorschriften, die der Agent laden kann, sodass er mindestens sechs davon erfüllen muss.
+In Fall~1 muss der Agent also im Mittel mindestens 14 von 15~Paaren erfüllen.
+In Fall~2 zählen nur die sieben Paare aus Vorschriften, die der Agent laden kann.
 Die drei Paare aus Normen und Anschlussbedingungen der Feuerwehr werden getrennt ausgewiesen.
-In Fall~3 muss er mindestens fünf von sechs Paaren erfüllen.
-Die Schwelle von 80\,\% folgt aus dem Nutzen für die Praxis, denn steht mehr als jeder fünfte gebotene Schritt an falscher Stelle oder fehlt, muss eine Fachperson den Entwurf grundlegend überarbeiten.
+Der Wert stammt aus der Studie von Kourani et al.~\cite{kourani2024}, in der das beste Sprachmodell Prozessmodelle mit einer Übereinstimmung von 0,93 zum Referenzmodell erzeugt (Abschnitt~\ref{sec:vergleichswerte}).
+Dort erhält das Modell den Ablauf in Worten, während der Agent in dieser Arbeit die gebotenen Schritte selbst kennen muss, deshalb ist der Wert für H4 eine strenge Schwelle.
 Fall~4 entfällt für H4, weil die Studie von Sai et al.\ keine Reihenfolge-Paare enthält.
 \offen{Fall~3: Paare 3, 5 und 6 entfallen, falls die RLBau nach der fachlichen Prüfung für den Funkmast nicht gelten; Schwelle dann auf die übrigen Paare anwenden}
 
@@ -473,7 +476,11 @@ Der Agent übersetzt jede Zeile der geprüften Referenzzuordnung in eine solche 
 Er geht dabei von der geprüften Referenz aus, damit Fehler aus H2 und H3 das Ergebnis von H5 unberührt lassen.
 Die Regeln entscheiden anschließend für jeden Referenzfall, ob die Aktion zulässig ist.
 Für H5 zählt, bei welchem Anteil der Referenzfälle die Regeln genauso entscheiden wie die Soll-Entscheidung.
-\offen{Wann H5 als bestätigt gilt; Format der Regeln}
+Zusätzlich zählt der Recall, also der Anteil der unzulässigen Referenzfälle, die die Regeln als unzulässig erkennen.
+H5 gilt als bestätigt, wenn der Recall in jedem geprüften Fall mindestens 0,75 beträgt, getrennt je Modell.
+Der Wert stammt aus der Studie von Kim et al.~\cite{kim2026}, in der aus Artikeln der DSGVO erzeugte Regeln 75\,\% der Verstöße in Fällen erkennen (Abschnitt~\ref{sec:vergleichswerte}).
+Die DSGVO ist auch in Fall~1 eines der zentralen Regelwerke, deshalb passt dieser Wert besser als der höhere Wert für den AI Act (0,85).
+\offen{Format der Regeln}
 
 \subsubsection{H6: Laufzeitmonitor}
 Mit H6 wird geprüft, ob ein Laufzeitmonitor mit diesen Regeln unzulässige Aktionen eines KI-Agenten verhindert.
@@ -491,10 +498,15 @@ Neben den Durchläufen mit Versuchungen gibt es harmlose Durchläufe und harmlos
 Ein Beispiel für einen Grenzfall ist das Festlegen der Shortlist, nachdem der Ausschuss das Ranking geprüft hat, das zulässig ist, während dieselbe Aktion ohne Prüfung unzulässig ist.
 Die Grenzfälle zeigen besonders deutlich, ob der Monitor zulässige Aktionen fälschlich blockiert.
 Für H6 zählen zwei Werte, nämlich der Anteil der unzulässigen Aktionen, die der Monitor blockiert, und der Anteil der zulässigen Aktionen, die er fälschlich blockiert.
-\offen{Zahl der Durchläufe und Versuchungen; wann H6 als bestätigt gilt}
+H6 gilt als bestätigt, wenn der Monitor in jedem geprüften Fall mindestens 71\,\% der unzulässigen Aktionen blockiert, getrennt je Modell.
+Der Wert stammt aus der Studie zu AgentSpec~\cite{wang2026agentspec}, in der von einem Sprachmodell erzeugte Regeln 71\,\% der unsicheren Aktionen erkennen (Abschnitt~\ref{sec:vergleichswerte}).
+Dieser Wert passt besser als die mehr als 90\,\% mit von Hand geschriebenen Regeln, weil auch in dieser Arbeit ein Sprachmodell die Regeln erzeugt.
+Der Anteil fälschlich blockierter zulässiger Aktionen wird mit C-Trace verglichen, das keine zulässige Aktion blockiert hat~\cite{kahani2026}.
+\offen{Zahl der Durchläufe und Versuchungen}
 
 \subsubsection{H7: Gesamtkette}
 Mit H7 wird geprüft, wie gut die Kette schützt, wenn niemand die Ergebnisse des Agenten fachlich prüft.
 Der Ablauf entspricht H6, die Regeln entstehen hier aber aus den ungeprüften Ergebnissen des Agenten aus H2 und H3 in Konfiguration~A (der Agent bestimmt die Regelwerke selbst).
 Der Vergleich mit H6 zeigt, wie viel Schutz ohne fachliche Prüfung verloren geht.
-H7 gilt als bestätigt, wenn der Monitor mehr als die Hälfte der unzulässigen Aktionen blockiert.
+H7 wird über den Abstand zu H6 beantwortet, also über den Unterschied im Anteil blockierter unzulässiger Aktionen.
+Eine eigene Schwelle entfällt, weil H6 den Bezugswert für dieselbe Aufgabe mit geprüften Ergebnissen liefert.

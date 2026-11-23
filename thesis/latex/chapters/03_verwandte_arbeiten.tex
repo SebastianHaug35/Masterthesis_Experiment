@@ -111,9 +111,25 @@ Mit Monitor liegt der Anteil gelungener Angriffe in allen vier Fällen bei 0\,\%
 Die Autoren weisen darauf hin, dass dieses Ergebnis nur gilt, wenn jeder Verstoß als Ereignis erfasst wird und eine Regel ihn abdeckt.
 Genau diese Voraussetzung prüft diese Arbeit mit H7, denn dort stammen die Regeln aus den ungeprüften Ergebnissen des Agenten.
 
+\subsection{Vergleichswerte aus verwandten Aufgaben}\label{sec:vergleichswerte}
+% Abschnitt am 23.11.2026 ergänzt (Bezugswerte für die Schwellen H1 bis H6, Freigabe Sebastian)
+Für die Schwellen der Hypothesen nutzt diese Arbeit Werte aus Studien, die verwandte Aufgaben mit Sprachmodellen gemessen haben.
+Die Aufgaben dort ähneln denen dieser Arbeit, stimmen aber nie genau überein, deshalb nennt jeder Absatz auch den Unterschied.
+Etezadi et al.~\cite{etezadi2025} lassen GPT-4o zu Anforderungen an eine Software die passenden Bestimmungen der DSGVO suchen und erreichen im Mittel einen Recall von 0,84.
+Diese Aufgabe ähnelt H1, arbeitet aber mit einzelnen Bestimmungen statt mit ganzen Regelwerken und ist damit feiner.
+Grohs et al.~\cite{grohs2025} lassen ein Sprachmodell in Abläufen von Prozessen erkennen, welche Schritte übersprungen wurden, und erreichen dabei einen F1-Wert von 0,38.
+Diese Aufgabe kommt H3 am nächsten, weil auch dort ein Schritt erkannt werden muss, der im Ablauf fehlt.
+Kourani et al.~\cite{kourani2024} lassen 16 Sprachmodelle Prozessmodelle aus Beschreibungen erzeugen und vergleichen sie mit einem Referenzmodell, wobei das beste Modell (Claude~3.5 Sonnet) einen Wert von 0,93 erreicht.
+Diese Aufgabe ähnelt H4, gibt dem Modell aber den Ablauf in Worten vor, während der Agent in dieser Arbeit die gebotenen Schritte selbst kennen muss.
+Kim et al.~\cite{kim2026} übersetzen Artikel der DSGVO und des AI Act in ausführbare Regeln, die anschließend Fälle auf Verstöße prüfen, und erkennen bei der DSGVO 75\,\% und beim AI Act 85\,\% der Verstöße.
+Diese Aufgabe entspricht H5, weil auch dort aus Gesetzestext erzeugte Regeln über konkrete Fälle entscheiden.
+Wang et al.~\cite{wang2026agentspec} setzen mit AgentSpec Regeln für Agenten zur Laufzeit durch und verhindern mit von Hand geschriebenen Regeln mehr als 90\,\% der unsicheren Aktionen.
+Lassen sie die Regeln von einem Sprachmodell erzeugen, erkennen diese 71\,\% der unsicheren Aktionen.
+Dieser zweite Wert passt zu H6, weil auch in dieser Arbeit ein Sprachmodell die Regeln erzeugt.
+
 \subsection{Forschungslücke}
 % Sätze abgesegnet am 22.11.2026
-Die drei Abschnitte zeigen, dass die Bausteine dieser Arbeit bereits untersucht wurden, aber jeweils getrennt.
+Die ersten drei Abschnitte zeigen, dass die Bausteine dieser Arbeit bereits untersucht wurden, aber jeweils getrennt.
 Sai et al.~\cite{sai2024} ordnen Vorschriften den Schritten eines Prozesses zu, geben dem Sprachmodell die Rechtstexte aber vor.
 Arbeiten wie L-MARS~\cite{yuan2025} lassen Agenten selbst nach Rechtsquellen suchen, beziehen sich aber auf einzelne Rechtsfragen.
 C-Trace~\cite{kahani2026} setzt Regeln zur Laufzeit durch, schreibt diese Regeln aber von Hand.
