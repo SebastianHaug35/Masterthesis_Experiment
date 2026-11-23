@@ -383,7 +383,10 @@ Für H1 zählt die Ebene der Regelwerke.
 Ein Regelwerk gilt als geltend, wenn ihm in der Referenz mindestens eine Zeile der Art \enquote{Zuordnung} oder \enquote{fehlender Schritt} zugeordnet ist.
 Die Trefferquote für H1 ist der Anteil der geltenden Regelwerke, die der Agent in Stufe~1 nennt.
 Die Genauigkeit ist der Anteil der genannten Regelwerke, die in der Referenz als geltend geführt sind.
-\offen{Wann H1 als bestätigt gilt: mittlere Trefferquote in Konfiguration~A $\geq 0{,}9$, im Mittel über alle Fälle je Modell oder in jedem einzelnen Fall}
+% Schwellen H1-H3 abgesegnet am 23.11.2026
+H1 gilt als bestätigt, wenn die mittlere Trefferquote in Konfiguration~A (der Agent bestimmt die Regelwerke selbst) in jedem der Fälle~1 bis~3 einzeln mindestens 0,9 beträgt, getrennt je Modell.
+Die Schwelle gilt für jeden Fall einzeln, weil ein Mittelwert über die Fälle einen schwachen Fall verdecken kann, etwa eine Trefferquote von 0,7 in einem Fall neben zwei Fällen mit 1,0.
+Fall~4 entfällt für H1, weil die Textsammlung der Studie die Regelwerke vorgibt.
 Ein fehlendes Regelwerk führt dazu, dass in Stufe~2 alle seine Vorschriften fehlen.
 Deshalb verlangt H1 eine nahezu vollständige Trefferquote.
 Die Genauigkeit wird ergänzend berichtet.
@@ -405,7 +408,9 @@ Diese Ebene zeigt, ob der Agent die Vorschrift überhaupt findet, unabhängig da
 Die drei Ebenen entsprechen der Auswertung von Sai et al.~\cite{sai2024} und machen die Ergebnisse vergleichbar.
 Für den Vergleich mit Sai et al. zählt Konfiguration~B, in der der Agent die geltenden Regelwerke vorgegeben bekommt, weil auch Sai et al. die Regelwerke vorgegeben haben.
 Die Werte aus Konfiguration~A, in der der Agent die Regelwerke selbst bestimmt, werden ergänzend berichtet.
-\offen{Wann H2 als bestätigt gilt (Schwelle für die Trefferquote auf Ebene der Tasks, 0,62 oder 0,69)}
+H2 gilt als bestätigt, wenn die mittlere Trefferquote auf Ebene der Tasks in Konfiguration~B mindestens den Wert von GPT-4 bei Sai et al.\ erreicht.
+In Fall~4 wird jeder Prozess mit seinem eigenen Wert verglichen, also die Versicherung mit 0,69 und die Bank mit 0,77 (Tabelle~\ref{tab:sai_ergebnisse}).
+Für Fall~1 bis Fall~3 gilt 0,69, also der niedrigere der beiden Werte, die GPT-4 auf Ebene der Tasks erreicht hat.
 \subsubsection{H3: Fehlende Schritte}
 % Sätze abgesegnet am 21.11.2026
 Mit H3 wird geprüft, ob der Agent erkennt, welche rechtlich gebotenen Schritte im Prozess fehlen.
@@ -415,7 +420,12 @@ Eine Meldung gilt als erkannt, wenn Regelwerk und Vorschrift mit einer solchen Z
 Die Stelle im Prozess, an der der Agent den Schritt einordnet, wird zusätzlich erfasst.
 Meldet der Agent einen Schritt als fehlend, der im Prozess vorhanden ist, gilt das als Fehlmeldung.
 Ein Beispiel ist der Kontrollschritt, also die Beteiligung der Gleichstellungsbeauftragten in T1.3.
-H3 gilt als bestätigt, wenn der Agent im Mittel mehr als die Hälfte der fehlenden Schritte erkennt und die Zahl der Fehlmeldungen höchstens \offen{Grenze} beträgt.
+H3 gilt als bestätigt, wenn der Agent im Mittel mindestens 60\,\% der fehlenden Schritte erkennt und im Mittel höchstens eine Fehlmeldung je Lauf ausgibt, getrennt je Fall und Modell.
+In Fall~2 mit fünf fehlenden Schritten muss er also mindestens drei erkennen, in Fall~3 mit drei fehlenden Schritten mindestens zwei.
+Die Schwelle liegt knapp unter der von H2, weil der Agent für einen fehlenden Schritt etwas bemerken muss, das im Prozess gar nicht steht.
+Für diese Schwelle fehlt ein Vergleichswert aus der Literatur, weil sich die Arbeiten aus Kapitel~\ref{ch:verwandte_arbeiten} auf die Zuordnung zu vorhandenen Schritten beschränken.
+Eine Fehlmeldung je Lauf wird zugelassen, weil sich ein einzelner falscher Hinweis in der Praxis mit wenig Aufwand prüfen und verwerfen lässt.
+Als Fehlmeldung zählen auch Meldungen zum Kontrollschritt und zu den Fallen.
 
 \subsection{Aufbau und Auswertung H4}\label{sec:h4}
 % Sätze abgesegnet am 22.11.2026
