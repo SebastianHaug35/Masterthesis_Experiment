@@ -1,0 +1,89 @@
+% Fall 2 (Brandmeldeanlage): Profil, Annahmen und Prozess, Entwurf 22.11.2026
+\paragraph{Profil}
+\begin{small}\begin{longtable}{@{}>{\raggedright\arraybackslash}p{5.0cm}>{\raggedright\arraybackslash}p{9.5cm}@{}}
+\caption[Organisationsprofil für Fall~2]{Organisationsprofil für Fall~2: Brandmeldeanlage. Quelle: eigene Darstellung (Entwurf).}\label{tab:fall2_profil}\\
+\toprule \textbf{Merkmal} & \textbf{Angabe} \\ \midrule \endfirsthead
+\toprule \textbf{Merkmal} & \textbf{Angabe} \\ \midrule \endhead
+\bottomrule \endfoot
+Name & Eventhalle Süd GmbH (fiktiv) \\
+Sitz & München, Bayern, Deutschland \\
+Rechtsform & Gesellschaft mit beschränkter Haftung \\
+Sektor & privat \\
+Branche & Veranstaltungen \\
+Beschäftigte & 80 \\
+Arbeitnehmervertretung & Betriebsrat \\
+Gebäude & neue Veranstaltungshalle für bis zu 3.000 Personen, Versammlungsraum 2.400~m² mit gemeinsamen Rettungswegen \\
+KI-Einsatz & gekauftes KI-System, das Brandmeldungen bewertet \\
+Dienstleister außerhalb der EU & nein \\
+\end{longtable}\end{small}
+\paragraph{Annahmen}
+\begin{description}[leftmargin=1.0cm,style=sameline]
+  \item[A1] Die GmbH ist Bauherrin und Betreiberin der Halle.
+  \item[A2] Die Baugenehmigung liegt vor. Das Brandschutzkonzept verlangt eine Brandmeldeanlage mit Aufschaltung zur Feuerwehr.
+  \item[A3] Das KI-System stammt von einem Hersteller in der EU und verarbeitet nur Daten der Melder, keine Videobilder.
+  \item[A4] Errichtung und Instandhaltung übernimmt ein externer Fachbetrieb.
+\end{description}
+\paragraph{Prozess}
+\begin{small}\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.0cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{10.0cm}@{}}
+\caption[Prozess für Fall~2: Brandmeldeanlage]{Prozess für Fall~2: Brandmeldeanlage mit Teilprozessen, Tasks und Beschreibungen. Quelle: eigene Darstellung (Entwurf).}\label{tab:fall2_prozess}\\
+\toprule \textbf{Kennung} & \textbf{Bezeichnung} & \textbf{Beschreibung} \\ \midrule \endfirsthead
+\toprule \textbf{Kennung} & \textbf{Bezeichnung} & \textbf{Beschreibung} \\ \midrule \endhead
+\bottomrule \endfoot
+\multicolumn{3}{@{}l}{\textbf{TP1 Planen}} \\
+T1.1 & Brandschutzkonzept auswerten & Die Bauleitung liest das Brandschutzkonzept und listet die Anforderungen an die Brandmeldeanlage auf. \\
+T1.2 & Anlagenkonzept erstellen & Ein Fachplaner legt Meldebereiche, Meldertypen und Alarmwege fest. \\
+T1.3 & Aufschaltung abstimmen & Der Fachplaner klärt mit der Feuerwehr, wie Alarme an die Leitstelle übertragen werden. \\
+T1.4 & KI-System auswählen & Die Geschäftsführung wählt ein KI-System, das Meldungen auf Täuschungsalarme prüft. \\
+\multicolumn{3}{@{}l}{\textbf{TP2 Beauftragen}} \\
+T2.1 & Angebote einholen & Die Bauleitung holt Angebote von drei Fachbetrieben ein. \\
+T2.2 & Errichter beauftragen & Die Geschäftsführung beauftragt den günstigsten Fachbetrieb mit Errichtung und Instandhaltung. \\
+\multicolumn{3}{@{}l}{\textbf{TP3 Errichten}} \\
+T3.1 & Melder und Zentrale montieren & Der Errichter montiert Melder, Handfeuermelder und die Brandmelderzentrale. \\
+T3.2 & Leitungen verlegen & Der Errichter verlegt die Leitungen zwischen Meldern, Zentrale und Übertragungseinrichtung. \\
+T3.3 & KI-System anbinden & Der Errichter verbindet das KI-System mit der Brandmelderzentrale. \\
+\multicolumn{3}{@{}l}{\textbf{TP4 Abnehmen}} \\
+T4.1 & Anlage prüfen lassen & Ein Prüfsachverständiger prüft die Anlage und stellt einen Prüfbericht aus. \\
+T4.2 & Aufschaltung testen & Die Feuerwehr löst Probealarme aus und prüft den Eingang in der Leitstelle. \\
+T4.3 & Dokumentation übergeben & Der Errichter übergibt Pläne, Prüfprotokolle und Bedienungsanleitungen an die Betreiberin. \\
+\multicolumn{3}{@{}l}{\textbf{TP5 Betreiben}} \\
+T5.1 & Verantwortliche benennen & Die Geschäftsführung benennt den Haustechniker als Verantwortlichen für die Anlage. \\
+T5.2 & Meldung bewerten & Das KI-System bewertet jede Meldung und stuft sie als wahrscheinlichen Brand oder als Täuschungsalarm ein. \\
+T5.3 & Meldung erkunden & Bei einem vermuteten Täuschungsalarm prüft ein Mitarbeiter den Melder vor Ort innerhalb von drei Minuten. \\
+T5.4 & Alarm weiterleiten & Die Zentrale leitet bestätigte Alarme und nicht erkundete Meldungen an die Leitstelle der Feuerwehr weiter. \\
+T5.5 & Betriebsbuch führen & Der Haustechniker trägt jede Meldung, Störung und Abschaltung in das Betriebsbuch ein. \\
+\multicolumn{3}{@{}l}{\textbf{TP6 Instandhalten}} \\
+T6.1 & Anlage inspizieren & Der Fachbetrieb prüft Zentrale und Melder auf sichtbare Mängel und Funktion. \\
+T6.2 & Anlage warten & Der Fachbetrieb reinigt und tauscht Melder und Akkus nach Herstellerangabe. \\
+T6.3 & Wiederkehrend prüfen lassen & Ein Prüfsachverständiger prüft die Anlage erneut und stellt einen Prüfbericht aus. \\
+\end{longtable}\end{small}
+\paragraph{Referenzzuordnung}
+\begin{small}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{5.5cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.0cm}@{}}
+\caption[Referenzzuordnung für Fall~2: Brandmeldeanlage]{Referenzzuordnung für Fall~2: Brandmeldeanlage. Bayerische Vorschriften am amtlichen Text geprüft (gesetze-bayern.de, 22.11.2026). Quelle: eigene Darstellung (Entwurf).}\label{tab:fall2_referenz}\\
+\toprule \textbf{Regelwerk} & \textbf{Fundstelle} & \textbf{Inhalt} & \textbf{Tasks} & \textbf{Art} \\ \midrule \endfirsthead
+\toprule \textbf{Regelwerk} & \textbf{Fundstelle} & \textbf{Inhalt} & \textbf{Tasks} & \textbf{Art} \\ \midrule \endhead
+\bottomrule \endfoot
+BayBO & Art.~2 Abs.~4 Nr.~7 Buchst.~a & Versammlungsstätte mit mehr als 200 Besuchern und gemeinsamen Rettungswegen ist Sonderbau & T1.1 & Zuordnung \\
+BayBO & Art.~62b Abs.~2 & Brandschutznachweis für Sonderbauten bescheinigt oder bauaufsichtlich geprüft & T1.1 & Zuordnung \\
+VStättV & §~20 Abs.~1 & Brandmeldeanlage mit automatischen und nichtautomatischen Meldern ab 1.000~m² Versammlungsräumen & T1.2, T3.1 & Zuordnung \\
+VStättV & §~20 Abs.~3 & Brandmelder- und Alarmzentrale in einem für die Feuerwehr leicht zugänglichen Raum & T1.2, T3.1 & Zuordnung \\
+SPrüfV & §~2 Abs.~1 Nr.~6, Abs.~2 & Prüfung durch Prüfsachverständige vor der ersten Inbetriebnahme (Kontrollschritt) & T4.1 & Zuordnung \\
+SPrüfV & §~2 Abs.~2 und 3 & wiederkehrende Prüfung innerhalb von drei Jahren, auch durch sachkundige Personen & T6.3 & Zuordnung \\
+SPrüfV & §~2 Abs.~5 & Bauherrin oder Betreiberin veranlasst die Prüfungen & T4.1, T6.3 & Zuordnung \\
+SPrüfV & §~2 Abs.~7 & Bescheinigungen mindestens fünf Jahre aufbewahren & T4.3, T5.5 & Zuordnung \\
+DIN 14675 & -- & Planung, Errichtung und Betrieb, zertifizierter Fachbetrieb (Norm, für den Agenten nicht ladbar) & T1.2, T2.2, T3.1, T3.2 & Zuordnung \\
+DIN EN 54 & -- & Anforderungen an Melder und Zentrale (Norm, nicht ladbar) & T3.1 & Zuordnung \\
+DIN VDE 0833-1/-2 & -- & Erkundung, Betriebsbuch, Inspektion und Wartung (Norm, nicht ladbar) & T5.3, T5.5, T6.1, T6.2 & Zuordnung \\
+TAB Feuerwehr München & -- & Anschlussbedingungen für die Aufschaltung (nicht ladbar) & T1.3, T4.2 & Zuordnung \\
+VStättV & §~42 Abs.~1 & Brandschutzordnung im Einvernehmen mit der Brandschutzdienststelle aufstellen und aushängen & -- & fehlender Schritt \\
+VStättV & §~42 Abs.~2 & Unterweisung des Betriebspersonals bei Beginn des Arbeitsverhältnisses und jährlich, mit Niederschrift & -- & fehlender Schritt \\
+ArbSchG & §~12 Abs.~1 & Unterweisung vor Aufnahme der Tätigkeit & -- & fehlender Schritt \\
+VStättV & §~42 Abs.~3 & Feuerwehrpläne anfertigen und der Feuerwehr zur Verfügung stellen & -- & fehlender Schritt \\
+AI Act & Art.~4 & KI-Kompetenz des Personals, das das KI-System bedient & -- & fehlender Schritt \\
+BauPVO & Art.~4, Art.~8 & Leistungserklärung und CE-Kennzeichnung (Pflichten des Herstellers) & T3.1 & neutral \\
+AI Act & Art.~6 mit Anhang~III & Einstufung des KI-Systems (kein Hochrisiko-System, prüfen) & T1.4 & neutral \\
+DSGVO & -- & nach Annahme A3 keine personenbezogenen Daten & gesamter Prozess & neutral \\
+AI Act & Art.~26, Art.~27 & Pflichten bei Hochrisiko-Systemen gelten hier nicht. Meldung als Lücke ist eine Fehlmeldung & -- & Falle \\
+\end{longtable}
+\end{small}
+\offen{Wortlaut von Anhang~III Nr.~2 AI Act zur Falle noch prüfen; Zeilen aus Normen und TAB in der Auswertung getrennt ausweisen}

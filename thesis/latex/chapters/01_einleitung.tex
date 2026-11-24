@@ -5,7 +5,7 @@
 \subsection{Problemstellung}
 \offen{1.2 Problemstellung -- Stichpunkte im Entwurf}
 
-\subsection{Forschungsfragen und Hypothesen}
+\subsection{Forschungsfragen und Hypothesen}\label{sec:forschungsfragen}
 % abgesegnet am 27.10.2026
 \textbf{Zentrale Forschungsfrage:} Kann ein LLM-Agent für einen Geschäftsprozess die geltenden Vorschriften selbst recherchieren, den Arbeitsschritten zuordnen und fehlende Schritte erkennen -- und lassen sich diese Vorschriften in Prüfregeln übersetzen, die das Verhalten eines KI-Agenten zur Laufzeit kontrollieren?
 
@@ -21,22 +21,20 @@ Die zentrale Forschungsfrage wird entlang einer Kette von fünf Schritten unters
 \begin{description}[leftmargin=1.2cm,style=nextline]
   \item[FF1] Wie vollständig und wie genau bestimmt ein LLM-Agent mit eigener Recherche die für einen Geschäftsprozess geltenden Regelwerke und ordnet deren Vorschriften den einzelnen Arbeitsschritten zu?
   \begin{description}[leftmargin=1.2cm]
-    \item[H1] Der Agent bestimmt die geltenden Regelwerke nahezu vollständig (\fb{trefferquote} $\geq 0{,}9$).
-    \item[H2] Der Agent ordnet die geltenden Vorschriften den Arbeitsschritten mindestens so vollständig zu wie GPT-4 bei Sai et al.~\cite{sai2024} auf Task-Ebene (\fb{trefferquote} $\geq 0{,}62$).
-    \offen{H2 klären: Schwelle (0,62 stammt von der Teilprozess-Ebene; Task-Ebene 0,69/0,77) und Scope (gilt für alle Fälle, Auswertung je Fall und gesamt, Task-Ebene maßgeblich)}
+    \item[H1] Der Agent bestimmt die geltenden Regelwerke mindestens so vollständig wie GPT-4o bei der Zuordnung von DSGVO-Bestimmungen in der Studie von Etezadi et al.~\cite{etezadi2025} (\fb{trefferquote} $\geq 0{,}84$).
+    \item[H2] Der Agent ordnet die geltenden Vorschriften den Arbeitsschritten mindestens so vollständig zu wie GPT-4 bei Sai et al.~\cite{sai2024} auf Task-Ebene (\fb{trefferquote} $\geq 0{,}69$).
   \end{description}
   \item[FF2] Erkennt der Agent rechtlich gebotene Schritte, die im Prozess fehlen, und kann er sie beim Entwurf eines Prozesses richtig einordnen?
   \begin{description}[leftmargin=1.2cm]
-    \item[H3] Der Agent erkennt die Mehrheit der fehlenden Schritte, ohne vorhandene Schritte als fehlend zu melden.
-    \item[H4] Erzeugt der Agent den Prozess selbst, stehen mindestens 80\,\% der rechtlich gebotenen Schritte an einer zulässigen Stelle.
-    \offen{H4 klären: Schwelle 80\,\% vorläufig. Messung über Reihenfolge-Paare \enquote{A vor B} je Fall (Fall~1: 12 Paare vorgeschlagen), nur Fall~1 und Fall~2, Eingabe ohne Prozess. Paare durch Fachperson prüfen. Glossareintrag \enquote{zulässige Stelle} anlegen}
+    \item[H3] Der Agent erkennt fehlende Schritte mindestens so gut wie ein Sprachmodell beim Erkennen übersprungener Schritte in der Studie von Grohs et al.~\cite{grohs2025} (F1-Wert $\geq 0{,}38$).
+    \item[H4] Erzeugt der Agent den Prozess selbst, stehen die rechtlich gebotenen Schritte mindestens so oft an einer \fbt{zulaessigestelle}{zulässigen Stelle}, wie das beste Modell bei Kourani et al.~\cite{kourani2024} mit dem Referenzmodell übereinstimmt (strenger Wert $\geq 0{,}93$).
   \end{description}
   \item[FF3] Wie beeinflussen die Gestaltung des Prompts und das Recherchewerkzeug die Vollständigkeit, die Genauigkeit, den Anteil erfundener Normen und die Kosten?
   \item[FF4] Lassen sich die zugeordneten Vorschriften in maschinell prüfbare Regeln übersetzen, mit denen sich das Verhalten eines KI-Agenten zur Laufzeit kontrollieren lässt?
   \begin{description}[leftmargin=1.2cm]
-    \item[H5] Aus den zugeordneten Vorschriften lassen sich Prüfregeln erzeugen, die bei Referenzfällen dieselbe Entscheidung treffen wie eine fachliche Prüfung.
-    \item[H6] Ein Laufzeitmonitor mit diesen Prüfregeln verhindert unzulässige Aktionen eines KI-Agenten, ohne zulässige Aktionen zu blockieren.
-    \item[H7] Auch wenn die Ergebnisse des Agenten aus H2 und H3 unkorrigiert weitergegeben werden, verhindert die Laufzeit-Kontrolle die Mehrheit der unzulässigen Aktionen.
+    \item[H5] Aus den zugeordneten Vorschriften lassen sich Prüfregeln erzeugen, die unzulässige Referenzfälle mindestens so zuverlässig erkennen wie die aus der DSGVO erzeugten Regeln bei Kim et al.~\cite{kim2026} (Recall $\geq 0{,}75$).
+    \item[H6] Ein Laufzeitmonitor mit diesen Prüfregeln verhindert unzulässige Aktionen eines KI-Agenten mindestens so oft wie die von einem Sprachmodell erzeugten Regeln bei AgentSpec~\cite{wang2026agentspec} (Anteil blockiert $\geq 0{,}71$).
+    \item[H7] Werden die Ergebnisse des Agenten aus H2 und H3 ungeprüft weitergegeben, verhindert der Laufzeitmonitor weniger unzulässige Aktionen als in H6, und der Abstand zeigt den Wert der fachlichen Prüfung.
   \end{description}
 \end{description}
 

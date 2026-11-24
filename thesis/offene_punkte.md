@@ -55,3 +55,7 @@ Erledigte Punkte werden gestrichen, nicht gelöscht.
 34. **Vorversuche (21.11.2026):** Die Läufe v1–v3 mit GPT-6 Luna bleiben im Repo, werden in der Thesis aber nicht erwähnt. Die Thesis beschreibt nur die finalen Läufe.
 
 35. **Prüfbogen gestrichen (21.11.2026):** Fachleute kommentieren direkt in der PDF, drei Fragen in 4.6 und in der Mail. Reihenfolge-Paare H4 Fall 1 (15 Paare) in Anhang B, Paar 16 (Art. 75a BayPVG) offen für Prof. Böhm.
+
+36. **Fall 3 und Fall 4 (23.11.2026):** Fall 3 = Basisstation im BOS-Digitalfunk (statt TETRA-Endgeräte), offen: A5 (§ 91 TKG), A6 (Art. 73 Abs. 4 BayBO), Anwendbarkeit RLBau auf Funkmast, § 35 BauGB, Art. 55 BayHO. Fall 4 nur für H2 mit der Textsammlung von Sai et al. **Codeänderung später:** eigenes Werkzeug, das die Absätze der Studie durchsucht und lädt (statt amtlicher Quellen); Auswertung auf drei Ebenen gegen den Goldstandard der Studie.
+
+37. Anhang B, Tabelle H1 (`anhang_b_h1.tex`, erzeugt von `thesis/latex/tools/anhang_b.py`): zeigt noch WiMi-Stelle (12 Regelwerke, Schwelle 0,9). Nach Aktualisierung der Eingabedateien neu erzeugen: Fall 1 = 10, Fall 2 = 9, Fall 3 = 7 Regelwerke; Schwelle 0,84; Platzhalter-Texte im Skript (Zeilen 72, 89, 91) an den abgesegneten Text in 4.9 angleichen (Code, später).

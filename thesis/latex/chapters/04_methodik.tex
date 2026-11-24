@@ -2,7 +2,33 @@
 % Struktur abgestimmt am 28.10.2026 (12 Seiten)
 
 \subsection{Forschungsdesign}
-\offen{4.1 -- experimentell, mehrere Fälle mit derselben Methode; Überblick, welche Hypothese mit welchem Versuch geprüft wird}
+% Sätze 1-5 und Tabelle abgesegnet am 23.11.2026
+Diese Arbeit beantwortet die Forschungsfragen aus Abschnitt~\ref{sec:forschungsfragen} mit einem Experiment, also mit Versuchen, in denen der Agent unter festgelegten Bedingungen arbeitet und seine Ergebnisse mit einer vorher erstellten Referenz verglichen werden.
+Dieselbe Methode wird auf vier Anwendungsfälle angewendet, damit sich zeigt, ob die Ergebnisse von einem einzelnen Fall abhängen.
+Die Versuche folgen der Kette aus Abschnitt~\ref{sec:forschungsfragen}, nämlich Regelwerke bestimmen, Vorschriften zuordnen, fehlende Schritte erkennen, einen Prozess entwerfen sowie Regeln ableiten und zur Laufzeit durchsetzen.
+Jede Hypothese wird mit einer Kennzahl geprüft, deren Schwelle vor den finalen Läufen aus einer Vergleichsstudie festgelegt wurde (Abschnitt~\ref{sec:vergleichswerte}).
+Tabelle~\ref{tab:hypothesen_ueberblick} zeigt, welche Hypothese mit welchem Versuch, welchen Fällen und welcher Kennzahl geprüft wird.
+
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{0.9cm} Y >{\raggedright\arraybackslash}p{1.8cm} Y >{\raggedright\arraybackslash}p{3.0cm}}
+    \toprule
+    \textbf{H} & \textbf{Versuch} & \textbf{Fälle} & \textbf{Kennzahl} & \textbf{Schwelle} \\
+    \midrule
+    H1 & Stufe 1, Konfiguration A & 1--3 & Trefferquote der Regelwerke & $\geq 0{,}84$ \cite{etezadi2025} \\
+    H2 & Stufe 2, Konfiguration B & 1--4 & Trefferquote auf Ebene der Tasks & $\geq 0{,}69$ bzw.\ $0{,}77$ \cite{sai2024} \\
+    H3 & Stufe 2 & 1--3 & F1-Wert der fehlenden Schritte & $\geq 0{,}38$ \cite{grohs2025} \\
+    H4 & Prozessentwurf ohne Vorlage & 1--3 & strenger Wert der Reihenfolge-Paare & $\geq 0{,}93$ \cite{kourani2024} \\
+    H5 & Prüfregeln aus der geprüften Referenz & mind.\ Fall~1 & Recall der unzulässigen Referenzfälle & $\geq 0{,}75$ \cite{kim2026} \\
+    H6 & Laufzeitmonitor mit zweitem Agenten & wie H5 & Anteil blockierter unzulässiger Aktionen & $\geq 0{,}71$ \cite{wang2026agentspec} \\
+    H7 & wie H6, Regeln aus ungeprüften Ergebnissen & wie H5 & Abstand zu H6 & -- \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Überblick über Hypothesen, Versuche und Kennzahlen}
+  \label{tab:hypothesen_ueberblick}
+\end{table}
 
 \subsection{Auswahl der Anwendungsfälle}
 % Satz 1 und Tabelle 4.1 abgesegnet am 28.10.2026
@@ -14,15 +40,15 @@ Der Ansatz wird an mehreren Anwendungsfällen untersucht, die sich in Branche, R
   \renewcommand{\arraystretch}{1.3}
   \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{2.2cm} Y Y Y Y}
     \toprule
-     & \textbf{Fall 1: Berufungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: TETRA-Endgeräte} & \textbf{Fall 4: Vergleichsdaten Sai et al.} \\
+     & \textbf{Fall 1: Berufungsverfahren} & \textbf{Fall 2: Brandmeldeanlage} & \textbf{Fall 3: Basisstation} & \textbf{Fall 4: Vergleichsdaten Sai et al.} \\
     \midrule
-    Organisation & öffentliche Hochschule in Bayern & Errichter bzw.\ Betreiber einer Brandmeldeanlage & bayerische Behörde mit Sicherheitsaufgaben & Versicherung und Bank (Australien) \\
-    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Beschaffung bis Aussonderung von TETRA-Funkgeräten & Schadensbearbeitung; Kundenprüfung \\
-    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, technische Normen & Funkanlagen- und Vergaberecht, Datenschutz, ETSI-Normen & Versicherungs- und Finanzaufsichtsrecht \\
-    Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE) & frei verfügbar, auch die ETSI-Normen & durch die Studie vorgegeben \\
-    Rolle in der Arbeit & Hauptfall & explorativer Fall: Übertragbarkeit & explorativer Fall: frei verfügbare Normen & Vergleichswert \\
-    Fachliche Prüfung & Prof.\ Böhm, weitere Fachperson der HM (offen) & Lehrbeauftragter für Brandschutz der HM, eigene Fachkenntnis & Fachleute aus der Behördenpraxis (offen) & Fachleute der Studie \\
-    Stand & umgesetzt & geplant & geplant & Verfügbarkeit prüfen \\
+    Organisation & öffentliche Hochschule in Bayern & private Veranstaltungshalle (fiktiv) & bayerische Behörde, die das Digitalfunknetz der BOS betreibt & Versicherung und Bank (Australien) \\
+    Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Standortsuche bis Inbetriebnahme einer Basisstation & Schadensbearbeitung; Kundenprüfung \\
+    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, Arbeitsschutz, KI/AI Act, technische Normen & Bau- und Planungsrecht, Immissionsschutz, Telekommunikationsrecht, Verwaltungsvorschriften & Versicherungs- und Finanzaufsichtsrecht \\
+    Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE, Anschlussbedingungen der Feuerwehr) & frei verfügbar & durch die Studie vorgegeben \\
+    Rolle in der Arbeit & Hauptfall & explorativer Fall: privates Unternehmen, Normen & explorativer Fall: Behörde als Organisation & Vergleichswert \\
+    Fachliche Prüfung & Prof.\ Böhm, weitere Fachperson der HM (offen) & Fachperson für Brandschutz (offen) & Fachperson aus dem Behördenfunk (offen) & Fachleute der Studie \\
+    Stand & Eingaben fertig, fachliche Prüfung offen & Eingaben im Entwurf & Eingaben im Entwurf & Daten im Repository, nur für H2 \\
     \bottomrule
   \end{tabularx}
   \caption{Anwendungsfälle der Arbeit}
@@ -45,7 +71,12 @@ Fall 4 übernimmt dagegen die Daten aus der Studie von Sai et al.~\cite{sai2024}
 % Sätze 1-3 abgesegnet am 28.10.2026, am 19.11. auf das Berufungsverfahren umgestellt
 Der erste Anwendungsfall ist die Berufung einer Professorin oder eines Professors an die Hochschule München.
 Für den Fall wird angenommen, dass die Hochschule ein KI-Werkzeug einsetzt, das eingehende Bewerbungen auswertet und in eine Rangfolge bringt.
-\offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
+% Sätze 1-5 zur Eignung abgesegnet am 23.11.2026
+Der Fall eignet sich als Hauptfall, weil alle Vorschriften frei zugänglich sind und eine Fachperson der Hochschule die Referenz prüfen kann.
+Er verbindet mehrere Rechtsebenen, etwa die DSGVO (EU), das Beamtenrecht (Bund) sowie das BayHIG und das BayPVG (Land), sodass Stufe~1 das Bestimmen der Regelwerke über Ebenen hinweg prüft.
+Das KI-Werkzeug macht den Prozess zu einem Anwendungsfall des AI Act, denn KI-Systeme zur Auswahl von Bewerbungen gelten dort als Hochrisiko-Systeme (Art.~6 Abs.~2 mit Anhang~III Nr.~4) \cite{aiact2024}.
+Der Ablauf eines Berufungsverfahrens ist durch Gesetz und Berufungsordnung weitgehend festgelegt, etwa die Ausschreibung vor der Bildung der Kommission, und liefert dadurch klare Reihenfolge-Paare für H4.
+Schritte wie die Beteiligung des Personalrats oder die Datenschutz-Folgenabschätzung (Prüfung der Risiken einer Datenverarbeitung vor ihrem Beginn) fehlen im Eingabeprozess bewusst, damit H3 prüft, ob der Agent sie ergänzt.
 \offen{Hinweis: Eingaben und Referenz von Fall~1 sind in dieser Form zur fachlichen Prüfung vorgesehen (Abschnitt~\ref{sec:fachliche_pruefung})}
 \subsubsection{Eingabe}\label{sec:fall1_eingabe}
 % Sätze 4-8 und 10 abgesegnet am 18.11.2026 (Satz 9 gestrichen), Satz 4 am 19.11. auf zwei Eingaben geändert
@@ -54,8 +85,7 @@ Das Profil beschreibt die Organisation, in der der Prozess abläuft.
 Dazu gehören Sitz und Bundesland, Rechtsform, Größe und die Gremien der Mitbestimmung.
 Die Hochschule München ist eine Körperschaft des öffentlichen Rechts in Bayern mit mehr als 1.000 Beschäftigten.
 Sie hat einen Personalrat, eine Gleichstellungsbeauftragte und eine Schwerbehindertenvertretung.
-Tabelle~\ref{tab:h1_profil} zeigt alle Angaben des Profils, die der Agent erhält (Datei \repodatei{h1/input/firmenprofil.json}).
-\offen{Profil um Schwerbehindertenvertretung und Rolle beim KI-Tool (Betreiberin) ergänzen, Vorschlag in ERGEBNIS.md Abschnitt~8; Tabelle danach neu erzeugen. Entscheiden, ob die Tabelle hier oder im Anhang steht}
+Tabelle~\ref{tab:fall1_profil} zeigt alle Angaben des Profils, die der Agent erhält.
 % Sätze 11-17 abgesegnet am 19.11.2026 (Task-Beschreibungen wie bei Sai et al.)
 Die zweite Eingabe ist der Prozess.
 Er reicht von der Freigabe der Professur bis zur Löschung der Daten abgelehnter Bewerbender.
@@ -69,7 +99,7 @@ Diese Form lehnt sich an Sai et al.~\cite{sai2024} an, die den Prozess, jeden Te
 Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablauf, damit der Agent die rechtlichen Anforderungen aus den Regelwerken ableiten muss.
 Ein Beispiel ist \enquote{T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.}
 Tabelle~\ref{tab:fall1_prozess} zeigt den vollständigen Prozess.
-\offen{Eingabedateien (prozess.json, firmenprofil.json, soll\_liste.csv) per Auftrag durch den Stand aus Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz} ersetzen; danach wieder auf die Dateien verweisen}
+\offen{Eingabedateien (prozess.json, firmenprofil.json, soll\_liste.csv) per Auftrag durch den Stand aus Tabelle~\ref{tab:fall1_profil}, Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz} ersetzen; danach wieder auf die Dateien verweisen}
 % Sätze A1-A6 (Annahmen) abgesegnet am 19.11.2026; Annahmen bleiben Felder im Profil
 Das Profil enthält zusätzlich Annahmen zum Fall (Festlegungen, die in der Praxis von der einzelnen Organisation abhängen).
 Die Annahmen legen die Umstände fest, von denen die geltenden Vorschriften abhängen.
@@ -77,7 +107,6 @@ Das KI-Tool zur Vorauswahl stammt von einem Anbieter mit Sitz in der EU, und all
 Die Hochschule setzt das Tool ein und ist damit Betreiberin (Organisation, die ein KI-System in eigener Verantwortung nutzt) im Sinne des AI Act.
 Die Stelle ist eine Professur der Besoldungsgruppe W2 im Beamtenverhältnis.
 Diese Festlegungen machen die Referenzzuordnung eindeutig, denn eine Übermittlung in Staaten außerhalb der EU würde zum Beispiel weitere Pflichten auslösen.
-\offen{Betreiberrolle steht erst nach der Profil-Ergänzung (ERGEBNIS.md Abschnitt~8, Punkt~7) in der Eingabe}
 
 \subsubsection{Erwartung}\label{sec:fall1_erwartung}
 % Sätze 1-20 abgesegnet am 19.11.2026, Zahlen und Kontrollschritt am 19.11. auf das Berufungsverfahren umgestellt (Verneinungen in Satz 12 und 18 bewusst behalten; "fehlt" statt "bewusst entfernt", weil nur ein Teil der Lücken geplant war)
@@ -139,42 +168,155 @@ Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU blei
   \label{tab:fall1_abdeckung}
 \end{table}
 
-\subsection{Fall 2: Brandmeldetechnik}\label{sec:fall2}
-\offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
-\offen{Entscheidung offen: Bekommt Fall~2 einen KI-Schritt (z.\,B. KI zur Bewertung von Meldungen und Täuschungsalarmen)? Sonst ist der AI Act in Fall~2 nicht anwendbar; Titel spricht von KI-gestützten Prozessen}
-\offen{Normtexte sind geschützt, der Agent kann sie nicht laden, Prüfung von Hand über die HM-Bibliothek}
+\subsection{Fall 2: Brandmeldeanlage in einer Veranstaltungshalle}\label{sec:fall2}
+% Sätze abgesegnet am 22.11.2026
+\offen{Entscheidungen 22.11.2026: KI-Schritt (KI-System erkennt Täuschungsalarme); Organisation ist eine fiktive private Veranstaltungshalle, weil Hochschulbauten in Bayern das Staatliche Bauamt errichtet. Fall~2 im Entwurf, fachliche Prüfung ausstehend}
+Der zweite Anwendungsfall ist die Planung, der Einbau und der Betrieb einer Brandmeldeanlage in einer Veranstaltungshalle.
+Eine Brandmeldeanlage ist eine technische Anlage in einem Gebäude, die Brände über Melder früh erkennen und die Feuerwehr alarmieren soll.
+Für den Fall wird angenommen, dass ein KI-System jede Meldung bewertet und Täuschungsalarme erkennt, die etwa durch Staub oder Dampf entstehen.
+Der Fall ergänzt Fall~1 in drei Punkten.
+Er spielt in einem privaten Unternehmen statt in einer öffentlichen Einrichtung.
+Er stützt sich vor allem auf Bauordnungsrecht und technische Normen statt auf Personal- und Datenschutzrecht.
+Ein Teil der maßgeblichen Regeln steht in Normen, die nur gegen Gebühr erhältlich sind und die der Agent deshalb über seine Werkzeuge nicht laden kann.
+
 \subsubsection{Eingabe}\label{sec:fall2_eingabe}
-\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
+Der Agent erhält wie in Fall~1 ein Profil der Organisation und den Prozess.
+Die Organisation ist ein erfundenes Unternehmen, die Eventhalle Süd GmbH in München, die eine neue Veranstaltungshalle für bis zu 3.000 Personen baut und betreibt.
+Das Unternehmen hat 80 Beschäftigte und einen Betriebsrat.
+Tabelle~\ref{tab:fall2_profil} zeigt alle Angaben des Profils.
+Der Prozess reicht von der Auswertung des Brandschutzkonzepts bis zur wiederkehrenden Prüfung der Anlage.
+Er ist in sechs Teilprozesse und 20 Tasks gegliedert, nämlich Planen, Beauftragen, Errichten, Abnehmen, Betreiben und Instandhalten.
+Wie in Fall~1 beschreibt ein Satz jeden Task, ohne Hinweis auf Vorschriften.
+Die Abstände von Inspektion und Prüfung fehlen bewusst in den Beschreibungen, weil sie sich aus den Vorschriften ergeben.
+Tabelle~\ref{tab:fall2_prozess} zeigt den vollständigen Prozess.
+Vier Annahmen grenzen den Fall ein.
+Nach Annahme A3 verarbeitet das KI-System ausschließlich Daten der Melder, damit der Datenschutz in diesem Fall eine Nebenrolle spielt.
 
 \subsubsection{Erwartung}\label{sec:fall2_erwartung}
-\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften}), bewusst entfernte Schritte, Kontrollschritt}
+Die Referenzzuordnung umfasst 21 Zeilen aus elf Regelwerken und Normen.
+Zwölf Zeilen ordnen eine Vorschrift einem Task zu, davon vier aus Normen und Anschlussbedingungen der Feuerwehr, die der Agent nicht laden kann.
+Fünf Zeilen beschreiben fehlende Schritte, nämlich Brandschutzordnung, Feuerwehrpläne, Unterweisung und KI-Kompetenz.
+Die Prüfung durch Prüfsachverständige vor der ersten Inbetriebnahme ist im Prozess vorhanden (T4.1) und dient als Kontrollschritt.
+Meldet der Agent sie als fehlend, gilt das als Fehlmeldung.
+Die Falle betrifft die Einstufung des KI-Systems nach dem AI Act.
+Das System bewertet Brandmeldungen in einer Veranstaltungshalle und liegt damit außerhalb der Bereiche kritischer Infrastruktur, die Erwägungsgrund~55 nennt.
+Meldet der Agent Pflichten für Hochrisiko-Systeme als fehlend, etwa eine Grundrechte-Folgenabschätzung, gilt das als Fehler.
+Tabelle~\ref{tab:fall2_referenz} zeigt die vollständige Referenz.
 
 \subsubsection{Abdeckung}\label{sec:fall2_abdeckung}
-\offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
+Fall~2 deckt fünf Ebenen ab, nämlich EU-Verordnungen, Bundesgesetze, Landesgesetze, Landesverordnungen und technische Normen.
+Tabelle~\ref{tab:fall2_abdeckung} zeigt die Abdeckung im Einzelnen.
 
-\subsection{Fall 3: TETRA-Endgeräte in einer Behörde}\label{sec:fall3}
-\offen{Entscheidung 19.11.2026: zusätzlicher Fall neben Fall~2. Warum der Fall sinnvoll ist: ETSI-Normen sind frei verfügbar (Gegenstück zu Fall~2), Richtlinien-Ebene über Funkanlagen-Richtlinie (RED) und WEEE, Normen-Ebene über harmonisierte Normen; Fachleute über den Arbeitsplatz des Autors (nur öffentlich zugängliche Informationen, BOS-Funk teils Verschlusssache)}
-\offen{Prozess-Skizze: TP1 Bedarf (Gerätezahl, Anforderungen, BOS-Zulassung) -- TP2 Vergabe (GWB, VgV bzw. VSVgV) -- TP3 Annahme (CE-Kennzeichnung und Konformitätserklärung nach Funkanlagengesetz, ETSI EN 300 392) -- TP4 Inbetriebnahme (Sicherheitskarte, Programmierung, Anmeldung im Netz; BSI- und BDBOS-Vorgaben) -- TP5 Nutzung (Schulung, Ausgabe, Sperrung verlorener Geräte; optional KI-Transkription von Funksprüchen) -- TP6 Aussonderung (Sicherheitskarte zurückgeben, Speicher löschen, Entsorgung nach ElektroG). Lückenkandidaten: Personalrat wegen Standortdaten (BayPVG), Datenschutz-Folgenabschätzung, Löschen vor Entsorgung. Alle Angaben prüfen}
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.2cm} Y >{\raggedright\arraybackslash}p{3.0cm}}
+    \toprule
+    \textbf{Ebene (Abbildung~\ref{fig:rechtsquellen})} & \textbf{Regelwerke in Fall~2} & \textbf{Abgedeckt} \\
+    \midrule
+    Recht der EU & Bauproduktenverordnung, AI Act (Verordnungen) & ja \\
+    Grundgesetz & -- & nein \\
+    Bundesrecht & ArbSchG & ja \\
+    Landesrecht & BayBO, SPrüfV, VStättV & ja \\
+    Regelungen unterhalb des Gesetzes & Technische Anschlussbedingungen der Feuerwehr & ja, für den Agenten nicht ladbar \\
+    Technische Normen & DIN 14675, DIN EN 54, DIN VDE 0833 & ja, für den Agenten nicht ladbar \\
+    Ausländisches Recht & -- & nein, durch Annahme A3 ausgeschlossen \\
+    \bottomrule
+  \end{tabularx}
+  \caption[Abdeckung der Rechtsebenen durch Fall~2]{Abdeckung der Ebenen der Rechtsquellen durch Fall~2. Quelle: eigene Darstellung, Daten aus Tabelle~\ref{tab:fall2_referenz}.}
+  \label{tab:fall2_abdeckung}
+\end{table}
+
+\subsection{Fall 3: Basisstation im BOS-Digitalfunk}\label{sec:fall3}
+% Sätze am 23.11.2026 vorgeschlagen, Freigabe mit "gut. weiter"
+\offen{Entscheidung 23.11.2026: Fall~3 behandelt statt der Beschaffung von TETRA-Endgeräten die Errichtung einer Basisstation. Fall~3 im Entwurf, fachliche Prüfung ausstehend}
+Der dritte Anwendungsfall ist die Errichtung einer Basisstation (ortsfeste Sendeanlage mit Antennenmast) für den Digitalfunk der Behörden und Organisationen mit Sicherheitsaufgaben (BOS), etwa Polizei, Feuerwehr und Rettungsdienst.
+Ein Beispiel für den Bedarf ist eine Versorgungslücke, also ein Gebiet, in dem Einsatzkräfte keinen Funkempfang haben.
+Der Fall ergänzt Fall~1 und Fall~2 in drei Punkten.
+Die Organisation ist selbst eine Behörde, die als Bauherrin auftritt.
+Er stützt sich auf Bau-, Planungs-, Immissionsschutz- und Telekommunikationsrecht sowie auf Verwaltungsvorschriften (Regeln, mit denen ein Ministerium den eigenen Behörden vorgibt, wie sie Gesetze anwenden).
+Für eine Behörde gelten im Baurecht eigene Verfahren, etwa die Zustimmung der Regierung statt einer Baugenehmigung, wenn eine staatliche Baudienststelle den Bau leitet.
+Der Fall ist auf Standortsuche, Genehmigung, Bau und Inbetriebnahme beschränkt, weil diese Schritte auf öffentlich zugänglichen Vorschriften beruhen.
+Die vorgelagerte Funkplanung richtet sich nach internen Vorgaben der Netzbetreiber und ist über die Werkzeuge des Agenten nicht abrufbar.
+
 \subsubsection{Eingabe}\label{sec:fall3_eingabe}
-\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
+Der Agent erhält wie in Fall~1 ein Profil der Organisation und den Prozess.
+Die Organisation ist an die Autorisierte Stelle Bayern Digitalfunk angelehnt, die das Digitalfunknetz der BOS in Bayern betreibt.
+Tabelle~\ref{tab:fall3_profil} zeigt alle Angaben des Profils.
+Der Prozess reicht von der Suche nach einem Standort bis zur Aufnahme des Betriebs.
+Er ist in vier Teilprozesse und 13 Tasks gegliedert, nämlich Standort gewinnen, Genehmigen, Bauen und In Betrieb nehmen.
+Wie in Fall~1 beschreibt ein Satz jeden Task, ohne Hinweis auf Vorschriften.
+Der Antrag in T2.2 nennt bewusst weder Verfahren noch Behörde, weil der Agent beides aus den Vorschriften ableiten soll.
+Tabelle~\ref{tab:fall3_prozess} zeigt den vollständigen Prozess.
+Sieben Annahmen grenzen den Fall ein.
+Nach Annahme A2 hat der Mast eine freie Höhe von 25~m und liegt damit über der Grenze, bis zu der ein Mast im Außenbereich verfahrensfrei (ohne bauaufsichtliches Verfahren) ist.
+Zwei Annahmen (A5 und A6) betreffen Rechtsfragen, die sich aus dem Gesetzestext allein nicht beantworten lassen und die eine Fachperson aus dem Behördenfunk klärt.
 
 \subsubsection{Erwartung}\label{sec:fall3_erwartung}
-\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften}), bewusst entfernte Schritte, Kontrollschritt}
+Die Referenzzuordnung umfasst 17 Zeilen aus neun Regelwerken.
+Neun Zeilen ordnen eine Vorschrift einem Task zu.
+Drei Zeilen beschreiben fehlende Schritte, nämlich die Anhörung der Gemeinde bei der Standortwahl, die Standortbescheinigung der Bundesnetzagentur und die förmliche Übergabe an die nutzende Stelle.
+Der Antrag bei der zuständigen Behörde ist im Prozess vorhanden (T2.2) und dient als Kontrollschritt.
+Meldet der Agent ihn als fehlend, gilt das als Fehlmeldung.
+Der Fall enthält zwei Fallen.
+Die erste betrifft eine Ausnahme der BEMFV, nach der Anlagen zur Gefahrenabwehr ohne Standortbescheinigung starten dürfen, wenn sie sofort gebraucht werden.
+Eine geplante Basisstation erfüllt diese Bedingung nicht, deshalb gilt es als Fehler, wenn der Agent die Standortbescheinigung mit dieser Ausnahme entfallen lässt.
+Die zweite betrifft befristete Masten, die nach Art.~57 Abs.~3 BayBO nur für den Mobilfunk verfahrensfrei sind.
+Tabelle~\ref{tab:fall3_referenz} zeigt die vollständige Referenz.
 
 \subsubsection{Abdeckung}\label{sec:fall3_abdeckung}
-\offen{Tabelle der Rechtsebenen aus Abbildung~\ref{fig:rechtsquellen}}
+Fall~3 deckt vier Ebenen ab, nämlich Bundesgesetze, Bundesverordnungen, Landesgesetze und Verwaltungsvorschriften.
+Tabelle~\ref{tab:fall3_abdeckung} zeigt die Abdeckung im Einzelnen.
+
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.2cm} Y >{\raggedright\arraybackslash}p{3.0cm}}
+    \toprule
+    \textbf{Ebene (Abbildung~\ref{fig:rechtsquellen})} & \textbf{Regelwerke in Fall~3} & \textbf{Abgedeckt} \\
+    \midrule
+    Recht der EU & -- & nein, Fall~1 und Fall~2 \\
+    Grundgesetz & -- & nein \\
+    Bundesrecht & BauGB, TKG, BGB; 26.~BImSchV, BEMFV (Verordnungen) & ja \\
+    Landesrecht & BayBO, BayHO & ja \\
+    Regelungen unterhalb des Gesetzes & RLBau, VVöA (Verwaltungsvorschriften) & ja \\
+    Technische Normen & -- & nein, Fall~2 \\
+    Ausländisches Recht & -- & nein, keine Dienstleister außerhalb der EU \\
+    \bottomrule
+  \end{tabularx}
+  \caption[Abdeckung der Rechtsebenen durch Fall~3]{Abdeckung der Ebenen der Rechtsquellen durch Fall~3. Quelle: eigene Darstellung, Daten aus Tabelle~\ref{tab:fall3_referenz}.}
+  \label{tab:fall3_abdeckung}
+\end{table}
 
 \subsection{Fall 4: Vergleichsdaten von Sai et al.}\label{sec:fall4}
-\offen{Warum der Fall für die Arbeit sinnvoll ist: was er zum Test der Methodik beiträgt}
-\offen{Daten: Versicherung (7 Teilprozesse, 31 Tasks, 342 veröffentlichte Absätze) und Bank (7 Teilprozesse, 19 Tasks, 311 Absätze), MIT-Lizenz, im Repo unter h1/input/sai. Ohne bewusst entfernte Schritte, daher nur für H1 und H2}
+% Sätze 1-17 abgesegnet am 23.11.2026; Entscheidung 23.11.2026: Fall 4 nur für H2 mit der Textsammlung der Studie
+Der vierte Anwendungsfall übernimmt die beiden Fälle der Studie von Sai et al.\ (Abschnitt~\ref{sec:sai}), nämlich die Schadensbearbeitung einer Reiseversicherung und die Kundenprüfung einer Bank (Know Your Customer).
+Mit dem Fall lassen sich die Ergebnisse des Agenten direkt mit den Werten von GPT-4 aus der Studie vergleichen.
+Die Vorschriften stammen aus australischem und britischem Recht, aus einem Branchenkodex der Versicherungswirtschaft und aus internen Dokumenten des Versicherers.
+Die Werkzeuge des Agenten reichen nur bis zu deutschen und europäischen Quellen.
+Deshalb erhält der Agent in Fall~4 die Absätze der Studie über ein eigenes Werkzeug, mit dem er sie durchsucht und lädt.
+Der Fall dient ausschließlich der Prüfung von H2, weil die Textsammlung der Studie die Regelwerke bereits festlegt (wie in Konfiguration~B, in der der Rechtsrahmen vorgegeben ist) und die Prozesse vollständig sind, also keine bewusst entfernten Schritte enthalten.
+
 \subsubsection{Eingabe}\label{sec:fall4_eingabe}
-\offen{Organisationsprofil, Prozess mit Teilprozessen und Tasks, Annahmen}
+Der Agent erhält je Fall die Prozessbeschreibung der Studie mit Teilprozessen und Tasks.
+Die Reiseversicherung umfasst sieben Teilprozesse und 31 Tasks, die Bank sieben Teilprozesse und 19 Tasks.
+Die Textsammlung umfasst 489 Absätze für die Versicherung und 311 Absätze für die Bank.
+% Sätze zum Profil abgesegnet am 23.11.2026 (Satz 2 nach Prüfung des Prompts der Studie angepasst)
+Der Agent erhält in Fall~4 nur die Angaben, die auch GPT-4 in der Studie erhalten hat, damit seine Werte mit denen der Studie vergleichbar bleiben.
+Die Branche geht bereits aus der Prozessbeschreibung hervor, etwa die Reiseversicherung, und zu jedem Absatz nennt die Studie das Dokument und den Abschnitt, aus dem er stammt.
+Die Daten stehen unter der MIT-Lizenz (freie Nutzung mit Nennung der Quelle) und liegen im Repository unter \repodatei{h1/input/sai}.
 
 \subsubsection{Erwartung}\label{sec:fall4_erwartung}
-\offen{Referenzzuordnung (Anhang~\ref{anh:vorschriften})}
+Als Referenz dient die Zuordnung der Fachleute aus der Studie (Goldstandard), die für jede der drei Ebenen Paare aus Prozessschritt und relevantem Absatz enthält.
+Auf Ebene der Tasks umfasst sie 133 Paare für die Versicherung und 110 Paare für die Bank.
+Recall und Precision werden wie bei Sai et al.\ auf allen drei Ebenen berechnet, damit sich die Werte mit Tabelle~\ref{tab:sai_ergebnisse} vergleichen lassen.
+Die Fachleute der Studie haben die Referenz erstellt, deshalb wird sie für diese Arbeit unverändert übernommen.
 
 \subsubsection{Abdeckung}\label{sec:fall4_abdeckung}
-\offen{Tabelle der Rechtsebenen aus Abbildung~2.2, die der Fall abdeckt (Verweis auf Tabelle~\ref{tab:regelwerke} und Abschnitt~2.3)}
+Fall~4 deckt Rechtsordnungen außerhalb der EU ab, nämlich australisches und britisches Recht, einen Branchenkodex und interne Regeln eines Unternehmens.
+Damit prüft der Fall, ob der Ansatz auch in einer anderen Rechtsordnung trägt.
 
 \subsection{Fachliche Prüfung}\label{sec:fachliche_pruefung}
 % Gliederung 4.6-4.11 abgestimmt am 18.11.2026
@@ -213,7 +355,6 @@ Stufe~2 lässt sich zusätzlich mit einem vorgegebenen Rechtsrahmen starten (Kon
 
 Der Agent recherchiert ausschließlich über vier Werkzeuge, die auf amtliche Quellen zugreifen.
 Diese Quellen sind gesetze-im-internet.de für Bundesrecht, gesetze-bayern.de für bayerisches Landesrecht und EUR-Lex für EU-Recht.
-\offen{Quelle für die ETSI-Normen in Fall~3 (etsi.org) ergänzen}
 Mit \texttt{suche\_regelwerk} findet er ein Regelwerk, mit \texttt{inhaltsverzeichnis} sieht er dessen Gliederung, mit \texttt{lade\_norm} lädt er den Text einer Vorschrift und mit \texttt{suche\_volltext} durchsucht er ein Regelwerk nach Begriffen.
 Die Beschränkung auf amtliche Quellen stellt sicher, dass jede Fundstelle auf einen geltenden Gesetzestext zurückgeht.
 Der Agent lädt jede Vorschrift mit \texttt{lade\_norm}, bevor er sie ausgibt, und nennt die Adresse der Quelle und das Datum der Fassung.
@@ -232,11 +373,13 @@ In Konfiguration~A bestimmt der Agent den Rechtsrahmen in Stufe~1 selbst.
 In Konfiguration~B erhält er den Rechtsrahmen aus der Referenz und beginnt direkt mit Stufe~2.
 Der Vergleich beider Konfigurationen zeigt, welcher Anteil der Fehler in Stufe~2 auf einen unvollständigen Rechtsrahmen zurückgeht.
 
-Jede Kombination aus Fall, Konfiguration und Modell läuft \offen{5}~Mal.
+Jede Kombination aus Fall, Konfiguration und Modell läuft fünf Mal.
 Die Wiederholung ist nötig, weil ein Sprachmodell bei gleicher Eingabe unterschiedliche Antworten erzeugen kann.
+Die Zahl folgt Ouyang et al.~\cite{ouyang2025}, die jede Anfrage an ChatGPT fünf Mal stellen, um diese Schwankung zu messen.
 Ausgewertet werden der Mittelwert und die Spannweite (kleinster und größter Wert) jeder Kennzahl über die Läufe einer Kombination.
-Bei vier Fällen, zwei Konfigurationen und zwei Modellen ergeben sich 16~Kombinationen und damit \offen{80}~Läufe.
-\offen{Prüfen, für welche Hypothesen Fall~4 (Sai et al.) genutzt wird; Zahl der Läufe danach anpassen}
+Die Spannweite wird berichtet, weil Atil et al.~\cite{atil2025} empfehlen, bei Sprachmodellen den höchsten und den niedrigsten Wert über mehrere Läufe anzugeben.
+Fall~1 bis Fall~3 laufen in beiden Konfigurationen, Fall~4 nur mit der vorgegebenen Textsammlung, dafür mit zwei Prozessen (Versicherung und Bank).
+Bei zwei Modellen ergeben sich damit zwölf Kombinationen für Fall~1 bis Fall~3 und vier Kombinationen für Fall~4, zusammen 16~Kombinationen und 80~Läufe.
 
 \offen{Probelauf je Modell mit Fall~1 zum Festlegen der Einstellungen: Kosten je Lauf, Grenze der Werkzeugaufrufe je Task, Denkaufwand bei Opus~5.5, Wahl des DeepSeek-Modells, Streuung der Ergebnisse, Laufzeit und Abbrüche}
 Vor den finalen Läufen werden Prompts, Werkzeuge, Eingaben und Einstellungen eingefroren, also festgeschrieben und danach unverändert gelassen.
@@ -273,12 +416,22 @@ Für H1 zählt die Ebene der Regelwerke.
 Ein Regelwerk gilt als geltend, wenn ihm in der Referenz mindestens eine Zeile der Art \enquote{Zuordnung} oder \enquote{fehlender Schritt} zugeordnet ist.
 Die Trefferquote für H1 ist der Anteil der geltenden Regelwerke, die der Agent in Stufe~1 nennt.
 Die Genauigkeit ist der Anteil der genannten Regelwerke, die in der Referenz als geltend geführt sind.
-\offen{Wann H1 als bestätigt gilt: mittlere Trefferquote in Konfiguration~A $\geq 0{,}9$, im Mittel über alle Fälle je Modell oder in jedem einzelnen Fall}
+% Schwellen H1-H3 abgesegnet am 23.11.2026
+H1 gilt als bestätigt, wenn die mittlere Trefferquote in Konfiguration~A (der Agent bestimmt die Regelwerke selbst) in jedem der Fälle~1 bis~3 einzeln mindestens 0,84 beträgt, getrennt je Modell.
+Der Wert stammt aus der Studie von Etezadi et al.~\cite{etezadi2025}, in der GPT-4o die passenden DSGVO-Bestimmungen zu Anforderungen sucht (Abschnitt~\ref{sec:vergleichswerte}).
+Die Aufgabe dort ist feiner, weil sie einzelne Bestimmungen statt ganzer Regelwerke verlangt, deshalb ist der Wert für H1 eher streng gewählt.
+Die Schwelle gilt für jeden Fall einzeln, weil ein Mittelwert über die Fälle einen schwachen Fall verdecken kann, etwa eine Trefferquote von 0,7 in einem Fall neben zwei Fällen mit 1,0.
+Fall~4 entfällt für H1, weil die Textsammlung der Studie die Regelwerke vorgibt.
 Ein fehlendes Regelwerk führt dazu, dass in Stufe~2 alle seine Vorschriften fehlen.
-Deshalb verlangt H1 eine nahezu vollständige Trefferquote.
+Deshalb ist die Trefferquote für H1 wichtiger als die Genauigkeit.
 Die Genauigkeit wird ergänzend berichtet.
 Die Auswertung erfolgt getrennt je Modell und je Fall.
-\offen{Satz: Herleitung der Referenz für H1 aus der Referenzzuordnung, Verweis auf Tabelle~\ref{tab:h1_referenz}}
+% Sätze zur Referenz für H1 abgesegnet am 23.11.2026
+Die Referenz für H1 wird aus der Referenzzuordnung des jeweiligen Falls abgeleitet (Anhang~\ref{anh:vorschriften}).
+Ein Regelwerk gehört zur Referenz, wenn es mindestens eine Zeile der Art Zuordnung oder fehlender Schritt hat, weil der Agent es dann in Stufe~2 braucht.
+Regelwerke, die nur in neutralen Zeilen oder in Fallen vorkommen, zählen weder als Treffer noch als Fehler, weil ihre Nennung vertretbar ist, etwa das BayGlG in Fall~1.
+Jedes weitere genannte Regelwerk zählt als zusätzlich und senkt die Genauigkeit.
+So umfasst die Referenz 10 Regelwerke in Fall~1, 9 in Fall~2 und 7 in Fall~3 (Tabelle~\ref{tab:h1_referenz}).
 \subsubsection{H2: Zuordnung}
 % Sätze abgesegnet am 21.11.2026
 Mit H2 wird geprüft, ob der Agent jedem Task die richtigen Vorschriften zuordnet.
@@ -295,7 +448,9 @@ Diese Ebene zeigt, ob der Agent die Vorschrift überhaupt findet, unabhängig da
 Die drei Ebenen entsprechen der Auswertung von Sai et al.~\cite{sai2024} und machen die Ergebnisse vergleichbar.
 Für den Vergleich mit Sai et al. zählt Konfiguration~B, in der der Agent die geltenden Regelwerke vorgegeben bekommt, weil auch Sai et al. die Regelwerke vorgegeben haben.
 Die Werte aus Konfiguration~A, in der der Agent die Regelwerke selbst bestimmt, werden ergänzend berichtet.
-\offen{Wann H2 als bestätigt gilt (Schwelle für die Trefferquote auf Ebene der Tasks, 0,62 oder 0,69)}
+H2 gilt als bestätigt, wenn die mittlere Trefferquote auf Ebene der Tasks in Konfiguration~B mindestens den Wert von GPT-4 bei Sai et al.\ erreicht.
+In Fall~4 wird jeder Prozess mit seinem eigenen Wert verglichen, also die Versicherung mit 0,69 und die Bank mit 0,77 (Tabelle~\ref{tab:sai_ergebnisse}).
+Für Fall~1 bis Fall~3 gilt 0,69, also der niedrigere der beiden Werte, die GPT-4 auf Ebene der Tasks erreicht hat.
 \subsubsection{H3: Fehlende Schritte}
 % Sätze abgesegnet am 21.11.2026
 Mit H3 wird geprüft, ob der Agent erkennt, welche rechtlich gebotenen Schritte im Prozess fehlen.
@@ -305,7 +460,13 @@ Eine Meldung gilt als erkannt, wenn Regelwerk und Vorschrift mit einer solchen Z
 Die Stelle im Prozess, an der der Agent den Schritt einordnet, wird zusätzlich erfasst.
 Meldet der Agent einen Schritt als fehlend, der im Prozess vorhanden ist, gilt das als Fehlmeldung.
 Ein Beispiel ist der Kontrollschritt, also die Beteiligung der Gleichstellungsbeauftragten in T1.3.
-H3 gilt als bestätigt, wenn der Agent im Mittel mehr als die Hälfte der fehlenden Schritte erkennt und die Zahl der Fehlmeldungen höchstens \offen{Grenze} beträgt.
+Aus erkannten Meldungen und Fehlmeldungen ergibt sich der F1-Wert, also das harmonische Mittel aus dem Anteil erkannter fehlender Schritte und dem Anteil richtiger Meldungen an allen Meldungen.
+Der F1-Wert fasst beide Fehlerarten in einer Zahl zusammen, sodass ein Agent, der wahllos viele Schritte als fehlend meldet, einen niedrigen Wert erhält.
+Als Fehlmeldung zählen auch Meldungen zum Kontrollschritt und zu den Fallen.
+H3 gilt als bestätigt, wenn der mittlere F1-Wert in jedem der Fälle~1 bis~3 mindestens 0,38 beträgt, getrennt je Modell.
+Der Wert stammt aus der Studie von Grohs et al.~\cite{grohs2025}, in der ein Sprachmodell übersprungene Schritte in Abläufen von Prozessen erkennt (Abschnitt~\ref{sec:vergleichswerte}).
+Diese Aufgabe kommt H3 am nächsten, weil auch dort ein Schritt erkannt werden muss, der im Ablauf fehlt.
+Trefferquote und Zahl der Fehlmeldungen werden zusätzlich einzeln berichtet.
 
 \subsection{Aufbau und Auswertung H4}\label{sec:h4}
 % Sätze abgesegnet am 22.11.2026
@@ -315,14 +476,24 @@ Teilprozesse und Tasks entwirft er selbst, ohne Vorlage aus Abschnitt~\ref{sec:f
 Ein Vergleich Task für Task mit dem vorgegebenen Prozess eignet sich dafür schlecht, weil der Agent die Schritte frei benennen und zuschneiden darf.
 Deshalb wird der Entwurf mit Reihenfolge-Paaren bewertet, also mit Regeln der Form \enquote{Schritt A muss vor Schritt B kommen}, die aus einer Vorschrift folgen.
 Ein Beispiel ist die Datenschutz-Folgenabschätzung, die vor dem ersten Einsatz des KI-Werkzeugs stattfinden muss (Art.~35 DSGVO).
-Für Fall~1 umfasst die Referenz 15~Paare (Tabelle~\ref{tab:h4_paare_fall1}).
+Für Fall~1 umfasst die Referenz 15~Paare (Tabelle~\ref{tab:h4_paare_fall1}), für Fall~2 zehn Paare (Tabelle~\ref{tab:h4_paare_fall2}) und für Fall~3 sechs Paare (Tabelle~\ref{tab:h4_paare_fall3}).
 Die Paare sind aus der Referenzzuordnung abgeleitet und werden zusammen mit ihr fachlich geprüft.
 Der Verfasser ordnet jedem Paar von Hand die passenden Schritte im Entwurf zu, weil der Agent die Schritte frei benennt.
 Der strenge Wert ist der Anteil der Paare, bei denen beide Schritte im Entwurf vorkommen und A vor B steht.
 Der bedingte Wert betrachtet nur die Paare, bei denen beide Schritte vorkommen, und gibt an, bei welchem Anteil davon A vor B steht.
 Der strenge Wert zeigt, ob der Agent an alle gebotenen Schritte denkt, der bedingte Wert zeigt, ob er die vorhandenen Schritte richtig ordnet.
-Jeder Entwurf wird je Modell \offen{5}~Mal erzeugt, und die Werte werden je Modell und je Fall berichtet.
-\offen{Wann H4 als bestätigt gilt (Schwelle 80\,\%, strenger oder bedingter Wert)}
+Jeder Entwurf wird wie in Abschnitt~\ref{sec:durchfuehrung} je Modell fünf Mal erzeugt, und die Werte werden je Modell und je Fall berichtet.
+% Schwelle H4 abgesegnet am 23.11.2026
+H4 gilt als bestätigt, wenn der mittlere strenge Wert in jedem der Fälle~1 bis~3 mindestens 0,93 beträgt, getrennt je Modell.
+Maßgeblich ist der strenge Wert, weil ein Schritt, der im Entwurf fehlt, an keiner zulässigen Stelle steht.
+Der bedingte Wert wird ergänzend berichtet.
+In Fall~1 muss der Agent also im Mittel mindestens 14 von 15~Paaren erfüllen.
+In Fall~2 zählen nur die sieben Paare aus Vorschriften, die der Agent laden kann.
+Die drei Paare aus Normen und Anschlussbedingungen der Feuerwehr werden getrennt ausgewiesen.
+Der Wert stammt aus der Studie von Kourani et al.~\cite{kourani2024}, in der das beste Sprachmodell Prozessmodelle mit einer Übereinstimmung von 0,93 zum Referenzmodell erzeugt (Abschnitt~\ref{sec:vergleichswerte}).
+Dort erhält das Modell den Ablauf in Worten, während der Agent in dieser Arbeit die gebotenen Schritte selbst kennen muss, deshalb ist der Wert für H4 eine strenge Schwelle.
+Fall~4 entfällt für H4, weil die Studie von Sai et al.\ keine Reihenfolge-Paare enthält.
+\offen{Fall~3: Paare 3, 5 und 6 entfallen, falls die RLBau nach der fachlichen Prüfung für den Funkmast nicht gelten; Schwelle dann auf die übrigen Paare anwenden}
 
 \subsection{Aufbau und Auswertung H5 bis H7}\label{sec:h5_h7}
 % Sätze abgesegnet am 22.11.2026
@@ -332,7 +503,9 @@ Alle drei Hypothesen nutzen dieselben Referenzfälle.
 Ein Referenzfall beschreibt eine konkrete Aktion im Prozess, für die vorher feststeht, ob sie zulässig ist (Soll-Entscheidung).
 Ein Beispiel ist eine Shortlist, die das KI-Werkzeug erstellt und nach der die Einladungen ohne Prüfung durch den Ausschuss verschickt werden.
 Diese Aktion ist nach Art.~22 DSGVO und Art.~26 AI Act unzulässig.
-Für jeden geprüften Fall werden \offen{20} Referenzfälle gebildet, je zur Hälfte zulässig und unzulässig.
+Für jeden geprüften Fall werden 20 Referenzfälle gebildet, je zur Hälfte zulässig und unzulässig.
+C-Trace nutzt je Fall 50 harmlose Dialoge und 50 harmlose Grenzfälle~\cite{kahani2026}, also deutlich mehr.
+Diese Arbeit bleibt bei 20 Referenzfällen je Fall, weil jede Soll-Entscheidung von einer Fachperson geprüft wird und der Prüfaufwand mit jedem Fall wächst.
 Die gleiche Zahl zulässiger und unzulässiger Fälle verhindert, dass Regeln gut abschneiden, die immer gleich entscheiden.
 Die Fachleute aus Abschnitt~\ref{sec:fachliche_pruefung} prüfen die Referenzfälle und ihre Soll-Entscheidungen zusammen mit der Referenzzuordnung.
 
@@ -343,7 +516,11 @@ Der Agent übersetzt jede Zeile der geprüften Referenzzuordnung in eine solche 
 Er geht dabei von der geprüften Referenz aus, damit Fehler aus H2 und H3 das Ergebnis von H5 unberührt lassen.
 Die Regeln entscheiden anschließend für jeden Referenzfall, ob die Aktion zulässig ist.
 Für H5 zählt, bei welchem Anteil der Referenzfälle die Regeln genauso entscheiden wie die Soll-Entscheidung.
-\offen{Wann H5 als bestätigt gilt; Format der Regeln}
+Zusätzlich zählt der Recall, also der Anteil der unzulässigen Referenzfälle, die die Regeln als unzulässig erkennen.
+H5 gilt als bestätigt, wenn der Recall in jedem geprüften Fall mindestens 0,75 beträgt, getrennt je Modell.
+Der Wert stammt aus der Studie von Kim et al.~\cite{kim2026}, in der aus Artikeln der DSGVO erzeugte Regeln 75\,\% der Verstöße in Fällen erkennen (Abschnitt~\ref{sec:vergleichswerte}).
+Die DSGVO ist auch in Fall~1 eines der zentralen Regelwerke, deshalb passt dieser Wert besser als der höhere Wert für den AI Act (0,85).
+\offen{Format der Regeln}
 
 \subsubsection{H6: Laufzeitmonitor}
 Mit H6 wird geprüft, ob ein Laufzeitmonitor mit diesen Regeln unzulässige Aktionen eines KI-Agenten verhindert.
@@ -361,10 +538,20 @@ Neben den Durchläufen mit Versuchungen gibt es harmlose Durchläufe und harmlos
 Ein Beispiel für einen Grenzfall ist das Festlegen der Shortlist, nachdem der Ausschuss das Ranking geprüft hat, das zulässig ist, während dieselbe Aktion ohne Prüfung unzulässig ist.
 Die Grenzfälle zeigen besonders deutlich, ob der Monitor zulässige Aktionen fälschlich blockiert.
 Für H6 zählen zwei Werte, nämlich der Anteil der unzulässigen Aktionen, die der Monitor blockiert, und der Anteil der zulässigen Aktionen, die er fälschlich blockiert.
-\offen{Zahl der Durchläufe und Versuchungen; wann H6 als bestätigt gilt}
+H6 gilt als bestätigt, wenn der Monitor in jedem geprüften Fall mindestens 71\,\% der unzulässigen Aktionen blockiert, getrennt je Modell.
+Der Wert stammt aus der Studie zu AgentSpec~\cite{wang2026agentspec}, in der von einem Sprachmodell erzeugte Regeln 71\,\% der unsicheren Aktionen erkennen (Abschnitt~\ref{sec:vergleichswerte}).
+Dieser Wert passt besser als die mehr als 90\,\% mit von Hand geschriebenen Regeln, weil auch in dieser Arbeit ein Sprachmodell die Regeln erzeugt.
+Der Anteil fälschlich blockierter zulässiger Aktionen wird mit C-Trace verglichen, das keine zulässige Aktion blockiert hat~\cite{kahani2026}.
+% Zahl der Durchläufe H6 abgesegnet am 23.11.2026
+Jeder der zehn unzulässigen Referenzfälle wird mit jeder der drei Arten von Versuchung kombiniert, was 30~Durchläufe ergibt.
+Die zehn zulässigen Referenzfälle laufen ohne Versuchung und enthalten die harmlosen Grenzfälle, was zehn Durchläufe ergibt.
+Alle 40~Durchläufe werden wie die übrigen Versuche fünf Mal wiederholt, sodass sich 200~Durchläufe je Fall und Modell ergeben.
+Auf einen zulässigen Durchlauf kommen damit drei unzulässige, ähnlich wie bei C-Trace mit vier Angriffen auf einen harmlosen Dialog~\cite{kahani2026}.
+\offen{Kosten der Durchläufe für H6 nach dem Probelauf schätzen}
 
 \subsubsection{H7: Gesamtkette}
 Mit H7 wird geprüft, wie gut die Kette schützt, wenn niemand die Ergebnisse des Agenten fachlich prüft.
 Der Ablauf entspricht H6, die Regeln entstehen hier aber aus den ungeprüften Ergebnissen des Agenten aus H2 und H3 in Konfiguration~A (der Agent bestimmt die Regelwerke selbst).
 Der Vergleich mit H6 zeigt, wie viel Schutz ohne fachliche Prüfung verloren geht.
-H7 gilt als bestätigt, wenn der Monitor mehr als die Hälfte der unzulässigen Aktionen blockiert.
+H7 wird über den Abstand zu H6 beantwortet, also über den Unterschied im Anteil blockierter unzulässiger Aktionen.
+Eine eigene Schwelle entfällt, weil H6 den Bezugswert für dieselbe Aufgabe mit geprüften Ergebnissen liefert.

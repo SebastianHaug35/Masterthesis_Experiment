@@ -47,6 +47,13 @@ Diese Arbeit verwendet drei Ebenen, weil auch die Vergleichsstudie von Sai et al
 Compliance bedeutet, dass eine Organisation die für sie geltenden Regeln einhält.
 Diese Regeln stammen aus mehreren Ebenen, die aufeinander aufbauen.
 In Deutschland sind das vor allem das Recht der Europäischen Union, das Bundesrecht, das Landesrecht sowie Regelungen unterhalb des Gesetzes, etwa Tarifverträge oder Satzungen.
+% Verwaltungsvorschriften, Sätze 1-6 abgesegnet am 23.11.2026
+Eine besondere Art von Regeln unterhalb des Gesetzes sind Verwaltungsvorschriften.
+Ein Ministerium erlässt sie, um den eigenen Behörden vorzugeben, wie sie ein Gesetz anwenden und wie sie intern vorgehen.
+Ein Beispiel sind die Richtlinien für Hochbauaufgaben des Freistaates Bayern (RLBau), die festlegen, in welcher Reihenfolge staatliche Bauvorhaben geplant, genehmigt und gebaut werden~\cite{rlbau2026}.
+Verwaltungsvorschriften binden unmittelbar nur die Behörden und wirken auf Bürgerinnen, Bürger und Unternehmen allenfalls mittelbar, weshalb man sie als Innenrecht bezeichnet~\cite{wd2024foerderrichtlinien}.
+Für Organisationen des öffentlichen Sektors sind sie deshalb ebenso zu beachten wie Gesetze, für private Unternehmen spielen sie eine Nebenrolle.
+In Bayern werden sie im Bayerischen Ministerialblatt veröffentlicht und sind über gesetze-bayern.de frei zugänglich.
 
 Beim EU-Recht ist zwischen Verordnungen und Richtlinien zu unterscheiden.
 Eine Verordnung gilt unmittelbar in allen Mitgliedstaaten.
@@ -120,6 +127,7 @@ Im Gegenzug erarbeiten sie auf Auftrag der Kommission harmonisierte Normen, die 
   \caption[Ebenen der Rechtsquellen]{Die Abbildung zeigt die Ebenen der Rechtsquellen und ihre Rangfolge. Durchgezogene Linien stehen für den Vorrang der höheren Ebene, gestrichelte Linien für lose Abhängigkeiten wie die Umsetzung einer Richtlinie oder den Verweis auf eine Norm. Die Darstellung ist eine eigene Vereinfachung in Anlehnung an Artikel~288 AEUV~\cite{aeuv} und Artikel~31 Grundgesetz~\cite{gg}, die Beispiele dienen nur der Veranschaulichung. Ausländisches Recht wie der CLOUD Act steht außerhalb dieser Rangfolge, kann aber über die genutzten Anbieter auf Organisationen in der EU wirken.}
   \label{fig:rechtsquellen}
 \end{figure}
+\offen{Abbildung~\ref{fig:rechtsquellen} um die Ebene Verwaltungsvorschrift unterhalb des Landesrechts ergänzen}
 
 \subsection{Rechtsrahmen der Anwendungsfälle}
 % Einleitung 2.3, Sätze 1-7 abgesegnet am 31.10.2026
@@ -137,21 +145,21 @@ Zugleich lassen sich die Ergebnisse direkt mit denen von Sai et al.~\cite{sai202
   \renewcommand{\arraystretch}{1.3}
   \begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{2.2cm} Y Y Y Y}
     \toprule
-    Art & \textbf{Fall 1: Berufungsverfahren} & \textbf{Fall 2: Brandmeldetechnik} & \textbf{Fall 3: TETRA-Endgeräte} & \textbf{Fall 4: Sai et al.\ (Australien)} \\
+    Art & \textbf{Fall 1: Berufungsverfahren} & \textbf{Fall 2: Brandmeldeanlage} & \textbf{Fall 3: Basisstation} & \textbf{Fall 4: Sai et al.\ (Australien)} \\
     \midrule
-    EU-Verordnung & \textbf{DSGVO}, \textbf{AI Act} & Bauproduktenverordnung & DSGVO & -- \\
-    Umgesetzte EU-Richtlinie & \textbf{AGG} & -- & Funkanlagengesetz (RED), ElektroG (WEEE) & -- \\
-    Bundesrecht & GG Art.~33, SGB~IX, BeamtStG & Arbeitsstättenverordnung & BDBOS-Gesetz, GWB/VgV & Privacy Act, Fair Work Act, Disability Discrimination Act, Gesetz gegen Geldwäsche \\
-    Landesrecht & BayHIG, BayBesG, BayDSG, \textbf{BayPVG} & \textbf{Bayerische Bauordnung}, \textbf{Prüfverordnung}, Sonderbauverordnungen & BayDSG, BayPVG & -- \\
-    Satzung, Vorgaben & Berufungsordnung der HM (sofern veröffentlicht) & -- & Vorgaben der BDBOS & -- \\
-    Technische Norm & -- & \textbf{DIN 14675}, DIN VDE 0833, \textbf{DIN EN 54} (harmonisiert) & ETSI EN 300 392 (TETRA) & -- \\
+    EU-Verordnung & \textbf{DSGVO}, \textbf{AI Act} & Bauproduktenverordnung & -- & -- \\
+    Umgesetzte EU-Richtlinie & \textbf{AGG} & -- & -- & -- \\
+    Bundesrecht & GG Art.~33, SGB~IX, BeamtStG & Arbeitsstättenverordnung & BauGB, 26.~BImSchV, BEMFV, TKG & Privacy Act, Fair Work Act, Disability Discrimination Act, Gesetz gegen Geldwäsche \\
+    Landesrecht & BayHIG, BayBesG, BayDSG, \textbf{BayPVG} & \textbf{Bayerische Bauordnung}, \textbf{Prüfverordnung}, Sonderbauverordnungen & Bayerische Bauordnung, BayHO & -- \\
+    Satzung, Vorgaben & Berufungsordnung der HM (sofern veröffentlicht) & -- & RLBau, VVöA (Verwaltungsvorschriften) & -- \\
+    Technische Norm & -- & \textbf{DIN 14675}, DIN VDE 0833, \textbf{DIN EN 54} (harmonisiert) & -- & -- \\
     Branchenregeln & -- & \textbf{VdS-Richtlinien} & -- & \textbf{General Insurance Code of Practice} \\
     \bottomrule
   \end{tabularx}
   \caption[Regelwerke der Anwendungsfälle nach Art]{Regelwerke der Anwendungsfälle nach Art. Fett gesetzte Regelwerke werden in diesem Abschnitt gesondert erklärt.}
   \label{tab:regelwerke}
 \end{table}
-\offen{Tabelle am 19.11. an Berufungsverfahren (Fall~1) und TETRA (neuer Fall~3) angepasst, Spalten 1 und 3 vorläufig; Regelwerke mit eigenem Abschnitt (fett) in 2.3 prüfen, TV-L-Abschnitt ggf. streichen}
+\offen{Spalte Fall~3 am 23.11. an die Basisstation angepasst; Zeile Verwaltungsvorschrift und Sätze dazu in 2.3 ergänzen (Sebastian einverstanden); Tabelle am 19.11. an Berufungsverfahren (Fall~1) angepasst, Spalten 1 und 3 vorläufig; Regelwerke mit eigenem Abschnitt (fett) in 2.3 prüfen, TV-L-Abschnitt ggf. streichen}
 % Spalte Fall 2 vorläufig (31.10.2026): bleibt so stehen, Prüfung durch den Autor bei der Einarbeitung in Fall 2
 % Tabellenunterschrift abgesegnet am 31.10.2026
 % Gliederung 2.3 nach Regelwerken, Überschriften mit Fallbezug (31.10.2026)
