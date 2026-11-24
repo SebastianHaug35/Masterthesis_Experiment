@@ -85,8 +85,7 @@ Das Profil beschreibt die Organisation, in der der Prozess abläuft.
 Dazu gehören Sitz und Bundesland, Rechtsform, Größe und die Gremien der Mitbestimmung.
 Die Hochschule München ist eine Körperschaft des öffentlichen Rechts in Bayern mit mehr als 1.000 Beschäftigten.
 Sie hat einen Personalrat, eine Gleichstellungsbeauftragte und eine Schwerbehindertenvertretung.
-Tabelle~\ref{tab:h1_profil} zeigt alle Angaben des Profils, die der Agent erhält (Datei \repodatei{h1/input/firmenprofil.json}).
-\offen{Profil um Schwerbehindertenvertretung und Rolle beim KI-Tool (Betreiberin) ergänzen, Vorschlag in ERGEBNIS.md Abschnitt~8; Tabelle danach neu erzeugen. Entscheiden, ob die Tabelle hier oder im Anhang steht}
+Tabelle~\ref{tab:fall1_profil} zeigt alle Angaben des Profils, die der Agent erhält.
 % Sätze 11-17 abgesegnet am 19.11.2026 (Task-Beschreibungen wie bei Sai et al.)
 Die zweite Eingabe ist der Prozess.
 Er reicht von der Freigabe der Professur bis zur Löschung der Daten abgelehnter Bewerbender.
@@ -100,7 +99,7 @@ Diese Form lehnt sich an Sai et al.~\cite{sai2024} an, die den Prozess, jeden Te
 Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablauf, damit der Agent die rechtlichen Anforderungen aus den Regelwerken ableiten muss.
 Ein Beispiel ist \enquote{T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.}
 Tabelle~\ref{tab:fall1_prozess} zeigt den vollständigen Prozess.
-\offen{Eingabedateien (prozess.json, firmenprofil.json, soll\_liste.csv) per Auftrag durch den Stand aus Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz} ersetzen; danach wieder auf die Dateien verweisen}
+\offen{Eingabedateien (prozess.json, firmenprofil.json, soll\_liste.csv) per Auftrag durch den Stand aus Tabelle~\ref{tab:fall1_profil}, Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz} ersetzen; danach wieder auf die Dateien verweisen}
 % Sätze A1-A6 (Annahmen) abgesegnet am 19.11.2026; Annahmen bleiben Felder im Profil
 Das Profil enthält zusätzlich Annahmen zum Fall (Festlegungen, die in der Praxis von der einzelnen Organisation abhängen).
 Die Annahmen legen die Umstände fest, von denen die geltenden Vorschriften abhängen.
@@ -108,7 +107,6 @@ Das KI-Tool zur Vorauswahl stammt von einem Anbieter mit Sitz in der EU, und all
 Die Hochschule setzt das Tool ein und ist damit Betreiberin (Organisation, die ein KI-System in eigener Verantwortung nutzt) im Sinne des AI Act.
 Die Stelle ist eine Professur der Besoldungsgruppe W2 im Beamtenverhältnis.
 Diese Festlegungen machen die Referenzzuordnung eindeutig, denn eine Übermittlung in Staaten außerhalb der EU würde zum Beispiel weitere Pflichten auslösen.
-\offen{Betreiberrolle steht erst nach der Profil-Ergänzung (ERGEBNIS.md Abschnitt~8, Punkt~7) in der Eingabe}
 
 \subsubsection{Erwartung}\label{sec:fall1_erwartung}
 % Sätze 1-20 abgesegnet am 19.11.2026, Zahlen und Kontrollschritt am 19.11. auf das Berufungsverfahren umgestellt (Verneinungen in Satz 12 und 18 bewusst behalten; "fehlt" statt "bewusst entfernt", weil nur ein Teil der Lücken geplant war)
