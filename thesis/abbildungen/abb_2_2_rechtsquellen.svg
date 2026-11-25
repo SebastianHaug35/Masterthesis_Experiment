@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="640" viewBox="0 0 820 640" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="750" viewBox="0 0 820 750" font-family="Helvetica, Arial, sans-serif">
   <defs>
     <marker id="pf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
     <marker id="pr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9b2c5a"/></marker>
     <marker id="pg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a5a00"/></marker>
   </defs>
-  <rect width="820" height="640" fill="#fff"/>
+  <rect width="820" height="750" fill="#fff"/>
   <!-- Stufen -->
   <g font-size="15" text-anchor="middle">
     <rect x="250" y="30" width="300" height="70" rx="10" fill="#1f4e8c"/>
@@ -18,10 +18,13 @@
     <rect x="250" y="346" width="300" height="70" rx="10" fill="#6e97cf"/>
     <text x="400" y="376" fill="#fff" font-weight="bold">Landesrecht</text>
     <text x="400" y="398" fill="#f3f7fc" font-size="12">Landesverfassung · Landesgesetze · Verordnungen</text>
-    <rect x="230" y="456" width="340" height="84" rx="10" fill="#a9c3e6"/>
-    <text x="400" y="484" fill="#10294d" font-weight="bold">Regelungen unterhalb des Gesetzes</text>
-    <text x="400" y="506" fill="#10294d" font-size="12">z. B. Tarifverträge, Betriebs- und Dienstvereinbarungen,</text>
-    <text x="400" y="524" fill="#10294d" font-size="12">Satzungen, interne Richtlinien</text>
+    <rect x="250" y="456" width="300" height="70" rx="10" fill="#8daed9"/>
+    <text x="400" y="484" fill="#10294d" font-weight="bold">Verwaltungsvorschriften</text>
+    <text x="400" y="506" fill="#10294d" font-size="12">Innenrecht, bindet Behörden · z. B. RLBau</text>
+    <rect x="230" y="566" width="340" height="84" rx="10" fill="#a9c3e6"/>
+    <text x="400" y="594" fill="#10294d" font-weight="bold">Regelungen unterhalb des Gesetzes</text>
+    <text x="400" y="616" fill="#10294d" font-size="12">z. B. Tarifverträge, Betriebs- und Dienstvereinbarungen,</text>
+    <text x="400" y="634" fill="#10294d" font-size="12">Satzungen, interne Richtlinien</text>
   </g>
   <!-- Vorrang -->
   <g stroke="#333" stroke-width="2" fill="none">
@@ -29,6 +32,7 @@
     <line x1="400" y1="196" x2="400" y2="234" marker-end="url(#pf)"/>
     <line x1="400" y1="306" x2="400" y2="344" marker-end="url(#pf)"/>
     <line x1="400" y1="416" x2="400" y2="454" marker-end="url(#pf)"/>
+    <line x1="400" y1="526" x2="400" y2="564" marker-end="url(#pf)"/>
   </g>
   <g font-size="11" fill="#333">
     <text x="410" y="124">Anwendungsvorrang</text>
@@ -65,8 +69,8 @@
   <text x="705" y="132" font-size="11" text-anchor="middle" fill="#9b2c5a">(Art. 48 DSGVO)</text>
   <!-- Legende -->
   <g font-size="11" fill="#444">
-    <line x1="30" y1="585" x2="70" y2="585" stroke="#333" stroke-width="2"/><text x="78" y="589">Rangfolge: höhere Ebene geht vor</text>
-    <line x1="330" y1="585" x2="370" y2="585" stroke="#8a5a00" stroke-width="1.8" stroke-dasharray="6 5"/><text x="378" y="589">lose Abhängigkeit (Umsetzung, Verweis)</text>
+    <line x1="30" y1="695" x2="70" y2="695" stroke="#333" stroke-width="2"/><text x="78" y="699">Rangfolge: höhere Ebene geht vor</text>
+    <line x1="330" y1="695" x2="370" y2="695" stroke="#8a5a00" stroke-width="1.8" stroke-dasharray="6 5"/><text x="378" y="699">lose Abhängigkeit (Umsetzung, Verweis)</text>
   </g>
-  <g font-size="11" fill="#444"><line x1="30" y1="612" x2="70" y2="612" stroke="#9b2c5a" stroke-width="1.8" stroke-dasharray="2 4"/><text x="78" y="616">Spannungsverhältnis: ausländisches Recht außerhalb der Rangfolge</text></g>
+  <g font-size="11" fill="#444"><line x1="30" y1="722" x2="70" y2="722" stroke="#9b2c5a" stroke-width="1.8" stroke-dasharray="2 4"/><text x="78" y="726">Spannungsverhältnis: ausländisches Recht außerhalb der Rangfolge</text></g>
 </svg>
