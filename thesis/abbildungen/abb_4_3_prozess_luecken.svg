@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900" font-family="Helvetica, Arial, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+  <rect width="800" height="900" fill="#fff"/>
+  <style>
+    .tp{fill:#1f4e8c}.tpt{fill:#fff;font-size:14px;font-weight:bold;text-anchor:middle}
+    .t{fill:#eef3fa;stroke:#6e97cf}.tt{font-size:12.5px;fill:#10294d}
+    .m{fill:#fbeaea;stroke:#b23b3b;stroke-width:1.6;stroke-dasharray:6 4}.mt{font-size:12.5px;fill:#7a1f1f}
+    .k{fill:#e6f4ea;stroke:#2e7d32;stroke-width:2}.f{fill:#f1f2f4;stroke:#7d8792;stroke-dasharray:3 3}.ft{font-size:12.5px;fill:#555;text-decoration:line-through}
+  </style>
+  <!-- Teilprozesse: x = 10 + i*198, Breite 188 -->
+  <g>
+    <rect class="tp" x="10" y="10" width="188" height="46" rx="8"/><text class="tpt" x="104" y="30">TP1 Professur</text><text class="tpt" x="104" y="47">freigeben, ausschreiben</text>
+    <rect class="tp" x="208" y="10" width="188" height="46" rx="8"/><text class="tpt" x="302" y="30">TP2 Bewerbungen</text><text class="tpt" x="302" y="47">annehmen</text>
+    <rect class="tp" x="406" y="10" width="188" height="46" rx="8"/><text class="tpt" x="500" y="38">TP3 KI-Vorauswahl</text>
+    <rect class="tp" x="604" y="10" width="188" height="46" rx="8"/><text class="tpt" x="698" y="30">TP4 Vorgespräche</text><text class="tpt" x="698" y="47">und Probevorträge</text>
+  </g>
+<g transform="translate(-792,500)">
+    <rect class="tp" x="802" y="10" width="188" height="46" rx="8"/><text class="tpt" x="896" y="30">TP5 Berufungs-</text><text class="tpt" x="896" y="47">vorschlag</text>
+    <rect class="tp" x="1000" y="10" width="188" height="46" rx="8"/><text class="tpt" x="1094" y="30">TP6 Ruf und</text><text class="tpt" x="1094" y="47">Ernennung</text>
+    <rect class="tp" x="1198" y="10" width="188" height="46" rx="8"/><text class="tpt" x="1292" y="30">TP7 Absagen</text><text class="tpt" x="1292" y="47">und Löschen</text>
+</g>
+  <g stroke="#555" stroke-width="1.5"><line x1="198" y1="33" x2="206" y2="33" marker-end="url(#a)"/><line x1="396" y1="33" x2="404" y2="33" marker-end="url(#a)"/><line x1="594" y1="33" x2="602" y2="33" marker-end="url(#a)"/></g>
+  <!-- TP1 -->
+  <g>
+    <rect class="t" x="10" y="70" width="188" height="34" rx="5"/><text class="tt" x="18" y="92">T1.1 Bedarf anmelden</text>
+    <rect class="t" x="10" y="110" width="188" height="34" rx="5"/><text class="tt" x="18" y="132">T1.2 Professur freigeben</text>
+    <rect class="k" x="10" y="150" width="188" height="34" rx="5"/><text class="tt" x="18" y="172">T1.3 Ausschuss bilden ✓</text>
+    <rect class="m" x="10" y="190" width="188" height="34" rx="5"/><text class="mt" x="18" y="212">Staatsministerium inform.</text>
+    <rect class="m" x="10" y="230" width="188" height="34" rx="5"/><text class="mt" x="18" y="246">Besetzung mit schwer-</text><text class="mt" x="18" y="259">behinderten Menschen prüfen</text>
+    <rect class="t" x="10" y="270" width="188" height="34" rx="5"/><text class="tt" x="18" y="286">T1.4 Ausschreibung</text><text class="tt" x="18" y="299">veröffentlichen</text>
+    <rect class="m" x="10" y="310" width="188" height="34" rx="5"/><text class="mt" x="18" y="326">Stelle der Agentur für</text><text class="mt" x="18" y="339">Arbeit melden</text>
+  </g>
+  <!-- TP2 -->
+  <g>
+    <rect class="t" x="208" y="70" width="188" height="34" rx="5"/><text class="tt" x="216" y="92">T2.1 Unterlagen empfangen</text>
+    <rect class="t" x="208" y="110" width="188" height="34" rx="5"/><text class="tt" x="216" y="132">T2.2 Eingang bestätigen</text>
+    <rect class="t" x="208" y="150" width="188" height="34" rx="5"/><text class="tt" x="216" y="172">T2.3 Bewerbungen anlegen</text>
+  </g>
+  <!-- TP3 -->
+  <g>
+    <rect class="m" x="406" y="70" width="188" height="34" rx="5"/><text class="mt" x="414" y="86">Datenschutz-Folgen-</text><text class="mt" x="414" y="99">abschätzung (Art. 35 DSGVO)</text>
+    <rect class="m" x="406" y="110" width="188" height="34" rx="5"/><text class="mt" x="414" y="126">Grundrechte-Folgen-</text><text class="mt" x="414" y="139">abschätzung (Art. 27 AI Act)</text>
+    <rect class="m" x="406" y="150" width="188" height="34" rx="5"/><text class="mt" x="414" y="172">Mitarbeitende zu KI schulen</text>
+    <rect class="m" x="406" y="190" width="188" height="34" rx="5"/><text class="mt" x="414" y="206">Bewerbende über</text><text class="mt" x="414" y="219">KI-Einsatz informieren</text>
+    <rect class="m" x="406" y="230" width="188" height="34" rx="5"/><text class="mt" x="414" y="246">Personalrat zum KI-Tool</text><text class="mt" x="414" y="259">beteiligen (Anwendbarkeit?)</text>
+    <rect class="t" x="406" y="270" width="188" height="34" rx="5"/><text class="tt" x="414" y="292">T3.1 Unterlagen auswerten</text>
+    <rect class="t" x="406" y="310" width="188" height="34" rx="5"/><text class="tt" x="414" y="332">T3.2 Ranking erzeugen</text>
+    <rect class="t" x="406" y="350" width="188" height="34" rx="5"/><text class="tt" x="414" y="372">T3.3 Ranking prüfen</text>
+    <rect class="m" x="406" y="390" width="188" height="34" rx="5"/><text class="mt" x="414" y="406">Schwerbehinderten-</text><text class="mt" x="414" y="419">vertretung beteiligen</text>
+    <rect class="t" x="406" y="430" width="188" height="34" rx="5"/><text class="tt" x="414" y="452">T3.4 Shortlist festlegen</text>
+  </g>
+  <!-- TP4 -->
+  <g>
+    <rect class="t" x="604" y="70" width="188" height="34" rx="5"/><text class="tt" x="612" y="86">T4.1 Zu Vorgesprächen</text><text class="tt" x="612" y="99">einladen</text>
+    <rect class="t" x="604" y="110" width="188" height="34" rx="5"/><text class="tt" x="612" y="132">T4.2 Vorgespräche führen</text>
+    <rect class="t" x="604" y="150" width="188" height="34" rx="5"/><text class="tt" x="612" y="166">T4.3 Zum Probevortrag</text><text class="tt" x="612" y="179">einladen</text>
+    <rect class="t" x="604" y="190" width="188" height="34" rx="5"/><text class="tt" x="612" y="206">T4.4 Probevortrag und</text><text class="tt" x="612" y="219">Gespräch durchführen</text>
+    <rect class="t" x="604" y="230" width="188" height="34" rx="5"/><text class="tt" x="612" y="252">T4.5 Ergebnisse dokument.</text>
+  </g>
+  <!-- TP5 -->
+  <g transform="translate(-792,500)">
+    <rect class="t" x="802" y="70" width="188" height="34" rx="5"/><text class="tt" x="810" y="92">T5.1 Gutachten einholen</text>
+    <rect class="t" x="802" y="110" width="188" height="34" rx="5"/><text class="tt" x="810" y="126">T5.2 Berufungsliste</text><text class="tt" x="810" y="139">beschließen</text>
+    <rect class="m" x="802" y="150" width="188" height="34" rx="5"/><text class="mt" x="810" y="166">Stellungnahme des</text><text class="mt" x="810" y="179">Senats einholen</text>
+    <rect class="t" x="802" y="190" width="188" height="34" rx="5"/><text class="tt" x="810" y="206">T5.3 Über die Berufung</text><text class="tt" x="810" y="219">entscheiden</text>
+  </g>
+  <!-- TP6 -->
+  <g transform="translate(-792,500)">
+    <rect class="t" x="1000" y="70" width="188" height="34" rx="5"/><text class="tt" x="1008" y="92">T6.1 Ruf erteilen</text>
+    <rect class="t" x="1000" y="110" width="188" height="34" rx="5"/><text class="tt" x="1008" y="126">T6.2 Berufungs-</text><text class="tt" x="1008" y="139">verhandlung führen</text>
+    <rect class="f" x="1000" y="150" width="188" height="34" rx="5"/><text class="ft" x="1008" y="166">Personalrat bei der</text><text class="ft" x="1008" y="179">Einstellung beteiligen</text>
+    <rect class="t" x="1000" y="190" width="188" height="34" rx="5"/><text class="tt" x="1008" y="212">T6.3 Ernennen</text>
+  </g>
+  <!-- TP7 -->
+  <g transform="translate(-792,500)">
+    <rect class="t" x="1198" y="70" width="188" height="34" rx="5"/><text class="tt" x="1206" y="92">T7.1 Absagen versenden</text>
+    <rect class="t" x="1198" y="110" width="188" height="34" rx="5"/><text class="tt" x="1206" y="126">T7.2 Aufbewahrungsfrist</text><text class="tt" x="1206" y="139">abwarten</text>
+    <rect class="t" x="1198" y="150" width="188" height="34" rx="5"/><text class="tt" x="1206" y="172">T7.3 Daten löschen</text>
+  </g>
+  <path d="M792,33 L800,33 L800,490 L104,490 L104,508" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+  <g transform="translate(0,-130)" stroke="#555" stroke-width="1.5"><line x1="198" y1="663" x2="206" y2="663" marker-end="url(#a)"/><line x1="396" y1="663" x2="404" y2="663" marker-end="url(#a)"/></g>
+  <!-- Legende -->
+  <g font-size="13" fill="#333" transform="translate(0,270)">
+    <rect class="t" x="10" y="520" width="34" height="22" rx="4"/><text x="52" y="536">Task im Eingabeprozess</text>
+    <rect class="m" x="260" y="520" width="34" height="22" rx="4"/><text x="302" y="536">fehlender Schritt, an einer zulässigen Stelle eingezeichnet</text>
+    <rect class="k" x="10" y="556" width="34" height="22" rx="4"/><text x="52" y="572">Kontrollschritt: erfüllt die Pflicht bereits (Art. 66 Abs. 4 BayHIG)</text>
+    <rect class="f" x="10" y="592" width="34" height="22" rx="4"/><text x="52" y="608">Falle: Pflicht wirkt passend, entfällt aber (Art. 4 Abs. 4 Buchst. a BayPVG)</text>
+  </g>
+</svg>

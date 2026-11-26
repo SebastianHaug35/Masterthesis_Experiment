@@ -122,6 +122,14 @@ Die Teilprozesse sind Professur freigeben und ausschreiben, Bewerbungen annehmen
 Der Prozess, jeder Teilprozess und jeder Task haben eine Bezeichnung und eine kurze Beschreibung.
 Teilprozesse und Tasks tragen zusätzlich eine Kennung, zum Beispiel \enquote{TP3} und \enquote{T3.2}.
 Die Kennung eines Tasks setzt sich aus der Nummer des Teilprozesses und der laufenden Nummer des Tasks zusammen.
+% Abbildungen 4.x (Kennung, Zeilenarten, Prozess mit Lücken) am 26.11.2026 auf Wunsch ergänzt; Verweissätze zur Freigabe
+Abbildung~\ref{fig:kennung} zeigt den Aufbau der Kennung am Beispiel von Teilprozess TP3.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/abb_4_1_kennung.pdf}
+  \caption[Aufbau der Kennungen]{Aufbau der Kennungen am Beispiel von Teilprozess TP3 in Fall~1. Quelle: eigene Darstellung.}
+  \label{fig:kennung}
+\end{figure}
 Jede Beschreibung nennt, wer handelt, was geschieht und welches System beteiligt ist.
 Sai et al.~\cite{sai2024} beschreiben in ihren Fallstudien den Prozess, jeden Teilprozess und jeden Task ebenfalls mit einem kurzen Text, und diese Arbeit übernimmt diese Form.
 Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablauf, damit der Agent die rechtlichen Anforderungen aus den Regelwerken ableiten muss.
@@ -145,6 +153,13 @@ Beispiele sind die Datenschutz-Folgenabschätzung nach Art.~35 DSGVO und die Bet
 Diese Zeilen prüfen, ob der Agent fehlende Pflichten erkennt (H3).
 Die 14 Zeilen der Art neutral nennen allgemeine Vorschriften, die im ganzen Prozess gelten, etwa die Grundsätze der Verarbeitung nach Art.~5 Abs.~1 DSGVO.
 Ihre Nennung bleibt in der Auswertung ohne Gewicht, weil sie fachlich vertretbar ist und zugleich keinen konkreten Task betrifft.
+Abbildung~\ref{fig:zeilenarten} fasst die Arten der Zeilen mit je einem Beispiel zusammen und zeigt, wie jede Art in die Auswertung eingeht.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.0\textwidth]{figures/abb_4_2_zeilenarten.pdf}
+  \caption[Arten der Zeilen in der Referenzzuordnung]{Arten der Zeilen in der Referenzzuordnung für Fall~1 mit je einem Beispiel und ihrer Wirkung in der Auswertung. Die Falle wird im Text nach dem Kontrollschritt erklärt. Quelle: eigene Darstellung, Daten aus Tabelle~\ref{tab:fall1_referenz}.}
+  \label{fig:zeilenarten}
+\end{figure}
 Der Prozess enthält außerdem einen Kontrollschritt (Task, der eine Pflicht bereits erfüllt und deshalb als vorhanden gelten muss).
 Das ist die Mitgliedschaft der Gleichstellungsbeauftragten im Berufungsausschuss in T1.3 nach Art.~66 Abs.~4 BayHIG.
 Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
@@ -159,6 +174,14 @@ Die Falle zeigt, ob der Agent Ausnahmen erkennt, statt Muster aus anderen Einste
 % Beleg für die Falle am 25.11.2026 auf gesetze-bayern.de geprüft (Art. 4 Abs. 4 Buchst. a BayPVG, Art. 58 BayHIG)
 Die Referenz enthält ausschließlich Vorschriften zu Schritten, die im Prozess vorkommen oder vorkommen müssten.
 Die Einwilligung für einen Talentpool (Sammlung von Bewerbungen für spätere Stellen) nach Art.~6 Abs.~1 lit.~a DSGVO gehört deshalb nicht dazu, weil der Prozess die Daten nach Ablauf der Frist löscht.
+Abbildung~\ref{fig:fall1_luecken} zeigt den Prozess mit den fehlenden Schritten an einer zulässigen Stelle, dem Kontrollschritt und der Falle.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{figures/abb_4_3_prozess_luecken.pdf}
+  \caption[Prozess von Fall~1 mit fehlenden Schritten]{Prozess von Fall~1 mit den fehlenden Schritten der Referenzzuordnung, dem Kontrollschritt und der Falle. Der Agent erhält nur die blauen Tasks. Quelle: eigene Darstellung, Daten aus Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz}.}
+  \label{fig:fall1_luecken}
+\end{figure}
+\pruefen{Stehen die rot gestrichelten Schritte in Abbildung~\ref{fig:fall1_luecken} an der richtigen Stelle, und fehlt ein Schritt, der in einem Berufungsverfahren vorgeschrieben ist?}
 Tabelle~\ref{tab:fall1_referenz} im Anhang zeigt alle Zeilen.
 Die Referenzzuordnung ist ein Entwurf des Autors und wird vor den finalen Läufen von Fachleuten geprüft (Abschnitt~\ref{sec:fachliche_pruefung}).
 
