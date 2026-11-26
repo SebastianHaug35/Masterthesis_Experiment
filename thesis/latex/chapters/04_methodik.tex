@@ -168,10 +168,11 @@ Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU blei
 
 \subsection{Fall 2: Brandmeldeanlage in einer Veranstaltungshalle}\label{sec:fall2}
 % Sätze abgesegnet am 22.11.2026
-\offen{Entscheidungen 22.11.2026: KI-Schritt (KI-System erkennt Täuschungsalarme); Organisation ist eine fiktive private Veranstaltungshalle, weil Hochschulbauten in Bayern das Staatliche Bauamt errichtet. Fall~2 im Entwurf, fachliche Prüfung ausstehend}
+\offen{Entscheidungen 22.11.2026: KI-Schritt am 26.11. geändert: KI-Werkzeug plant die Anlage aus Raumdaten (vorher Erkennung von Täuschungsalarmen); Organisation ist eine fiktive private Veranstaltungshalle, weil Hochschulbauten in Bayern das Staatliche Bauamt errichtet. Fall~2 im Entwurf, fachliche Prüfung ausstehend}
 Der zweite Anwendungsfall ist die Planung, der Einbau und der Betrieb einer Brandmeldeanlage in einer Veranstaltungshalle.
 Eine Brandmeldeanlage ist eine technische Anlage in einem Gebäude, die Brände über Melder früh erkennen und die Feuerwehr alarmieren soll.
-Für den Fall wird angenommen, dass ein KI-System jede Meldung bewertet und Täuschungsalarme erkennt, die etwa durch Staub oder Dampf entstehen.
+% Satz 3 am 26.11.2026 geändert (KI plant die Anlage)
+Für den Fall wird angenommen, dass ein KI-Werkzeug aus den eingegebenen Raumdaten die gesamte Planung der Anlage erstellt, also Meldertypen, Melderpositionen, Meldebereiche und Alarmwege.
 Der Fall ergänzt Fall~1 in drei Punkten.
 Er spielt in einem privaten Unternehmen statt in einer öffentlichen Einrichtung.
 Er stützt sich vor allem auf Bauordnungsrecht und technische Normen statt auf Personal- und Datenschutzrecht.
@@ -183,21 +184,22 @@ Die Organisation ist ein erfundenes Unternehmen, die Eventhalle Süd GmbH in Mü
 Das Unternehmen hat 80 Beschäftigte und einen Betriebsrat.
 Tabelle~\ref{tab:fall2_profil} zeigt alle Angaben des Profils.
 Der Prozess reicht von der Auswertung des Brandschutzkonzepts bis zur wiederkehrenden Prüfung der Anlage.
-Er ist in sechs Teilprozesse und 20 Tasks gegliedert, nämlich Planen, Beauftragen, Errichten, Abnehmen, Betreiben und Instandhalten.
+Er ist in sechs Teilprozesse und 18 Tasks gegliedert, nämlich Planen, Beauftragen, Errichten, Abnehmen, Betreiben und Instandhalten.
 Wie in Fall~1 beschreibt ein Satz jeden Task, ohne Hinweis auf Vorschriften.
 Die Abstände von Inspektion und Prüfung fehlen bewusst in den Beschreibungen, weil sie sich aus den Vorschriften ergeben.
 Tabelle~\ref{tab:fall2_prozess} zeigt den vollständigen Prozess.
 Vier Annahmen grenzen den Fall ein.
-Nach Annahme A3 verarbeitet das KI-System ausschließlich Daten der Melder, damit der Datenschutz in diesem Fall eine Nebenrolle spielt.
+Nach Annahme A3 verarbeitet das KI-Werkzeug ausschließlich Raum- und Gebäudedaten, damit der Datenschutz in diesem Fall eine Nebenrolle spielt.
 
 \subsubsection{Erwartung}\label{sec:fall2_erwartung}
-Die Referenzzuordnung umfasst 21 Zeilen aus elf Regelwerken und Normen.
+Die Referenzzuordnung umfasst 22 Zeilen aus elf Regelwerken und Normen.
 Zwölf Zeilen ordnen eine Vorschrift einem Task zu, davon vier aus Normen und Anschlussbedingungen der Feuerwehr, die der Agent nicht laden kann.
-Fünf Zeilen beschreiben fehlende Schritte, nämlich Brandschutzordnung, Feuerwehrpläne, Unterweisung und KI-Kompetenz.
+Sechs Zeilen beschreiben fehlende Schritte, nämlich Brandschutzordnung, Feuerwehrpläne, Unterweisung, KI-Kompetenz und die Prüfung der Planung durch eine nach DIN~14675 zertifizierte Fachfirma.
+Der letzte Schritt fehlt, weil das KI-Werkzeug die Planung im Prozess allein erstellt, die Norm aber verlangt, dass eine zertifizierte Fachfirma sie verantwortet.
 Die Prüfung durch Prüfsachverständige vor der ersten Inbetriebnahme ist im Prozess vorhanden (T4.1) und dient als Kontrollschritt.
 Meldet der Agent sie als fehlend, gilt das als Fehlmeldung.
-Die Falle betrifft die Einstufung des KI-Systems nach dem AI Act.
-Das System bewertet Brandmeldungen in einer Veranstaltungshalle und liegt damit außerhalb der Bereiche kritischer Infrastruktur, die Erwägungsgrund~55 nennt.
+Die Falle betrifft die Einstufung des KI-Werkzeugs nach dem AI Act.
+Das Werkzeug plant eine Brandmeldeanlage für eine Veranstaltungshalle und liegt damit außerhalb der Bereiche kritischer Infrastruktur, die Erwägungsgrund~55 nennt.
 Meldet der Agent Pflichten für Hochrisiko-Systeme als fehlend, etwa eine Grundrechte-Folgenabschätzung, gilt das als Fehler.
 Tabelle~\ref{tab:fall2_referenz} zeigt die vollständige Referenz.
 
