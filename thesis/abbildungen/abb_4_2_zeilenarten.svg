@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="330" fill="#fff"/>
+  <g font-size="12" fill="#555"><text x="12" y="98">Bedeutung</text><text x="12" y="188">Beispiel</text><text x="12" y="276">Auswertung</text></g>
+  <!-- Spalten -->
+  <g>
+    <rect x="100" y="12" width="190" height="46" rx="8" fill="#1f4e8c"/><text x="195" y="34" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">Zuordnung</text><text x="195" y="50" font-size="12" fill="#dfe8f5" text-anchor="middle">27 Zeilen</text>
+    <rect x="300" y="12" width="190" height="46" rx="8" fill="#b23b3b"/><text x="395" y="34" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">fehlender Schritt</text><text x="395" y="50" font-size="12" fill="#f7dede" text-anchor="middle">10 Zeilen</text>
+    <rect x="500" y="12" width="190" height="46" rx="8" fill="#7d8792"/><text x="595" y="34" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">neutral</text><text x="595" y="50" font-size="12" fill="#eceff2" text-anchor="middle">14 Zeilen</text>
+    <rect x="700" y="12" width="190" height="46" rx="8" fill="#8a5a00"/><text x="795" y="34" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">Falle</text><text x="795" y="50" font-size="12" fill="#f6ead2" text-anchor="middle">1 Zeile</text>
+  </g>
+  <g font-size="12" fill="#222" text-anchor="middle">
+    <rect x="100" y="68" width="190" height="62" rx="6" fill="#eef3fa"/><text x="195" y="92">Vorschrift gilt für einen</text><text x="195" y="108">vorhandenen Task</text>
+    <rect x="300" y="68" width="190" height="62" rx="6" fill="#fbeaea"/><text x="395" y="92">Pflicht verlangt einen Task,</text><text x="395" y="108">der im Prozess fehlt</text>
+    <rect x="500" y="68" width="190" height="62" rx="6" fill="#f1f2f4"/><text x="595" y="92">allgemeine Vorschrift,</text><text x="595" y="108">gilt im ganzen Prozess</text>
+    <rect x="700" y="68" width="190" height="62" rx="6" fill="#fdf1e2"/><text x="795" y="92">Pflicht wirkt passend,</text><text x="795" y="108">entfällt aber in diesem Fall</text>
+    <rect x="100" y="140" width="190" height="80" rx="6" fill="#eef3fa"/><text x="195" y="166" font-weight="bold">Art. 22 DSGVO</text><text x="195" y="184">keine rein automatisierte</text><text x="195" y="200">Entscheidung → T3.4, T5.3</text>
+    <rect x="300" y="140" width="190" height="80" rx="6" fill="#fbeaea"/><text x="395" y="166" font-weight="bold">Art. 35 DSGVO</text><text x="395" y="184">Datenschutz-Folgen-</text><text x="395" y="200">abschätzung vor TP3</text>
+    <rect x="500" y="140" width="190" height="80" rx="6" fill="#f1f2f4"/><text x="595" y="166" font-weight="bold">Art. 5 Abs. 1 DSGVO</text><text x="595" y="184">Grundsätze der</text><text x="595" y="200">Verarbeitung</text>
+    <rect x="700" y="140" width="190" height="80" rx="6" fill="#fdf1e2"/><text x="795" y="166" font-weight="bold">Art. 4 Abs. 4 BayPVG</text><text x="795" y="184">Personalrat bestimmt bei</text><text x="795" y="200">Professuren nicht mit</text>
+    <rect x="100" y="230" width="190" height="80" rx="6" fill="#ffffff" stroke="#1f4e8c"/><text x="195" y="256">gefunden: Treffer (H2)</text><text x="195" y="274">übersehen: senkt die</text><text x="195" y="290">Trefferquote</text>
+    <rect x="300" y="230" width="190" height="80" rx="6" fill="#ffffff" stroke="#b23b3b"/><text x="395" y="256">als fehlend gemeldet:</text><text x="395" y="274">Treffer (H3)</text>
+    <rect x="500" y="230" width="190" height="80" rx="6" fill="#ffffff" stroke="#7d8792"/><text x="595" y="256">Nennung bleibt</text><text x="595" y="274">ohne Gewicht</text>
+    <rect x="700" y="230" width="190" height="80" rx="6" fill="#ffffff" stroke="#8a5a00"/><text x="795" y="256">als fehlend gemeldet:</text><text x="795" y="274">Fehlmeldung</text>
+  </g>
+</svg>

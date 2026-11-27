@@ -44,11 +44,10 @@ Der Ansatz wird an mehreren Anwendungsfällen untersucht, die sich in Branche, R
     \midrule
     Organisation & öffentliche Hochschule in Bayern & private Veranstaltungshalle (fiktiv) & bayerische Behörde, die das Digitalfunknetz der BOS betreibt & Versicherung und Bank (Australien) \\
     Prozess & Berufung auf eine Professur mit KI-Vorauswahl & Planung bis Instandhaltung einer Brandmeldeanlage & Standortsuche bis Inbetriebnahme einer Basisstation & Schadensbearbeitung; Kundenprüfung \\
-    Rechtsgebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, Arbeitsschutz, KI/AI Act, technische Normen & Bau- und Planungsrecht, Immissionsschutz, Telekommunikationsrecht, Verwaltungsvorschriften & Versicherungs- und Finanzaufsichtsrecht \\
+    Rechts\-gebiete & Datenschutz, KI/AI Act, Arbeits- und Dienstrecht & Bauordnungsrecht, Arbeitsschutz, KI/AI Act, technische Normen & Bau- und Planungsrecht, Immissionsschutz, Telekommunikationsrecht, Verwaltungsvorschriften & Versicherungs- und Finanzaufsichtsrecht \\
     Zugang zu den Vorschriften & frei verfügbar & teilweise urheberrechtlich geschützt (DIN/VDE, Anschlussbedingungen der Feuerwehr) & frei verfügbar & durch die Studie vorgegeben \\
     Rolle in der Arbeit & Hauptfall & explorativer Fall: privates Unternehmen, Normen & explorativer Fall: Behörde als Organisation & Vergleichswert \\
     Fachliche Prüfung & Prof.\ Böhm, weitere Fachperson der HM (offen) & Fachperson für Brandschutz (offen) & Fachperson aus dem Behördenfunk (offen) & Fachleute der Studie \\
-    Stand & Eingaben fertig, fachliche Prüfung offen & Eingaben im Entwurf & Eingaben im Entwurf & Daten im Repository, nur für H2 \\
     \bottomrule
   \end{tabularx}
   \caption{Anwendungsfälle der Arbeit}
@@ -64,10 +63,10 @@ Viertens muss sich der Prozess in die drei Ebenen Prozess, Teilprozess und Task 
 Die Fälle 1 bis 3 wurden für diese Arbeit selbst entworfen.
 Sie orientieren sich an typischen Abläufen in solchen Organisationen, geben aber keinen tatsächlichen Prozess einer bestimmten Organisation wieder.
 Fall 4 übernimmt dagegen die Daten aus der Studie von Sai et al.~\cite{sai2024}.
-\offen{Zeile \enquote{Stand} in Tabelle~\ref{tab:anwendungsfaelle} vor Abgabe aktualisieren oder entfernen}
 
 \subsection{Fall 1: Berufungsverfahren an einer Hochschule}\label{sec:fall1}
-\offen{Entscheidung 19.11.2026: Fall~1 ist ein Berufungsverfahren (Professur an der HM). Texte 4.3.1 bis 4.3.3 am 19.11. angepasst; Zahlen beruhen auf dem Entwurf h1/results/entwurf\_fall1\_berufung und ändern sich nach der fachlichen Prüfung. Eingabedateien und Anhang~B zeigen noch die WiMi-Stelle, bis ein Auftrag sie ersetzt}
+\pruefen{Die Zahlen in diesem Abschnitt beruhen auf meinem Entwurf der Referenzzuordnung (Tabelle~\ref{tab:fall1_referenz}). Sie ändern sich, wenn Sie Zeilen ergänzen, streichen oder anders zuordnen.}
+% Notiz für den Autor: Eingabedateien und Anhang B (H1-Tabelle) zeigen noch die WiMi-Stelle, bis ein Auftrag sie ersetzt
 % Sätze 1-3 abgesegnet am 28.10.2026, am 19.11. auf das Berufungsverfahren umgestellt
 Der erste Anwendungsfall ist die Berufung einer Professorin oder eines Professors an die Hochschule München.
 Für den Fall wird angenommen, dass die Hochschule ein KI-Werkzeug einsetzt, das eingehende Bewerbungen auswertet und in eine Rangfolge bringt.
@@ -77,15 +76,44 @@ Er verbindet mehrere Rechtsebenen, etwa die DSGVO (EU), das Beamtenrecht (Bund) 
 Das KI-Werkzeug macht den Prozess zu einem Anwendungsfall des AI Act, denn KI-Systeme zur Auswahl von Bewerbungen gelten dort als Hochrisiko-Systeme (Art.~6 Abs.~2 mit Anhang~III Nr.~4) \cite{aiact2024}.
 Der Ablauf eines Berufungsverfahrens ist durch Gesetz und Berufungsordnung weitgehend festgelegt, etwa die Ausschreibung vor der Bildung der Kommission, und liefert dadurch klare Reihenfolge-Paare für H4.
 Schritte wie die Beteiligung des Personalrats oder die Datenschutz-Folgenabschätzung (Prüfung der Risiken einer Datenverarbeitung vor ihrem Beginn) fehlen im Eingabeprozess bewusst, damit H3 prüft, ob der Agent sie ergänzt.
-\offen{Hinweis: Eingaben und Referenz von Fall~1 sind in dieser Form zur fachlichen Prüfung vorgesehen (Abschnitt~\ref{sec:fachliche_pruefung})}
 \subsubsection{Eingabe}\label{sec:fall1_eingabe}
-% Sätze 4-8 und 10 abgesegnet am 18.11.2026 (Satz 9 gestrichen), Satz 4 am 19.11. auf zwei Eingaben geändert
+% Absatz Profil und Annahmen am 26.11.2026 zusammengeführt (Dopplungen entfernt)
 Der Agent erhält zwei Eingaben, ein Profil der Organisation und den Prozess.
-Das Profil beschreibt die Organisation, in der der Prozess abläuft.
-Dazu gehören Sitz und Bundesland, Rechtsform, Größe und die Gremien der Mitbestimmung.
+Das Profil nennt die Merkmale der Hochschule, von denen abhängt, welche Vorschriften gelten, nämlich Sitz und Bundesland, Rechtsform, Größe und die Gremien der Mitbestimmung.
 Die Hochschule München ist eine Körperschaft des öffentlichen Rechts in Bayern mit mehr als 1.000 Beschäftigten.
 Sie hat einen Personalrat, eine Gleichstellungsbeauftragte und eine Schwerbehindertenvertretung.
+Außerdem legt das Profil drei Umstände fest, die in der Praxis jede Organisation selbst bestimmt.
+Das KI-Tool zur Vorauswahl stammt von einem Anbieter mit Sitz in der EU, und alle Daten bleiben in der EU.
+Die Hochschule setzt das Tool ein und ist damit Betreiberin (Organisation, die ein KI-System in eigener Verantwortung nutzt) im Sinne des AI Act.
+Die Stelle ist eine Professur der Besoldungsgruppe W2 im Beamtenverhältnis.
+Diese Festlegungen machen eindeutig, welche Vorschriften gelten, denn eine Übermittlung in Staaten außerhalb der EU würde zum Beispiel weitere Pflichten auslösen.
 Tabelle~\ref{tab:fall1_profil} zeigt alle Angaben des Profils, die der Agent erhält.
+
+\begin{table}[H]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.6cm} Y}
+    \toprule
+    \textbf{Merkmal} & \textbf{Angabe} \\
+    \midrule
+    Name & Hochschule München \\
+    Sitz & Bayern, Deutschland \\
+    Rechtsform & Körperschaft des öffentlichen Rechts und staatliche Einrichtung (bayerische Hochschule) \\
+    Sektor & öffentlich \\
+    Branche & Bildung und Forschung \\
+    Beschäftigte & über 1.000 \\
+    Gremien der Mitbestimmung & Personalrat, Gleichstellungsbeauftragte, Schwerbehindertenvertretung \\
+    Stelle & Professur der Besoldungsgruppe W2 im Beamtenverhältnis \\
+    KI-Einsatz & KI-Werkzeug zur Vorauswahl von Bewerbungen (Ranking); die Hochschule ist Betreiberin im Sinne des AI Act \\
+    Dienstleister außerhalb der EU & nein; Anbieter und Daten bleiben in der EU \\
+    \bottomrule
+  \end{tabularx}
+  \caption[Organisationsprofil für Fall~1]{Organisationsprofil für Fall~1: Berufungsverfahren. Quelle: eigene Darstellung (Entwurf).}
+  \label{tab:fall1_profil}
+\end{table}
+\pruefen{Stimmen die Angaben zur Hochschule München und zur Stelle? Fehlt ein Merkmal, von dem abhängt, welche Vorschriften gelten?}
+
 % Sätze 11-17 abgesegnet am 19.11.2026 (Task-Beschreibungen wie bei Sai et al.)
 Die zweite Eingabe ist der Prozess.
 Er reicht von der Freigabe der Professur bis zur Löschung der Daten abgelehnter Bewerbender.
@@ -94,23 +122,26 @@ Die Teilprozesse sind Professur freigeben und ausschreiben, Bewerbungen annehmen
 Der Prozess, jeder Teilprozess und jeder Task haben eine Bezeichnung und eine kurze Beschreibung.
 Teilprozesse und Tasks tragen zusätzlich eine Kennung, zum Beispiel \enquote{TP3} und \enquote{T3.2}.
 Die Kennung eines Tasks setzt sich aus der Nummer des Teilprozesses und der laufenden Nummer des Tasks zusammen.
+% Abbildungen 4.x (Kennung, Zeilenarten, Prozess mit Lücken) am 26.11.2026 auf Wunsch ergänzt; Verweissätze zur Freigabe
+Abbildung~\ref{fig:kennung} zeigt den Aufbau der Kennung am Beispiel von Teilprozess TP3.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/abb_4_1_kennung.pdf}
+  \caption[Aufbau der Kennungen]{Aufbau der Kennungen am Beispiel von Teilprozess TP3 in Fall~1. Quelle: eigene Darstellung.}
+  \label{fig:kennung}
+\end{figure}
 Jede Beschreibung nennt, wer handelt, was geschieht und welches System beteiligt ist.
-Diese Form lehnt sich an Sai et al.~\cite{sai2024} an, die den Prozess, jeden Teilprozess und jeden Task ebenfalls kurz beschreiben.
+Sai et al.~\cite{sai2024} beschreiben in ihren Fallstudien den Prozess, jeden Teilprozess und jeden Task ebenfalls mit einem kurzen Text, und diese Arbeit übernimmt diese Form.
 Im Unterschied zu Sai et al.\ beschränken sich die Beschreibungen auf den Ablauf, damit der Agent die rechtlichen Anforderungen aus den Regelwerken ableiten muss.
 Ein Beispiel ist \enquote{T3.2 Ranking erzeugen: Das KI-Tool ordnet die Bewerbungen nach dem Grad der Übereinstimmung in einer Rangliste.}
 Tabelle~\ref{tab:fall1_prozess} zeigt den vollständigen Prozess.
-\offen{Eingabedateien (prozess.json, firmenprofil.json, soll\_liste.csv) per Auftrag durch den Stand aus Tabelle~\ref{tab:fall1_profil}, Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz} ersetzen; danach wieder auf die Dateien verweisen}
-% Sätze A1-A6 (Annahmen) abgesegnet am 19.11.2026; Annahmen bleiben Felder im Profil
-Das Profil enthält zusätzlich Annahmen zum Fall (Festlegungen, die in der Praxis von der einzelnen Organisation abhängen).
-Die Annahmen legen die Umstände fest, von denen die geltenden Vorschriften abhängen.
-Das KI-Tool zur Vorauswahl stammt von einem Anbieter mit Sitz in der EU, und alle Daten bleiben in der EU.
-Die Hochschule setzt das Tool ein und ist damit Betreiberin (Organisation, die ein KI-System in eigener Verantwortung nutzt) im Sinne des AI Act.
-Die Stelle ist eine Professur der Besoldungsgruppe W2 im Beamtenverhältnis.
-Diese Festlegungen machen die Referenzzuordnung eindeutig, denn eine Übermittlung in Staaten außerhalb der EU würde zum Beispiel weitere Pflichten auslösen.
+\pruefen{Ist der Ablauf so realistisch? Fehlen Schritte, die an der HM üblich sind, oder stehen Schritte in der falschen Reihenfolge? Einige rechtlich gebotene Schritte fehlen bewusst (Abschnitt~\ref{sec:fall1_erwartung}).}
+\offen{Sobald der Auftrag die Eingabedateien in h1/input auf den Stand der Tabellen gebracht hat, hier mit \textbackslash repodatei auf prozess.json, firmenprofil.json und soll\_liste.csv im Repository verweisen}
 
 \subsubsection{Erwartung}\label{sec:fall1_erwartung}
 % Sätze 1-20 abgesegnet am 19.11.2026, Zahlen und Kontrollschritt am 19.11. auf das Berufungsverfahren umgestellt (Verneinungen in Satz 12 und 18 bewusst behalten; "fehlt" statt "bewusst entfernt", weil nur ein Teil der Lücken geplant war)
-Um das Ergebnis des Agenten bewerten zu können, braucht jeder Fall eine Referenzzuordnung (Liste der Vorschriften, die eine fachkundige Person dem Prozess zuordnen würde).
+% Satz 1 am 26.11.2026 geändert (Begriff wird in Abschnitt 2.2 erklärt)
+Jeder Fall braucht eine Referenzzuordnung (Abschnitt~\ref{sec:compliance}), damit sich das Ergebnis des Agenten bewerten lässt.
 Die Referenzzuordnung legt fest, welche Vorschrift bei welchem Task gilt.
 Sie ist genauso aufgebaut wie die Ausgabe des Agenten, damit sich beide Zeile für Zeile vergleichen lassen.
 Jede Zeile nennt das Regelwerk, die Fundstelle (Artikel oder Paragraf, wenn möglich mit Absatz), die betroffenen Tasks, die Art der Zeile und den Inhalt in Stichworten.
@@ -122,18 +153,35 @@ Beispiele sind die Datenschutz-Folgenabschätzung nach Art.~35 DSGVO und die Bet
 Diese Zeilen prüfen, ob der Agent fehlende Pflichten erkennt (H3).
 Die 14 Zeilen der Art neutral nennen allgemeine Vorschriften, die im ganzen Prozess gelten, etwa die Grundsätze der Verarbeitung nach Art.~5 Abs.~1 DSGVO.
 Ihre Nennung bleibt in der Auswertung ohne Gewicht, weil sie fachlich vertretbar ist und zugleich keinen konkreten Task betrifft.
+Abbildung~\ref{fig:zeilenarten} fasst die Arten der Zeilen mit je einem Beispiel zusammen und zeigt, wie jede Art in die Auswertung eingeht.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.0\textwidth]{figures/abb_4_2_zeilenarten.pdf}
+  \caption[Arten der Zeilen in der Referenzzuordnung]{Arten der Zeilen in der Referenzzuordnung für Fall~1 mit je einem Beispiel und ihrer Wirkung in der Auswertung. Die Falle wird im Text nach dem Kontrollschritt erklärt. Quelle: eigene Darstellung, Daten aus Tabelle~\ref{tab:fall1_referenz}.}
+  \label{fig:zeilenarten}
+\end{figure}
 Der Prozess enthält außerdem einen Kontrollschritt (Task, der eine Pflicht bereits erfüllt und deshalb als vorhanden gelten muss).
 Das ist die Mitgliedschaft der Gleichstellungsbeauftragten im Berufungsausschuss in T1.3 nach Art.~66 Abs.~4 BayHIG.
 Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
 Der Kontrollschritt zeigt so, ob der Agent vorhandene Schritte von fehlenden unterscheidet.
+\pruefen{Sind die zehn fehlenden Schritte tatsächlich Pflicht in einem Berufungsverfahren an der HM, und erfüllt T1.3 die Pflicht aus Art.~66 Abs.~4 BayHIG vollständig?}
 % Falle, Sätze abgesegnet am 19.11.2026
 Eine Zeile der Art Falle nennt eine Pflicht, die in diesem Fall entfällt.
-Der Personalrat bestimmt bei der Einstellung von Professorinnen und Professoren nicht mit.
+Der Personalrat bestimmt bei der Einstellung von Professorinnen und Professoren nicht mit, weil sie nach Art.~4 Abs.~4 Buchst.~a BayPVG in Verbindung mit Art.~58 BayHIG nicht als Beschäftigte im Sinne des BayPVG gelten~\cite{baypvg,bayhig}.
 Meldet der Agent hier einen fehlenden Schritt, zählt das als Fehlmeldung.
 Die Falle zeigt, ob der Agent Ausnahmen erkennt, statt Muster aus anderen Einstellungsverfahren zu übertragen.
-\offen{Beleg für die Falle: Art.~4 Abs.~4 Buchst.~a BayPVG (gelesen über gesetze.legal, amtlich gegenlesen)}
+\pruefen{Trifft es zu, dass der Personalrat bei der Berufung einer Professorin oder eines Professors an der HM nicht beteiligt wird?}
+% Beleg für die Falle am 25.11.2026 auf gesetze-bayern.de geprüft (Art. 4 Abs. 4 Buchst. a BayPVG, Art. 58 BayHIG)
 Die Referenz enthält ausschließlich Vorschriften zu Schritten, die im Prozess vorkommen oder vorkommen müssten.
 Die Einwilligung für einen Talentpool (Sammlung von Bewerbungen für spätere Stellen) nach Art.~6 Abs.~1 lit.~a DSGVO gehört deshalb nicht dazu, weil der Prozess die Daten nach Ablauf der Frist löscht.
+Abbildung~\ref{fig:fall1_luecken} zeigt den Prozess mit den fehlenden Schritten an einer zulässigen Stelle, dem Kontrollschritt und der Falle.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{figures/abb_4_3_prozess_luecken.pdf}
+  \caption[Prozess von Fall~1 mit fehlenden Schritten]{Prozess von Fall~1 mit den fehlenden Schritten der Referenzzuordnung, dem Kontrollschritt und der Falle. Der Agent erhält nur die blauen Tasks. Quelle: eigene Darstellung, Daten aus Tabelle~\ref{tab:fall1_prozess} und Tabelle~\ref{tab:fall1_referenz}.}
+  \label{fig:fall1_luecken}
+\end{figure}
+\pruefen{Stehen die rot gestrichelten Schritte in Abbildung~\ref{fig:fall1_luecken} an der richtigen Stelle, und fehlt ein Schritt, der in einem Berufungsverfahren vorgeschrieben ist?}
 Tabelle~\ref{tab:fall1_referenz} im Anhang zeigt alle Zeilen.
 Die Referenzzuordnung ist ein Entwurf des Autors und wird vor den finalen Läufen von Fachleuten geprüft (Abschnitt~\ref{sec:fachliche_pruefung}).
 
@@ -170,10 +218,11 @@ Ausländisches Recht entfällt durch die Annahme, dass alle Daten in der EU blei
 
 \subsection{Fall 2: Brandmeldeanlage in einer Veranstaltungshalle}\label{sec:fall2}
 % Sätze abgesegnet am 22.11.2026
-\offen{Entscheidungen 22.11.2026: KI-Schritt (KI-System erkennt Täuschungsalarme); Organisation ist eine fiktive private Veranstaltungshalle, weil Hochschulbauten in Bayern das Staatliche Bauamt errichtet. Fall~2 im Entwurf, fachliche Prüfung ausstehend}
+\offen{Entscheidungen 22.11.2026: KI-Schritt am 26.11. geändert: KI-Werkzeug plant die Anlage aus Raumdaten (vorher Erkennung von Täuschungsalarmen); Organisation ist eine fiktive private Veranstaltungshalle, weil Hochschulbauten in Bayern das Staatliche Bauamt errichtet. Fall~2 im Entwurf, fachliche Prüfung ausstehend}
 Der zweite Anwendungsfall ist die Planung, der Einbau und der Betrieb einer Brandmeldeanlage in einer Veranstaltungshalle.
 Eine Brandmeldeanlage ist eine technische Anlage in einem Gebäude, die Brände über Melder früh erkennen und die Feuerwehr alarmieren soll.
-Für den Fall wird angenommen, dass ein KI-System jede Meldung bewertet und Täuschungsalarme erkennt, die etwa durch Staub oder Dampf entstehen.
+% Satz 3 am 26.11.2026 geändert (KI plant die Anlage)
+Für den Fall wird angenommen, dass ein KI-Werkzeug aus den eingegebenen Raumdaten die gesamte Planung der Anlage erstellt, also Meldertypen, Melderpositionen, Meldebereiche und Alarmwege.
 Der Fall ergänzt Fall~1 in drei Punkten.
 Er spielt in einem privaten Unternehmen statt in einer öffentlichen Einrichtung.
 Er stützt sich vor allem auf Bauordnungsrecht und technische Normen statt auf Personal- und Datenschutzrecht.
@@ -185,21 +234,22 @@ Die Organisation ist ein erfundenes Unternehmen, die Eventhalle Süd GmbH in Mü
 Das Unternehmen hat 80 Beschäftigte und einen Betriebsrat.
 Tabelle~\ref{tab:fall2_profil} zeigt alle Angaben des Profils.
 Der Prozess reicht von der Auswertung des Brandschutzkonzepts bis zur wiederkehrenden Prüfung der Anlage.
-Er ist in sechs Teilprozesse und 20 Tasks gegliedert, nämlich Planen, Beauftragen, Errichten, Abnehmen, Betreiben und Instandhalten.
+Er ist in sechs Teilprozesse und 18 Tasks gegliedert, nämlich Planen, Beauftragen, Errichten, Abnehmen, Betreiben und Instandhalten.
 Wie in Fall~1 beschreibt ein Satz jeden Task, ohne Hinweis auf Vorschriften.
 Die Abstände von Inspektion und Prüfung fehlen bewusst in den Beschreibungen, weil sie sich aus den Vorschriften ergeben.
 Tabelle~\ref{tab:fall2_prozess} zeigt den vollständigen Prozess.
 Vier Annahmen grenzen den Fall ein.
-Nach Annahme A3 verarbeitet das KI-System ausschließlich Daten der Melder, damit der Datenschutz in diesem Fall eine Nebenrolle spielt.
+Nach Annahme A3 verarbeitet das KI-Werkzeug ausschließlich Raum- und Gebäudedaten, damit der Datenschutz in diesem Fall eine Nebenrolle spielt.
 
 \subsubsection{Erwartung}\label{sec:fall2_erwartung}
-Die Referenzzuordnung umfasst 21 Zeilen aus elf Regelwerken und Normen.
+Die Referenzzuordnung umfasst 22 Zeilen aus elf Regelwerken und Normen.
 Zwölf Zeilen ordnen eine Vorschrift einem Task zu, davon vier aus Normen und Anschlussbedingungen der Feuerwehr, die der Agent nicht laden kann.
-Fünf Zeilen beschreiben fehlende Schritte, nämlich Brandschutzordnung, Feuerwehrpläne, Unterweisung und KI-Kompetenz.
+Sechs Zeilen beschreiben fehlende Schritte, nämlich Brandschutzordnung, Feuerwehrpläne, Unterweisung, KI-Kompetenz und die Prüfung der Planung durch eine nach DIN~14675 zertifizierte Fachfirma.
+Der letzte Schritt fehlt, weil das KI-Werkzeug die Planung im Prozess allein erstellt, die Norm aber verlangt, dass eine zertifizierte Fachfirma sie verantwortet.
 Die Prüfung durch Prüfsachverständige vor der ersten Inbetriebnahme ist im Prozess vorhanden (T4.1) und dient als Kontrollschritt.
 Meldet der Agent sie als fehlend, gilt das als Fehlmeldung.
-Die Falle betrifft die Einstufung des KI-Systems nach dem AI Act.
-Das System bewertet Brandmeldungen in einer Veranstaltungshalle und liegt damit außerhalb der Bereiche kritischer Infrastruktur, die Erwägungsgrund~55 nennt.
+Die Falle betrifft die Einstufung des KI-Werkzeugs nach dem AI Act.
+Das Werkzeug plant eine Brandmeldeanlage für eine Veranstaltungshalle und liegt damit außerhalb der Bereiche kritischer Infrastruktur, die Erwägungsgrund~55 nennt.
 Meldet der Agent Pflichten für Hochrisiko-Systeme als fehlend, etwa eine Grundrechte-Folgenabschätzung, gilt das als Fehler.
 Tabelle~\ref{tab:fall2_referenz} zeigt die vollständige Referenz.
 

@@ -65,7 +65,7 @@ Diese Arbeit fragt zusätzlich, welche rechtlich gebotenen Schritte im Prozess f
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/abb_3_1_embedding_karte.pdf}
-  \caption[Prinzip des Embedding-Verfahrens]{Prinzip des Embedding-Verfahrens am Beispiel dieser Arbeit. Je näher ein Rechtsabsatz am Prozessschritt liegt, desto ähnlicher ist sein Inhalt; ausgewählt werden die ähnlichsten Absätze. Schematische, eigene Darstellung; Positionen und Abstände sind nicht berechnet.}
+  \caption[Prinzip des Embedding-Verfahrens]{Prinzip des Embedding-Verfahrens von Sai et al.~\cite{sai2024} am Beispiel von Task T3.2 aus Fall~1. Je näher ein Rechtsabsatz am Task liegt, desto ähnlicher ist sein Inhalt; ausgewählt werden die ähnlichsten Absätze. Die Abbildung veranschaulicht das Vergleichsverfahren, der Agent dieser Arbeit recherchiert stattdessen selbst. Schematische, eigene Darstellung; Positionen und Abstände sind nicht berechnet.}
   \label{fig:embedding_karte}
 \end{figure}
 
@@ -77,13 +77,15 @@ Der Agent dieser Arbeit recherchiert die geltenden Vorschriften selbst, deshalb 
 Magesh et al.~\cite{magesh2025} prüfen dazu kommerzielle Recherche-Werkzeuge für Juristen, die selbst in ihren Rechtsdatenbanken suchen.
 Obwohl die Werkzeuge auf echte Quellen zugreifen, erfinden sie in 17 bis 33\,\% der Antworten Inhalte oder Fundstellen.
 Diese Arbeit beschränkt den Agenten deshalb auf amtliche Quellen und prüft jeden Fund darauf, ob die genannte Vorschrift existiert (Abschnitt~\ref{sec:auswertung_h1_h3}).
-Yuan und Wang~\cite{yuan2025} lassen mit L-MARS mehrere Agenten selbst nach Rechtsquellen suchen und jede Fundstelle gegen ihre Quelle prüfen.
+% L-MARS-Erklärung abgesegnet am 26.11.2026
+Yuan und Wang~\cite{yuan2025} stellen mit L-MARS (Legal Multi-Agent System) ein System vor, in dem mehrere Agenten mit getrennten Aufgaben eine Rechtsfrage beantworten.
+Ein Agent zerlegt die Frage in Teilfragen, ein zweiter sucht dazu im Web und in Rechtsdatenbanken, und ein dritter prüft vor der Antwort, ob jede genannte Fundstelle die Aussage tatsächlich stützt.
 Technisch kommt L-MARS dem Agenten dieser Arbeit am nächsten, beantwortet aber einzelne Rechtsfragen ohne Bezug zu einem Prozess.
 Hassani et al.~\cite{hassani2024} und Berger et al.~\cite{berger2025} nutzen Sprachmodelle, um die Einhaltung von Vorschriften zu prüfen, etwa bei Verträgen zur Auftragsverarbeitung nach der DSGVO oder bei Geschäftsberichten nach den Regeln der Rechnungslegung.
 In beiden Arbeiten erhält das Modell die maßgeblichen Rechtstexte vorab.
 Die bisherigen Arbeiten geben also entweder die Rechtstexte vor oder beantworten einzelne Rechtsfragen.
 Diese Arbeit verbindet beides, indem ein Agent selbst recherchiert, welche Vorschriften für die einzelnen Schritte eines Prozesses gelten.
-\offen{Vor Abgabe prüfen, ob es zu den Preprints (L-MARS, Hassani et al., C-Trace, Sai et al.) begutachtete Fassungen gibt; Fundstelle von Berger et al. (IEEE BigData) bestätigen}
+% Begutachtete Fassungen am 26.11.2026 geprüft: L-MARS (ICML 2026), Hassani et al. (RE 2024), Berger et al. (IEEE BigData 2023), Sai et al. (RCIS 2024, Zahlen aus dem Preprint); C-Trace nur als Preprint
 
 \subsection{Runtime Verification von Agenten}\label{sec:ctrace}
 % Sätze abgesegnet am 22.11.2026
